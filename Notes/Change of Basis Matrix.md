@@ -1,4 +1,8 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
 Links: [[Matrix Representation of Linear Transformations]]
 _**Theorem:**_ Let $\beta$ and $\beta'$ be two ordered basis for a finite dimensional vector space $V$, let ${Q = [I_V]_{\beta'}^{\beta}}$. Then
 

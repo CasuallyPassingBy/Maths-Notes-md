@@ -2,6 +2,7 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
 Links: [[Random Variables]], [[Probability Functions for Random Variables]], [[Expected Value of Random Variables]], [[Falling and Rising Factorials and Pochhamer Symbols]]
 ## Moments
 

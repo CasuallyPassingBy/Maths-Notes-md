@@ -2,7 +2,7 @@
 tags:
   - LinearAlgebra
 ---
-
+Subjects: [[Linear Algebra]]
 Links: [[Normal and Hermitian Operators]], [[Inner Products and Norms]], [[Singular Value Decomposition#Positive Definite Matrix|Positive Definite Matrix]], [[Orthogonal Projections and Spectral Theorem]]
 
 **Def:** Let $V$ be an inner product space, and let $v_1, \dots, v_n \in V$. We can define the **************Gram Matrix********* or the *Gramian matrix* as the $G \in \cal M_n(\Bbb F)$, $G_{ij} = \langle v_i, v_j\rangle$.

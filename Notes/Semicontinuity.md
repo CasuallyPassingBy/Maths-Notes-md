@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Topology on Metric Spaces]], [[limsup and liminf]], [[Continuity on Metric Spaces]], [[Rectifiable Curves in Rn]]
 
 A function $f:X \to \Bbb R\cup\{ \infty\}$ is ********************_lower semicontinuous at the point $x_0 \in X$_ if given that ${c< f(x_0)}$, there’s a $\delta>0$ such that

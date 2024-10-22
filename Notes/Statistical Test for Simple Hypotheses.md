@@ -2,6 +2,7 @@
 tags:
   - Statistics
 ---
+Subjects: [[Statistics]]
 Links: [[Statistical Hypothesis Test]], [[Maximum Likelihood estimators]]
 
 We have that two distributions completely specified which will be denoted as $f_0 =f(x; \theta_0)$ and $f_1 = f(x; \theta_1)$, corresponding to the null and alternative hypothesis respectively.

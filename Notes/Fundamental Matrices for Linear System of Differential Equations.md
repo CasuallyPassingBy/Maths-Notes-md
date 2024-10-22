@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[Linear System of Ordinary Differential Equations]], [[Jordan Normal Form#Matrix Exponential|Matrix Exponential]]
 
 Let $x^{(1)}, \dots, x^{(n)}$ form a fundamental set of solutions for the equation $$x' = P(t)x$$

@@ -2,7 +2,8 @@
 tags:
   - NumericalAnalysis
 ---
-Links: [[Lagrange Polynomials]]
+Subjects: [[Numerical Analysis]]
+Links: [[Interpolation and Polynomial Approximation]], [[Lagrange Polynomials]]
 
 Let $f$ be a function defined at $x_0, \dots, x_n$ and suppose that $m_1, \dots m_k$ are $k$ distinct integers, with $0 \le m_i \le n$ for each $i$. The Lagrange polynomial that agrees with $f$ at the $k$ points $x_{m_1}, \dots, x_{m_k}$ is denoted as $P_{m_1, \dots, m_k}(x)$ 
 

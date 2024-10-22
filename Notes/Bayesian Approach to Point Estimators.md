@@ -2,6 +2,9 @@
 tags:
   - Statistics
 ---
+Subjects: [[Statistics]]
+Links: [[Point Estimation]]
+
 The usual approach, called frequentest, we have no information about the parameter, but in the Bayesian approach, we actually pre suppose some information about the parameter, and we *update* our information. This updating of information is called *Bayesian Inference*, makes such that the estimator behaves like a random variable. 
 
 First we need:

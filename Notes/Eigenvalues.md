@@ -1,4 +1,8 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
 Links: [[Space of Linear Transformations]], [[Vector Subspaces]]
 Def:************ Let $T \in \mathcal{L}(V)$. A subspace $U$ is called _**********invariant**********_ under $T$ if $u\in U$ implies $Tu \in U$.
 Def:************ Let $T\in \mathcal{L}(V)$. A number $\lambda\in \mathbb F$ is called an _****eigenvalue****_ of $T$ is there exists $v \in V$ such that $v\ne 0$ and ${Tv = \lambda v}$.

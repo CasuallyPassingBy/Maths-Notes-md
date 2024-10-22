@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[First Order Linear Differential Equations]], [[First Order Differential Equations]]
 ********Def:******** Some differential equations of the form:
 

@@ -2,6 +2,8 @@
 tags:
   - SpecialFunctions
 ---
+Subjects: [[Special Functions]]
+
 The integral with $\Re(z_1) , \Re(z_2) >0$
 
 $$ \text{B}(z_1, z_2) = \int_0^1 t^{z_1-1}(1-t)^{z_2-1}\, dt $$

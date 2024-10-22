@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Rectifiable Curves in Rn]], [[Continuity on Metric Spaces]]
 
 A path in $X$ is a continuous function $\sigma :[a,b] \to X$. The length of $\sigma$ is defined as

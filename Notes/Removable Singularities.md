@@ -2,7 +2,10 @@
 tags:
   - ComplexAnalysis
 ---
-**********Def:********** Let $\Omega\subseteq \Bbb C$ be a region, $z_0 \in \Omega$ and $f:\Omega\setminus\{z_0\} \to \Bbb C$ analytic. We say that $z_0$ is a ************removable singularity************ of $f$ if there’s $\tilde f:\Omega\to\Bbb C$ analytic such that $\tilde f(z) = f(z)$ for $z \in \Omega\setminus \{z_0\}$
+Subjects: [[Complex Analysis]]
+Links: [[Isolated Singularities]]
+
+**Def:** Let $\Omega\subseteq \Bbb C$ be a region, $z_0 \in \Omega$ and $f:\Omega\setminus\{z_0\} \to \Bbb C$ analytic. We say that $z_0$ is a **removable singularity** of $f$ if there’s $\tilde f:\Omega\to\Bbb C$ analytic such that $\tilde f(z) = f(z)$ for $z \in \Omega\setminus \{z_0\}$
 
 **********Prop:********** Let $\Omega\subseteq \Bbb C$ be a region, $z_0 \in \Omega$ and $f:\Omega\setminus\{z_0\} \to \Bbb C$ analytic. The point $z_0$ is removable singularity of $f$ iff
 

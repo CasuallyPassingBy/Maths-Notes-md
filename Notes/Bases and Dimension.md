@@ -1,4 +1,9 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
+
 Links: [[Linear Independence]], [[Linear Combinations]]
 ## Definition Basis
 A basis $\beta$ for a vector space $V$ is a linearly independent subset of $V$ that generates V. If $\beta$ is a basis for V, we also say that the vectors of $\beta$ form a basis for V.

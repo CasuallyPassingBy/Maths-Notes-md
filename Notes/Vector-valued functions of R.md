@@ -1,4 +1,10 @@
-Tags: #VectorAnalysis 
+---
+tags:
+  - VectorAnalysis
+  - DifferentialGeometry
+---
+Subjects: [[Vector Analysis]], [[Differential Geometry]]
+
 Let $f:D\subseteq \Bbb R\to \Bbb R^n$, we can define coordinates of $f_i :D\subseteq \Bbb R\to \Bbb R^n$ such that:
 
 $$ \begin{align*} f(t) &= \begin{pmatrix} f_{1}(t) \\ f_{2}(t) \\ \vdots \\ f_{n}(t) \end{pmatrix} \end{align*} $$

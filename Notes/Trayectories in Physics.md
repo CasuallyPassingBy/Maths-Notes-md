@@ -2,6 +2,8 @@
 tags:
   - ClassicalMechanics
 ---
+Subjects: [[Classical Mechanics]]
+
 If $\bf r$ represents a trajectory through space, we have that, we can derive it differently since the basis vectors are non-constant in different cooridante systems
 
 We add notation where $\hat{\bf{ r}}$ represents the normalized version of $\bf r$ and represents the direction, and $\hat{\pmb{\phi}}$ or $\hat{\boldsymbol{\phi}}$ represents the unit vector in the $\phi$ direction

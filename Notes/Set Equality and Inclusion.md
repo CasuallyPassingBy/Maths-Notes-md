@@ -1,4 +1,9 @@
-tags: #SetTheory 
+---
+tags:
+  - SetTheory
+---
+Subjects: [[Set Theory]]
+Links: [[ZF Axioms]]
 
 ## Inclusion
 $$ A\subseteq B \iff \forall x[x\in A \implies x\in B] $$

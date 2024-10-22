@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[Solutions to Homogeneous Second Order Linear Differential Equations]], [[Second Order Linear Differential Equations]]
 
 ********Th:******** Let $Y_1$ and $Y_2$ are two solutions of the nonhomogenous equation $L[y] = g$, then their difference $Y_1 - Y_2$ is a solution of the corresponding homogeneous equation $L[y] = 0$. If, in addition, $y_1$ and $y_2$ are a fundamental set of solutions of $L[y] =0$, then there are $c_1$ and $c_2$ so that

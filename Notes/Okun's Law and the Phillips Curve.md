@@ -2,6 +2,7 @@
 tags:
   - Macroeconomics
 ---
+Subjects: [[Macroeconomics]]
 Links: [[Intro to the Macroeconmics]]
 
 # Okun's Law

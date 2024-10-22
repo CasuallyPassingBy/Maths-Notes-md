@@ -1,4 +1,9 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
+
 Links: [[Vector Spaces]]
 
 A subspace $U$ of $V$ is a vector space that $U \subseteq V$, using the same definition of addition and scalar multiplication. Denoted as $U \leq V$ (in class).

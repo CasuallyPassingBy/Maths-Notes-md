@@ -2,7 +2,8 @@
 tags:
   - NumericalAnalysis
 ---
-Links: [[Neville's Method]], [[Newton's Divided Difference]], [[Hermite Interpolation]]
+Subjects: [[Numerical Analysis]]
+Links: [[Interpolation and Polynomial Approximation]], [[Neville's Method]], [[Newton's Divided Difference]], [[Hermite Interpolation]]
 
 A lot of problems with Hermite interpolation, Newton's divided difference, or Lagrange interpolation is that they are not very stable with a small change in the points, can make really big change in the function. 
 ## Piecewise-Polynomial Approximation

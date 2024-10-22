@@ -1,4 +1,8 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
 Links: [[Eigenvalues]], [[Characteristic and Minimal Polynomial of a Linear Transformation]]
 Let $T \in \mathcal L(V)$, and $x$ be a nonzero vector in $V$. The subspace
 

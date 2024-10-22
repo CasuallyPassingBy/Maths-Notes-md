@@ -1,4 +1,8 @@
-Tags: #VectorAnalysis 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Real-valued Functions of Rn]], [[Limits and Continuity of real valued functions of Rm]], [[Differentiability of Vector valued functions of Rn]]
 # Linear Approximation and Differentiability
 ### Directional Derivatives

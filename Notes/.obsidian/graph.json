@@ -4,7 +4,7 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": true,
   "colorGroups": [
     {
@@ -125,6 +125,13 @@
         "a": 1,
         "rgb": 855436
       }
+    },
+    {
+      "query": "tag:#GroupTheory  ",
+      "color": {
+        "a": 1,
+        "rgb": 2059523
+      }
     }
   ],
   "collapse-display": true,
@@ -133,10 +140,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1.01875,
   "collapse-forces": true,
-  "centerStrength": 0.302083333333333,
-  "repelStrength": 13.8541666666667,
+  "centerStrength": 0.40625,
+  "repelStrength": 14.1666666666667,
   "linkStrength": 1,
-  "linkDistance": 199,
-  "scale": 0.04351258192210687,
+  "linkDistance": 30,
+  "scale": 0.09227164036728892,
   "close": false
 }

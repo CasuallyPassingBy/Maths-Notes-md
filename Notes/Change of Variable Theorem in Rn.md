@@ -1,4 +1,8 @@
-Tags: #VectorAnalysis 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Tags: [[Lipschitz Uniformity with Jordan Measure]], [[Inverse Function Theorem in Rn]], [[Riemann Integral in Rn]]
 [[Cubes in Rn]]
 # Linear Case

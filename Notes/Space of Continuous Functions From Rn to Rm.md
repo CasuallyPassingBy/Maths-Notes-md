@@ -1,4 +1,10 @@
-Tags: #FunctionalAnalysis #Analysis 
+---
+tags:
+  - Analysis
+  - VectorAnalysis
+---
+
+Subjects: [[Metric and Normed Spaces]], [[Vector Analysis]] 
 Links: [[Sequence of Functions in Rn]]
 Let’s consider a subset of $A\subseteq \Bbb{R}^m$, then the space of continuous functions from $A$ into $\Bbb{R}^n$ is denoted as $\mathcal C(A, \Bbb{R}^n)$. $\mathcal C(A, \Bbb{R}^n)$ is a vector space. A subspace of interest in $\mathcal C(A, \Bbb{R}^n)$ is the space of continuous and bounded functions, denoted as $\mathcal C_b(A, \Bbb{R}^n)$.
 

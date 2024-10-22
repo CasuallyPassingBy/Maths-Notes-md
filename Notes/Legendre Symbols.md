@@ -3,7 +3,7 @@ tags:
   - NumberTheory
   - AnalyticNumberTheory
 ---
-
+Subjects: [[Elementary Number Theory]]
 Links: [[Quadratic Congruences]], [[Prime Numbers]]
 ## The Legendre Symbols
 

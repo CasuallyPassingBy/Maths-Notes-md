@@ -2,6 +2,7 @@
 tags:
   - SetTheory
 ---
+Subjects: [[Set Theory]]
 Links: [[Well-Orderings]], [[Natural Numbers]]
 **Def:** A set $T$ is _**transitive**_ if every element of $T$ is a subset of $T$. In other words, a transitive set has the property that $u \in v \in T$ implies $u \in T$
 

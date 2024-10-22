@@ -2,6 +2,7 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
 Links: [[Random Variables]]
 
 A random vector is a function $X: \Omega \to \Bbb R^n$ such that  for any set $B \in {\scr B}(\Bbb R^n)$, it follows that $X^{-1}[B] \in {\scr F}$

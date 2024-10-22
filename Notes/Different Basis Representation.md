@@ -2,6 +2,7 @@
 tags:
   - NumberTheory
 ---
+Subjects: [[Elementary Number Theory]]
 Links: [[Euclidean Algorithm#Division Algorithm|Division Algorithm]], [[Greatest Common Divisor]]
 
 **Alg:** Let $N$ be a positive integer and $b > 1$. We apply the division algorithm yields the integers $q_1$ and $a_0$ satisfying

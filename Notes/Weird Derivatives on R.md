@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[The Derivative on R]]
 ## Weird Derivatives
 

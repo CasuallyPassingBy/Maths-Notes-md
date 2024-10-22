@@ -1,5 +1,10 @@
-Tags: #VectorAnalysis 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Real-valued Functions of Rn]], [[Topological Characterization of Continuity in Rn]]
+
 **********Def:********** The function $f:S\subseteq\Bbb R^n\to \Bbb R$ is said to be continuous at ${x \in S}$ if ${f({a}_k}) \to f(x)$ whenever $\mathbf{a}_k$, where the sequence $({a}_k) \subseteq S$. The function is continuous (on its domain $S$) if it is continuous at every point of $S$.
 
 ********Th:******** If $f, g:S\subseteq \Bbb R^n\to \Bbb R$ and if they are continuous at $x\in S$, then so is ${f+g}$, $fg$ and (provided that $g(x) \ne 0$) so is $f/g$.

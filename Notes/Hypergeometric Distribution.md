@@ -2,6 +2,9 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
+Links: [[Discrete Distributions]]
+
 We use the hyper geometric distribution when we want to take out $x$ white balls while grabbing $n$ balls at at time, out of a bag with $N$ white and black balls, with $K$ white. Then we say that $X$ is a random variable with distribution being hypergeometric with parameters $N$, $K$, and $n$. We write $X \sim \operatorname{hypergeo}(N, K, n)$, with a pmf being
 
 $$

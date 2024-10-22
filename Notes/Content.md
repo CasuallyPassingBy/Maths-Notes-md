@@ -2,6 +2,7 @@
 tags:
   - MeasureTheory
 ---
+Subjects: [[Measure Theory]]
 Links: [[Measure]], [[Ring of sets]]
 
 A content $\mu$ is a is a real-valued function defined on a collection $\mathcal A$ such that:

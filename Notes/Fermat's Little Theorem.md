@@ -2,6 +2,7 @@
 tags:
   - NumberTheory
 ---
+Subjects: [[Elementary Number Theory]]
 Links: [[Integers modulo n]], [[Prime Numbers]]
 
 **********Lemma:********** Let $p$ be a prime an $0 \le k <p$, then

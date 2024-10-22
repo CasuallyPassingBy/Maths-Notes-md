@@ -3,6 +3,7 @@ tags:
   - AnalyticNumberTheory
   - NumberTheory
 ---
+Subjects: [[Elementary Number Theory]]
 Links: [[Dirichlet Product]], [[Prime Numbers]]
 
 **********Def:********** A **************************number-theoretic function************************** $f$ is said to _**************multiplicative**************_ if

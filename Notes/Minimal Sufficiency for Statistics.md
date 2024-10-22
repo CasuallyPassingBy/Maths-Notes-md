@@ -2,6 +2,7 @@
 tags:
   - Statistics
 ---
+Subjects: [[Statistics]]
 Links: [[Sufficient Statistics]]
 
 While sufficiency is important to not lose information about the parameter. We would like the one that condenses the most the information.  The statistic is *minimal sufficient* if we reduce even more the information then any other statistic that is not sufficient. This also relate is also associated with the notion of equivalence classes or partitions of the sample space induced by a statistic. 

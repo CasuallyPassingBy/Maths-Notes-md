@@ -2,6 +2,7 @@
 tags:
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]]
 
 **Def**: Let $U, V\subseteq \Bbb C$ be regions. We say that $U$ and $V$ are **biholomorphic** or **biholomorphically equivalent**, if there's a bijective analytic function $f:U \to V$. We write it as $U \approx V$. If we know the biholomorphism $f$, then we can write it as $U \approx_f V$
 

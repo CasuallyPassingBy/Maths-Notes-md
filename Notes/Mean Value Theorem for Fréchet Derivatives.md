@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Fréchet-Derivative]], [[Differentiabilty of vector valued functions of R]], [[Mean Value Theorem in R]], [[Rectifiable Curves]]
 
 A linear function $T:\Bbb R \to V$ is totally determined with its value at $1$, since $T(t) = tT(1)$, for $t\in \Bbb R$.

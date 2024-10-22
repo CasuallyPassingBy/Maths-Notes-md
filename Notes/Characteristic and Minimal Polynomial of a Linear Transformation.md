@@ -2,6 +2,7 @@
 tags:
   - LinearAlgebra
 ---
+Subjects: [[Linear Algebra]]
 Links: [[Eigenvalues]], [[Eigenspaces and Diagonal Matrices]], [[Polynomial Ring]]
 ## Cayley-Hamilton Theorem
 Supose $T \in \mathcal L(V)$, then we define the _characteristic polynomial_ of $T$, as

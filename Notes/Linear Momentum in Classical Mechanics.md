@@ -2,6 +2,7 @@
 tags:
   - ClassicalMechanics
 ---
+Subjects: [[Classical Mechanics]]
 Links: [[Newton's Laws]]
 
 Using the second law we get that, and considering external forces for those objects

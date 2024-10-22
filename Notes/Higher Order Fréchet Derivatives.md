@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Higher Order Derivatives and Taylor's Theorem for Real valued functions of Rn]], [[Fréchet-Derivative]], [[Bounded Multilinear Transformations]], [[Partial Derivatives]], [[Multi-index notation]]
 
 Let $V$ and $W$ be Banach Spaces and $\Omega$ be an open set of $V$. If $\varphi:\Omega\to W$ is differentiable, and its derivative takes values in the space $\mathcal B(V, W)$. The natural question is if $\varphi':\Omega\to \mathcal B(V, W)$ is differentiable on $\Omega$. If it is, we say that $\varphi$ is twice differentiable on $\Omega$. The derivative of $\varphi'$ is called the second derivative of $\varphi$, and is denoted as $$D^2 \varphi:\Omega \to \mathcal B(V, \mathcal B(V, W))$$or simply $\varphi''$. 

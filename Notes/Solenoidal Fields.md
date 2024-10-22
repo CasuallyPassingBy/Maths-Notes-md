@@ -1,4 +1,8 @@
-Tags: #VectorAnalysis
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Vector Surface Integral]], [[Conservative Fields]], [[Gauss's Theorem and Divergence in R3]], [[Connected Sets in Rn]]
 **********Def:********** Let $G:U\subseteq \Bbb R^3\to \Bbb R^3$ is continuous on $U$, an open and connected set. We say that $G$ is ************************solenoidal vector field************************ if there’s $F:U\to\Bbb R^3$ be $\cal C^1$ on $U$ such that
 

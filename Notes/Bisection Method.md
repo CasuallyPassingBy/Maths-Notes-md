@@ -2,6 +2,9 @@
 tags:
   - NumericalAnalysis
 ---
+Subjects: [[Numerical Analysis]]
+Links: [[Solutions of Equations of One Variable]]
+
 The first technique, based on the [[Intermediate Value Theorem in R|IVT]], is called _********Bisection********_ or _**Binary Search method**_
 
 Suppose $f$ is a continuous function defined on the interval $[a, b]$, with $f(a)$ and $f(b)$ of opposite sign. The Intermediate Value Theorem implies that a number $p$ exists in $(a, b)$ with $f(p) = 0$ Although the procedure will work when there is more than one root in the interval $(a, b)$, we assume for simplicity that the root in this interval is unique. The method calls for a repeated halving (or bisecting) of subintervals of $[a, b]$ and, at each step, locating the half containing p.

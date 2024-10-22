@@ -2,6 +2,7 @@
 tags:
   - SpecialPolynomials
 ---
+Subjects: [[Special Polynomials]]
 Links: [[Bernoulli numbers]]
 
 We define the *Bernoulli polynomials* $B_n(x)$ by the formula $$\frac{ze^{xz}}{e^z-1}= \sum_{n = 0}^\infty \frac{B_n(x)}{n!}z^n$$

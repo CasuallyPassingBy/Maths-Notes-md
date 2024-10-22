@@ -2,7 +2,8 @@
 tags:
   - ProbabilityTheory
 ---
-Links: [[Chi-squared Distribution]], [[Hypergeometric Function]], [[Normal Distribution]]
+Subjects: [[Probability Theory]]
+Links: [[Continuous Distributions]], [[Chi-squared Distribution]], [[Hypergeometric Function]], [[Normal Distribution]]
 
 A random variable $X$ has a $t$ distribution with parameter $n>0$, written as $X\sim t(n)$, if the pdf is
 

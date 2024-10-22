@@ -2,6 +2,8 @@
 tags:
   - Subject
 ---
+[[Central Hub]]
+
 - [[Trigonometric Identities]]
 - [[Hyperbolic Trigonometric Identities]]
 - [[Useful Inequalities]]

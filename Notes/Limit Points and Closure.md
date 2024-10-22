@@ -2,6 +2,7 @@
 tags:
   - Topology
 ---
+Subject: [[Topology]]
 Links: [[Bases, Subbases, and Local Basis for Topological Spaces]], [[Topological Subspaces]]
 
 When we have a topological space $(X, \tau)$ and $E \subseteq X$, we can define the points that sticked to $E$, as
@@ -16,7 +17,6 @@ For subsets $A, B$ of the topological space $(X, \tau)$, then the following are 
 - $\text{Lim}(A \cup B) = \text{Lim}(A) \cup \text{Lim}(B)$
 
 A subset $E$ of a topological space $(X, \tau)$ is closed iff $\text{Lim}(E)\subseteq E$
-
 
 ### Closure of a Set
 

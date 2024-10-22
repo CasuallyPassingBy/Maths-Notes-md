@@ -1,4 +1,9 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
+
 Links: [[Bases and Dimension]], [[Linear Independence]]
 ## Hausdorff Maximal Principle
 Let $\mathcal{F}$ be a family of sets. If, for each chain $C \subseteq \mathcal{F}$ , there exists a member of $\mathcal{F}$ that contains all the members of $C$, then $\mathcal{F}$ contains a maximal member. This is equivalent to the [[Axiom of Choice]].

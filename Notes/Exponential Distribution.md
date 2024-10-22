@@ -2,6 +2,9 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
+Links: [[Continuous Distributions]]
+
 This might be related to the [[Geometric Distribution]], as the continuous analogue
 
 We say that $X$ is a random variable with exponential distribution with parameter $\lambda>0$, and we write $X \sim \exp(\lambda)$, when the pdf is

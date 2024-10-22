@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Metric Spaces]], [[Compactness in Metric Spaces]]
 
 Let $X$ be a metric space. Given a subset $A\subseteq X$, consider the distance function to $A$, $\text{dist}_A:X\to [0, \infty)$ defined as $$\text{dist}(x, A) =\text{dist}_A(x) :=\inf_{a \in A} d(x, a)$$

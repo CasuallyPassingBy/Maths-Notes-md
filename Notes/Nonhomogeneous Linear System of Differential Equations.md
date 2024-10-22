@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[Linear System of Ordinary Differential Equations]], [[Fundamental Matrices for Linear System of Differential Equations]], [[Homogeneous Linear System of Differential Equations with Constant Coefficients]], [[Variation of Parameters for nth Order Linear Differential Equations]]
 
 We are going to approach a little bit the the nonhomogeneous systems $$x' =P(t) x + g(t)$$

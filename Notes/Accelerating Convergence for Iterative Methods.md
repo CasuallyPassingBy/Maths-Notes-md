@@ -2,7 +2,8 @@
 tags:
   - NumericalAnalysis
 ---
-Links: [[Fixed Point Iteration]], [[Newton's Method]], [[Horner and Müller Methods]], [[Secant Method]], [[Method of False Position]]
+Subjects: [[Numerical Analysis]]
+Links: [[Solutions of Equations of One Variable]], [[Fixed Point Iteration]], [[Newton's Method]], [[Horner and Müller Methods]], [[Secant Method]], [[Method of False Position]]
 
 ## Aitken’s $\Delta^2$ Method
 

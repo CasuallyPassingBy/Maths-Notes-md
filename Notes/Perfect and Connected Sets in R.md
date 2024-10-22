@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Open and Closed Sets in R]]
 
 ## Perfect Sets

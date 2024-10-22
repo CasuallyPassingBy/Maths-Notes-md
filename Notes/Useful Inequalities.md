@@ -1,3 +1,4 @@
+Links: [[Useful Identities]]
 ### Weiestrass
 
 let $(a_i)_{i\in I}$ be finite collection of real numbers in $[0,1]$ then:

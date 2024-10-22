@@ -2,6 +2,7 @@
 tags:
   - Statistics
 ---
+Subjects: [[Statistics]]
 Links: [[Statistics and Sample Distribution]], [[Sufficient Statistics]], [[Minimal Sufficiency for Statistics]]
 
 **Def:** Let $X_1, \dots, X_n$ be a random sample of $f(x;\theta)$, $\theta \in \Theta$. We say that a statistic $T(\underline X)$ is complete iff, for any function $g$ of $T$, we have that if $E(g(T)) = 0$, $\forall \theta \in \Theta$, then $$P(g(T) = 0) = 1, \; \forall \theta \in \Theta$$We also say that the *family of densities of $T$ is complete*

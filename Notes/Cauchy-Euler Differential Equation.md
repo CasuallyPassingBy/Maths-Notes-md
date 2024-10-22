@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[Second Order Euler Equation]], [[nth Order Linear Differential Equations]]
 
 The Cauchy-Euler equation is of a linear $n$th order differential equation of the form

@@ -1,4 +1,9 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
+
 Links: [[Matrix Representation of Linear Transformations]], [[The Rank of a Matrix and Matrix Inverses]], [[The Rank of a Matrix and Matrix Inverses]]
 # Theoretical Aspects
 

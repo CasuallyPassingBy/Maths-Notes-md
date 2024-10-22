@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Link: [[Second Order Linear Differential Equations]], [[Solutions to Homogeneous nth Order Linear Differential Equations]]
 **********Def:********** Let $p, q: I = (\alpha, \beta) \to \Bbb R$ be continuous functions. Then we can define the differential operator $L : \mathcal{C}^\infty(I, \Bbb R) \to \mathcal C^\infty(I, \Bbb R)$, defined as
 

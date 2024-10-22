@@ -2,6 +2,7 @@
 tags:
   - SetTheory
 ---
+Subjects: [[Set Theory]]
 Links: [[Pi-System]]
 
 Let $S$ be a nonempty set. A *filter* on $S$ is a collection $F$ of subsets of $S$ that satisfies the following conditions:

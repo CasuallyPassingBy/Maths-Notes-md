@@ -2,6 +2,7 @@
 tags:
   - "#SpecialNumbers"
 ---
+Subjects: [[Special Numbers]]
 Links: [[Bernoulli Polynomials]]
 
 There are a lot of definitions of the Bernoulli numbers, but the one that i will use for the moment is this one, $$\frac{z}{e^z-1} = \sum_{n = 0}^\infty \frac{B_n}{n!}z^n$$

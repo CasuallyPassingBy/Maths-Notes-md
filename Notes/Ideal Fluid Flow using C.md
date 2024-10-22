@@ -2,6 +2,7 @@
 tags:
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]]
 Links: [[Solenoidal Fields]], [[Conservative Fields]], [[Analytic Functions]]
 
 Some characteristics to fluid ideal fluid flow are two constraints, where $v$ represents the velocity field:

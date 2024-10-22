@@ -2,6 +2,7 @@
 tags:
   - VectorAnalysis
 ---
+Subjects: [[Vector Analysis]] 
 Links: [[Limits and Continuity of Vector valued functions of Rn]], [[Differentiabilty of vector valued functions of R]]
 
 **********Def:********** Given a function $f:D\subseteq\Bbb R^n\to \Bbb R^m$, where $D$ is an open subset of $\Bbb R^n$, and $x\in D$, the *******************_difference function $\delta f_x: D_x\subseteq\Bbb R^n\to \Bbb R^m$_ is defined by

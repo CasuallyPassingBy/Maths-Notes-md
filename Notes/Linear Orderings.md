@@ -2,6 +2,7 @@
 tags:
   - SetTheory
 ---
+Subjects: [[Set Theory]]
 Links: [[Orderings]], [[Finite and Countable Sets]]
 
 **Def:** Linearly ordered sets $(A, <)$ and $(B, \prec)$ are **similar** if they are isomorphic.

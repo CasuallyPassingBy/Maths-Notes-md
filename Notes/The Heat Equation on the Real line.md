@@ -3,6 +3,7 @@ tags:
   - FourierAnalysis
   - PartialDifferentialEquations
 ---
+Subjects: [[Fourier Analysis]], [[Partial Differential Equations]]
 Links: [[Fourier Transform in R]], [[The Heat Equation]], [[Convolution#Rapidly Decreasing Functions|Convolution for Rapidly Decreasing Functions]]
 
 Consider an infinite rod, which we model by the real line, and suppose that we are ficen an initial temperature distribution $f(x)$ on the rod at time $t = 0$, We wish now to determine the temperature $u(x, t)$ at the point $x$ and time $t>0$. When $u$ is properly normalised, it solves the following pde:  $$ \frac{\partial u}{\partial t} = \frac{\partial^2 u}{\partial x^2}$$called the *heat equation*. The initial condition we impose is $u(x, 0) = f(x)$.

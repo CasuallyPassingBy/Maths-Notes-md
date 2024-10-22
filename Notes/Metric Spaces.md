@@ -2,6 +2,8 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
+
 **Def:** A metric over the non-empty set $X$ is a function $d:X\times X \to \Bbb R$ that satisfies for any ${x, y,z \in X}$:
 
 M1) for any $d(x,y) = 0$ iff $x= y$

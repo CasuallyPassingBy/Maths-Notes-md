@@ -2,6 +2,7 @@
 tags:
   - Topology
 ---
+Subject: [[Topology]]
 Links: [[Linear Orderings]], [[Topological Spaces]], [[Ordinal Numbers]]
 
 Let $(X, \le)$ be a linearly ordered set, and $x, y \in X$, we say that $x$ is the immediate ancestor of $y$, if $x < y$, and the interval $(x, y)$ is empty. We can also say that $y$ is the immediate successor of $x$.

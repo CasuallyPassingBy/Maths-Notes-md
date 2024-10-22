@@ -2,6 +2,7 @@
 tags:
   - SetTheory
 ---
+Subjects: [[Set Theory]]
 Links: [[Basic Cardinal Arithmetic]], [[Regular and Singular Cardinals]]
 
 Let $\langle A_i \mid i \in I\rangle$  be a system of mutually disjoint sets, and let $|A_i| = \kappa_i$  for all $i \in I$. We define the *sum* of $\langle \kappa_i \mid i \in I\rangle$ by

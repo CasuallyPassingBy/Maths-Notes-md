@@ -2,6 +2,7 @@
 tags:
   - "#NumberTheory"
 ---
+Subjects: [[Elementary Number Theory]]
 ## Greatest Common Divisor
 For any $a, b \in \Bbb Z$, we say that $a$ _divides $b$,_ denoted as $a \mid b$ iff ${\exists k \in \Bbb Z[ak = b]}$, in addition we can use the notation $a^m\parallel b$ to refer that $m$ is the highest power of $a$ that divides $b$, or $a ^m \mid b$ but $a^{m+1} \nmid b$ .
 

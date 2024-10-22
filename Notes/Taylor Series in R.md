@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Power Series in R]]
 
 Let $f$ be $N+1$ differentiable, then

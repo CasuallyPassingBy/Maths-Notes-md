@@ -1,8 +1,9 @@
 ---
 tags:
   - FourierAnalysis
-  - NumberTheory
+  - AnalyticNumberTheory
 ---
+Subjects: [[Elementary Number Theory]], [[Fourier Analysis]]
 Links: [[Fourier Analysis on finite abelian groups]], [[Euler Totient Function]], [[Multiplicative Functions]]
 
 We take the abelian group $\Bbb Z_q^\times$, being the units modulo $n$. We know that $|\Bbb Z_q^\times| = \varphi (q)$.

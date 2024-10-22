@@ -1,4 +1,8 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
 Links: [[Bases and Dimension]], [[Dual Spaces]], [[Eigenvectors and Upper Triangular Matrices]], [[Inner Products and Norms]]
 **********Def:********** A list of vectors is called _**********orthonormal**********_ if each vector in the list has norm $1$ and is orthogonal to all the other vectors in the list.
 

@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Complete Metric Spaces]], [[Metric Spaces#Metric Identification on Pseudo-metric Spaces|Metric Identification on Pseudo-metric Spaces]]
 We say that a metric space $X^*$ is a *****_____completion of $X$_ if $X^*$ is complete and there’s an isometry ${\iota:X \to X^*}$ such that $\overline{\iota[X]} = X^*$ (the closure of $\iota[X]$ in $X^*$)
 

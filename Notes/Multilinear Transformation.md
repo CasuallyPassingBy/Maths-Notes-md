@@ -2,6 +2,7 @@
 tags:
   - LinearAlgebra
 ---
+Subjects: [[Linear Algebra]]
 Links: [[Bilinear Forms]], [[Space of Linear Transformations]], [[Tensor Product]]
 
 A multilinear map is a function of several variables that is linear separately in each variable. More precisely a multilinear map is a function $$ f:V_1\times \dots \times V_n \to W$$where $V_1, \dots V_n$, and $W$ be vector spaces with the following property: for each $i$, if all the variables but $v_i$ are held constant, then $f(v_1, \dots, v_i, \dots, v_n)$ is a linear function of $v_i$. 

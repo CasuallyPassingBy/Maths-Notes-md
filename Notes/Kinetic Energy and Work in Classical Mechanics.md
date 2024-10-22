@@ -2,6 +2,7 @@
 tags:
   - ClassicalMechanics
 ---
+Subjects: [[Classical Mechanics]]
 Links: [[Linear Momentum in Classical Mechanics]]
 
 One of the most basic types of energy, is the **kinetic energy** ($\text{KE}$), which for a single particle of mass $m$ travelling with speed $v$ is defined as

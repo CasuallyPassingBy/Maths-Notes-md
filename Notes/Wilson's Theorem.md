@@ -2,6 +2,7 @@
 tags:
   - NumberTheory
 ---
+Subjects: [[Elementary Number Theory]]
 Links: [[Integers modulo n]], [[Prime Numbers]]
 
 $p$ is a prime iff

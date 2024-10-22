@@ -1,4 +1,8 @@
-Tags: #VectorAnalysis 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Rectifiable Curves in Rn]], [[Riemann Integral in R]], [[Real-valued Functions of Rn]]
 
 **********Def:********** Let $\Gamma \subseteq \Bbb R^n$ a piecewise smooth curve, parametrized by piecewise smooth function ${\gamma:[a,b] \to \Bbb R^n}$. If $f:\Gamma \subseteq\Bbb R^n \to \Bbb R$ is such that $f \circ \gamma$ is integrable over $[a,b]$, we define the ****************_line integral of $f$ over $\Gamma$ with the parametrization $\gamma$,_ denoted $(\int_\Gamma f \,\|d\gamma\|)$ as

@@ -2,7 +2,7 @@
 tags:
   - Statistics
 ---
-Links: [[Point estimation]], [[Evaluation of Point Estimators]], [[Complete Statistics]], [[Sufficient Statistics#The exponential family|The exponential family]]
+Links: [[Point Estimation]], [[Evaluation of Point Estimators]], [[Complete Statistics]], [[Sufficient Statistics#The exponential family|The exponential family]]
 
 We are gonna restrict ourselves to unbiased estimators, meaning estimators that belong to the class $$\mathcal C_{\tau(\theta)} = \{ T(\underline X) \mid E[T(\underline X) = \tau(\theta)\}$$
 **Def:** Let $T^*(\underline X)$ be *Uniformly Minimum Variance Unbiased Estimator (UMVUE)* for $\tau(\theta)$ if it satisfies:

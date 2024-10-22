@@ -3,6 +3,7 @@ tags:
   - NumberTheory
   - AnalyticNumberTheory
 ---
+Subjects: [[Analytic Number Theory]]
 Links: [[Dirichlet Characters]], [[Riemann Zeta Function]], [[Dirichlet Series]], [[Prime Numbers]], [[Infinite Products]], [[Infinite Product of Functions]]
 
 We know that the zeta function $\zeta(s) = \sum\limits_{n \ge 1} 1/n^s$ can be expressed as a product, namely $$\sum_{n = 1}^\infty \frac1{n^s} = \prod_p \frac1{1-p^{-s}}$$

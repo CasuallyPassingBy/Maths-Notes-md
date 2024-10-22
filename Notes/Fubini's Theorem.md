@@ -1,4 +1,8 @@
-Tags: #VectorAnalysis
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Riemann Integral in Rn]], [[Integral over Jordan-measurable Sets]]
 
 There can be s special notation to convey the integrating variables of a function in the case of a higher dimensional integral. Let $A$ be a Jordan-measurable set and $f:A\subseteq\Bbb R^n \to \Bbb R$. Then

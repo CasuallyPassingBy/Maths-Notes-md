@@ -2,6 +2,7 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
 Links: [[Random Variables]], [[Lp spaces]]
 
 Let $X_1, \dots, X_n, \dots$ be a sequence of random variables. There are a lot of types of convergence

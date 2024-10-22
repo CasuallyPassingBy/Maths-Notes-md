@@ -2,6 +2,8 @@
 tags:
   - NumericalAnalysis
 ---
+Subjects: [[Numerical Analysis]]
+Links: [[Solutions of Equations of One Variable]]
 ## Horner’s Method
 
 Let

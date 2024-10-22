@@ -2,7 +2,7 @@
 tags:
   - Analysis
 ---
-
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Space of Continuous Functions From Rn to Rm]], [[Continuous Function Spaces]], [[Compactness in Metric Spaces]], [[Dense Subsets]]
 
 ### Using Polygonal functions

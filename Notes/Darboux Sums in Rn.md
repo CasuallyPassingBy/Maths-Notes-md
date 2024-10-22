@@ -2,6 +2,7 @@
 tags:
   - VectorAnalysis
 ---
+Subjects: [[Vector Analysis]] 
 Links: [[Riemann and Darboux Sums in R]]
 
 **Def:** Let $R$ _be a rectangle_ in $\Bbb R^n$ if it is of the form

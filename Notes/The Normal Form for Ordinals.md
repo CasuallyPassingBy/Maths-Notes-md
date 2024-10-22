@@ -2,6 +2,7 @@
 tags:
   - SetTheory
 ---
+Subjects: [[Set Theory]]
 Links: [[Ordinal Arithmetic]], [[Ordinal Numbers]]
 
 We can define a limit of transfinite sequence of ordinals. Let $\beta_\nu$ be a transfinite sequence of ordinals, with domain $\gamma$ a limit ordinal, then we define the limit of the sequence $\beta_\nu$ such that $\beta$ if

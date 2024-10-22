@@ -1,4 +1,8 @@
-Tags: #RealAnalysis 
+---
+tags:
+  - RealAnalysis
+---
+Subjects: [[Real Analysis]]
 Links: [[Properties of Limits of Sequences in R]] [[Limits of a Sequence in R]]
 The concept of $\limsup$ and $\liminf$ of a sequence , is to put a long term upper bound and lower bound of a sequence. The $\limsup$ of a sequence as: given the sequence $(y_n)$ defined as follow:
 

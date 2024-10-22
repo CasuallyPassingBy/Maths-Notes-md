@@ -2,6 +2,7 @@
 tags:
   - SpecialPolynomials
 ---
+Subjects: [[Special Polynomials]]
 Links: [[Rectifiable Curves in Rn]]
 A Bernstein polynomial is a polynomial of the form:
 

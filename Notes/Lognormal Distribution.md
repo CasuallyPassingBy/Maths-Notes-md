@@ -2,7 +2,8 @@
 tags:
   - ProbabilityTheory
 ---
-Links: [[Change of Variable Theorem for Random Variables]], [[Normal Distribution]]
+Subjects: [[Probability Theory]]
+Links: [[Continuous Distributions]], [[Change of Variable Theorem for Random Variables]], [[Normal Distribution]]
 
 A random variable $X$ has a lognormal distribution with parameters $\mu\in \Bbb R$, and $\sigma^2>0$, if ${\ln X \sim N(\mu, \sigma^2)}$, and written as $X\sim \operatorname{Lognormal}(\mu, \sigma^2)$ the pdf is
 

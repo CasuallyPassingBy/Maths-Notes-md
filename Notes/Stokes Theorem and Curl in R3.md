@@ -1,4 +1,8 @@
-Tags: #VectorAnalysis #DifferentialGeometry 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Green's Theorem and Curl in R2]], [[Line Integral over a Vector Field]], [[Vector Surface Integral]]
 **********Def:********** Let $F: U\subseteq \Bbb R^3 \to \Bbb R^3$ be a $\cal C^1$ on $U$, an open and connected set. Then we define ${\nabla \times F}$ as
 

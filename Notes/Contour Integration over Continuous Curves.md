@@ -2,6 +2,7 @@
 tags:
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]]
 Links: [[Contour Integrals in C]]
 # Shabat's Technique
 

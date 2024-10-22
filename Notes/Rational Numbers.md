@@ -4,6 +4,9 @@ tags:
   - NumberTheory
   - RingTheory
 ---
+Subjects: [[Set Theory]], [[Elementary Number Theory]], [[Ring Theory]]
+Links: [[Integer Numbers]]
+
 We would like to construct the rationals as the next logical step in the construction of mathematics.
 
 As we did with the [[Integer Numbers]], the idea is to make an arithmetic operation that is only partially defined in the integers, quotient, into a total operation, and belongs more properly in the realm of algebra than set set theory. 

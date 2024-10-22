@@ -2,7 +2,8 @@
 tags:
   - ComplexAnalysis
 ---
-links: [[Homotopy in C]]
+Subjects: [[Complex Analysis]]
+Links: [[Homotopy in C]]
 
 **Def**: Let $\gamma:[a, b] \to \Bbb C$ continuous, we say that $\sigma:[a, b] \to \Bbb C$ is a logarithm if
 - $\sigma$ is continuous

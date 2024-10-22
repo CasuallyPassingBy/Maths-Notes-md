@@ -2,6 +2,7 @@
 tags:
   - Statistics
 ---
+Subjects: [[Statistics]]
 Links: [[Statistics and Sample Distribution]]
 
 We can say that a statistic $S(\underline X)$ is *sufficient* if it conserves all the information that the random sample $\underline X$ has about $\theta$. In other words it is *sufficient* to know about the statistic $$S(\underline X)$$

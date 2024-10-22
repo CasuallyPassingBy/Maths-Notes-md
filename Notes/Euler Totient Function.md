@@ -3,6 +3,8 @@ tags:
   - NumberTheory
   - AnalyticNumberTheory
 ---
+Subjects: [[Elementary Number Theory]], [[Analytic Number Theory]]
+
 Links: [[Multiplicative Functions]], [[Möbius Function and Inversion Formula]], [[Fermat's Little Theorem]], [[Integers modulo n]]
 
 **********Def:********** Let $\phi$ be an arithmetic functions that counts the number of numbers relatively prime of $n$, less than $n$, in other words,

@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Riemann Integral in R]]
 
 ## Equal Partitions

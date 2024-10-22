@@ -2,6 +2,7 @@
 tags:
   - SetTheory
 ---
+Subjects: [[Set Theory]]
 Links: [[Cartesian Product]]
 
 A set $R$ is a binary relation if for any $z \in R$, then there exists $x$ and $y$ such that $z = (x,y )$. It is usually said that $x$ _is in relation $R$ with $y$_ iff $xRy$, which is the same as $(x, y) \in R$.

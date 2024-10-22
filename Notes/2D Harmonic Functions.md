@@ -3,6 +3,7 @@ tags:
   - ComplexAnalysis
   - "#PartialDifferentialEquations"
 ---
+Subjects: [[Complex Analysis]]
 Links: [[Analytic Functions]], [[Harmonic Functions]]
 
 We can think of the set of all harmonic functions on $U$, denoted as $a(U)$, maybe $h(U)$, then $u\in a(U)$ is the same as, $u: U \subseteq \Bbb C \to \Bbb R$ is harmonic

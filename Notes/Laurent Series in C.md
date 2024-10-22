@@ -2,7 +2,8 @@
 tags:
   - ComplexAnalysis
 ---
-Links: [[Analytic Functions]], [[Taylor's Theorem]], [[Isolated Singurities]], [[Removable Singularities]], [[Poles of Analytic Functions]], [[Essential Singularities]]
+Subjects: [[Complex Analysis]]
+Links: [[Analytic Functions]], [[Taylor's Theorem]], [[Isolated Singularities]], [[Removable Singularities]], [[Poles of Analytic Functions]], [[Essential Singularities]]
 
 Let $z_0\in \Bbb C$ and $0\le r_1< r_2\le \infty$. We say that the open anulus centered at $z_0$ with an inner radius $r_1$, and exterior radius $r_2$, denoted as $A_{r_1, r_2}(z_0)$, as
 

@@ -2,6 +2,7 @@
 tags:
   - ClassicalMechanics
 ---
+Subjects: [[Classical Mechanics]]
 # First Law
 In the absence of forces, a particles with a constant velocity $\bf{v}$ 
 # Second Law

@@ -3,6 +3,7 @@ tags:
   - ProbabilityTheory
   - GeneratingFunctions
 ---
+Subjects: [[Probability Theory]]
 Links: [[Random Variables]], [[Probability Functions for Random Variables]], [[Moments of Random Variable]], [[Convergence of Random Variables]]
 ## Moment Generating Function
 

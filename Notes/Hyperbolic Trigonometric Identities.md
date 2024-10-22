@@ -1,4 +1,4 @@
-Links: [[Trigonometric Identities]], [[Common Taylor Series]]
+Links: [[Trigonometric Identities]], [[Common Taylor Series]], [[Useful Identities]]
 
 ### Pythagorean Identities
 

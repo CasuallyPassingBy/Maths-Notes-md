@@ -2,6 +2,9 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
+Links: [[Discrete Distributions]]
+
 Let $X$ be a random variable, we say that $X$ has a Poisson distribution with parameters $\lambda >0$, written as $X \sim \operatorname{Poisson}{\lambda}$, if we have that the pmf of $X$ is of the form
 
 $$ f(x; \lambda) = \begin{dcases} e^{-\lambda}\frac{\lambda^x}{x!} & x \in \Bbb N \\ 0 &\text{otherwise} \end{dcases} $$

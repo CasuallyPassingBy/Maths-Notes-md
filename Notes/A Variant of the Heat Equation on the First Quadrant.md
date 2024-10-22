@@ -3,6 +3,7 @@ tags:
   - FourierAnalysis
   - PartialDifferentialEquations
 ---
+Subjects: [[Fourier Analysis]], [[Partial Differential Equations]]
 Links: [[The Heat Equation]], [[Fourier Transform in R]], [[The Heat Equation on the Real line]]
 
 The equation $$x^2 \frac{\partial^2 u}{\partial x^2}+ ax\frac{\partial u}{\partial x} = \frac{\partial u}{\partial t}$$with $u(x, 0) = f(x)$, for $0<x<\infty$ and $t>0$ is a variant of the heat equation which occurs in a number of applications. We can see some similarity with a [[Cauchy-Euler Differential Equation|Cauchy-Euler differential equation]], and thus use a similar technique by making the substitution $x = e^{-y}$, so that $-\infty < y<\infty$. 

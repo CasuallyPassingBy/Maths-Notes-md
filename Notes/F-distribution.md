@@ -2,7 +2,8 @@
 tags:
   - ProbabilityTheory
 ---
-Links: [[Chi-squared Distribution]]
+Subjects: [[Probability Theory]]
+Links: [[Continuous Distributions]], [[Chi-squared Distribution]]
 
 A random variable $X$ is has an $F$ distribution with parameters $a >0$ and $b>0$, written as $X \sim F(a,b)$, if the pdf is
 

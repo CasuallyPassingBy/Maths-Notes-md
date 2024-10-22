@@ -1,4 +1,8 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
 Links: [[Isometries in Vector Spaces]], [[Normal and Hermitian Operators]], [[Eigenspaces and Diagonal Matrices]], [[Orthogonal Bases]]
 ********Def:******** Suppose $U$ is a finite dimensional subspace of $V$. The ********orthogonal projection******** of $V$ onto $U$ is the operator $P_U \in \mathcal L(U)$ defined as follows: for $v \in V$, write $v = u +w$, where $u \in U$ and ${w \in U^\bot}$. Then $P_Uv = u$.
 

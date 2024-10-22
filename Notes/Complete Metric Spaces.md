@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Compactness in Metric Spaces]], [[Continuity on Metric Spaces#Uniform Continuity|Uniform Continuity]], [[Compact Sets in R#Bolzano-Weiestrass Theorem|Bolzano Weiestrass Theorem in R]], [[Rn#Bolzano-Weiestrass in $ Bbb R n$|Bolzano Weiestrass in Rn]], [[ellp spaces]], [[Metric Spaces]]
 A sequence $(x_n)$ in $X$ is a _**Cauchy sequence**_ if for any $\varepsilon>0$, there’s an $N \in \Bbb N$, such that
 

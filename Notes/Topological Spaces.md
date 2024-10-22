@@ -2,6 +2,7 @@
 tags:
   - Topology
 ---
+Subject: [[Topology]]
 ## Opens Sets
 A topology of a set $X$ is a family of subsets $\tau$ that satisfy the following
 1. $\varnothing, X \in \tau$ 

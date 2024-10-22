@@ -3,6 +3,7 @@ tags:
   - Analysis
   - FunctionalAnalysis
 ---
+Subjects: [[Metric and Normed Spaces]], [[Functional Analysis]]
 Links: [[Bounded Linear Operators]], [[Relative Compactness in Metric Spaces]]
 
 Let $T: V\to W$ be a linear map between normed spaces it is called a **************compact operator*************** if for every bounded sequence $(v_k)$ in $V$, the sequence $(Tv_k)$ contains a convergent subsequence in $W$.

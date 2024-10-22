@@ -2,6 +2,7 @@
 tags:
   - SpecialNumbers
 ---
+Subjects: [[Special Numbers]]
 Links: [[Bernoulli numbers]]
 
 We define the Eulerian numbers as $$\text{sech}\;t= \frac1{\cosh t} = \frac{2}{e^t-e^{-t}} =\sum_{n = 0}^\infty \frac{E_n}{n!}t^n $$

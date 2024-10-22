@@ -2,6 +2,9 @@
 tags:
   - ClassicalMechanics
 ---
+Subjects: [[Classical Mechanics]]
+Links: [[Air Resistance]]
+
 We neglect the quadratic term and get the differential equation
 
 $$ m \ddot{\bf r} = m{\bf g}- b\bf v $$

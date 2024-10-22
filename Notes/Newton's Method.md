@@ -2,6 +2,9 @@
 tags:
   - NumericalAnalysis
 ---
+Subjects: [[Numerical Analysis]]
+Links: [[Solutions of Equations of One Variable]]
+
 Suppose $f \in \cal C^2[a,b]$. Let $p_0 \in [a,b]$ be an approximation of $p$ such that $f'(p_0) \ne 0$ and ${|p - p_0|}$ is “small”. Then we can use a Taylor approximation about $p_0$ and evaluated at $p$. If we neglect the term with $|p -p _0|^2$ since it is is so small, then we get that
 
 $$ 0= f(p) \approx f(p_0) +(p-p_0)f'(p_0) $$

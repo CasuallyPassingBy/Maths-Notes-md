@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Double Series]], [[Absolute Convergence Test and Properties]]
 
 _**Definition:**_ The _double series $\sum_{n,m = 1}^\infty z_{n,m}$_ is said to be _absolutely convergent_ if $\sum_{n,m = 1}^\infty |z_{n,m}|$ converges. The _iterated series_ $\sum_{m=1}^\infty\left(\sum_{n=1}^\infty z_{n,m}\right)$ is said to be _absolutely convergent_ if $\sum_{m=1}^\infty\left|\sum_{n=1}^\infty z_{n,m}\right|$ converges.

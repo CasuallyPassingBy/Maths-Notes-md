@@ -3,6 +3,7 @@ tags:
   - NumberTheory
   - AnalyticNumberTheory
 ---
+Subjects: [[Elementary Number Theory]], [[Analytic Number Theory]]
 Links: [[Dirichlet Series]]
 **********Def:********** A real/complex valued function defined on the positive integers is called an _**********arithmetic function**********_ or ****************number theoretic function****************.
 

@@ -2,6 +2,7 @@
 tags:
   - Statistics
 ---
+Subjects: [[Statistics]]
 Links: [[Statistics and Sample Distribution]], [[Order Statistics]], [[Sufficient Statistics]], [[Complete Statistics]]
 
 **Def:** A statistic $T(\underline X)$ is which distribution doesn't depend on the parameter $\theta$, it is called an *ancillary statistic.* 

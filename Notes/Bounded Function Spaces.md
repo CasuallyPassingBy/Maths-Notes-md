@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Normed Spaces]], [[Metric Spaces]]
 
 A function $f:S \to X$ is ********bounded******** if there are $c \in \Bbb R$ and $x_0 \in X$ such that, for any $z \in S$

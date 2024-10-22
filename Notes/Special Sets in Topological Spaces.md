@@ -2,6 +2,7 @@
 tags:
   - Topology
 ---
+Subject: [[Topology]]
 Links: [[Interior Points]], [[Limit Points and Closure]], [[Dense Subsets]]
 
 We can look at special sets. Let $(X, \tau)$ be a topological space:

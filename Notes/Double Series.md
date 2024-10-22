@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Double Sequences Limits]], [[Series in R]]
 
 Let $z:\mathbb{N}^2\to\mathbb{C}$ a double sequence of complex numbers, and let $s_{n,m}$ de defined by the equation:

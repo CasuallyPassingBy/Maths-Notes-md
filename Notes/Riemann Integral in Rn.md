@@ -2,6 +2,7 @@
 tags:
   - VectorAnalysis
 ---
+Subjects: [[Vector Analysis]] 
 Links: [[Darboux Sums in Rn]], [[Riemann Integral in R]]
 
 **Def:** Let $f: R\subseteq \Bbb R^n\to \Bbb R$ bounded over the rectangle $R$. We say that $f$ is **Riemann integrable*** (or simply _********integrable)*********_ over $R$ if the lower integral and the upper integral of $f$ over $R$ are equal. In other words

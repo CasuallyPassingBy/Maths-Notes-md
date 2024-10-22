@@ -2,6 +2,7 @@
 tags:
   - StochasticProcesses
 ---
+Subjects: [[Stochastic Processes]]
 Links: [[Definitions for Stochastic Processes]]
 
 A simple random walk over the whole number $\Bbb Z$ is a discrete time stochastic process  $\{X_n \mid n \in \Bbb N\}$. The value of $X_n$ is the state of the process at time $n$. The process changes form a state to another in consecutive times, according to the *transition probabilities*, given as

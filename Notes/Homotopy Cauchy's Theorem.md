@@ -2,6 +2,7 @@
 tags:
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]]
 Links: [[Analytic Functions]], [[Contour Integrals in C]], [[Contour Integration over Continuous Curves]], [[Homotopy in C]]
 ### Deformation Theorem
 Suppose $f$ is an holomorphic function on an open set $G$ and that $\gamma_0$ and $\gamma_1$ are piecewise smooth curves in $G$.

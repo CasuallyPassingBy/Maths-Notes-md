@@ -2,6 +2,9 @@
 tags:
   - NumericalAnalysis
 ---
+Subjects: [[Numerical Analysis]]
+Links: [[Solutions of Equations of One Variable]]
+
 The number $p$ is a **fixed point** for a given function $g$ if $g(p) = p$
 
 Given a root finding problem $f(p) =0$, we can define function $g$ with a fixed point at $p$, as

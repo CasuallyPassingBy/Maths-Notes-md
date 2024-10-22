@@ -2,7 +2,8 @@
 tags:
   - ProbabilityTheory
 ---
-Links: [[Normal Distribution]]
+Subjects: [[Probability Theory]]
+Links: [[Continuous Distributions]], [[Normal Distribution]]
 
 We say that the random vector $X=(X_1, \dots, X_k)$ have a multivariate normal, denoted as $X\sim N(\mu, \Sigma)$distribution if the density function is
 

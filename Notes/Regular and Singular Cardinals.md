@@ -2,6 +2,7 @@
 tags:
   - SetTheory
 ---
+Subjects: [[Set Theory]]
 Links: [[Basic Cardinal Arithmetic]], [[Arithmetic of Cardinal Numbers]], [[Alephs]], [[Generalised Continuum Hypothesis]]
 
 Let $\langle \alpha_\nu \mid \nu < \vartheta\rangle$ be a transfinite sequence of ordinal numbers of length $\vartheta$. We say that the sequence is *increasing* if $\alpha_\mu < \alpha_\nu$, whenever $\mu < \nu < \vartheta$. If $\vartheta$ is a limit ordinal number and if $\langle \alpha_\nu \mid \nu < \vartheta\rangle$ is increasing sequence of ordinals we define

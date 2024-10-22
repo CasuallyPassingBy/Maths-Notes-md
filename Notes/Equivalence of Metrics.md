@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Continuity on Metric Spaces]], [[Topology on Metric Spaces]]
 
 ### Equivalence of Metrics and Norms

@@ -2,7 +2,9 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Functions of Bounded Variation on R]], [[Riemann Integral in R]]
+
 Let $\alpha:I =[a,b]\to\mathbb{R}$ be monotonically increasing. Given a partition $P$ of $I$, then:
 
 $$ \Delta\alpha_i = \alpha(x_i)-\alpha(x_{i-1}) $$

@@ -2,6 +2,7 @@
 tags:
   - LinearAlgebra
 ---
+Subjects: [[Linear Algebra]]
 Links: [[Eigenvalues]], [[Eigenspaces and Diagonal Matrices]], [[Nilpotent Linear Operators]], [[Characteristic and Minimal Polynomial of a Linear Transformation]]
 
 ********Def:******** Let $T \in \mathcal L(V)$ and $\lambda$ is an eigenvalue of $T$. A vector $v \in V$ is called a *generalised eigenvector* of $T$ corresponding to $\lambda$ if $v \ne 0$ and

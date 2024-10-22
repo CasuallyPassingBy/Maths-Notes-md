@@ -2,6 +2,7 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
 Links: [[Probability Generating Function]], [[Moment Generating Function]], [[Convergence of Random Variables]]
 
 **Def:** The *characteristic function* of a random $X$ is a function $$\phi(t) = E\left[ e^{itX}\right]$$defined over every real $t$. 

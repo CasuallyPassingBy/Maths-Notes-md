@@ -2,7 +2,8 @@
 tags:
   - Topology
 ---
-Links : [[Generation of Topolgies through Collection of Subsets]], [[Interior Points]], [[Limit Points and Closure]]
+Subject: [[Topology]]
+Links : [[Generation of Topologies through Collection of Subsets]], [[Interior Points]], [[Limit Points and Closure]]
 
 We can can construct a topology for a set, with a function from ${\cal P}(X)$ into itself. Then, we get the following definition
 

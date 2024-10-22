@@ -1,5 +1,10 @@
-Tags: #VectorAnalysis 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Higher Order Derivatives and Taylor's Theorem for Real valued functions of Rn]], [[Real-valued Functions of Rn]]
+
 ******************Def:****************** The function $f$ is said to have a _local maximum_ at $x_0 \in D$ if there is a neighborhood $N$ of $x_0$ such that for all $x \in N$:
 
 $$ f(x) \le f(x_0) $$

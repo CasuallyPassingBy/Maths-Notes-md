@@ -2,6 +2,7 @@
 tags:
   - FourierAnalysis
 ---
+Subjects: [[Fourier Analysis]]
 Links: [[Fourier Transform in Rn]], [[Bessel Functions]]
 
 An important property of the Fourier transform, being that the Fourier transform of a radial function is radial. In other words, if $f(x) = f_0(\|x\|)$ for some $f_0$, then $\hat f(\omega) = F_0(\omega)$ for some $F_0$. A natural problem is to determine a relation between $f_0$ and $F_0$

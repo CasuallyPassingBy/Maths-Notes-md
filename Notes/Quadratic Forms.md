@@ -2,7 +2,7 @@
 tags:
   - LinearAlgebra
 ---
-
+Subjects: [[Linear Algebra]]
 Links: [[Bilinear Forms]]
 **********Def:********** Let $V$ be a vector space over a field $\mathbb F$ not of characteristic $2$. A function $K: V \to\mathbb F$ is called a *****************_quadratic form on $V$_ if there exists a symmetric bilinear form $H\in \mathcal B(V)$ such that
 

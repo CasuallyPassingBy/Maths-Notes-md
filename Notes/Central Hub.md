@@ -1,12 +1,11 @@
 We have all the subjects:
 
-# Things
-- [[Bachelor's Thesis]]
 # Subjects
 ## Foundational
 - [[Set Theory]]
 - [[Topology]]
-- [[Number Theory]]
+- [[Elementary Number Theory]]
+	- [[Analytic Number Theory]]
 ## Analysis
 - [[Real Analysis]]
 - [[Vector Analysis]]
@@ -29,6 +28,7 @@ We have all the subjects:
 - [[Stochastic Processes]]
 ## Advanced Topics
 - [[Measure Theory]]
+- [[Differential Geometry]]
 ## Special objects
 - [[Special Functions]]
 - [[Special Polynomials]]
@@ -36,6 +36,7 @@ We have all the subjects:
 - [[Special Notations]]
 ## Physics
 - [[Classical Mechanics]]
+- [[Quantum Mechanics]]
 ## Computer Science
 - [[Theory of computation]]
 - [[Algorithms and Data Structures]]

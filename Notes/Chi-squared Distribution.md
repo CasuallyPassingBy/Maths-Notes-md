@@ -2,7 +2,8 @@
 tags:
   - ProbabilityTheory
 ---
-Links: [[Gamma Distribution]]
+Subjects: [[Probability Theory]]
+Links: [[Continuous Distributions]], [[Gamma Distribution]]
 
 We say that a random variable $X$ has $\chi^2$ distribution or (Chi-squared distribution) with parameter $n >0$, written as $X \sim \chi^2(n)$, if the pdf of $X$ is of the form
 

@@ -2,6 +2,7 @@
 tags:
   - ClassicalMechanics
 ---
+Subjects: [[Classical Mechanics]]
 Links: [[Newton's Laws]]
 
 Let us consider a group of $N$ particles, $\alpha = 1, \dots, N$, with masses $m_\alpha$ and positions $\bf r_\alpha$  measured to an origin $O$. The **centre of mass** (or $\bf CM$) of the system is defined to to be the position (relative to the same origin $O$):

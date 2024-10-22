@@ -2,6 +2,9 @@
 tags:
   - NumericalAnalysis
 ---
+Subjects: [[Numerical Analysis]]
+Links: [[Solutions of Equations of One Variable]]
+
 The main problem of using Newton’s method is the need of the derivative of $f$ at each approximation. Sometimes $f'(x)$ can be more complicated to calculate than $f(x)$. If we look at the definition of derivative, we get it as
 
 $$ f(p_{n}) = \lim_{x \to p_{n}} \frac{f(x) -f(p_{n})}{x - p_{n}} $$

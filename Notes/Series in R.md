@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Properties of Limits of Sequences in R]]
 
 Let the sequence $(b_n)$, and the partial sums $(s_m)$ as:

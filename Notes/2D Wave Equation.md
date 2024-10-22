@@ -3,6 +3,7 @@ tags:
   - FourierAnalysis
   - PartialDifferentialEquations
 ---
+Subjects: [[Fourier Analysis]], [[Partial Differential Equations]]
 Links: [[The Wave equation]], [[3D Wave Equation]]
 
 We can use the solution of the wave equation in three dimensions leads to a solution of the wave equation in two dimensions

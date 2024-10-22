@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Riemann Integral in R]], [[Riemann Integrals in R Properties]], [[The Derivative on R]]
 ## Part 1:
 

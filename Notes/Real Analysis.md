@@ -2,6 +2,7 @@
 tags:
   - "#Subject"
 ---
+[[Central Hub]]
 # Overview
 
 Real Analysis is the study of real numbers and real-valued functions. I am mainly using Abbot's Understanding Analysis, Bartle's Real Analysis, Baby Rudin 
@@ -38,7 +39,6 @@ Real Analysis is the study of real numbers and real-valued functions. I am mainl
 - [[Sequence of Functions in Rn]]
 	- [[Series of Functions in Rn]]
 	- [[Power Series in R]]
-		- [[Taylor's Theorem]]
 		- [[Taylor Series in R]]
 		- [[Abel's Summability]]
 	- [[Interchange of Limits]]

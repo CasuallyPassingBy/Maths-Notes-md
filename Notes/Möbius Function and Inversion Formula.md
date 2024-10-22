@@ -3,6 +3,7 @@ tags:
   - NumberTheory
   - AnalyticNumberTheory
 ---
+Subjects: [[Elementary Number Theory]], [[Analytic Number Theory]]
 Links: [[Multiplicative Functions]]
 **Def:** The _Möbius $\mu$-function_ is defined as for a positive integer $n$
 

@@ -2,7 +2,7 @@
 tags:
   - Subject
 ---
-
+[[Central Hub]]
 # Overview
 using Blanchard's Macroeconomics
 

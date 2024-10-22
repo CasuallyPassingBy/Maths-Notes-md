@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[Linear System of Ordinary Differential Equations]], [[Jordan Normal Form#Matrix Exponential|Matrix Exponential]], [[Complexification of Real Vector spaces]], [[Matrix Representation of Complex Numbers]]
 
 We will concentrate most of our attention on system of homogeneous linear equations with constant coefficients, that is, the system of the form $$x' = Ax$$

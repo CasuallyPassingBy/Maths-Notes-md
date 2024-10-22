@@ -1,4 +1,8 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
 Links: [[Space of Linear Transformations]], [[Matrix Representation of Linear Transformations]]
 
 **********Def:********** Let $A \in \mathcal M_{m \times n }(\Bbb F)$. Any one of the following three operations on the rows (columns) of $A$ is called an **********************elementary row (column) operation:**********************

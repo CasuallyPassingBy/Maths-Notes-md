@@ -2,6 +2,7 @@
 tags:
   - StochasticProcesses
 ---
+Subjects: [[Stochastic Processes]]
 Links: [[Random Variables]]
 
 A *stochastic process* is a collection of random variables $\{X_t \mid t \in T\}$ parameterised by $T$, called a *parametric space*, and with values of the set $S$ called *the state space*.

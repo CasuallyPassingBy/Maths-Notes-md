@@ -1,5 +1,10 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
 Links: [[Fields]]
+
 A vector space $(V, +, \cdot)$ over the field $(\mathbb{F}, +,\cdot),$ is an algebraic structure with the following :
 
 1. $\forall x, y \in V[x+y \in V]$

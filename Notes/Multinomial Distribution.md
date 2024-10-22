@@ -2,7 +2,8 @@
 tags:
   - ProbabilityTheory
 ---
-Links: [[Binomial Distribution]], [[Discrete Distributions]]
+Subjects: [[Probability Theory]]
+Links: [[Discrete Distributions]], [[Binomial Distribution]], [[Discrete Distributions]]
 
 This actually comes from [[Multinomial Theorem|multinomial theorem]]
 

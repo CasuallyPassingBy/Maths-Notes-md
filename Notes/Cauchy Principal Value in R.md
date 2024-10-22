@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Improper Integrals in R]]
 
 The *Cauchy Principal value* is a is a method for assigning values to certain improper integrals which would otherwise be undefined.

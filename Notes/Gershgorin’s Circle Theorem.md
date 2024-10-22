@@ -2,6 +2,7 @@
 tags:
   - LinearAlgebra
 ---
+Subjects: [[Linear Algebra]]
 Links: [[Eigenvalues]]
 **********Def:********** Let $A \in \cal M_n (\mathbb C)$ for ${1 \le i, j \le n }$, define $\rho_i(A)$ to be the sum of the absolute values of the entries of row $i$ of $A$, and define $\nu_j(A)$ to be equal to the sum of the absolute value of the entries of column $j$ of $A$. Thus
 

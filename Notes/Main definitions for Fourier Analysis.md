@@ -2,6 +2,7 @@
 tags:
   - "#FourierAnalysis"
 ---
+Subjects: [[Fourier Analysis]]
 We begin the study of Fourier Analysis
 
 **Def:** Let $f$ be an integrable function on the interval $[a,b]$ of length $L$, then the *$n$th Fourier coefficient* of $f$ is defined as $$\hat f (n) = \frac{1}{L} \int_a^b f(x) e^{-2\pi i nx/L}\, dx \qquad n \in \Bbb Z$$

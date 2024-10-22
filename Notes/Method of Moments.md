@@ -2,7 +2,8 @@
 tags:
   - Statistics
 ---
-Links: [[Point estimation]]
+Subjects: [[Statistics]]
+Links: [[Point Estimation]]
 
 Probably the simplest method do is this:
 

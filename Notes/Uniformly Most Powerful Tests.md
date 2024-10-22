@@ -2,6 +2,7 @@
 tags:
   - Statistics
 ---
+Subjects: [[Statistics]]
 Links: [[Statistical Hypothesis Test]], [[Statistical Test for Simple Hypotheses]], [[Sufficient Statistics]]
 
 **Def:** A test $\gamma^*$ is a *uniformly most powerful test* to prove that $$H_0 : \theta \in \Theta_0 \qquad H_1:\theta\in \Theta_1$$if: 

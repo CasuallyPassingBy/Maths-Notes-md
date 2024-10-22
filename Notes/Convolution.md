@@ -2,6 +2,7 @@
 tags:
   - FourierAnalysis
 ---
+Subjects: [[Fourier Analysis]]
 Links: [[Main definitions for Fourier Analysis]]
 # Periodic functions
 

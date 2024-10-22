@@ -2,6 +2,7 @@
 tags:
   - ClassicalMechanics
 ---
+Subjects: [[Classical Mechanics]]
 Links: [[Trayectories in Physics]], [[Newton's Laws]]
 ### The Lorentz Force on a Charged Particle
 

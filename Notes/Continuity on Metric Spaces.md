@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Metric Spaces]], [[Continuity on R]], [[Uniform Continuity on R]], [[Limits and Continuity of Vector valued functions of Rn]], [[Normed Spaces]], [[Space of Linear Transformations]]
 ### Continuity
 

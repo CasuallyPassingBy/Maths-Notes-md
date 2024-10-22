@@ -2,6 +2,7 @@
 tags:
   - Topology
 ---
+Subject: [[Topology]]
 Links: [[Topological Spaces]], [[Convergence of Sequences]], [[Separable, First and Second Countable Spaces]], [[Continuous Functions and Homeomorphims]]
 
 We say that a topological space $X$ is *sequential*  if for every $A \subseteq X$, $A$ is not closed iff there's $x \notin A$ and a sequence $(x_n)_{n \in \Bbb N}$ contained in $A$, that converges to $x$. 

@@ -2,6 +2,7 @@
 tags:
   - "#AlgorithmsAndDataStructures"
 ---
+Subjects: [[Algorithms and Data Structures]]
 Links: [[Asymptotic notation]]
 
 # Insertion Sort

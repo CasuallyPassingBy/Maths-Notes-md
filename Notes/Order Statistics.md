@@ -2,6 +2,7 @@
 tags:
   - Statistics
 ---
+Subjects: [[Statistics]]
 Links: [[Statistics and Sample Distribution]]
 
 **Def:** Let $X_1, \dots,X_n$ be a random sample. The random variables $$

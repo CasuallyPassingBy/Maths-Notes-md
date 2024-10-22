@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[Solution to Nonhomogeneous Second Order Linear Differential Equations]], [[Second Order Linear Differential Equations]]
 The idea of variation of parameters is that if we have the nonhomogeneous differential equation
 

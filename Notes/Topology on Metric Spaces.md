@@ -1,7 +1,9 @@
 ---
 tags:
   - Analysis
+  - Topology
 ---
+Subjects: [[Metric and Normed Spaces]], [[Topology]]
 Links: [[Continuity on Metric Spaces]], [[Topological Characterization of Continuity in Rn]], [[Open and Closed Sets in R]], [[Metric Spaces]]
 
 **Def:** Given a metric space $(X, d)$ we can define the set that have a distance less than a real number $r$ from $x \in X$, it is called *************_the open ball with center $x$ and radius $r$:_

@@ -3,6 +3,7 @@ tags:
   - NumberTheory
   - AnalyticNumberTheory
 ---
+Subjects: [[Elementary Number Theory]], [[Analytic Number Theory]]
 Links: [[Multiplicative Functions]]
 
 **Def:** A arithmetic function $f$ is called **********additive********** if

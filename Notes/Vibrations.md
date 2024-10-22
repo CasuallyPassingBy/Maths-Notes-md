@@ -3,6 +3,7 @@ tags:
   - OrdinaryDifferentialEquations
   - ClassicalMechanics
 ---
+Subjects: [[Ordinary Differential Equations]], [[Classical Mechanics]]
 Links: [[Second Order Linear Differential Equations]]
 ### Undamped Free Vibration
 

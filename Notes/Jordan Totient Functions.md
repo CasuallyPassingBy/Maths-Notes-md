@@ -3,6 +3,8 @@ tags:
   - AnalyticNumberTheory
   - NumberTheory
 ---
+Subjects: [[Elementary Number Theory]], [[Analytic Number Theory]]
+
 Links: [[Möbius Function and Inversion Formula]], [[Euler Totient Function]], [[Multiplicative Functions]]
 
 **********Def:********** We can define the Jordan’s totient function for each $k$, as

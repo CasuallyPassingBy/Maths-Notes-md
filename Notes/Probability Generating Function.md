@@ -3,6 +3,7 @@ tags:
   - ProbabilityTheory
   - "#GeneratingFunctions"
 ---
+Subjects: [[Probability Theory]]
 Links:, [[Probability Functions for Random Variables#Discrete Random Variable|Discrete Random Variables]]
 
 Let $X$ be a discrete random variable with possible values in the set $\Bbb N$. The function $G(t)$, defined as 

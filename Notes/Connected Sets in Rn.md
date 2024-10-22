@@ -1,4 +1,10 @@
-Tags: #VectorAnalysis 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
+Links: [[Perfect and Connected Sets in R]]
+
 **********Def:********** Let $A \subseteq \Bbb R^n$. We say that $A$ is **************disconnected************** if there exist ${B, C \subseteq \Bbb R^n}$, nonempty such that:
 
 - $A = B\cup C$

@@ -2,6 +2,7 @@
 tags:
   - SetTheory
 ---
+Subjects: [[Set Theory]]
 Links: [[Binary Relations]]
 
 Let $R$ be a relation on $A$, if $R$ is reflexive, antisymmetric, and transitive is called a _(partial) ordering_ of $A$. The pair $(A,R)$ is called an _ordered set_.

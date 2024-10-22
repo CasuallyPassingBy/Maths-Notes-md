@@ -3,6 +3,7 @@ tags:
   - FourierAnalysis
   - PartialDifferentialEquations
 ---
+Subjects: [[Fourier Analysis]], [[Partial Differential Equations]]
 Links: [[Applications of Fourier Series in a Mathematical Context]], [[The Heat Equation]], [[Convolution#Periodic functions|Convolution for periodic functions]], [[Main definitions for Fourier Analysis]]
 
 Suppose we are given an initial temperature distribution on $t= 0$ on a ring and that we are asked to describe the temperature at points on the ring at times $t >0$. 

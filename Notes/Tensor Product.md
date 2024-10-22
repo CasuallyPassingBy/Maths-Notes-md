@@ -2,6 +2,7 @@
 tags:
   - LinearAlgebra
 ---
+Subjects: [[Linear Algebra]]
 Links: [[Vector Spaces]], [[Product of Vector Spaces]], [[Multilinear Transformation]]
 
 Let $V, W$ be vector spaces over the field $\Bbb F$and where we can define a vector space $V * W$ that has ${V\times W}$ as a basis. $V *W$ can be thought as the space of functions of the form ${(v *w): V\times W \to \Bbb F}$, that
@@ -29,12 +30,20 @@ Some properties that arise of these definition of $V \otimes W$ is that:
 As a piece of notation then $V^{\otimes k} =T^k V$ is the $k$th tensor power of $V$, which is defined as $V^{\otimes 0} = \Bbb F$, and $V^{\otimes(n+1)}= V^{\otimes n} \otimes V$.
 
 We can define the ******_Tensor Algebra of $V$ as_
-
 $$ T(V) = \bigoplus_{k = 0}^\infty T^k V $$
 
 The multiplication in $T(V)$ is determined by the canonical isomorphisms
 
 $$ T^k V\otimes T^lV \to T^{k+l} V $$
 ## Universal property
-
 The tensor product of two vector spaces $V$ and $W$ is a vector space denoted as $V\otimes W$, together with a bilinear map $\otimes: (v, w) \mapsto v\otimes w$ from $V\times W$ to $V\otimes W$, such that, for every bilinear map $h:V\times W \to Z$, there is a *unique* linear map $\tilde h:V\otimes W \to Z$ such that $h = \tilde h \circ \otimes$.
+
+```tikz
+\usepackage{tikz-cd} 
+\begin{document} 
+\begin{tikzcd}
+V \times W \arrow[r,"\otimes"] \arrow[dr, "h"']& V \otimes W \arrow[d, dashed,"\tilde h"]\\ 
+& Z
+\end{tikzcd}
+\end{document}
+```

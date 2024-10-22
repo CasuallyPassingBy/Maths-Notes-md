@@ -2,6 +2,7 @@
 tags:
   - FourierAnalysis
 ---
+Subjects: [[Fourier Analysis]]
 Links: [[Fourier Transform in R]]
 
 Given a function $f\in \mathcal S(\Bbb R)$ on the line we can construct a new function on the circle by the recipe $$F_(x) = \sum_{n = -\infty}^\infty f(x+n)$$Since $f$ is rapidly decreasing, the series converges absolutely and uniformly on every compact subset of $\Bbb R$, so $F_1$ is continuous. We see that $F_1(x+1) = F(x)$, hence $F_1$ is periodic with period $1$. The function $F_1$ is called the *periodization* of $f$.

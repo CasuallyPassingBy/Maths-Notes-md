@@ -2,6 +2,7 @@
 tags:
   - NumericalAnalysis
 ---
+Subjects: [[Numerical Analysis]]
 # Sources of Error
 
 There are two sources of error:

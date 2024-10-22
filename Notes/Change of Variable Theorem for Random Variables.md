@@ -2,6 +2,7 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
 Links: [[Probability Functions for Random Variables]], [[Random Variables]], [[Random Vectors]], [[Probability Functions for Random Vectors]], [[Change of Variable Theorem in Rn]]
 
 # Random Variables

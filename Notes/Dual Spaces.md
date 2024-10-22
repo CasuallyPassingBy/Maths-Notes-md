@@ -1,5 +1,11 @@
-Tags: #LinearAlgebra
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
+
 Links: [[Vector Spaces]], 
+
 Suppose that $V$ is a vector space over the field $\mathbb F$. A _linear functional from $V$ ,_ is an element from $\cal L$$(V, \Bbb F)$.
 
 The _dual of $V$,_ denoted as $V'$ is th vector space of all linear functionals, in other words $V' = \mathcal L(V, \Bbb F)$. In other contexts, it can be written as $V^*$, or $\widetilde V$. The elements of $V'$ can be called, duals, covectors or $1$-forms, depending of the context (Linear Algebra, Physics or Differential Geometry).

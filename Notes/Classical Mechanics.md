@@ -2,12 +2,13 @@
 tags:
   - Subject
 ---
+[[Central Hub]]
 # Overview
 
 # Basics
 - [[Trayectories in Physics]]
 - [[Newton's Laws]]
-	- [[Air Resistenance]]
+	- [[Air Resistance]]
 		- [[Linear Air Resistance]]
 		- [[Quadratic Air Resistance]]
 	- [[Motion of a Charge in a Uniform Field]]

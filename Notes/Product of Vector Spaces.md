@@ -1,4 +1,9 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
+
 Links: [[Vector Spaces]]
 
 Let $\{(V_i, +, \cdot)\}_{i=0}^n$ be a collection of vector spaces over the field $\mathbb F$. Then the _product of vector spaces is:_

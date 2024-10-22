@@ -2,6 +2,9 @@
 tags:
   - NumericalAnalysis
 ---
+Subjects: [[Numerical Analysis]]
+Links: [[Interpolation and Polynomial Approximation]],
+
 Let $x_0, \dots, x_n \in [a, b]$ be distinct and let the real numbers $f^{(k)}(x_i)$ be given for all $i \in \{0,\dots, n\}$ and for every $k\in \{0, \dots, m_i\}$. Then there's a unique polynomial of degree $M$, where $M=\sum_{ k = 0}^n m_k+ n$ . 
 
 Let $x_0, \dots, x_n$ be $n+1$ distinct numbers in $[a, b]$, and for $i \in \{0,1\dots, n\}$, let $m_i \in \Bbb N$. Suppose $f\in {\cal C}^m[a,b]$, where $m = \max\limits_{0 \le i \le n}m_i$.

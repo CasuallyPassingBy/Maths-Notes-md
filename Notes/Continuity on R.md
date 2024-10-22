@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Functional Limits in R]], [[Open and Closed Sets in R]]
 
 $f:D\to\Bbb{R}$, let $c\in D$, $f$ is a continuous at $c$ iff:

@@ -2,6 +2,8 @@
 tags:
   - Topology
 ---
+Subject: [[Topology]]
+
 We define a Jordan Curve $\Gamma$ as the image of a continuous and injective function $\gamma$, from $\Bbb S^1$ to $\Bbb R^2$. Meaning is a simple closed curve. The Jordan Curve Theorem states that $\Bbb R^2 \setminus \Gamma$ *is disconnected and consists of two components*. 
 
 We know that $\Gamma$ is compact, and we have that two compact sets are disjoint iff $\text{dist}(A, B)> 0$, and that $\gamma^{-1}$ is continuous

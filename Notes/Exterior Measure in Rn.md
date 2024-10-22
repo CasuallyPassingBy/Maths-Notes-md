@@ -2,6 +2,7 @@
 tags:
   - MeasureTheory
 ---
+Subjects: [[Measure Theory]]
 Links: [[Darboux Sums in Rn]], [[Cubes in Rn]]
 
 A rectangle $R$ in $\Bbb R^n$ is given by the product of $n$ one-dimensional closed and bounded intervals: $$R = \prod_{i = 1}^n[a_i, b_i]$$

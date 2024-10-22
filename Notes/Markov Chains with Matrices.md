@@ -1,4 +1,9 @@
-Tags: #LinearAlgebra #StochasticProcesses
+---
+tags:
+  - LinearAlgebra
+  - StochasticProcesses
+---
+Subjects: [[Linear Algebra]], [[Stochastic Processes]]
 Links: [[Matrix Limits]], [[Eigenspaces and Diagonal Matrices]]
 **********Def:********** A vector in $\Bbb R^n$ with all nonnegative entries that sum up to $1$ is called a ******************probability vector.******************
 

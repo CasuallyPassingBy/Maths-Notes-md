@@ -2,6 +2,7 @@
 tags:
   - VectorAnalysis
 ---
+Subjects: [[Vector Analysis]] 
 Links: [[Line Integral over a Vector Field]], [[Conservative Fields]], [[Riemann Integral in Rn]]
 Def:************ Let $F =(P,Q) :U\subseteq\Bbb R^2\to\Bbb R^2$ be $\cal C^1$on $U$, we can define $\nabla \times F$ as follows:
 

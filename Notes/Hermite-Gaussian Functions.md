@@ -2,6 +2,7 @@
 tags:
   - SpecialFunctions
 ---
+Subjects: [[Special Functions]]
 Links: [[Hermite Polynomials]]
 
 The *Hermite functions or the Hermite-Gaussian functions* $h_k (x)$ are defined by the generating identity $$\sum_{k = 0}^\infty h_k(x)\frac{t^k}{k!} = \exp\left(-\left(\frac{x^2}{2} -2tx +t^2 \right)\right)$$

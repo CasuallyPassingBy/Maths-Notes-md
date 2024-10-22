@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Continuity on R]], [[Normed Spaces]], [[Vector Spaces]], [[Bounded Function Spaces]], [[Continuity on Metric Spaces]], [[Compactness in Metric Spaces]]
 
 # Space of Continuous Functions

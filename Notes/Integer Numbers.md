@@ -4,6 +4,7 @@ tags:
   - NumberTheory
   - RingTheory
 ---
+Subjects: [[Set Theory]], [[Elementary Number Theory]], [[Ring Theory]]
 Links: [[Natural Numbers]], [[Equivalence Relations and Partitions]], [[Arithmetic of Natural Numbers]]
 
 We would like to construct the integers as the next logical step in the construction of mathematics.

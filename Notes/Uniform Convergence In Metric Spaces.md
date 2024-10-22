@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Space of Continuous Functions From Rn to Rm]], [[Sequence of Functions in Rn]], [[Compactness in Metric Spaces]], [[Continuous Function Spaces]], [[Bounded Function Spaces]]
 
 A sequence of functions $f_k: S \to X$, with $k \in \Bbb N$, _converges pointwise_ on $S$ to a function ${f:S \to X}$, if $f_k (z) \to f(z)$ on $X$ for all $z\in S$, we can denote it as $f_k \to f$. Meaning that for all $\varepsilon>0$ and $z \in S$ there’s $N \in \Bbb N$, if , then

@@ -3,6 +3,7 @@ tags:
   - RealAnalysis
   - VectorAnalysis
 ---
+Subjects: [[Real Analysis]], [[Vector Analysis]]
 Links: [[Fubini's Theorem]], [[Riemann Integral in R]], [[Improper Integrals in R]]
 ### Differentiation under the integral sign
 Let $f:[a,b]\times [c,d]\to \Bbb R$ continuous such that $\partial_y f$ exists and is continuous on ${[a,b]\times[c,d]}$. Let $g:[c,d] \to \Bbb R$ as:

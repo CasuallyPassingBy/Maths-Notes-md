@@ -2,6 +2,7 @@
 tags:
   - SetTheory
 ---
+Subjects: [[Set Theory]]
 Link: [[Filters and Ideals]]
 
 A $\pi$-system on a set $X$ is a collection $P$ of certain subsets of $C$ such that 

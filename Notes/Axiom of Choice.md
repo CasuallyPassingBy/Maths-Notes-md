@@ -8,6 +8,7 @@ tags:
   - Analysis
   - GroupTheory
 ---
+Subjects: [[Set Theory]]
 Links: [[ZF Axioms]]
 # Axiom of choice:
 $$ \forall X \left[ \varnothing \notin X \implies \exists f \colon X \rightarrow \bigcup X\quad \forall A \in X \, ( f(A) \in A ) \right] \,.$$

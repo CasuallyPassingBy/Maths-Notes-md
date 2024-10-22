@@ -2,6 +2,7 @@
 tags:
   - Macroeconomics
 ---
+Subjects: [[Macroeconomics]]
 Links: [[Composition of GDP]]
 
 Assuming that both exports and imports are zero, the demand of goods is the sum of consumption, investment, and government spending: $$Z = C + I +G$$

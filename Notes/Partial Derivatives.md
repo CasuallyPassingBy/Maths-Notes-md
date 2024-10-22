@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Differentiablity of Real valued functions of Rn]], [[Differentiability of Vector valued functions of Rn]], [[Fréchet-Derivative]], [[Mean Value Theorem for Fréchet Derivatives]]
 
 Let $V_1, \dots, V_n, W$ Banach spaces. The Cartesian product $V =V_1 \times \dots \times V_n$ with the norm: $$ \|(v_1, \dots, v_n) \|_{V} := \max_{j =1, \dots, n}\|v_j\|_{V_j}$$is a Banach space. The inclusion of the $j$th factor $$\iota_j:V_j \to V \qquad \iota_j(v) := (0, \dots, 0, v, 0, \dots, 0)$$

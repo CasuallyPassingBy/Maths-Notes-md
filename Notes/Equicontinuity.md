@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Continuity on Metric Spaces]]
 
 Let $(X, d_X)$ and $(Y, d_Y)$ be metric spaces, we can write $F(X, Y) = \{ f: X\to Y \mid f \text{ function}\} =\\^X Y = Y^X$. 

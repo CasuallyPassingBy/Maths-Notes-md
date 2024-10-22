@@ -2,6 +2,7 @@
 tags:
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]]
 Links: [[Continuous Functions in C]], [[Complex Numbers]], [[The Derivative on R]], [[Important Functions in Complex Numbers]]
 
 ****Def:**** Let $f:A\subseteq \Bbb C \to \Bbb C$ where $A\subseteq \Bbb C$ is an open set. The function $f$ is said to be _**************differentiable (in the comples sense)**************_ at $z_0 \in A$ if

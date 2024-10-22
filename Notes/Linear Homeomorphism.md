@@ -3,6 +3,7 @@ tags:
   - Analysis
   - LinearAlgebra
 ---
+Subjects: [[Metric and Normed Spaces]], [[Linear Algebra]]
 Links: [[Bounded Linear Operators]], [[Complete Metric Spaces]], [[Isomorphism of Vector Spaces]]
 
 **Def:** A linear bijective function $T:V \to W$ between two Banach spaces $V$ and $W$, that additionally is a homeomorphism is called a *Banach isomorphism*. 

@@ -2,6 +2,7 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
 Links: [[Random Vectors]], [[Expected Value of Random Variables]], [[Variance of Random Variables]], [[Singular Value Decomposition#Positive Definite Matrix| Positive definite matrix]]
 
 We define the expected value of a random vector $(X, Y)$ composed of two random variable with finite expected values, as the vector of the expected values as 

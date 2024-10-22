@@ -2,6 +2,7 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
 Links: [[Probability Functions for Random Variables]]
 
 There are a lot of discrete distributions for single values:

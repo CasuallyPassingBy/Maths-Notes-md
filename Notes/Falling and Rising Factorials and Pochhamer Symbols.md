@@ -2,6 +2,7 @@
 tags:
   - SpecialNotations
 ---
+Subjects: [[Special Notations]]
 We define the _******falling factorial******_ is defined as
 
 $$ (x)_n = x^{\underline n} = \prod_{k = 0}^{n-1} (x-k) = \prod_{k = 1}^n (x-k+1) $$

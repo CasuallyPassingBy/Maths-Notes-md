@@ -3,6 +3,7 @@ tags:
   - NumberTheory
   - AnalyticNumberTheory
 ---
+Subjects: [[Elementary Number Theory]], [[Analytic Number Theory]]
 Links: [[Prime Numbers]], [[Multiplicative Functions]]
 
 **Def:** Given a positive integer $n$, let $\tau(n)$ or $d(n)$ denote the number of divisors of $n$, and $\sigma(n)$ denote the sum of these divisors.

@@ -2,6 +2,7 @@
 tags:
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]]
 Links: [[Contour Integrals in C]], [[Analytic Functions]]
 
 Let $\Omega \subseteq \Bbb C$ be a region and $\gamma_i:[a_i, b_i]\to\Omega$ a piecewise smooth closed curve for $i \in \{1, \dots, n\}$. The union of the curves $\text{Im } \gamma_i$ along with their corresponding parametrizations $\gamma_i$ we will call it a cycle and we will denote it as

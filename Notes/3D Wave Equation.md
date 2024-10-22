@@ -3,6 +3,7 @@ tags:
   - "#FourierAnalysis"
   - "#PartialDifferentialEquations"
 ---
+Subjects: [[Fourier Analysis]], [[Partial Differential Equations]]
 Links: [[The Wave equation]], [[Fourier Transform in Rn]], [[Scalar Surface Integral]]
 
 If $\Bbb S^2$ denotes the unit sphere in $\Bbb R^3$, we define the *spherical mean* of $f$ over the sphere of radius $t$ centred at $x$ by $$M_t(f)(x) = \frac{1}{4\pi} \int_{\Bbb S^2} f(x-t\gamma)\, d\sigma(\gamma)$$where $d\sigma(\gamma)$ is the element of surface area for $\Bbb S^2$. Since $4\pi$ is the area of the unit sphere, we can interpret $M_t(f)$ as the average value of $f$ over the sphere centred at $x$ with radius $t$

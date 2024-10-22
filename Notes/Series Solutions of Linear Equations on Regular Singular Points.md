@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[Series Solutions of Linear Equations around Ordinary Points]], [[nth Order Linear Differential Equations]], 
 
 We are going to investigate linear equations with variable coefficients

@@ -4,6 +4,7 @@ tags:
   - SpecialFunctions
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]], [[Special Functions]], [[Special Polynomials]]
 ## Via Differential Equation
 
 A way to retrieve the Legendre polynomials is by solving the [[Important Differential Equations|Legendre Differential Equation]]:

@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[First Order Differential Equations]]
 ********Def:******** A ********first order separable differential equation******** is of the form
 

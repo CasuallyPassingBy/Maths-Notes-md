@@ -2,6 +2,7 @@
 tags:
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]]
 Links: [[Complex Numbers]]
 
 **Def:** The set $\Bbb C \cup \{\infty \}$ will be denoted as $\widehat{\Bbb C}$ , $\overline{\Bbb C}$, $\Bbb C^*$ or $\Bbb C_\infty$. We can also define if $z \in \Bbb C$, then ${z + \infty = \infty}$ and if $z \ne 0$, then $z \cdot \infty =\infty$ and $z/\infty =0$. Analogously, we cannot define consistently the expression such that $0\cdot \infty$, $0/\infty$, $\infty/0$, $\infty /\infty$ and even the identity ${\infty+\infty=\infty}$, but $\infty\cdot \infty= \infty$ is well defined.

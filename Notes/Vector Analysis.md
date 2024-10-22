@@ -2,7 +2,7 @@
 tags:
   - Subject
 ---
-Links: [[Real Analysis]]
+[[Central Hub]]
 # Overview
 
 Vector
@@ -13,7 +13,7 @@ Vector
 	- [[Series of Functions in Rn]]
 - [[Vector-valued functions of R]]
 	- [[Limits and Continuity of Vector Valued Functions of R]]
-		- [[Rectifiable Curves]]
+		- [[Rectifiable Curves in Rn]]
 	- [[Differentiabilty of vector valued functions of R]]
 		- [[Frenet–Serret formulas]]
 	- [[Integral of Vector Valued functions of R]]
@@ -25,6 +25,7 @@ Vector
 			- [[The Gradient]]
 			- [[Local Extrema of Real valued functions of Rn]]
 	- [[Vector Valued Functions of Rn]]
+		- [[Space of Continuous Functions From Rn to Rm]]
 		- [[Limits and Continuity of Vector valued functions of Rn]]
 			- [[Differentiability of Vector valued functions of Rn]]
 				- [[Inverse Function Theorem in Rn]]

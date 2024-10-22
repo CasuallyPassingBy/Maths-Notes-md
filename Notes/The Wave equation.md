@@ -3,6 +3,7 @@ tags:
   - PartialDifferentialEquations
   - FourierAnalysis
 ---
+Subjects: [[Fourier Analysis]], [[Partial Differential Equations]]
 Links: [[Harmonic Functions]], [[The Heat Equation]], [[Fourier Transform in Rn]], [[Fourier Transform in R]]
 
 The motion of a vibrating string satisfies the equation $$\frac{\partial^2 u}{\partial x^2} = \frac1{c^2}\frac{\partial^2 u}{\partial t^2}$$which is referred to as the one-dimensional wave equation.

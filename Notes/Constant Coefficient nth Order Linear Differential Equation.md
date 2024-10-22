@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[nth Order Linear Differential Equations]]
 # Homogeneous Equations with Constant Coefficients
 Consider the $n$th order linear homogeneous differential equation

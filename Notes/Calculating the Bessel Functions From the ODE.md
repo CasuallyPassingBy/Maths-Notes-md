@@ -3,6 +3,7 @@ tags:
   - OrdinaryDifferentialEquations
   - "#SpecialFunctions"
 ---
+Subjects: [[Ordinary Differential Equations]], [[Special Functions]]
 Links: [[Frobenius Method]], [[Bessel Functions]]
 
 The Bessel Functions are defined to be the solutions to the second order linear differential equation, with $\Re(\alpha) \ge 0$:

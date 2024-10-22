@@ -2,6 +2,7 @@
 tags:
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]]
 Links: [[Scalar Line Integral]], [[Integrals in C]]
 
 **********Def:********** Let $f: \Omega \subseteq \Bbb C \to \Bbb C$ continuous and $\gamma :[a,b]\subseteq \Bbb R \to \Omega$ a piecewise smooth. We define the **********_arc-length integral of $f$ over $\gamma$,_ denoted as

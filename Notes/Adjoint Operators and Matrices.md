@@ -1,6 +1,10 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
 Links: [[Space of Linear Transformations]], [[Matrix Representation of Linear Transformations]], [[Inner Products and Norms]], [[Orthogonal Complements]]
-************Def:************ Suppose $T \in \mathcal L(V, W)$. The _adjoint_ of $T$ is the function ${T^* :W \to V}$ such that
+**Def:** Suppose $T \in \mathcal L(V, W)$. The _adjoint_ of $T$ is the function ${T^* :W \to V}$ such that
 
 $$ \langle Tv, w\rangle = \langle v, T^*w\rangle $$
 
@@ -9,15 +13,10 @@ for every $v \in V$ and every $w\in W$.
 If $T \in \mathcal L(V,W)$, then $T^* \in \mathcal L(W, V)$.
 
 - ********************Properties********************
-    
     $( S+T)^* =S^*+T^*$, for all $S, T \in \mathcal L(V, W)$
-    
     $(\lambda T)^* = \overline \lambda T^*$, for all $\lambda \in \mathbb F$ and $T \in\mathcal L(V,W)$
-    
     $(T^*)^* = T$ for all $T \in \mathcal L(V,W)$
-    
     $I^* = I$, where $I$ is the identity operator on $V$
-    
     $(ST)^* = T^*S^*$ for all $T \in \mathcal L(V,W)$ and $S \in\mathcal L(W,U)$
     
 

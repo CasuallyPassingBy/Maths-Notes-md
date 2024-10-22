@@ -2,6 +2,8 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
+Links: [[Discrete Distributions]]
 This distribution is the discrete analogue of the [[Uniform Continuous Distribution]]
 
 Let $X$ be random variable with uniform distribution on a set of $n$ numbers $\{x_1, \dots, x_n\}$. This means that each of the members of the set has a probability of $1/n$. We denote it as ${X \sim \operatorname{unif}\{x_1, \dots, x_n\}}$, meaning has a distributive like this one.

@@ -2,7 +2,7 @@
 tags:
   - VectorAnalysis
 ---
-
+Subjects: [[Vector Analysis]] 
 Links: [[Open and Closed Sets in R]], [[Real Numbers]]
 Rn is a [[Vector Spaces|vector space]] over $\Bbb R$ with an inner product.
 Def:********** Let $x, y \in \Bbb R^n$, then we can define the dot product as

@@ -3,6 +3,7 @@ tags:
   - SpecialFunctions
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]], [[Special Functions]]
 Links: [[Poisson Summation Formula]], 
 
 We define the *theta function* $\vartheta(s)$ for $\Re(s)>0$ by $$\vartheta(s) \sum_{n = -\infty}^\infty e^{-\pi n^2 s}$$The condition on $s$ ensures the absolute convergence of the series. A crucial fact about this special function is that it satisfies the following functional equation.

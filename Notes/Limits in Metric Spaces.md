@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Continuity on Metric Spaces]], [[Functional Limits in R]], [[Limits and Continuity of real valued functions of Rm]], [[Limits and Continuity of Vector valued functions of Rn]]
 
 Let $X$, $Y$ be metric spaces, and $A$ be a subset of $X$, $f:A \to Y$ be a function, $x_0 \in \overline A$ and $y_0 \in Y$, we say that 

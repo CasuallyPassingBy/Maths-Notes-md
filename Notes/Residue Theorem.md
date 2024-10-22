@@ -2,7 +2,8 @@
 tags:
   - ComplexAnalysis
 ---
-Links: [[Analytic Functions]], [[Homology in C]], [[Isolated Singurities]], [[Laurent Series in C]]
+Subjects: [[Complex Analysis]]
+Links: [[Analytic Functions]], [[Homology in C]], [[Isolated Singularities]], [[Laurent Series in C]]
 
 Let $\Omega\subseteq \Bbb C$ be a region, $z_1, z_2, \dots, z_n \in \Omega$ and $f:\Omega\setminus\{z_1, \dots, z_n\} \to \Bbb C$ be a analytic, such that $z_k$ is an isolated singularity of $f$, and let choose $r_1, \dots, r_n$ positive real numbers such that 
 - $\overline B(z_k, r_k) \subseteq \Omega$ 

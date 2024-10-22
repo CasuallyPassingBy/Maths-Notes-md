@@ -2,6 +2,7 @@
 tags:
   - Statistics
 ---
+Subjects: [[Statistics]]
 Links: [[Interval estimation]], [[Ancillary Statistic]]
 
 **Def:** Let $X_1, \dots, X_n$ be a random sample of the density $f(x;\theta)$ and $\tau(\theta)$ be function of $\theta$. Let $T_1(\underline X)$ and $T_2(\underline X)$ be such that $T_1 \le T_2$ and $P(T_1 < \tau(\theta) < T_2) = \gamma$, where $0 < \gamma < 1$ independent of $\theta$. Then to $(T_1, T_2)$ is called a random interval and to a value fo the interval $(t_1, t_2)$ is called the confidence interval or interval of $\gamma$ confidence for $\tau(\theta)$.

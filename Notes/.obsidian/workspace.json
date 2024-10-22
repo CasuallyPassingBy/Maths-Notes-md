@@ -12,83 +12,69 @@
             "type": "leaf",
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
-            "id": "d6afeb0c34953958",
+            "id": "cb189a2c0f614f35",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Central Hub.md",
+                "file": "Metric and Normed Spaces.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Metric and Normed Spaces"
             }
           },
           {
-            "id": "93f5f5a8734b1a23",
+            "id": "ecaa9feafeb4e4f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Group Theory.md",
+                "file": "Differential Geometry.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Differential Geometry"
             }
           },
           {
-            "id": "2f204300ea6e493c",
+            "id": "f90d484777e56114",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Symmetric Groups.md",
+                "file": "Differentiable Functions on Differentiable Manifolds.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Differentiable Functions on Differentiable Manifolds"
             }
           },
           {
-            "id": "aa792d4ce4b931b1",
+            "id": "69eae39c71eadb6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Counting elements of Finite Groups.md",
+                "file": "Topological Manifolds.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "0db7d1ce97531e34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Normal Subgroups.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ec5ae8b17fb5518",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Subgroups.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Topological Manifolds"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +94,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -117,13 +105,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Bachelor",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -131,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -139,7 +131,9 @@
             "type": "leaf",
             "state": {
               "type": "tagfolder-view",
-              "state": {}
+              "state": {},
+              "icon": "stacked-levels",
+              "title": "Tag Folder"
             }
           },
           {
@@ -147,10 +141,13 @@
             "type": "leaf",
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -171,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Symmetric Groups.md",
+                "file": "Differentiable Functions on Differentiable Manifolds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +176,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Differentiable Functions on Differentiable Manifolds"
             }
           },
           {
@@ -188,10 +187,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Symmetric Groups.md",
+                "file": "Differentiable Functions on Differentiable Manifolds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Differentiable Functions on Differentiable Manifolds"
             }
           },
           {
@@ -200,8 +201,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Symmetric Groups.md"
-              }
+                "file": "Differentiable Functions on Differentiable Manifolds.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Differentiable Functions on Differentiable Manifolds"
             }
           },
           {
@@ -212,7 +215,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           }
         ]
@@ -233,36 +238,36 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2f204300ea6e493c",
+  "active": "82c953b926698826",
   "lastOpenFiles": [
-    "Subgroups.md",
+    "Metric and Normed Spaces.md",
+    "Higher Order Fréchet Derivatives.md",
     "Central Hub.md",
-    "Templates/New Math Note.md",
-    "Untitled.md",
-    "Templates",
-    "Symmetric Groups.md",
-    "Counting elements of Finite Groups.md",
+    "Umbral calculus.md",
+    "Definitions for Classical Umbral Calculus.md",
+    "Macroeconomics.md",
+    "Useful Identities.md",
+    "Finite Operator Calculus.md",
+    "Algorithms and Data Structures.md",
+    "Classical Mechanics.md",
+    "Special Notations.md",
+    "Special Numbers.md",
+    "Special Polynomials.md",
+    "Special Functions.md",
+    "Stochastic Processes.md",
+    "Statistics.md",
+    "Probability Theory.md",
+    "Numerical Analysis.md",
+    "Ordinary Differential Equations.md",
+    "Ring Theory.md",
     "Group Theory.md",
-    "Normal Subgroups.md",
-    "Frenet–Serret formulas.md",
-    "Bili.md",
-    "Bachelor's_Thesis/Round 1 Expo (Bachelor's).md",
+    "Linear Algebra.md",
+    "Fourier Analysis.md",
+    "Complex Analysis.md",
+    "Vector Analysis.md",
+    "Real Analysis.md",
+    "Templates",
     "Bachelor's_Thesis",
-    "Group Homomorphisms.md",
-    "Integers modulo n.md",
-    "Tensor Product.md",
-    "Boolean Algebras over Topological Spaces.md",
-    "Axiom of Choice.md",
-    "Isomorphism of Vector Spaces.md",
-    "Operations and Structures.md",
-    "Matrix Representation of Complex Numbers.md",
-    "Cyclic Groups.md",
-    "Divisor Functions.md",
-    "Functions.md",
-    "Real Numbers.md",
-    "Rational Numbers.md",
-    "Integer Numbers.md",
-    "Fourier Analysis on finite abelian groups.md",
     "Untitled.canvas",
     "Pasted image 20240627014411.png",
     "Pasted image 20240118182937.png",

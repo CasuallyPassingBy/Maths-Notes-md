@@ -2,6 +2,7 @@
 tags:
   - Topology
 ---
+Subject: [[Topology]]
 Links: [[Interior Points]], [[Limit Points and Closure]]
 
 We have another classification of sets, that are called regular open and regular closed. A subset $A$ of a topological space $(X, \tau)$ is a regular open set if $\text{int}(\text{cl}(A))= A$. . A subset $F$ of a topological space $(X, \tau)$ is a regular open set if $\text{cl}(\text{int}(F))= F$.

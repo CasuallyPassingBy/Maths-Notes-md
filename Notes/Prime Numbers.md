@@ -3,6 +3,7 @@ tags:
   - NumberTheory
   - "#AnalyticNumberTheory"
 ---
+Subjects: [[Elementary Number Theory]]
 Links: [[Greatest Common Divisor]], [[Lowest Common Multiple]]
 
 A number $p>1$ is _prime_ iff its only positive divisors are $1$ and $p$ itself.

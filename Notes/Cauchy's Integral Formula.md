@@ -2,6 +2,7 @@
 tags:
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]]
 Links: [[Homotopy Cauchy's Theorem]], [[Homology Cauchy's Theorem]], [[Analytic Functions]]
 
 **Def:** Let $\gamma$ be a closed curve in $\Bbb C$ and $z_0 \in \Bbb C$ be a point not on $\gamma$. Then, the _**index**_ of $\gamma$ with respect to $z_0$ (also called the _**winding number**_ of $\gamma$ with respect to $z_0$) is defined to be

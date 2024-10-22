@@ -3,6 +3,7 @@ tags:
   - FourierAnalysis
   - PartialDifferentialEquations
 ---
+Subjects: [[Fourier Analysis]], [[Partial Differential Equations]]
 Links: [[Harmonic Functions]], [[2D Harmonic Functions]], [[Fourier Transform in R]], [[Convolution#Rapidly Decreasing Functions|Convolution for Rapidly Decreasing Functions]]
 
 The equation we are concerned with is $$\Delta u = \frac{\partial^2 u}{\partial x^2} +\frac{\partial^2 u}{\partial y^2} = 0$$

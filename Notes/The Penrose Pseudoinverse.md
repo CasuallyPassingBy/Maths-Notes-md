@@ -2,7 +2,7 @@
 tags:
   - LinearAlgebra
 ---
-
+Subjects: [[Linear Algebra]]
 Links: [[Singular Value Decomposition]], [[Isomorphism of Vector Spaces#Invertibility|Invertibility]], [[Gram Matrices]]
 
 **Def:** Let $V$ and $W$ be a finite dimensional inner product spaces over the same field, and $T \in \mathcal L(V, W)$. Let $L \in \mathcal L(N(T)^\bot, R(T))$ defined by ${Lx =Tx}$ for all $x \in N(T)^\bot$, $L = T|_{N(T)^\bot}$. The **pseudoinverse** or Moore-Penrose generalized inverse of $T$, denoted by $T^+$, is defined by the unique linear transformation from $W$ to $V$ such that

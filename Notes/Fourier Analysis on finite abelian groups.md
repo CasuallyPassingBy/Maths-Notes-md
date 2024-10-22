@@ -3,7 +3,8 @@ tags:
   - FourierAnalysis
   - GroupTheory
 ---
-Links: [[Fourier Analysis on Z(N)]], [[Group Homomorphisms]]
+Subjects: [[Fourier Analysis]], [[Group Theory]]
+Links: [[Fourier Analysis on Z(N)]], [[Group Homomorphisms and Isomorphisms]]
 
 Let $G$ be a finite abelian group, and $\Bbb S^1$ the unit circle on the complex plane. A *character* on $G$ is a group homomorphism $e: G \to \Bbb S^1$. The *trivial* or *unit character* is defined by $e \equiv 1$.
 

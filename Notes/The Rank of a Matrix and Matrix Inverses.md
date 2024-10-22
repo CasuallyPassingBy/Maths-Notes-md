@@ -1,8 +1,12 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
 Links: [[Elementary Matrix Operations and Elementary Matrices]], [[Isomorphism of Vector Spaces]], [[Matrix Representation of Linear Transformations]]
 ********Def:******** If $A \in \cal M_{m \times n} (\Bbb F)$, we define the _****rank****_ of $A$, denoted $r(A)$ or $\operatorname{rank}(A)$ to be the rank of the linear transformation $L_A: \Bbb{F^n \to F^n}$
 
-******Th:****** Let $T: V \to W$ be a linear transformation between finite dimensional vector spaces, and let $\beta$ and $\gamma$ be ordered bases for $V$ and $W$, respectively. Then $r(T) = r([T]_\beta^\gamma)$
+**Th:** Let $T: V \to W$ be a linear transformation between finite dimensional vector spaces, and let $\beta$ and $\gamma$ be ordered bases for $V$ and $W$, respectively. Then $r(T) = r([T]_\beta^\gamma)$
 
 **************Th:************** Let $A$ be an $m \times n$ matrix. If $P$ and $Q$ are invertible $m \times m$ and $n \times n$ matrices respectively, then
 
@@ -13,7 +17,7 @@ and therefore
 
 - $r(PAQ)=r(A)$
 
-**********Cor:********** Elementary row and column operations on a matrix are rank-preserving
+**Cor:** Elementary row and column operations on a matrix are rank-preserving
 
 ********Th:******** The rank of any matrix equals the maximum number of its linearly independent columns; that is, the rank of a matrix is the dimension of th subspace genereated by the columns
 

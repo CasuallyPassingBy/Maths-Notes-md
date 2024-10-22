@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Continuity on R]], [[Functional Limits in R]]
 Let $f:D\to\Bbb{R}$, $f$ is _differentiable at $c\in D$,_ and the derivative of $f$ at $c$ if:
 

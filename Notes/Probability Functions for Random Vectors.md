@@ -2,6 +2,7 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
 Links: [[Probability Functions for Random Variables]], [[Random Vectors]]
 
 # Joint Probability Distribution

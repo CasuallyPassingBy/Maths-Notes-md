@@ -2,7 +2,7 @@
 tags:
   - SetTheory
 ---
- 
+Subjects: [[Set Theory]] 
 Links: [[Finite and Countable Sets]], [[Linear Orderings]]
 
 **************Lemma:************** If $A, B, A', B'$ are such that $|A| = |A'|$, $|B| = |B'|$, and, $A \cap B = \varnothing = A' \cap B'$, then $|A\cup B | = |A' \cup B'|$

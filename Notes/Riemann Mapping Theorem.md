@@ -2,6 +2,7 @@
 tags:
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]]
 Links: [[Logarithms of curves]], [[Homotopy in C]], [[Homology in C]], [[Homotopy Cauchy's Theorem]]
 
 The Riemann Mapping Theorem behaves as a huge connection to a lot of to numerous section of complex analysis, since it is a huge list of equivalences.

@@ -2,6 +2,9 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
+Links: [[Discrete Distributions]]
+
 We say that the random variable $X$ has a Bernoulli distribution with paramenter $p$, and denoted as $X\sim\operatorname{Ber}(p)$, if it has the following pmd,
 
 $$ f(x;p) = \begin{cases} p^{x}(1-p)^{1-x} & x = 0,1 \\ 0 & \text{otherwise} \end{cases} $$

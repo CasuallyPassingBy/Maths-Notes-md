@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Complete Metric Spaces]], [[Bounded Linear Operators]], [[Differentiability of Vector valued functions of Rn]], [[Bounded Linear Operators]], [[Limits in Metric Spaces]], [[Differentiabilty of vector valued functions of R]]
 
 Let $V$ and $W$ be a Banach space and $\Omega$ be an open subset of $V$, with this we can define the derivative:

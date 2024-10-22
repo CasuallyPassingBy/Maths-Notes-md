@@ -2,7 +2,9 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Double Series]], [[Tests for Series with Nonnegative terms]]
+
 _**Theorem:**_ A double series of nonnegative terms $\sum_{n,m= 1}^\infty z_{n,m}$ converges iff the set of partial sums $\{s_{n,m} : n,m\in\mathbb{N}\}$ is bounded.
 
 _**Corollary:**_ A double series of nonnegative terms $\sum_{n,m= 1}^\infty z_{n,m}$ either converges to a finite number or diverges towards $\infty$. ******

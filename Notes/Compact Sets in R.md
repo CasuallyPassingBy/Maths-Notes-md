@@ -2,7 +2,9 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Open and Closed Sets in R]]
+
 ***Def:*** A set $K \subseteq \Bbb{R}$ is ********sequentially compact******** if for every sequence in $K$ has a subsequence that converges to a limit that is also in $K$.
 
 ***Def:******* A set $A \subseteq \Bbb{R}$ is ********bounded******** if there’s $M>0$ such that $|a| \le M$ for all $a \in A$

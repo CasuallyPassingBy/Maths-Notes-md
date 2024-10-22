@@ -2,7 +2,8 @@
 tags:
   - ProbabilityTheory
 ---
-Links: [[Uniform Continuous Distribution]]
+Subjects: [[Probability Theory]]
+Links: [[Continuous Distributions]], [[Uniform Continuous Distribution]]
 
 This is an extension to the uniform continuous distribution.
 

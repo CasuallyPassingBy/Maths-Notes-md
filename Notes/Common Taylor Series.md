@@ -1,4 +1,4 @@
-Links: [[Taylor Series in R]], [[Trigonometric Identities]]
+Links: [[Taylor Series in R]], [[Trigonometric Identities]], [[Useful Identities]]
 # Exponential 
 $$e^x  = \exp(x) = \sum_{n = 1}^\infty \frac{x^n}{n!} \quad\text{for all $x \in \mathbb{C}$} $$
 

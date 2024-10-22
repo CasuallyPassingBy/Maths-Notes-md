@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[Series Solutions of Linear Equations on Regular Singular Points]]
 We sometimes want to investigate the solutions to an equation 
 
@@ -60,4 +61,4 @@ $$
 
 where $a$, $b$ have convergent power series expansions in powers of $1/x$ for $|x| >r_0$ for some ${r_0 >0}$
 
-This process is similar to what's is done studying [[Isolated Singurities#^1f45b1|isolated singularities at infinity]] in complex analysis
+This process is similar to what's is done studying [[Isolated Singularities#^1f45b1|isolated singularities at infinity]] in complex analysis

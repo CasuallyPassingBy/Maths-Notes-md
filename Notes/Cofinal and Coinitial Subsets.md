@@ -2,6 +2,7 @@
 tags:
   - SetTheory
 ---
+Subjects: [[Set Theory]]
 Links: [[Binary Relations]], [[Orderings]]
 
 Let $\le$ be a homogeneous relation on a set $A$. A subset $B$ is said to be *cofinal* or *frequent*, with respect to $\le$ if it satisfies that:

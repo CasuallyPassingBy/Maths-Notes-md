@@ -1,10 +1,13 @@
 ---
 tags:
   - ComplexAnalysis
+  - RingTheory
 ---
-**********Def: T**********he set of the complex numbers, denoted as $\mathbb{C}$, is given as the set
+Subjects: [[Complex Analysis]], [[Ring Theory]]
 
-$$ \Bbb{R[i]= C} = \{a +bi \mid a, b \in \Bbb R\land i^2 = -1\} $$
+**Def:** The set of the complex numbers, denoted as $\mathbb{C}$, is given as the set
+
+$$ \Bbb{R}[i] = \Bbb C = \{a +bi \mid a, b \in \Bbb R\land i^2 = -1\} $$
 
 with the following operations:
 

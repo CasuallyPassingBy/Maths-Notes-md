@@ -3,6 +3,7 @@ tags:
   - RealAnalysis
   - MeasureTheory
 ---
+Subjects: [[Real Analysis]], [[Measure Theory]]
 Links: [[Open and Closed Sets in R]], [[Real Numbers]], [[Sigma Algebra]]
 
 We define the *Borel sets* as those sets of reals that can be obtained from open and closed sets by means of repeatedly taking countable unions and intersections. 

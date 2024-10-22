@@ -2,6 +2,8 @@
 tags:
   - "#Subject"
 ---
+[[Central Hub]]
+
 - [[Gamma Function]]
 	- [[Related Functions to the Gamma Function]]
 - [[Digamma function]]

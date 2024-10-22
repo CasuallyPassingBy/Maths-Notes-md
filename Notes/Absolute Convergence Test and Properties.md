@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Series in R]]
 
 If $\sum |a_n|$ converges, then $\sum a_n$ it is said that it _converges absolutely._ If $\sum |a_n|$ diverges but $\sum a_n$ still converges, then $\sum a_n$ is said to it _converges conditionally._

@@ -2,7 +2,9 @@
 tags:
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]]
 Links: [[Analytic Functions]]
+
 We define the following partial derivatives as follows
 
 $$ \begin{align*} \frac{\partial}{\partial z} &= \frac{1}{2}\left(\frac{\partial}{\partial x} +\frac{1}{i}\frac{\partial}{\partial y}\right)=\frac{1}{2}\left(\frac{\partial}{\partial x} -{i}\frac{\partial}{\partial y}\right) \\ \frac{\partial}{\partial \overline z} &= \frac{1}{2}\left(\frac{\partial}{\partial x} -\frac{1}{i}\frac{\partial}{\partial y}\right)=\frac{1}{2}\left(\frac{\partial}{\partial x} +{i}\frac{\partial}{\partial y}\right) \end{align*} $$

@@ -1,5 +1,10 @@
-Tags: #VectorAnalysis 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Differentiablity of Real valued functions of Rn]]
+
 **********Def:********** Let $f:D\subseteq\Bbb R^n\to\Bbb R$ be a function that is differentiable at ${x\in D}$. The ***********_gradient of $f$ at $\mathbf x$_ is defined to be the vector
 
 $$ \begin{align*} (\operatorname{grad}f)(x) = \nabla f(x) &= \begin{pmatrix} \partial_1f(x)\\ \partial_2f(x)\\ \vdots \\ \partial_nf(x) \end{pmatrix} \end{align*} $$

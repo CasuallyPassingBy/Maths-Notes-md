@@ -2,6 +2,9 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
+Links: [[Discrete Distributions]]
+
 We say that a random variable $X$ is distributed geometrically with parameter $p$, written as ${X \sim \operatorname{geo}(p)}$ if it has a pmf being
 
 $$ f(x;p) = \begin{cases} p (1-p)^x & x \in \Bbb N \\ 0 & \text{otherwise} \end{cases} $$

@@ -1,4 +1,9 @@
-tags: #Axioms #SetTheory
+---
+tags:
+  - Axioms
+  - SetTheory
+---
+Subjects: [[Set Theory]]
 
 ## Axiom of Extensionality:
 

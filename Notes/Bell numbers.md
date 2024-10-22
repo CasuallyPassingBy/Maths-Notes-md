@@ -2,6 +2,7 @@
 tags:
   - Combinatorics
 ---
+Subjects: [[Special Numbers]]
 Links: [[Equivalence Relations and Partitions]]
 
 We say that the $n$th Bell number counts the amount possible partitions can a set of $n$ elements can have, and it is denoted as $B_n$. 

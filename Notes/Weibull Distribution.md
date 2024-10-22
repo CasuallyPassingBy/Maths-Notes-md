@@ -2,7 +2,8 @@
 tags:
   - ProbabilityTheory
 ---
-Links: [[Gamma Function]]
+Subjects: [[Probability Theory]]
+Links: [[Continuous Distributions]], [[Gamma Function]]
 
 A random variable $X$ has a Weibull distribution with parameters $\alpha>0$ and $\lambda>0$, denoted as ${X \sim \operatorname{Weibull}(\alpha, \lambda)}$, if the pdf is
 

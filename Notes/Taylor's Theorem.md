@@ -2,6 +2,8 @@
 tags:
   - ComplexAnalysis
 ---
+
+Subjects:  [[Complex Analysis]]
 Links: [[Analytic Functions]], [[Taylor Series in R]], [[Power Series in R]], [[Analytic Convergence]], [[Higher Derivatives of Analytic Functions]]
 
 ********Def:******** Let $f:\Omega\subseteq \Bbb C \to \Bbb C$ analytic, $z_0 \in \Omega$ and $n\in \Bbb N$. We define $n$th degree Taylor polynomial of $f$ at $z_0$, (denoted by Paez as $p_{n , f, z_0}$) but the context good to just say

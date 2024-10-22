@@ -2,9 +2,10 @@
 tags:
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]]
 Links: [[Contour Integrals in C]], [[Analytic Functions]], [[Homology in C]]
 
-Def: Let $\Omega \subseteq\Bbb C$ be a region. We say that $\Omega$ is simply connected if $\hat{\Bbb C}\setminus \Omega$ is connected in $\hat{\Bbb C}$. ^a4ab7b
+Def: Let $\Omega \subseteq\Bbb C$ be a region. We say that $\Omega$ is simply connected if $\hat{\Bbb C}\setminus \Omega$ is connected in $\hat{\Bbb C}$.
 
 Let $\Omega \subseteq \Bbb C$ be a region. The the region $\Omega$ is simply connected iff for every $\gamma\subseteq \Omega$ closed piecewise smooth and for every $z \in \Bbb C\setminus \Omega$ we have that $n(\gamma;z)= 0$
 

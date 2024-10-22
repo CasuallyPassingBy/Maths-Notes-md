@@ -1,4 +1,8 @@
-Tags: #VectorAnalysis 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Implicit Function Theorem in Rn]], [[Inverse Function Theorem in Rn]], [[Differentiability of Vector valued functions of Rn]], [[The Gradient]]
 
 Let:

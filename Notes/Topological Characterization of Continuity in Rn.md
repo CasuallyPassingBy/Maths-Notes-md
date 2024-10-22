@@ -1,5 +1,10 @@
-Tags: #VectorAnalysis
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Continuity on R]], [[Compact Sets in Rn]], [[Connected Sets in Rn]]
+
 A function $f: D\subseteq\Bbb R^n\to \Bbb R^m$ is continuous iff for each open subset $V$ of $\Bbb R^m$ the inverse image:
 
 $$ f^{-1}[V] =\{x \in D \mid f(x) \in V\} $$

@@ -1,6 +1,7 @@
 ---
 tags:
 ---
+Subjects: [[Finite Operator Calculus]]
 Links: [[Delta Operators]]
 
 **Def:** A polynomial sequence $s_n(x)$ is called a *Sheffer set* or a set *Sheffer polynomials for the delta operator* $Q$ if

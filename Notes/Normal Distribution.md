@@ -2,6 +2,9 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
+Links: [[Continuous Distributions]]
+
 A random variable $X$ has a normal distribution with parameters, $\sigma >0$, and $\mu \in \Bbb R$, we denote it as $X \sim N(\mu , \sigma^2)$, if the pdf is of the form
 
 $$ f(x;\mu, \sigma^2) = \frac{1}{\sqrt{2\pi \sigma^2}}e^{-(x-\mu)^2/2\sigma} $$

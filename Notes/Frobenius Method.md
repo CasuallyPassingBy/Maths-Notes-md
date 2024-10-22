@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[Series Solutions of Linear Equations on Regular Singular Points]], [[Power Series in R]]
 ## Second order equations with regular points
 

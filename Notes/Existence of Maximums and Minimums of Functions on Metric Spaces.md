@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Continuity on Metric Spaces]], [[Compactness in Metric Spaces]]
 
 Let $f:X \to \overline {\Bbb R}$ for the rest of this section

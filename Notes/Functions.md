@@ -2,6 +2,7 @@
 tags:
   - SetTheory
 ---
+Subjects: [[Set Theory]]
 Links: [[Binary Relations]], [[Cartesian Product]]
 
 # Functions

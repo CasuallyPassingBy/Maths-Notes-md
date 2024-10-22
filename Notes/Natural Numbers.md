@@ -1,4 +1,8 @@
-Tags: #SetTheory 
+---
+tags:
+  - SetTheory
+---
+Subjects: [[Set Theory]]
 Links: [[ZF Axioms]], [[Orderings]]
 We can define the natural numbers as
 

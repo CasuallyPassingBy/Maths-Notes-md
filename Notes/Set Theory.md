@@ -2,6 +2,7 @@
 tags:
   - "#Subject"
 ---
+[[Central Hub]]
 # Overview
 
 # Topics
@@ -9,7 +10,7 @@ tags:
 - [[ZF Axioms]]
 - [[Axiom of Choice]]
 
-- [[Basic Operations]]
+- [[Basic Set Theoretic Operations]]
 	- [[Set Equality and Inclusion]]
 - [[Cartesian Product]]
 	- [[Binary Relations]]

@@ -2,6 +2,8 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
+
 **Def:** A second order ordinary differential equation has the form
 
 $$ y'' = f(t, y, y') $$

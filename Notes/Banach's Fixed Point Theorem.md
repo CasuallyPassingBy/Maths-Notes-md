@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Complete Metric Spaces]], [[Continuity on Metric Spaces#Lipschitz Continuity|Lipschitz Continuity]]
 Let $\phi:X\to X$ it is called a _contraction_ if there exists $\alpha\in (0,1)$ such that
 

@@ -2,7 +2,7 @@
 tags:
   - SetTheory
 ---
-
+Subjects: [[Set Theory]]
 Links: [[Natural Numbers]], [[Ordinal Numbers#The Transfinite Recursion Theorem, Parametric Version|Stronger recursion Theorem]], [[Alephs]]
 
 **Def:** A _binary operation_ on $S$ is a function from $S^2$ into $S$. Nonletter symbols such as $+, \cdot, _, \triangle$, etc. are often used to denote operations. The output of the function is dented as $x_y$ instead of $*(x, y)$.

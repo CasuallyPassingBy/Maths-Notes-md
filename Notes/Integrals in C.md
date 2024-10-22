@@ -2,11 +2,12 @@
 tags:
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]]
 Links: [[Continuous Functions in C]]
 
 # Integrals in $\Bbb C$
 
-P******rop:****** Let $\gamma:I\subseteq \Bbb R \to \Bbb C$ and $f:\Omega\subseteq \Bbb C \to \Bbb C$ . If $\gamma$ is differentiable at $t_0 \in I$ and $f$ is differentiable at $\gamma(t_0) =z_0 \in A$, then $f \circ \gamma$ is differentiable at $t_0$ and
+**Prop:** Let $\gamma:I\subseteq \Bbb R \to \Bbb C$ and $f:\Omega\subseteq \Bbb C \to \Bbb C$ . If $\gamma$ is differentiable at $t_0 \in I$ and $f$ is differentiable at $\gamma(t_0) =z_0 \in A$, then $f \circ \gamma$ is differentiable at $t_0$ and
 
 $$ (f \circ \gamma)'(t_0) = f'(\gamma(t_0))\gamma'(t_0) $$
 

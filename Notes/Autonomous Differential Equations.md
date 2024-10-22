@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[First Order Differential Equations]]
 ********Def:******** A differential equations where the independent variable doesn’t appear are important enough to get their own name, **********autonomous********** and are of the form
 

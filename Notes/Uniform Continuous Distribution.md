@@ -2,6 +2,9 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
+Links: [[Continuous Distributions]]
+
 Let $X$ be a radom variable with uniform distribution on the interval $(a,b)$, and we write ${X \sim \operatorname{unif}(a,b)}$, when the pdf is of the form
 
 $$ f(x) \begin{dcases} \dfrac{1}{b-a} & x \in (a,b) \\ \\ 0 \end{dcases} $$

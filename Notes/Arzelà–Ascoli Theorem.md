@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Space of Continuous Functions From Rn to Rm]], [[Compact Sets in Rn]], [[Compactness in Metric Spaces]], [[Complete Metric Spaces]], [[Continuous Function Spaces]], [[Total Boundedness]], [[Relative Compactness in Metric Spaces]], [[Compact Sets]]
 
 For the rest of this section, let $K=(K, d_K)$ be a compact metric space and $(X, d_X)$ be a metric space, then we will consider the space of continuous functions

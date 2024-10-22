@@ -2,7 +2,8 @@
 tags:
   - ProbabilityTheory
 ---
-Links: [[Exponential Distribution]]
+Subjects: [[Probability Theory]]
+Links: [[Continuous Distributions]], [[Exponential Distribution]]
 
 Let $X$ be a random variable with a gamma distribution with parameters $\alpha >0$ and $\lambda>0$, written ${X \sim \Gamma(\alpha, \lambda)}$, if the pdf is of the form
 

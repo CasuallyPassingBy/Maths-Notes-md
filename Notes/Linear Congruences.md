@@ -2,7 +2,9 @@
 tags:
   - NumberTheory
 ---
+Subjects: [[Elementary Number Theory]]
 Links: [[Integers modulo n]]
+
 ********Th:******** The linear congruence $ax\equiv b \pmod n$ has solution iff $d \mid b$, where $d = \gcd(a,n)$. If ${d\mid b}$, then it has $d$ mutually incongruent solutions modulo $n$.
 
 By solving the Diophantine equation $ax+ny = b$, and the solutions will be of the form

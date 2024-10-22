@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[Separable Differential Equations]], [[First Order Differential Equations]]
 
 **********Def:********** Let $M, N:U\subseteq \Bbb R^2 \to \Bbb R$ that are $\cal C^1$, and $U$ is an open set then the differential equation

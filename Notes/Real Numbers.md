@@ -4,6 +4,8 @@ tags:
   - RealAnalysis
   - RingTheory
 ---
+
+Subjects: [[Set Theory]], [[Real Analysis]], [[Ring Theory]]
 Links: [[Rational Numbers]], [[Linear Orderings]], [[Operations and Structures]]
 
 We already defined them, as the completion of the [[Rational Numbers]] using linear orderings.

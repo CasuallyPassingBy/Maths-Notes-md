@@ -1,4 +1,8 @@
-Tags: #VectorAnalysis 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 **********Def:********** A cube in $\Bbb R^n$ is a rectangle $C \subseteq \Bbb R^n$ with all of its dimensions being equal, i.e. ${C = \prod_{i = 1}^n}[a_i, b_i]$, then for any $1\le i, j\le n$, $(b_j-a_j) = (b_i - a_i)$. The value ${s = b_i-a_i}$ is called the cube’s dimension.
 
 ************Prop:************ If $C = \prod_{i = 1}^n [a_i, b_i]$ is a cube with dimension $s$ and center $c = (c_i)_{i = 1}^n \in C$, then ${c_i = a_i + \frac{s}{2}}$ for all $i$ , and the diagonal of $C$ has length of $s\sqrt{n}$, i.e. $d(C) = s\sqrt{n}$

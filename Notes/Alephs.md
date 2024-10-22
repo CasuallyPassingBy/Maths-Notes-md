@@ -2,7 +2,7 @@
 tags:
   - SetTheory
 ---
-
+Subjects: [[Set Theory]]
 Links: [[Ordinal Numbers]]
 
 **Def:** An ordinal number $\alpha$ is called an **initial ordinal** if it is not equipontent to any $\beta < \alpha$

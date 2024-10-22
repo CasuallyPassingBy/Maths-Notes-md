@@ -1,6 +1,10 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
 Links: [[Matrix Representation of Linear Transformations]], [[Eigenspaces and Diagonal Matrices]], [[Jordan Normal Form#Jordan Block Powers and Limits|Jordan Block Powers and Limits]]
-**********Def:********** Let $(A_n)$ be a sequence of $n\times p$ matrices having complex entries. The sequence $(A_n)$ is said to _**converge**_ if there’s an $n\times p$ matrix $L$ called the _****limit****_ of the sequence that
+**Def:** Let $(A_n)$ be a sequence of $n\times p$ matrices having complex entries. The sequence $(A_n)$ is said to _**converge**_ if there’s an $n\times p$ matrix $L$ called the _****limit****_ of the sequence that
 
 $$ \lim_{n\to\infty} (A_n)_{ij} = L_{ij} $$
 

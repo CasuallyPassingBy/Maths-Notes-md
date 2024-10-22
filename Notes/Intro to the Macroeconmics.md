@@ -2,6 +2,7 @@
 tags:
   - "#Macroeconomics"
 ---
+Subjects: [[Macroeconomics]]
 # GDP
 
 The measure of *aggregate output* in the national income called the *gross domestic product* of *GDP*, for short. 

@@ -2,6 +2,7 @@
 tags:
   - ClassicalMechanics
 ---
+Subjects: [[Classical Mechanics]]
 Links: [[Kinetic Energy and Work in Classical Mechanics]]
 
 A force $\bf F$ acting on a particle is **conservative** iff it satisfies two conditions

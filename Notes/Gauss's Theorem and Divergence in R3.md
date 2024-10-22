@@ -1,4 +1,8 @@
-Tags: #VectorAnalysis #DifferentialGeometry 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links:[[Vector Surface Integral]], [[Riemann Integral in Rn]], [[Divergence Theorem in R2]]
 
 Prop:************ Let $F =(P,Q, R) :U\subseteq\Bbb R^3\to\Bbb R^3$ be $\cal C^1$on $U$, then we can define $\nabla \cdot F$ as follows:

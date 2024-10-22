@@ -2,6 +2,7 @@
 tags:
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]]
 Links: [[Infinite Products]]
 
 **Def**: Let $f_n: A \subseteq \Bbb C \to \Bbb C$, be a sequence of function. We say that the product $f = \prod\limits_{n = 1}^\infty f_n$  **converges pointwise** on $A$, if for every $z\in A$ $\prod\limits_{n = 1}^\infty f_n(z)$ converges. If $\prod\limits_{n = 1}^\infty f_n$ converges pointwise on $A$, we can define $R_n(z) = \prod\limits_{k = n+1}^\infty f_k$, and it will converge pointwise. We say that $\prod\limits_{n = 1}^\infty f_n$ **converges uniformly** on $B\subseteq A$ if $R_n \rightrightarrows 1$ on $B$

@@ -3,7 +3,7 @@ tags:
   - VectorAnalysis
   - RealAnalysis
 ---
-
+Subjects: [[Real Analysis]], [[Vector Analysis]]
 Links: [[Jordan Measure]], [[Riemann Integral in Rn]], [[Riemann Integral in R]]
 **Def:** Let $A \subseteq \Bbb R^n$ . $A$ has **Lebesgue measure** $0$ (denoted $\lambda(A) = 0$)if for any $\varepsilon>0$, there’s a countable family of rectangles $\{R_i\}_{i \in \Bbb N}$ such that:
 

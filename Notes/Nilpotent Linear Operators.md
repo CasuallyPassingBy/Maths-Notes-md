@@ -2,6 +2,7 @@
 tags:
   - LinearAlgebra
 ---
+Subjects: [[Linear Algebra]]
 Links: [[Null Space and Range]]
 ### Null Spaces of Powers of an Operator
 **Th:** Let $T : V \to V$ be a linear operator, then

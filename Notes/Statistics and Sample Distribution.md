@@ -2,6 +2,7 @@
 tags:
   - "#Statistics"
 ---
+Subjects: [[Statistics]]
 Links: [[Random Variables]], [[Random Vectors]], [[Normal Distribution]], [[Chi-squared Distribution]], [[F-distribution]], [[Student's t-distribution]]
 
 **Def:** A *random sample* is a collection of random variables $X_1, \dots, X_n$ that satisfy that they are independent and the have the same distribution. The number $n$ is called the *sample size*.

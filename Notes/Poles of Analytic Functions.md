@@ -2,6 +2,7 @@
 tags:
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]]
 Links: [[Zeros of Analytic Functions]], [[Analytic Functions]]
 
 **Def:** Let $z_0 \in \Bbb C$ be an isolated singularity of the function $f$. We say that $z_0$ is a pole of $f$ if

@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Series of Functions in Rn]], [[Series in R]], [[limsup and liminf]]
 **********Def:********** Let $f_n= a_n(x-c)^n$, for all $n\in\Bbb N$. Then the series of of the form
 

@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[Variation of Parameters for Second Order Differential Equations]], [[nth Order Linear Differential Equations]], [[Constant Coefficient nth Order Linear Differential Equation]]
 
 The method of variation of parameters for determining a particular solution of the nonhomogeneous $n$th order linear differential equation $$L[y] = y^{(n)} + \sum_{k = 0}^{n-1}p_k(t) y^{(k)} = g(t)$$Suppose that we know a fundamental set of solutions $y_1, \dots, y_n$ of the homogeneous equation. Then the general solution of the homogeneous equation is $$y_c = \sum_{k = 1}^n c_k y_k$$

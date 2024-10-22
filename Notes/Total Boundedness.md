@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Compactness in Metric Spaces]], [[Complete Metric Spaces]] 
 
 A subset $A$ of $X$ is _totally bounded_ if for all $\varepsilon>0$, there’s a finite number of points $a_1, \dots, a_m \in A$ such that

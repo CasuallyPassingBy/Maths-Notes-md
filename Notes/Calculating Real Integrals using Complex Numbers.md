@@ -2,6 +2,7 @@
 tags:
   - ComplexAnalysis
 ---
+Subjects: [[Complex Analysis]]
 Links: [[Residue Theorem]], [[Riemann Integral in R]], [[Contour Integrals in C]], [[Cauchy Principal Value in R]]
 
 # Strategy 1

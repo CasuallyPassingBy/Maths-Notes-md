@@ -1,4 +1,8 @@
-Tags: #VectorAnalysis 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Riemann Integral in R]] [[Riemann-Steiltjes Integral on R]], [[Vector-valued functions of R]]
 
 **Def:** Let $f:[a,b]=I\to \Bbb R^n$, and $\alpha\in BV(I)$. We say that ${f \in \mathcal{R}_I(\alpha)}$, if for every $1 \le k \le n$, ${\pi_k \circ f=f_k \in\mathcal{R}_I(\alpha)}$. If this is the case we define:

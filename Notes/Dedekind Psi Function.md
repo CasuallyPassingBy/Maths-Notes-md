@@ -3,6 +3,7 @@ tags:
   - AnalyticNumberTheory
   - NumberTheory
 ---
+Subjects: [[Elementary Number Theory]], [[Analytic Number Theory]]
 Links: [[Jordan Totient Functions]], [[Möbius Function and Inversion Formula]], [[Multiplicative Functions]]
 
 The Dedekind Psi function is closely related to the Euler phi function by the formula

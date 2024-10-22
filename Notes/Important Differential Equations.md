@@ -3,6 +3,7 @@ tags:
   - OrdinaryDifferentialEquations
   - PartialDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]], [[Partial Differential Equations]]
 Links: [[Second Order Linear Differential Equations]]
 # ODE
 

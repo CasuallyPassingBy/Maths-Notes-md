@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Let $f : \mathbb{N} \to \mathbb{R}$ is defined to be a sequence. Usually denoted as $(a_n)_{n \in \mathbb{N}}$ or $(a_n)_{n = 1}^{\infty}$ since it is easier to work without the number zero in this case.
 
 ## **Definition**

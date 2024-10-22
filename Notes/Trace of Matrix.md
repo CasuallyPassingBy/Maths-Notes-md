@@ -2,6 +2,7 @@
 tags:
   - LinearAlgebra
 ---
+Subjects: [[Linear Algebra]]
 Links: [[Determinants]], [[Eigenvalues]], [[Jordan Normal Form]], [[Gauss's Theorem and Divergence in R3]], [[Divergence Theorem in R2]]
 
 The *trace* of an $n\times n$ square matrix $A$ is defined as $$\text{tr}(A) = \sum_{i = 1}^n a_{ii}$$

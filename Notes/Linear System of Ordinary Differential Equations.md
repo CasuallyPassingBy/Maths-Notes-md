@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[First Order Linear Differential Equations]], [[Existence and Uniqueness of Solutions to Systems of Differential Equations]]
 
 Let $P(t)$ be a $n\times n$ matrix function, and $g$ be a vector function then $$x' = P(t) x+g(t)$$

@@ -1,5 +1,10 @@
-Tags: #VectorAnalysis 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Jordan Measure]], [[Riemann Integral in Rn]], [[Lebesgue Criterion]]
+
 **********Def:********** Let $f:A\subseteq\Bbb R^n \to \Bbb R$ be bounded over $A$. We define $f_A: \Bbb R^n\to \Bbb R$ as
 
 $$ f_A(x) =\begin{dcases} f(x) & x\in A \\ 0 & x\not \in A \end{dcases} $$

@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Continuity on R]], [[Functional Limits in R]]
 We can define that a function might be discontinuous at some point, but it can be right, or left continuous. We formally define $f$ is right-continuous at the point $c$ if the following holds: for any $\varepsilon>0$, there’s a $\delta >0$ such that if $x$ is in the domain, with ${c < x <c+\delta}$, then
 

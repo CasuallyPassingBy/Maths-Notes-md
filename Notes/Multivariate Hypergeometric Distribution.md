@@ -2,7 +2,8 @@
 tags:
   - ProbabilityTheory
 ---
-Links: [[Hypergeometric Distribution]]
+Subjects: [[Probability Theory]]
+Links: [[Discrete Distributions]], [[Hypergeometric Distribution]]
 
 As the name implies we are extending the notion of the Hypergeometric distribution.
 

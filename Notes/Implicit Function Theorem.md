@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Implicit Function Theorem in Rn]], [[Fréchet-Derivative]], [[Linear Homeomorphism]], [[Partial Derivatives]], [[Linear Homeomorphism]], [[Inverse Function Theorem in Rn]]
 
 Let $Y$ be a Banach space, $\Omega$ an open subset of $Y$, $\varphi:\Omega\to \Bbb R^m$ a class $¸\mathcal C ^1$ function, and $c \in \Bbb R^m$. Our interest lies in getting information about the set of solutions $u \in \Omega$, with the equation $$\varphi(u) = c$$which we denote $$M := \{u \in \Omega \mid \varphi(u) = c\}$$
@@ -38,7 +39,7 @@ We get that $$\varphi(v, w) = 0 \iff T_0^{-1}\varphi(v, w) = 0 \iff \psi_v(w) =w
 - The function $f:B_V(v_0, \delta) \to W$ is of class $\mathcal C^1$ and $$f'(v) = -[\partial_2\varphi(v, f(v))] ^{-1}\circ \partial _1 \varphi(v, f(v))$$
 
 # Implicit Function Theorem
-Let $V, W, Z$ be Banach spaces, $\Omega$ an open subset of $V\times W$, $(v_0 w_0)\in \Omega$ and $\varphi:\Omega \to Z$ be a function of class $\mathcal C^k$ on $\Omega$. If $\varphi(v_0, w_0) = c$, and $\partial_2 \varphi(v_0, w_0) \in \mathcal B(W, Z)$ is a Banach isomorphism, then there exists $\delta, \eta>0$ such that $B_V(v_0, \delta) \times B_W(w_0, \eta) \subseteq \Omega$ and a function $f: B_V(v_0, \delta) \to W$ of class $\mathcal C^k$ has the following properties:
+Let $V, W, Z$ be Banach spaces, $\Omega$ an open subset of $V\times W$, $(v_0, w_0)\in \Omega$ and $\varphi:\Omega \to Z$ be a function of class $\mathcal C^k$ on $\Omega$. If $\varphi(v_0, w_0) = c$, and $\partial_2 \varphi(v_0, w_0) \in \mathcal B(W, Z)$ is a Banach isomorphism, then there exists $\delta, \eta>0$ such that $B_V(v_0, \delta) \times B_W(w_0, \eta) \subseteq \Omega$ and a function $f: B_V(v_0, \delta) \to W$ of class $\mathcal C^k$ has the following properties:
 - The set of solutions $(v, w) \in B_V(v_0, \delta) \times B_W(w_0, \eta)$ of the equation $$\varphi(v, w)=c$$coincide with the function, meaning $f(v) = w$. In particular $f(v_0) = w_0$ and $f(v) \in B_W(w_0, \eta)$ for all $v \in B_V(v_0, \delta)$ 
 - For each $v \in B_V(v_0, \delta)$ it satisfies that $\partial_2\varphi(v, f(v))$ is a Banach isomorphism and $$f'(v) = - [\partial_2\varphi(v, f(v))]^{-1} \circ \partial_1 \varphi(v, f(v))$$
 **Cor:** If $c\in \Bbb R$ is a regular value of $\varphi:\Omega \to \Bbb R^m$ and $u = v_0+w_0\in M$ with $v_0 \in T_uM$ and $w_0 \in W_u$, then there exists $\delta, \eta>0$ and a function $f:B_{T_uM}(v_0, \delta) \to W_u$ of class $\mathcal C^1$ such that

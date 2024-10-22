@@ -1,4 +1,8 @@
-Tags: #VectorAnalysis #DifferentialGeometry 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Intro to Surfaces]], [[Riemann Integral in Rn]]
 **********Def:********** Let $S$ be a surface parameterized by $\sigma:A\subseteq\Bbb R^2\to \Bbb R^3$ and $F:S\subseteq \Bbb R^3\to \Bbb R^3$ such that each $F_k\circ \sigma$ be integrable over $A$, for $k =1,2,3$. We define the surface integral of $F$ over $S$ with the parameterization $\sigma$, as
 

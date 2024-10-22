@@ -2,6 +2,7 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
 Links: [[Conditional Probability]], [[Random Vectors]], [[Probability Functions for Random Vectors]], [[Marginal Probability Functions]]
 We have that the conditional probability, is that given two events $A$ and $B$, then 
 

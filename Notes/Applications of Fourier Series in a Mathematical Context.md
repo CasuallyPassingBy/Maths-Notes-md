@@ -2,6 +2,7 @@
 tags:
   - FourierAnalysis
 ---
+Subjects: [[Fourier Analysis]]
 Links: [[Convergence of Fourier Series]], [[Main definitions for Fourier Analysis]]
 
 # Isoperimetric inequality
@@ -18,7 +19,7 @@ By Green's Theorem we have that $$J(\Omega) = \frac1{2}\left|\int_0^{2\pi} x(s) 
 # Weyl's equidistribution theorem
 If $x$ is a real number, and let $\lfloor x \rfloor$ is the greatest integer less than or equal to $x$, and we call $\lfloor x \rfloor$ is the *integer part* of $x$. The *fractional part* of $x$ is defined by $\{ x \} = x - \lfloor x \rfloor$
 
-We can look at the [[Quotient Group]] $\Bbb R/\Bbb Z$, then we can consider that tag each $x + \Bbb Z$, with the representative $\{x\}$.
+We can look at the [[Normal Subgroups and Quotient Groups|quotient group]] $\Bbb R/\Bbb Z$, then we can consider that tag each $x + \Bbb Z$, with the representative $\{x\}$.
 
 If we have a real number $\gamma \ne 0$, and we look at the sequence $\gamma, 2\gamma, 3\gamma, \dots$ If we reduce it modulo $\Bbb Z$, that is we look at the sequence of fractional parts $$\{\gamma\}, \{2\gamma\}, \{3\gamma\}, \dots$$
 Some trivial stuff is:

@@ -2,7 +2,7 @@
 tags:
   - Subject
 ---
-Links: [[Real Analysis]], [[Vector Analysis]]
+[[Central Hub]]
 # Overview
 # Topics
 - [[Complex Numbers]]
@@ -35,7 +35,7 @@ Links: [[Real Analysis]], [[Vector Analysis]]
 		- [[Analytic Convergence]]
 	- [[Zeros of Analytic Functions]]
 		- [[Argument Principle]]
-		- [[Isolated Singurities]]
+		- [[Isolated Singularities]]
 			- [[Laurent Series in C]]
 			- [[Removable Singularities]]
 			- [[Poles of Analytic Functions]]

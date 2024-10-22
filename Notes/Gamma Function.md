@@ -3,7 +3,7 @@ tags:
   - SpecialFunctions
   - ComplexAnalysis
 ---
-
+Subjects: [[Complex Analysis]], [[Special Functions]]
 Links:[[Related Functions to the Gamma Function]], [[Poles of Analytic Functions]], [[Infinite Product of Functions]]
 
 What we want $f: U \to \Bbb C$ such that

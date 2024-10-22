@@ -2,6 +2,7 @@
 tags:
   - Statistics
 ---
+Subjects: [[Statistics]]
 Links: [[Interval estimation]], [[Asymptotic Properties of Estimators]], [[Unbiased Point Estimation]], [[Maximum Likelihood estimators]]
 
 We have that if $f(x; \theta)$ satisfies the regularity conditions, and $\hat \theta$ be the maximum likelihood estimator, then when $n \to \infty$, $$\hat \theta \sim N\left(\theta, \frac{1}{I_{\underline X}(\theta)}\right)$$

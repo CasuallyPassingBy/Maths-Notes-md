@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[First Order Differential Equations]], [[Second Order Linear Differential Equations]]
 The Riccati equation in the narrowest sense is any first-order ODE that is quadratic in the unknown function.
 

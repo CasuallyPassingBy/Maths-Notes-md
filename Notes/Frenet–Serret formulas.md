@@ -1,7 +1,12 @@
-Tags: #VectorAnalysis #DifferentialGeometry
+---
+tags:
+  - VectorAnalysis
+  - DifferentialGeometry
+---
+Subjects: [[Vector Analysis]], [[Differential Geometry]]
 Links: [[Differentiabilty of vector valued functions of R]], [[Rectifiable Curves in Rn#Arc-lenght Parametrization|Arc-lenght Parametrization]]
 
-******Def:****** Let $\gamma:E\subseteq\Bbb R\to\Bbb R^n$ be a twice differentiable arc-length parametrization of a curve $\gamma(E)$ in $\Bbb R^n$:
+**Def:** Let $\gamma:E\subseteq\Bbb R\to\Bbb R^n$ be a twice differentiable arc-length parametrization of a curve $\gamma(E)$ in $\Bbb R^n$:
 
 - The unit tangent vector $\gamma'(s)$ at $s \in E$ will also be denoted as $T(s)$
     

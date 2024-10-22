@@ -3,6 +3,7 @@ tags:
   - FourierAnalysis
   - "#QuantumMechanics"
 ---
+Subjects: [[Fourier Analysis]], [[Quantum Mechanics]]
 Links: [[Poisson Summation Formula]], [[Fourier Transform in R]], [[Probability Functions for Random Variables]], [[Expected Value of Random Variables]], [[Variance of Random Variables]]
 
 The basic understanding of the law, formulated in vaguest most general form, states that a function and its Fourier transform cannot both be localised.

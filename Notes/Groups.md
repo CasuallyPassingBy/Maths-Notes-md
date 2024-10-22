@@ -2,6 +2,7 @@
 tags:
   - "#GroupTheory"
 ---
+Subjects: [[Group Theory]]
 Links: [[Operations and Structures]]
 
 **Def:**
@@ -14,6 +15,11 @@ A *group* is an ordered pair $(G, *)$ where $G$ is a set and $*$ is a binary ope
 2. there exists an element $e\in G$, called the *identity* of $G$, such that for all $a\in G$ we have $a*e = e*a = a$.
 3. For each $a\in G$ there exists $a^{-1}\in G$, called the *inverse* of $a$, such that $a*a^{-1} = a^{-1}*a = e$.
 The group $(G, *)$ is called *abelian* (or *commutative*) if $a*b = b*a$ for all $a, b\in G$. We say that $G$ is a *finite group* if the set $G$ is finite.
+
+**Prop:** Let $G$ be group, the following equivalent:
+- $G$ is abelian
+- if for all $a, b\in G$, $(ab)^2 = a^2 b^2$
+- there exists $n\in \Bbb N$ such that for all $a,b\in G$, has that $(ab)^k= a^k b^k$, for $k\in\{n, n+1, n+2\}$. 
 
 **Prop:** If $G$ is a group under the operation $*$, then:
 - the identity of $G$ is unique
@@ -31,3 +37,4 @@ The group $(G, *)$ is called *abelian* (or *commutative*) if $a*b = b*a$ for all
 **Prop:** Let $G$ be a set and $*$ an associative binary operation on $G$. Assume that $G$ has a right identity, and every element has a right inverse, then $(G, *)$ is a group. 
 
 **Def:** Let $G = \{g_1, g_2, \dots, g_n\}$ be a finite group with $g_1 = e$. The *multiplication table* or *group table*of $G$ is the $n\times n$ matrix whose $i, j$ entry is the group element $g_i g_j$.
+

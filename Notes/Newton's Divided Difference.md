@@ -2,6 +2,9 @@
 tags:
   - NumericalAnalysis
 ---
+Subjects: [[Numerical Analysis]]
+Links: [[Interpolation and Polynomial Approximation]],
+
 Suppose $P_n$ is a polynomial interpolating that agrees with the function $f$ on the points $x_0, \dots x_n$. This polynomial is unique, but we can represent it in a different way. The divided differences of $f$ with respect to $x_0, \dots, x_n$ are used to express $P_n$ in the form
 
 $$

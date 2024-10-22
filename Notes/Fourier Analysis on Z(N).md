@@ -3,7 +3,8 @@ tags:
   - FourierAnalysis
   - GroupTheory
 ---
-Links: [[Main definitions for Fourier Analysis]]
+Subjects: [[Fourier Analysis]], [[Group Theory]]
+Links: [[Main definitions for Fourier Analysis]], [[Cyclic Groups]], [[Integers modulo n]]
 
 Let $N$ be a positive positive integer. A complex number $z$ is an $n$th root of unity if $z^n = 1$. The set of all roots of unity is precisely $$\left\{1, e^{2\pi i/N}, e^{2\pi i 2/N}, \dots, e^{2\pi i (n-1)/n}\right\}$$
 So if $\zeta = e^{2\pi i/N}$, we find that $\zeta^k$ generates all the roots of unity and additionally, we see that $$\zeta^k = \zeta^m \iff N \mid m-k$$

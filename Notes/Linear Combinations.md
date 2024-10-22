@@ -1,4 +1,8 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
 Links: [[Vector Spaces]], [[Vector Subspaces]]
 ## Definition
 Let $S$ be a non-empty subset of $V$ (a vector space over a field $\mathbb{F}$), a vector $v \in V$ is a a _**linear combination**_ of vectors of $S$ if exist a finite number of vectors $\{ u_i\}_{i=1}^n$ $\subseteq S$ and scalars $\{a_i\}_{i=1}^n\subseteq \mathbb{F}$ such that $v = \sum_{i=1}^na_iv_i$, $\{a_i\}_{i=1}^n$ are called the coefficients of the linear combination.

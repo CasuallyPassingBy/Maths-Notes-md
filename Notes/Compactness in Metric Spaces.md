@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Compact Sets in R]], [[Compact Sets in Rn]], [[Continuity on Metric Spaces]], [[Topology on Metric Spaces]]
 
 **Def**: A **cover** of $A$ on $X$ is a family ${\frak C}=\{ X_i \mid i \in \cal I\}$ of substets of $X$ such that
@@ -60,9 +61,11 @@ $$ \hat K = \bigcup_{v \in K}\overline B(x, \delta) $$
 
 is compact iff $\dim V <\infty$
 
-$(M, d)$ be a metric space, then the following are equiv:
-- $(M, d)$ is compact
-- $(M, d)$ is sequentially compact
-- $(M, d)$ is complete and totally bounded
-- $(M, d)$ is countably compact, meaning that if $A \subseteq M$ is infinite, then $A' \ne \varnothing$
-- $(M, d)$ is pseudocompact, meaning every $f:M \to \Bbb R$ continuous is bounded. 
+
+
+$(M, d)$ be a metric space, then the following are equivalent:
+- $(M, d)$ is [[Compactness|compact]]
+- $(M, d)$ is [[Sequentially compactness|sequentially compact]]
+- $(M, d)$ is [[Complete Metric Spaces|complete]] and [[Total Boundedness|totally bounded]]
+- $(M, d)$ is [[Countable compactness|countably compact]]
+- $(M, d)$ is [[Psuedocompactness|pseudocompact]]

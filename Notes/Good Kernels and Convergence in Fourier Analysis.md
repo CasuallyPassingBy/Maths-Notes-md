@@ -2,6 +2,7 @@
 tags:
   - FourierAnalysis
 ---
+Subjects: [[Fourier Analysis]]
 Links: [[Main definitions for Fourier Analysis]], [[Convolution]]
 
 **Def:** A family of kernels $\{K_n(x)\}_{n = 1}^\infty$ on the circle is said to be a family of *good kernels* if it satisfies the following properties:

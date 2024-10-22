@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Metric Spaces]], [[Vector Spaces]], [[Rn]]
 Let $V$ be a vector space over $\Bbb R$. A _***norm**_ of $V$ is a function $\| \cdot\|: V \to \Bbb R$ that
 

@@ -2,6 +2,7 @@
 tags:
   - Topology
 ---
+Subject: [[Topology]]
 Links: [[Compactness in Metric Spaces]]
 
 A subset of $A$ of $X$ is called *dense in* $X$ if $\overline A= X$, i.e. if for all $x\in X$ there's a sequence $(a_n)$ in $A$ such that $a_k \to x$ in $X$. 

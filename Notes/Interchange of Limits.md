@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[The Derivative on R]], [[Continuity on R]], [[Riemann Integral in R]]
 ### Differentiable Limit Theorem
 Let $f_n \to f$ on $[a,b]$, and that each $f_n$ is differentiable. If $(f'_n)$ converges uniformly on $[a,b]$ to a function $g$, then the function $f$ is differentiable and $f' =g$

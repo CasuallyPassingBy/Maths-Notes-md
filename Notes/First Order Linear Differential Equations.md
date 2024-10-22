@@ -1,8 +1,11 @@
 ---
 tags:
   - OrdinaryDifferentialEquations
-links: "[[First Order Differential Equations]]"
+links:
 ---
+Subjects: [[Ordinary Differential Equations]]
+Links: [[First Order Differential Equations]]
+
 *********Def:********* A _first order linear differential equation_ is of the form
 
 $$ y' +p(t)y= q(t) $$

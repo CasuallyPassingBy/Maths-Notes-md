@@ -1,4 +1,9 @@
-Tags: #RealAnalysis #VectorAnalysis
+---
+tags:
+  - RealAnalysis
+  - VectorAnalysis
+---
+Subjects: [[Real Analysis]], [[Vector Analysis]]
 Links: [[Limits of a Sequence in R]]
 ## Pointwise Convergence
 

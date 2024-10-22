@@ -2,6 +2,7 @@
 tags:
   - LinearAlgebra
 ---
+Subjects: [[Linear Algebra]]
 Links: [[Vector Spaces]], [[Eigenspaces and Diagonal Matrices]], [[Characteristic and Minimal Polynomial of a Linear Transformation]], [[Eigenvalues]], [[Jordan Normal Form]]
 
 **Def**: Suppose $V$ a real vector space:

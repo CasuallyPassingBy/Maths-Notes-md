@@ -1,5 +1,10 @@
-Tags: #VectorAnalysis
-Links: [[Sequences in Rn]], [[Rn]]
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
+Links: [[Sequences in Rn]], [[Rn]], [[Compact Sets in R]]
+
 **********Def:********** A set $K \subseteq \Bbb R^n$ is _sequentially compact_ if for every sequence $(x_n)$ contained in $K$ there’s a convergent subsequence that converges in $K$.
 
 ************Th:************ A set $K \subseteq \Bbb R^n$ is sequentially compact iff $K$ is close and bounded

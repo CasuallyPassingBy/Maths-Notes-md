@@ -2,6 +2,7 @@
 tags:
   - LinearAlgebra
 ---
+Subjects: [[Linear Algebra]]
 Links: [[Adjoint Operators and Matrices]]
 ### Normal Operators
 

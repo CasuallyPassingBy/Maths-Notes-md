@@ -2,6 +2,8 @@
 tags:
   - SpecialFunctions
 ---
+Subjects: [[Special Functions]]
+
 Links: 
 
 The Bessel functions are canonical solutions $y(x)$ of [[Important Differential Equations#ODE|Bessel's differential equation]]: $$x^2 y'' + xy' (x^2-\alpha^2)y = 0$$

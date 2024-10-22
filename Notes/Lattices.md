@@ -2,6 +2,7 @@
 tags:
   - SetTheory
 ---
+Subjects: [[Set Theory]]
 Links: [[Orderings]]
 
 Let $(S, \le)$ be a partially ordered set, $S$ is a _meet-semilattice_ if for any $a,b \in S$, then $\inf\{a,b\}$ exists and denoted as $a \wedge b$. It can also be thought as $(S, \land)$ as a algebraic structure, with these properties:

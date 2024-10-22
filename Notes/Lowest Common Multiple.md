@@ -2,6 +2,7 @@
 tags:
   - NumberTheory
 ---
+Subjects: [[Elementary Number Theory]]
 Links: [[Greatest Common Divisor]]
 
 Given $a, b \in \Bbb Z^*$ we can define their _least common multiple_ as the positive integer ${m = \operatorname{lcm}(a,b)}$, such that:

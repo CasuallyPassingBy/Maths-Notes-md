@@ -1,4 +1,8 @@
-Tags: #SetTheory 
+---
+tags:
+  - SetTheory
+---
+Subjects: [[Set Theory]]
 Links: [[Orderings]]
 
 **********Def:********** A set $W$ is ******well-orderd****** by the relation $<$ if

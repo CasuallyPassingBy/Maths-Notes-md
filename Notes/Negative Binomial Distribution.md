@@ -2,7 +2,9 @@
 tags:
   - ProbabilityTheory
 ---
-Links: [[Geometric Distribution]]
+
+Subjects: [[Probability Theory]]
+Links: [[Discrete Distributions]], [[Geometric Distribution]]
 
 We say the $X$ is a random variable with a negative binomial distribution with parameters $r \in \Bbb N^+$ and $p \in [0,1]$, and we write $X \sim \operatorname{bin\, neg}(r,p)$ if the the pmf of $X$ has the form
 

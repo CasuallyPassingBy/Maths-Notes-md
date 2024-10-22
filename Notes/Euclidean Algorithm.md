@@ -2,6 +2,7 @@
 tags:
   - NumberTheory
 ---
+Subjects: [[Elementary Number Theory]]
 Links: [[Greatest Common Divisor]]
 
 ## Division Algorithm

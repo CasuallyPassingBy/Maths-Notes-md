@@ -2,7 +2,7 @@
 tags:
   - Subject
 ---
-
+[[Central Hub]]
 # Overview
 
 # Topics
@@ -14,7 +14,7 @@ tags:
 		- [[Minimal Sufficiency for Statistics]]
 	- [[Complete Statistics]]
 	- [[Ancillary Statistic]]
-- [[Point estimation]]
+- [[Point Estimation]]
 	- [[Method of Moments]]
 	- [[Maximum Likelihood estimators]]
 	- [[Bayesian Approach to Point Estimators]]

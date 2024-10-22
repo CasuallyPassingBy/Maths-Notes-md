@@ -2,6 +2,7 @@
 tags:
   - FourierAnalysis
 ---
+Subjects: [[Fourier Analysis]]
 Links: [[Main definitions for Fourier Analysis]], [[Improper Integrals in R]], [[Good Kernels and Convergence in Fourier Analysis]] 
 
 A function $f$ defined on $\Bbb R$ is said to be of *moderate decrease* if $f$ is there exist constants $A >0$ and $\alpha > 1$so that $$|f(x)| \le \frac{A}{1+x^\alpha} \qquad \forall x \in \Bbb R$$

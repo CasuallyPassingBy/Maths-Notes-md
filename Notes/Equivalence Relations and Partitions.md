@@ -1,5 +1,10 @@
-Tags: #SetTheory 
+---
+tags:
+  - SetTheory
+---
+Subjects: [[Set Theory]]
 Links: [[Binary Relations]]
+
 Let $R$ be a binary relation on $A$, if $R$ is reflexive, symmetric and transitive, then $R$ is an _equivalence relation on $A$._
 
 Let $E$ be an equivalence relation on $A$. The _equivalence class of $a$ modulo $E$_ is the set:

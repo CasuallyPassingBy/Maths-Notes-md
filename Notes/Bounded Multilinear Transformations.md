@@ -3,6 +3,7 @@ tags:
   - Analysis
   - LinearAlgebra
 ---
+Subjects: [[Metric and Normed Spaces]], [[Linear Algebra]]
 Links: [[Multilinear Transformation]], [[Bounded Linear Operators]]
 
 If $V_i= (V_i, \|\cdot\|_{V_i})$ for $i \in \{1, \dots, n\}$ and $W= (W, \|\cdot \|_W)$ be normed spaces. Let $F\in \mathcal L(V_1, \dots, V_n;W)$. Then the following are equivalent:

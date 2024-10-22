@@ -3,6 +3,7 @@ tags:
   - ComplexAnalysis
   - SpecialFunctions
 ---
+Subjects: [[Complex Analysis]], [[Special Functions]]
 Links: [[Gamma Function]], [[Dirichlet Series]], [[Prime Numbers]], [[Infinite Product of Functions]], [[Dirichlet Eta Function]]
 
 We see that the zeta function was studied by Euler, and it gave us values for the positive even integers:

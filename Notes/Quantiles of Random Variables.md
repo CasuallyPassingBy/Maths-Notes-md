@@ -2,6 +2,7 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
 Links: [[Random Variables]]
 
 Let $p$ be a in $(0,1)$. It is called the quantile of order $p$ of a random variable $X$, or of its distribution function, to any real number $x_p$ that satisfies this conditions 

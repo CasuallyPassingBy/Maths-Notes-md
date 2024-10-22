@@ -2,6 +2,9 @@
 tags:
   - Statistics
 ---
+Subjects: [[Statistics]]
+Links: [[Point Estimation]]
+
 **Def:** Let $X_1, \dots, X_n$ be a random sample of a population with density $f(x; \theta)$. We define the *likelihood function* as the joint density function of the sample and is denoted as $L(\theta) = L(\theta \mid \underline x)$. Meaning $$L(\theta)  = f_{\underline X}(\underline x; \theta) = \prod_{i = 1}^n f_{X_i}(x_i; \theta)$$
 **Def:** Let $X_1, \dots, X_n$ be a random sample of a population with density $f(x; \theta)$, and $L(\theta)$ be the corresponding likelihood function. $\hat \theta = T(\underline X)$ is called the *maximum likelihood estimator* of $\theta$, if it satisfies that for any $\theta \in \Theta$, then $L(\hat \theta) \ge L(\theta)$.
 

@@ -2,6 +2,9 @@
 tags:
   - ClassicalMechanics
 ---
+Subjects: [[Classical Mechanics]]
+Links: [[Air Resistance]]
+
 In this case we are going to solve the equation
 
 $$ m \dot{\bf v} = m\bf g +f $$

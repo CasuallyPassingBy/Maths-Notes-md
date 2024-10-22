@@ -2,7 +2,8 @@
 tags:
   - Statistics
 ---
-Links: [[Point estimation]]
+Subjects: [[Statistics]]
+Links: [[Point Estimation]]
 
 While point estimates provide a single best guess of the parameter, they do not convey information about the uncertainty associated with the estimate. Interval estimation addresses this limitation by providing a range of plausible values for the parameter, along with a confidence level that quantifies the degree of certainty.
 

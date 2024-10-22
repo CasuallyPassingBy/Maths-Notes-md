@@ -1,5 +1,10 @@
- Tags: #VectorAnalysis 
-Links: [[Differentiablity of Real valued functions of Rn]], [[Norm of Linear Operators for finite dimensions]], [[Space of Linear Transformations]]
+---
+tags:
+  - VectorAnalysis
+---
+
+Subjects: [[Vector Analysis]]  
+Links: [[Differentiablity of Real valued functions of Rn]], [[Norm of Linear Operators for finite dimensions]], [[Space of Linear Transformations]], [[The Rank of a Matrix and Matrix Inverses]]
 
 # Injective functions and their Inverses
 
@@ -56,13 +61,11 @@ Let $f:D\subseteq\Bbb R^n\to\Bbb R^n$ be of class $\cal C^1$ on an open set $D$ 
     
 
 ## Straightening-Out Theorem
-
 Let $f:D\subseteq \Bbb R^n\to \Bbb R$, be a class $\cal C^k$ function with $k \ge 1$, and $D$ open in $\Bbb R^n$. Let $x_0 \in D$ suppose $f(x_0) =0$ and $\nabla f(x_0)\ne \mathbf 0$. Then there is an open set $U$, and open set $V$ containing $x_0$, and a function $h: V\to U$ of class $\cal C^k$ with inverse $h^{-1}:U\to V$ of class $\cal C^k$ such that
 
 $$ (f\circ h)(x_1, \dots, x_n) = x_n $$
 
 ### Straightening-Out Theorem V.2.
-
 Let $f:D\subseteq \Bbb R^n\to \Bbb R^m$ with $m\le n$, be a class $\cal C^k$ function with $k \ge 1$, and $D$ open in $\Bbb R^n$. Let $x_0 \in D$ suppose $f(x_0) =\mathbf 0$ and $\dim(\operatorname{Im}(df_{x_0})) = m$. Then there is an open set $U$, and open set $V$ containing $\mathbf x_0$, and a function $h: V\to U$ of class $\cal C^k$ with inverse $h^{-1}:U\to V$ of class $\cal C^k$ such that
 
 $$ (f\circ h)(x_1, \dots, x_n) = (x_{n-m+1}, \dots, x_n) $$
@@ -79,6 +82,6 @@ for all $x \in D$.
 
 Let $D\subseteq\Bbb R^n$ be open, $f:D\to \Bbb R^N$ be a $\cal C^k$ function where $\dim(\operatorname{Im}df_x) =m$ for all $x$ in an open neighborhood of $x_0\in A$. Then there is are open sets $U, V\subseteq\Bbb R^n$ such that $x_0 \in V$ and a function $h: U\to V$ of class $\cal C^k$ with inverse $h:V\to U$ of class $\cal C^k$such that $f\circ h$ only depends on $x_1,\dots, x_m$. This is that $(f\circ h) (x_1, \dots, x_n) = \tilde f(x_1, \dots, x_m)$ for some $\cal C^k$ function
 
-**********Cor:********** Let $D\subseteq\Bbb R^n$ be open, $f:D\to \Bbb R^N$ be a $\cal C^k$ function where $\dim(\operatorname{Im}df_x) =m$ for all $\mathbf x$ in an open neighborhood of $\mathbf x_0\in A$. Then there are open sets $U_1, U_2 \in \Bbb R^n$ with $x_0 \in U_2$ and $V_1 , V_2 \subseteq\Bbb R^N$ with $f(x_0) \in V_1$, and functions $h:U_1 \to U_2$ and $g: V_1\to V_2$ of class $\cal C^k$ with inverses of class $\cal C^k$ such that
+**Cor:** Let $D\subseteq\Bbb R^n$ be open, $f:D\to \Bbb R^N$ be a $\cal C^k$ function where $\dim(\operatorname{Im}df_x) =m$ for all $\mathbf x$ in an open neighborhood of $\mathbf x_0\in A$. Then there are open sets $U_1, U_2 \in \Bbb R^n$ with $x_0 \in U_2$ and $V_1 , V_2 \subseteq\Bbb R^N$ with $f(x_0) \in V_1$, and functions $h:U_1 \to U_2$ and $g: V_1\to V_2$ of class $\cal C^k$ with inverses of class $\cal C^k$ such that
 
 $$ (g\circ f\circ h)(x_1, \dots, x_n) = (x_1,\dots, x_m, 0,\dots, 0) $$

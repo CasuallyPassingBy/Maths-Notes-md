@@ -2,6 +2,7 @@
 tags:
   - Statistics
 ---
+Subjects: [[Statistics]]
 Links: [[Interval estimation]]
 
 **Def**: A statistical hypothesis is an assertion about the distribution of one or more random variables. A hypothesis specifies completely the distribution is called *simple hypothesis*. A hypothesis that is not simple it is called a *composite hypothesis*. 

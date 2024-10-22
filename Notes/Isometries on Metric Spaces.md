@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Isometries in Vector Spaces]], [[Metric Spaces]], [[Normed Spaces]]
 
 Let $X=(X, d_X)$ and $Y =(Y, d_Y)$ be metric spaces. A function $\phi:X \to Y$ is an ********isometry******** if for any $x_1, x_2 \in X$, it satisfies that

@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Series in R]], [[Series of Functions in Rn]], [[Uniform Convergence In Metric Spaces]], [[Power Series in R]]
 
 Let $V =(V, \|\cdot \|)$ is normed vector space and $(v_k)$ is a sequence in $V$

@@ -2,7 +2,7 @@
 tags:
   - Subject
 ---
-
+[[Central Hub]]
 # Overview
 I am using mainly Boyce, Di Prima "Elementary Differential Equations and Boundary Problems". 
 

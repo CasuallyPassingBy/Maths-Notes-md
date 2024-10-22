@@ -2,6 +2,7 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
 Links: [[Expected Value, and Covariance of Random Vectors]]
 
 We define the *correlation coefficient between two random variables* $X$ and $Y$ with finite variances and nonzero, as the number 

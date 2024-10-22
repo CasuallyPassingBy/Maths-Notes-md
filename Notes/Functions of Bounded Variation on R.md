@@ -2,6 +2,8 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
+
 Let $f$ be defined on $[a,b]$. If $P=\{x_i\}_{i=0}^n$ is a partition of $[a,b]$, and ${\Delta f_k = f(x_k)-f(x_{k-1})}$, for all $k \le n$. If there’s an $M >0$ such that:
 
 $$ \sum_{k=1}^n |\Delta f_k| \le M $$

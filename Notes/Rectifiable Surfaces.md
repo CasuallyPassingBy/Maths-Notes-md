@@ -1,5 +1,11 @@
-Tags: #VectorAnalysis #DifferentialGeometry #Reasearch
+---
+tags:
+  - VectorAnalysis
+  - DifferentialGeometry
+---
+Subjects: [[Vector Analysis]], [[Differential Geometry]]
 Links: [[Intro to Surfaces]], [[Rectifiable Curves in Rn]] 
+
 ********Def:******** Let $f:R =[a, b]\times [c,d] \to \Bbb R^n$, with $n \ge 3$. Let $\cal P$ be a partition of $R$, then we will define polyhedral approximation of the surface area as
 
 $$ \text{A}(f, \mathcal P) = \sum_{i = 1}^k\sum_{j = 1}^m\|(f(x_i, y_{j-1}) - f(x_{i-1}, y_{j-1}) ) \wedge (f(x_{i-1}, y_j) -f(x_{i-1}, y_{j-1}) )\| $$

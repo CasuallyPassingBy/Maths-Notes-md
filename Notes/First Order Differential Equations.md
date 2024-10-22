@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 **Def:** A first order differential equation is of the form
 
 $$ \frac{dy}{dt} = f(t, y) $$

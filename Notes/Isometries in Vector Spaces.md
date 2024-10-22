@@ -3,6 +3,7 @@ tags:
   - LinearAlgebra
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]], [[Linear Algebra]]
 Links: [[Normal and Hermitian Operators]], [[Adjoint Operators and Matrices]]
 
 **Def:** Let $V$ be a dimensional inner product space over a field $\mathbb F$, and ${T \in \mathcal L(V)}$. If $\|Tv\| =\|v\|$ for all $v \in V$, then $T$ is an **isometry**. We call $T$ a **unitary operator** if $\mathbb {F=C}$ and an **orthogonal operator** if ${\mathbb {F= R}}$. In infinite dimensional vector spaces, if the operator that preserves norms, and is surjective, then it is an **isometry.**

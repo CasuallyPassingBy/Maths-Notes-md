@@ -1,4 +1,8 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
 Links: [[Dual Spaces]], [[Inner Products and Norms]], [[Orthogonal Bases#Riesz Representation Theorem|Riesz Representation Theorem]]
 If $U$ is a subset of $V$, then the _****orthogonal complement****_ of $U$, denoted $U^\bot$, is the set of all vectors of all vectors $V$ that are orthogonal to every vector in $U$
 

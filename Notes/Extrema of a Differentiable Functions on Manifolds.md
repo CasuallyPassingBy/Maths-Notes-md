@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[Fréchet-Derivative]], [[Lagrange Multipliers]], [[Implicit Function Theorem]], [[Existence of Maximums and Minimums of Functions on Metric Spaces]]
 
 Let $\Omega$ be an open subset of an Banach space $Y$, $\varphi:\Omega\to \Bbb R^m$ class $\mathcal C^1$, $c \in \Bbb R^m$ and $M:= \varphi^{-1}[\{c\}] = \{u \in \Omega\mid \varphi(u) = c \}$.   

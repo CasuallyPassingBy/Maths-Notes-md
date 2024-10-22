@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Functional Limits in R]], [[limsup and liminf]]
 
 Let $f: E \to\Bbb R$ and $a$ a limit point of $E$. Then we can define

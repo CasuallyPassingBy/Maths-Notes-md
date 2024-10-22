@@ -2,6 +2,7 @@
 tags:
   - Statistics
 ---
+Subjects: [[Statistics]]
 Links: [[Confidence Intervals]], [[Normal Distribution]], [[Chi-squared Distribution]], [[Student's t-distribution]], [[F-distribution]]
 
 We need a some properties of the normal distribution, and adjacent distributions

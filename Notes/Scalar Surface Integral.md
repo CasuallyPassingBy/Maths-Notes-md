@@ -1,5 +1,10 @@
-Tags: #VectorAnalysis #DifferentialGeometry 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Intro to Surfaces]], [[Riemann Integral in Rn]]
+
 **********Def:********** Let $S$ be a surface parameterized by $\sigma:A\subseteq\Bbb R^2\to \Bbb R^3$ and $f:S\subseteq \Bbb R^3\to \Bbb R$ such that $f\circ \sigma$ be integrable over $A$. We define the surface integral of $f$ over $S$ with the parameterization $\sigma$, as
 
 $$ \int_S f\, dS=\int_S f \,\|d\sigma\| = \int_A f(\sigma(x,y))\cdot \left\|\frac{\partial \sigma}{\partial x}(x,y) \times \frac{\partial \sigma}{\partial y}(x,y)\right\| $$

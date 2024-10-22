@@ -2,6 +2,7 @@
 tags:
   - NumericalAnalysis
 ---
+Subjects: [[Numerical Analysis]]
 Links: [[Error In Numerical Analysis]]
 Suppose that $E_0>0$ denotes an error introduced at some stage in the calculations and $E_n$ represents the magnitud of the error after $n$ subsequent operations
 

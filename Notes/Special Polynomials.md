@@ -2,6 +2,7 @@
 tags:
   - "#Subject"
 ---
+[[Central Hub]]
 # Overview
 
 

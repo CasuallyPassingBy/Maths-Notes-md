@@ -1,4 +1,8 @@
-Tags: #VectorAnalysis 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Line Integral over a Vector Field]], [[Connected Sets in Rn]]
 **********Def:********** Let $F:U \subseteq\Bbb R^n \to \Bbb R^n$ a continuous function on $U$, an open and connected set. $F$ is called a _************conservative field or gradient on U************_ if there’s a function $\varphi :U\to \Bbb R$ such that ************************** ^ddeab3
 

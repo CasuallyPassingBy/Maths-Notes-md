@@ -2,6 +2,7 @@
 tags:
   - FourierAnalysis
 ---
+Subjects: [[Fourier Analysis]]
 Links: [[Fourier Transform in Rn]], [[Fourier Transform in R]]
 
 If $\cal O$ is an object in $\Bbb R^n$ determines by a function $\rho$ which describes density and physical characteristics of this object, sending and $X$-ray beam through $\cal O$ determines the quantity $$\int_L \rho$$for every line in $\Bbb R^n$. 

@@ -2,6 +2,7 @@
 tags:
   - Macroeconomics
 ---
+Subjects: [[Macroeconomics]]
 Links: [[Intro to the Macroeconmics]]
 
 The decomposition of GDP typically used by macroeconomists:

@@ -2,7 +2,9 @@
 tags:
   - NumberTheory
 ---
-**********Def:********** Let $p$ be an odd prime and $\gcd(a, p) = 1$. If the quadratic congruence $x^2 \equiv a \pmod p$ has a solution, then $a$ is said to be a _quadratic residue_ of $p$. Otherwise, a is called a _quadratic nonresidue_ of $p$.
+Subjects: [[Elementary Number Theory]]
+
+**Def:** Let $p$ be an odd prime and $\gcd(a, p) = 1$. If the quadratic congruence $x^2 \equiv a \pmod p$ has a solution, then $a$ is said to be a _quadratic residue_ of $p$. Otherwise, a is called a _quadratic nonresidue_ of $p$.
 
 From the definition, we can interpret it as wether $a$ has a square root. Similary with the real numbers that we can’t take a square root of all real numbers and staying in the reals. This is an analagous requierment.
 

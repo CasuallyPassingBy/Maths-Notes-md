@@ -2,6 +2,8 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
+
 Let $Y$ be a metric space, $\mathcal F \subseteq F(X, Y) = Y^X$. 
 
 We say that $\mathcal F$ is uniformly bounded on $A\subseteq X$, if there's an element $a \in Y$ and $M>0$ such that for all $f\in \mathcal F$ and every $x\in X$, $d(f(x), a) \le M$ 

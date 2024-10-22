@@ -3,6 +3,7 @@ tags:
   - Analysis
   - FredholmTheory
 ---
+Subjects: [[Metric and Normed Spaces]], [[Fredholm Theory]]
 Let ${\cal K}:[a,b]\times [a, b] \to \Bbb R$ and $g:[a,b]\to \Bbb R$ are continuous with $\lambda \in \Bbb R$. Then the integral equation
 
 $$ \lambda f(x) - \int_a^x {\cal K}(x,y)f(y)\, dy = g(x) $$

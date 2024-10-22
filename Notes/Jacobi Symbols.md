@@ -2,6 +2,7 @@
 tags:
   - NumberTheory
 ---
+Subjects: [[Elementary Number Theory]]
 Links: [[Legendre Symbols]], [[Quadratic Congruences]]
 
 Let $a$ and $b$ are relatively prime, $b$ is odd and $b = \prod_{i = 1}^r p_i^{k_i}$, then we define the _****Jacobi symbol****_ as

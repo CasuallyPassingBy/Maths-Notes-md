@@ -2,6 +2,7 @@
 tags:
   - SetTheory
 ---
+Subjects: [[Set Theory]]
 Links: [[Orderings]], [[Well-Orderings]], [[Ordinal Numbers]]
 
 **Def: Addition of Ordinal numbers:** for all ordinals $\beta$,

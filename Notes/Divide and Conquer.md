@@ -2,6 +2,7 @@
 tags:
   - AlgorithmsAndDataStructures
 ---
+Subjects: [[Algorithms and Data Structures]]
 Links: [[Basics to Algorithms]], [[Asymptotic notation]]
 
 The divide-and-conquer are involves three steps at each level of recursion:

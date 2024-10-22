@@ -2,6 +2,7 @@
 tags:
   - Macroeconomics
 ---
+Subjects: [[Macroeconomics]]
 Links: [[Intro to the Macroeconmics]]
 
 We have a problem when we want to calculate the real GDP, since we have that the rate of growth or real GDP, GDP deflator, and inflation rate can change by our choice of base year. 

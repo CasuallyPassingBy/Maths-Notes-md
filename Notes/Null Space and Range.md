@@ -1,4 +1,9 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
+
 Links: [[Space of Linear Transformations]]
 
 _**Definition:**_ A linear transformation $T : V\to W$. The _**null space of** $T$,_ denoted as $N(T)$ or $\text{null }T$ it is the set of all the vectors $v$ of $V$such that $T(v) = 0$, that is $N(T)=\{v \in V: T(v) = 0\}$. $N(T)$ is a subspace of $V$.

@@ -2,6 +2,7 @@
 tags:
   - Statistics
 ---
+Subjects: [[Statistics]]
 Links: [[Statistical Hypothesis Test]]
 
 **Def:** Let $T(\underline X)$ be a test statistic that for large values of $T$ give evidence in favor of the alternative hypothesis. For each possible value of $\underline X$, $$\underline x= (x_1, \dots, x_n)\in \frak X$$we define the $p$-value as $$p(\underline x) = \max_{\theta \in \Theta_0}P(T\underline (X)) \ge t(\underline x))$$where $t(\underline x)$ is the value of the statistic $T(\underline X)$ on $\underline x$. 

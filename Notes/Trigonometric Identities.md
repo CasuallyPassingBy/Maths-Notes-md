@@ -1,4 +1,4 @@
-Links: [[Common Taylor Series]], [[Bernoulli numbers]], [[Hyperbolic Trigonometric Identities]]
+Links: [[Common Taylor Series]], [[Bernoulli numbers]], [[Hyperbolic Trigonometric Identities]], [[Useful Identities]]
 
 ### Pythagorean Identities
 

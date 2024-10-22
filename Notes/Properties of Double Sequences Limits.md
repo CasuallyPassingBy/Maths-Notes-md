@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Double Sequences Limits]]
 
 ### Monotone Double Sequences

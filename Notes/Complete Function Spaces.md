@@ -2,6 +2,7 @@
 tags:
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]]
 Links: [[ellp spaces]], [[Complete Metric Spaces]], [[Bounded Function Spaces]], [[Continuous Function Spaces]], [[Continuity on Metric Spaces]]
 
 A sequence of functions $f_k :S \to X$, with $k \in \Bbb N$, is ********uniformly Cauchy********* on $S$, if for all $\varepsilon>0$, there’s $N\in\Bbb N$ such that $n, m \ge N$,

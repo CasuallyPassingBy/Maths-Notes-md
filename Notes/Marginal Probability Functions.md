@@ -2,7 +2,9 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
 Links: [[Probability Functions for Random Vectors]]
+
 Let $f(x, y)$ be pdf of a absolutelt continuous random vector $(X, Y)$. We define the marginal pdf of the variable $X$, as the following integral
 
 $$ f_X(x) = \int_\Bbb R f(x,y)\, dy $$

@@ -3,6 +3,7 @@ tags:
   - LinearAlgebra
   - Analysis
 ---
+Subjects: [[Metric and Normed Spaces]], [[Linear Algebra]]
 Links: [[Vector Spaces]], [[Normed Spaces]]
 
 **Def:** An inner product on $V$* is a function $\langle \cdot, \cdot\rangle :V \times V\to \mathbb F$, such that

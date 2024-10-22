@@ -2,6 +2,7 @@
 tags:
   - SetTheory
 ---
+Subjects: [[Set Theory]]
 Links: [[Orderings]]
 
 $R$ is a _pre-order_ on $A$ if $R$ is a reflexive and transitive relation on $A.$ $(A, R)$ is a _pre-ordered set or quasi-ordered set._

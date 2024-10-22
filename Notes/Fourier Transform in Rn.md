@@ -2,6 +2,7 @@
 tags:
   - FourierAnalysis
 ---
+Subjects: [[Fourier Analysis]]
 Links: [[Improper Integrals in Rn]], [[Fourier Transform in R]]
 
 We care about the analysis in $\Bbb R^n$, and in particular the theory of the Fourier transform, is shaped by three important groups of symmetries of the underlying space:

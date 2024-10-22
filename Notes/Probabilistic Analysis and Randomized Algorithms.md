@@ -2,6 +2,7 @@
 tags:
   - AlgorithmsAndDataStructures
 ---
+Subjects: [[Algorithms and Data Structures]]
 Links: [[Basics to Algorithms]], [[Asymptotic notation]], [[Random Variables]]
 
 *Probabilistic analysis* is the use of probability in the analysis of problems. Most commonly, we use probabilistic analysis to analyse the running time of an algorithm. Sometimes we use it to analyse other quantities. We must have knowledge of the distribution of the inputs. Then we analyse the algorithm, computing the average-case running time, where we taje the average over the distribution of the possible inputs. Thus we are averaging the running time over all possible inputs. When reporting such a running time, we will refer to it as *average-case running time*.

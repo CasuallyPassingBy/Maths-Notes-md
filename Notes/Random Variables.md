@@ -2,6 +2,7 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
 Links: [[Probability Measure]], [[Probability Functions for Random Variables]], [[Measuable Functions]]
 
 A random variable is a function $X$ from $\Omega$ to the set of real numbers, meaning

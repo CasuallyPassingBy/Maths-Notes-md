@@ -2,6 +2,7 @@
 tags:
   - Topology
 ---
+Subject: [[Topology]]
 Links: [[Limit Points and Closure]], [[Bases, Subbases, and Local Basis for Topological Spaces]], [[Topological Subspaces]]
 
 Let $E$ be a subset of a topological space $(X, \tau)$. The interior of $E$, denoted as $\text{int}(E)$; is the union of all open subsets contained in $E$; $\text{int}(E):=\bigcup\{U \in \tau \mid U \subseteq E\}$. The points in $\text{int}(E)$ are called the interior points of $E$.

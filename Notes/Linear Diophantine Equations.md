@@ -2,6 +2,7 @@
 tags:
   - NumberTheory
 ---
+Subjects: [[Elementary Number Theory]]
 Links: [[Greatest Common Divisor]]
 
 Let $a, b \in \Bbb Z$, the equation $ax+by = c$ has solutions on $\Bbb Z^2$ iff $\gcd(a,b) \mid c$, and their solution is of the form, given $x_0, y_0$ be a particular solution of the equation, then all other solutions are of the form:

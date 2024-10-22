@@ -2,6 +2,7 @@
 tags:
   - Topology
 ---
+Subject: [[Topology]]
 Links: [[Lattices]], [[Regular Open and Closed Sets]], [[Topological Spaces]]
 
 We have that the set of all clopen sets of $X$, with the partial order $\subseteq$, and the operations of union, intersection, and complement, with the distinguished elements $X$ and $\varnothing$, for a boolean algebra

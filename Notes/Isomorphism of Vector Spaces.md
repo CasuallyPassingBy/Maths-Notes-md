@@ -1,5 +1,9 @@
-Tags: #LinearAlgebra
-Links: [[Space of Linear Transformations]], [[Matrix Representation of Linear Transformations]], [[Vector Spaces]]
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
+Links: [[Space of Linear Transformations]], [[Matrix Representation of Linear Transformations]], [[Vector Spaces]], [[Group Homomorphisms and Isomorphisms]]
 ## Invertibility
 _**Def:**_ Let $T\in\mathcal{L}(V,W)$, $T$ is said to be invertible if there’s a $S\in\mathcal{L}(W,V)$, such that $ST = I_V$ and $TS = I_W.$ $S$ is called the _inverse of $T$_, and is denoted as $T^{-1}$.
 

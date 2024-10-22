@@ -1,5 +1,10 @@
-Tags: #VectorAnalysis 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Green's Theorem and Curl in R2]], [[Line Integral over a Vector Field]]
+
 We can modify our definition of vector line integral to instead of measuring how much the vector field $F$ aligns with the curve with its orientation, to measure how much the vector field is perpendicular to the curve.
 
 **********Def:********** Let $U\subseteq \Bbb R^n$ be an open an connected set, a curve $\Gamma \subseteq U$ and $\gamma:[a,b]\to \Bbb R^n$ be a piecewise smooth function such that $\Gamma = \gamma[[a,b]]$, and the function $F= (F_k )_{k = 1}^n: U \to \Bbb R^n$ a function such that for any $F_k \circ \gamma$ be integrable over $[a,b]$ for any $k \in \{1, \dots, n\}$. We define the integral of $F$ over the curve $\Gamma$ with the parametrization $\gamma$ as

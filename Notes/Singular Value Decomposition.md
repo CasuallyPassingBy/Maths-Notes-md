@@ -2,6 +2,7 @@
 tags:
   - LinearAlgebra
 ---
+Subjects: [[Linear Algebra]]
 Links: [[Eigenspaces and Diagonal Matrices]], [[Isometries in Vector Spaces]]
 ## Positive Semidefinite Linear Operators
 

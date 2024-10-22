@@ -2,6 +2,7 @@
 tags:
   - Statistics
 ---
+Subjects: [[Statistics]]
 Links: [[Statistical Hypothesis Test]]
 
 Suppose that we have a random sample of $f(x; \theta)$ and $\theta \in \Theta$ we would like to test $$H_0:\theta \in \Theta_0 \qquad H_1:\theta \in \Theta_1$$where $\Theta_0, \Theta_1 \subseteq \Theta$ and where $\Theta_0$ and $\Theta_1$ are disjoint. Usually as $\Theta_1 = \Theta\setminus \Theta_0$. 

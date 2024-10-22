@@ -2,6 +2,7 @@
 tags:
   - RealAnalysis
 ---
+Subjects: [[Real Analysis]]
 Links: [[Properties of Limits of Sequences in R]], [[Abel's Summability]], [[Series in R]]
 
 Let the sequence $(x_n)$ be convergent let’s define a new sequence $(y_n)$ as follows:

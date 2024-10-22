@@ -1,4 +1,8 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
 Links: [[Eigenvalues]], [[Matrix Representation of Linear Transformations]], [[Polynomial Ring]]
 
 Def: Let $T\in \mathcal L(V)$ and $m \in \Bbb N^+$, then

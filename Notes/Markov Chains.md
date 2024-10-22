@@ -2,6 +2,7 @@
 tags:
   - StochasticProcesses
 ---
+Subjects: [[Stochastic Processes]]
 Links: [[Simple Random Walks]], [[Markov Chains with Matrices]], [[Definitions for Stochastic Processes]]
 
 We can condense the notation of $P(X_n = x_n)$, and instead write $p(x_n)$. 

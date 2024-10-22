@@ -1,5 +1,10 @@
-Tags: #VectorAnalysis 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Differentiablity of Real valued functions of Rn]], [[Taylor Series in R]]
+
 **********Def:********** The $n$th-order directional derivative of the function ${f:D\subseteq\Bbb R^n\to\Bbb R}$ in the direction of an unit vector $\mathbf{\hat u} \in \mathbb{S}^{n-1}$ is the function ${\partial_{{\hat u}}^n f:D\to \Bbb R}$ defined inductively by the rule:
 
 $$ \frac{\partial^{r+1} f}{\partial{\hat u}^{r+1}} = \frac{\partial}{\partial{\hat u}}\left(\frac{\partial^{r} f}{\partial{\hat u}^{r}}\right) $$

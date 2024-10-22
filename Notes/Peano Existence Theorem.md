@@ -3,6 +3,7 @@ tags:
   - Analysis
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Metric and Normed Spaces]], [[Ordinary Differential Equations]]
 Links: [[Picard–Lindelöf theorem]], [[Existence of Solutions of First Order Differential Equations]]
 Let $\Omega$ be an open set in $\Bbb R^n$, $\chi:(a,b) \times \Omega \to \Bbb R^n$ be a continuous function, $t_0 \in(a, b)$ and $x_0 \in \Omega$. The Cauchy problem
 

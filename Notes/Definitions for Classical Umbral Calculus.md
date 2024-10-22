@@ -1,4 +1,7 @@
-
+---
+tags: []
+---
+Subjects: [[Umbral calculus]]
 Links: [[Delta Operators]], [[Dual Spaces]]
 
 Let $P$ be the algebra of polynomials in the single variable $x$ over the field $C$ of characteristic zero. Let $P^*$ be the dual vector space of $P$. $$\langle L \mid p(x)\rangle$$borrowed notation from physics, to denote the action of the linear functional $L$ on a polynomial $p(x)$, and we recall that the vector space operations on $P^*$. 

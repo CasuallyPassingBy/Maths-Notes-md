@@ -2,6 +2,7 @@
 tags:
   - OrdinaryDifferentialEquations
 ---
+Subjects: [[Ordinary Differential Equations]]
 Links: [[Second Order Linear Differential Equations]]
 
 The procedure of for reduction of order of a second order linear differential equation, and suppose we know a solution $y_1$, not everywhere $0$ of

@@ -1,4 +1,8 @@
-Tags: #VectorAnalysis 
+---
+tags:
+  - VectorAnalysis
+---
+Subjects: [[Vector Analysis]] 
 Links: [[Differentiability of Vector valued functions of Rn]], [[Inverse Function Theorem in Rn]]
 
 **Def:** Let $f:D\subseteq \Bbb R^{n+m}\to \Bbb R^m$ be differentiable at a point ${({a, b}) =(a_1,\dots a_n, b_1, \dots, b_m) \in D}$ is defined, then _********left-hand panel of the Jacobian is defined as:********_
@@ -31,7 +35,7 @@ Let $g_1, \dots, g_m : U \subseteq \Bbb R^m \times \Bbb R^k \to \Bbb R$ be of cl
 \frac{\partial g_1}{\partial x_1}(x_0, y_0) &\cdots & \frac{\partial g_1}{\partial x_m}(x_0, y_0) \\
 \vdots & \ddots & \vdots \\
 \frac{\partial g_m}{\partial x_1}(x_0, y_0) &\cdots& \frac{\partial g_m}{\partial x_m}(x_0, y_0)
-\end{bmatrix}$$is invertibel, then there exists $\delta>0$, $V \subseteq \Bbb R^k$ an open subset, and a function $h:V\subseteq \Bbb R^k \to \Bbb R^m$ of class $\mathcal C¹$, such that $y_0 \in V$, $h(y_0) = x_0)$ and $(h(y), y) \in B_\delta((x_0, y_0))\cap S$ for all $y\in V$. This properties make $h$ unique.  
+\end{bmatrix}$$is invertible, then there exists $\delta>0$, $V \subseteq \Bbb R^k$ an open subset, and a function $h:V\subseteq \Bbb R^k \to \Bbb R^m$ of class $\mathcal C¹$, such that $y_0 \in V$, $h(y_0) = x_0)$ and $(h(y), y) \in B_\delta((x_0, y_0))\cap S$ for all $y\in V$. This properties make $h$ unique.  
 
 ### Morse’s Lemma
 Let $A \subseteq \Bbb R^n$ be open, $f: A\to \Bbb R$ be of class $\cal C^\infty$ for which $0$ is a non-degenerate critical point, namely $\nabla f = 0$ and the hessian at $0$ has the trivial kernel. Then in some neighborhood $U$ of $0$ there is a local $\mathcal C^\infty$ coordinate system, namely a $\mathcal C^\infty$ diffeomorphism

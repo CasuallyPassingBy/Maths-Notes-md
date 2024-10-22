@@ -2,8 +2,8 @@
 tags:
   - RealAnalysis
   - VectorAnalysis
-  - FunctionalAnalysis
 ---
+Subjects: [[Real Analysis]], [[Vector Analysis]]
 Links: [[Sequence of Functions in Rn]], [[Sequence of Functions in Rn]]
 Let $(f_n)$ be a sequence of functions on $A\subseteq\Bbb R$, let $(s_n)$ is another sequence of functions on $A$ defined as follows:
 

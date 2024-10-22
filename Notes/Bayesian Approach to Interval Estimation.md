@@ -2,6 +2,7 @@
 tags:
   - Statistics
 ---
+Subjects: [[Statistics]]
 Links: [[Bayesian Approach to Point Estimators]]
 
 In the Bayesian approach to interval approximation for the unknown parameter(s), $\theta$, of a model is based on the posterior distribution $\pi(\theta \mid \underline x)$. 

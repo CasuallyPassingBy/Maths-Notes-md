@@ -2,7 +2,7 @@
 tags:
   - RealAnalysis
 ---
-
+Subjects: [[Real Analysis]]
 # Partitions and Tagged Partitions
 
 Given the interval $I = [a, b]$, then a _partition_ $\mathcal{P}$ is a finite, ordered set, $\mathcal{P} := (x_k )_{k= 0}^n$, where $a = x_0$, $b= x_n$ and $x_{i-1} < x_i$ for $1\le i \le n$. This partition cuts the interval $I$ into distinct non overlapping subintervals:

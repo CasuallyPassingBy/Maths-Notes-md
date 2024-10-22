@@ -5,7 +5,7 @@ tags:
 Links: [[Probability Functions for Random Variables]]
 # General Remarks
 
-Let $X$ be a randon variable and let $F$ be the cdf, with an inverse $F^{-1}$, and $U \sim \operatorname{unif}(0,1)$, then
+Let $X$ be a random variable and let $F$ be the cdf, with an inverse $F^{-1}$, and $U \sim \operatorname{unif}(0,1)$, then
 
 - $F(X) \stackrel{d}{=} U$
 - $F^{-1}(U) \stackrel{d}{=} X$

@@ -1,4 +1,9 @@
-Tags: #LinearAlgebra 
+---
+tags:
+  - LinearAlgebra
+---
+Subjects: [[Linear Algebra]]
+
 Links: [[Linear Combinations]]
 ## Definitions
 A subset $S$ of a vector space $V$ is called _**linearly independent**_ if for any finite number of distinct vectors $\{ u_i \}_{i=1}^{n}\subseteq S$, and scalars $\{a_i\}_{i=1}^n$ $\subseteq \mathbb{F}$:

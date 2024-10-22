@@ -2,6 +2,7 @@
 tags:
   - ProbabilityTheory
 ---
+Subjects: [[Probability Theory]]
 Links: [[Random Variables]], [[Random Vectors]]
 
 We say that the random variables $X$ and $Y$ are independent if the events $(X \le x )$  and $(Y \le y)$ are independent for all real values of $x$ and $y$, meaning 

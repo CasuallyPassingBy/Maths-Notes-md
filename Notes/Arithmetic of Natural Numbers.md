@@ -1,4 +1,8 @@
-Tags: #SetTheory
+---
+tags:
+  - SetTheory
+---
+Subjects: [[Set Theory]]
 Links: [[Natural Numbers]]
 ### Addition
 ********Th:******** There is a unique function $+: \Bbb N \times \Bbb N \to \Bbb N$ such that

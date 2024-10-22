@@ -3,6 +3,7 @@ tags:
   - FourierAnalysis
   - PartialDifferentialEquations
 ---
+Subjects: [[Fourier Analysis]], [[Partial Differential Equations]]
 Links: [[The Heat Equation]], [[Laplace's Equation on the disk]], [[The Heat Equation on the Circle]], [[The Heat Equation on the Real line]]
 
 

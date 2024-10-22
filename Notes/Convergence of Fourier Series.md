@@ -2,6 +2,7 @@
 tags:
   - FourierAnalysis
 ---
+Subjects: [[Fourier Analysis]]
 Links: [[Hilbert Spaces]], [[Good Kernels and Convergence in Fourier Analysis]], [[Lp spaces]]
 
 

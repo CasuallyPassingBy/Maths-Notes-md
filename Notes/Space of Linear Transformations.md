@@ -2,6 +2,8 @@
 tags:
   - LinearAlgebra
 ---
+Subjects: [[Linear Algebra]]
+
 Links: [[Vector Spaces]]
 Let $V$ and $W$ be vector space over the same $\mathbb{F}$. We call a function $T: V \to W$ a _**linear transformation from $V$ to $W$,**_ if for all $x, y \in V$ and $a \in\mathbb{F}$:
 
