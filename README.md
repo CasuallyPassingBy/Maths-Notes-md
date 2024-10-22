@@ -12,7 +12,8 @@ The notes in this repository encompass various branches and topics within mathem
 ### Foundational Topics
 - Set Theory
 - Topology
-- Number Theory
+- Elementary Number Theory
+- Analytic Number Theory
 
 ### Analysis
 - Real Analysis
@@ -40,6 +41,7 @@ The notes in this repository encompass various branches and topics within mathem
 
 ### Advanced Topics
 - Measure Theory
+- Differential Geometry
 
 ### Special Objects
 - Special Functions
