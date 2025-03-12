@@ -3,8 +3,7 @@ tags:
   - Topology
 ---
 Subject: [[Topology]]
-Links: [[Continuity on R]], [[Continuity on Metric Spaces]] [[Limits and Continuity of real valued functions of Rm]], [[Limits and Continuity of Vector valued functions of Rn]], [[Topological Spaces]]
-
+Links: [[Continuity on R]], [[Continuity on Metric Spaces]] [[Limits and Continuity of real valued functions of Rm]], [[Limits and Continuity of Vector valued functions of Rn]], [[Topological Spaces]], [[Separation Axioms]], [[T1 Spaces]], [[Normal Hausdorff Spaces]]
 ## Continuous Functions
 
 Let $f:X\to Y$, where $X$ and $Y$ are topological spaces
@@ -46,16 +45,27 @@ for all $x\in X$, are continuous. Additionally, the function $D(x) = 1/f(x)$, de
 
 Let $f, g:X \to \Bbb R$ be continuous functions, then the function $\min\{f, g\}, \max\{f, g\}: X\to \Bbb R$  are continuous
 
+**Th:** If a sequence $(f_n)_{n <\omega}$ of continuous functions from $X$ to $\Bbb R$ is uniformly convergent to a real valued-function $f$, then $f$ is a continuous function from $X$ to $\Bbb R$.
+
+Let $f$ be a function from that topological space $X$ to the topological space $Y$
+- $f$ is an *open function* if the image under $f$ of any open subset of $X$ is an open subset of $Y$
+- $f$ is an *closed function* if the image under $f$ of any closed subset of $X$ is an closed subset of $Y$
+
+If $Y$ is a subspace of $X$, then the inclusion $\iota:Y\to X$ is closed/open iff the set $Y$ is closed/open on $X$
+
+**Th:** A continuous mapping $f: X \to Y$ is closed/open iff every $B \subseteq Y$ and every open/closed set $A\subseteq X$ which  $f^{-1}[B] \subseteq A$, there exists an open/closed set $C \subseteq Y$ containing $B$ such that $f^{-1}[C] \subseteq A$. 
+
+**Th:** A continuous mapping $f: X\to Y$ is closed iff for every point $y\in Y$ and every open set $U \subset X$ which $f^{-1}\{y\} \subseteq U$, there exists $Y$ a neighbourhood $V$ such that $f^{-1}[V] \subseteq U$.
+
+**Th:** If $f: X \to Y$ is an open mapping, then for every $x \in X$ we have $\chi(f(x), Y) \le \chi(x, X)$. If, moreover, $f$ is surjective, then $w(Y) \le w(X)$, and $\chi(Y) \le \chi(X)$. 
+
+**Th:** The class of $T_i$ spaces for $i \in \{1, 4, 6\}$ are invariant under closed mappings.
 ## Homoemorphisms
 
 The bijective function $\varphi$ defined over the topological space $X$ and with values in the space $Y$, it is called a *homeomorphism* if $\varphi$ is continuous with continuous inverse.
 The topological spaces $X$ and $Y$ are called *homeomorphic* if there's a homeomorphism between them. The expression $X\cong Y$ signifies that the spaces $X$ and $Y$ are homeomorphic
 
 A property $P$ is topological if for each space $X$ with the property $P$, then any homeomorphic space to $X$ also has the property $P$
-
-Let $f$ be a function from that topological space $X$ to the topological space $Y$
-- $f$ is an *open function* if the image under $f$ of any open subset of $X$ is an open subset of $Y$
-- $f$ is an *closed function* if the image under $f$ of any closed subset of $X$ is an closed subset of $Y$
 
 $f$ is open iff $f[B]$ is open on $Y$ for each $B\in \cal B$, where $\cal B$ is a base for $X$. Similarly, $f$ is closed iff $f[C]$ is open on $Y$ for each $C\in \cal C$, where $\cal C$ is a closed base for $X$. 
 
@@ -64,6 +74,3 @@ If $f$ is a bijective function between the topological space $X$ and $Y$, then t
 - $f$ is open
 - $f$ is closed
 In particular, a continuous bijective function $f:X\to Y$ is a homeomorphism if it satisfies any of the above conditions.
-
-If $Y$ is a subspace of $X$, then the inclusion $\iota:Y\to X$ is closed/open iff the set $Y$ is closed/open on $X$
-

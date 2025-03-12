@@ -3,7 +3,7 @@ tags:
   - ProbabilityTheory
 ---
 Subjects: [[Probability Theory]]
-Links: [[Random Variables]], [[Lp spaces]]
+Links: [[Random Variables]], [[Lp spaces]], [[Convergence of Measurable Functions]]
 
 Let $X_1, \dots, X_n, \dots$ be a sequence of random variables. There are a lot of types of convergence
 
@@ -17,12 +17,9 @@ Let $X_n$ be the sequence of random variables, we say that it *converges pointwi
 By some results in measure theory, i think that $X$ will always be a random variable. 
 
 We can denote it as $X_n \to X$, or if we want to specify, $X_n \stackrel{p}{\longrightarrow}X$ 
-## Almost Sure Convergence
+## Almost Everywhere Convergence
 
-The sequence of random variables $X_n$, converges *converges almost surely* to $X$ if $$P(\{\omega \in \Omega \mid \lim_{n \to \infty} X_n(\omega) = X(\omega)\} = 1$$
-or $$P(\lim_{n\to \infty} X_n = X) = 1$$
-
-We can denote is as $X_n \stackrel{a.s.} {\longrightarrow} X$, or $\lim\limits_{n \to \infty} X_n = X\; a.s.$ 
+The sequence of random variables $X_n$, converges *converges almost surely* to $X$ if $$P(\{\omega \in \Omega \mid \lim_{n \to \infty} X_n(\omega) = X(\omega)\} = 1$$or $$P(\lim_{n\to \infty} X_n = X) = 1$$We can denote is as $X_n \stackrel{a.s.} {\longrightarrow} X$, or $\lim\limits_{n \to \infty} X_n = X\; a.s.$ 
 
 ## Convergence in Probability
  

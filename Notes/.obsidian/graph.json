@@ -29,13 +29,6 @@
       }
     },
     {
-      "query": "tag:#Subject  ",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
       "query": "tag:#OrdinaryDifferentialEquations  ",
       "color": {
         "a": 1,
@@ -74,7 +67,7 @@
       "query": "tag:#Topology  ",
       "color": {
         "a": 1,
-        "rgb": 11020585
+        "rgb": 6883079
       }
     },
     {
@@ -95,7 +88,7 @@
       "query": "tag:#LinearAlgebra  ",
       "color": {
         "a": 1,
-        "rgb": 2138656
+        "rgb": 1413917
       }
     },
     {
@@ -123,27 +116,34 @@
       "query": "tag:#AlgorithmsAndDataStructures  ",
       "color": {
         "a": 1,
-        "rgb": 855436
+        "rgb": 4146091
       }
     },
     {
       "query": "tag:#GroupTheory  ",
       "color": {
         "a": 1,
-        "rgb": 2059523
+        "rgb": 6088311
+      }
+    },
+    {
+      "query": "tag:#DifferentialGeometry  ",
+      "color": {
+        "a": 1,
+        "rgb": 16119713
       }
     }
   ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1.01875,
+  "nodeSizeMultiplier": 0.993229166666667,
+  "lineSizeMultiplier": 0.763541666666667,
   "collapse-forces": true,
-  "centerStrength": 0.40625,
-  "repelStrength": 14.1666666666667,
+  "centerStrength": 0.432291666666667,
+  "repelStrength": 15.1041666666667,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.09227164036728892,
+  "scale": 0.0474142739171298,
   "close": false
 }

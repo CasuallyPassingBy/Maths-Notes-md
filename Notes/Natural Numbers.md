@@ -76,25 +76,20 @@ Then $P(m,n)$ holds for all $n, m \in \Bbb N$.
 ---
 # Recursion Theorem
 
-**********Def:********** A sequence is a function whose domian is a natural number or $\Bbb N$. A sequence whose domain is a natural number $n\in \Bbb N$ is called a ***********finite sequence of length $n$*, and it is denoted
+**Def:** A sequence is a function whose domain is a natural number or $\Bbb N$. A sequence whose domain is a natural number $n\in \Bbb N$ is called a *finite sequence of length $n$*, and it is denoted
 
 $$ \langle a_i \mid i < n\rangle \quad\text{or}\quad \langle a_i \mid i =0, 1, \dots, n-1\rangle \quad\text{or}\quad \langle a_0, a_1, \dots, a_{n-1}\rangle $$
 
-In particular the sequence $\langle\rangle = \varnothing$ is the unique sequence of length $0$, the **************empty sequence**************. Then we can define $\operatorname{Seq}(A) = \bigcup_{n \in \Bbb N} A^n$ denotes the set of all finite sequences of elements of $A$. If the domain of a sequence is $\Bbb N$, we call it an _**infinite sequence**_ and denote it
-
+In particular the sequence $\langle\rangle = \varnothing$ is the unique sequence of length $0$, the **empty sequence**. Then we can define $\operatorname{Seq}(A) = \bigcup_{n \in \Bbb N} A^n$ denotes the set of all finite sequences of elements of $A$. If the domain of a sequence is $\Bbb N$, we call it an *infinite sequence* and denote it
 $$ \langle a_i \mid i \in \Bbb N\rangle \quad\text{or}\quad \langle a_i \mid i =0, 1, \dots\rangle \quad\text{or}\quad \langle a_i \rangle_{i = 0}^\infty $$
-
-So infinite sequences of elements of $A$ are just elements of $A^N$. The notation simply specifies a function with am appropiate domain, whise vake at $i$ is $a_i$,. We also use the notation $\{a_i \mid i \in \Bbb N\}$, $\{a_i\}_{i = 0}^\infty$, etc fof the ranglee of the sequence $\langle a_i \mid i \in \Bbb N\rangle$ . Similarly, $\{ a_i \mid i < n\}$ or $\{ a_0, \dots, a_{n-1}\}$ for the ranglee of $\langle a_i \mid i < n\rangle$ .
+So infinite sequences of elements of $A$ are just elements of $A^\Bbb N$. The notation simply specifies a function with am appropriate domain, whose value at $i$ is $a_i$,. We also use the notation $\{a_i \mid i \in \Bbb N\}$, $\{a_i\}_{i = 0}^\infty$, etc fo the range of the sequence $\langle a_i \mid i \in \Bbb N\rangle$ . Similarly, $\{ a_i \mid i < n\}$ or $\{ a_0, \dots, a_{n-1}\}$ for the range of $\langle a_i \mid i < n\rangle$ .
 
 ### Recursion Theorem
-
-For any set $A$, any $a \in A$, and any function $g:A \times \Bbb N \to A$, there exists a unique infinite sequence $f:\Bbb N \to A$ suuch that
-
+For any set $A$, any $a \in A$, and any function $g:A \times \Bbb N \to A$, there exists a unique infinite sequence $f:\Bbb N \to A$ such that
 - $f_0 = a$
 - $f_{n+1} = g(f_n, n)$ for all $n \in \Bbb N$.
 
 ********Th:******** Let $(A, \prec)$ be a nonempty linearly ordered set with the properties:
-
 - for every $p \in A$, there is $q \in A$ such that $q \succ p$
 - Every nonempty subset of $A$ has a $\prec$-least element
 - Every nonempty subset of $A$ that has an upper bound has a $\prec$-greatest element.
@@ -102,14 +97,9 @@ For any set $A$, any $a \in A$, and any function $g:A \times \Bbb N \to A$, ther
 Then $(A, \prec)$ is isomorphic to $(\Bbb N, <)$.
 
 ### Recursion Theorem V.2.
-
-For any set $S$ and any function $g: \operatorname{Seq}(S) \to S$ there exists a unique sequence $f: \Bbb N \to S$ such that
-
-$$ f_n = g(f|_n) = g(\langle f_0, f_1, \dots, f_{n-1} \rangle) $$
-
+For any set $S$ and any function $g: \operatorname{Seq}(S) \to S$ there exists a unique sequence $f: \Bbb N \to S$ such that$$ f_n = g(f|_n) = g(\langle f_0, f_1, \dots, f_{n-1} \rangle) $$
 ### Recursion Theorem V.3.
 
 Let $a :P \to A$ and $g: P \times A\times \Bbb N \to A$ be functions. There exists a unique function ${f: P \times \Bbb N \to A}$ such that
-
 - $f(p, 0) = a(p)$ for all $p \in P$
 - $f(p, n+1) = g(p, f(p, n), n)$

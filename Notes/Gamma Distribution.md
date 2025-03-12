@@ -51,5 +51,4 @@ Let $X$ be a random variable with $\operatorname{gamma}(\alpha, \lambda)$ if $c>
 $$ cX \sim \operatorname{\Gamma}(\alpha,\lambda/c) $$
 
 If we use an Erlang distribution, namely $n \in \Bbb N^+$, and $X\sim \operatorname{gamma}(n, \lambda)$, we can calculate the cdf as
-
 $$ F(x;n, \lambda)=\sum_{k =n}^\infty \frac{(\lambda x)^k}{k!} e^{-\lambda x} $$

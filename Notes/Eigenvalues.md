@@ -23,13 +23,7 @@ Th: Let $T\in \mathcal{L}(V)$. Suppose that ${\lambda_1,\dots, \lambda_m}$ are d
 Cor: Suppose that $V$ finite dimensional. Then each operator of $V$ has at most ${\dim V}$ distinct eigenvalues.
 
 ********Def:******** Suppose $T\in \mathcal{L}(V)$ and $U$ is a subspace of $V$ invariant of $T$:
-- The ********************_restriction operator $T|_U \in \mathcal L(U)$_ is defined by:
-    
-    $$ T|_U(u) = Tu $$
-    
+- The *restriction operator* $T|_U \in \mathcal L(U)$ is defined by:    $$ T|_U(u) = Tu $$
     for $u \in U$
-- The ********_quotient operator $T/U \in \mathcal L(V/U)$_ is defined by:
-    
-    $$ (T/U) (v+U) = Tv+U $$
-    
+- The *quotient operator* $T/U \in \mathcal L(V/U)$ is defined by:    $$ (T/U) (v+U) = Tv+U $$
     for $v\in V$

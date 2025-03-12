@@ -36,7 +36,7 @@ Links: [[Normal and Hermitian Operators]], [[Adjoint Operators and Matrices]]
 
 **Def:** A square matrix $A$ is called on **orthogonal matrix** if ${AA^\top= A^\top A = I}$ and ********unitary******** if $A A^* = A^* A=I$.
 
-The set of all orthogonal transformations/matrices is called the [[orthogonal group]], and the set of all unitary transformations/matrices is called the [[unitary group]]
+The set of all orthogonal transformations/matrices is called the [[Orthogonal Group]], and the set of all unitary transformations/matrices is called the [[Unitary Group]]
 
 **Def:** $A$ and $B$ are **unitarily/orthogonally equivalent** iff there exists a unitary/orthogonal matrix $P$ such that $A =P^*BP$. This forms an equivalence relation on $\mathcal M_n(\mathbb C)/\mathcal M_n(\Bbb R)$
 

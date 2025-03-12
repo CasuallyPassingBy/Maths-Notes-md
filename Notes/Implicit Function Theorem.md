@@ -3,7 +3,7 @@ tags:
   - Analysis
 ---
 Subjects: [[Metric and Normed Spaces]]
-Links: [[Implicit Function Theorem in Rn]], [[Fréchet-Derivative]], [[Linear Homeomorphism]], [[Partial Derivatives]], [[Linear Homeomorphism]], [[Inverse Function Theorem in Rn]]
+Links: [[Implicit Function Theorem in Rn]], [[Fréchet-Derivative]], [[Linear Homeomorphism]], [[Partial Derivatives on Banach Spaces]], [[Linear Homeomorphism]], [[Inverse Function Theorem in Rn]]
 
 Let $Y$ be a Banach space, $\Omega$ an open subset of $Y$, $\varphi:\Omega\to \Bbb R^m$ a class $¸\mathcal C ^1$ function, and $c \in \Bbb R^m$. Our interest lies in getting information about the set of solutions $u \in \Omega$, with the equation $$\varphi(u) = c$$which we denote $$M := \{u \in \Omega \mid \varphi(u) = c\}$$
 

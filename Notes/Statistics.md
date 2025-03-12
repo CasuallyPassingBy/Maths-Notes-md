@@ -7,7 +7,7 @@ tags:
 
 # Topics
 - [[Descriptive Statistics]]
-### Inferential Statistics
+# Parametric 
 - [[Statistics and Sample Distribution]]
 	- [[Order Statistics]]
 	- [[Sufficient Statistics]]
@@ -33,3 +33,6 @@ tags:
 		- [[Some test based on the generalised likelihood ratio]]
 	- [[P-value and Statistical Significance Test]]
 	- [[Bayesian Approach to Hypothesis Test]]
+# Non Parametric
+
+- [[Simple Linear Regression]]

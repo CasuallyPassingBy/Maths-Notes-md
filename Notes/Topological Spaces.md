@@ -35,3 +35,5 @@ Let $(X, \tau)$ be a topological space, and let $\cal F$ be the family of closed
 - $\varnothing, X \in \cal F$
 - Let $\{F_i\}_{i = 1}^n \subseteq \cal F$, then $\bigcup\limits_{i = 1}^n F_i \in \cal F$
 - For any $\cal G \subseteq F$, with $\cal G\ne \varnothing$, then $\bigcap \cal G \in F$. 
+
+**Def:** If $A\subseteq X$ of a topological space. If $A$ is both open and closed, then $A$ is called clopen. 

@@ -29,8 +29,7 @@ $$ \forall x\forall y\exists z [x\in z \land y\in z] $$
 $$ \forall\mathcal{F}\exists 
 A\forall y\forall x[(x\in y\land y\in \mathcal{F})\implies x\in A] $$
 
-## Axiom of powerset:
-
+## Axiom of power set:
 $$ \forall x \exists y \forall z[\forall u(u \in z \implies u \in x)\implies z\in y] $$
 
 ## Axiom schema of replacement:

@@ -12,6 +12,10 @@ Links: [[Special Sets in Topological Spaces]], [[Dense Subsets]]
 
 The properties of *first countable* and *second countable* are known as the first axiom of countability and the second axiom of countability. 
 
+**Prop:** First and second countability are [[Topological Subspaces#^1310cb|hereditary properties]].
+
+**Prop:** Separability is [[Topological Subspaces#^1310cb|hereditary property with respect to open sets]].
+
 **Prop:** If $X$ is a second countable space and $B$ is any base of $X$, then $B$ contains a countable base of $X$
 
 **Prop:** If $(X, \tau)$ is second countable, then $X$ is also separable and first countable
@@ -24,10 +28,10 @@ The properties of *first countable* and *second countable* are known as the firs
 
 ## Image under Continuous Functions
 
-If $(X, \tau)$ is first/second countable space, and $Y$ a subspace of $X$, then $(Y, \tau|_Y)$ is also first/second countable. Meaning countability is hereditary. 
+**Prop**: If $(X, \tau)$ is first/second countable space, and $Y$ a subspace of $X$, then $(Y, \tau|_Y)$ is also first/second countable. Meaning countability is hereditary. 
 
-Let $X$ and $Y$ be topological spaces and $f:X \to Y$ be a surjective continuous function. If $D$ is a dense subset of $X$, the $f[D]$ is dense in $Y$. In particular, if $X$ is separable then so is $Y$
+**Prop**: Let $X$ and $Y$ be topological spaces and $f:X \to Y$ be a surjective continuous function. If $D$ is a dense subset of $X$, the $f[D]$ is dense in $Y$. In particular, if $X$ is separable then so is $Y$
 
-Let $X$ be a topological space and ${\cal B}(x)$ be a local base of $x$ on $X$. Let $f:X\to Y$ be a continuous and open function. Then the collection $\{f[B] \mid B\in {\cal B}(x)\}$ is a local base of $f(x) =y$ on $Y$.
+**Lemma**: Let $X$ be a topological space and ${\cal B}(x)$ be a local base of $x$ on $X$. Let $f:X\to Y$ be a continuous and open function. Then the collection $\{f[B] \mid B\in {\cal B}(x)\}$ is a local base of $f(x) =y$ on $Y$.
 
-The continuous and open image of any first/second countable space is first/second countable. Countability is preserved under continuous and open mappings. 
+**Prop**: The continuous and open image of any first/second countable space is first/second countable. Countability is preserved under continuous and open mappings. 

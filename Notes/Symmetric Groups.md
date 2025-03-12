@@ -52,11 +52,10 @@ We can also see that disjoint cycles commute
 
 **Cor:** If $\sigma, \tau \in S_n$, then $\text{sgn}(\sigma\tau) = \text{sgn}(\sigma)\text{sgn}(\tau)$, and $\text{sgn}(\sigma^{-1}) = \text{sgn}(\sigma)$. This is group homomorphism $\text{sgn}: S_n \to \{-1, 1\}$, and $\ker(\text{sgn}) = A_n$
 
-**Prop:** We see that that for any $n \in  \Bbb N^+$, $$[A_n, A_n] \le [S_n, S_n] \le A_n]$$
+**Prop:** We see that that for any $n \in  \Bbb N^+$, $$[A_n, A_n] \le [S_n, S_n] \le A_n$$
 - for $n \ge 3$, then $[S_n, S_n] = A_n$
 - for $n \ge 5$, then $[A_n, A_n] = A_n$, meaning that $A_n$ is perfect. 
 ### Conjugacy Classes
-
 Given $\sigma, \tau \in S_n$, if there exists $\theta \in S_n$ such that $\sigma = \theta \tau \theta^{-1}$, we say that $\sigma$ is a *conjugate* of $\tau$, and this is an equivalence relation on $S_n$ which equivalence classes are called *conjugacy classes* of $S_n$. 
 
 **Lemma:** Let $c = (x_1, x_2, \dots, x_r) \in S_n$ be an $r$-cycle. Then, for every $\sigma \in S_n$ the element $\sigma c\sigma^{-1}$ is also an $r$-cycle and is of the form: $$\sigma c \sigma^{-1} = (\sigma(x_1), \sigma(x_2), \dots, \sigma(x_r))$$

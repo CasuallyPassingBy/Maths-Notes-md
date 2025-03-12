@@ -3,7 +3,7 @@ tags:
   - LinearAlgebra
 ---
 Subjects: [[Linear Algebra]]
-Links: [[Bases and Dimension]], [[Dual Spaces]], [[Eigenvectors and Upper Triangular Matrices]], [[Inner Products and Norms]]
+Links: [[Bases and Dimension]], [[Dual Vector Spaces]], [[Eigenvectors and Upper Triangular Matrices]], [[Inner Products and Norms]]
 **********Def:********** A list of vectors is called _**********orthonormal**********_ if each vector in the list has norm $1$ and is orthogonal to all the other vectors in the list.
 
 Let $V$ be an inner product space and $v_1, \dots, v_m$ be an orthogonal subset of $V$ consisting of nonzero vectors. If $y \in \operatorname{span}(v_1, \dots, v_m)$ then

@@ -124,7 +124,7 @@ Using this fact we get that the polynomials is of the form
 $$
 P_n (x) = P_n(x_0+sh ) = \sum_{k =0}^n {s\choose k} \Delta ^k f(x_0)
 $$
-Which is deeply related to [[discrete calculus]]
+Which is deeply related to [[Discrete Calculus]]
 #### Backward Differences
 
 We can rearrange the nodes values of $x_0, \dots, x_n$ to $x_n , x_{n-1}, \dots, x_0$ we can write is 
@@ -135,7 +135,7 @@ Similarly as we did for the forward differences, we can suppose that the points 
 $$
 P_n (x) = P_n(x_n+sh) = \sum_{k = 0}^n s^{\overline k} h^k f[x_n, x_{n-1}, \dots, x_{n-k}]
 $$
-We are using the [[Falling and Rising Factorials and Pochhamer Symbols|Rising factorial]]. If we use the backward difference present in [[discrete calculus]]. We get the result:
+We are using the [[Falling and Rising Factorials and Pochhamer Symbols|Rising factorial]]. If we use the backward difference present in [[Discrete Calculus]]. We get the result:
 $$
 f[x_n, \dots, x_{n-k}] = \frac{1}{k! h^k} \nabla ^k f(x_n)
 $$
@@ -145,5 +145,5 @@ Then we get the polynomial as
 $$
 P_n (x) = P_n (x_n+sh) = \sum_{k =0}^n {s-k+1\choose k} \nabla^k f(x_n) = \sum_{k =0}^n (-1)^k {-s  \choose k} \nabla ^k f(x_n)
 $$
-Which i think it does have a [[discrete calculus]] analogue
+Which i think it does have a [[Discrete Calculus]] analogue
 

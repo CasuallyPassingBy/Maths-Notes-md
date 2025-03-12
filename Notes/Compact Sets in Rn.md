@@ -5,15 +5,14 @@ tags:
 Subjects: [[Vector Analysis]] 
 Links: [[Sequences in Rn]], [[Rn]], [[Compact Sets in R]]
 
-**********Def:********** A set $K \subseteq \Bbb R^n$ is _sequentially compact_ if for every sequence $(x_n)$ contained in $K$ there’s a convergent subsequence that converges in $K$.
+**Def:** A set $K \subseteq \Bbb R^n$ is _sequentially compact_ if for every sequence $(x_n)$ contained in $K$ there’s a convergent subsequence that converges in $K$.
 
-************Th:************ A set $K \subseteq \Bbb R^n$ is sequentially compact iff $K$ is close and bounded
+**Th:** A set $K \subseteq \Bbb R^n$ is sequentially compact iff $K$ is close and bounded
 
 ## Open Covers
+**Def:** Let $A \subseteq \Bbb R^n$. An *[[Topological Cover|open cover]]* for $A$ is a (possibly infinite) collection of open sets ${\{U_\lambda \mid \lambda \in \Lambda\}}$ whose union contains the set $A$; that is $A \subseteq \bigcup_{\lambda\in \Lambda} U_\lambda$. Given an open cover for $A$, a *[[Topological Cover|finite subcover]]* is a finite subcollection of open sets from the original open cover whose union still manages to completely contain $A$.
 
-**********Def:********** Let $A \subseteq \Bbb R^n$. An **************open cover************** for $A$ is a (possibly infinite) collection of open sets ${\{U_\lambda \mid \lambda \in \Lambda\}}$ whose union contains the set $A$; that is $A \subseteq \bigcup_{\lambda\in \Lambda} U_\lambda$. Given an open cover for $A$, a ****************finite subcover**************** is a finite subcollection of open sets from the original open cover whose union still manages to completely contain $A$.
-
-********Def:******** A set $K \subseteq \Bbb R$ is called ********compact******** if for every open cover there’s a finite subcover
+********Def:******** A set $K \subseteq \Bbb R$ is called *[[Compactness|compact]]* if for every open cover there’s a finite subcover
 
 ### Lindelöf Theorem
 

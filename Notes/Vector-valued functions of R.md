@@ -3,7 +3,7 @@ tags:
   - VectorAnalysis
   - DifferentialGeometry
 ---
-Subjects: [[Vector Analysis]], [[Differential Geometry]]
+Subjects: [[Vector Analysis]]
 
 Let $f:D\subseteq \Bbb R\to \Bbb R^n$, we can define coordinates of $f_i :D\subseteq \Bbb R\to \Bbb R^n$ such that:
 

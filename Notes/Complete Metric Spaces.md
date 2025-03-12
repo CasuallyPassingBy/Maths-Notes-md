@@ -4,6 +4,7 @@ tags:
 ---
 Subjects: [[Metric and Normed Spaces]]
 Links: [[Compactness in Metric Spaces]], [[Continuity on Metric Spaces#Uniform Continuity|Uniform Continuity]], [[Compact Sets in R#Bolzano-Weiestrass Theorem|Bolzano Weiestrass Theorem in R]], [[Rn#Bolzano-Weiestrass in $ Bbb R n$|Bolzano Weiestrass in Rn]], [[ellp spaces]], [[Metric Spaces]]
+
 A sequence $(x_n)$ in $X$ is a _**Cauchy sequence**_ if for any $\varepsilon>0$, there’s an $N \in \Bbb N$, such that
 
 $$ n, m\ge N \implies d_X(x_n, x_m) $$
@@ -14,7 +15,7 @@ Every Cauchy sequence in $X$ is a bounded sequence
 
 If $(x_k)$ is a Cauchy sequence with a convergent subsequence then $(x_k)$ is convergent
 
-A metric space $X$ is ********complete,******** if every Cauchy sequence in $X$ converges in $X$. A normed space is complete with the metric induced by its norm then it is called a *********Banach space************.
+A metric space $X$ is ********complete,******** if every Cauchy sequence in $X$ converges in $X$. A normed space is complete with the metric induced by its norm then it is called a **Banach space**. Similarly, if a normed algebra is complete with the metric induced by its norm then it is called a **Banach algebra**.
 
 If there’s an equivalence $\phi: X \to Y$ between to metric spaces $X$ and $Y$, then $X$ is complete iff $Y$ is complete.
 

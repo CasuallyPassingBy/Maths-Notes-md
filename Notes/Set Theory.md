@@ -27,6 +27,7 @@ tags:
 	- [[Arithmetic of Cardinal Numbers]]
 	- [[Regular and Singular Cardinals]]
 - [[Natural Numbers]]
+	- [[Limits of Sets]]
 	- [[Arithmetic of Natural Numbers]]
 		- [[Integer Numbers]]
 			- [[Rational Numbers]]
@@ -38,3 +39,5 @@ tags:
 - [[Operations and Structures]]
 - [[Filters and Ideals]]
 	- [[Pi-System]]
+- [[Rings and Algebras of Sets]]
+	- [[Rings and Algebras of Sets]]

@@ -3,7 +3,7 @@ tags:
   - Analysis
 ---
 Subjects: [[Metric and Normed Spaces]]
-Links: [[Normed Spaces]], [[Vector Spaces]]
+Links: [[Normed Vector Spaces]], [[Vector Spaces]]
 We can look at the space of sequences such that for $p \in [1, \infty)$, in general we can denote $x_\bullet$ to be a sequnce of real numbers (notation Wikipedia)
 
 $$ \sum_{k = 1}^\infty |x_i|^p $$

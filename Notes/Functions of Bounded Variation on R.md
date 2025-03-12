@@ -3,6 +3,7 @@ tags:
   - RealAnalysis
 ---
 Subjects: [[Real Analysis]]
+Links: [[Continuity on R]], [[Module and Algebra (Structure)]]
 
 Let $f$ be defined on $[a,b]$. If $P=\{x_i\}_{i=0}^n$ is a partition of $[a,b]$, and ${\Delta f_k = f(x_k)-f(x_{k-1})}$, for all $k \le n$. If there’s an $M >0$ such that:
 
@@ -24,10 +25,7 @@ We can say that the set of all the functions of bounded variation on $[a,b]$ as 
 
 ### Total Variation
 
-Let $f: [a,b] \to \Bbb R$, the _total variation of $f$ on $[a,b]$_ is defined as:
-
-$$ V_f(a,b)=\sup_{P\in \wp_I}\sum_P |\Delta f_i| $$
-
+Let $f: [a,b] \to \Bbb R$, the _total variation of $f$ on $[a,b]$_ is defined as: $$ V_f(a,b)=\sup_{P\in \wp_I}\sum_P |\Delta f_i| $$
 In general $V_f(a,b) \ge 0$, and if $V_f(a,b) = 0$ iff $f$ is a constant on $[a,b]$
 
 Both $V(f)$ and $V_f(a,b)$ will be used, the first if the domain is clear by the context and it is unchanging, the latter when the domain is changing or to clarify.
@@ -35,20 +33,17 @@ Both $V(f)$ and $V_f(a,b)$ will be used, the first if the domain is clear by the
 If $V_I(f) < \infty$, iff ${\alpha \in BV(I)}$ .
 
 In particular, if $f$ is continuous on $[a,b]$, and differentiable on $(a,b)$, with $|f'(x)| \le M$, for some $M >0$, then:
-
 $$ V_f \le M(b-a) $$
 
-If $f$ is differentiable and it’s derivative is Riemann Integrable then:
-
-$$ V_f =\int_I |f '| $$
-
+If $f$ is differentiable and it’s derivative is Riemann Integrable then:$$ V_f =\int_I |f '| $$
 If $f, g \in BV(I),$ and $c, d\in \Bbb R$, then $cf+dg, fg \in BV(I)$, and
 
 $$ V_{cf+dg} \le |c|V_f + |d|V_g \text{ ,and } V_{fg} \le AV_f + BV_g $$
 
-where $A = \sup_{x\in I}|g(x)|$ and $B = \sup_{x\in I}|f(x)|$
+where $A = \sup_{x\in I}|g(x)|$ and $B = \sup_{x\in I}|f(x)|$. We get that $BV(I)$ is an algebra. 
 
 Let $f\in BV(I)$ and bounded away from zero, is bounded away from zero iff ${\exists m> 0\forall x\in I(m \le }|f(x)|)$, then $1/f \in BV(I)$, and $V_{1/f} \le \frac{V_f}{m^2}$
+
 
 ### Additive Property of Total Variation
 

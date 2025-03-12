@@ -7,6 +7,7 @@ Links: [[Interior Points]], [[Limit Points and Closure]], [[Dense Subsets]]
 
 We can look at special sets. Let $(X, \tau)$ be a topological space:
 - A set $E\subseteq X$ is *dense* in $X$, if $\text{cl}(E) =X$
+- A set $E\subseteq X$ is *co-dense* on $X$ if $X\setminus E$ is dense
 - A set $E\subseteq X$ is *dense-in-itself* if for any point of $E$ is a limit point of $E$, meaning, $E \subseteq \text{Lim}(E)$
 - A set $E\subseteq X$ is perfect, if $E$ is *closed* and *dense-in-itself*
 - A set $E\subseteq X$ has an empty interior, meaning $\text{int}(E) = \varnothing$ 

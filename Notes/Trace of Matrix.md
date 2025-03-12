@@ -18,7 +18,7 @@ An important property, let $A$ and $B$ be square matrices, then $$\text{tr}(AB) 
 Let $P$ be a change of basis matrix then with $A= PBP^{-1}$, then $$\text{tr}(A) = \text{tr}(PBP^{-1}) = \text{tr}(BP^{-1}P) = \text{tr}(B)$$
 With this we can define the trace of an operator, let $T\in \mathcal L(V)$ and $\beta$ a basis of $V$, then $$\text{tr}(T) := \text{tr}([T]_\beta) $$
 with this if we are over an algebraicly closed field we get that, if $T$ is a linear operator with $\lambda_1, \dots, \lambda_n$ are the eigenvalues of $T$, then $$\text{tr}(T) = \sum_{i = 1}^n\lambda_i$$
-We get a nice connection between the determinan, using [[Jordan Normal Form#Matrix Exponential|the matrix exponential function]], getting that $$\det(\exp(A)) = \exp(\text{tr}(A))$$
+We get a nice connection between the determinan, using [[Matrix Functions#Matrix Exponential|the matrix exponential function]], getting that $$\det(\exp(A)) = \exp(\text{tr}(A))$$
 A related characterisation of the trace applies to linear vector fields. Given a matrix $A$, define the vector field $F: \Bbb R^n \to \Bbb R^n$ by $F(x) = Ax$. The components of this vector field are linear functions (given by the rows of $A$). Its divergence $\text{div} F$ 
 is a constant function, whose value is $\text{tr}(A)$. 
 

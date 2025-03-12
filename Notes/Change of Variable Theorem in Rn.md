@@ -135,3 +135,5 @@ using induction, we can get the close form of
 $$ |J_n| = r^{n-1}\prod_{k = 1}^{n-2}\sin^{n-1-k}(\phi_k) $$
 
 Since $J_n =0$ only happens when $r = 0$, or when $\phi_k = 0, \pi$ for $k < n-1$. It is a set of $0$ Jordan measure thus we can use the Change of Variable Theorem.
+
+With this in mind, we can calculate the volume for the unit $n$-ball and get that $$V_n = \frac{\pi^{n/2}}{\Gamma\left(\frac{n}{2}+1\right)}.$$From this we get that as $n \to \infty$, then $V_n \to 0$. 

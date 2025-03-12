@@ -54,4 +54,4 @@ Real Analysis is the study of real numbers and real-valued functions. I am mainl
 	- [[Absolute Convergence of Double Series]]
 - [[Riemann-Steiltjes Integral on R]]
 	- [[Functions of Bounded Variation on R]]
-- [[Borel Sets in R]]
+- [[Borel Sets]]

@@ -20,52 +20,30 @@ Let $F$ be a function and $A$ and $B$ sets:
 - $F$ is a function _into_ $B$ iff $\text{ran}\,F \subseteq B$
     
 - The _restriction_ of the function $F$ _to $A$_ is the function:
-    $$ F|_A =\{(a,b) \in F\mid a \in A\} $$
+    $$ F\restriction_A =\{(a,b) \in F\mid a \in A\} $$
     
     If $G$ is a restriction of $F$ to some $A$, then $F$ is an _extension_ of $G$.
     
 
-Let $f$ and $g$ be functions. Then $g\circ f$ is a function.
-
-$$ \def\dom{\text{dom}\,} \dom(g\circ f) = \dom f \cap f^{-1}[\dom g] $$
+Let $f$ and $g$ be functions. Then $g\circ f$ is a function. $$ \def\dom{\text{dom}\,} \dom(g\circ f) = \dom f \cap f^{-1}[\dom g] $$
 
 Also $(g\circ f)(x) = g(f(x)),$ for all $x \in \text{dom}\, (g\circ f)$.
 
 Let $A$ and $B$ be sets . The set of all functions on $A$ into $B$ is denoted $B^A$. Since $f \subseteq A \times B$, then $f \in \mathcal{P}(A\times B)$, then $B^A \subseteq \mathcal P(A\times B)$, thus $B^A$ must exist for any $A$ and $B$.
 
-Let’s consider a family of indexed sets $S =\langle S_i \mid i \in I \rangle$, then the _product_ of the indexed set $S$ is:
+Let’s consider a family of indexed sets $S =\langle S_i \mid i \in I \rangle$, then the _product_ of the indexed set $S$ is: $$ \prod_{i\in I} S_i = \left\{ \left. f:I\to \bigcup_{i\in I}S_i \right| \forall i \in I[f(i) \in S_i]\right\} $$if for any $i \in I$, $S_i= B$, then$$ \prod_{i\in I}S_i = \prod_{i\in I} B= B^I $$There are other notations: $\prod S$, $\prod\langle S_i \mid i \in I \rangle$ and $\prod_{i\in I}S(i)$.
 
-$$ \prod_{i\in I} S_i = \left\{ \left. f:I\to \bigcup_{i\in I}S_i \right| \forall i \in I[f(i) \in S_i]\right\} $$
-
-if for any $i \in I$, $S_i= B$, then
-
-$$ \prod_{i\in I}S_i = \prod_{i\in I} B= B^I $$
-
-There are other notations: $\prod S$, $\prod\langle S_i \mid i \in I \rangle$ and $\prod_{i\in I}S(i)$.
-
-A is a set _indexed by $S$_ if:
-
-$$ A = \{S_i \mid i\in I\} = \text{ran}\, S $$
-
-Where $S$ is a function on $I$. It is expected to write:
-
-$$ \bigcup A = \bigcup \{S_i \mid i \in I \} = \bigcup_{i\in I} S_i $$
-
+A is a set _indexed by $S$_ if:$$ A = \{S_i \mid i\in I\} = \text{ran}\, S $$Where $S$ is a function on $I$. It is expected to write:$$ \bigcup A = \bigcup \{S_i \mid i \in I \} = \bigcup_{i\in I} S_i $$
 ### Compatible Functions
 
-**Def:**
-
-Functions $f$ and $g$ are _compatible_ iff $\def \dom{\text{dom}\,} \forall x \in \dom f\cap \dom g[f(x) = g(x)]$
+**Def:** Functions $f$ and $g$ are _compatible_ iff $\def \dom{\text{dom}\,} \forall x \in \dom f\cap \dom g[f(x) = g(x)]$
 
 A set of functions $\cal F$ is _compatible_ iff $\forall f, g \in \mathcal{F}[f, g\text{ are compatible]}$.
 
 **Theorems:**
-
-Functions $f$ and $g$ are compatible iff $f\cup g$ is a function
-
-Functions $f$ and $g$ are compatible iff $\def \dom{\text{dom}\,} D =\dom f \cap \dom g$, $f|_D= g|_D$.
-
-If $\cal F$ is a compatible system of functions, then $\bigcup \cal F$ is a function, with $\def \dom{\text{dom}\,} {\dom F = \bigcup_{f\in \cal F} \dom f}$. The function $\bigcup \cal F$ extends all $f \in \cal F$
+- Functions $f$ and $g$ are compatible iff $f\cup g$ is a function
+- Functions $f$ and $g$ are compatible iff $\def \dom{\text{dom}\,} D =\dom f \cap \dom g$, $f|_D= g|_D$.
+- If $\cal F$ is a compatible system of functions, then $\bigcup \cal F$ is a function, with $\def \dom{\text{dom}\,} {\dom F = \bigcup_{f\in \cal F} \dom f}$. The function $\bigcup \cal F$ extends all $f \in \cal F$
 
 ### Properties
 
@@ -81,6 +59,8 @@ Let $X$, $Y$ be sets, $f:X\to Y$ be a function, $A_1, A_2 \subseteq X$ and $B_1,
 - $f^{-1}[B_1\setminus B_2] = f^{-1}[B_1] \setminus f^{-1}[B_2]$
 - $f^{-1}[f[A_1]]\supseteq A_1$
 - $f[f^{-1}[B_1]] \subseteq B_1$
+
+Let $\mathcal A \subseteq P(X)$,  $\mathcal B \subseteq P(Y)$, and $f: X \to Y$. We define the direct image of $\mathcal A$ under $f$ as $$f[\mathcal A] := \{f[A] \mid A\in \mathcal A\}.$$Similarly, we define the inverse image of $\mathcal B$ as $$f^{-1}[\mathcal A] := \{f^{-1}[B] \mid B\in \mathcal B\}.$$
 
 ## Injective and Surjective functions
 
@@ -113,7 +93,6 @@ $f: X\to Y$, then $f$ is bijective iff for any $A \subseteq X$, $f[X\setminus A]
     - If $g \circ f$ is bijective, then $f$ is injective, and $g$ is surjective
 
 Let $f:X \to Y$:
-
 - A function $g:Y\to X$, it’s called a _left inverse_ if, $g\circ f= \text{id}_X$
 - A function $g:Y\to X$, it’s called a _right inverse_ if, $f\circ g= \text{id}_Y$
 

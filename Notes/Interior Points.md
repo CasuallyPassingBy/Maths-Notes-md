@@ -37,7 +37,7 @@ We get a couple properties of the boundary of sets, in the topological space $(X
 - $\text{bd}(\varnothing) = \varnothing$
 - $\text{bd}(E) = \text{bd}(X\setminus E)$
 - $\text{bd}(\text{bd}(E)) \subseteq \text{bd}(E)$ 
-- $\text{bd}(A \cap B) \subseteq [\text{cl}(A) \cap \text{fr}(B)] \cup [\text{fr}(A) \cap \text{cl}(B)]$ 
+- $\text{bd}(A \cap B) \subseteq [\text{cl}(A) \cap \text{bd}(B)] \cup [\text{bd}(A) \cap \text{cl}(B)]$ 
 
 For a subset $E$ of the topological space $(X, \tau)$, then the following are true:
 - $\text{ext}(E) = X \setminus \text{cl}(E)$

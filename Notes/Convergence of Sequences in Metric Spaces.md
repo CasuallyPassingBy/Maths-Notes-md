@@ -4,6 +4,7 @@ tags:
 ---
 Subjects: [[Metric and Normed Spaces]]
 Links: [[Sequences in Rn]], [[Limits of a Sequence in R]], [[Metric Spaces]], [[Continuity on Metric Spaces]], [[Sequences in Rn]]
+
 **Def:** A sequence in $X$ is a function $x_\bullet:\Bbb N\to X$. The sequence it will be usually represented as $(x_n)_{n\in \Bbb N}$
 
 **************Def:************** A sequence $(x_n)_{n\in \Bbb N}$ of points in $(X, d)$ converges to a point $x \in X$ iff

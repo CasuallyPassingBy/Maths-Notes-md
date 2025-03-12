@@ -99,7 +99,7 @@ I^n =
 -\Bbb I & n \equiv 3 \pmod 4 \\
 \end{cases}
 $$
-With this we can use the [[Jordan Normal Form#Matrix Exponential|matrix exponential]], that converges for every matrix, and get that
+With this we can use the [[Matrix Functions#Matrix Exponential|matrix exponential]], that converges for every matrix, and get that
 $$
 \exp(b\Bbb I) = \cos(b)  \Bbb 1 +\sin (b)\Bbb I
 $$

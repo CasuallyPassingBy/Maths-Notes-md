@@ -14,7 +14,7 @@ Let $\mathcal F \subseteq F(X, Y)$
 We have a couple of observations, we can make:
 - If $\cal F$ is equicontinuous at $X$, then every $f\in \cal F$ is continuous at $x$
 - If $\cal F$ is equicontinuous on $X$, then $\mathcal F \subseteq \mathcal C(X, Y)$ 
-- If $\cal F$ is uniformly equicontinuous on $A$, then for every $f\in \cal F$, then $f|_A$ is uniformly continuous on $A$
+- If $\cal F$ is uniformly equicontinuous on $A$, then for every $f\in \cal F$, then $f|_A$ is uniformly continuous on $A$ ^3024b9
 - If $\mathcal F \subseteq \mathcal C(X, Y)$ is finite, then $\cal F$ is equicontinuous on $X$
 
 We have that equicontinuity $\centernot \implies$  uniform equicontinuity.

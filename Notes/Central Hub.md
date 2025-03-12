@@ -1,11 +1,15 @@
 We have all the subjects:
 
 # Subjects
+
 ## Foundational
 - [[Set Theory]]
 - [[Topology]]
+	- [[Algebraic Topology]]
+	- [[Combinatorial Topology]]
 - [[Elementary Number Theory]]
 	- [[Analytic Number Theory]]
+- [[Category Theory]]
 ## Analysis
 - [[Real Analysis]]
 - [[Vector Analysis]]
@@ -17,6 +21,8 @@ We have all the subjects:
 - [[Linear Algebra]]
 - [[Group Theory]]
 - [[Ring Theory]]
+- [[Module Theory]]
+- [[Algebra Theory]]
 ## Differential Equations
 - [[Ordinary Differential Equations]]
 - [[Partial Differential Equations]]
@@ -26,6 +32,8 @@ We have all the subjects:
 - [[Probability Theory]]
 - [[Statistics]]
 - [[Stochastic Processes]]
+- [[Stochastic Simulation]]
+- [[Nonlinear Programming]]
 ## Advanced Topics
 - [[Measure Theory]]
 - [[Differential Geometry]]
@@ -47,3 +55,4 @@ We have all the subjects:
 - [[Finite Operator Calculus]]
 - [[Useful Identities]]
 - [[Macroeconomics]]
+- [[Discrete Calculus]]

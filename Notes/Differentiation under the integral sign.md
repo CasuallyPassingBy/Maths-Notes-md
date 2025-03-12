@@ -1,7 +1,6 @@
 ---
 tags:
   - RealAnalysis
-  - VectorAnalysis
 ---
 Subjects: [[Real Analysis]], [[Vector Analysis]]
 Links: [[Fubini's Theorem]], [[Riemann Integral in R]], [[Improper Integrals in R]]

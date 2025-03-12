@@ -40,6 +40,7 @@ I am using mainly Boyce, Di Prima "Elementary Differential Equations and Boundar
 - [[Important Differential Equations]]
 	- [[Legendre Polynomials]]
 	- [[Calculating the Bessel Functions From the ODE]]
+- [[Integral Curves and Local Flows in Rn]]
 ### Existence
 - [[Peano Existence Theorem]]
 - [[Carathéodory's Existence Theorem]]

@@ -8,7 +8,6 @@ Links: [[Space of Linear Transformations]], [[Matrix Representation of Linear Tr
 _**Def:**_ Let $T\in\mathcal{L}(V,W)$, $T$ is said to be invertible if there’s a $S\in\mathcal{L}(W,V)$, such that $ST = I_V$ and $TS = I_W.$ $S$ is called the _inverse of $T$_, and is denoted as $T^{-1}$.
 
 _**Theorem:**_ Let $V, W$ be finite dimensional vector space, given $T\in\mathcal{L}(V,W)$, and $\dim V =\dim W$ then this are equivalent:
-
 1. $T$ is invertible
 2. $T$ is injective
 3. $T$ is surjective

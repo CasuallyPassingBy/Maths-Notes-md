@@ -44,7 +44,7 @@ has a unique solution modulo $n$ whenever $\gcd(ad-bc, n)=1$.
 
 where the solutions will be of the form
 $$ x \equiv (ad-bc)^{-1}(dr-bs) \pmod n $$$$ y \equiv (ad-bc)^{-1}(as-cr) \pmod n $$
-This to me feels like solving a linear system of equations in a $\Bbb Z_n$ [[R-Module|module]], and a matrix over $\Bbb Z_n$
+This to me feels like solving a linear system of equations in a $\Bbb Z_n$ [[Module and Algebra (Structure)|module]], and a matrix over $\Bbb Z_n$
 
 ********************Th:******************** Given a linear congruence of the form
 

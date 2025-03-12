@@ -4,7 +4,7 @@ tags:
   - LinearAlgebra
 ---
 Subjects: [[Metric and Normed Spaces]], [[Linear Algebra]]
-Links: [[Space of Linear Transformations]], [[Inner Products and Norms]], [[Normed Spaces]]
+Links: [[Space of Linear Transformations]], [[Inner Products and Norms]], [[Normed Vector Spaces]]
 ### Norm in $\mathcal{L}(\Bbb R^n, \Bbb R^m)$
 ************Prop:************ If $L \in \mathcal{L}(\Bbb R^n, \Bbb R^m)$, then there exists a $k > 0$, for any ${x} \in \Bbb R^n$ such that
 $$ \|L(x)\| \le k \|x\| $$

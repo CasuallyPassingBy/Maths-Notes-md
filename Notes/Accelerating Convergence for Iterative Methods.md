@@ -11,7 +11,7 @@ Let suppose $(p_n)_{n \in \Bbb N}$ is a linearly convergent sequence to the limi
 
 $$ \hat p_n = p_n - \frac{(\Delta p_n)^2}{\Delta^2 p_n} $$
 
-This is _Aitken’sn $\Delta^2$ Method_, we are going to use the $\Delta$ notation for differences that is present in [[discrete calculus]]
+This is _Aitken’sn $\Delta^2$ Method_, we are going to use the $\Delta$ notation for differences that is present in [[Discrete Calculus]]
 
 Let $(p_n)_{n \in \Bbb N}$ is a sequence that converges linearly to the limit point $p$, and that
 

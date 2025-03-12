@@ -25,7 +25,7 @@ The algorithms sorts the input numbers in *in place*: it rearranges the numbers 
 
 void insertion_sort(std::vector<int>& arr){
 	int n = arr.size();
-	for (size_t i = 1; i < n; ++i)
+	for (int i = 1; i < n; ++i)
 	{
 		int key = arr[i];
 		int j = i -1;
@@ -43,7 +43,7 @@ int main(){
 	insertion_sort(arr);
 
 	std::cout << "sorted array: ";
-	for (int i = 0; i < arr.size(); i++)
+	for (size_t i = 0; i < arr.size(); i++)
 		std::cout << arr[i] << ' ';
 	std::cout << std::endl;
 	// output on console: sorted array: 5 6 11 12 13 
@@ -72,7 +72,7 @@ The divide-and-conquer are involves three steps at each level of recursion:
 
 > These are the basic guidelines for many important algorithms in CS
 
-#### Merge Sort
+## Merge Sort
 
 The *merge sort* algorithm closely follows the divide-and-conquer paradigm:
 - *Divide:* Divide the $n$ element sequence to be sorted into two sequences of $n/2$ elements
@@ -96,9 +96,9 @@ void Merge(std::vector<int>& A, int p, int q, int r)
 	std::vector<int> L(n1);
 	std::vector<int> R(n2);
 	
-	for (size_t i = 0; i < n1; ++i)
+	for (int i = 0; i < n1; ++i)
 		L[i] = A[p+i];
-	for (size_t i = 0; i <  n2; ++i)
+	for (int i = 0; i <  n2; ++i)
 		R[i] = A[q + i+1];
 	int i = 0;
 	int j = 0;
@@ -134,11 +134,7 @@ void Merge(std::vector<int>& A, int p, int q, int r)
 		++k;
 	}
 }
-```
 
-The procedure $\verb|Merge|$ as a subroutine in the merge sort algorithm. The $\verb|Merge_sort|(A, p, r)$ sorts the elements of the subarray $A[p, \dots, r]$ into two sub arrays $\lceil n/2\rceil$ elements, and $A[q+1, \dots, r]$ containing $\lfloor n/2 \rfloor$ elements
-
-```cpp
 void Merge_sort(std::vector<int>& A, int p, int r)
 {
 	if (p < r)
@@ -155,7 +151,7 @@ int main(){
 	Merge_sort(arr, 0, arr.size()-1);
 
 	std::cout << "sorted array: ";
-	for (int i = 0; i < arr.size(); i++)
+	for (size_t i = 0; i < arr.size(); i++)
 		std::cout << arr[i] << ' ';
 	std::cout << std::endl;
 	// output on console: sorted array: 5 6 11 12 13 
@@ -163,5 +159,7 @@ int main(){
 }
 
 ```
+
+The procedure $\verb|Merge|$ as a subroutine in the merge sort algorithm. The $\verb|Merge_sort|(A, p, r)$ sorts the elements of the subarray $A[p, \dots, r]$ into two sub arrays $\lceil n/2\rceil$ elements, and $A[q+1, \dots, r]$ containing $\lfloor n/2 \rfloor$ elements
 
 We will later prove that the time for merge sort in asymptotic notation is $\Theta(n \log n)$. 

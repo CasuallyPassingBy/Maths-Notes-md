@@ -4,24 +4,31 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Topology]], [[Differential Geometry]]
-Links: [[Hausdorff spaces]], [[Separable, First and Second Countable Spaces]]
+Links: [[Hausdorff Spaces]], [[Separable, First and Second Countable Spaces]], [[Continuous Functions and Homeomorphims]], [[Fundamental Group of a Topological Space]]
 
-**Def:** We say that if for each point $p$ has a neighbourhood $U$ which is homeomorphic to an open set $U'$ of $\Bbb R^n$, $n$ fixed. 
+**Def:** A topological space $M$ is *locally Euclidean of dimension $n$* if every point $p$ in $M$ has a neighbourhood $U$ such that there is a homeomorphism $\phi$ from $U$ onto an open subset of $\Bbb R^n$. We call the pair $(U, \phi: U \to \Bbb R^n)$ a *chart*, $U$ a *coordinate neighbourhood* or a *coordinate open set*, and $\phi$ a *coordinate map* or a *coordinate system* on $U$. We say that a chart $(U, \phi)$is *centred* at $p \in U$ if $\phi(p) = 0$. 
 
-**Def:** A *manifold* $M$ of dimension $n$, or $n$-manifold, is a topological space with the following properties:
-- $M$ is Hausdorff
-- $M$ is locally Euclidean of dimension $n$
-- $M$ is second countable
+**Def:** A *topological manifold* $M$ is a Hausdorff, second countable locally Euclidean space. It is said to be of *dimension* $n$ if it is locally Euclidean of dimension $n$.
 
-As a matter of notation $\dim M$ is used for the *dimension* of $M$. 
+A manifold is said to have dimension $n$ if all of its connected components have dimension $n$. A $1$-dimensional manifold is also called a *curve*, a $2$-dimensional manifold a *surface*, and an $n$-dimensional manifold an $n$-manifold
 
-**Th:** A topological manifold $M$ is [[Locally Connectedness|locally connected]], [[Locally compactness|locally compact]], and a union of a countable collection of compact subsets; furthermore it is [[Normal Spaces|normal]] and [[Metrizable Spaces|metrizable]]
+We haven't proved that the dimension is indeed well defined. For that, we would need to know that for $n \neq m$ an open subset of $\Bbb R^n$ is not homeomorphic to an open subset of $\Bbb R^m$. This fact, called the invariance of dimension, is indeed true, but not in the scope right now.
 
-**Def:** Let $M \in \tau_M$, $U \in \tau_M$, $V\in \tau_{\Bbb R^n}$ where $n = \dim M$, and $\varphi: U \to V$ a homeomorphism. The pair $(U, \varphi)$ is called a *coordinate neighbourhood* to $q \in U$, or *chart*. We assign the $n$-coordinates $x^1(q), \dots, x^n(q)$ to the image of $\varphi(q) \in \Bbb R^n$ the $x^m$ is a real valued function on $U$, the $m$th coordinate function. 
+**Obs:** Suppose $(U, \phi: U \to \Bbb R^n)$ and $(V, \psi: V\to \Bbb R^n)$ are two charts of a topological manifold. since $U \cap V$ is open in $U$ and $\phi: U \to \Bbb R^n$ is a homeomorphism onto an open subset of $\Bbb R^n$, the image $\phi(U \cap V)$ will also be an open subset of $\Bbb R^n$. Similarly, $\psi(U \cap V)$ is an open subset of $\Bbb R^n$, and there is a homeomorphism between them, namely $\psi \circ \phi^{-1}$ or $\phi \circ \psi^{-1}$. 
 
-**Obs:** If $q$ lies in two charts $(U, \varphi)$ and $(V, \psi)$, then it has coordinates $x^1(q), \dots, x^n(q)$ and $y^1(q), \dots, y^n(q)$, respectively. We define the homeomorphism $$\psi \circ \varphi^{-1} : \varphi[U \cap V]\subseteq \Bbb R^n \to \psi[U \cap V] \subseteq \Bbb R^n$$
-In coordinates $\phi \circ \varphi^{-1}$ is given by the continuous functions $$y^m = h^m(x^1, \dots, x^n), \qquad m \in \{1 \dots, n\}$$
-Similarly, $\varphi \circ \psi^{-1}$ gives the inverse mapping which expresses the $x$-coordinates as functions of the $y$-coordinates $$x^m = g^m(y^1, \dots, y^n) \qquad m \in \{1, \dots, n\}$$
-We call $\varphi \circ \psi^{-1}$ to be a *transition map*. 
+**Def:** An *atlas* on a locally Euclidean space $M$ is a collection of charts $\mathfrak U = \{(U_\alpha, \varphi_\alpha) \mid \alpha < \kappa\}$ that [[Topological Cover|cover]] $M$, i.e. such that $M = \bigcup_{\alpha < \kappa} U_\alpha$. A *complete atlas* is maximal. 
 
-**Def:** An *atlas* is a collection of charts $\{(U_\alpha, \varphi_\alpha) \mid \alpha < \kappa\}$ such that $\{U_\alpha \mid \alpha < \kappa\}$ is an open cover of $M$. A *complete atlas* is a maximal. 
+**Lemma:** Every manifold $M$ has a countable basis all of whose elements have compact closure.
+
+**Cor:** Every topological manifold is [[Locally compactness|locally compact]].
+
+**Prop:** Let $M$ be a topological manifold:
+- $M$ is locally path connected.
+- $M$ is connected iff it is path connected.
+- The componentes of $M$ are the same as its path connected.
+- $M$ has at most countably many componentes, each of which is an open subset of $M$ and a connected topological manifold.
+
+**Prop:** The fundamental group of any topological manifold is countable.
+
+**Lemma:** Every manifold $M$ has a countable increasing sequence of subsets $\overline{V_n} \subseteq V_{n+1}$, with each $V_n$ open and $\overline{V_n}$ compact, such that $M = \bigcup_{n < \omega} V_n$. 
+

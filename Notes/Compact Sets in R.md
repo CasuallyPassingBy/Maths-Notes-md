@@ -15,21 +15,17 @@ Let $A\subseteq \Bbb{R}$ be a infinite bounded set, then has at least a limit po
 **Th (Characterization of Sequential Compactness in $\Bbb{R}$):** A set $K \subseteq \Bbb{R}$ is sequentially compact iff it is closed and bounded.
 
 ## Open Covers
+**Def:** Let $A \subseteq \Bbb{R}$. An *[[Topological Cover|open cover]]* for $A$ is a (possibly infinite) collection of open sets ${\{U_\lambda \mid \lambda \in \Lambda\}}$ whose union contains the set $A$; that is $A \subseteq \bigcup_{\lambda\in \Lambda} U_\lambda$. Given an open cover for $A$, a *[[Topological Cover|finite subcover]]* is a finite subcollection of open sets from the original open cover whose union still manages to completely contain $A$.
 
-********Def:********* Let $A \subseteq \Bbb{R}$. An **************open cover************** for $A$ is a (possibly infinite) collection of open sets ${\{U_\lambda \mid \lambda \in \Lambda\}}$ whose union contains the set $A$; that is $A \subseteq \bigcup_{\lambda\in \Lambda} U_\lambda$. Given an open cover for $A$, a ****************finite subcover**************** is a finite subcollection of open sets from the original open cover whose union still manages to completely contain $A$.
-
-********Def:******** A set $K \subseteq \Bbb{R}$ is called ********compact******** if for every open cover there’s a finite subcover
+********Def:******** A set $K \subseteq \Bbb{R}$ is called [[Compactness|compact]] if for every open cover there’s a finite subcover
 
 ### Heine-Borel Theorem
-
 Let $K \subseteq \Bbb{R}$. All of the following statements are equivalent:
-
 - $K$ is sequentially compact
 - $K$ is compact
 - $K$ is closed and bounded
 
 ### Nested Compact Set Property
-
 Let $(K_n)_{n \in \Bbb{N}}$ be a nested sequence of nonempty compact sets, then
 
 $$ \bigcap_{n \in \Bbb{N}} K_n \ne \varnothing $$

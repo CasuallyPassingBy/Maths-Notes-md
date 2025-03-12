@@ -38,3 +38,5 @@ Let $\tau_1$ and $\tau_2$ be topologies of $X$, and let $A$ be a subset of $X$. 
 Let $Y$ be a subspace of $X$. For any $E\subseteq Y$ we have that
 - $\text{Lim}_Y(E) = \text{Lim}_X(E)\cap Y$ 
 - $\text{cl}_Y(E) = \text{cl}_X(E) \cap Y$ 
+
+**Def:** Let $\mathcal A = \{A_\alpha \mid \alpha  < \kappa\}$ be a family of subsets of a topological space $X$. Then $$\text{cl}(\mathcal A) := \{\text{cl}(A_\alpha) \mid \alpha <\kappa\}$$

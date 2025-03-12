@@ -3,7 +3,7 @@ tags:
   - ProbabilityTheory
 ---
 Subjects: [[Probability Theory]]
-Links: [[Random Variables]], [[Probability Functions for Random Variables]], [[Riemann-Steiltjes Integral on R]], [[Measuable Functions]]
+Links: [[Random Variables]], [[Probability Functions for Random Variables]], [[Riemann-Steiltjes Integral on R]], [[Measurable Functions]]
 
 ## Expected Value
 Let $X$ be a random variable with a distribution function $F$. The expected value of $X$, denoted as $E[X]$, it is defined as the number 

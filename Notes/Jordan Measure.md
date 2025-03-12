@@ -2,7 +2,7 @@
 tags:
   - VectorAnalysis
 ---
-Subjects: [[Vector Analysis]] 
+Subjects: [[Vector  Analysis]] 
 Links: [[Riemann Integral in Rn]]
 
 **Def:** Let $A\subseteq\Bbb R^n$ and define $\chi_A:\Bbb R^n\to \Bbb R$, the function characteristic of $A$, as follows

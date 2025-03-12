@@ -12,7 +12,7 @@ We care about the analysis in $\Bbb R^n$, and in particular the theory of the Fo
 
 We see that translations $x \mapsto x + h$, with $h \in \Bbb R^n$ fixed. Meaning that the translations is isomorphic to $\Bbb R^n$. The dilations $x \mapsto \delta x$, with $\delta>0$. In $R^n$ we have more rotations, and the understanding of the interaction between the Fourier transform and rotations leads to interesting insights regarding spherical symmetries.
 
-A *rotation* in $\Bbb R^n$ is a linear transformation $R\in \mathcal L(\Bbb R^n)$, which preserves the inner product. This is common enough that we have a name for the set of all rotations $O(n, \Bbb R)$, being the [[orthogonal group]]. In the case, where we are working on $\Bbb R$, we can just say $O(n)$.
+A *rotation* in $\Bbb R^n$ is a linear transformation $R\in \mathcal L(\Bbb R^n)$, which preserves the inner product. This is common enough that we have a name for the set of all rotations $O(n, \Bbb R)$, being the [[Orthogonal Group]]. In the case, where we are working on $\Bbb R$, we can just say $O(n)$.
 
 # Elementary Theory of the Fourier transform
 

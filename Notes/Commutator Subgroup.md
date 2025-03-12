@@ -11,6 +11,6 @@ The *commutator subgroup* $[G, G]$ or the *derived subgroup* denoted as $G'$ or 
 
 **Prop:** Let $G$ be a group and $H \trianglelefteq G$. $G/H$ is abelian iff $[G, G] \le H$.
 
-In particular $G/[G, G]$ is abelian and it is called the abelianization of $G$, usually denoted as $G^{\text{ab}}$ or $G_{\text{ab}}$.  
+In particular $G/[G, G]$ is abelian and it is called the abelianisation of $G$, usually denoted as $G^{\text{ab}}$ or $G_{\text{ab}}$.  
 
 A group $G$ is called *perfect* if $G = [G, G]$. This like the opposite of being abelian. 

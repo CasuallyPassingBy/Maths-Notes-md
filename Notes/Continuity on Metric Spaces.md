@@ -3,7 +3,7 @@ tags:
   - Analysis
 ---
 Subjects: [[Metric and Normed Spaces]]
-Links: [[Metric Spaces]], [[Continuity on R]], [[Uniform Continuity on R]], [[Limits and Continuity of Vector valued functions of Rn]], [[Normed Spaces]], [[Space of Linear Transformations]]
+Links: [[Metric Spaces]], [[Continuity on R]], [[Uniform Continuity on R]], [[Limits and Continuity of Vector valued functions of Rn]], [[Normed Vector Spaces]], [[Space of Linear Transformations]]
 ### Continuity
 
 A function $f:(X,d) \to (Y,\rho)$ between metric spaces is continuous at $z \in X$ iff:

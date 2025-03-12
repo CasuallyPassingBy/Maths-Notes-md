@@ -29,15 +29,8 @@ We can get that
     
 - The mode is $\dfrac{a-1}{a+b-2}$
     
-- The median is $I^{[-1]}_{1/2}(a,b)$, where this is the inverse of the regularised incomplete beta function, this is dumb, but we can estimate it if $a, b\ge 1$, then
-    
-    $$ \operatorname{median} \approx \frac{a-\frac{1}{3}}{a+b-\frac{2}{3}} $$
-    
-
-Let $X$ and $Y$ be independent random variables with distribution $\Gamma(a,\lambda)$ and $\Gamma(b,\lambda)$, respectively. Then
-
-$$ \frac{X}{X+Y} \sim \text{B}(a,b) $$
-
+- The median is $I^{[-1]}_{1/2}(a,b)$, where this is the inverse of the regularised incomplete beta function, this is dumb, but we can estimate it if $a, b\ge 1$, then    $$ \operatorname{median} \approx \frac{a-\frac{1}{3}}{a+b-\frac{2}{3}} $$
+Let $X$ and $Y$ be independent random variables with distribution $\Gamma(a,\lambda)$ and $\Gamma(b,\lambda)$, respectively. Then$$ \frac{X}{X+Y} \sim \text{B}(a,b) $$ 
 We can calculate the $n$th moment of $X$ as
 
 $$ E[X^n] = \frac{\text{B}(a+n, b)}{\text{B}(a,b)} = \frac{a^{\overline n}}{(a+b)^{\overline n}} $$

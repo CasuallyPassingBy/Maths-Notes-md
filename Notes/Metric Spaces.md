@@ -2,7 +2,7 @@
 tags:
   - Analysis
 ---
-Subjects: [[Metric and Normed Spaces]]
+Subjects: [[Metric and Normed Spaces]], [[Topology on Metric Spaces]]
 
 **Def:** A metric over the non-empty set $X$ is a function $d:X\times X \to \Bbb R$ that satisfies for any ${x, y,z \in X}$:
 
@@ -39,7 +39,9 @@ $$ d_\infty((x_1,y_1),(x_2, y_2)) =\max \{d_X(x_1, x_2), d_Y(y_1, y_2)\} $$
 ### Metric Identification on Pseudo-metric Spaces
 If we have a pseudo-metric space $(X, d)$, we can generate an equivalence relation $\sim$, that is defined as $x \sim y$ iff $d(x,y) = 0$. Then if we take quotient out the zeros we get that $X/\sim$, and $d': (X/\sim) \times (X/\sim) \to \Bbb R$, defined as $d'([x], [y]) = d(x, y)$ , with $[x]$ and $[y]$ being the equivalence clases of $X/\sim$, then we get that $(X / \sim , d')$ is a metric space.
 
-Basically since the metric can’t tell them apart, then neither should we.
+Basically since the metric can’t tell them apart, then neither should we. This quotient is the [[Kolmogorov Spaces#^93759c|Kolmogorov Quotient]]. 
+
+$d$ is a pseudometric on $M$ is a metric iff $(M, \tau_d)$ is a $T_0$ space.
 
 ## $\infty$-Metrics
 

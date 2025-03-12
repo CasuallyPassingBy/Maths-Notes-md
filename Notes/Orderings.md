@@ -22,7 +22,7 @@ We can define intervals, given an partial order, let $(A, \le)$, $a \le b$:
 - The closed interval $[a. b] := \{ x \in A \mid a \le x \le b\}$, this interval is never empty since $a, b \in [a,b]$
 - The open interval $(a,b) := \{x \in A \mid a < x< b\}$, this interval can be empty
 - The half-open intervals $[a, b)$, and $(a, b]$ are defined similarly.
-- We can can consider the sets $\{x \in X \mid x < a\}$ this is the *initial segment defined by* $a$, and similarly $\{x \in X \mid  a < x\}$ this is the *final segment defined by* $a$. We can denote them as $(\leftarrow, a)$, and $(a, \rightarrow)$, respectively.
+- We can can consider the sets $\{x \in X \mid x < a\}$ this is the *initial segment defined by* $a$, and similarly $\{x \in X \mid  a < x\}$ this is the *final segment defined by* $a$. We can denote them as $(\leftarrow, a)$, and $(a, \rightarrow)$, or as $\downarrow x$ and $\uparrow x$, respectively. 
 
 
 

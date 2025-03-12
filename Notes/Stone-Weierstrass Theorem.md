@@ -59,7 +59,7 @@ Let $\cal A$ be a subset of ${\cal C}^0(K)$ with the following properties:
 - $1 \in \cal A$, meaning the constant function $1$
 - Given $x_1\ne x_2$ in $K$, then there exists $\phi \in A$ such that $\phi(x_1) \ne \phi(x_2)$
 
-The first three conditions can be shorted into saying that $\cal A$ is a [[K-Algebra|subalgebra]] of ${\cal C}^0(K)$, and the last one is that separates points
+The first three conditions can be shorted into saying that $\cal A$ is a [[Module and Algebra (Structure)|subalgebra]] of ${\cal C}^0(K)$, and the last one is that separates points
 
 We need the following lemmas for the Stone-Weiestrass Theorem
 

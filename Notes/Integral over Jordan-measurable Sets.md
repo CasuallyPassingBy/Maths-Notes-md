@@ -15,7 +15,7 @@ $$ \int_A f = \int_R f_A $$
 
 Similarly, we prove that no matter the rectangle $R$ that contains $A$, we will obtain the same quantity ensuring the integral of $f$ over $A$ is well-defined.
 
-**************Lemma:************** Let $f:A\subseteq \Bbb R^n\to \Bbb R$ be bounded over $A$ and $R$ a rectangle such that $A \subseteq R$. Then $D(f_A, R) \subseteq \partial A \cup D(f, A)$
+**************Lemma:************** Let $f:A\subseteq \Bbb R^n\to \Bbb R$ be bounded over $A$ and $R$ a rectangle such that $A \subseteq R$. Then $D(f_A, R) \subseteq \text{Fr}(A) \cup D(f, A)$.
 
 **************Th:************** Let $f:A\subseteq \Bbb R^n\to \Bbb R$ be bounded over $A$, a Jordan-measurable set. If the set of discontinuities of $f$ over $A$, $D(f, A)$, is Jordan-measurable. Then $J(D(f, A))=0$, then $f$ is integrable over $A$.
 
@@ -30,12 +30,9 @@ Similarly, we prove that no matter the rectangle $R$ that contains $A$, we will 
         $$ \int_A f = c\int_A f $$
     - $f^2$ is integrable over $A$
     - $fg$ is integrable over $A$
-    - $|f|$ is integrable over $A$ and
-        $$ \left|\int_A f\right|\le \int_A |f| $$
-    - $f \ge 0$ then
-        $$ \int_A f \ge 0 $$
-    - $f\ge g$ then
-        $$ \int_A f \ge \int_A g $$
+    - $|f|$ is integrable over $A$ and$$ \left|\int_A f\right|\le \int_A |f| $$
+    - $f \ge 0$ then$$ \int_A f \ge 0 $$
+    - $f\ge g$ then $$ \int_A f \ge \int_A g $$
     - the functions $\max\{f,g\}$ and $\min\{f,g\}$ are integrable over $A$
 ### Mean Value Theorem for Integrals
 Let $f,g:A\subseteq\Bbb R^n\to \Bbb R$ such that $f$ is continuous over $A$ and $g$ is integrable over $A$, with $A$ being a connected set. Then

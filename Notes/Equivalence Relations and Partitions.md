@@ -26,7 +26,6 @@ Let $E$ be an equivalence relation on $A$. The system of all equivalence classes
 Let $E$ be an equivalence relation on $A$; then $A/E$ is a partition on $A$.
 
 Let $S$ be a partition on . The relation $E_S$ in $A$ is defined by:
-
 $$ E_S =\{(a,b) \in A \mid \exists C \in S[a, b \in C]\} $$
 
 Then $E_S$ is an equivalence relation on $A$.
@@ -37,3 +36,6 @@ If $S$ is a partition on $A$, and $E_S$ is the corresponding equivalence relatio
 
 A set $X \subseteq A$ is called a _set of 
 representatives_ for the equivalence $E_S$ (or the partition $S$ of $A$), if for every $C \in S$, $X\cap C =\{a\}$ for some $a\in C$.
+
+Given a set $X$ and a partition $E$, there's a natural surjective function $q: X \to E$, such that $q(x) = [x]_E$ is called the *natural projection associated with $E$.*
+

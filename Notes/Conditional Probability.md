@@ -3,7 +3,7 @@ tags:
   - ProbabilityTheory
 ---
 Subjects: [[Probability Theory]]
-Links: [[Probability Measure]], [[Sigma Algebra]], [[Expected Value of Random Variables]], [[Random Variables]]
+Links: [[Probability Measure]], [[Rings and Algebras of Sets]], [[Expected Value of Random Variables]], [[Random Variables]]
 
 **Def:** Let $A$, and $B$ be events. The conditional probability of event $A$ given the event $B$, is denoted as ${P(A \mid B)}$ as satisfies the following equation
 

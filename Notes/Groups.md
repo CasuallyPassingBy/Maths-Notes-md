@@ -14,7 +14,7 @@ A *group* is an ordered pair $(G, *)$ where $G$ is a set and $*$ is a binary ope
 1. $*$ is associative
 2. there exists an element $e\in G$, called the *identity* of $G$, such that for all $a\in G$ we have $a*e = e*a = a$.
 3. For each $a\in G$ there exists $a^{-1}\in G$, called the *inverse* of $a$, such that $a*a^{-1} = a^{-1}*a = e$.
-The group $(G, *)$ is called *abelian* (or *commutative*) if $a*b = b*a$ for all $a, b\in G$. We say that $G$ is a *finite group* if the set $G$ is finite.
+The group $(G, *)$ is called *abelian* (or *commutative*) if $a*b = b*a$ for all $a, b\in G$. We say that $G$ is a *finite group* if the set $G$ is finite. ^58586b
 
 **Prop:** Let $G$ be group, the following equivalent:
 - $G$ is abelian

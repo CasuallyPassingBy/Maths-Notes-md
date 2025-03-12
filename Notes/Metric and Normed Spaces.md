@@ -10,7 +10,7 @@ The study of metric spaces and normed vector spaces
 # Topics
 ## Foundations
 - [[Metric Spaces]]
-- [[Normed Spaces]]
+- [[Normed Vector Spaces]]
 	- [[ellp spaces]]
 	- [[Norm in a Quotient Vector Space]]
 	- [[Inner Products and Norms]]
@@ -56,7 +56,7 @@ The study of metric spaces and normed vector spaces
 	- [[Mean Value Theorem for Fréchet Derivatives]]
 	- [[Higher Order Fréchet Derivatives]]
 - [[Gâteaux Derivative]]
-- [[Partial Derivatives]]
+- [[Partial Derivatives on Banach Spaces]]
 - [[Implicit Function Theorem]]
 	- [[Linear Homeomorphism]]
 - [[Extrema of a Differentiable Functions on Manifolds]]

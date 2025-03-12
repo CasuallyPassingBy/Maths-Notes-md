@@ -3,9 +3,9 @@ tags:
   - "#ProbabilityTheory"
 ---
 Subjects: [[Probability Theory]]
-Links: [[Sigma Algebra]], [[Measure]]
+Links: [[Rings and Algebras of Sets]], [[Measures]]
 
-********Def:******** Let $(\Omega, \mathscr F)$ is a [[Measurable Spaces|measurable space]]. A probability measure is a function $P: \mathscr F\to [0,1]$, that satisfies
+********Def:******** Let $(\Omega, \mathscr F)$ is a [[Rings and Algebras of Sets|measurable space]]. A probability measure is a function $P: \mathscr F\to [0,1]$, that satisfies
 - $P(\Omega)= 1$
 - $P(A) \ge0$ for any $A \in \mathscr F$
 - If $A_1, A_2, \dots\in \mathscr F$ are mutually disjoint, $A_n \cap A_m = \varnothing$ for ${n \Bbb Ne m}$, then$$ P\left(\bigcup_{n = 1}^\infty A_n\right) = \sum_{n = 1}^\infty P(A_n) $$

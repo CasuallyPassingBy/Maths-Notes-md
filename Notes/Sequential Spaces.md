@@ -17,14 +17,16 @@ If $X$ is a sequential space, and $E\subseteq X$, then $x\in \text{cl}(E)$ iff t
 
 Let $f:X\to Y$ be a function between spaces $X$ and $Y$. If $X$ is sequential and $x\in X$, then $f$ is continuous on $x$ iff for every sequence $(x_n)_{n \in \Bbb N}$  on $X$ that converges to $x$ we have that $f(x_n) \to f(x)$. Meaning that in sequential spaces, sequential continuity is enough for continuity. 
 
+A mapping $f$ of a sequential space $X$ to a topological space $Y$ is continuous if $f[\lim x_n] \subseteq \lim f[x_n]$.
+
 # Fréchet-Uryshon Spaces
 
 A topological space $X$ is a *Fréchet-Uryshon space* if for each $A \subseteq X$, and every $x \in \text{cl}(A)$, there's a sequence $(x_n)_{n \in \Bbb N}$ in $A$, that converges to $x$. 
 
 We see that every first countable space is a Fréchet-Uryshon space. 
 
+Every Fréchet-Uryshon space is sequential. 
+
 This property is hereditary.
 
-We have an equivalent, characterization of being Fréchet-Uryshon. For any subset $S\subseteq X$ is not closed iff for every $x \in (\text{cl}_X\, S)\setminus S$, there's a sequence in $S$ that converges to $x$.
-
-Every Fréchet-Uryshon space is sequential. 
+We have an equivalent, characterisation of being Fréchet-Uryshon. For any subset $S\subseteq X$ is not closed iff for every $x \in (\text{cl}_X\, S)\setminus S$, there's a sequence in $S$ that converges to $x$.
