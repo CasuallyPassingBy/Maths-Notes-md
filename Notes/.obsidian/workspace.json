@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,7 +202,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9a9a9507be73e473",
+  "active": "7907446368bfe4ed",
   "lastOpenFiles": [
     "Stochastic Simulation.md",
     "Generation of Continuous Random Variables.md",

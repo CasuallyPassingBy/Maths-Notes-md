@@ -2,7 +2,6 @@
 tags:
   - Subject
 ---
-
 # Overview
 Notes from my class
 
