@@ -3,9 +3,9 @@ tags:
   - StochasticSimulation
 ---
 Subjects: [[Stochastic Simulation]]
-Links: [[Pseudo-random number generator]]
+Links: [[Pseudo-random number generator]], [[Continuous Distributions]]
 
-Since we can generate a random number $U \sim \text{Unif}(0, 1)$, a natural progression is to transform it into another continuous random variable. There are different methods.
+Since we can generate a random number $U \sim \text{Unif}(0, 1)$, a natural progression is to transform it into another continuous random variable. A counterpart to this, is to transform a $U \sim \text{Unif}(0, 1)$ [[Generation of Discrete Random Variables|into discrete random variables]]. There are different methods:
 
 # Method of the Inverse Transform
 
@@ -80,4 +80,28 @@ def uniform_ratio(bounding_function, a_bound, b_bound, c_bound):
 		v = b_bound + v *(c_bound - b_bound)
 		if u*u <= bounding_function(v/u):
 			return v/u
+
+```
+
+# Box-Muller Method
+
+The Box-Muller method transforms two $U_1, U_2 \sim \text{Unif}(0, 1)$ into independent $Z_1, Z_2 \sim \text{Normal}(0,1)$. This tells us that the Box-Muller is a method that is just made to generate [[Normal Distribution|normally distributed random variables]].
+
+The main idea of the Box-Muller method is actually if we can transform two normally distributed random variables, into uniform random variables. Let $X_0, X_1 \sim \text{Normal}(0, 1)$ and independent. Now if we look at the joint pdf is the form $$f_{X_0, X_1} (x_0, x_1) = \frac1{2\pi} \exp\left(-\frac12\left(x_1^2 + x_2^2\right)\right).$$We can make the substitution into polar coordinates. $X_0 = R\cos(\theta)$ and $X_1 = R\sin(\theta)$, then the joint pdf of $(R, \theta)$ is: $$f_{R, \theta}(r, \phi) =\frac1{2\pi}r \exp\left(-\frac{r^2}{2}\right).$$This pdf has support for $r\in [0, \infty)$ and $\phi\in [0, \pi)$. We can check that $R^2 \sim \text{Exp}(1/2)$ and $\theta \sim \text{Unif}[0, 2\pi)$. Therefore, given two uniform random variable $U_1, U_2$ using the method of inverse transform we get that: $$R^2 = - \ln(U_1)\implies R = \sqrt{-2 \ln(U_1)},$$and $$\theta = 2\pi U_2.$$By translating back into Cartesian coordinates, we get that: $$
+\begin{align*}
+X_1 = \sqrt{-2\ln (U_1)} \cos(2\pi U_2) \\
+X_2 = \sqrt{-2\ln (U_1)} \cos(2\pi U_2)
+\end{align*}$$
+So the method is that given two $U_1, U_2 \sim \text{Unif}(0, 1)$, then the Box-Muller transform is defined as $$\begin{align*}
+Z_1 = \sqrt{-2\ln (U_1)} \cos(2\pi U_2) \\
+Z_2 = \sqrt{-2\ln (U_1)} \cos(2\pi U_2)
+\end{align*}$$where $Z_0$ and $Z_1$ are independent and follow a standard normal distribution.
+
+```python
+from math import pi
+def box_muller_transform():
+	u1, u2 = np.random.uniform(size = 2)
+	return (np.sqrt(-2 * np.log(u1))*np.cos(2*pi * u2), np.sqrt(-2 * np.log(u1))*np.sin(2*pi * u2))
+
+print(box_muller_transform())
 ```

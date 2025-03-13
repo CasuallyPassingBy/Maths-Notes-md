@@ -10,7 +10,6 @@ We say that the random variable $X$ has a Bernoulli distribution with paramenter
 $$ f(x;p) = \begin{cases} p^{x}(1-p)^{1-x} & x = 0,1 \\ 0 & \text{otherwise} \end{cases} $$
 
 with the cdf of the form
-
 $$ F(x;p) = \begin{cases} 0 & x <0\\ p & 0\le x <1\\ 1 & 1 \le x \end{cases} $$
 
 We have that
@@ -20,7 +19,6 @@ We have that
 - $E[X^n] = p$
 
 We have the the probability generating function is
-
 $$ G(t) = 1-p+pt $$
 
 The moment generating function

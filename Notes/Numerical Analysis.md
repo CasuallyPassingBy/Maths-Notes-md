@@ -29,3 +29,7 @@ tags:
 - [[Hermite Interpolation]]
 - [[Newton's Divided Difference]]
 - [[Cubic Spline Interpolation]]
+
+## Integration
+- [[Numerical Integration]]
+	- [[Monte Carlo Integration]]

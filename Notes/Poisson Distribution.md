@@ -41,3 +41,4 @@ and the $n$th moment is
 
 $$ E[X^n] = \lambda\sum_{k = 0}^{n-1} {{n-1}\choose k} E[X^k] $$
 The characteristic function is $$\phi(t) =  \exp(\lambda(e^{it}-1))$$
+**Prop:** Let $X \sim \text{Poisson}(\lambda)$, then for $i \in \Bbb N$, then: $$P(X = i+1) = \frac{\lambda}{i+1} P(X = i)$$
