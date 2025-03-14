@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -222,11 +222,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7622f01f5743db6d",
+  "active": "f0f125abae7fcac9",
   "lastOpenFiles": [
+    "Monte Carlo Integration.md",
+    "Probability Theory.md",
+    "Limit Theorems of Probability.md",
     "Generation of Continuous Random Variables.md",
     "Stochastic Simulation.md",
-    "Monte Carlo Integration.md",
     "Central Hub.md",
     "Numerical Analysis.md",
     "Generation of Discrete Random Variables.md",
@@ -250,8 +252,6 @@
     "OIST/OIST Application.md",
     "OIST",
     "Tests for Pseudo-random numbers.md",
-    "Beta Distribution.md",
-    "Probability Functions for Random Variables.md",
     "Pasted image 20250213183155.png",
     "Etica Profesional",
     "Pasted image 20250131162337.png",
