@@ -32,3 +32,4 @@ We haven't proved that the dimension is indeed well defined. For that, we would 
 
 **Lemma:** Every manifold $M$ has a countable increasing sequence of subsets $\overline{V_n} \subseteq V_{n+1}$, with each $V_n$ open and $\overline{V_n}$ compact, such that $M = \bigcup_{n < \omega} V_n$. 
 
+**Th:** A topological manifold is metrizable iff it is paracompact.

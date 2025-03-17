@@ -29,7 +29,7 @@ Using Stein book on Fourier Analysis
 		- [[3D Wave Equation]]
 	- [[Radial symmetry and Bessel Functions]]
 	- [[Radon Transform]], there's a small problem trying to cover everything about the Radon transform without $L^P$ spaces, so yeah kinda incomplete
-- [[Fourier Analysis on Z(N)]]
+- [[Fourier Analysis on Zn]]
 	- [[Discrete Fourier Transform]]
 	- [[Fast Fourier Transform]]
 - [[Fourier Analysis on finite abelian groups]]

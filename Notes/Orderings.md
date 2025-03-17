@@ -41,7 +41,6 @@ Let $\le$ be an ordering of $A$, and $B \subseteq A$:
 
 **Theorem:**
 Let $\le$ be an ordering of $A$, and $B \subseteq A$:
-
 - $B$ has at most least element. $B$ has at most greatest element.
 - The least element of $B$ (if it exists) is also minimal. The greatest element of $B$ (if it exists) is also maximal.
 - If $B$ is chain, then every minimal element of $B$ is also the least. If $B$ is chain, then every minimal element of $B$ is also the greatest.
@@ -71,17 +70,17 @@ $$ (a,b) \le (a', b') \iff (a \le_1a') \lor[(a =a')\land(b\le_2 b') ] $$
 then $(A\times B, \le)$ is an ordered set, and usually called the _lexicographical order_ on $A\times B$.
 
 If $(A, \le_1)$ and $(B, \le_2)$ are ordered sets and $A \cap B = \varnothing$, then the relation $\le$ on $A \oplus B$ defined by:
-
 $$ a \le b \iff (a \le_1 b) \lor (a\le_2 b ) \lor (a\in A\land b \in B) $$
 
-$A \oplus B$ is the _ordinal or linear sum,_ and $(A \oplus B, \le )$ is an ordered set
+$A \oplus B$ is the _ordinal or linear sum,_ and $(A \oplus B, \le )$ is an ordered set.
+
+
+A *monotone increasing function* is a function $f: (P, \le) \to (Q, \preceq)$ such that if $x, y\in P$ and $x \le y$, then $f(x) \preceq f(y)$. 
 
 An _isomorphism_ between two ordered sets $(P, < )$ and $(Q, \prec)$ is bijection between $P$ and $Q$, such that:
-
 $$ p_1 < p_2 \iff \varphi(p_1) \prec \varphi(p_2) $$
 
 If an isomorphism exists between $(P, <)$ and $(Q, \prec)$, then $(P, <)$ and $(Q, \prec)$ are _isomorphic,_ denoted as $(P, <)\cong(Q, \prec)$.
-
 - $(P, <) \cong (P, <)$
 - $(P, <) \cong (Q, \prec)$ then $(Q, \prec) \cong (P, <)$
 - $(P, <_1) \cong (P, <_2)$ and $(P, <_2) \cong (P, <_3)$ then $(P, <_1) \cong (P, <_3)$

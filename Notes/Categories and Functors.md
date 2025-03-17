@@ -11,15 +11,15 @@ Subjects: [[Category Theory]]
 	- A *domain* or a *source* class function $\text{dom}: \text{mor}(\mathcal C) \to \text{ob}(\mathcal C)$
 	-  A *codomain* or a *target* class function $\text{dom}: \text{mor}(\mathcal C) \to \text{ob}(\mathcal C)$
 	Which assign to each morphism $f \in \text{mor}(\mathcal C)$ a unique pair of objects $A, B\in \text{ob}(\mathcal C)$ such that $\text{dom}(f) A$ and $\text{cod}(f) = B$. We write the $f:A \to B$ to indicate that $f$ has domain $A$ and codomain $B$.
-- A class function called *composition*, denoted as $\circ$, and assigns to each pair of morphisms $f, g\in \text{mor}(\mathcal C)$ a composite morphism $g\circ g$ whenever $\text{dom}(g) = \text{cod}(f)$. Composition, must satisfy the following proporties:
+- A class function called *composition*, denoted as $\circ$, and assigns to each pair of morphisms $f, g\in \text{mor}(\mathcal C)$ a composite morphism $g\circ g$ whenever $\text{dom}(g) = \text{cod}(f)$. Composition, must satisfy the following properties:
 	- *Identity*: For each object $A\in \text{ob}(\mathcal C)$, there exists an identity morphism $\text{id}_A : A \to A$ such that for every morphism $f: A \to B$ and $g: C\to A$,$$f \circ \text{id}_A = f, \qquad \text{id}_A \circ g = g$$
 	- *Associativity:* For any morphisms $f:A \to B$, $g: B \to C$ and $h: C \to D$, we have that: $$h\circ (g\circ f) = (h\circ g) \circ f$$
 There are several examples for categories:
 - $\mathsf{Set}$, the class of [[Set Theory|sets]] and functions.
-- $\mathsf{Poset}$, the class of [[Orderings|partially ordered]] and order homomorphisms
+- $\mathsf{Poset}$, the class of [[Orderings|partially ordered]] and monotone-increasing functions.
 - $\mathsf{Top}$, the class of all [[topological spaces]] and continuous functions.
-- $\mathsf{TM}$, the class of [[topological manifolds]] and continuous maps.
-- $\mathsf{SM}$, the class of [[Smooth or Differentiable Manifolds|smooth manifolds]] and smooth maps between them.
+- $\mathsf{Man}^0$, the class of [[topological manifolds]] and continuous maps.
+- $\mathsf{Man}^\infty$, the class of [[Smooth or Differentiable Manifolds|smooth manifolds]] and smooth maps between them.
 - $\mathsf{Met}$, the class of [[metric spaces]] and short maps. 
 - $\mathsf{VB}$, the class of [[Vector Bundles on Smooth Manifolds]] and smooth bundle maps.}
 - $\mathsf{Grp}$, the class of [[Group Theory|groups]] and group homomorphisms.
@@ -27,7 +27,7 @@ There are several examples for categories:
 - $\mathsf{Vect}_K$, the class of all [[vector spaces]] over a field $K$ and $K$-linear maps.
 - Given a ring $R$, $R\mathsf{-Mod}$, the category of all left $R$-modules and $R$-module homomorphism. 
 - $\mathsf{Ring}$, the class of [[rings]] and ring homomorphisms
-- $\mathsf{Meas}$, the class of [[Measure Spaces and Measurable Spaces]] and measurable functions. 
+- $\mathsf{Meas}$, the class of [[Measure Spaces and Measurable Spaces|measure spaces]] and measurable functions. 
 - We call a pair $(M, q)$, where $M$ is a manifold and $q$ a point in $M$, a *pointed manifold*. Given two such pairs $(N, p)$ and $(M, p)$, let $f: (N, p) \to (M, q)$ is a smooth map from $N$ to $M$ and $f(p) = q$. 
 - $\mathsf{LIE}$, the class of [[Lie groups]] and Lie group homomorphisms.
 - $\mathsf{lie}$, the class of [[Lie Algebra|Lie algebras]] and Lie algebra homomorphisms.
