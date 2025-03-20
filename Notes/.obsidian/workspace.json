@@ -68,21 +68,6 @@
             }
           },
           {
-            "id": "7622f01f5743db6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Monte Carlo Integration.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Monte Carlo Integration"
-            }
-          },
-          {
             "id": "186b3ae7c7a0a3bc",
             "type": "leaf",
             "state": {
@@ -249,10 +234,10 @@
   },
   "active": "f0188396097ebacf",
   "lastOpenFiles": [
-    "Generation of Continuous Random Variables.md",
-    "Categories and Functors.md",
-    "Set Theory.md",
     "Monte Carlo Integration.md",
+    "Categories and Functors.md",
+    "Generation of Continuous Random Variables.md",
+    "Set Theory.md",
     "Unbiased Point Estimation.md",
     "Topological Manifolds.md",
     "Fourier Analysis on Zn.md",

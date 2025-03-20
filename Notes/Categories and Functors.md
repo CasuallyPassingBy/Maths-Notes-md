@@ -10,10 +10,13 @@ Subjects: [[Category Theory]]
 - Two class functions
 	- A *domain* or a *source* class function $\text{dom}: \text{mor}(\mathcal C) \to \text{ob}(\mathcal C)$
 	-  A *codomain* or a *target* class function $\text{dom}: \text{mor}(\mathcal C) \to \text{ob}(\mathcal C)$
-	Which assign to each morphism $f \in \text{mor}(\mathcal C)$ a unique pair of objects $A, B\in \text{ob}(\mathcal C)$ such that $\text{dom}(f) A$ and $\text{cod}(f) = B$. We write the $f:A \to B$ to indicate that $f$ has domain $A$ and codomain $B$.
+	Which assign to each morphism $f \in \text{mor}(\mathcal C)$ a unique pair of objects $A, B\in \text{ob}(\mathcal C)$ such that $\text{dom}(f)= A$ and $\text{cod}(f) = B$. We write the $f:A \to B$ to indicate that $f$ has domain $A$ and codomain $B$.
 - A class function called *composition*, denoted as $\circ$, and assigns to each pair of morphisms $f, g\in \text{mor}(\mathcal C)$ a composite morphism $g\circ g$ whenever $\text{dom}(g) = \text{cod}(f)$. Composition, must satisfy the following properties:
 	- *Identity*: For each object $A\in \text{ob}(\mathcal C)$, there exists an identity morphism $\text{id}_A : A \to A$ such that for every morphism $f: A \to B$ and $g: C\to A$,$$f \circ \text{id}_A = f, \qquad \text{id}_A \circ g = g$$
 	- *Associativity:* For any morphisms $f:A \to B$, $g: B \to C$ and $h: C \to D$, we have that: $$h\circ (g\circ f) = (h\circ g) \circ f$$
+
+
+
 There are several examples for categories:
 - $\mathsf{Set}$, the class of [[Set Theory|sets]] and functions.
 - $\mathsf{Poset}$, the class of [[Orderings|partially ordered]] and monotone-increasing functions.
