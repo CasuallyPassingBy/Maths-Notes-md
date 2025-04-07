@@ -171,7 +171,7 @@ $$\int \sin x\, dx = -\cos x +C$$
 $$\int \cos x\, dx = \sin x +C$$
 $$\int \tan x\, dx = \ln |\sec x| +C$$
 $$\int \csc x\, dx = \ln |\csc x-\cot x| +C$$
-$$\int \sec x\, dx = \ln |\sec x-\tan x| +C$$
+$$\int \sec x\, dx = \ln |\sec x+\tan x| +C$$
 $$\int \cot x\, dx = \ln |\sin x| +C$$
 ### Integrals of the Inverse functions
 
