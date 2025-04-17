@@ -4,7 +4,6 @@ We have all the subjects:
 
 ## Foundational
 - [[Set Theory]]
-- [[Topology]]
 	- [[Algebraic Topology]]
 	- [[Combinatorial Topology]]
 - [[Elementary Number Theory]]

@@ -1,4 +1,7 @@
 {
   "accentColor": "",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "textFontFamily": "Calibri",
+  "baseFontSize": 16,
+  "baseFontSizeAction": true
 }
