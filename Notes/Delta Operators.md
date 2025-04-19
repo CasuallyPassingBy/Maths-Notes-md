@@ -34,7 +34,7 @@ If we apply this last property $k$ times we get that $Q^k p_n(x) = n ^{\underlin
 
 # First Expansion Theorem
 
-Let $T$ be a shift-invariant operator, and let $Q$ be a delta  operator with a basic set $p_n(x)$. Then $$ T= \sum_{k = 0}^\infty \frac{a_k}{k!}Q^k$$with $$a_k = [Tp_k(x)]_{x = 0}$$
+Let $T$ be a shift-invariant operator, and let $Q$ be a delta operator with a basic set $p_n(x)$. Then $$ T= \sum_{k = 0}^\infty \frac{a_k}{k!}Q^k$$with $$a_k = [Tp_k(x)]_{x = 0}$$
 **Th:** Let $Q$ be a delta operator, and let $\Bbb F$ be the ring of formal power series in the $t$ variable over the same field. Then there exists an isomorphism from $\Bbb F$ onto the ring $\Sigma$ of shift-invariant operators, which carries $$f(t) = \sum_{k = 0}^\infty \frac{a_k}{k!}t^k \longrightarrow \sum_{k = 0}^\infty \frac{a_k}{k!}Q^k $$
 **Cor:** A shift-invariant operator $T$ is invertible iff $T1 \ne 0$. 
 
@@ -51,7 +51,7 @@ We are going to look at non shift-invariant operator. The simples is the multipl
 
 **Def:** For any operator $T$ defined on $\Bbb F[x]$, the operator $$T' = T\mathbf x - \mathbf x T$$will be called the *Pincherle derivative* of the operator $T$. 
 
-**Prop:** If $T$ is a shift-invariant operator, then its Pincherle derivative $$T' = T\mathbf x - \mathbf x $$is also a shift-invariant operator. 
+**Prop:** If $T$ is a shift-invariant operator, then its Pincherle derivative $$T' = T\mathbf x - \mathbf x T$$is also a shift-invariant operator. 
 
 **Def:** Let $T$ be a shift-invariante derivative, then it can be expressed in terms of $D$, that is $$T = \sum_{k = 0}^\infty \frac{a_k}{k!}D^k $$where $a_k = [Tx^k]_{x = 0}$. The the formal power series corresponding to $T$ is $$f(t) = \sum_{k = 0}^\infty \frac{a_k}{k!}t^k$$we call $f(t)$ is the *indicator* of $T$. 
 

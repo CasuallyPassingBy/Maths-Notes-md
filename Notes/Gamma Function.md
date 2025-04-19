@@ -29,7 +29,7 @@ This is known as the **Weierstrass product Formula of the Gamma Function**
 #### Euler’s Reflection Formula
 for $z\not \in \Bbb Z$, then$$ \Gamma(1-z)\Gamma(z) = \frac{\pi}{\sin(\pi z)} $$
 #### Gauss Product Formula
-Gauss rewrote it as **Gauss’s product formula**:$$ \Gamma(z)= \lim_{n \to \infty}\frac{n^z n!}{z(z+1) \cdots (z+n)}= \lim_{n \to \infty}\frac{n^z n!}{z^{\overline{ n+1}}} $$
+Gauss rewrote it as **Gauss’s product formula**:$$ \Gamma(z)= \lim_{n \to \infty}\frac{n^z n!}{z(z+1) \cdots (z+n)}= \lim_{n \to \infty}\frac{n^z n!}{z^{\overline{ n+1}}} = \lim_{n\to \infty} \left(n^z \prod_{\nu = 1}^n \frac{\nu}{\nu +z}\right) $$
 ### Bohr-Mollerup Theorem
 There’s a unique positive function $f$ defined on $x \ge 0$ satisfying
 - $f(1)=1$

@@ -51,7 +51,7 @@ We have all the subjects:
 ## Miscellaneous
 - [[Fractional Calculus]]
 - [[Umbral calculus]]
+	- [[Discrete Calculus]]
 - [[Finite Operator Calculus]]
 - [[Useful Identities]]
 - [[Macroeconomics]]
-- [[Discrete Calculus]]
