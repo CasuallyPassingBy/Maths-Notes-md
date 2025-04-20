@@ -40,7 +40,6 @@ Falling factorials appear in multiple differentiation of simple power function
 $$ \left(\frac{d}{dx}\right)^n x^a = (a)_n x^{a-n} $$
 
 They also appear in the [[Hypergeometric Function|hypergeomtric fucntions]] as
-
 $$ {}_2F_1(a,b;c;z) = \sum_{n=0}^\infty \frac{a^{(n)} b^{(n)}}{c^{(n)}} \frac{z^n}{n!}
 
 $$

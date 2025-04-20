@@ -3,7 +3,7 @@ tags:
   - "#Miscellaneous"
 ---
 Subjects: [[Umbral calculus]]
-Links: [[Discrete Calculus]], [[Series in R]], [[Infinite Products]], [[Harmonic Numbers]]
+Links: [[Discrete Calculus]], [[Series in R]], [[Infinite Products]], [[Digamma function|Harmonic Numbers]]
 
 We define some axioms we would like for any kind of summation to have:
 - Continued summation: $$\sum_{\nu = x}^y f(\nu) + \sum_{\nu = y+1}^z f(\nu) = \sum_{\nu = x}^z f(\nu).$$
