@@ -10,7 +10,7 @@ We say the $X$ is a random variable with a negative binomial distribution with p
 
 $$ f(x; r, p) = \begin{dcases} {{r+x-1}\choose x} p^r(1-p)^x& x \in \Bbb N \\ \\ 0 & \text{otherwise} \end{dcases} $$
 
-We can actually use the [[Generalised Binomial Theorem|generalised binomial coefficients]] to get that
+We can actually use the [[Binomial Coefficients|generalised binomial coefficients]] to get that
 
 $$ {{r+x-1}\choose x} = (-1)^r{{-r}\choose x} $$
 

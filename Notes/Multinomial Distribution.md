@@ -5,7 +5,7 @@ tags:
 Subjects: [[Probability Theory]]
 Links: [[Discrete Distributions]], [[Binomial Distribution]], [[Discrete Distributions]]
 
-This actually comes from [[Multinomial Theorem|multinomial theorem]]
+This actually comes from [[Binomial Coefficients|multinomial theorem]]
 
 We have an experiment that can have $k$ different outcomes, and it is repeated $n$ times, where each outcome has a probability $p_i$ for $i =1, \dots, k$. Then the probability mass function is of the form
 $$

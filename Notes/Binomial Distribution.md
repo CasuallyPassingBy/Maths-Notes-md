@@ -5,7 +5,7 @@ tags:
 Subjects: [[Probability Theory]]
 Links: [[Discrete Distributions]]
 
-This actually comes from the [[Multinomial Theorem|binomial theorem]]. 
+This actually comes from the [[Binomial Coefficients|binomial theorem]]. 
 
 We say that $X$ is a random variable has a binomial distribution with parameters $p$ and $n$ , and we write $X \sim \operatorname{bin}(n,p)$. If $X$ has a pmf of the form
 

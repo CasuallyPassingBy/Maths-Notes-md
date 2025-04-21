@@ -20,7 +20,7 @@ all of them are convergent for $|x|<1$
 # Binomial Series
 
 The binomial series is the power series $$(1+x)^\alpha = \sum_{n = 0}^\infty {\alpha\choose n} x^n$$
-where ${\alpha\choose n}$ are the [[Generalised Binomial Theorem|generalised binomial coefficients]], and only converge for $|x| <1$. The are special cases for $\alpha = \pm 1/2$, which are worth noting $$(1+x)^{1/2} = \sum_{n = 0}^\infty {\frac1{2}\choose n} x^n = \sum_{n = 0}^\infty (-1)^{n-1} \frac{(2n-2)!!}{(2n)!!} x^n = \sum_{n = 0}^\infty \frac{(-1)^{n-1}(2n)!}{4^n (n!)^2 (2n-1)} x^n  $$
+where ${\alpha\choose n}$ are the [[Binomial Coefficients|generalised binomial coefficients]], and only converge for $|x| <1$. The are special cases for $\alpha = \pm 1/2$, which are worth noting $$(1+x)^{1/2} = \sum_{n = 0}^\infty {\frac1{2}\choose n} x^n = \sum_{n = 0}^\infty (-1)^{n-1} \frac{(2n-2)!!}{(2n)!!} x^n = \sum_{n = 0}^\infty \frac{(-1)^{n-1}(2n)!}{4^n (n!)^2 (2n-1)} x^n  $$
 $$(1+x)^{-1/2} = \sum_{n = 0}^\infty{-\frac{1}{2}\choose n}x^n = \sum_{n = 0}^\infty (-1)^n\frac{ (2n-1)!!}{(2n)!!}x^n = \sum_{n = 0}^\infty \frac{(-1^n)(2n)!}{4^n (n!)^2} x^n$$
 Using the [[Multifactorials]] notation
 

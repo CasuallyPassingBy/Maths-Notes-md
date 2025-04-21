@@ -8,7 +8,7 @@ Links: [[Delta Operators]]
 - $s_0(x) = c \ne 0$
 - $Qs_n(x) = ns_{n-1}(x)$
 
-A Sheffer set if r the delta operator $Q$ is related to the set of basic polynomials of $Q$ by the following
+A Sheffer set if r the delta operator $Q$ is related to the set of basic polynomials of $Q$ by the following.
 
 **Prop:** Let $Q$ be delta operator with basic polynomial set $q_n(x)$. Then $s_n(x)$ is a Sheffer set relative to $Q$ iff there exists an invertible shift invariant operator $S$ such that $$s_n(x) = S^{-1}q_n(x)$$
 # Second Expansion Theorem
