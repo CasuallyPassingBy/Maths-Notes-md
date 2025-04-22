@@ -17,7 +17,14 @@ If we look for the connection to the negative binomial coefficients then we get 
 If we ask about the partial sums of the binomial coefficients, we know it doesn't have a closed form, but we can have a certain equality $$\sum_{k \le m} {m +r \choose k} x^k y^{n-k} = \sum_{k \le m} {-r\choose k} (-x)^k(x+y)^{m+k}, \quad \text{for $m \in \Bbb Z$}. $$Let us not that this is a more general version of the identity above, since if we let $x = -1$ and $y =1$, then we get the original identity. Now, if $x = y = 1$ and $r = m+1$, then $$2^{2m}= \sum_{k \le m} {2m+1\choose k} = \sum_{k \le m} {m+k \choose k} 2^{m-k}.$$thus $$2^m = \sum_{k \le m}{m+k\choose k} 2^{-k}.$$
 Let $r\in \Bbb C$ and $k, m \in \Bbb N$, then $${r\choose m}{m \choose k} = {r\choose k}{r-k\choose m-k}.$$
 We have a nice generalisation of the binomial coefficients into the *multinomial coefficients* then $$ {a_1 + a_2 + \dots + a_n \choose a_1, a_2, \dots, a_n} :=\frac{(a_1+a_2 +\dots +a_n)!}{a_1!a_2! \cdots a_n !} = {a_1 +a_2 + \dots +a_n\choose a_2 +\dots+ a_n} \cdots {a_{n-1}+a_n\choose a_n}.$$
-$$\prod_{k = 1}^{n-1} {\sum_{j = k}^n  a_j \choose \sum_{j = k+1}^n a_j}$$
-
-
 With these tools we get the the following generalisation of the binomial theorem, called the multinomial theorem: $$\left(\sum_{k = 1}^n x_i\right)^m = \sum_{|\alpha | = m} {m \choose \alpha} x^\alpha$$where $\alpha$ is a multi-index, and $x^\alpha = \prod\limits_{k = 1}^n x_k^{\alpha_k}$. 
+The following identity is called *Vandermonde's Convolution*: $$\sum_{k = 0}^n {r\choose k} {s\choose n-k} ={r+s\choose n}\quad \text{for $n \in \Bbb N$}. $$From this we get a couple of identities $$\begin{align*}
+\sum_{k} {r\choose m+k} {s\choose n-k} &={r+s\choose m+n}\qquad \text{for $m,n \in \Bbb Z$}.  \\  \\
+\sum_{k} {\ell \choose m+k}{s\choose n+k} &= {\ell +s \choose \ell -m+n}
+\qquad \text{for $\ell \in \Bbb N$ and $n, m \in \Bbb Z$}.\\ \\
+\sum_{k} {\ell \choose m+k}{s+k\choose n}(-1)^k &= (-1)^{m+1}{s-m \choose n-\ell} \qquad \text{for $\ell \in \Bbb N$ and $n, m \in \Bbb Z$}.\\ \\
+\sum_{k \le \ell} {\ell-k \choose m}{s \choose k-n} (-1)^k &= (-1)^{1+m} {s-m-\ell \choose \ell -m -n} \qquad \text{for $\ell, m , n \in \Bbb Z$}. \\ \\
+\sum_{k = 0}^\infty {\ell -k \choose m}{q+k\choose n} &= {\ell +q +1\choose m+n+1}\qquad  \text{for $\ell, m, n, q \in \Bbb N$ for $n \ge q$}.
+\end{align*} 
+$$
+We have a couple of identities that involve $1/2$. $${r\choose k}{r-1/2 \choose k} = {2r\choose 2k}{2k\choose k}2^{-2k}. $$If we set $k = r = n$, where $n \in \Bbb N$, then $${n-1/2 \choose n} = {2n \choose n}2^{-2n}.$$We also have that $${-1/2\choose n} = \left(\frac{-1}{4}\right)^n {2n \choose n}.$$

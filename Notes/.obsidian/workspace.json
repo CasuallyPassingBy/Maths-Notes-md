@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b0bdc73f46897347",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/2025-04-20.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-04-20"
-            }
-          },
-          {
             "id": "1480d6ec1e8fbad5",
             "type": "leaf",
             "state": {
@@ -36,9 +21,39 @@
               "icon": "lucide-file",
               "title": "Yang Aran Routine"
             }
+          },
+          {
+            "id": "52944544c7420571",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Binomial Coefficients.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Binomial Coefficients"
+            }
+          },
+          {
+            "id": "733c070b8c5b934a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Falling and Rising Factorials and Pochhamer Symbols.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Falling and Rising Factorials and Pochhamer Symbols"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journal/Yang Aran Routine.md",
+                "file": "Falling and Rising Factorials and Pochhamer Symbols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +147,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Yang Aran Routine"
+              "title": "Backlinks for Falling and Rising Factorials and Pochhamer Symbols"
             }
           },
           {
@@ -192,14 +207,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1480d6ec1e8fbad5",
+  "active": "733c070b8c5b934a",
   "lastOpenFiles": [
-    "Journal/2025-04-20.md",
-    "Journal/Yang Aran Routine.md",
     "Binomial Coefficients.md",
+    "Falling and Rising Factorials and Pochhamer Symbols.md",
+    "Journal/Yang Aran Routine.md",
+    "Series in R.md",
+    "Convolution.md",
+    "Dirichlet Product.md",
+    "Power Series in R.md",
+    "Journal/2025-04-20.md",
     "Stirling Numbers of the First Kind.md",
     "Special Numbers.md",
-    "Falling and Rising Factorials and Pochhamer Symbols.md",
     "Multi-index notation.md",
     "Multinomial Theorem.md",
     "Generalised Binomial Theorem.md",
@@ -216,10 +235,6 @@
     "Journal/2025-04-18.md",
     "Macroeconomics.md",
     "Useful Identities.md",
-    "Newton's Divided Difference.md",
-    "Gamma Function.md",
-    "Templates/Daily Template.md",
-    "Journal/2025-04-17.md",
     "Journal",
     "Upbringing_Mage",
     "clase",

@@ -18,6 +18,8 @@ $$ \left(\frac{1}{2}\right)^{(n)} = \frac{(2n-1)!!}{2^n} $$
 
 which is sometimes used in the Taylor series of $\sqrt{1+x}$.
 
+We also have the following identity: $$x^{\underline k}\left(x-\frac12\right)^{\underline k} = \frac{(2x)^{\underline {2k}}}{2^{2k}}.$$
+
 We get some really nice properties namely, with this we can define the generalised binomial coefficients as
 $$ {x \choose n } = \frac{(x)_n}{n!} = \frac{x^{\underline n}}{n!} $$
 and
