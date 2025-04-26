@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/2025-04-22.md",
+                "file": "Journal/2025-04-25.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-22"
+              "title": "2025-04-25"
             }
           },
           {
@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/2025-04-24.md",
+                "file": "Journal/2025-04-17.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-24"
+              "title": "2025-04-17"
             }
           },
           {
@@ -67,8 +67,7 @@
               "title": "2025-04-16"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,12 +221,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6d9fa519bf05ff7c",
+  "active": "9b1b4173432e3aa9",
   "lastOpenFiles": [
     "Journal/2025-04-22.md",
-    "Journal/2025-04-24.md",
-    "Journal/2025-04-16.md",
+    "Journal/2025-04-17.md",
+    "Journal/2025-04-18.md",
+    "Journal/2025-04-25.md",
     "Journal/Yang Aran Routine.md",
+    "Journal/2025-04-24.md",
+    "Groups.md",
+    "Group Homomorphisms and Isomorphisms.md",
+    "Journal/2025-04-16.md",
     "Quotient Topology.md",
     "Binomial Coefficients.md",
     "Falling and Rising Factorials and Pochhamer Symbols.md",
@@ -245,11 +249,6 @@
     "Binomial Th.md",
     "Journal/2025-04-19.md",
     "Finite Operator Calculus.md",
-    "Sheffer Polynomials.md",
-    "Delta Operators.md",
-    "Central Hub.md",
-    "Umbral calculus.md",
-    "Definitions for Classical Umbral Calculus.md",
     "Journal",
     "Upbringing_Mage",
     "clase",
