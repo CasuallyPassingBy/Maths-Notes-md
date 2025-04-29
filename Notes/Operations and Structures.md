@@ -68,7 +68,8 @@ $$ \overline C = \bigcap \{ B \subseteq A \mid C \subseteq B \text{ and } B \tex
 
 **Th:** Let $\mathfrak{U} = (A, \langle R_0, \dots, R_{m-1}\rangle, \langle F_0, \dots, F_{n-1}\rangle)$ be a structure and $C \subseteq A$. If the sequence $\langle C_i \mid i \in \Bbb N\rangle$ is defined recursively
 
-$$ C_0 = C $$$$ C_{i+1} = C_i \cup \left(\bigcup_{j \in n}F_j [C_i^{f_j}]\right) $$
+$$ 
+\begin{align*}C_0 &= C \\ C_{i+1} &= C_i \cup \left(\bigcup_{j \in n}F_j [C_i^{f_j}]\right) \end{align*}$$
 
 then $\overline C = \bigcup_{i \in\Bbb N} C_i$.
 
