@@ -4,7 +4,7 @@ tags:
   - Topology
 ---
 Subjects: [[Group Theory]], [[Topology]]
-Links: [[Product Topology]], [[Groups]], [[Continuous Functions and Homeomorphims]], [[Subgroups]], [[Topological Subspaces]], [[Product Topology]], [[Homogeneous Topological Spaces]], [[Topological Indistinguishability]]
+Links: [[Product Topology]], [[Groups]], [[Continuous Functions and Homeomorphims]], [[Subgroups]], [[Topological Subspaces]], [[Product Topology]], [[Homogeneous Topological Spaces]], [[Topological Indistinguishability]], [[Topological Vector Spaces]]
 
 **Def:** Let $(G, *)$ be a group. Let $\tau$ be topology on the set $G$. We say that the triple $(G, *, \tau)$ is a *topological group* if the function $\mu: G \times G \to G$ and $\iota: G \to G$, defined as $\mu(x,y) = x* y$ and $\iota(x) = x^{-1}$, are continuous. 
 
