@@ -48,7 +48,7 @@ Let $f, g:X \to \Bbb R$ be continuous functions, then the function $\min\{f, g\}
 **Th:** If a sequence $(f_n)_{n <\omega}$ of continuous functions from $X$ to $\Bbb R$ is uniformly convergent to a real valued-function $f$, then $f$ is a continuous function from $X$ to $\Bbb R$.
 
 Let $f$ be a function from that topological space $X$ to the topological space $Y$
-- $f$ is an *open function* if the image under $f$ of any open subset of $X$ is an open subset of $Y$
+- $f$ is an *open function* if the image under $f$ of any open subset of $X$ is an open subset of $Y$ ^7182de
 - $f$ is an *closed function* if the image under $f$ of any closed subset of $X$ is an closed subset of $Y$
 
 If $Y$ is a subspace of $X$, then the inclusion $\iota:Y\to X$ is closed/open iff the set $Y$ is closed/open on $X$

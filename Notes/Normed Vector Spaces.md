@@ -1,9 +1,10 @@
 ---
 tags:
   - Analysis
+  - FunctionalAnalysis
 ---
-Subjects: [[Metric and Normed Spaces]]
-Links: [[Metric Spaces]], [[Vector Spaces]], [[Rn]], [[Topological Vector Spaces]], [[Convex Hulls]]
+Subjects: [[Metric and Normed Spaces]], [[Functional Analysis]]
+Links: [[Metric Spaces]], [[Vector Spaces]], [[Rn]], [[Topological Vector Spaces]], [[Convex Hulls]], [[Complete Metric Spaces]]
 
 Let $V$ be a vector space over $\Bbb R$. A _***norm**_ of $V$ is a function $\| \cdot\|: V \to \Bbb R$ that
 N1) $\|v \| = 0$ iff $v = 0$
@@ -50,7 +51,12 @@ With this in mind, we can define a couple of actions to get different sets:
 - $\text{co}(A) := \bigcap \{Y \subseteq X \mid Y \text{ is convex }\land A \subseteq Y\}$
 - $\overline{\text{co}}(Y) := \bigcap \{Y \subseteq X \mid Y \text{ is convex and closed}\land A \subseteq Y\}$ 
 
-**Cor:** Let $A$ ve a subset of a normed space. Then $[A] = \text{cl}_X({\langle A\rangle})$ and $\overline{\text{co}}(A) = \text{cl}_X(\text{co}(A))$. 
+**Cor:** Let $A$ be a subset of a normed space. Then $[A] = \text{cl}_X({\langle A\rangle})$ and $\overline{\text{co}}(A) = \text{cl}_X(\text{co}(A))$. We also have that $\langle \text{cl}_X(A)\rangle \subseteq [A]$ and $\text{co}(\text{cl}_X(A)) \subseteq \overline{\text{co}}(A)$. 
 
 **Prop:** Every ball in a normed space, whether open or closed, is convex.
 
+**Prop:** Every ball centred at a the origin in normed space, whether open or closed, is balanced and absorbing. 
+
+**Th:** Every closed, convex, absorbing subset of a Banach space includes a neighbourhood of the origin. 
+
+**Prop:** If $Y \le X$ is a subspace with $\text{int}_X(Y) \neq \varnothing$, then $Y= X$.
