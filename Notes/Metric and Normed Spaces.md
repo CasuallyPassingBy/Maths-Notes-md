@@ -12,7 +12,7 @@ The study of metric spaces and normed vector spaces
 - [[Metric Spaces]]
 - [[Normed Vector Spaces]]
 	- [[ellp spaces]]
-	- [[Norm in a Quotient Vector Space]]
+	- [[Quotient of Normed Spaces]]
 	- [[Inner Products and Norms]]
 	- [[Continuous Function Spaces]]
 	- [[Bounded Function Spaces]]

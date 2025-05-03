@@ -29,4 +29,3 @@ From this definition we get that $p(0) = 0$ and $p(x) \ge 0$ for all $x\in X$.
 **Cor:** Let $(T_n)$ be a sequence of bounded linear operators from a Banach space $X$ into a normed space $Y$ such that $\lim T_n X$ exists for each $x\in X$. Define $T: X \to Y$ by the formula $Tx := \lim T_n x$. Then $T$ is a bounded linear operator from $X$ into $Y$.
 
 **The Closed Graph Theorem:** Let $T$ be a linear operator from a Banach space $X$ into a Banach space $Y$. Suppose that whenever a sequence $(x_n)_{n <\omega}$ in $X$ converges to some $x\in X$ and $(Tx_n)_{n<\omega}$ converges to some $y\in Y$, it follows that $Tx = y$. Then $T$ is bounded.
-

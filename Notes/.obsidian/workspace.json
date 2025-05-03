@@ -23,21 +23,37 @@
             }
           },
           {
-            "id": "2ec59e8891b1c4a2",
+            "id": "1d1318c4b46a5c0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Continuous Functions and Homeomorphims.md",
+                "file": "Quotient of Vector Spaces.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Continuous Functions and Homeomorphims"
+              "title": "Quotient of Vector Spaces"
+            }
+          },
+          {
+            "id": "049d7bdf708f9223",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quotient of Normed Spaces.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Quotient of Normed Spaces"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,10 +207,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "915f0a9cc405568a",
+  "active": "049d7bdf708f9223",
   "lastOpenFiles": [
-    "Continuous Functions and Homeomorphims.md",
+    "Quotient of Vector Spaces.md",
     "Fundamental Theorems in Functional Analysis.md",
+    "Quotient of Normed Spaces.md",
+    "Continuous Functions and Homeomorphims.md",
     "Strings and Grammars.md",
     "Context-Free Grammars and Parsing.md",
     "Normed Vector Spaces.md",
@@ -217,8 +235,6 @@
     "Binomial Coefficients.md",
     "Journal/2025-04-28.md",
     "Syntax and Parsing.md",
-    "Limit Theorems of Probability.md",
-    "Convergence of Random Variables.md",
     "Journal",
     "Upbringing_Mage",
     "clase",
