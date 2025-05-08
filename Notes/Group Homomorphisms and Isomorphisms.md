@@ -32,8 +32,7 @@ In the case that $G' = G$, then $\phi$ is called as an *automorphism*.
 - If $\phi: G \to G'$ is a group isomorphism, then its inverse $\phi^{-1}: G'\to G$ is also an isomorphism.
 - If $\phi: G \to G'$ and $\psi:G'\to G''$ are group isomorphisms, then the composition $\psi \circ \phi: G \to G''$ is also an isomorphism.
 
-**Factorising Homomorphism:** Let $\phi$ and $\psi$ be group homomorphism such that 
-
+**Factorising Homomorphism:** Let $\phi$ and $\psi$ be group homomorphism such that  ^b63bfc
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
@@ -66,5 +65,5 @@ G \arrow[d,two heads, "\rho"'] \arrow[dr, "\phi"] \\ G/\ker(\phi) \arrow[r, "\co
 - If $N \trianglelefteq G$ is a normal subgroup of $G$, then $N$ is the kernel of the canonical group homomorphism $\rho: G \to G/N$.
 
 **Noether's Second Isomorphism Theorem**: Let $H, K \le G$, with $K \trianglelefteq G$. Then $H\cap K \trianglelefteq H$, $HK \le G$, and $K \trianglelefteq HK$ and we have the isomorphism: $$H /(H \cap K) \cong HK/K$$
-**Noether's Third Isomorphism Theorem:** Let $H, K \trianglelefteq G$ such that $H \le K$. Then $H \trianglelefteq K$, and $K/H \trianglelefteq G/H$ and $$(G/H)/(K/H) \cong G/K$$
+**Noether's Third Isomorphism Theorem:** Let $H, K \trianglelefteq G$ such that $H \le K$. Then $H \trianglelefteq K$, and $K/H \trianglelefteq G/H$ and $$\frac{G/H}{K/H} \cong G/K$$
 **Cayley's Theorem:** Every group is isomorphic to a subgroup of a permutation group
