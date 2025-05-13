@@ -17,10 +17,14 @@ We see that the value of is independent of the representation of $f$ and is ther
 
 **Def:** If $E$ is a measurable set and $f$ is an integrable simple function, then it is easy to see that the function $\chi_E f$ is an integrable simple function; we also define the *integral of $f$ over $E$* by: $$\int_E f\, d\mu := \int \chi_E f \, d\mu.$$
 **Prop:** If $f$ and $g$ are integrable simple functions and $\alpha, \beta \in \Bbb R$, then $$\int (\alpha f + \beta g)\, d \mu = \alpha \int f\, d\mu + \beta \int g\, d\mu.$$
-**Prop:** If an integrable simple function $f$ is non negative a.e., then $$\int f\, d\mu \ge 0$$
-**Cor:** If $f$ and $g$ are integrable simple functions such that $f\ge g$ a.e., then $$\int f\, d\mu \ge \int g \, d\mu.$$
-**Cor:** If $f$ and $g$ are integrable simple functions, then $$\int |f+g| \, d\mu \ge \int|f| \, d\mu + \int|g| \, d\mu.$$
-**Cor:** If $f$ is an integrable simple function, then $$\left|\int f\, d\mu\right| \le \int|f|\, d\mu.$$
+**Prop:** If an integrable simple function $f$ is non negative a.e., then $\displaystyle\int f\, d\mu \ge 0$
+
+**Cor:** If $f$ and $g$ are integrable simple functions such that $f\ge g$ a.e., then $\displaystyle\int f\, d\mu \ge \displaystyle\int g \, d\mu.$
+
+**Cor:** If $f$ and $g$ are integrable simple functions, then $\displaystyle\int |f+g| \, d\mu \ge \displaystyle\int|f| \, d\mu + \displaystyle\int|g| \, d\mu.$
+
+**Cor:** If $f$ is an integrable simple function, then $\left|\displaystyle\int f\, d\mu\right| \le \displaystyle\int|f|\, d\mu.$
+
 **Cor:** If $f$ is an integrable simple function, $\alpha, \beta \in \Bbb R$ and $E$ is measurable set such that for $x\in E$, $\alpha \le f(x) \le \beta$, then $$\alpha \mu(E) \le \int_E f\, d\mu \le \beta\mu(E).$$
 **Def:** The *indefinite integral* of an integrable simple function $f$ is the set function $\nu$, defined for every measurable set $E$ by $$\nu(E) := \int_E f\, d\mu.$$
 **Cor:** If an integrable simple function $f \ge 0$ a.e., then its indefinite integral is monotone.

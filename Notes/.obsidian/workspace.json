@@ -4,41 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "ec734b4493a801ba",
+        "id": "fc9b92d2fcba6c27",
         "type": "tabs",
         "children": [
           {
-            "id": "20e5f373a8ce77ca",
+            "id": "459aefd8c2226cac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Direct Sums of Normed Spaces.md",
+                "file": "Measure Theory.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Direct Sums of Normed Spaces"
+              "title": "Measure Theory"
             }
           },
           {
-            "id": "fc2c1dba4da96408",
+            "id": "05f850a1d9de64d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Group Homomorphisms and Isomorphisms.md",
+                "file": "Integrable Functions on Measure Spaces.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Group Homomorphisms and Isomorphisms"
+              "title": "Integrable Functions on Measure Spaces"
+            }
+          },
+          {
+            "id": "dd327f85ff045b46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Convergence of Measurable Functions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Convergence of Measurable Functions"
+            }
+          },
+          {
+            "id": "4cb861843d3b738f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Integrable Functions on Measure Spaces.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Integrable Functions on Measure Spaces"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -192,13 +222,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fc2c1dba4da96408",
+  "active": "4cb861843d3b738f",
   "lastOpenFiles": [
-    "Direct Sums of Normed Spaces.md",
+    "Convergence of Measurable Functions.md",
+    "Integrable Functions on Measure Spaces.md",
+    "Measure Theory.md",
+    "Integration of Simple Functions.md",
+    "Measurable Functions.md",
     "Metric Spaces.md",
+    "Content.md",
     "Quotient of Normed Spaces.md",
-    "Fundamental Theorems in Functional Analysis.md",
+    "Direct Sums of Normed Spaces.md",
+    "Hanh-Banach Extension Theorem.md",
     "Group Homomorphisms and Isomorphisms.md",
+    "Fundamental Theorems in Functional Analysis.md",
     "Untitled 1.md",
     "Journal/Yang Aran Routine.md",
     "Journal/2025-05-04.md",
@@ -213,13 +250,6 @@
     "Weird Derivatives on R.md",
     "Discontinuities on R.md",
     "Compactness in Metric Spaces.md",
-    "Series In Banach Spaces.md",
-    "Arzelà–Ascoli Theorem.md",
-    "Topological Groups.md",
-    "Continuous Function Spaces.md",
-    "Complete Metric Spaces.md",
-    "Convex Hulls.md",
-    "Convex.md",
     "Journal",
     "Upbringing_Mage",
     "clase",

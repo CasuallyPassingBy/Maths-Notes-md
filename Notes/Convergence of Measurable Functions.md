@@ -79,6 +79,7 @@ whenever $n \ge N$.
 
 **Obs:** There are the measure space $(X, \mathcal S, \mu)$ that are totally finite, and sequences of functions $\{f_n \mid n <\omega\}$ that converge in measure but there are no points that converges.
 
+**Def:** a sequence of measurable functions is *uniformly fundamental in measure* if for every $\varepsilon> 0$ and $\delta>0$, there's a $N< \omega$ such that for all $m, n\ge N$, $$\mu(\{x \in X \mid |f_n(x) - f_m(x)|\ge \varepsilon\})<\delta. $$
 **Th:** If $\{f_n\mid n <\omega\}$ is a sequence of measurable functions which is fundamental in measure, then some subsequence $\{f_{n_k}\mid k < \omega\}$ is almost uniformly fundamental.
 
 **Th:** If $\{f_n\mid n <\omega\}$ is a sequence of measurable functions which is fundamental in measure, then there exists a measurable function $f$ such that $\{f_n \mid n <\omega\}$ converges in measure to $f$. 
