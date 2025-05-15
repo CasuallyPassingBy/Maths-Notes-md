@@ -83,7 +83,9 @@ We remember the notion of [[Measures#^d64f4b|continuity of measures]], in partic
 
 **Th:** A sequence $\{f_n \mid n <\omega\}$ of integrable functions converges in the mean to the integrable function $f$ iff $\{f_n \mid n <\omega\}$ converges in measure to $f$ and the indefinite integrals of $\{f_n \mid n <\omega\}$ are uniformly absolutely continuous and equicontinuous from above at $\varnothing$. 
 
-**Lemma:** If $\{f_n \mid n <\omega\}$ us a uniformly fundamental sequence of functions, integrable over a measurable set $E$ of finite measure, then the function $f$, defined as $f(x) := \lim_{n \to \infty} f_n(x)$, is integrable over $E$ and $\displaystyle\int_E| f - f_n| \, d\mu \to 0$ as $n \to \infty$.
+**Lemma:** If $\{f_n \mid n <\omega\}$ us a uniformly fundamental sequence of functions, integrable over a measurable set $E$ of finite measure, then the function $f$, defined as $f(x) := \lim_{n \to \infty} f_n(x)$, is integrable over $E$ and $\displaystyle \int_E| f - f_n| \, d\mu \to 0$ as $n \to \infty$.
+
+**Th:** Let $(X, \mathcal A, \mu)$ is a totally finite measure space and a sequence $\{f_n \mid n <\omega\}$ of integrable functions converges in the mean to the integrable function $f$ iff $\{f_n \mid n <\omega\}$ converges in measure to $f$ and the indefinite integrals of $\{f_n \mid n <\omega\}$ are uniformly absolutely continuous. 
 
 # Properties of Integrals
 

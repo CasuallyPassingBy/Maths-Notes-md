@@ -66,9 +66,19 @@
               "icon": "lucide-file",
               "title": "Integrable Functions on Measure Spaces"
             }
+          },
+          {
+            "id": "d6d51c8d24c108f4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -222,10 +232,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4cb861843d3b738f",
+  "active": "d6d51c8d24c108f4",
   "lastOpenFiles": [
-    "Convergence of Measurable Functions.md",
     "Integrable Functions on Measure Spaces.md",
+    "Convergence of Measurable Functions.md",
     "Measure Theory.md",
     "Integration of Simple Functions.md",
     "Measurable Functions.md",
