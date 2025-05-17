@@ -35,3 +35,4 @@ Links: [[Bounded Linear Operators]], [[Normed Vector Spaces]], [[Axiom of Choice
 - There's $x_0 \in X$ such that $f_j(x_0) = c_j$ when $j =1, \dots, n$.
 - There is a nonnegative real number $M$ such that $$\left|\sum_{i = 1}^n \alpha_i c_{x_i}\right| \le M \left\|\sum_{i = 1}^n \alpha_i f_i\right\|$$for each linear combination $\sum_{i = 1}^n \alpha_i f_i$ of $f_1, \dots, f_n$, that is, for each $\langle\{f_1, \dots, f_n \}\rangle$. 
 
+**Def:** Let $A$ be an absorbing subset of a vector space $X$. For each $x \in X$, let $\mu_A(x) := 
