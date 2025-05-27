@@ -4,41 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "fc9b92d2fcba6c27",
+        "id": "40edbd7abaf284d4",
         "type": "tabs",
         "children": [
           {
-            "id": "831490e468cca191",
+            "id": "a01a2acc186aad0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Direct Sums of Normed Spaces.md",
+                "file": "Brownian Motion.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Direct Sums of Normed Spaces"
+              "title": "Brownian Motion"
             }
           },
           {
-            "id": "e4fb673f29354785",
+            "id": "818c6a567716018a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exponential Distribution.md",
+                "file": "Simple Random Walks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Exponential Distribution"
+              "title": "Simple Random Walks"
+            }
+          },
+          {
+            "id": "48d185ebdb1d8a89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thingy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Thingy"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,14 +206,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e4fb673f29354785",
+  "active": "a01a2acc186aad0f",
   "lastOpenFiles": [
+    "Simple Random Walks.md",
+    "Brownian Motion.md",
+    "Thingy.md",
     "Direct Sums of Normed Spaces.md",
+    "Exponential Distribution.md",
     "Hanh-Banach Extension Theorem.md",
     "Fundamental Theorems in Functional Analysis.md",
     "Initial Topology.md",
     "Bounded Linear Operators.md",
-    "Untitled.md",
     "Integrable Functions on Measure Spaces.md",
     "Convergence of Measurable Functions.md",
     "Upbringing_Mage/Sketch.md",
@@ -217,9 +234,6 @@
     "Continuous Functions and Homeomorphims.md",
     "Strings and Grammars.md",
     "Context-Free Grammars and Parsing.md",
-    "Normed Vector Spaces.md",
-    "Baire's Category Theorem.md",
-    "Interior Points.md",
     "Journal",
     "Upbringing_Mage",
     "clase",
