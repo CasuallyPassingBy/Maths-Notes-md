@@ -1,0 +1,26 @@
+---
+tags:
+  - Topology
+---
+Subjects: [[Topology]]
+Links: [[Paracompacteness]], [[Metacompactness]], [[Subparacompactness and Submetacompactness]], [[Normal Hausdorff Spaces]]
+
+**Def:** A space $X$ is *collectionwise normal* if for every discrete family $\{F_\alpha \mid \alpha < \kappa\}$ of closed subsets of $X$ there is a family $\{U_\alpha \mid \alpha < \kappa\}$ of open subsets of $X$ such that $F_\alpha \subseteq U_\alpha$ for every $\alpha < \kappa$. Additionally, we say that $X$ is *collectionwise $T_4$* if it is collectionwise normal and $T_1$. 
+
+**Obs:** Every collectionwise normal space is normal.
+
+**Th:** The following statements are equivalent for a topological space $X$.
+- $X$ is collectionwise normal.
+- Every discrete family $\{F_\alpha \mid \alpha < \kappa\}$ of closed subsets of $X$ there is a pairwise disjoint family $\{U_\alpha \mid \alpha < \kappa\}$ of open subsets of $X$ such that $F_\alpha \subseteq U_\alpha$.
+
+**Th:** Every $T_2$ paracompact space is collectionwise normal.
+
+**Cor:** Every $T_2$ compact space is collectionwise normal. 
+
+Let us note that there are spaces that are collectionwise normal but not hereditarily normal. Similarly, there are examples of hereditarily normal spaces that are not collectionwise normal. 
+
+**Th:** Let $X$ be a topological space. If $\{X_n \mid n <\omega\}$ is an increasing family of closed collectionwise normal subspaces of $X$ such that $X = \bigcup_{n < \omega} X_n$, then  $X$ is collectionwise normal. 
+
+This result can be put in the languages of categories as:
+
+If $(i_n: X_n \to X_{n+1})_{n < \omega}$ is a sequence of closed embeddings between collectionwise normal spaces, then the colimit $X = \text{colimit}_n X_n$ is also collectionwise normal.

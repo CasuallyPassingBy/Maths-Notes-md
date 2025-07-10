@@ -48,6 +48,12 @@ Meaning that closed $G_\delta$ and open $F_\sigma$ on a $T_4$ space are precisel
 
 **Th:** For every countable discrete $\{F_n : n <\omega\}$ of closed subsets of a $T_4$ space $X$ there exists a family $\{U_n : n < \omega\}$ of open subsets of $X$ such that $F_n \subseteq U_n$ for $n <\omega$ and $\text{cl}(U_n) \cap \text{cl}(U_m) = \varnothing$ for $n \neq m$. 
 
+**Th:** Let $X$ be a topological space. If $\{X_n \mid n <\omega\}$ is an increasing family of closed normal subspaces of $X$ such that $X = \bigcup_{n < \omega} X_n$, then  $X$ is normal. 
+
+This result can be put in the languages of categories as:
+
+If $(i_n: X_n \to X_{n+1})_{n < \omega}$ is a sequence of closed embeddings between normal spaces, then the colimit $X = \text{colimit}_n X_n$ is also normal.
+
 # Hereditarily Normal
 
 **Def:** A space $X$ is hereditarily normal if every subspace is normal. A space $X$ is $T_5$ if it is hereditarily normal and $T_1$. 
@@ -58,6 +64,14 @@ Meaning that closed $G_\delta$ and open $F_\sigma$ on a $T_4$ space are precisel
 - The space $X$ is $T_5$.
 - Every open subspace of $X$ is $T_4$.
 - For every pair of separated sets $A, B \subseteq X$, then $A, B$ are *separated by neighbourhoods*.
+
+**Th:** 
+
+**Cor:** Let $\{(X_\alpha, \tau_\alpha) \mid \alpha < \kappa\}$ be a family of not indiscrete topological spaces. If $\kappa > \omega$, then $\prod_{\alpha < \kappa} X_\alpha$ is not hereditarily normal.
+
+One can be tempted to compare [[collectionwise normal spaces]] to hereditarily normal spaces, but these properties are completely independent of each other.
+
+****
 
 # Perfect Normality
 

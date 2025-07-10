@@ -7,7 +7,7 @@ Links: [[Hausdorff Spaces]], [[T1 Spaces]], [[Kolmogorov Spaces]], [[Topological
 
 **Def:** Let $X$ be a topological space we say that $X$ is regular space, if given any closed set $F$ and any point $x\in X \setminus F$, there exists neighbourhood $U$ of $x$ and a neighbourhood $V$ of $F$ that are disjoint.
 
-**Def:** Let $X$ be a topological space we say that $X$ is $T_3$ space if $X$ is $T_1$ space and a regular spaces
+**Def:** Let $X$ be a topological space we say that $X$ is $T_3$ space if $X$ is $T_1$ space and a regular space.
 
 **Obs:** Every $T_3$ space is $T_2$, $T_1$, and $T_0$. 
 

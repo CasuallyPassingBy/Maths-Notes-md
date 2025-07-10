@@ -4,116 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "40edbd7abaf284d4",
+        "id": "5f5872e80a44695a",
         "type": "tabs",
         "children": [
           {
-            "id": "a01a2acc186aad0f",
+            "id": "641c7d271948384c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Black-Scholes equation.md",
+                "file": "Paracompacteness.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Black-Scholes equation"
+              "title": "Paracompacteness"
             }
           },
           {
-            "id": "cbe12a197a39205f",
+            "id": "1604222753b32d9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Heat Equation on Euclidean space.md",
+                "file": "Collectionwise Normal Spaces.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Heat Equation on Euclidean space"
+              "title": "Collectionwise Normal Spaces"
             }
           },
           {
-            "id": "9555c85e1850097f",
+            "id": "34d12a0c4c1e4563",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fourier Transform in Rn.md",
+                "file": "Normal Hausdorff Spaces.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Fourier Transform in Rn"
-            }
-          },
-          {
-            "id": "edf162c31ddc4aa1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Heat Equation on Euclidean space.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "The Heat Equation on Euclidean space"
-            }
-          },
-          {
-            "id": "d25b944f20605fb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Functions"
-            }
-          },
-          {
-            "id": "a0199a3a6d0091a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Limit Points and Closure.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Limit Points and Closure"
-            }
-          },
-          {
-            "id": "9b21a13b119d017b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topological Subspaces.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Topological Subspaces"
+              "title": "Normal Hausdorff Spaces"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -267,13 +207,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9b21a13b119d017b",
+  "active": "34d12a0c4c1e4563",
   "lastOpenFiles": [
-    "Limit Points and Closure.md",
-    "Functions.md",
-    "The Heat Equation on Euclidean space.md",
+    "Collectionwise Normal Spaces.md",
+    "Normal Hausdorff Spaces.md",
+    "Paracompacteness.md",
+    "Convergence of Filters.md",
+    "Bases, Subbases, and Local Basis for Topological Spaces.md",
     "Black-Scholes equation.md",
+    "The Heat Equation on Euclidean space.md",
     "Fourier Transform in Rn.md",
+    "Regular Hausdorff spaces.md",
+    "Functions.md",
+    "Limit Points and Closure.md",
+    "Topological Subspaces.md",
     "The Heat Equation.md",
     "Brownian Motion.md",
     "Thingy.md",
@@ -288,13 +235,6 @@
     "Bounded Linear Operators.md",
     "Integrable Functions on Measure Spaces.md",
     "Convergence of Measurable Functions.md",
-    "Upbringing_Mage/Sketch.md",
-    "Measure Theory.md",
-    "Integration of Simple Functions.md",
-    "Measurable Functions.md",
-    "Metric Spaces.md",
-    "Content.md",
-    "Quotient of Normed Spaces.md",
     "Journal",
     "Upbringing_Mage",
     "clase",
