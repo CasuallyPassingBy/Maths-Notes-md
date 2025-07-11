@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Separation Axioms]], [[T1 Spaces]], [[Separation of Sets]], [[Topological Subspaces]], [[Hausdorff Spaces]], [[Continuous Functions and Homeomorphims]]
+Links: [[Separation Axioms]], [[Fréchet Spaces]], [[Separation of Sets]], [[Topological Subspaces]], [[Hausdorff Spaces]], [[Continuous Functions and Homeomorphims]]
 
 **Def:** A topological space $(X, \tau)$ is *normal* if for any two disjoint closed subsets of $X$, $F$ and $G$ , there are disjoint open sets $U$ and $V$ such that $F \subseteq U$ and $G \subseteq V$.
 
@@ -34,15 +34,19 @@ Meaning that closed $G_\delta$ and open $F_\sigma$ on a $T_4$ space are precisel
 
 **Th:** Every countable $T_3$ space is a $T_4$ space.
 
-**Th:** Let $X$ be a topological space. $X$ is normal iff every [[Locally Finite Collections|point-finite]] open cover of $X$ admits a [[Shrinking Space|shrinking]].
+**Th:** Let $X$ be a topological space. $X$ is normal iff every [[Special Types of Collections in Topology|point-finite]] open cover of $X$ admits a [[Shrinking Space|shrinking]].
 
-**Th:** The class of $T_4$ spaces are invariant under continuous closed mappings.
+**Th:** If $X$ is a normal space and $f: X\to Y$ is a closed, continuous and surjective function, then $Y$ is normal.
+
+**Prop:** If $Y$ is a normal space and $f: X \to Y$ is a closed, continuous and surjective function. the $X$ is normal.
 
 **Prop:** $T_4$ is hereditary with respect to closed sets.
 
 **Tietze Extension theorem:** Every continuous function from a closed subspace $M$ of $T_4$ space $X$ to $[0, 1]$ or $\Bbb R$ is continuously extendable over $X$.
 
 **Cor:** If a continuous mapping of a dense subset of a topological space $X$ to a $T_2$ space $Y$ is continuously extendable over $X$, then the extension is uniquely determined by $f$.
+
+**Cor:** Let $f$ be a continuous mapping fo a closed set $F$ of a normal space $X$ into $\mathbb S^n$. Then we can continuously extend $f$ over an open cover of $X$ which contains $F$. 
 
 **Cor:** No separable $T_4$ space contains a closed discrete subspace of cardinality $\frak c = 2^{\aleph_0}$.
 
@@ -65,7 +69,7 @@ If $(i_n: X_n \to X_{n+1})_{n < \omega}$ is a sequence of closed embeddings betw
 - Every open subspace of $X$ is $T_4$.
 - For every pair of separated sets $A, B \subseteq X$, then $A, B$ are *separated by neighbourhoods*.
 
-**Th:** 
+**Lemma:** The space $[0, \omega)^{\omega_1}$ is not a normal space.
 
 **Cor:** Let $\{(X_\alpha, \tau_\alpha) \mid \alpha < \kappa\}$ be a family of not indiscrete topological spaces. If $\kappa > \omega$, then $\prod_{\alpha < \kappa} X_\alpha$ is not hereditarily normal.
 

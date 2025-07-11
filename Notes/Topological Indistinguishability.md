@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Kolmogorov Spaces]], [[Topological Spaces]], [[Bases, Subbases, and Local Basis for Topological Spaces]], [[Pre-orderings]], [[T1 Spaces]], [[Alexandroff Topologies]]
+Links: [[Kolmogorov Spaces]], [[Topological Spaces]], [[Bases, Subbases, and Local Basis for Topological Spaces]], [[Pre-orderings]], [[Fréchet Spaces]], [[Alexandroff Topologies]]
 
 **Def:** Let Let $(X, \tau)$ be a topological space, and $x\in X$, the set of all neighbourhood of $x$ is denoted as $\mathcal N_x$
 

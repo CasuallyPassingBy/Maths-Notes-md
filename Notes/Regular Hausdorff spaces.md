@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Hausdorff Spaces]], [[T1 Spaces]], [[Kolmogorov Spaces]], [[Topological Spaces]]
+Links: [[Hausdorff Spaces]], [[Fréchet Spaces]], [[Kolmogorov Spaces]], [[Topological Spaces]]
 
 **Def:** Let $X$ be a topological space we say that $X$ is regular space, if given any closed set $F$ and any point $x\in X \setminus F$, there exists neighbourhood $U$ of $x$ and a neighbourhood $V$ of $F$ that are disjoint.
 

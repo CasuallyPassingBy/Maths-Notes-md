@@ -16,5 +16,4 @@ In topology, compactness being such an important property it is studied various 
 - [[Relative Compactness]]
 - [[Paracompacteness]]
 	- [[Countably paracompactness]]
-	- [[Weakly and Strongly paracompactness]]
-- [[Metacompactness]]
+	- [[Metacompactness]]

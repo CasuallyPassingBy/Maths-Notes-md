@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subject: [[Topology]]
-Links: [[Continuity on R]], [[Continuity on Metric Spaces]] [[Limits and Continuity of real valued functions of Rm]], [[Limits and Continuity of Vector valued functions of Rn]], [[Topological Spaces]], [[Separation Axioms]], [[T1 Spaces]], [[Normal Hausdorff Spaces]]
+Links: [[Continuity on R]], [[Continuity on Metric Spaces]] [[Limits and Continuity of real valued functions of Rm]], [[Limits and Continuity of Vector valued functions of Rn]], [[Topological Spaces]], [[Separation Axioms]], [[Fréchet Spaces]], [[Normal Hausdorff Spaces]]
 ## Continuous Functions
 
 Let $f:X\to Y$, where $X$ and $Y$ are topological spaces

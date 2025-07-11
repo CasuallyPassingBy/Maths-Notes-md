@@ -7,7 +7,7 @@ Links: [[Topological Spaces]], [[Kolmogorov Spaces]], [[Limit Points and Closure
 
 **Def:** We say that a topological space $(X,\tau)$ is a *$T_1$ space,* or that $\tau$ is a $T_1$ *topology*, if for any two distinct points $x, y \in X$, there are $U, V\in \tau$ such that $x \in U \setminus V$ and $y \in V\setminus U$. This kind of space is also called a *Fréchet space*. 
 
-**Prop:** $T_1$ is a topological property, meaning invariant under homeomorphisms. 
+**Prop:** $T_1$ is a topological property. 
 
 **Obs:** $T_1$ is a topological property that is preserved under refinement the topology. This means that if $(X, \tau_1)$ is $T_1$ and $\tau_1 \subseteq \tau_2$ topologies then $(X,\tau_2)$ is $T_1$. 
 
@@ -24,7 +24,7 @@ Links: [[Topological Spaces]], [[Kolmogorov Spaces]], [[Limit Points and Closure
 **Prop:** The following propositions are equivalent for a topological space $X$
 - $X$ is a $T_1$ space.
 - each $A \subseteq X$ is the intersection of every open subsets of $X$ that contain $A$.
-- For each $x\in X$, the set $\{x\}$ is equal to the intersection of open subsets of $X$ that contain $x$. 
+- For each $x\in X$, the set $\{x\}$ is equal to the intersection of open subsets of $X$ that contain $x.$ 
 
 **Prop:** Let $(X, \tau)$ is a $T_1$ space, and $E \subseteq X$. $x \in \text{Lim}(E)$ iff each $U\in \tau$, if $x \in U$, then $|E \cap U| \ge \aleph_0$. 
 

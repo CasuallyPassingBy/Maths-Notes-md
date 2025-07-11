@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[T1 Spaces]], [[Kolmogorov Spaces]], [[Convergence of Sequences]], [[Convergence of Filters]], [[Quotient Topology]]
+Links: [[Fréchet Spaces]], [[Kolmogorov Spaces]], [[Convergence of Sequences]], [[Convergence of Filters]], [[Quotient Topology]]
 
 **Def:** A topological space $(X, \tau)$ is a Hausdorff space or $T_2$ if $X$ satisfies the following condition: for any two distinct points $x, y \in X$, there are $U, V \in \tau$ such that $x \in U$, $y \in V$ and $U \cap V = \varnothing$.
 

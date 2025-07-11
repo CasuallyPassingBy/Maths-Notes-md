@@ -18,14 +18,16 @@ The properties of *first countable* and *second countable* are known as the firs
 
 **Prop:** If $X$ is a second countable space and $B$ is any base of $X$, then $B$ contains a countable base of $X$
 
-**Prop:** If $(X, \tau)$ is second countable, then $X$ is also separable and first countable
+**Prop:** If $(X, \tau)$ is second countable, then $X$ is also separable and first countable, and [[Lindelöf spaces|Lindelöf]]. 
 
 **Prop:** Let $x$ be a point of the space $(X, \tau)$, and suppose that $x$ have a countable local base of neighbourhoods. Then we can construct a local basis $\{B_1, \dots, B_n, \dots \}$ of $X$ such that $B_{n+1}\subseteq B_n$ 
 
 **Obs:** Every metric space is first countable
 
-**Prop:** Let $(X, \tau_d)$ be a [[Metrizable Spaces|metrizable space]]. If $(X, \tau_d)$ is separable, then $(X, \tau_d)$ is second countable. Meaning, in metrizable spaces separable is equivalent to second countable.
-
+**Prop:** Let $(X, \tau_d)$ be a [[Metrizable Spaces|metrizable space]]. The following statements are equivalent:
+- $X$ is separable.
+- $X$ is second countable. 
+- $X$ is [[Lindelöf spaces|Lindelöf]].
 ## Image under Continuous Functions
 
 **Prop**: If $(X, \tau)$ is first/second countable space, and $Y$ a subspace of $X$, then $(Y, \tau|_Y)$ is also first/second countable. Meaning countability is hereditary. 

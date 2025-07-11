@@ -3,9 +3,9 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Locally Finite Collections]], [[Hausdorff Spaces]], [[Normal Hausdorff Spaces]], [[Partitions of Unity]], [[Collectionwise Normal Spaces]]
+Links: [[Special Types of Collections in Topology]], [[Hausdorff Spaces]], [[Normal Hausdorff Spaces]], [[Partitions of Unity]], [[Collectionwise Normal Spaces]] [[Special Types of Collections in Topology]], [[Metacompactness]], [[Subparacompactness and Submetacompactness]], [[Countable paracompactness]], [[Fully Normal Spaces]]
 
-**Def:** A topological space is called a *paracompact space* if every open cover of $X$ has a locally finite open [[Topological Cover|refinement]].
+**Def:** A topological space is called a *paracompact space* if every open cover of $X$ has a locally finite open [[Topological Covers|refinement]].
 
 **Obs:** Every [[Compactness|compact]] space is paracompact.
 
@@ -18,6 +18,8 @@ We get the following corollary from [[Metrizable Spaces|Stone's theorem]]
 **Lemma:** Every $T_2$ paracompact space is $T_3$.
 
 **Th:** Every $T_2$ paracompact space is $T_4$. 
+
+**Lemma:** Every countable, open cover $\{V_n \mid n <\omega\}$ of a topological space $X$, there is a locally finite covering $\{A_n \mid n <\omega\}$ such that $A_n \subseteq V_n$ for each $n <\omega$.
 
 **Lemma:** If every open cover of a topological space $X$ has a locally finite closed refinement, then $X$ is a paracompact. 
 
@@ -33,6 +35,36 @@ We get the following corollary from [[Metrizable Spaces|Stone's theorem]]
 - Every open cover of the space $X$ has a finite refinement. 
 - Every open cover of the space $X$ has a closed locally finite refinement. 
 
-**Th:** 
+**Cor:** Every regular Lindelöf space is paracompact.
 
 **Th:** Every $T_2$ paracompact space is collectionwise normal.
+
+**Th:** Every $T_2$ paracompact space is fully normal.
+
+**Stone's coincidence theorem:** A $T_2$ space $X$ is paracompact iff it is fully normal.
+
+**Th:** Paracompactness is hereditary with respect to $F_\sigma$-sets.
+
+**Th:** The sum $\bigoplus_{\alpha < \kappa} X_\alpha$ is paracompact iff all the spaces $X_\alpha$ are paracompact.
+
+**Remark:** The product of two paracompact spaces is not necessarily paracompact. We can strengthen this assertion that the product of a paracompact space with a separable metric space is not necessarily paracompact.
+
+**Th:** Let $X$ be a Hausdorff paracompact space. If $f: X \to Y$ is a perfect function, then $Y$ is also a $T_2$ paracompact space.
+
+**Michael's Theorem:** Let $X$ be a Hausdorff paracompact space. If $f: X \to Y$ is a closed, continuous and surjective function, then $Y$ is also a $T_2$ paracompact space.
+
+**Th:** If a topological space $X$ has a locally finite closed cover consisting of paracompact subspaces, then $X$ is itself paracompact.
+
+**Th:** Let $Y$ be a paracompact space. If $f: X\to Y$ is a perfect function, then $X$ is also paracompact.
+
+**Michael-Nagami Theorem:** The topological space $X$ is a Hausdorff paracompact space iff it is collectionwise $T_4$ and metacompact.
+
+**Prop:** If $X$ is a $T_0$, collectionwise normal developable space, then $X$ is paracompact.
+
+**Cor:** The following statements are equivalent:
+- $X$ is $T_2$, paracompact and developable.
+- $X$ is $T_0$, collectionwise normal and developable.
+
+**Th:** If $X$ is a collectionwise $T_4$ and submetacompact space, then $X$ is paracompact.
+
+This result is an even stronger version of Michael-Nagami.

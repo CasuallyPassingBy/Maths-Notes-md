@@ -13,47 +13,56 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paracompacteness.md",
+                "file": "Partitions of Unity.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Paracompacteness"
+              "title": "Partitions of Unity"
             }
           },
           {
-            "id": "1604222753b32d9f",
+            "id": "31718f5fa156de29",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "2abd787133482e3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Collectionwise Normal Spaces.md",
+                "file": "Compactness Like Properties.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Collectionwise Normal Spaces"
+              "title": "Compactness Like Properties"
             }
           },
           {
-            "id": "34d12a0c4c1e4563",
+            "id": "07387e7ac27138bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Normal Hausdorff Spaces.md",
+                "file": "Fully Normal Spaces.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Normal Hausdorff Spaces"
+              "title": "Fully Normal Spaces"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,13 +216,25 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "34d12a0c4c1e4563",
+  "active": "641c7d271948384c",
   "lastOpenFiles": [
-    "Collectionwise Normal Spaces.md",
-    "Normal Hausdorff Spaces.md",
-    "Paracompacteness.md",
-    "Convergence of Filters.md",
+    "Fully Normal Spaces.md",
+    "Partitions of Unity.md",
+    "Compactness Like Properties.md",
+    "Topology.md",
     "Bases, Subbases, and Local Basis for Topological Spaces.md",
+    "Paracompacteness.md",
+    "Collectionwise Normal Spaces.md",
+    "Special Types of Collections in Topology.md",
+    "Separable, First and Second Countable Spaces.md",
+    "Untitled.md",
+    "Normal Hausdorff Spaces.md",
+    "Separation Axioms.md",
+    "Convergence of Nets.md",
+    "Topological Covers.md",
+    "Locally.md",
+    "Fréchet Spaces.md",
+    "Convergence of Filters.md",
     "Black-Scholes equation.md",
     "The Heat Equation on Euclidean space.md",
     "Fourier Transform in Rn.md",
@@ -223,18 +244,6 @@
     "Topological Subspaces.md",
     "The Heat Equation.md",
     "Brownian Motion.md",
-    "Thingy.md",
-    "Simple Random Walks.md",
-    "Riemann Integral in R.md",
-    "Riemann and Darboux Sums in R.md",
-    "Direct Sums of Normed Spaces.md",
-    "Exponential Distribution.md",
-    "Hanh-Banach Extension Theorem.md",
-    "Fundamental Theorems in Functional Analysis.md",
-    "Initial Topology.md",
-    "Bounded Linear Operators.md",
-    "Integrable Functions on Measure Spaces.md",
-    "Convergence of Measurable Functions.md",
     "Journal",
     "Upbringing_Mage",
     "clase",

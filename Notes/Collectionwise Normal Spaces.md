@@ -17,6 +17,10 @@ Links: [[Paracompacteness]], [[Metacompactness]], [[Subparacompactness and Subme
 
 **Cor:** Every $T_2$ compact space is collectionwise normal. 
 
+**Th:** The following statements are equivalent for a topological space $X$.
+- $X$ is collectionwise normal.
+- For every closed set $F$ of $X$ and every locally finite open covering $\{\mathcal U_\alpha \mid \alpha < \kappa\}$ of $F$, there is a locally finite open cover $\{V_\alpha \mid \alpha < \kappa\}$ of $X$ such that $F \cap \text{cl}(V_\alpha) \subseteq U_\alpha$ for every $\alpha < \kappa$.
+
 Let us note that there are spaces that are collectionwise normal but not hereditarily normal. Similarly, there are examples of hereditarily normal spaces that are not collectionwise normal. 
 
 **Th:** Let $X$ be a topological space. If $\{X_n \mid n <\omega\}$ is an increasing family of closed collectionwise normal subspaces of $X$ such that $X = \bigcup_{n < \omega} X_n$, then  $X$ is collectionwise normal. 
@@ -24,3 +28,17 @@ Let us note that there are spaces that are collectionwise normal but not heredit
 This result can be put in the languages of categories as:
 
 If $(i_n: X_n \to X_{n+1})_{n < \omega}$ is a sequence of closed embeddings between collectionwise normal spaces, then the colimit $X = \text{colimit}_n X_n$ is also collectionwise normal.
+
+**Prop:** If $X$ is a collectionwise normal space, then every point finite cover of $X$ has an open $\sigma$-discrete refinement.
+
+**Michael-Nagami Theorem:** The topological space $X$ is a Hausdorff paracompact space iff it is collectionwise $T_4$ and metacompact.
+
+**Prop:** If $X$ is a $T_0$, collectionwise normal developable space, then $X$ is paracompact.
+
+**Cor:** The following statements are equivalent:
+- $X$ is $T_2$, paracompact and developable.
+- $X$ is $T_0$, collectionwise normal and developable.
+
+**Th:** If $X$ is a collectionwise $T_4$ and submetacompact space, then $X$ is paracompact.
+
+This result is an even stronger version of Michael-Nagami.

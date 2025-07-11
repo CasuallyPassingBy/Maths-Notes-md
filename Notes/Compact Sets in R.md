@@ -15,7 +15,7 @@ Let $A\subseteq \Bbb{R}$ be a infinite bounded set, then has at least a limit po
 **Th (Characterization of Sequential Compactness in $\Bbb{R}$):** A set $K \subseteq \Bbb{R}$ is sequentially compact iff it is closed and bounded.
 
 ## Open Covers
-**Def:** Let $A \subseteq \Bbb{R}$. An *[[Topological Cover|open cover]]* for $A$ is a (possibly infinite) collection of open sets ${\{U_\lambda \mid \lambda \in \Lambda\}}$ whose union contains the set $A$; that is $A \subseteq \bigcup_{\lambda\in \Lambda} U_\lambda$. Given an open cover for $A$, a *[[Topological Cover|finite subcover]]* is a finite subcollection of open sets from the original open cover whose union still manages to completely contain $A$.
+**Def:** Let $A \subseteq \Bbb{R}$. An *[[Topological Covers|open cover]]* for $A$ is a (possibly infinite) collection of open sets ${\{U_\lambda \mid \lambda \in \Lambda\}}$ whose union contains the set $A$; that is $A \subseteq \bigcup_{\lambda\in \Lambda} U_\lambda$. Given an open cover for $A$, a *[[Topological Covers|finite subcover]]* is a finite subcollection of open sets from the original open cover whose union still manages to completely contain $A$.
 
 ********Def:******** A set $K \subseteq \Bbb{R}$ is called [[Compactness|compact]] if for every open cover there’s a finite subcover
 
