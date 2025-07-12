@@ -13,7 +13,12 @@ Note that for even that a partition of unity to exists for each $x\in X$ the set
 
 **Def:** A partition of unity $\{f_\alpha \mid \alpha < \kappa\}$ on a space $X$ is *subordinated to a cover $\cal A$* of $X$ if the cover $\{f^{-1}_\alpha(0,1] \mid \alpha < \kappa\}$ of $X$ is a refinement of $\cal A$. Conversely, a cover $\cal U$ of a space $X$ is said to be *numerable* if it has a subordinated partition of unity.
 
-**Obs:** 
-
 **Lemma:** If for an open cover $\cal U$ of a space $X$ there exists a partition of unity $\{f_\alpha \mid \alpha < \kappa\}$ subordinated to it, then $\cal U$ has an open locally finite refinement.
 
+**Prop:** Every numerable cover, 
+
+**Def:** A cover $\mathcal U$ is called a *normal cover* if there is a sequence $\{\mathcal U_n \mid n <\omega\}$ of open covers such that $\mathcal U > \mathcal U_0$ and $\mathcal U_n^* > \mathcal U_{n+1}$ for every $n <\omega$. 
+
+**Prop:** If $\cal U$ be a normal cover of a topological space $X$, then $\cal U$ has a $\sigma$-discrete open refinement.
+
+**Prop:** If a cover $\cal U$ of a topological space $X$ has a $\sigma$-locally finite open refinement consisting of cozero sets, then $\cal U$ is a normal cover.

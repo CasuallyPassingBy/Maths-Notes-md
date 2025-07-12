@@ -36,3 +36,11 @@ $$
 \end{align*}
 $$
 **Def:** Let $\cal U$ be a collection of subsets of $X$, we define $\text{cl}(\mathcal U) := \{\text{cl}(U) \mid U \in \mathcal U\}$.  
+
+**Def:** Let $\cal U$ be a cover of $X$. We define the *order* at a point $x\in X$ as follows: 
+$$
+\begin{align*}
+\text{ord}_x(\mathcal U) &:= |\{U \in \mathcal U \mid x\in U\}|  \\
+\text{ord}(\mathcal U) &:= \sup\{\text{ord}_x(\mathcal U) \mid x\in X\}
+\end{align*}
+$$

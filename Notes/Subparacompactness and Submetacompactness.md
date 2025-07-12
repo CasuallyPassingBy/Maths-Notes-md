@@ -1,0 +1,24 @@
+---
+tags:
+  - Topology
+---
+Subjects: [[Topology]]
+Links: [[Paracompacteness]], [[Metacompactness]], [[Collectionwise Normal Spaces]]
+
+**Def:** A topological space $X$ is called *subparacompact* if every open cover $\cal U$ of $X$ has a $\sigma$-discrete closed refinement. 
+
+**Def:** $X$ is called *$\theta$-refinable* or *submetacompact* if for every open cover $\cal U$ of $X$ there is a sequence $\{\mathcal V_n \mid n <\omega\}$ of open covers such that $\cal V_n$ is a refinement of $\cal U$ for each $n <\omega$ and such that for each $x\in X$ there's an $n<\omega$ with $\text{ord}_x(\mathcal V_n) <\omega$. 
+
+**Obs:** Every paracompact space is metacompact. Every paracompact $T_2$ space is subparacompact. 
+
+**Prop:** Every metacompact as well as every subparacompact space is submetacompact.
+
+**Th:** The following conditions are equivalent for a topological space $X$. 
+- $X$ is subparacompact.
+- Every open cover of $X$ has a $\sigma$-locally finite closed refinement.
+- Every open cover of $X$ has a $\sigma$-closure-preserving closed refinement.
+- For every open cover $\cal U$ of $X$ there is a sequence $\{\mathcal V_n \mid n <\omega\}$ of open covers such that fora each $x\in X$ there is an $n<\omega$ satisfying $\text{St}(x, \mathcal V_n ) \subseteq U$ for some $U \in \cal U$. 
+
+**Th:** Every collectionwise $T_4$ submetacompact space is paracompact.
+
+**Prop:** Every countable compact submetacompact space is compact.

@@ -50,6 +50,8 @@ Meaning that closed $G_\delta$ and open $F_\sigma$ on a $T_4$ space are precisel
 
 **Cor:** No separable $T_4$ space contains a closed discrete subspace of cardinality $\frak c = 2^{\aleph_0}$.
 
+**Prop:** Let $\cal U$ be a locally finite open covering of a normal space $X$. Then $\cal U$ has a $\sigma$-discrete refinement and a $\sigma$-discrete closed refinement.
+
 **Th:** For every countable discrete $\{F_n : n <\omega\}$ of closed subsets of a $T_4$ space $X$ there exists a family $\{U_n : n < \omega\}$ of open subsets of $X$ such that $F_n \subseteq U_n$ for $n <\omega$ and $\text{cl}(U_n) \cap \text{cl}(U_m) = \varnothing$ for $n \neq m$. 
 
 **Th:** Let $X$ be a topological space. If $\{X_n \mid n <\omega\}$ is an increasing family of closed normal subspaces of $X$ such that $X = \bigcup_{n < \omega} X_n$, then  $X$ is normal. 
