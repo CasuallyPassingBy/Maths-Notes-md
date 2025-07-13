@@ -35,6 +35,10 @@ If $(i_n: X_n \to X_{n+1})_{n < \omega}$ is a sequence of closed embeddings betw
 
 **Michael-Nagami Theorem:** The topological space $X$ is a Hausdorff paracompact space iff it is collectionwise $T_4$ and metacompact.
 
+**Prop:** Collectionwise normality is an additive property.
+
+**Prop:** If $X$ is a collectionwise normal space, and $f:X \to Y$ is a closed, continuous and surjective function, then $Y$ is collectionwise normal.
+
 **Prop:** If $X$ is a $T_0$, collectionwise normal developable space, then $X$ is paracompact.
 
 **Cor:** The following statements are equivalent:

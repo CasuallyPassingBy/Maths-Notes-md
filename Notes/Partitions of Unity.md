@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Paracompacteness]]
+Links: [[Paracompacteness]], [[Metrizable Spaces]]
 
 **Def:** A family $\{f_\alpha : X \to [0, 1] \mid \alpha < \kappa\}$  of continuous functions from the space $X$ is called a *partition of unity*on the space $X$ if $$ \sum_{\alpha < \kappa} f_\alpha (x) =  1$$ for every $x\in X$. 
 
@@ -15,7 +15,9 @@ Note that for even that a partition of unity to exists for each $x\in X$ the set
 
 **Lemma:** If for an open cover $\cal U$ of a space $X$ there exists a partition of unity $\{f_\alpha \mid \alpha < \kappa\}$ subordinated to it, then $\cal U$ has an open locally finite refinement.
 
-**Prop:** Every numerable cover, 
+**Prop:** Every numerable cover, admits a subordinate locally finite partition of unity.
+
+**Prop:** Every numerable cover has a shrinking.
 
 **Def:** A cover $\mathcal U$ is called a *normal cover* if there is a sequence $\{\mathcal U_n \mid n <\omega\}$ of open covers such that $\mathcal U > \mathcal U_0$ and $\mathcal U_n^* > \mathcal U_{n+1}$ for every $n <\omega$. 
 

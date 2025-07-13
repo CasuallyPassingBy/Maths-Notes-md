@@ -27,10 +27,13 @@ $$ d^*([x_k], [y_k]) := \lim_{k \to \infty }d(x_k, y_k) $$
 $d^*$ is well-defined (it doesn’t depend on the representatives of chosen), and it is a metric on $X^*$.
 
 We have that $(X^*, d^*)$ is a complete metric space. For this result we need a couple of lemmas:
-
 - If $(a_n)_{n \in \Bbb N}$ is a Cauchy sequence in $X$, then every subsequence $(a_{n_k})_{k \in \Bbb N}$ is related via $\sim$ to the main sequence
 - For any $\varepsilon>0$, there is a subsequence $(a_{n_k})_{k \in \Bbb N}$ such that for any $k , l \in \Bbb N$ we have that $d(a_{n_l}, a_{n_k}) < \varepsilon$
 
 If $x \in X$, we denote for $[x]$ is the equivalence class of the constant sequence of $x$.
 
 Then $\iota (x) = [x]$, has that $\overline {\iota [X]} = X^*$ meaning is a completion
+
+**Th:** For every metric space $(X, d)$ there exists exactly one (up to isometry) complete metric space $(\overline X, \overline d)$ such that $\overline X$ contains a dense subspace isometric to $(X, d)$. Moreover, we have that $w(\overline X) = w(X)$, and if $(X, d)$ is totally bounded, the so is $(\overline X, \overline d)$. 
+
+**Cor:** The completion of a metric space $(X, d)$ is compact iff $(X, d)$ is totally bounded.

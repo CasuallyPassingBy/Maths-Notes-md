@@ -10,7 +10,6 @@ A subset $A$ of $X$ is _totally bounded_ if for all $\varepsilon>0$, there’s a
 $$ A \subseteq \bigcup_{i = 1}^m B_X(a_i, \varepsilon) $$
 
 Let $A$ be a subset of $X$
-
 - If $A$ is compact, then $A$ is totally bounded
 - if $A$ is totally bounded, then $A$ is bounded
 - If $D\subseteq A$ is totally bounded, then $D$ is totally bounded
@@ -23,7 +22,7 @@ All of these are equivalent
 - $X$ is sequentially compact
 - $X$ is complete and totally bounded
 
-A metric space $X$ is totally bounded iff every sequence in $X$ has a Cauchy subsequence
+A metric space $X$ is totally bounded iff every sequence in $X$ has a Cauchy subsequence.
 
 Let $\phi:X \to Y$ be uniformly continuous and $A$ be a totally bounded set in $X$, then $\phi[A]$ is totally bounded in $Y$
 
