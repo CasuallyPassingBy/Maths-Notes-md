@@ -8,33 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "641c7d271948384c",
+            "id": "e9201b63a798633e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Partitions of Unity.md",
+                "file": "Topology.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Partitions of Unity"
+              "title": "Topology"
             }
           },
           {
-            "id": "90014fa5ea7eab28",
+            "id": "f3728bb70fb26c2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metrizable Spaces.md",
+                "file": "Lašnev Spaces.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Metrizable Spaces"
+              "title": "Lašnev Spaces"
             }
           },
           {
@@ -53,18 +53,18 @@
             }
           },
           {
-            "id": "85967282cf184a97",
+            "id": "546da316401a98bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Completion of a Metric Space.md",
+                "file": "Functions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Completion of a Metric Space"
+              "title": "Functions"
             }
           }
         ],
@@ -224,14 +224,18 @@
   },
   "active": "e59a9f006eaa3958",
   "lastOpenFiles": [
-    "Metrizable Spaces.md",
-    "Paracompacteness.md",
+    "Lašnev Spaces.md",
     "Metrization Theorems.md",
+    "Functions.md",
+    "Topology.md",
+    "Partitions of Unity.md",
+    "Metrizable Spaces.md",
     "Completion of a Metric Space.md",
+    "Metrization.md",
+    "Paracompacteness.md",
     "Total Boundedness.md",
     "Special Sets in Topological Spaces.md",
     "Perfect Spaces.md",
-    "Partitions of Unity.md",
     "Complete Metric Spaces.md",
     "Bounded Function Spaces.md",
     "Countable paracompactness.md",
@@ -246,10 +250,6 @@
     "Normal Hausdorff Spaces.md",
     "Topological Covers.md",
     "Countably paracompactness.md",
-    "Topology.md",
-    "Bases, Subbases, and Local Basis for Topological Spaces.md",
-    "Separable, First and Second Countable Spaces.md",
-    "Separation Axioms.md",
     "Journal",
     "Upbringing_Mage",
     "clase",

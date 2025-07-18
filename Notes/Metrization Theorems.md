@@ -33,9 +33,9 @@ $$is a metric space on the space $X$.
 
 **Th:** If $X$ is a metrizable space and $f: X \to Y$ is a perfect function, then $Y$ is metrizable.
 
-**Vaĭnšteĭn's Lemma:** If $f:X \to Y$ is a closed, continuous surjective function, and $X$ is metrizable, then for every $y\in Y$ such that $\chi(y, Y) \le\omega$ the set $\text{Fr}f^{-1}\{y\}$ is compact.
+**Vaĭnšteĭn's Lemma:** If $f:X \to Y$ is a closed, continuous surjective function, and $X$ is metrizable, then for every $y\in Y$ such that $\chi(y, Y) \le\omega$ the set $\text{Fr}(f^{-1}\{y\})$ is compact.
 
-**Hanai-Morita-Stone Theorem:** The following statements are equivalent if $X$ is a metrizable space, and $f: X \to Y$ is a closed, continuous and surjective function.
+**Hanai-Morita-Stone Theorem:** The following statements are equivalent if $X$ is a metrizable space, and $f: X \to Y$ is a closed, continuous and surjective function. ^fdd00b
 - $Y$ is metrizable.
 - $Y$ is first-countable.
 - For every $y\in Y$ the set $\text{Fr}f^{-1}\{y\}$ is compact. 

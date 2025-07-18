@@ -60,7 +60,7 @@ Let $X$, $Y$ be sets, $f:X\to Y$ be a function, $A_1, A_2 \subseteq X$ and $B_1,
 - $f^{-1}[f[A_1]]\supseteq A_1$
 - $f[f^{-1}[B_1]] \subseteq B_1$
 
-Let $\mathcal A \subseteq P(X)$,  $\mathcal B \subseteq P(Y)$, and $f: X \to Y$. We define the direct image of $\mathcal A$ under $f$ as $$f[\mathcal A] := \{f[A] \mid A\in \mathcal A\}.$$Similarly, we define the inverse image of $\mathcal B$ as $$f^{-1}[\mathcal A] := \{f^{-1}[B] \mid B\in \mathcal B\}.$$
+Let $\mathcal A \subseteq P(X)$,  $\mathcal B \subseteq P(Y)$, and $f: X \to Y$. We define the direct image of $\mathcal A$ under $f$ as $$f[\mathcal A] := \{f[A] \mid A\in \mathcal A\}.$$Similarly, we define the inverse image of $\mathcal B$ as $$f^{-1}[\mathcal B] := \{f^{-1}[B] \mid B\in \mathcal B\}.$$
 
 ## Injective and Surjective functions
 
