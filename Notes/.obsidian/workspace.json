@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,10 +222,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e59a9f006eaa3958",
+  "active": "f3728bb70fb26c2f",
   "lastOpenFiles": [
-    "Lašnev Spaces.md",
     "Metrization Theorems.md",
+    "Lašnev Spaces.md",
     "Functions.md",
     "Topology.md",
     "Partitions of Unity.md",

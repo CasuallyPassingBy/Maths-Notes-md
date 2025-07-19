@@ -29,6 +29,8 @@ $$is a metric space on the space $X$.
 
 **Bing Metrization Theorem:** A topological space is metrizable iff it is $T_3$ and has a $\sigma$-discrete base.
 
+**Bing Psuedometrization Theorem:** A topological space is metrizable iff it is regular and has a $\sigma$-discrete base.
+
 **Kowalsky's Metrization Theorem:** The product space $(J(\kappa))^\omega$ of the hedgehog $J(\kappa)$ is universal for all metrizable spaces of weight $\kappa \ge \omega$.
 
 **Th:** If $X$ is a metrizable space and $f: X \to Y$ is a perfect function, then $Y$ is metrizable.
