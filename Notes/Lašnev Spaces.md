@@ -12,3 +12,4 @@ Links: [[Metrizable Spaces]], [[Metrization Theorems]], [[Continuous Functions a
 We know that Lašnev space is $T_6$, [[Sequential Spaces|Fréchet-Urysohn space]], and [[Paracompacteness|paracompact]].
 
 **Lašnev Theorem:** If $X$ is a Lašnev space, then $X$ can be decomposed $X = M \cup \bigcup_{n < \omega} X_n$, where $f^{-1}\{x\}$ is compact for each $x\in M$, and $X_n$ is a discrete closed subspace of $X$ for $n <\omega.$
+
