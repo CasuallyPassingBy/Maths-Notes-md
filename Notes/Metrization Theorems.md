@@ -4,7 +4,7 @@ tags:
   - Analysis
 ---
 Subjects: [[Topology]], [[Metric and Normed Spaces]]
-Links: [[Metrizable Spaces]], [[Paracompacteness]]
+Links: [[Metrizable Spaces]], [[Paracompacteness]], [[Special Types of Collections in Topology]], [[Topological developability]], [[Point-Regular and Regular Bases]]
 
 **Th:** Every open cover of a psuedometrizable space has an open refinement which is both locally finite and $\sigma$-discrete; in particular, every psuedometrizable space is paracompact.
 
@@ -27,11 +27,21 @@ $$is a metric space on the space $X$.
 
 **Nagata-Smirnov Psuedometrization Theorem:** A topological space is metrizable iff it is regular and has a $\sigma$-locally finite base.
 
+**Urysohn Metrization Theorem:** A second countable space is metrizable iff it is $T_3$.
+
+**Urysohn Psuedoetrization Theorem:** A second countable space is metrizable iff it is regular.
+
 **Bing Metrization Theorem:** A topological space is metrizable iff it is $T_3$ and has a $\sigma$-discrete base.
 
 **Bing Psuedometrization Theorem:** A topological space is metrizable iff it is regular and has a $\sigma$-discrete base.
 
 **Kowalsky's Metrization Theorem:** The product space $(J(\kappa))^\omega$ of the hedgehog $J(\kappa)$ is universal for all metrizable spaces of weight $\kappa \ge \omega$.
+
+**Prop:** The following statements are equivalent for a topological space $X$.
+- $X$ is metrizable.
+- $X$ is $T_2$, paracompact and developable.
+
+**Smirnov Metrization Theorem:** A topological space is metrizable iff it is $T_2$, paracompact and locally metrizable. (We cannot weaken paracompact to metacompact)
 
 **Th:** If $X$ is a metrizable space and $f: X \to Y$ is a perfect function, then $Y$ is metrizable.
 
@@ -45,3 +55,54 @@ $$is a metric space on the space $X$.
 **Th:** If $f:X \to Y$ is a closed, open, continuous, surjective function, and $X$ is metrizable, then $Y$ is metrizable.
 
 **Th:** If a topological space $X$ has a point finite closed cover consisting of metrizable spaces, then $X$ is itself metrizable.
+
+# Metrization Theorems for $T_0$ spaces
+
+**Bing Metrization Criterion:** A topological space is metrizable iff it is $T_0$, collectionwise normal and developable.
+
+**Moore Metrization Theorem:** A topological space is metrizable iff it is $T_0$ and strongly developable.
+
+**Th:** The following statements are equivalent for a topological space $X$.
+- $X$ is metrizable.
+- $X$ is $T_0$ and for each $x\in X$ has a local base $\mathcal B(x) = \{B(x) \mid n <\omega\}$ such that for every $n <\omega$, there's an $m <\omega$ that satisfies the following condition: if $x, y\in X$ and $B_m(x) \cap B_m(y) \neq \varnothing$, then $B_m(y) \subseteq B_n(x)$.
+- *(Frink Metrization Theorem)* $X$ is $T_0$ and for each $x\in X$ has a local base $\mathcal B(x) = \{B(x) \mid n <\omega\}$ such that for every  $x\in X$ and $n <\omega$, there's an $m <\omega$ that satisfies the following condition: if $y\in X$ and $B_m(x) \cap B_m(y) \neq \varnothing$, then $B_m(y) \subseteq B_n(x)$.
+
+**Jones Metrization Theorem:** If $X$ is $T_0$, then $X$ is metrizable iff it is $\cal K$-developable.
+
+**Alexandroff-Urysohn Metrization Theorem:** Then following theorems are equivalent for a topological space $X$:
+- $X$ is metrizable.
+- $X$ is $T_0$ and and has a development $\{\mathcal W_n \mid n <\omega\}$ such that for any $n <\omega$, and $W_1, W_2 \in \mathcal W_{n+1}$ with $W_1 \cap W_2 \neq \varnothing$, then there's $W\in \mathcal W_n$ such that $W_1 \cup W_2 \subseteq W$.
+
+**Cor:** A topological space is metrizable iff it is $T_0$ and has a development $\{\mathcal W_n\mid n <\omega\}$ such that $\mathcal W_n$ is a star-refinement of $\mathcal W_m$ for $m \le n <\omega$.
+
+**Def:** Let $X$ be a topological space. We say that $$\left(\{U_n(x) : n <\omega\ \wedge \ x\in X\},\{V_n(x) : n <\omega\ \wedge \ x\in X \}\right) \in P(\tau_X) \times P(\tau_X)$$is a *Nagata double sequence for $X$* it for any $x, y\in X$ and $n <\omega$ it satisfies the following properties:
+- $x\in V_n(x)$
+- $\{U_m(x) \mid m <\omega\}$ is a local base for $X$ at $x$.
+- If $y\in X\setminus U_n(x)$, then $V_n(y)\cap V_n(x)= \varnothing$.
+- If $y\in V_n(x)$, then $V_n(y) \subseteq U_n(x)$.
+
+**Obs:** If $\left(\{U_n(x) : n <\omega\ \wedge \ x\in X\},\{V_n(x) : n <\omega\ \wedge \ x\in X \}\right)$ is a Nagata double sequence for the space $X$, then for each $x\in X$ we know that $\{V_n(x)\mid n <\omega\}$ is a local base for $X$ on $x$, because $V_n(x) \subseteq U_(x)$ for every $n <\omega$.
+
+**Lemma:** If $X$ has a Nagata double sequence, then $X$ has a Nagata double sequence $\left(\{U_n(x) : n <\omega\ \wedge \ x\in X\},\{V_n(x) : n <\omega\ \wedge \ x\in X \}\right)$ with the property that for every $x\in X$ the collections $\{U_n(x)\mid n <\omega\}$ and $\{V_n(x)\mid n <\omega\}$ are decreasing.
+
+**Nagata's Double Sequence Metrization Theorem:** The following statements are equivalent for a topological space $X$.
+- $X$ is metrizable.
+- $X$ is $T_0$ and has a Nagata double sequence.
+
+**Morita Metrization Theorem:** The following statements are equivalent for a topological space $X$.
+- $X$ is metrizable.
+- $X$ is $T_0$ and there's a sequence $\{\mathcal F_n\mid n <\omega\}$ formed by closed closure preserving covers of $X$ such that for every $x\in X$ and $U \in \tau_X$ with $x\in U$, there's an $n<\omega$ such that $\text{st}(x, \mathcal F_n) \subseteq U$.
+- $X$ is $T_0$ and there's a sequence $\{\mathcal U_n \mid n<\omega\}$ of open covers of $X$ such that $\{\text{st}^2(x, \mathcal U_n) \mid n <\omega\}$ is a local base for $X$ at $x$. 
+
+**Th:** The following statements are equivalent for a $T_0$ space $X$.
+- $X$ is metrizable.
+- *(Bing Metrization Criterion)* $X$ is collectionwise normal and developable.
+- *(Moore Metrization Theorem)* $X$ is strongly developable.
+- For each $x\in X$ has a local base $\mathcal B(x) = \{B(x) \mid n <\omega\}$ such that for every $n <\omega$, there's an $m <\omega$ that satisfies the following condition: if $x, y\in X$ and $B_m(x) \cap B_m(y) \neq \varnothing$, then $B_m(y) \subseteq B_n(x)$.
+- *(Frink Metrization Theorem)* For each $x\in X$ has a local base $\mathcal B(x) = \{B(x) \mid n <\omega\}$ such that for every  $x\in X$ and $n <\omega$, there's an $m <\omega$ that satisfies the following condition: if $y\in X$ and $B_m(x) \cap B_m(y) \neq \varnothing$, then $B_m(y) \subseteq B_n(x)$.
+- *(Jones Metrization Theorem)* $X$ is $\mathcal K$-developable.
+- *(Alexandroff-Urysohn Metrization Theorem)* $X$ has a development $\{\mathcal W_n \mid n <\omega\}$ such that for any $n <\omega$, and $W_1, W_2 \in \mathcal W_{n+1}$ with $W_1 \cap W_2 \neq \varnothing$, then there's $W\in \mathcal W_n$ such that $W_1 \cup W_2 \subseteq W$.
+- $X$ has a development $\{\mathcal W_n\mid n <\omega\}$ such that $\mathcal W_n$ is a star-refinement of $\mathcal W_m$ for $m \le n <\omega$.
+- *(Nagata Double Sequence Metrization Theorem)* $X$ has a Nagata double sequence.
+- *(Morita Metrization Theorem)* There's a sequence $\{\mathcal F_n\mid n <\omega\}$ formed by closed closure preserving covers of $X$ such that for every $x\in X$ and $U \in \tau_X$ with $x\in U$, there's an $n<\omega$ such that $\text{st}(x, \mathcal F_n) \subseteq U$.
+- *(Morita Metrization Criterion)* There's a sequence $\{\mathcal U_n \mid n<\omega\}$ of open covers of $X$ such that $\{\text{st}^2(x, \mathcal U_n) \mid n <\omega\}$ is a local base for $X$ at $x$.

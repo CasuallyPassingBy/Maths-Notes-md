@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Weak, Partial, and Total Separations]], [[Topological Spaces]], [[Paracompacteness]], [[Ultraparacompactness]], [[Metrization Theorems]], [[Collectionwise Normal Spaces]], [[Collectionwise Hausdorff spaces]], [[Lašnev Spaces]]
+Links: [[Weak, Partial, and Total Separations]], [[Topological Spaces]], [[Ultraparacompactness]], [[Paracompacteness]], [[Metrization Theorems]], [[Collectionwise Normal Spaces]], [[Collectionwise Hausdorff spaces]], [[Lašnev Spaces]], [[Zero Dimensional Spaces]]
 
 For the rest of this note, we will consider that $X$ is a $T_1$ space. We will consider the collection $\text{Fin}(X)= \mathcal F(X) := \{A\subseteq X \mid 0 < |A| <\omega\} = [X]^{< \omega}\setminus \{\varnothing\}$ of the nonempty subsets of $X$. Let $n \in \omega\setminus 1$, then we can consider the set $\text{Fin}_n(X) = \mathcal F_n(X) := \{F \subseteq X \mid 0 < |F| \le n\} = [X]^{\leq n}\setminus \{\varnothing\}$.
 
@@ -122,7 +122,7 @@ $$
 **Lemma:** Let $n\in \omega\setminus 1$ and $\cal A$ be a clopen subset of $\mathcal F[X]$ such that $\mathcal F_n[X]\subseteq \cal A$. For each $F\in \mathcal F_{n+1}[X] \setminus \cal A$, let $\{W_F(x) \mid x\in F\} \subseteq \tau_X$ such that:
 - $x\in W_F(x)$ for each $x\in F$;
 - $[F, \bigcup_{x\in F} W_F(x)] \cap \mathcal A = \varnothing$, and
-- $[G, \bigcup_{x\in G} W_F(x)] \subseteq \mathcal A$, for each $G \subsetneq F$.
+- $[G, \bigcup_{x\in G} W_F(x)] \subseteq \mathcal A$, for each $G \subset F$.
 If $[F, \bigcup_{x\in F} W_F(x)] \cap [H, \bigcup_{x\in H} W_H(x)] \neq \varnothing$ for some $F$ and $H$ in $\mathcal F_{n+1}[X]\setminus \cal A$, then each $W_F(x)$ contains exactly one element of $H$. 
 
 **Prop:**  The following statements are equivalent for a topological space $X$.
@@ -154,7 +154,7 @@ If $[F, \bigcup_{x\in F} W_F(x)] \cap [H, \bigcup_{x\in H} W_H(x)] \neq \varnoth
 **Obs:** If $\mathcal F[X]$ is metrizable, then $X$ is first countable.
 
 **Th:** The following statements are equivalent for a topological space $X$. 
-- $(*)$ $\mathcal F[X]$ is ultrametrizable.
+- $\mathcal F[X]$ is ultrametrizable.
 - $\mathcal F[X]$ is metrizable.
 - $\mathcal F[X]$ is paracompact and a Moore space.
 - $\mathcal F[X]$ is paracompact and first countable.

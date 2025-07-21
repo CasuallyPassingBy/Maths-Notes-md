@@ -23,82 +23,22 @@
             }
           },
           {
-            "id": "cf36eebe68978a91",
+            "id": "64db5b96554a20c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ultranormal Spaces.md",
+                "file": "Metacompactness.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Ultranormal Spaces"
+              "title": "Metacompactness"
             }
           },
           {
-            "id": "29fd79a4907b66df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zero Dimensional Spaces.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Zero Dimensional Spaces"
-            }
-          },
-          {
-            "id": "f0d4fe1a35f83e85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ultraparacompactness.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Ultraparacompactness"
-            }
-          },
-          {
-            "id": "533efb0472b9d4dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ultrametric Spaces.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Ultrametric Spaces"
-            }
-          },
-          {
-            "id": "f3728bb70fb26c2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lašnev Spaces.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Lašnev Spaces"
-            }
-          },
-          {
-            "id": "e59a9f006eaa3958",
+            "id": "e91f9e3a9dcd578c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -110,6 +50,66 @@
               },
               "icon": "lucide-file",
               "title": "Metrization Theorems"
+            }
+          },
+          {
+            "id": "c452a9a01186644d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Point-Regular and Regular Bases.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Point-Regular and Regular Bases"
+            }
+          },
+          {
+            "id": "15cae815b40576e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topological developability.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Topological developability"
+            }
+          },
+          {
+            "id": "cbec90095cd6e597",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Special Types of Collections in Topology.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Special Types of Collections in Topology"
+            }
+          },
+          {
+            "id": "482e29468eb5b79f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Special Types of Collections in Topology.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Special Types of Collections in Topology"
             }
           }
         ],
@@ -145,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "OIST",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -176,7 +176,8 @@
               "title": "Tag Folder"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -267,34 +268,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "533efb0472b9d4dc",
+  "active": "15cae815b40576e4",
   "lastOpenFiles": [
+    "Special Types of Collections in Topology.md",
+    "Topological developability.md",
+    "Untitled.md",
+    "Point-Regular and Regular Bases.md",
+    "Metrization Theorems.md",
+    "Paracompacteness.md",
+    "Metrization.md",
+    "Metacompactness.md",
+    "Topology.md",
+    "Strong Paracompactness.md",
+    "Collectionwise Normal Spaces.md",
+    "Pixley-Roy Hyperspace.md",
+    "Countable paracompactness.md",
     "Lašnev Spaces.md",
+    "Zero Dimensional Spaces.md",
     "Ultrametric Spaces.md",
     "Ultraparacompactness.md",
-    "Zero Dimensional Spaces.md",
     "Ultranormal Spaces.md",
-    "Topology.md",
     "Journal/2025-07-19.md",
-    "Pixley-Roy Hyperspace.md",
     "Collectionwise Hausdorff spaces.md",
     "Topological Hyperspaces.md",
-    "Metrization Theorems.md",
     "Functions.md",
     "Partitions of Unity.md",
     "Metrizable Spaces.md",
     "Completion of a Metric Space.md",
-    "Metrization.md",
-    "Paracompacteness.md",
     "Total Boundedness.md",
-    "Special Sets in Topological Spaces.md",
-    "Perfect Spaces.md",
-    "Complete Metric Spaces.md",
-    "Bounded Function Spaces.md",
-    "Countable paracompactness.md",
-    "Subparacompactness and Submetacompactness.md",
-    "Fully Normal Spaces.md",
-    "Compactness Like Properties.md",
     "Journal",
     "Upbringing_Mage",
     "clase",
