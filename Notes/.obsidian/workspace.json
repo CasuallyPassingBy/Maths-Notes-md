@@ -23,6 +23,51 @@
             }
           },
           {
+            "id": "0912b18c817a3f44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compactness.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Compactness"
+            }
+          },
+          {
+            "id": "84670cccdfb14af3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topological Covers.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Topological Covers"
+            }
+          },
+          {
+            "id": "9b68280e936c6091",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topological developability.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Topological developability"
+            }
+          },
+          {
             "id": "64db5b96554a20c1",
             "type": "leaf",
             "state": {
@@ -66,54 +111,9 @@
               "icon": "lucide-file",
               "title": "Point-Regular and Regular Bases"
             }
-          },
-          {
-            "id": "15cae815b40576e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topological developability.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Topological developability"
-            }
-          },
-          {
-            "id": "cbec90095cd6e597",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Special Types of Collections in Topology.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Special Types of Collections in Topology"
-            }
-          },
-          {
-            "id": "482e29468eb5b79f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Special Types of Collections in Topology.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Special Types of Collections in Topology"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -268,22 +268,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "15cae815b40576e4",
+  "active": "0912b18c817a3f44",
   "lastOpenFiles": [
-    "Special Types of Collections in Topology.md",
-    "Topological developability.md",
     "Untitled.md",
-    "Point-Regular and Regular Bases.md",
+    "Compactness.md",
+    "Topological Covers.md",
+    "Topological developability.md",
+    "Topology.md",
+    "Metacompactness.md",
     "Metrization Theorems.md",
+    "Lašnev Spaces.md",
+    "Point-Regular and Regular Bases.md",
+    "Special Types of Collections in Topology.md",
     "Paracompacteness.md",
     "Metrization.md",
-    "Metacompactness.md",
-    "Topology.md",
     "Strong Paracompactness.md",
     "Collectionwise Normal Spaces.md",
     "Pixley-Roy Hyperspace.md",
     "Countable paracompactness.md",
-    "Lašnev Spaces.md",
     "Zero Dimensional Spaces.md",
     "Ultrametric Spaces.md",
     "Ultraparacompactness.md",
@@ -294,8 +296,6 @@
     "Functions.md",
     "Partitions of Unity.md",
     "Metrizable Spaces.md",
-    "Completion of a Metric Space.md",
-    "Total Boundedness.md",
     "Journal",
     "Upbringing_Mage",
     "clase",

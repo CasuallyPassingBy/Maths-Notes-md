@@ -36,6 +36,13 @@ $$
 $$
 We can do a slight abuse in notation given that $\mathcal U^{\Delta \Delta}$ or $\mathcal U^{**}$ we take it to mean $(\mathcal U^\Delta)^\Delta$ and $(U^*)^*$, respectively. If $\cal U$ is formed by open subsets of $X$, then $\mathcal U^\Delta$ and $\mathcal U^*$ will also be formed by open subsets of $X$. 
 
+**Obs:** The following statements are equivalent for any $x\in X$, $A, B\subseteq X$, and $\mathcal C, \mathcal D \subseteq \mathcal P(X)$.
+- $\text{st}(x, \mathcal C) = \text{st}(\{x\}, \mathcal C)$
+- $A \subseteq \bigcup \mathcal C$ iff $A \subseteq \text{st}(A, \mathcal C)$
+- If $A \subseteq B$, then $\text{st}(A, \mathcal C) \subseteq \text{st}(B, \mathcal C)$
+- $\text{st}(A, \mathcal C) \subseteq \text{st}(A, \mathcal D)$ whenever $\mathcal C$ is inscribed in $\cal D$.
+- If $\mathcal C \subseteq \tau_X$, then both $\text{st}(x, \mathcal C)$ and $\text{st}(A, \mathcal C)$ are both open.
+
 **Def:** Let $\cal U$ and $\cal V$ be coverings of $X$. If $\mathcal U^\Delta < \mathcal V$, then we say that $\cal U$ is a *barycentric refinement of $\cal V$.* Similarly, if $\mathcal U^* <\mathcal V$, then we say that $\cal U$ is a *star-refinement of $\cal V$*. Additionally, a cover $\mathcal U$ is called a *normal cover* if there is a sequence $\{\mathcal U_n \mid n <\omega\}$ of open covers such that $\mathcal U > \mathcal U_0$ and $\mathcal U_n^* > \mathcal U_{n+1}$ for every $n <\omega$. 
 
 **Prop:** $\mathcal U < \mathcal U ^\Delta < \mathcal U ^* < \mathcal U ^{\Delta \Delta}$ for every cover $\cal U$ of $X$. 

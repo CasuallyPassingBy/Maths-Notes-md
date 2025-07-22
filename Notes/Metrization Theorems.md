@@ -25,15 +25,9 @@ $$is a metric space on the space $X$.
 
 **Nagata-Smirnov Metrization Theorem:** A topological space is metrizable iff it is $T_3$ and has a $\sigma$-locally finite base.
 
-**Nagata-Smirnov Psuedometrization Theorem:** A topological space is metrizable iff it is regular and has a $\sigma$-locally finite base.
-
 **Urysohn Metrization Theorem:** A second countable space is metrizable iff it is $T_3$.
 
-**Urysohn Psuedoetrization Theorem:** A second countable space is metrizable iff it is regular.
-
 **Bing Metrization Theorem:** A topological space is metrizable iff it is $T_3$ and has a $\sigma$-discrete base.
-
-**Bing Psuedometrization Theorem:** A topological space is metrizable iff it is regular and has a $\sigma$-discrete base.
 
 **Kowalsky's Metrization Theorem:** The product space $(J(\kappa))^\omega$ of the hedgehog $J(\kappa)$ is universal for all metrizable spaces of weight $\kappa \ge \omega$.
 
@@ -55,6 +49,8 @@ $$is a metric space on the space $X$.
 **Th:** If $f:X \to Y$ is a closed, open, continuous, surjective function, and $X$ is metrizable, then $Y$ is metrizable.
 
 **Th:** If a topological space $X$ has a point finite closed cover consisting of metrizable spaces, then $X$ is itself metrizable.
+
+**Th:** A compact $T_2$ space $X$ is metrizable iff it has a $G_\delta$ diagonal.
 
 # Metrization Theorems for $T_0$ spaces
 
@@ -94,6 +90,14 @@ $$is a metric space on the space $X$.
 - $X$ is $T_0$ and there's a sequence $\{\mathcal F_n\mid n <\omega\}$ formed by closed closure preserving covers of $X$ such that for every $x\in X$ and $U \in \tau_X$ with $x\in U$, there's an $n<\omega$ such that $\text{st}(x, \mathcal F_n) \subseteq U$.
 - $X$ is $T_0$ and there's a sequence $\{\mathcal U_n \mid n<\omega\}$ of open covers of $X$ such that $\{\text{st}^2(x, \mathcal U_n) \mid n <\omega\}$ is a local base for $X$ at $x$. 
 
+**Chittenden's Metrization Theorem:** The following statements are equivalent for a $T_0$ space $X$.
+- $X$ is metrizable
+- There's a function $\varphi: X\times X \to \Bbb R$ such that:
+	- $\varphi(x, y) = \varphi(y, x) \ge 0$, for any $x, y\in X$
+	- For every $\varepsilon >0$, if $\varphi(x, y) < \varepsilon$ and $\varphi(y, z)< \varepsilon$, then $\varphi(x,z) < 2\varepsilon$, for any $x, y, z\in X$.
+	- The collection $\{B(x, 2^{-n})\mid n <\omega\}$ is a local base for $X$ at $x$, where $B(x, \varepsilon) := \{y \in X \mid \varphi(x, y) < \varepsilon\}$ for any $x\in X$ and $\varepsilon > 0$.
+
+
 **Th:** The following statements are equivalent for a $T_0$ space $X$.
 - $X$ is metrizable.
 - *(Bing Metrization Criterion)* $X$ is collectionwise normal and developable.
@@ -106,3 +110,19 @@ $$is a metric space on the space $X$.
 - *(Nagata Double Sequence Metrization Theorem)* $X$ has a Nagata double sequence.
 - *(Morita Metrization Theorem)* There's a sequence $\{\mathcal F_n\mid n <\omega\}$ formed by closed closure preserving covers of $X$ such that for every $x\in X$ and $U \in \tau_X$ with $x\in U$, there's an $n<\omega$ such that $\text{st}(x, \mathcal F_n) \subseteq U$.
 - *(Morita Metrization Criterion)* There's a sequence $\{\mathcal U_n \mid n<\omega\}$ of open covers of $X$ such that $\{\text{st}^2(x, \mathcal U_n) \mid n <\omega\}$ is a local base for $X$ at $x$.
+- *(Chittenden Metrization Theorem)* There's a function $\varphi: X\times X \to \Bbb R$ such that:
+	- $\varphi(x, y) = \varphi(y, x) \ge 0$, for any $x, y\in X$
+	- For every $\varepsilon >0$, if $\varphi(x, y) < \varepsilon$ and $\varphi(y, z)< \varepsilon$, then $\varphi(x,z) < 2\varepsilon$, for any $x, y, z\in X$.
+	- The collection $\{B(x, 2^{-n})\mid n <\omega\}$ is a local base for $X$ at $x$, where $B(x, \varepsilon) := \{y \in X \mid \varphi(x, y) < \varepsilon\}$ for any $x\in X$ and $\varepsilon > 0$.
+
+# Point-Regular and Regular Bases
+
+**Arhangel'skiĭ Metrization Theorem:** A space $X$ is metrizable iff $X$ is $T_1$ and has a regular base.
+
+**Alexandroff Metrization Theorem:** A topological space is metrizable iff it is $T_1$, collectionwise normal and developable.
+
+**Arhangel'skiĭ Metrization Criterion:** The following statements are equivalent for a $T_1$ space $X$.
+- $X$ is metrizable.
+- $X$ has a base $\cal B$ such that for every compact subset $K \subseteq X$ and every $U \in \tau_X$ with $K \subseteq U$, then $|\{B \in \mathcal B \mid B \cap K \neq \varnothing \ \land \ B\cap (X \setminus U) \neq \varnothing\}| <\omega$.
+
+**Th:** A $T_1$ space $X$ is metrizable iff it is locally finite developable.

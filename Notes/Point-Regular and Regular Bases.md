@@ -3,9 +3,9 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Metrization Theorems]], [[Topological developability]], [[Paracompacteness]], [[Metacompactness]]
+Links: [[Metrization Theorems]], [[Topological developability]], [[Paracompacteness]], [[Metacompactness]],[[Separable, First and Second Countable Spaces]]
 
-**Def:** We say that a base $\cal B$ for a topological space $X$ is *point-regular* if for every point $x\in X$ and any $U\in \tau_X$ with $x\in U$, then $|\{B\in \mathcal B \mid x\in B \ \land \ B \cap (X\setminus U) \neq \varnothing \}| < \omega$. 
+**Def:** We say that a base $\cal B$ for a topological space $X$ is *point-regular* or *uniform* if for every point $x\in X$ and any $U\in \tau_X$ with $x\in U$, then $|\{B\in \mathcal B \mid x\in B \ \land \ B \cap (X\setminus U) \neq \varnothing \}| < \omega$. 
 
 **Def:** We say that a base $\cal B$ for a topological space $X$ is *regular* if for every point $x\in X$ and any $U\in \tau_X$ with $x\in U$, there's an open set $V\in \tau_X$ such that $x\in V \subseteq U$ and $|\{B \in\mathcal B \mid V \cap B \neq \varnothing \ \land \ B\cap (X \setminus U) \neq \varnothing\}| <\omega$. 
 
@@ -33,4 +33,19 @@ Links: [[Metrization Theorems]], [[Topological developability]], [[Paracompacten
 
 **Arhangel'skiĭ Metrization Theorem:** A space $X$ is metrizable iff $X$ is $T_1$ and has a regular base.
 
-**Def:** 
+**Prop:** The following statements are equivalent for a $T_1$ space $X$.
+- $X$ has a point-regular (resp., regular) base.
+- $X$ is metacompact (resp., paracompact) and developable.
+- $X$ is point finite developable (resp., locally finite developable).
+
+**Obs:** We can show that given a $T_1$ space with a point regular base, then we don't necessarily will have that it will be $T_2$.
+
+**Alexandroff Metrization Theorem:** A topological space is metrizable iff it is $T_1$, collectionwise normal and developable.
+
+**Arhangel'skiĭ Metrization Criterion:** The following statements are equivalent for a $T_1$ space $X$.
+- $X$ is metrizable.
+- $X$ has a base $\cal B$ such that for every compact subset $K \subseteq X$ and every $U \in \tau_X$ with $K \subseteq U$, then $|\{B \in \mathcal B \mid B \cap K \neq \varnothing \ \land \ B\cap (X \setminus U) \neq \varnothing\}| <\omega$.
+
+**Prop:** The following statements are equivalent for a topological base $\cal B$.
+- $\mathcal B$ is regular.
+- For every compact subset $K \subseteq X$ and every $U \in \tau_X$ with $K \subseteq U$, then $|\{B \in \mathcal B \mid B \cap K \neq \varnothing \ \land \ B\cap (X \setminus U) \neq \varnothing\}| <\omega$.
