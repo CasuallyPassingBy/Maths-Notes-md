@@ -23,13 +23,15 @@ A subset $E$ of a topological space $(X, \tau)$ is closed iff $\text{Lim}(E)\sub
 The closure of a subset $E$ of a topological space $(X, \tau)$, is the subset $\text{cl}(E):= E \cup \text{Lim}(E)$, sometimes it is denoted as $\overline E$, but means the same thing
 
 Let $(X, \tau)$ is a topological space, and $E, F \subseteq X$. Then the following is true:
-- $x \in \text{cl}(E)$ iff for every neighborhood of $x$, $N$, then $N \cap E \ne \varnothing$
+- $x \in \text{cl}(E)$ iff for every neighbourhood of $x$, $N$, then $N \cap E \ne \varnothing$
 - $\text{cl}(E)$ is closed
 - If $F\subseteq X$ is a closed set that contains $E$, then $\text{cl}(E)\subseteq F$
 - $E$ is closed iff $E = \text{cl}(E)$
 - $\text{cl}(E) = \bigcap\{F \subseteq X \mid F \text{ closed }\land E \subseteq F\}$ 
 - $\text{cl}(E\cup F) = \text{cl}(E)\cup\text{cl}(F)$ 
 - $\text{cl}(E \cap F) \subseteq \text{cl}(E)\cap \text{cl}(F)$
+
+If $U$ is an open set and $D$ is a dense set in $X$, then $\text{cl}(U \cap D) = \text{cl}(U)$. 
 
 Let $\tau_1$ and $\tau_2$ be topologies of $X$, and let $A$ be a subset of $X$. If $\tau_1 \subseteq \tau_2$, then
 - $\text{Lim}_{\tau_2}(A) \subseteq \text{Lim}_{\tau_1}(A)$

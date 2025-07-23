@@ -11,8 +11,8 @@ Links: [[Hausdorff Spaces]], [[Fréchet Spaces]], [[Kolmogorov Spaces]], [[Topol
 
 **Obs:** Every $T_3$ space is $T_2$, $T_1$, and $T_0$. 
 
-**Prop:** Let $(X, \tau)$ be a $T_1$ space. The following are equivalent:
-- $X$ is a $T_3$.
+**Prop:** Let $(X, \tau)$ be a topological space.
+- $X$ is regular. 
 - For any point $x\in X$ and any open $U$ such that $x \in U$, there's a $V \in \tau$ such that $x \in V \subseteq \text{cl}(V) \subseteq U$.
 - For each $x \in X$ has a local base of neighbourhoods formed by closed subsets.
 - For every closed set $F \subseteq X$, there's a family $\mathcal B \subseteq \tau$ such that $F\subseteq U$ for each $U \in\mathcal B$ and $F = \bigcap \text{cl}(\mathcal B)$ 

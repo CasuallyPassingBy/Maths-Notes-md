@@ -34,6 +34,12 @@ Let $A$ and $B$ be sets . The set of all functions on $A$ into $B$ is denoted $B
 Let’s consider a family of indexed sets $S =\langle S_i \mid i \in I \rangle$, then the _product_ of the indexed set $S$ is: $$ \prod_{i\in I} S_i = \left\{ \left. f:I\to \bigcup_{i\in I}S_i \right| \forall i \in I[f(i) \in S_i]\right\} $$if for any $i \in I$, $S_i= B$, then$$ \prod_{i\in I}S_i = \prod_{i\in I} B= B^I $$There are other notations: $\prod S$, $\prod\langle S_i \mid i \in I \rangle$ and $\prod_{i\in I}S(i)$.
 
 A is a set _indexed by $S$_ if:$$ A = \{S_i \mid i\in I\} = \text{ran}\, S $$Where $S$ is a function on $I$. It is expected to write:$$ \bigcup A = \bigcup \{S_i \mid i \in I \} = \bigcup_{i\in I} S_i $$
+**Def:** Let $f:X \to Y$, $A\subseteq X$, and $B\subseteq Y$. We define the direct image of $A$ under $f$ as: $$
+f[A] := \{f(x) \in Y \mid x\in A\}.
+$$Similarly, we define the inverse image of $B$ as $$
+f^{-1}[B] := \{x\in X \mid f(x) \in B\}.
+$$
+**Def:** Let $\mathcal A \subseteq P(X)$,  $\mathcal B \subseteq P(Y)$, and $f: X \to Y$. We define the direct image of $\mathcal A$ under $f$ as $$f[\mathcal A] := \{f[A] \mid A\in \mathcal A\}.$$Similarly, we define the inverse image of $\mathcal B$ as $$f^{-1}[\mathcal B] := \{f^{-1}[B] \mid B\in \mathcal B\}.$$
 ### Compatible Functions
 
 **Def:** Functions $f$ and $g$ are _compatible_ iff $\def \dom{\text{dom}\,} \forall x \in \dom f\cap \dom g[f(x) = g(x)]$
@@ -52,15 +58,13 @@ Let $X$, $Y$ be sets, $f:X\to Y$ be a function, $A_1, A_2 \subseteq X$ and $B_1,
 - If $A_1 \subseteq A_2$ then $f[A_1] \subseteq f[A_2]$
 - $f[A_1 \cup A_2] = f[A_1] \cup f[A_2]$
 - $f[A_1\cap A_2] \subseteq f[A_1] \cap f[A_2]$
-- $f[A_1\setminus A_2] \supseteq f[A_1] \setminus f[A_2]$
+- $f[A_1] \setminus f[A_2]\subseteq f[A_1\setminus A_2]$
 - If $B_1 \subseteq B_2$ then $f^{-1}[B_1] \subseteq f^{-1}[B_2]$
 - $f^{-1}[B_1 \cup B_2] = f^{-1}[B_1] \cup f^{-1}[B_2]$
 - $f^{-1}[B_1\cap B_2] = f^{-1}[B_1] \cap f^{-1}[B_2]$
 - $f^{-1}[B_1\setminus B_2] = f^{-1}[B_1] \setminus f^{-1}[B_2]$
-- $f^{-1}[f[A_1]]\supseteq A_1$
+- $A_1 \subseteq f^{-1}[f[A_1]]$
 - $f[f^{-1}[B_1]] \subseteq B_1$
-
-Let $\mathcal A \subseteq P(X)$,  $\mathcal B \subseteq P(Y)$, and $f: X \to Y$. We define the direct image of $\mathcal A$ under $f$ as $$f[\mathcal A] := \{f[A] \mid A\in \mathcal A\}.$$Similarly, we define the inverse image of $\mathcal B$ as $$f^{-1}[\mathcal B] := \{f^{-1}[B] \mid B\in \mathcal B\}.$$
 
 ## Injective and Surjective functions
 
@@ -82,7 +86,7 @@ Let $f:A \to B$, $f$ is _bijective_ if it is injective and surjective. The set o
     - $f$ is surjective
     - for all $\varnothing \ne B \subseteq Y$, $f^{-1}[B] \ne \varnothing$
     - for all $B \subseteq Y$, $f[f^{-1}[B]] = B$
-    - For all $A \subseteq X$, $f[X\setminus A] \supseteq Y \setminus f[A]$
+    - For all $A \subseteq X$, $Y \setminus f[A] \subseteq f[X\setminus A],$ or $Y\setminus 
 
 $f: X\to Y$, then $f$ is bijective iff for any $A \subseteq X$, $f[X\setminus A] = Y \setminus f[A]$
 

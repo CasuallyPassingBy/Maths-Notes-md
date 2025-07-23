@@ -39,11 +39,31 @@ Links: [[Topological Spaces]], [[Topological Covers]]
 
 **Cor:** Every continuous bijective function from a $T_2$ compact space to a $T_2$ space is a homeomorphism.
 
-**Cor:** Let $\tau_1$ and $\tau_2$ be topologies defined on a set $X$, and let $\tau_1$ be finer than $\tau_2$. If the space $(X, \tau_1)$ is compact and $T_2$ and $(X, \tau_2)$ is a $T_2$ space, then $\tau_1 = \tau_2$. In other words, among all Hausdorff topologies, compact topologies are minimal.
+**Cor:** Let $\tau_1$ and $\tau_2$ be topologies defined on a set $X$, and let $\tau_1$ be finer than $\tau_2$, both of them $T_2$ topologies. If the space $(X, \tau_1)$ is a compact space, then $\tau_1 = \tau_2$. In other words, among all Hausdorff topologies, compact topologies are minimal.
 
 **Lemma:** If $A$ is a $T_2$ compact subspace of a space $X$ and $y \in Y$, then for every open set $W\subseteq X \times Y$ containing $A \times \{y\}$  there exist open sets $U \in \tau_X$ and $V \in\tau_Y$ such that $A \times \{y\} \subseteq U \times V \subseteq W$.
 
-**Kuratowski's Theorem:** The following are equivalent for a topological space $X$.
+**Kuratowski's Theorem:** The following are equivalent for a $T_2$ space $X$.
 - $X$ is a compact space.
 - For every topological space $Y$, the projection $\pi_Y :X\times Y\to Y$ is closed.
 - For every $T_4$ space $Y$, the projection $\pi_Y :X\times Y\to Y$ is closed.
+
+**Cor:** Let $Y$ be a $T_2$ compact space. The function $f: X\to Y$ is continuous iff the set $f=\{(x, f(x)) \mid x\in X\}$ is closed in $X\times Y$. 
+
+**Prop:** If $X$ is a $T_2$ compact space, then $nw(X) = w(X)$. 
+
+**Cor:** If $X$ is a $T_2$ compact space and a has a cover $\{A_\alpha \mid \alpha <\kappa\}$ such that $nw(A_\alpha) \le \lambda \ge \omega$ for $\alpha <\kappa$ and $\kappa \le \lambda$, then $nw(X) \le \lambda$.
+
+**Th:** For every $T_2$ compact space $X$ we have $w(X) \le |X|$
+
+**Th:** Let $X$ and $Y$ be $T_2$ spaces. If there's a continuous surjective function $f:X \to Y$, and $Y$ is compact, then $w(Y) \le nw(X)$. 
+
+**Th:** A topological space $X$ is compact iff every [[Convergence of Nets|net]] in $X$ has a cluster point.
+
+**Th:** A topological space $X$ is compact iff every [[Convergence of Filters|filter]] in $X$ has a cluster point.
+
+**Obs:** Every finite space is compact.
+
+**Th:** Every infinite $T_2$ compact space $X$ satisfies $|X| \le \exp(\chi(X))$
+
+**Cor:** very infinite first countable $T_2$ compact space $X$ satisfies $|X| \le \frak c$.

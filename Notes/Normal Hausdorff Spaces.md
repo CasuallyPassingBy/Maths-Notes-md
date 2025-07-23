@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Separation Axioms]], [[Fréchet Spaces]], [[Separation of Sets]], [[Topological Subspaces]], [[Hausdorff Spaces]], [[Continuous Functions and Homeomorphims]]
+Links: [[Separation Axioms]], [[Fréchet Spaces]], [[Separation of Sets]], [[Topological Subspaces]], [[Hausdorff Spaces]], [[Continuous Functions and Homeomorphims]], [[Limit and Colimit Topology]]
 
 **Def:** A topological space $(X, \tau)$ is *normal* if for any two disjoint closed subsets of $X$, $F$ and $G$ , there are disjoint open sets $U$ and $V$ such that $F \subseteq U$ and $G \subseteq V$.
 
@@ -40,7 +40,9 @@ Meaning that closed $G_\delta$ and open $F_\sigma$ on a $T_4$ space are precisel
 
 **Prop:** If $Y$ is a normal space and $f: X \to Y$ is a closed, continuous and surjective function. the $X$ is normal.
 
-**Prop:** $T_4$ is hereditary with respect to closed sets.
+**Prop:** Normality is hereditary with respect to closed sets.
+
+**Prop:** Normality is hereditary with respect to $F_\sigma$ sets.
 
 **Tietze Extension theorem:** Every continuous function from a closed subspace $M$ of $T_4$ space $X$ to $[0, 1]$ or $\Bbb R$ is continuously extendable over $X$.
 
@@ -56,9 +58,9 @@ Meaning that closed $G_\delta$ and open $F_\sigma$ on a $T_4$ space are precisel
 
 **Th:** Let $X$ be a topological space. If $\{X_n \mid n <\omega\}$ is an increasing family of closed normal subspaces of $X$ such that $X = \bigcup_{n < \omega} X_n$, then  $X$ is normal. 
 
-This result can be put in the languages of categories as:
+This result can be put in the languages of category theory theore as:
 
-If $(i_n: X_n \to X_{n+1})_{n < \omega}$ is a sequence of closed embeddings between normal spaces, then the colimit $X = \text{colimit}_n X_n$ is also normal.
+If $(i_n: X_n \to X_{n+1})_{n < \omega}$ is a sequence of closed embeddings between normal spaces, then the colimit $\varinjlim X_n$ is also normal.
 
 # Hereditarily Normal
 

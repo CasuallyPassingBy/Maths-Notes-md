@@ -4,7 +4,7 @@ tags:
   - Analysis
 ---
 Subjects: [[Topology]]
-Links: [[Paracompacteness]], [[Collectionwise Normal Spaces]], [[Topological developability]], [[Metric Spaces]], [[Total Boundedness]], [[Complete Metric Spaces]]
+Links: [[Paracompacteness]], [[Collectionwise Normal Spaces]], [[Topological Developability]], [[Metric Spaces]], [[Total Boundedness]], [[Complete Metric Spaces]]
 
 **Def:** A topological space is *metrizable* if there's a metric that induces the same as the original topology. Similarly, a topological space is *pseudometrizable* if there's a psuedometric that induces the original topology.
 

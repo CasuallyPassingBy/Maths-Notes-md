@@ -23,7 +23,13 @@ Let $(X, \tau)$ is a topological space, $Y\subseteq X$ and $y \in Y$.
 
 **Prop:** If $X$ is a subspace of a space $X$, and $L$ is a subset of $M$, then the two topologies defined on $L$, namely, the topology of a subspace of $M$ and the topology of a subspace of $X$, coincide. 
 
-**Def:** We say that a subspace $M$ of $X$ is closed/open/dense if it is a  closed/open/dense subset of $X$.
+**Def:** We say that a subspace $M$ of $X$ is closed/open/dense if it is a closed/open/dense subset of $X$.
+
+**Prop:** A subspace $M$ of $X$ is a open/closed subspace, then a set $A\subseteq M$ is open/closed in $M$ iff $A$ is open/closed in $X$. 
+
+**Prop:** A subspace $M$ of $X$ is a cozero subspace, then a set $A\subseteq M$ iscozero in $M$ iff $A$ is cozero in $X$. 
+
+**Obs:** The intersection of a cozero (zero) set in a topological space $X$ with a subspace $M$ of $X$ is a cozero (zero) set in $M$.
 
 **Def:** For every topological space $X$ and any subspace $M$ of $X$, the function $i: M \to X$ defined as $i(x) = x$, is called the *embedding of the subspace $M$ in the space $X$*
 

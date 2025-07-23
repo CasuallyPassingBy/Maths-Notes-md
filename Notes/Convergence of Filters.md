@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]], [[Set Theory]]
-Links: [[Filters and Ideals]], [[Convergence of Sequences]], [[Hausdorff Spaces]], [[Convergence of Filters]]
+Links: [[Filters and Ideals]], [[Convergence of Sequences]], [[Hausdorff Spaces]], [[Convergence of Nets]]
 
 **Def:** Let $X$ be a topological space.
 - A *filter $\mathcal F$ (on $X$) converges to a point* $x\in X$, and $x$ is a *limit point* of $\mathcal F$, if every neighbourhood of $x$ belong to the filter $\mathcal F$. To denote this fact it is written as $x \in \lim \mathcal F$.
@@ -32,3 +32,5 @@ We say that the filter $\mathcal F'$ is *finer* than the filter $\mathcal F$ if 
 **Th:** For every net $(x_\lambda)_{\lambda\in \Lambda}$ in a topological space, the family $\mathcal F((x_\lambda)_{\lambda\in \Lambda})$ consisting of all sets $A \subseteq X$ with the property that there exists a $\lambda_0\in \Lambda$ such that $x_\lambda \in A$ whenever $\lambda \ge \lambda_0$ is f filter in the subspace and $\lim\mathcal F((x_\lambda)_{\lambda\in \Lambda}) = \lim_{\lambda\in \Lambda_0} x_\lambda$. If the net $(x_\sigma)_{\sigma\in \Sigma}$ is finer than the net $(x_\lambda)_{\lambda\in \Lambda}$, then the filter $\mathcal F ((x_\sigma)_{\sigma\in \Sigma})$ is finer than the filter $\mathcal F((x_\lambda)_{\lambda\in \Lambda})$. 
 
 **Th:** Let $\mathcal F$ be a filter in a topological space $X$; let us denote $\Lambda$ the set of all pairs $(x, A)$, where $x\in A \in \cal F$ and let us define $(x_1, A_1) \le (x_2, A_2)$ if $A_2 \subseteq A_1$. The set $\Lambda$ is directed by $\le$, and for the net $(x_\lambda)_{\lambda\in \Lambda}$ is defined as $x_\lambda = x$ for $\lambda = (x, A) \in \Lambda$, we have that $\mathcal F = \mathcal F (\Lambda(\mathcal F))$ and $\lim_{\lambda \in \Lambda} x_\lambda = \lim \cal F$. 
+
+**Th:** A topological space $X$ is compact iff every [[Convergence of Filters|filter]] in $X$ has a cluster point. 

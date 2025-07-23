@@ -29,4 +29,6 @@ Links: [[Separable, First and Second Countable Spaces]], [[Topological Covers]],
 
 **Prop:** Let $X$ be a topological space. $X$ has a $G_\delta$ diagonal iff $X$ has a sequence of open covers $\{\mathcal U_n \mid n <\omega\}$ such that $\bigcap_{n <\omega} \text{st}(x. \mathcal U_n) = \{x\}$ for every $x\in X$. 
 
+**Cor:** If a $T_1$ space $X$ has a $G_\delta$ diagonal, then it has $\psi(X) = \omega$.
+
 **Cor:** Every $T_0$ developable space has $G_\delta$ diagonal. 

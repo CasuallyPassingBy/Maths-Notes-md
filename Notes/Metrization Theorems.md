@@ -4,7 +4,7 @@ tags:
   - Analysis
 ---
 Subjects: [[Topology]], [[Metric and Normed Spaces]]
-Links: [[Metrizable Spaces]], [[Paracompacteness]], [[Special Types of Collections in Topology]], [[Topological developability]], [[Point-Regular and Regular Bases]]
+Links: [[Metrizable Spaces]], [[Paracompacteness]], [[Special Types of Collections in Topology]], [[Topological Developability]], [[Point-Regular and Regular Bases]]
 
 **Th:** Every open cover of a psuedometrizable space has an open refinement which is both locally finite and $\sigma$-discrete; in particular, every psuedometrizable space is paracompact.
 

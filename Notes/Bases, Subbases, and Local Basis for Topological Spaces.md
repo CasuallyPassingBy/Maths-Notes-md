@@ -22,7 +22,6 @@ Let $\cal C$ be a base of the closed sets of $(X, \tau)$. Then
 - $\bigcap \cal C = \varnothing$ 
 - For each $C_1, C_2 \in \cal C$, the union $C_1 \cup C_2$ is the intersection of some subfamily of $\cal C$. 
 
-
 # Subbases
 Let $\cal S$ be a subset of the topology $\tau$ on $X$ is a *subbase* for $(X, \tau)$ if ${\cal B} = \left\{\bigcap \cal A \mid A \subseteq S \land 0 < |A| < \aleph_0 \right\}$ is a basis for $\tau$. Meaning, $\cal S\subseteq \tau$  is a subbase of $\tau$, iff for each $A \in \tau^+$, and each $x \in A$, there's a $\cal A  \subseteq S$ nonempty and finite such that $x \in \bigcap {\cal A}\subseteq A$
 
@@ -38,3 +37,7 @@ If we have a basis $\cal B$ for the topology $\tau$, then we can always a local 
 Let $(X, \tau)$ be a topological space, and suppose that for each $x \in X$ we chose a neighbourhood basis ${\cal B}(x)$. Then it follows that
 - If $N_1, N_2 \in {\cal B}(x)$, then there exists a $N_3\in \cal B(x)$ such that $N_3 \subseteq N_1 \cap N_2$
 - For each $N \in {\cal B}(x)$ we can choose $N_0 \in {\cal B(}x)$ such that if $y\in N_0$, there exists $W \in {\cal B}(y)$ such that $W \subseteq N$. 
+
+## Local Bases at sets
+
+**Def:** A family $\mathcal B(A)$ of open subsets of a space $X$ is called a *base for the space $X$ at a set $A\subseteq X$* if $A\subseteq \bigcap \mathcal B(A)$, and for every $V\in \tau_X$ with $A \subseteq V$ there's a $U\in \mathcal B(A)$ such that $A\subseteq U\subseteq V$. 
