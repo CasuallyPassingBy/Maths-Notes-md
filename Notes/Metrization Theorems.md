@@ -52,6 +52,7 @@ $$is a metric space on the space $X$.
 
 **Th:** A compact $T_2$ space $X$ is metrizable iff it has a $G_\delta$ diagonal.
 
+**Th:** A $T_3$ space $X$ is metrizable iff it is locally finite developable.
 # Metrization Theorems for $T_0$ spaces
 
 **Bing Metrization Criterion:** A topological space is metrizable iff it is $T_0$, collectionwise normal and developable.
@@ -124,5 +125,3 @@ $$is a metric space on the space $X$.
 **Arhangel'skiĭ Metrization Criterion:** The following statements are equivalent for a $T_1$ space $X$.
 - $X$ is metrizable.
 - $X$ has a base $\cal B$ such that for every compact subset $K \subseteq X$ and every $U \in \tau_X$ with $K \subseteq U$, then $|\{B \in \mathcal B \mid B \cap K \neq \varnothing \ \land \ B\cap (X \setminus U) \neq \varnothing\}| <\omega$.
-
-**Th:** A $T_1$ space $X$ is metrizable iff it is locally finite developable.

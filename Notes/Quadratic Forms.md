@@ -4,30 +4,25 @@ tags:
 ---
 Subjects: [[Linear Algebra]]
 Links: [[Bilinear Forms]]
-**********Def:********** Let $V$ be a vector space over a field $\mathbb F$ not of characteristic $2$. A function $K: V \to\mathbb F$ is called a *****************_quadratic form on $V$_ if there exists a symmetric bilinear form $H\in \mathcal B(V)$ such that
 
+**Def:** Let $V$ be a vector space over a field $\mathbb F$ not of characteristic $2$. A function $K: V \to\mathbb F$ is called a *quadratic form on $V$* if there exists a symmetric bilinear form $H\in \mathcal B(V)$ such that
 $$ K(x)= H(x,x) $$
 
 ********Th:******** Let $V$ be a vector space over a field $\mathbb F$ not of characteristic $2$, and let $H$ be a symmetric bilinear from on $V$. If $K(x) = H(x,x)$ is the quadratic form associated with $H$, then for all $x, y \in V$,
-
 $$ H(x,y) = \frac{1}{2}[K(x+y) -K(x)-K(y) ] $$
 
 ********Th:******** Let $V$ be a finite dimensional real inner product space, and let $H$ be a symmetric bilinear form on $V$. Then there exists an orthonormal basis $\beta$ for $V$ such that $\psi_\beta(H)$ is a diagonal matrix.
 
-**********Cor:********** Let $K$ be a quadratic form on a finite dimensional real inner product space $V$. There exists an orthonormal basis $\beta = \{v_i\}_{i = 1}^n$ for $V$ and scalars $\lambda_1, \lambda_2, \dots \lambda_n$ such that $x \in V$ and
-
+**Cor:** Let $K$ be a quadratic form on a finite dimensional real inner product space $V$. There exists an orthonormal basis $\beta = \{v_i\}_{i = 1}^n$ for $V$ and scalars $\lambda_1, \lambda_2, \dots \lambda_n$ such that $x \in V$ and
 $$ x = \sum_{k =1}^n s_k v_k $$
-
 Then
 
 $$ K(x) = \sum_{k =1}^n\lambda_k s_k ^2 $$
 
-### ********Principal Axes Theorem********
-
+### Principal Axes Theorem
 Let $A \in \mathcal M_n(\Bbb R)$ be a symmetric matrix, then there exists an orthogonal matrix $P$ such that $y = P^\top x$ and changes the quadratic form $x^\top Ax$ into the quadratic form $y^\top Dy$, where $D$ is diagonal, that has non cross-terms.
 
 **Def:** Let $K$ be a quadratic form on $\Bbb R^n$
-
 - $K$ is **positive definite** if $K(x)>0$ for all $x \in \Bbb R^n$, and $K$ is **positive semidefinite** if $K(x) \ge 0$ for all $x \in \Bbb R^n$.
 - $K$ is **negative definite** if $K(x)<0$ for all $x \in \Bbb R^n$, and $K$ is **negative semidefinite** if $K(x) \le 0$ for all $x \in \Bbb R^n$.
 - $K$ is **indefinite** if $K(x)$ is positive for some $x \in \Bbb R$ and negative for others.

@@ -23,6 +23,36 @@
             }
           },
           {
+            "id": "227e8d60955c10f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exterior Algebra.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Exterior Algebra"
+            }
+          },
+          {
+            "id": "18bc62832ecb0c05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clifford Algebras.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Clifford Algebras"
+            }
+          },
+          {
             "id": "a0a0206a79c46a59",
             "type": "leaf",
             "state": {
@@ -53,22 +83,82 @@
             }
           },
           {
-            "id": "b0b77320dfce0c09",
+            "id": "293259499a6271c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/2025-07-22.md",
+                "file": "Journal/2025-07-23.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-22"
+              "title": "2025-07-23"
+            }
+          },
+          {
+            "id": "567fc59e1af7c5bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Metrization Theorems.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Metrization Theorems"
+            }
+          },
+          {
+            "id": "53575940bcd4cb4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Point-Regular and Regular Bases.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Point-Regular and Regular Bases"
+            }
+          },
+          {
+            "id": "030abc8888e2011d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topological Developability.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Topological Developability"
+            }
+          },
+          {
+            "id": "ddfb7bf63de4479d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quadratic Forms.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Quadratic Forms"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -223,34 +313,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b0b77320dfce0c09",
+  "active": "ddfb7bf63de4479d",
   "lastOpenFiles": [
-    "Lašnev Spaces.md",
-    "Journal/2025-07-22.md",
-    "Functions.md",
-    "Untitled 1.md",
+    "Topological Developability.md",
+    "Point-Regular and Regular Bases.md",
+    "Metrization Theorems.md",
+    "Journal/2025-07-23.md",
     "Cardinal Functions of Topological Spaces.md",
+    "Pixley-Roy Hyperspace.md",
     "Compactness.md",
+    "Clifford Algebras.md",
+    "Exterior Algebra.md",
+    "Untitled 1.md",
+    "Topology.md",
+    "Functions.md",
+    "Journal/2025-07-22.md",
+    "Lašnev Spaces.md",
     "Topological Subspaces.md",
     "Bases, Subbases, and Local Basis for Topological Spaces.md",
     "Topological Networks.md",
     "Normal Hausdorff Spaces.md",
     "Regular Hausdorff spaces.md",
     "Limit Points and Closure.md",
-    "Topological Developability.md",
-    "Topology.md",
-    "Untitled.md",
     "Convergence of Nets.md",
     "Convergence of Filters.md",
     "Cardinal.md",
-    "Metrization Theorems.md",
     "Metacompactness.md",
     "Topological Covers.md",
     "Ultranormal Spaces.md",
-    "Ultrametric Spaces.md",
-    "Ultraparacompactness.md",
-    "Point-Regular and Regular Bases.md",
-    "Special Types of Collections in Topology.md",
     "Journal",
     "Upbringing_Mage",
     "clase",

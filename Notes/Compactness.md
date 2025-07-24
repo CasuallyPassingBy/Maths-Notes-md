@@ -29,6 +29,8 @@ Links: [[Topological Spaces]], [[Topological Covers]]
 
 **Cor:** Every $T_2$ compact space is normal.
 
+**Cor:** Every $T_2$ compact space is collectionwise normal. 
+
 **Prop:** If $f:X \to Y$ is a continuous and surjective function, and $X$ is a compact space, then $Y$ is compact, meaning that compactness is preserved by continuous surjective functions.
 
 **Cor:** If $f: X \to Y$ is a continuous function, and $X$ is compact, then 

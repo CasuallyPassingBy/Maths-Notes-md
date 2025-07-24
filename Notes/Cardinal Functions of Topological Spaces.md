@@ -43,6 +43,8 @@ Links: [[Topological Spaces]], [[Arithmetic of Cardinal Numbers]], [[Regular and
 $$
 **Obs:** Let $X$ be $T_1$ space. Note that for every $x\in X$, then it is satisfied that $\psi(x, X) \le \chi(x, X)$, and $\psi(X) \le \chi(X)$.
 
+**Prop:** If $X$ is a $T_0$ space, and has a $G_\delta$ diagonal, then $\psi(X) = \omega$. 
+
 **Prop:** If $X$ is a $T_2$ compact space, then $\psi(x, X) = \chi(x, X)$ and $\psi(X) = \chi(X)$.
 # Density
 

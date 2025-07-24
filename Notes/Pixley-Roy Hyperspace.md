@@ -15,6 +15,8 @@ Let $(X, \tau)$ be a topological. For any $F\in \mathcal F(X)$ and $S\in \mathca
 
 **Cor:** $\mathcal F[X]$ is zero-dimensional and $T_1$.
 
+**Question:** ¿Is $\mathcal F[X]$ is strongly zero-dimensional for any topological space $X$? If not, ¿when does $\mathcal F[X]$ is strongly zero-dimensional?
+
 **Prop:** $\mathcal F[X]$ is hereditarily metacompact.
 
 **Prop:** The following statements are equivalent.
@@ -23,7 +25,7 @@ Let $(X, \tau)$ be a topological. For any $F\in \mathcal F(X)$ and $S\in \mathca
 - $\mathcal F_2[X]$ is first countable.
 - $X$ is first countable.
 
-**Prop:** If $X$ and $Y$ are topological spaces and $X \cap Y = \varnothing$, then $\mathcal F[X\oplus Y] \cong \mathcal F[X] \oplus \mathcal F[Y] \mathcal F[X] \times \mathcal F[Y].$
+**Prop:** If $X$ and $Y$ are topological spaces and $X \cap Y = \varnothing$, then $\mathcal F[X\oplus Y] \cong \mathcal F[X] \oplus \mathcal F[Y] \oplus \mathcal F[X] \times \mathcal F[Y].$
 
 **Cor:** If $n \in \omega\setminus 1$ and $\{X_m \mid m < n\}$ is a family of topological spaces, then $$
 \mathcal F\left[\bigoplus_{m < n} (X_m \times \{m\})\right]\cong \bigoplus_{A \in \mathcal F[n]} \left(\prod_{m \in A} \mathcal F[X_m]\right)$$

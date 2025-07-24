@@ -34,18 +34,20 @@ Links: [[Metrization Theorems]], [[Topological Developability]], [[Paracompacten
 **Arhangel'skiĭ Metrization Theorem:** A space $X$ is metrizable iff $X$ is $T_1$ and has a regular base.
 
 **Prop:** The following statements are equivalent for a $T_1$ space $X$.
-- $X$ has a point-regular (resp., regular) base.
-- $X$ is metacompact (resp., paracompact) and developable.
-- $X$ is point finite developable (resp., locally finite developable).
+- $X$ has a point-regular base.
+- $X$ is metacompact and developable.
+- $X$ is point finite developable.
 
 **Obs:** We can show that given a $T_1$ space with a point regular base, then we don't necessarily will have that it will be $T_2$.
 
-**Alexandroff Metrization Theorem:** A topological space is metrizable iff it is $T_1$, collectionwise normal and developable.
+**Alexandroff Metrization Theorem:** A topological space is metrizable iff it is $T_1$, collectionwise normal and has a point-regular base.
+
+**Def:** We say that a base $\cal B$ for a topological space $X$ is $\cal K$-regular if for every compact subset $K \subseteq X$ and every $U \in \tau_X$ with $K \subseteq U$, then $|\{B \in \mathcal B \mid B \cap K \neq \varnothing \ \land \ B\cap (X \setminus U) \neq \varnothing\}| <\omega$. 
+
+**Obs:** Note that every $\cal K$-regular base is point-regular
 
 **Arhangel'skiĭ Metrization Criterion:** The following statements are equivalent for a $T_1$ space $X$.
 - $X$ is metrizable.
-- $X$ has a base $\cal B$ such that for every compact subset $K \subseteq X$ and every $U \in \tau_X$ with $K \subseteq U$, then $|\{B \in \mathcal B \mid B \cap K \neq \varnothing \ \land \ B\cap (X \setminus U) \neq \varnothing\}| <\omega$.
+- $X$ has a $\cal K$-regular base.
 
-**Prop:** The following statements are equivalent for a topological base $\cal B$.
-- $\mathcal B$ is regular.
-- For every compact subset $K \subseteq X$ and every $U \in \tau_X$ with $K \subseteq U$, then $|\{B \in \mathcal B \mid B \cap K \neq \varnothing \ \land \ B\cap (X \setminus U) \neq \varnothing\}| <\omega$.
+**Prop:** Let $\cal B$ be a base for a topological space. $\cal B$ is regular iff it is $\cal K$-regular.
