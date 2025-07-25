@@ -6,52 +6,32 @@ Subjects: [[Linear Algebra]]
 Links: [[Dual Vector Spaces]], [[Tensor Product of Modules]]
 
 **Def:** Let $V$ be a vector space over a field $\mathbb F$. A function ${H:V\times V\to \mathbb F}$ is called a **bilinear form** on $V$ if $H$ is linear in each variable when the other variable is held fixed. That is
-
 - $H(ax_1+x_2, y) = aH(x_1, y)+H(x_2, y)$ for all $x_1, x_2, y \in V$ and $a \in \mathbb F$.
 - $H(x, ay_1+y_2) = aH(x, y_1)+H(x, y_2)$ for all $x, y_1, y_2 \in V$ and $a \in \mathbb F$.
 
 The set of all bilinear forms on $V$ is denoted by $\mathcal B(V)$ or $\mathcal T^2(V)$, not to confuse with ${T^2 V= V^{\otimes 2}}$.
 
 - Properties for any bilinear form $H \in \mathcal B(V)$
-    
-    For any $x \in V$, the functions $L_x, R_x: V \to \mathbb F$ are defined by
-    
-    $$ L_x(y) = H(x,y) \quad \text{ and }\quad R_x(y)= H(y,x) $$
-    
-    Then $L_x, R_x \in V'$
-    
-    $H(0, x) = H(x, 0) = 0$ for all $x \in V$
-    
-    If $J :V\times V \to \mathbb F$, such that $J(x,y) = H(y,x)$ then $J$ is a bilinear form, in particular we say that $J(x, y) = {^\top H(x,y)}$ and it’s said to be $H$’s transpose.
-    
+	- For any $x \in V$, the functions $L_x, R_x: V \to \mathbb F$ are defined by$$ L_x(y) = H(x,y) \quad \text{ and }\quad R_x(y)= H(y,x) $$Then $L_x, R_x \in V'$. 
+	- $H(0, x) = H(x, 0) = 0$ for all $x \in V$.
+	- If $J :V\times V \to \mathbb F$, such that $J(x,y) = H(y,x)$ then $J$ is a bilinear form, in particular we say that $J(x, y) = {^\top H(x,y)}$ and it’s said to be $H$’s transpose.
 
-**********Def:********** Let $V$a vector space, let $H_1$ and $H_2$ be bilinear forms on $V$, and let $\lambda$ be a scalar. We define the ***_sum $H_1 + H_2$_ and the **************_scalar product $\lambda H_1$_ by the equations
-
+**Def:** Let $V$a vector space, let $H_1$ and $H_2$ be bilinear forms on $V$, and let $\lambda$ be a scalar. We define the *sum $H_1 + H_2$* and the *scalar product $\lambda H_1$* by the equations
 $$ (H_1+H_2)(x,y) = H_1 (x,y)+H_2(x,y) $$
-
-and
-
-$$ (\lambda H_1)(x, y) = \lambda( H_1(x, y)) $$
-
+and $$(\lambda H_1)(x, y) = \lambda( H_1(x, y)) $$
 **Def:** For any vector space $V$, the sum of two bilinear forms and the product of a scalar and a bilinear form on $V$ are again bilinear forms on $V$. Furthermore, $\mathcal B(V)$ is a vector space with respect to this operations.
 
-**Def:** Let $\beta = \{v_i\}_{i = 1}^n$ be an ordered basis for an $n-$dimensional vector space $V$, and let $H \in \mathcal B(V)$. We can associate with $H$ an $n\times n$ matrix $A$ whose entry in row $i$ and column $j$ is defined by
+**Def:** Let $\beta = \{v_i\}_{i = 1}^n$ be an ordered basis for an $n-$dimensional vector space $V$, and let $H \in \mathcal B(V)$. We can associate with $H$ an $n\times n$ matrix $A$ whose entry in row $i$ and column $j$ is defined by $$ A_{ij} = H(v_i, v_j) $$
+This matrix $A$ is called the *matrix representation* of $H$ with respect to the ordered basis $\beta$ and is denoted as $\psi_\beta(H)$.
 
-$$ A_{ij} = H(v_i, v_j) $$
-
-This matrix $A$ is called the ****matrix representation**** of $H$ with respect to the ordered basis $\beta$ and is denoted as $\psi_\beta(H)$.
-
-********Th:******** For any $n-$dimensional vector space $V$over $\mathbb F$ and any ordered basis $\beta$ for $V$, $\psi_\beta:\mathcal B(V) \to \mathcal M_n(\mathbb F)$ is an isomorphism.
+**Th:** For any $n-$dimensional vector space $V$over $\mathbb F$ and any ordered basis $\beta$ for $V$, $\psi_\beta:\mathcal B(V) \to \mathcal M_n(\mathbb F)$ is an isomorphism.
 
 **Cor:** For any $n-$dimensional vector space $V$, $\mathcal B(V)$ has dimension $n^2$.
 
 **Cor:** Let $V$ be an $n-$dimensional vectors over $\mathbb F$ with ordered basis $\beta$. If $H \in \mathcal B(V)$ and $A \in \mathcal M_n(\mathbb F)$, then $\psi_\beta(H) = A$ iff ${H(x, y) = [\phi_\beta(x)]^\top A[\phi_\beta(y)]}$, where $\phi_\beta$ is the isomorphism of $V$ onto $\mathbb F^n$ with respect to to the ordered basis $\beta$.
 
-**Cor:** Let $\mathbb F$ be a field, $n \in \Bbb N^+$, and $\beta$ be the standard basis for $\mathbb F^n$. Then for any $H \in \mathcal B(\mathbb F^n)$, there exists a unique matrix $A\in \mathcal M_n(\mathbb F)$, namely, $A = \psi_\beta(H)$, such that
-
-$$ H(x,y) = x^\top Ay $$
-
-**Def:** Let $A, B \in \mathcal M_n(\mathbb F)$. Then $B$ is said to be **congruent to $A$ is there exists an invertible matrix $Q \in \mathcal M_n(\mathbb F)$ such that $B = Q^\top AQ$.
+**Cor:** Let $\mathbb F$ be a field, $n \in \Bbb N^+$, and $\beta$ be the standard basis for $\mathbb F^n$. Then for any $H \in \mathcal B(\mathbb F^n),$ there exists a unique matrix $A\in \mathcal M_n(\mathbb F)$, namely, $A = \psi_\beta(H)$, such that $$H(x,y) = x^\top Ay$$
+**Def:** Let $A, B \in \mathcal M_n(\mathbb F)$. Then $B$ is said to be *congruent to $A$*  if there exists an invertible matrix $Q \in \mathcal M_n(\mathbb F)$ such that $B = Q^\top AQ$.
 
 This is an equivalence relation on $\mathcal M_n(\mathbb F)$.
 
@@ -87,10 +67,7 @@ $$ B^+ = \frac{1}{2}(B + {^\top B}) \qquad B^- = \frac{1}{2}(B-{^\top B}) $$
 
 Let $A$ be an $n \times n$ matrix with entries from a field $\Bbb F$ not of characeristic $2$. There are matrices $Q, D \in \cal M_{n}(\Bbb F)$ such that $Q$ is invertible, and $D$ diagonal such that ${Q^\top A Q=D}$.
 
-If $E$ is an elementary matrix, $AE$ can be obtained by performing an elementary column operation on $A$. $E^\top A$ can be obtained by performing the same operation on the rows of $A$ rather than the column. Thus $E^\top A E$ can be obtained by first applying the operations into the columns and then to the rows of $AE$. Suppose that $Q$ is an invertible matrix and $D$ a diangonal matrix such that $Q^\top A Q$, then $Q$ is a product of invertible matrices say ${Q= E_1 E_2\cdots E_p}$, we get that
-
-$$ D =Q^\top AQ = E_p ^\top \cdots E_2^\top E_1^\top AE_1 E_2\cdots E_p $$
-
+If $E$ is an elementary matrix, $AE$ can be obtained by performing an elementary column operation on $A$. $E^\top A$ can be obtained by performing the same operation on the rows of $A$ rather than the column. Thus $E^\top A E$ can be obtained by first applying the operations into the columns and then to the rows of $AE$. Suppose that $Q$ is an invertible matrix and $D$ a diangonal matrix such that $Q^\top A Q$, then $Q$ is a product of invertible matrices say ${Q= E_1 E_2\cdots E_p}$, we get that $$ D =Q^\top AQ = E_p ^\top \cdots E_2^\top E_1^\top AE_1 E_2\cdots E_p $$
 Getting a diagonalization of $A$ using only elementary operations.
 ### Sylvester’s Law of Inertia
 
@@ -106,6 +83,4 @@ Let $A$ be real symmetric matrix. Then the number of positive diagonal entries a
 
 **Cor:** Two real symmetric $n\times n$ matrices are congruent iff they have the same invariants.
 
-**Cor:** A real symmetric $n\times n$ matrix $A$ has index $p$ and rank a $r$ iff $A$ is congruent to $J_{pr}$, where $J_{pr}$ is defined as
-
-$$ J_{pr} := \begin{pmatrix} I_p & O & O \\ O & -I_{r-p} & O \\ O& O& O \end{pmatrix} $$
+**Cor:** A real symmetric $n\times n$ matrix $A$ has index $p$ and rank a $r$ iff $A$ is congruent to $J_{pr}$, where $J_{pr}$ is defined as $$ J_{pr} := \begin{pmatrix} I_p & O & O \\ O & -I_{r-p} & O \\ O& O& O \end{pmatrix} $$
