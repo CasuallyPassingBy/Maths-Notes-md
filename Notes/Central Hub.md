@@ -1,5 +1,7 @@
 We have all the subjects:
 
+[[Interesting Stuff I want continue Learning]]
+
 # Subjects
 
 ## Foundational
@@ -22,6 +24,8 @@ We have all the subjects:
 - [[Ring Theory]]
 - [[Module Theory]]
 - [[Algebra Theory]]
+- [[Clifford Algebra]]
+
 ## Differential Equations
 - [[Ordinary Differential Equations]]
 - [[Partial Differential Equations]]

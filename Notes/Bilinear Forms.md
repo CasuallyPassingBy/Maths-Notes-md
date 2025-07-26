@@ -59,10 +59,10 @@ We can think of elements from $\mathcal B(V)$ as linear functions form ${V\otime
 
 **Def:** A bilinear form $H$ such that for all $x, y \in V$, ${H(x,y) = -H(y,x)}$, then is called **skew-symmetric** or **antisymmetric**.
 
-********Th:******** If $V$ is vector space over the field $\mathbb F$ not with characteristic $2$. Then one can decompose a bilinear form into a symmetric and skew-symmetric parts
+********Th:******** If $V$ is vector space over the field $\mathbb F$ not with characteristic $2$. Then one can decompose a bilinear form into a symmetric and skew-symmetric parts $$ B^+ = \frac{1}{2}(B + {^\top B}) \qquad B^- = \frac{1}{2}(B-{^\top B}) $$
+**Def:** A vector space endowed with a non-degenerate symmetric bilinear form is said to be a quadratic space. Similarly, a vector space endowed with a non-degenerate antisymmetric bilinear form is called a *symplectic space*.
 
-$$ B^+ = \frac{1}{2}(B + {^\top B}) \qquad B^- = \frac{1}{2}(B-{^\top B}) $$
-
+**Def:** Let $H$ be a non-degenerate
 ### Diagonalizing Symmtric Matrices
 
 Let $A$ be an $n \times n$ matrix with entries from a field $\Bbb F$ not of characeristic $2$. There are matrices $Q, D \in \cal M_{n}(\Bbb F)$ such that $Q$ is invertible, and $D$ diagonal such that ${Q^\top A Q=D}$.

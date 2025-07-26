@@ -39,7 +39,7 @@ Since $(V, Q)$ is a quadratic space, in a characteristic not equal to $2$ there 
 
 We see that the fundamental Clifford identity implies that for an orthogonal basis $$e_i e_j =-e_j e_i \qquad \forall i \neq j,$$and $$e_i^2 = Q(e_i).$$
 
-This makes working with orthogonal bases quite simple, since given a product $e_{i_1}e_{i_2}\cdots e_{i_k}$ of *disctinct* orthongal basis vectors of $V$, one can put them into a standard order while including an overall sign determined by the sign of the permutation.
+This makes working with orthogonal bases quite simple, since given a product $e_{i_1}e_{i_2}\cdots e_{i_k}$ of *distinct* orthogonal basis vectors of $V$, one can put them into a standard order while including an overall sign determined by the sign of the permutation.
 
 We can see that $\dim \text{Cl}(V, Q) = 2 ^n$, where $\dim V = n$.
 
