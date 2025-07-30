@@ -23,3 +23,4 @@ We see that in symplectic space every vector is isotropic.
 
 # Musical Isomorphisms
 
+We will only consider quadratic spaces with respect to the symmetric correlations $\tau: V \to V'$, and $\tau^{-1}: V' \to V$. Here, we shall use a notation which is much more convenient than the one we have used so far: we shall denote these correlations respectively by $$\flat: V \to V', \quad \sharp: V' \to V,$$where $\flat = \sharp^{-1}$ and $\sharp = \flat^{-1}$. Such isomorphisms are called *musical isomorphisms*. In general, the expression $$v_\flat := \flat(v)\, \qquad \alpha^\sharp := \sharp(\alpha)$$ will be used. 

@@ -4,5 +4,6 @@ tags:
 ---
 
 # Overview
+- [[Vectors and Covectors]]
 - [[Bilinear Forms]]
 - [[Correlations, Musical Isomorphisms]]

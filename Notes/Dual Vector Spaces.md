@@ -34,7 +34,6 @@ Let $U$ and $W$ be subsets of $V$ with $U \subseteq W$, then $W^0 \subseteq U^0$
 Let $U$ and $W$ be subspaces of $V$, a finite dimensional space, with ${W^0 \subseteq U^0}$ then ${U \subseteq W}$.
 
 Let $V$ be a finite dimensional space and $U$ a subspace of $V$.
-
 - $U = \{0\}$ iff $U^0 =V'$
 - $U = V$ iff $U^0 = \{0\}$
 
@@ -46,14 +45,12 @@ Let $V$ a finite dimensional vector space, and $U$ is a subspace of $V$, then:
 $$ \dim V= \dim U+ \dim U^0 $$
 
 Let $T \in \mathcal L (U,V)$ with $U$ and $V$ being finite dimensional, considering the null space and range of $T'$, we get the following results:
-
 - $N(T')= (R(T))^0$
 - $R(T') = (N(T))^0$
 - $\dim N(T') = \dim N(T) + \dim W -\dim V$
 - $\dim R(T') = \dim R(T)$
 
 Let $V$ and $W$ be finite dimensional vector spaces over the field $\Bbb F$, and ${T \in \mathcal L(V, W)}$, then:
-
 - $T$ is surjective $\iff$$T'$ is injective
 - $T$ is injective $\iff$$T'$ is surjective
 
@@ -61,16 +58,14 @@ Let’s consider the matrix representation of $T'$, then let $V$ and $W$ be fini
 $$ [T']_{\gamma'}^{\beta'}=([T]_\beta^\gamma)^\top $$
 
 Where $([T]_\beta^\gamma)^\top$ is the transpose of $[T]_\beta^\gamma$. Similarly it has the following algebraic properties, let $A, B\in \mathcal M_{m\times n}(\Bbb F)$, $C\in \mathcal M_{n\times p}(\Bbb F)$, and $\lambda \in \Bbb F$:
-
 - $(A+B)^\top = A^\top + B^\top$
 - $(\lambda A)^\top=\lambda A^\top$
 - $(AC)^\top = A^\top C^\top$
 
 Even though that $V \cong V'$ for finite dimensional spaces, there’s a more natural isomorphism between $V$ and $V''$. Let $V$ be finite dimensional, ${\Lambda:V \to V''}$ defined by $\Lambda(x) = \widehat x \in V''$ , and $\widehat x(f) = f(x)$, for $f\in V'$. $\Lambda$ is more natural since it doesn’t depend in choosing a basis for $V$.
-Suppose that $V$ is finite dimensional and $U$ is a subspace of $V$, then
 
+Suppose that $V$ is finite dimensional and $U$ is a subspace of $V$, then
 $$ \Lambda[U] = U^{00} $$
 where
-
 $$ U^{00} = \{f\in V'' \mid \forall \phi\in U^0[f(\phi) = 0]\} $$
 Suppose $U$ be a subspace of $V$. Let ${\pi:V\to V/U}$ be the usual quotient map. Then $(V/U)' \cong U^0$ and $\pi'$ is the isomorphism. This independent of base and dimension.
