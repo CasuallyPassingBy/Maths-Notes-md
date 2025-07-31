@@ -5,5 +5,6 @@ tags:
 
 # Overview
 - [[Vectors and Covectors]]
-- [[Bilinear Forms]]
-- [[Correlations, Musical Isomorphisms]]
+	- [[Bilinear Forms]]
+	- [[Correlations, Musical Isomorphisms]]
+	- [[Tensor Product of Linear Functions]]

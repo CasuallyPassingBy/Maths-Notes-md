@@ -4,7 +4,7 @@ tags:
   - LinearAlgebra
 ---
 Subjects: [[Differential Geometry]], [[Linear Algebra]]
-Links: [[Dual Vector Spaces]], [[Exterior Algebra]], [[Multilinear Transformations]], [[Tensor Product of Modules]],  [[Graded Ring]]
+Links: [[Dual Vector Spaces]], [[Exterior Algebra]], [[Multilinear Transformations]], [[Tensor Product of Modules]],  [[Graded Ring]], [[Tensor Product of Linear Functions]]
 # Tensor Product 
 
 **Def:** Let $f \in \mathcal L_k(V; \Bbb R)$ and $g\in \mathcal L_\ell(V; \Bbb R)$. Their *tensor product* is the $(k+\ell)$-linear function $f\otimes g$ defined by: $$(f\otimes g ) (v_1, \dots, v_{k + \ell}) = f(v_1, \dots, v_k) g(v_{k+1}, \dots,v_{k+\ell}) $$

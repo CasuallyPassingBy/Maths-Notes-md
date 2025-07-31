@@ -11,7 +11,11 @@ We are going to revisit of [[Dual Vector Spaces]], but through the a lens closer
 We are using the *Einstein summation convention*.
 
 Let $V$ be a $K$-vector space. If $V$ is finite dimensional then there's a basis $\mathfrak B = \{e_1, \dots, e_n\}$ of $V$, then $$v = \sum_{i = 1}^n v^i e_i = v^i e_i.$$
-Remember that $V' := \mathcal L(V, K)$. Since $V$ is finite-dimensional, then $V'$ is also finite dimensional and $V \cong V'$. In this context, refer to dual vectors as *covectors*. Let $\alpha$ be a covector and $v$ a be a vector, then $$\alpha (v) = \alpha(v^ie_i) = v^i \alpha(e_i) = v^i \alpha_i,$$where $\alpha_i = \alpha(e_i)$. We know that a linear function is uniquely determined by their effect on the basis $\mathfrak B$ of the vector space $V$. In consequence, let us consider the set of covectors $\mathfrak B':= \{e^1, \dots. e^n\}$ defined by $$e^i(e_j) = \delta^i_j.$$The set $\frak B'$ is a basis for $V'$. The base $\frak B'$ is said to be the *dual basis* associated with the basis $\frak B$. 
+Remember that $V' := \mathcal L(V, K)$. Since $V$ is finite-dimensional, then $V'$ is also finite dimensional and $V \cong V'$. 
+
+In category-theoretic terms, every vector $v∈V$  corresponds to a morphism $f_v:K→V$, identifying $V≅\mathcal L(K,V)$. Duality reverses morphism direction, so instead of $K \to V$, we consider $\mathcal L(V,K)$ the dual space $V'$, consisting of covectors. This reversal isn't arbitrary — it reflects the contravariant behavior of duals under linear maps, which is why we call them _co_-vectors.
+
+Let $\alpha$ be a covector and $v$ a be a vector, then $$\alpha (v) = \alpha(v^ie_i) = v^i \alpha(e_i) = v^i \alpha_i,$$where $\alpha_i = \alpha(e_i)$. We know that a linear function is uniquely determined by their effect on the basis $\mathfrak B$ of the vector space $V$. In consequence, let us consider the set of covectors $\mathfrak B':= \{e^1, \dots. e^n\}$ defined by $$e^i(e_j) = \delta^i_j.$$The set $\frak B'$ is a basis for $V'$. The base $\frak B'$ is said to be the *dual basis* associated with the basis $\frak B$. 
 
 # Covariant and Contravariant Transformations
 
@@ -20,4 +24,4 @@ Let us consider the change of basis $\mathfrak B \mapsto \mathfrak C$ as describ
 Now, let $\frak B'$, and $\frak C'$, be the dual basis respectively associated with $\frak B$ and $\frak C$. By definition, we have $e^i (e_j) = e'^i (e_j') = \delta^i_j$. The components of a $\alpha \in V'$ in the bases $\frak B'$ and $\frak C'$ are given by the evaluation of $\alpha on the bases $\frak B$ and $\frak C$, respectively. Hence, $\alpha = \alpha_i e^i = \alpha_i' e'^i$, where $\alpha_i = \alpha (e_i)$, and $\alpha'_i = \alpha(e'_i)$. Since $e'_j = B^i_j e_i$, then components of $\alpha$ transform as $\alpha'_j = B^i_j \alpha_i$, and consequently the dual bases are related by $e^i = B^i_j e^j$. 
 
 To summarise, with a change of basis, the components of a covector transform as the basis vectors $$e'_j = B^i_j e_i, \qquad \alpha'_j = B^i_j \alpha_i,$$whereas the componentes of a vector transform as the basis covectors $$e^j = B^j_i e'^i, \qquad v^j = B^j_i v'^i.$$
-The in
+The inverse transformations are given by $$e_i = (B^{-1})^i_j e_j', \qquad \alpha_i = (B^{-1})^i_j \alpha_j'$$and $$e'^j = (B^{-1})^j_i e^i, \qquad v'^j = (B^{-1})^j_i v^i.$$

@@ -38,6 +38,21 @@
             }
           },
           {
+            "id": "05d5b19be53da0d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tensor Product of Linear Functions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Tensor Product of Linear Functions"
+            }
+          },
+          {
             "id": "f0a7353f071b262c",
             "type": "leaf",
             "state": {
@@ -50,51 +65,6 @@
               },
               "icon": "lucide-file",
               "title": "Vectors and Covectors"
-            }
-          },
-          {
-            "id": "549710c80ccc4d96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dual Vector Spaces.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Dual Vector Spaces"
-            }
-          },
-          {
-            "id": "15e9e78a534916e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interesting Stuff I want continue Learning.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Interesting Stuff I want continue Learning"
-            }
-          },
-          {
-            "id": "11c16df71c6424cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Correlations, Musical Isomorphisms.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Correlations, Musical Isomorphisms"
             }
           }
         ],
@@ -252,19 +222,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f0a7353f071b262c",
+  "active": "05d5b19be53da0d5",
   "lastOpenFiles": [
-    "Dual Vector Spaces.md",
     "Vectors and Covectors.md",
-    "Adjoint Operators and Matrices.md",
+    "Tensor Product of Linear Functions.md",
+    "Tensor Product of Modules.md",
+    "Exterior Algebra of Multicovectors.md",
     "Clifford Algebra.md",
-    "Central Hub.md",
+    "Tensor Algebra.md",
     "Correlations, Musical Isomorphisms.md",
+    "Adjoint Operators and Matrices.md",
     "Interesting Stuff I want continue Learning.md",
+    "Dual Vector Spaces.md",
+    "Central Hub.md",
     "Clifford Algebras.md",
     "Quadratic Forms.md",
     "Bilinear Forms.md",
-    "Tensor Algebra.md",
     "Templates/Daily Template.md",
     "Journal/2025-07-24.md",
     "Correlations, Quadratic and Simplectic Spaces, and Musical Isomorphisms.md",
@@ -277,9 +250,6 @@
     "Journal/2025-07-23.md",
     "Metrization Theorems.md",
     "Topological Developability.md",
-    "Cardinal Functions of Topological Spaces.md",
-    "Pixley-Roy Hyperspace.md",
-    "Untitled 1.md",
     "Journal",
     "Upbringing_Mage",
     "clase",

@@ -114,11 +114,10 @@ We can construct the $n$-fold tensor product since we know it is associative, an
 
 The $n$-fold tensor can be denoted as $M_1 \otimes M_2 \otimes \dots \otimes M_n$ or $\bigotimes_{i = 1}^n M_i$, for any kind of bracketing
 
-**Cor:** Let $R$ be a commutative ring and let $M_1, \dots, M_n, $L$ be $R$-modules. Let $$\iota: \prod_{i = 1}^n M_i \to \bigotimes_{i = 1}^n M_i$$be the map defined by $\iota(m_1, \dots, m_n) = m_1 \otimes \dots \otimes m_n$. Then:
-- For every $R$-module homomorphism $\Phi: \bigotimes_{i = 1}^n M_i \to L$ the map $\varphi = \Phi \circ \iota$ is an $n$-linear from $\prod_{i = 1}^n \to L$, and
+**Cor:** Let $R$ be a commutative ring and let $M_1, \dots, M_n$, $L$ be $R$-modules. Let $$\iota: \prod_{i = 1}^n M_i \to \bigotimes_{i = 1}^n M_i$$be the map defined by $\iota(m_1, \dots, m_n) = m_1 \otimes \dots \otimes m_n$. Then:
+- For every $R$-module homomorphism $\Phi: \bigotimes_{i = 1}^n M_i \to L$ the map $\varphi = \Phi \circ \iota$ is an $n$-linear from $\prod_{i = 1}^n M_i\to L$, and
 - if $\varphi: \prod_{i = 1}^n M_i \to L$ is an $n$-linear map there is a unique $R$-module homomorphism $\Phi: \bigotimes_{i = 1}^n M_i \to L$ such that $\varphi = \Phi \circ \iota$. 
 Hence there is a bijection between the $n$-linear maps $\varphi: \prod_{i = 1}^n M_i \to L$ and the $R$-module homomorphisms $\Phi: \bigotimes_{i = 1}^n M_i \to L$. with respect to which the following diagram commutes: 
-
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
@@ -128,18 +127,19 @@ Hence there is a bijection between the $n$-linear maps $\varphi: \prod_{i = 1}^n
 \end{tikzcd}
 \end{document}
 ```
+
 **Th:** Let $M, M'$ be right $R$-modules and let $N, N'$ be left $R$-modules. Then there are unique group isomorphisms $$\begin{align*}
 (M \oplus M') \otimes_R N &\cong (M \otimes_R N) \oplus (M' \otimes_R N) \\
 M \otimes_R (N \otimes N') &\cong (M \otimes_R N) \oplus (M \otimes_R N')
 \end{align*}$$
 The previous theorem clearly extends by induction to any finite direct sum of $R$-modules. 
 
-**Th:** The corresponding result is also true for arbitrary direct sums. For example: $$M \otimes \left(\bigoplus_{\alpha < \kappa} N_\alpha \right) \cong \bigoplus_{\alpha < \kappa} M \otimes N_\alpha.$$where $\kappa$ is a cardinal. This result is referred to by saying that *tensor products commite with direct sums.*
+**Th:** The corresponding result is also true for arbitrary direct sums. For example: $$M \otimes \left(\bigoplus_{\alpha < \kappa} N_\alpha \right) \cong \bigoplus_{\alpha < \kappa} M \otimes N_\alpha.$$where $\kappa$ is a cardinal. This result is referred to by saying that *tensor products commute with direct sums.*
 
 **Cor:** Let $S, R$ be rings with $1$, $R$ is a subring of $S$, and the free $R$-module of rank $n$ $R^n$. Then $S \otimes R^n \cong S^n$ as left $S$-modules.
 
 **Cor:** Let $R$ be commutative ring and let $M \cong R^s$ and $N \cong R^t$ be free $R$-modules with bases $m_1, \dots, m_s$ and $n_1, \dots, n_t$, respectively. Then $M \otimes_R N$ is a free $R$-module of rank $st$, with basis $m_i \otimes n_j$, $1 \le i \le s$ and $1 \le j \le t$, i.e., $$R^s \otimes_R R^t \cong R^{st}.$$ In general, the product of two free modules or arbitrary rank over a commutative ring is free.
 
-**Prop:** Suppose $R$ is a commutative ring and $M, N$ are left $R$-modules, considerd with standard $R$-module structures. Then there is a unique $R$-module isomorphism $$M \otimes_R N \cong N \otimes_R M$$mapping $m \otimes n \mapsto n \otimes m$.
+**Prop:** Suppose $R$ is a commutative ring and $M, N$ are left $R$-modules, considered with standard $R$-module structures. Then there is a unique $R$-module isomorphism $$M \otimes_R N \cong N \otimes_R M$$mapping $m \otimes n \mapsto n \otimes m$.
 
 **Prop:** Let $R$ be a commutative ring and $A$ and $B$ be $R$-algebras. Then the multiplication $(a \otimes b) (a' \otimes b') = aa' \otimes bb'$ is well defined and makes $A \otimes_R B$ into an $R$-algebra.
