@@ -2,10 +2,10 @@
 tags:
   - CliffordAlgebra
   - DifferentialGeometry
+  - LinearAlgebra
 ---
-Subjects: [[Clifford Algebra]], [[Differential Geometry]]
-Links: [[Tensor Algebra]], [[Tensor Product of Modules]], [[Vectors and Covectors]], [[Dual Vector Spaces]]
-
+Subjects: [[Clifford Algebra]], [[Differential Geometry]], [[Linear Algebra]]
+Links: [[Tensor Algebra]], [[Tensor Product of Modules]], [[Vectors and Covectors]], [[Dual Vector Spaces]], [[Correlations, Musical Isomorphisms]]
 # Linear Functions
 
 **Def:** Given a linear map $f: U \to V$, and a vector space $W$, then the *tensor product*: $$f\otimes W : U \otimes W \to V \otimes W $$is the unique linear map such that $$(f \otimes W)(u \otimes w) = f(u)\otimes w. $$The tensor product $W \otimes f$ is defined similarly. 
@@ -43,6 +43,30 @@ Tensors of type $(p, 0)$ are sometimes called *covariant tensors*, and tensors o
 Under a change of basis $\frak B \to C$, described by $e_j' = B^i_j e_i$, the dual basis transforms according to $e^j = B^j_i e'^i$ , and the components of a vector $v$ and a covector $\alpha$ respectively transform $v^j = B^j_i v'^i$ and $\alpha'_j = B^i_j \alpha_i$. This basis vectors $\frak B$ and the components of a covector transform in a covariant way, and the dual basis vectors $\mathfrak B'$ and the vector components transform in a contravariant way. A generalisation of those results for a type $(p, q)$ is straightforward. 
 
 Indeed, considering a tensor $T$ of type $(p, q)$, the expression for this tensor in the bases $\frak B$ and $\frak C$ is given by $$\begin{align*}
-T &= T^{\nu_1, \dots, \nu_q}_{\mu_1, \dots, \mu_p} e^{\mu_1} \otimes e^{\mu_2} \otimes \dots \otimes e^{\mu_p} \otimes e_{\nu_1} \otimes e_{\nu_2} \otimes \dots \otimes e_{\nu_q} \\
-&= (T')^{\nu_1, \dots, \nu_q}_{\mu_1, \dots, \mu_p} e^{\mu_1} \otimes e^{\mu_2} \otimes \dots \otimes e^{\mu_p} \otimes e_{\nu_1} \otimes e_{\nu_2} \otimes \dots \otimes e_{\nu_q}
-\end{align*}$$
+T &= T^{\nu_1, \dots, \nu_q}_{\mu_1, \dots, \mu_p} \ e^{\mu_1} \otimes e^{\mu_2} \otimes \dots \otimes e^{\mu_p} \otimes e_{\nu_1} \otimes e_{\nu_2} \otimes \dots \otimes e_{\nu_q} \\
+&= (T')^{\nu_1, \dots, \nu_q}_{\mu_1, \dots, \mu_p} \ e'^{\mu_1} \otimes e'^{\mu_2} \otimes \dots \otimes e'^{\mu_p} \otimes e'_{\nu_1} \otimes e'_{\nu_2} \otimes \dots \otimes e'_{\nu_q}.
+\end{align*}$$Now, when we substitute the basis change $e'_{\mu_i} = B_{\mu_i}^{\nu_i}e_{\nu_i}$ and the corresponding transformation $e'^{\mu_i} = (B^{-1})_{\nu_i}^{\mu_i}e^{\nu_i}$ in the expression, it then reads $$T^{\rho_1, \rho_2, \dots, \rho_q}_{\sigma_1, \sigma_2, \dots, \sigma_p} = (T')^{\nu_1, \nu_2, \dots, \nu_q}_{\mu_1, \mu_2, \dots, \mu_p}(B^{-1})_{\sigma_1}^{\mu_1} \cdots (B^{-1})_{\sigma_p}^{\mu_p} B^{\rho_1}_{\nu_1} \cdots B^{\rho_q}_{\nu_q},$$and $$(T')^{\rho_1, \rho_2, \dots, \rho_q}_{\sigma_1, \sigma_2, \dots, \sigma_p} = T^{\nu_1, \nu_2, \dots, \nu_q}_{\mu_1, \mu_2, \dots, \mu_p} B_{\sigma_1}^{\mu_1} \cdots B_{\sigma_p}^{\mu_p} (B^{-1})^{\rho_1}_{\nu_1} \cdots (B^{-1})^{\rho_q}_{\nu_q}.$$Hence, the *covariant* components transform in the same way as a covector. On the other had the *contravariant* component transform in the same way as the vector components do. 
+
+# Tensor Algebra of Linear Functionals
+
+**Def:** Given two tensors $T$ and $S$ of type $(p, q)$, it is possible to define their sum as the tensor $T+S$ of type $(p, q)$ in terms of their components by $$(T+S)^{\nu_1, \nu_2, \dots, \nu_q}_{\mu_1, \mu_2, \dots, \mu_p} := T^{\nu_1, \nu_2, \dots, \nu_q}_{\mu_1, \mu_2, \dots, \mu_p}+ S^{\nu_1, \nu_2, \dots, \nu_q}_{\mu_1, \mu_2, \dots, \mu_p}.$$
+**Def:** If $T$ is tensor of type $(p,q )$ and $S$ is a tensor of type $(r,s)$, we can define a tensor product $T \otimes S$ which is a tensor of type $(p+r, q+s)$. In terms of components it follows that $$(T \otimes S)^{\nu_1, \nu_2, \dots, \nu_q\rho_1, \rho_2, \dots, \rho_s}_{\mu_1, \mu_2, \dots, \mu_p, \sigma_1, \sigma_2, \dots, \sigma_r} := T^{\nu_1, \nu_2, \dots, \nu_q}_{\mu_1, \mu_2, \dots, \mu_p} S^{\rho_1, \rho_2, \dots, \rho_s}_{\sigma_1, \sigma_2, \dots, \sigma_r}.$$
+**Obs:** The tensor product is distributive with respect to the sum, namely $(T+ S) \otimes R = T \otimes R + S \otimes R$ and $T \otimes (S+R) = T \otimes S + T\otimes R$; in addition it is associative: $T \otimes (S \otimes R) = (T \otimes S ) \otimes R$. 
+
+**Def:** The direct sum of all vector spaces $\mathcal T^p_q(V)$ endowed with the operations of sum and tensor product is called the *tensor algebra of linear functionals* associated with the vector space $V$. The tensor algebra of linear functionals is graded algebra. In the general case, the grading is given $\Bbb Z \times \Bbb Z$, and it is positive. The are two cases particularly important: the algebra of the covariant tensors and that of the contravariant tensors.
+- The algebra of the covariant tensors is denoted by $\mathcal T^*(V) := \bigoplus_{p = 0}^\infty \mathcal T^p(V)$.
+- The algebra of the contravariant tensors is denoted by $\mathcal T(V) := \bigoplus_{q = 0}^\infty \mathcal T_q(V)$.
+The graded algebra of the contravariant tensors, and the algebra of the contravariant tensors are $\Bbb Z$-graded algebras.
+
+**Def:** Let us consider the algebra of the covariant tensors $\mathcal T^*(V)$. Since it is $\Bbb Z$-graded, it allows us to define a mapping called the *grade involution* as $$\# (T_p) (-1)^{\deg T_p} T_p = (-1)^p T_p,$$where $T_p \in \mathcal T^p(V) \subseteq\mathcal T^*(V)$. Another notation can be used for grade involution is $$\widehat{T_p} = \#( T_p).$$
+**Obs:** The mapping $\#$ is an automorphism. Since $\#(T_p \otimes S_q) = \#(T_p) \otimes \#(S_q)$. Additionally, it also satisfies $\#^2 = 1$, where $1$ represents the identity mapping.
+
+Since $\#^2 = 1$, there is a refinement in the grading of $\mathcal T^*(V)$. An element $T_p \in \mathcal T^p(V)$ is said to be *even* of *odd* if $(-1)^p$ is respectively positive or negative. In this way, the operators $\Pi_+$ and $\Pi_-$ can be defined as $$\Pi_+ := \frac12 (1+\#), \qquad \Pi_- := \frac12(1-\#).$$These operators $\Pi_+$ and $\Pi_-$ are projectors, as can be straightforwardly verified. The subspace $\mathcal T^*_+(V) := \Pi_+[\mathcal T^*(V)]$  consists of the even elements in $\mathcal T^*(V)$, and the subspace $\mathcal T^*_-(V) := \Pi_-[\mathcal T^*(V)]$ consists of all odd elements. It is then possible to write $\mathcal T^*(V) = \mathcal T^*_+(V) \oplus \mathcal T^*_-(V)$, and $$\mathcal T^*_\pm(V) \otimes \mathcal T^*_\pm(V) \subseteq \mathcal T^*_+(V), \qquad \mathcal T^*_\pm(V) \otimes \mathcal T^*_\mp (V) \subseteq T^*_-(V).$$The grade involution endows both the algebras of covariant and contravariant tensors with $\Bbb Z/ 2\Bbb Z$-grading.
+
+**Def:** Another prominent and very useful mapping is called *reversion*, denoted by a tilde and defined by $$\widetilde{(T_p \otimes S_q)} := \widetilde{S_q} \otimes \widetilde{T_p},$$for all $T_p \in \mathcal T^p(V)$, and $S_q \in \mathcal T^q(V)$, where
+- for all $a\in K$, $\widetilde a = a$.
+- $\widetilde \alpha = \alpha$ for all $\alpha \in V' = \mathcal T^1(V)$.
+
+**Obs:** This definition implies that $$\widetilde{(\alpha_1 \otimes \alpha_2 \otimes \dots \otimes \alpha_p)} = \alpha_p \otimes \dots\otimes \alpha_2 \otimes \alpha_1,$$for $\{\alpha_k \mid 1\le k\le p\} \subseteq V'$, which justifies the name reversion. 
+
+**Def:** The composition of grade involution and the reversion is called *conjutation* and it is denoted by a bar: $$\overline  T_p := \#\left(\widetilde{T_p}\right) = \widetilde{\#(T_p)}. $$

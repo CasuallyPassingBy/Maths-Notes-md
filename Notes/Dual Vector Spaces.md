@@ -19,7 +19,6 @@ Suppose that $V$ is finite dimensional, then the dual basis of $V'$ is a a basis
 Let $T\in \mathcal{L}(V,W)$, then _the dual map of $T$_ is the linear map $T' \in \mathcal{L}(W', V')$, defined by $T'(\varphi) = \varphi \circ T$. In the other notation, we would write $T^\lor \in \text{Hom}(W^\lor, V^\lor)$. 
 
 The dual map has some algebraic properties:
-
 - Let $S, T \in \mathcal{L}(V,W)$, then $(S +T)' = S' + T'$.
 - Let $T \in \mathcal L (V,W)$, and $\lambda \in\Bbb F$, then$(\lambda T)'=\lambda T'$
 - Let $T \in \mathcal L (U,V)$, and $S \in \mathcal L (V,W)$, then $(ST)' = T' S'$.

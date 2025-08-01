@@ -4,7 +4,8 @@ tags:
 ---
 Subjects: [[Linear Algebra]]
 Links: [[Isometries in Vector Spaces]], [[Normal and Hermitian Operators]], [[Eigenspaces and Diagonal Matrices]], [[Orthogonal Bases]]
-********Def:******** Suppose $U$ is a finite dimensional subspace of $V$. The ********orthogonal projection******** of $V$ onto $U$ is the operator $P_U \in \mathcal L(U)$ defined as follows: for $v \in V$, write $v = u +w$, where $u \in U$ and ${w \in U^\bot}$. Then $P_Uv = u$.
+
+********Def:******** Suppose $U$ is a finite dimensional subspace of $V$. The *orthogonal projection* of $V$ onto $U$ is the operator $P_U \in \mathcal L(U)$ defined as follows: for $v \in V$, write $v = u +w$, where $u \in U$ and ${w \in U^\bot}$. Then $P_Uv = u$.
 
 - Properties
     Suppose $U$ is a finite dimensional subspace of $V$ and ${v\in V}$. Then
@@ -22,7 +23,7 @@ If $U$ is a finite dimensional subspace of $V$, $v \in V$ and $u \in U$. Then
 $$ \|v-P_Uv\| \le \|v-u\| $$
 Furthermore, the inequality above is an equality iff $u = P_U v$.
 
-Def:************ Let $V$be an inner product space, and $T:V\to V$ be a projection. We say that $T$ is an orthogonal projection if ${R(T)^\bot = N(T)}$ and ${N(T)^\bot = R(T)}$.
+Def:************ Let $V$ be an inner product space, and $T:V\to V$ be a projection. We say that $T$ is an orthogonal projection if ${R(T)^\bot = N(T)}$ and ${N(T)^\bot = R(T)}$.
 
 In the case that $V$ is finite dimensional then we it’s only necessary one of the conditions.
 

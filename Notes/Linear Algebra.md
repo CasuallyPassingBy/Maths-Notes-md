@@ -59,4 +59,4 @@ Mainly used to study Friedberg's Linear algebra and Axler's Linear Algebra Done 
 	- [[Tensor Algebra]]
 		- [[Exterior Algebra]]
 			- [[Exterior Algebra of Multicovectors]]
-	- [[Tensors]]
+	- [[Tensor Product of Linear Functions]]
