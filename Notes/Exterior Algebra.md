@@ -13,14 +13,14 @@ The product defined on $\bigwedge (V)$ is called the *exterior product* and it i
 **Prop:** Let $x_1, \dots, x_k \in V$, and $\sigma \in S_k$ then $$x_{\sigma(1)}\wedge \dots \wedge x_{\sigma(n)} = \text{sgn}(\sigma) x_1 \wedge  \dots \wedge x_k.$$
 # Exterior Powers
 
-**Def:** If $\alpha \in \bigwedge (V)$ is of the form $\alpha = v_1 \wedge v_2 \wedge \dots \wedge v_k$, where $v_1, v_2, \dots, v_k \in V$, then $\alpha$ said to be *decomposable*, *simple*, or a *blade*. With this the $k$th *exterior power of* $V$, denoted  as $\bigwedge^k (V)$, is the vector subspace $\bigwedge (V)$ defined as: $${\textstyle\bigwedge}^{\!k}(V):= \text{span}\{v_1\wedge v_2 \wedge \dots \wedge v_k \mid v_i \in V, i \in \{1, \dots, k\}\}$$
-**Prop:** If $V$ is a finite dimensional vector space of dimension $n$ and $\{e_1, \dots, e_n\}$ is a basis for $V$, then the set $$\{e_{i_1}\wedge e_{i_2}\wedge \dots \wedge e_{i_k} \mid 1 \le i_1 < i_2 < \dots < i_k \le n\}$$is a basis for ${\textstyle\bigwedge}^{\!k}(V)$. 
+**Def:** If $\alpha \in \bigwedge (V)$ is of the form $\alpha = v_1 \wedge v_2 \wedge \dots \wedge v_k$, where $v_1, v_2, \dots, v_k \in V$, then $\alpha$ said to be *decomposable*, *simple*, or a *blade*. With this the $k$th *exterior power of* $V$, denoted  as $\bigwedge_k (V)$, is the vector subspace $\bigwedge (V)$ defined as: $${\textstyle\bigwedge}_{k}(V):= \text{span}\{v_1\wedge v_2 \wedge \dots \wedge v_k \mid v_i \in V, i \in \{1, \dots, k\}\}$$
+**Prop:** If $V$ is a finite dimensional vector space of dimension $n$ and $\{e_1, \dots, e_n\}$ is a basis for $V$, then the set $$\{e_{i_1}\wedge e_{i_2}\wedge \dots \wedge e_{i_k} \mid 1 \le i_1 < i_2 < \dots < i_k \le n\}$$is a basis for ${\textstyle\bigwedge}_{k}(V)$. 
 
-**Cor:** The dimension of ${\textstyle\bigwedge}^{\!k}(V)$ can be calculated and $$\dim {\textstyle\bigwedge}^{\!k}(V) = {n \choose k},$$where $n$ is the dimension of $V$, and $k$ is the number of vectors in the product. 
+**Cor:** The dimension of ${\textstyle\bigwedge}_{k}(V)$ can be calculated and $$\dim {\textstyle\bigwedge}_{k}(V) = {n \choose k},$$where $n$ is the dimension of $V$, and $k$ is the number of vectors in the product. 
 
-**Cor:** If $k > n$, then ${\textstyle\bigwedge}^{\!k}(V) = \{0\}$. 
+**Cor:** If $k > n$, then ${\textstyle\bigwedge}_{k}(V) = \{0\}$. 
 
-**Prop:** Any element of the exterior algebra can be written as the sum of $k$-vectors. Hence, as a vector space the exterior algebra is the direct sum $${\textstyle\bigwedge}(V) = \bigoplus_{k = 0}^n {\textstyle\bigwedge}^{\!k}(V)$$where by convention, ${\textstyle\bigwedge}^{\!0}(V) = K$, the field underlying $V$ and ${\textstyle\bigwedge}^{\!1}(V) = V$, and its dimension is equal to $2^n$. 
+**Prop:** Any element of the exterior algebra can be written as the sum of $k$-vectors. Hence, as a vector space the exterior algebra is the direct sum $${\textstyle\bigwedge}(V) = \bigoplus_{k = 0}^n {\textstyle\bigwedge}_{k}(V)$$where by convention, ${\textstyle\bigwedge}_{0}(V) = K$, the field underlying $V$ and ${\textstyle\bigwedge}_{1}(V) = V$, and its dimension is equal to $2^n$. 
 
 **Prop:** ${\textstyle\bigwedge}(V)$ is a graded algebra, meaning if $\alpha \in {\textstyle\bigwedge}^{\!k}(V)$ and $\beta \in {\textstyle\bigwedge}^{\!\ell}(V)$, then $\alpha\wedge \beta \in {\textstyle\bigwedge}^{\!k+ \ell}(V)$, and $$\alpha \wedge \beta = (-1)^{k\ell} \beta\wedge \alpha.$$
 ## Universal Properties
@@ -36,15 +36,15 @@ V \arrow[r,hook,"i"] \arrow[dr, "f"'] & {\textstyle\bigwedge}(V) \arrow[d, dashe
 \end{document}
 ```
 
-**Obs:** There's a natural map $w: V^k \to {\textstyle \bigwedge}^k (V)$, defined by $w(v_1, \dots, v_k) = v_1 \wedge \dots \wedge v_k$, this map is an alternating $k$-linear map. 
+**Obs:** There's a natural map $w: V^k \to {\textstyle \bigwedge}_k (V)$, defined by $w(v_1, \dots, v_k) = v_1 \wedge \dots \wedge v_k$, this map is an alternating $k$-linear map. 
 
-**Universal property of the exterior powers:** Given two vector spaces $V$ and $W$ and a natural number $k$, an *alternating $k$-linear map* from is a function from $V^k$ to $W$, $f: V^k \to W$, with the property that $(\sigma f) = \text{sgn}(\sigma) f$. Then there exists a unique linear map $\phi: {\textstyle \bigwedge}^k (V) \to X$ with $f = \phi \circ w$. 
+**Universal property of the exterior powers:** Given two vector spaces $V$ and $W$ and a natural number $k$, an *alternating $k$-linear map* from is a function from $V^k$ to $W$, $f: V^k \to W$, with the property that $(\sigma f) = \text{sgn}(\sigma) f$. Then there exists a unique linear map $\phi: {\textstyle \bigwedge}_k (V) \to X$ with $f = \phi \circ w$. 
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
 \begin{tikzcd}
-V^k \arrow[r,hook,"w"] \arrow[dr, "f"'] & {\textstyle\bigwedge}^k(V) \arrow[d, dashed,"\varphi"]\\ 
-& X
+V^k \arrow[r,hook,"w"] \arrow[dr, "f"'] & {\textstyle\bigwedge}_k(V) \arrow[d, dashed,"\varphi"]\\ 
+& W
 \end{tikzcd}
 \end{document}
 ```
@@ -55,7 +55,7 @@ This universal property characterise the space of alternating $k$-linear maps on
 We ask for $K$ not to have characteristic $2$, for this section.
 
 Remember that $T^kV$ is the space of homogeneous tensors of degree $r$. This is spanned by decomposable tensors $$v_1 \otimes v_2 \otimes \dots \otimes v_k,\quad v_i \in V$$
-**Def:** The *antisymmetrisation* or *skew-symmetrisation* of decomposable tensors is defined by $$\mathcal A^{(k)} (v_1 \otimes \dots v_k) := \sum_{\sigma \in S_k} \text{sgn}(\sigma) v_{\sigma(1)} \otimes \dots \otimes v_{\sigma(k)}$$where the sum is taken over the symmetric group and, when the $k! \ne 0$: $$\text{Alt}^{(k)}(v_1 \otimes \dots v_k) := \frac1{k!} \mathcal A^{(k)}(v_1 \otimes \dots v_k)$$
+**Def:** The *antisymmetrisation* or *skew-symmetrisation* of decomposable tensors is defined by $$\mathcal A^{(k)} (v_1 \otimes \dots \otimes v_k) := \sum_{\sigma \in S_k} \text{sgn}(\sigma) v_{\sigma(1)} \otimes \dots \otimes v_{\sigma(k)}$$where the sum is taken over the symmetric group and, when the $k! \ne 0$: $$\text{Alt}^{(k)}(v_1 \otimes \dots\otimes v_k) := \frac1{k!} \mathcal A^{(k)}(v_1 \otimes \dots v_k)$$
 **Def:** The image $\mathcal A(T(V))$ is always the *alternating tensor graded subspace*, it is not algebra yet since we don't have a product, denoted as $A(V)$. 
 
 **Obs:** We have that the kernel of $\mathcal A^{(r)}$ is precisely $I^{(r)}$, the homogeneous subset of the ideal $I$, the kernel of $\mathcal A$ is $I$. 
@@ -64,8 +64,10 @@ When $\text{Alt}$ is defined, $A(V)$ carries an associative graded product $\wid
 
 With these isomorphisms, we see that exterior algebra of a vector space $V$ over $K$ can be canonically identifies with the vector subspace of $T(V)$ that consists of antisymmetric tensors. 
 
+**Def:** In the language of tensors, a *$p$-vector* is an alternating contravariant tensor of order $p.$ A $p$-vector is denoted by $A_{[p]}$ and characterised by $$A_{[p]} = \text{Alt}(A_{[p]}).$$The brackets here are used to indicate the alternation of the $p$ indices set. Thus, given $A_p \in V^{\otimes p}$, $\text{Alt}(A_p)$ is a $p$-vector.
+
 # Duality
 
 If we consider the set of all alternating $k$-linear forms, meaning the set of alternating $k$-linear maps from $V$ to the base field $K$. We see that the set of all alternating $k$-linear forms is a vector space. 
 
-By the universal property the exterior powers, the space of alternating forms of degree $k$ on $V$ is *naturally isomorphic* with the dual space $({\textstyle \bigwedge}^k(V))^*$. Lastly, if $V$ is finite dimensional, then the latter is naturally isomorphic to ${\textstyle \bigwedge}^k(V^*)$. Using the notation, from [[Exterior Algebra of Multicovectors]], then we get that $A_k(V) \cong {\textstyle \bigwedge}^k(V^*)$. 
+By the universal property the exterior powers, the space of alternating forms of degree $k$ on $V$ is *naturally isomorphic* with the dual space $({\textstyle \bigwedge}_k(V))^*$. Lastly, if $V$ is finite dimensional, then the latter is naturally isomorphic to ${\textstyle \bigwedge}^k(V^*)$. Using the notation, from [[Exterior Algebra of Multicovectors]], then we get that $A_k(V) \cong {\textstyle \bigwedge}^k(V^*)$. 

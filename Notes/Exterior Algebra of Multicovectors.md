@@ -5,17 +5,14 @@ tags:
 ---
 Subjects: [[Differential Geometry]], [[Linear Algebra]]
 Links: [[Dual Vector Spaces]], [[Exterior Algebra]], [[Multilinear Transformations]], [[Tensor Product of Modules]],  [[Graded Ring]], [[Tensor Product of Linear Functions]]
-# Tensor Product 
 
-**Def:** Let $f \in \mathcal L_k(V; \Bbb R)$ and $g\in \mathcal L_\ell(V; \Bbb R)$. Their *tensor product* is the $(k+\ell)$-linear function $f\otimes g$ defined by: $$(f\otimes g ) (v_1, \dots, v_{k + \ell}) = f(v_1, \dots, v_k) g(v_{k+1}, \dots,v_{k+\ell}) $$
-The tensor product is associative: $$f \otimes (g \otimes h) = (f\otimes g) \otimes h$$
-**Prop:** Let $V$ be a vector space of dimension $n$ with basis $e_1, \dots, e_n$. Let $\alpha^1, \dots, \alpha^n$ be the dual basis of $V'$. The basis for the space $\mathcal L_k(V; \Bbb R)$ of $k$-linear functions on $V$ is $\{\alpha^{i_1}\otimes \dots \otimes \alpha^{i_k}\}$ for all multi-indices $(i_1, \dots, i_k)$. 
+Let $K$ be characteristic $0$ field. We are going to drop, the fact that the codomain is $K$ for the rest of the note, since this notation is a bit cumbersome. 
 
-**Cor:** The $\dim \mathcal L_k(V; \Bbb R) = n^k$. 
+**Def:** Let us consider a covariant tensor of the form $X_1\otimes X_2 \otimes \dots \otimes X_p$, where $X$ denotes respectively either a vector or a covector, and the indices enumerate such elements. The operator $\text{Alt}$ is called *alternator* if defined in the following way: $$\text{Alt}(X_1\otimes X_2 \otimes \dots \otimes X_p) := \frac{1}{p!} \sum_{\sigma \in S_p} \text{sgn}(\sigma) X_{\sigma(1})\otimes X_{\sigma(2)} \otimes \dots \otimes X_{\sigma(p)}.$$
 
-# Wedge Product
+**Def:** In the language of tensors, a *$p$-covector* is an alternating covariant tensor of order $p.$ A $p$-covector is denoted by $A^{[p]}$ and characterised by $$\Psi^{[p]} = \text{Alt}(\Psi^{[p]}).$$The brackets here are used to indicate the alternation of the $p$ indices set. Thus, given $\Psi^p \in (V')^{\otimes p}$, $\text{Alt}(\Psi^p)$ is a $p$-covector.
 
-We are going to drop, the fact that the codomain is $\Bbb R$ for the rest of the note, since this notation is a bit cumbersome. 
+In this note we are going 
 
 If two multilinear forms $f$ and $g$ on a vector space $V$ are alternating, then we would like to have a product that is also alternating as well. This motives the definition of the *wedge product*, also called the *exterior product*, for $f\in A_k(V)$ and $g\in A_\ell(V)$: $$f \wedge g := \frac1{k! \ell !} A(f\otimes g)$$To avoid redundancies of $f\wedge g$ is to stipulate that in the sum, $\sigma(1), \dots, \sigma(k)$ be in ascending order and $\sigma(k+1), \dots, \sigma(k+\ell)$ also be in ascending order. We call a permutation $\sigma \in S_{k + \ell}$ a $(k, \ell)$*-shuffle* if: $$\sigma(1) < \cdots < \sigma(k) \quad \text{and} \quad \sigma(k+1) < \cdots < \sigma(k+\ell)$$We get that: $$f\wedge g = \sum_{\substack{(k, \ell)-\text{shuffles}\\ \sigma \in S_{k+\ell}}} \sigma (f\otimes g)$$
 **Prop:** The wedge product is anti-commutative: if $f\in A_k(V)$ and $g\in A_\ell(V)$, then $$f \wedge g = (-1)^{k\ell} g\wedge f$$
@@ -28,7 +25,7 @@ If two multilinear forms $f$ and $g$ on a vector space $V$ are alternating, then
 **Associativity of wedge product:** Let $V$ be a real vector a space and $f, g, h$ alternating multilinear maps on $V$ of degree $k, \ell, m$, respectively. Then $$(f\wedge g) \wedge h= f \wedge (g \wedge h) $$
 **Cor:** Under the hypothesis of the proposition: $$f\wedge g \wedge h = \frac1{k!\ell ! m!} A(f\otimes g \otimes h) $$
 This corollary easily generalises to an arbitrary number of factors: if $f_i \in A_{d_i}(V)$, then $$f_1 \wedge \dots \wedge f_r = \frac1{(d_1)!\cdots (d_r)!} A(f_1 \otimes \cdots \otimes f_r)$$
-**Cor:** For $a, b\in \Bbb R$, $f \in A_k(V)$ and $g\in A_\ell (V; \Bbb R)$, then $af \wedge bg = (ab) f\wedge g$.
+**Cor:** For $a, b\in \Bbb R$, $f \in A_k(V)$ and $g\in A_\ell (V)$, then $af \wedge bg = (ab) f\wedge g$.
 
 **Wedge product of $1$-covectors:** If $\alpha^1, \dots, \alpha^k$ are linear fuctionals on a vector space $V$ and $v_1, \dots, v_k \in V$, then $$(\alpha^1\wedge \cdots \wedge \alpha^k) (v_1, \dots, v_k) = \det[\alpha^i(v_j)]$$
 **Cor:** Suppose two sets of covectors of the vector space $\beta^1, \dots, \beta^k$ and $\gamma^1, \dots, \gamma^k$ are related by $$\beta^i = \sum_{j = 1}^k a_j^i \gamma^j$$for a $k\times k$ matrix $A = [a^i_j]$. Then $$\beta^1 \wedge \cdots \wedge \beta^k = (\det A) \gamma^1 \wedge \dots \wedge \gamma^k$$

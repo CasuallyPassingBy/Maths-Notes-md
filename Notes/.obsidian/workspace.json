@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6a17c9983d790923",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Central Hub.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Central Hub"
-            }
-          },
-          {
             "id": "ffc0e508e01d6e46",
             "type": "leaf",
             "state": {
@@ -36,9 +21,84 @@
               "icon": "lucide-file",
               "title": "Clifford Algebra"
             }
+          },
+          {
+            "id": "52df5df476c12719",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Alternating Tensor Algebra.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Alternating Tensor Algebra"
+            }
+          },
+          {
+            "id": "a54eeb83cc4e9e0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exterior Algebra.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Exterior Algebra"
+            }
+          },
+          {
+            "id": "eaf8cabe032d71ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exterior Algebra of Multicovectors.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Exterior Algebra of Multicovectors"
+            }
+          },
+          {
+            "id": "ebfaf23f5c1f7688",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Documentos Para la UP.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Documentos Para la UP"
+            }
+          },
+          {
+            "id": "cd31395c234f4aa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/2025-08-01.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-08-01"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -192,22 +252,27 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ffc0e508e01d6e46",
+  "active": "ebfaf23f5c1f7688",
   "lastOpenFiles": [
-    "Central Hub.md",
-    "Linear Algebra.md",
-    "Vector Subspaces.md",
+    "Exterior Algebra of Multicovectors.md",
+    "Documentos Para la UP.md",
+    "Journal/2025-08-01.md",
+    "Exterior Algebra.md",
+    "Alternating Tensor Algebra.md",
+    "Tensor Product of Linear Functions.md",
     "Clifford Algebra.md",
     "Vectors and Covectors.md",
+    "Kronecker Product of Matrices.md",
+    "Linear Algebra.md",
+    "Central Hub.md",
+    "Correlations, Musical Isomorphisms.md",
+    "Vector Subspaces.md",
     "Orthogonal Projections and Spectral Theorem.md",
-    "Tensor Product of Linear Functions.md",
     "Graded Ring.md",
     "Dual Vector Spaces.md",
     "Tensors.md",
     "Tensor Product of Modules.md",
-    "Exterior Algebra of Multicovectors.md",
     "Tensor Algebra.md",
-    "Correlations, Musical Isomorphisms.md",
     "Adjoint Operators and Matrices.md",
     "Interesting Stuff I want continue Learning.md",
     "Clifford Algebras.md",
@@ -215,11 +280,6 @@
     "Bilinear Forms.md",
     "Templates/Daily Template.md",
     "Journal/2025-07-24.md",
-    "Correlations, Quadratic and Simplectic Spaces, and Musical Isomorphisms.md",
-    "Journal/2025-07-25.md",
-    "Topology.md",
-    "Exterior Algebra.md",
-    "Point-Regular and Regular Bases.md",
     "Journal",
     "Upbringing_Mage",
     "clase",

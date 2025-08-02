@@ -16,6 +16,8 @@ If $f$ and $g$ are both injective or surjective, then the same is true for all a
 
 By choosing bases of all vector spaces involved, the linear maps $f$ and $g$ can be represented by matrices. Then, depending on how the tensor $v \otimes w$ is vectorized, the matrix describing the tensor product $f \otimes g$ is the Kronecker product of the two matrices. 
 
+**Prop:** Let $T$ and $S$ be two diagonalizable linear operators, then $T \otimes S$ is also diagonalizable, in fact, its eigenvalues are $\{\lambda_i \mu_j \mid 1 \le i \le n \ \land \ 1 \le j \le m\}$ where $\{\lambda_i \mid i \le i \le n \}$ and $\{\mu_j \mid 1 \le j \le m\}$ are the set of all eigenvalues of $T$ and $S$ respectively. Even more so, If $\{v_i \mid i \le n\}$ and $\{w_j \mid 1 \le j \le m\}$ be the eigenvalues of $T$ and $S$, respectively, then $\{v_i \otimes  w_j \mid 1 \le i \le n \ \land \ 1 \le j \le m\}$ is the set of eigenvectors of $T \otimes S$.
+
 # Linear Functionals
 
 Let $V$ be a $K$-vector space, and the notation $\mathcal L_k(V, K)$ is the space of $k$-linear functionals from $V$ to $K$. By the universal property of the tensor product, we have this isomorphism 
@@ -33,6 +35,8 @@ Let $\mathfrak B := \{e_1, \dots, e_n\}$ be a basis for $V$ and let $\mathfrak B
 We know that $V' \otimes V$ and $V \otimes V'$ are canonically isomorphic. Now, we can consider the tensor product of a vector and a covector; this product is called a *mixed bilinear functional.* We denote this space by ${\mathcal {T}^1}_1(V) := V' \otimes V$. A basis for ${\mathcal T^1}_1$ is given by the tensor products $\{e^i \otimes e_j \mid 1 \le i, j \le n\}$. Thus, a tensor $C \in {\mathcal T^1}_1(V)$ can be written as $$C = {c_i}^j e^i \otimes e_j,$$where ${c_i}^j = C(e_i, e^j).$
 
 Similarly, we can define the tensor product of $V \otimes V'$, denoting it by ${\mathcal  T_1}^1 (V)$. An element $D\in {\mathcal T_1}^1 (V)$ can be written as $$D = {d^i}_j e_i\otimes e^j,$$where ${d^i}_j = D(e^i, e_j)$. Although these spaces are naturally isomorphic, we still need to consider the correct positioning of the indices to avoid ambiguity when about which space we are considering when there is a correlation between lowering and raising indices. By convention, we do not take into account the position of the indices, and the notation $\mathcal T^1_1(V)$ refers to the space ${\mathcal T^1}_1(V)$.
+
+Note that $V\otimes V'$ is isomorphic to $\mathcal L(V)$. The isomorphism in question is $\phi_V: V \otimes V' \to \mathcal L(V)$, for any $v\in V$ and $\alpha\in V'$, then $\phi_V(v \otimes \alpha)(u) = v\alpha(u)$ for all $u \in V$. We see that $T = \phi_V(T^i_j e_i \otimes e^j)$, where $T e_i = T^j_i e_j$. 
 
 The above definitions can be straightforwardly generalised for the tensor product of an arbitrary number of covectors and vectors, defining in such a way the spaces $\mathcal T^p(V) = (V')^{\otimes p}$; $\mathcal T_q(V) = V^{\otimes q}$; ${\mathcal T^p}_q (V) = (V')^{\otimes p} \otimes V^{\otimes q}$; ${\mathcal T_q}^p(V) = V^{\otimes q} \otimes (V')^{\otimes p}$; ${{\mathcal T^1}_q}^p(V) = V' \otimes V^{\otimes q}\otimes (V')^{\otimes p}$; and so on. We adopt the convention that $\mathcal T_q^p(V)$ refers to the space ${\mathcal T^p}_q (V)$.
 
@@ -70,3 +74,4 @@ Since $\#^2 = 1$, there is a refinement in the grading of $\mathcal T^*(V)$. An 
 **Obs:** This definition implies that $$\widetilde{(\alpha_1 \otimes \alpha_2 \otimes \dots \otimes \alpha_p)} = \alpha_p \otimes \dots\otimes \alpha_2 \otimes \alpha_1,$$for $\{\alpha_k \mid 1\le k\le p\} \subseteq V'$, which justifies the name reversion. 
 
 **Def:** The composition of grade involution and the reversion is called *conjutation* and it is denoted by a bar: $$\overline  T_p := \#\left(\widetilde{T_p}\right) = \widetilde{\#(T_p)}. $$
+# Alternating Tensor Algebra

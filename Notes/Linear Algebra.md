@@ -23,6 +23,7 @@ Mainly used to study Friedberg's Linear algebra and Axler's Linear Algebra Done 
 	- [[Matrix Representation of Linear Transformations]]
 		- [[Elementary Matrix Operations and Elementary Matrices]]
 			- [[System of Linear Equations]]
+		- [[Kronecker Product of Matrices]]
 		- [[The Rank of a Matrix and Matrix Inverses]]
 		- [[Change of Basis Matrix]]
 		- [[Determinants]]
