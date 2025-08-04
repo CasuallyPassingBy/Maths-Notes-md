@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "",
+  "collapse-filter": false,
+  "search": "tag:#FunctionalAnalysis  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -144,6 +144,6 @@
   "repelStrength": 15.1041666666667,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.16616477961409276,
+  "scale": 0.26464863180013404,
   "close": false
 }

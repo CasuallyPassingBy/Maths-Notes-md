@@ -5,6 +5,8 @@ tags:
 [[Central Hub]]
 # Overview
 
+I am using "An introduction to Set Theory" By Jech.
+
 # Topics
 
 - [[ZF Axioms]]
