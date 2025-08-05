@@ -19,6 +19,7 @@ tags:
 - [[Kinetic Energy and Work in Classical Mechanics]]
 	- [[Potential Energy and Conservative Forces in Classical Mechanics]]
 	- [[Energy for One Dimensional Systems in Classical Mechanics]]
-
+	- [[Central Forces in Classical Mechanics]]
+	- [[Energy of Interaction of Multiple Particles in Classical Mechanics]]
 # Misc
 - [[Vibrations]]

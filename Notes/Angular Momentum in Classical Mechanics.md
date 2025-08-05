@@ -28,7 +28,7 @@ In many one-particle we can choose the origin $O$ so that the net torque $\Gamma
 ### Kepler's Second Law
 As each planet moves around the sun, a line drawn from the planet to the sun sweeps out equal areas in equal times.
 
-If we consider the area function $A$, this is equivalent to saying that $\dot A$ is constant. To prove this, we need to consider that for smol times $dt$, we can approximate the area as
+If we consider the area function $A$, this is equivalent to saying that $\dot A$ is constant. To prove this, we need to consider that for small times $dt$, we can approximate the area as
 $$
 dA = \frac{1}{2}\|\mathbf{r \times v} \|dt
 $$

@@ -74,4 +74,3 @@ Since $\#^2 = 1$, there is a refinement in the grading of $\mathcal T^*(V)$. An 
 **Obs:** This definition implies that $$\widetilde{(\alpha_1 \otimes \alpha_2 \otimes \dots \otimes \alpha_p)} = \alpha_p \otimes \dots\otimes \alpha_2 \otimes \alpha_1,$$for $\{\alpha_k \mid 1\le k\le p\} \subseteq V'$, which justifies the name reversion. 
 
 **Def:** The composition of grade involution and the reversion is called *conjutation* and it is denoted by a bar: $$\overline  T_p := \#\left(\widetilde{T_p}\right) = \widetilde{\#(T_p)}. $$
-# Alternating Tensor Algebra
