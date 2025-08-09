@@ -5,8 +5,12 @@ tags:
 Subjects: [[Classical Mechanics]]
 Links: [[Linear Momentum in Classical Mechanics]], [[Newton's Laws]], [[Centre of Mass]]
 
+We can consider the centripetal acceleration of a particle moving in a curved path. Let $\mathbf v(t)$ be the velocity of a partivle moving on a curved path as a function of time. We get that $$\mathbf a = \frac{d\mathbf v(t)}{dt} = \frac{dv}{dt} \mathbf u_t + \frac{v^2}{r}\mathbf u_n,$$where $r$ is the radius of curvature, $\mathbf u_t$ is the unit tangent vector, and $\mathbf u_n$ is the principal normal vector. From this result, we can define the terms$$\mathbf a_t := \dot v \mathbf u_t \quad \text{and}\quad \mathbf a_c := \frac{v^2}{r}\mathbf u_n,$$and are called the *tangential acceleration* and *normal/radial acceleration*, respectively. In the special case where the particle is moving in circular motion, the radial acceleration is called *centripetal acceleration*. This is derived from the [[Frenet–Serret formulas]]. 
+
+By Newton's second law, the cause of acceleration is a net force acting on the object. The force, usually referred to as a *centripetal force* is $$\mathbf F_c = m \mathbf a_c = m \frac{v^2}{r} \mathbf u_n$$
+We can consider the idea of angular velocity $\omega$ which is related to the tangential velocity by the formula $v = \omega r$, so that $F_c = m r\omega^2$. 
 # Single Particle
-The **angular momentum** $\ell$ of a single particle is defined as the vector 
+The *angular momentum* $\ell$ of a single particle is defined as the vector 
 $$
 \ell = \bf{r \times p}
 $$
@@ -25,8 +29,8 @@ $$
 is the rotational equivalent to Newton's second law
 
 In many one-particle we can choose the origin $O$ so that the net torque $\Gamma$ is zero, meaning constant angular momentum. In the case of a single planet orbiting the sun. The only force on the planet is gravitational $GmM/r^2$ of the sun, and this means that the force is parallel to $\bf r$, meaning $\bf r \times F = 0$. Thus if we choose our origin at the sun, the planet's angular momentum about $O$ is constant. Because $\bf r \times p$ is constant, then $\bf r$ and $\bf p$ must remain in a fixed plane; meaning, the planet's orbit is confined to a single plane containing the sun, and the problem is reduced to two dimensions.
-### Kepler's Second Law
-As each planet moves around the sun, a line drawn from the planet to the sun sweeps out equal areas in equal times.
+
+**Kepler's Second Law:** As each planet moves around the sun, a line drawn from the planet to the sun sweeps out equal areas in equal times.
 
 If we consider the area function $A$, this is equivalent to saying that $\dot A$ is constant. To prove this, we need to consider that for small times $dt$, we can approximate the area as
 $$
@@ -56,14 +60,15 @@ doing some algebra we get the first part is
 $$
 \sum_\alpha \sum_{\beta\ne \alpha} \mathbf{r_\alpha\times F_{\alpha \beta}} = \sum_\alpha \sum_{\beta > \alpha} (\mathbf{r_\alpha -r_\beta})\times\mathbf { F_{\alpha \beta}}
 $$
-Since $\bf r_\alpha - r_\beta$ is the vector from $\bf r_\beta$ to $\bf r_\alpha$, and the force $\bf F_{\alpha \beta}$ is in this direction, since the forces are central, then the we get that $(\mathbf{r_\alpha - r_\beta} )\times \bf F_{\alpha \beta} =0$. The remaining sum  single sum is just the net external torque, and we conclude that 
-$$
+Since $\bf r_\alpha - r_\beta$ is the vector from $\bf r_\beta$ to $\bf r_\alpha$, and the force $\bf F_{\alpha \beta}$ is in this direction, since the forces are central, then the we get that $(\mathbf{r_\alpha - r_\beta} )\times \bf F_{\alpha \beta} =0$. The remaining sum  single sum is just the net external torque, and we conclude that $$
 \mathbf {\dot L} = \Gamma^\text{ext}
 $$
-### Principle of Conservation of Angular
-If the net external force of an $N$-particle system is zero, the system's total angular momentum $\bf L = \sum r_\alpha \times p_\alpha$ is constant.
+**Principle of Conservation of Angular:** If the net external force of an $N$-particle system is zero, the system's total angular momentum $\bf L = \sum r_\alpha \times p_\alpha$ is constant.
 
 The validity of this principle depends on our two assumptions that all internal forces $\bf F_{\alpha \beta}$ are central and satisfy the third law. 
+
+If a particle of mass $m$ is moving on a frictionless horizontal table and is attached to a massless string, whose other end passes through a hole in the table, where someone is holding it. Initially the particle is moving in a circle of radius $r_0$ with angular velocity $\omega_0$, but now they pull the string down through the hole until a length of $r$ remains between the hole and the particle. Since there's no torque applied to the system, then we know that angular momentum is conserved. Now, we know that $\ell = mr_0^2\omega_0$ is constant, then $\omega = (r_0/r)^2\omega_0$.
+
 ## Angular Momentum about CM
 
 The conservation of angular momentum and the more general result $\mathbf{\dot L} =\Gamma^\text{ext}$ were derived on the assumption that all quantities were measured in inertial frame, so that Newton's Second Law could be invoked. This required that both $\bf L$ and $\Gamma^\text{ext}$ be measured about an origin $O$ fixed in some inertial frame. 

@@ -126,7 +126,6 @@ Meaning that
 $$
 dE = d(T+U) = +\frac{\partial U}{\partial t}\, dt
 $$
-Finally getting that
-$$
-\frac{dE}{dt} = \frac{\partial U}{\partial t}
+Finally getting that$$
+\frac{dE}{dt} = \frac{\partial U}{\partial t}.
 $$
