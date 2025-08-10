@@ -8,52 +8,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8c1352286323d8af",
+            "id": "f8c7e60d32ceae51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Energy for One Dimensional Systems in Classical Mechanics.md",
+                "file": "Classical Mechanics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Energy for One Dimensional Systems in Classical Mechanics"
+              "title": "Classical Mechanics"
             }
           },
           {
-            "id": "284deb5efc87e8e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Potential Energy and Conservative Forces in Classical Mechanics.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Potential Energy and Conservative Forces in Classical Mechanics"
-            }
-          },
-          {
-            "id": "28bb2174508ce575",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Central Forces in Classical Mechanics.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Central Forces in Classical Mechanics"
-            }
-          },
-          {
-            "id": "84b4b9623624a719",
+            "id": "1fb348f8262c7450",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -68,36 +38,37 @@
             }
           },
           {
-            "id": "3e2edd7b9353561f",
+            "id": "f6746a12d6291d37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trayectories in Physics.md",
-                "mode": "source",
+                "file": "Trigonometric Identities.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Trayectories in Physics"
+              "title": "Trigonometric Identities"
             }
           },
           {
-            "id": "769ef2fbed79ceaa",
+            "id": "8c1352286323d8af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frenet–Serret formulas.md",
+                "file": "Energy for One Dimensional Systems in Classical Mechanics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Frenet–Serret formulas"
+              "title": "Energy for One Dimensional Systems in Classical Mechanics"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -251,14 +222,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8c1352286323d8af",
+  "active": "1fb348f8262c7450",
   "lastOpenFiles": [
-    "Classical Mechanics.md",
-    "Potential Energy and Conservative Forces in Classical Mechanics.md",
-    "Central Forces in Classical Mechanics.md",
+    "Trigonometric Identities.md",
     "Angular Momentum in Classical Mechanics.md",
-    "Trayectories in Physics.md",
+    "Classical Mechanics.md",
+    "Energy for One Dimensional Systems in Classical Mechanics.md",
     "Frenet–Serret formulas.md",
+    "Trayectories in Physics.md",
+    "Central Forces in Classical Mechanics.md",
+    "Potential Energy and Conservative Forces in Classical Mechanics.md",
     "Energy of Interaction of Multiple Particles in Classical Mechanics.md",
     "Elementary Number Theory.md",
     "Greatest Common Divisor.md",
@@ -270,7 +243,6 @@
     "Correlations, Musical Isomorphisms.md",
     "Tensor Product of Linear Functions.md",
     "The Gradient.md",
-    "Energy for One Dimensional Systems in Classical Mechanics.md",
     "Interesting Stuff I want continue Learning.md",
     "Central Hub.md",
     "Functional Analysis.md",
@@ -278,7 +250,6 @@
     "Compact Operators.md",
     "Normed Vector Spaces.md",
     "Hilbert Spaces.md",
-    "Real Analysis.md",
     "Journal",
     "Upbringing_Mage",
     "clase",

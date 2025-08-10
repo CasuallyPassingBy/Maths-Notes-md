@@ -74,27 +74,9 @@ $$ \cot \frac{\theta}{2} = \csc \theta + \cot \theta = \pm\, \sqrt\frac{1 + \cos
 
 ### Product/Sum Identities
 
-- Product to Sum
-    $$ 2\cos \theta \cos \varphi = {{\cos(\theta - \varphi) + \cos(\theta + \varphi)}} $$
-    $$ 2\sin \theta \sin \varphi = {{\cos(\theta - \varphi) - \cos(\theta + \varphi)} } $$
-    
-    $$ 2\sin \theta \cos \varphi = {{\sin(\theta + \varphi) + \sin(\theta - \varphi)} } $$
-    
-    $$ 2\cos \theta \sin \varphi = {{\sin(\theta + \varphi) - \sin(\theta - \varphi)} } $$
-    
-    $$ \tan \theta \tan \varphi =\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}{\cos(\theta-\varphi)+\cos(\theta+\varphi)} $$
-    
-- Sum to Product
-    
-    $$ \sin \theta \pm \sin \varphi = 2 \sin\left( \frac{\theta \pm \varphi}{2} \right) \cos\left( \frac{\theta \mp \varphi}{2} \right) $$
-    
-    $$ \cos \theta + \cos \varphi = 2 \cos\left( \frac{\theta + \varphi} {2} \right) \cos\left( \frac{\theta - \varphi}{2} \right) $$
-    
-    $$ \cos \theta - \cos \varphi = -2\sin\left( \frac{\theta + \varphi}{2}\right) \sin\left(\frac{\theta - \varphi}{2}\right) $$
-    
-    $$ \tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm \varphi)}{\cos\theta\cos\varphi} $$
-    
-
+- Product to Sum    $$ 2\cos \theta \cos \varphi = {{\cos(\theta - \varphi) + \cos(\theta + \varphi)}} $$   $$ 2\sin \theta \sin \varphi = {{\cos(\theta - \varphi) - \cos(\theta + \varphi)} } $$
+    $$ 2\sin \theta \cos \varphi = {{\sin(\theta + \varphi) + \sin(\theta - \varphi)} } $$$$ 2\cos \theta \sin \varphi = {{\sin(\theta + \varphi) - \sin(\theta - \varphi)} } $$    $$ \tan \theta \tan \varphi =\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}{\cos(\theta-\varphi)+\cos(\theta+\varphi)} $$   
+- Sum to Product $$ \sin \theta \pm \sin \varphi = 2 \sin\left( \frac{\theta \pm \varphi}{2} \right) \cos\left( \frac{\theta \mp \varphi}{2} \right) $$$$ \cos \theta + \cos \varphi = 2 \cos\left( \frac{\theta + \varphi} {2} \right) \cos\left( \frac{\theta - \varphi}{2} \right) $$$$ \cos \theta - \cos \varphi = -2\sin\left( \frac{\theta + \varphi}{2}\right) \sin\left(\frac{\theta - \varphi}{2}\right) $$$$ \tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm \varphi)}{\cos\theta\cos\varphi} $$
 ### Power-reduction
 If $n$ is odd
 
@@ -109,13 +91,10 @@ $$ \cos^n(\theta) = \frac{1}{2^n}{n \choose\frac{n}{2}}+\frac{2}{2^n}\sum_{k = 0
 $$ \sin^n(\theta) =\frac{1}{2^n}{n \choose\frac{n}{2}}+\frac{2}{2^n}\sum_{k = 0}^{\frac{n}{2}-1}(-1)^{\left(\frac{n}{2}-k\right)}{n \choose k}\cos((n-2k)\theta) $$
 
 ### Lagrange Identities
-
 $$ \sum_{k =0}^n \sin k\theta = \frac{\cos\frac{\theta}{2}-\cos\left((n+\frac{1}{2}\right)\theta)}{2\sin\frac{1}{2}\theta} $$
-
 $$ \sum_{k =0}^n \cos k\theta = \frac{\sin\frac{\theta}{2}+\sin\left((n+\frac{1}{2}\right)\theta)}{2\sin\frac{1}{2}\theta} $$
 
 and the [[Main definitions for Fourier Analysis|Dirichlet kernel]]:
-
 $$ D_n(\theta) =1+2\sum_{k =1}^n \cos k\theta = \frac{\sin((n+\frac{1}{2}) \theta) }{\sin\frac{1}{2}\theta} $$
 
 ### Complex Exponential
