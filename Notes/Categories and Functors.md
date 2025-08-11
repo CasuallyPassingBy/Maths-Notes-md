@@ -29,7 +29,7 @@ There are several examples for categories:
 - $\mathsf{Ab}$, the class of [[Groups#^58586b|abelian groups]] and group homomorphism.
 - $\mathsf{Vect}_K$, the class of all [[vector spaces]] over a field $K$ and $K$-linear maps.
 - Given a ring $R$, $R\mathsf{-Mod}$, the category of all left $R$-modules and $R$-module homomorphism. 
-- $\mathsf{Ring}$, the class of [[rings]] and ring homomorphisms
+- $\mathsf{Ring}$, the class of [[Rings]] and ring homomorphisms
 - $\mathsf{Meas}$, the class of [[Measure Spaces and Measurable Spaces|measure spaces]] and measurable functions. 
 - We call a pair $(M, q)$, where $M$ is a manifold and $q$ a point in $M$, a *pointed manifold*. Given two such pairs $(N, p)$ and $(M, p)$, let $f: (N, p) \to (M, q)$ is a smooth map from $N$ to $M$ and $f(p) = q$. 
 - $\mathsf{LIE}$, the class of [[Lie groups]] and Lie group homomorphisms.

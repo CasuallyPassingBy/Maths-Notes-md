@@ -9,6 +9,7 @@ We have all the subjects:
 	- [[Algebraic Topology]]
 	- [[Combinatorial Topology]]
 - [[Elementary Number Theory]]
+	- [[Algebraic Number Theory]]
 	- [[Analytic Number Theory]]
 - [[Category Theory]]
 ## Analysis

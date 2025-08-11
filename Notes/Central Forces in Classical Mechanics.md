@@ -18,3 +18,7 @@ This is neat enough, and we can see the dual nature of $df$ and $\nabla f$. In t
 ## Conservative and Spherically Symmetric
 
 Let us assume that the central force $\mathbf F(\mathbf  r)$ is conservative. Since it is conservative, it can be expressed in the form $-\nabla U$, which the formula above we get that $$\mathbf F(\mathbf r) = - \nabla U = -\frac{\partial U}{\partial r} \hat{\mathbf r} - \frac1{r}\frac{\partial U}{\partial \theta} \hat{\boldsymbol \theta} - \frac1{r\sin \theta}\frac{\partial U}{\partial \phi} \hat{\boldsymbol \phi}.$$Since $\mathbf F$ is central, then only its radial component can be nonzero, and the last two terms must be zero, and thus, $U(\mathbf r)$ is spherically symmetric, and the equation reduces to $$\mathbf F(\mathbf r) = - \frac{\partial U}{\partial r} \hat{\mathbf r}.$$Since $U$ is spherically, the same is true of $\frac{\partial U}{\partial r}$, and we see that the central force $\mathbf F$ is indeed spherically symmetric. 
+
+On the other hand if $\mathbf F(\mathbf r)$ is a central and spherically symmetric force, then $\mathbf F$ is conservative. 
+
+**Virial Theorem:** A mass $m$ moves in a circular orbit centred at the origin in the field of an attractive central force with potential energy $U= kr^n$, then $T= \frac12 mv^2 = n U/2$. 
