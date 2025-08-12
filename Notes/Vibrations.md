@@ -7,7 +7,7 @@ Subjects: [[Ordinary Differential Equations]], [[Classical Mechanics]]
 Links: [[Second Order Linear Differential Equations]]
 ### Undamped Free Vibration
 
-If we have a simple harmonic oscilator with the differential equation
+If we have a simple harmonic oscillator with the differential equation
 
 $$ m u'' -k u=0 $$
 

@@ -38,6 +38,8 @@ This definition is natural, and when considering $A =\{a\}$ and $B= H\le G$, the
 If $H\le G$ we denote as the set of all left cosets $gH$ of $H$ in $G$ by $G/H$. We would like to have that $G/H$ have a group structure, by inheriting something of the structure of $G$. So to left cosets $\sigma H$ and $\tau H$ and multiply them together, let's say $$(\sigma H)(\tau H) = \theta H$$and we define the operation between the two left cosets as $$(\sigma H)(\tau H) := (\sigma h) (\tau h') H = (\sigma \tau )H$$
 with $\sigma h$ and $\tau h'$ being representatives of the cosets $\sigma H$ and $\tau H$, respectively, this operation is well defined if it doesn't depend on representatives 
 
+**Def:** Let $H$ be a subgroup of $G$, then $[G: H] := |G/H|$, i.e., the number of left cosets of $H$ in $G$. 
+
 **Lemma:** Let $H\le G$ and we suppose where the above operation on $G/H$ is well defined. Then, $G/H$ is a group under this operation and it is called the *quotient group of $G$ by $H$*. 
 
 **Th:** Let $H \le G$. The multiplication of left cosets on $G/H$ is well defined iff every left coset is a right coset of $H$ on $G$. Meaning, iff $\sigma H = H \sigma$ for all $\sigma \in G$. 

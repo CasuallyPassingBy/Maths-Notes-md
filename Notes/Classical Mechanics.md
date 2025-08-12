@@ -21,5 +21,7 @@ tags:
 	- [[Energy for One Dimensional Systems in Classical Mechanics]]
 	- [[Central Forces in Classical Mechanics]]
 	- [[Energy of Interaction of Multiple Particles in Classical Mechanics]]
+- [[Oscillations and Hooke's Law]]
+	- [[Damped Oscillations]]
 # Misc
 - [[Vibrations]]

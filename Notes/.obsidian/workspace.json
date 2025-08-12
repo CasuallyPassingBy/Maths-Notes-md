@@ -38,33 +38,73 @@
             }
           },
           {
-            "id": "49e67f73f7edc85a",
+            "id": "4979fe7907ba7712",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Energy of Interaction of Multiple Particles in Classical Mechanics.md",
+                "file": "Group Theory.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Energy of Interaction of Multiple Particles in Classical Mechanics"
+              "title": "Group Theory"
             }
           },
           {
-            "id": "fdbeac21d1a77cce",
+            "id": "04ed04622df75387",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Momentum in Classical Mechanics.md",
+                "file": "Normal Subgroups and Quotient Groups.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Linear Momentum in Classical Mechanics"
+              "title": "Normal Subgroups and Quotient Groups"
+            }
+          },
+          {
+            "id": "a08618adddcde73d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Oscillations and Hooke's Law.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Oscillations and Hooke's Law"
+            }
+          },
+          {
+            "id": "10563284ef1815a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vibrations.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Vibrations"
+            }
+          },
+          {
+            "id": "2ce1561448f6e510",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
@@ -152,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Momentum in Classical Mechanics.md",
+                "file": "Classical Mechanics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +202,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Linear Momentum in Classical Mechanics"
+              "title": "Backlinks for Classical Mechanics"
             }
           },
           {
@@ -222,12 +262,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fdbeac21d1a77cce",
+  "active": "04ed04622df75387",
   "lastOpenFiles": [
-    "Energy of Interaction of Multiple Particles in Classical Mechanics.md",
+    "Vibrations.md",
+    "Normal Subgroups and Quotient Groups.md",
+    "Group Theory.md",
     "Classical Mechanics.md",
+    "Oscillations and Hooke's Law.md",
     "Central Hub.md",
     "Central Forces in Classical Mechanics.md",
+    "Energy of Interaction of Multiple Particles in Classical Mechanics.md",
+    "Linear Momentum in Classical Mechanics.md",
     "Ring Theory.md",
     "Quadratic Integers.md",
     "Rings.md",
@@ -245,11 +290,6 @@
     "Greatest Common Divisor.md",
     "Documentos Para la UP.md",
     "Kinetic Energy and Work in Classical Mechanics.md",
-    "Topological Manifolds.md",
-    "Smooth Partitions of Unity for Manifolds.md",
-    "Partitions of Unity.md",
-    "Correlations, Musical Isomorphisms.md",
-    "Tensor Product of Linear Functions.md",
     "Journal",
     "Upbringing_Mage",
     "clase",
