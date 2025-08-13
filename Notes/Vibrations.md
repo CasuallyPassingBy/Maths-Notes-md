@@ -7,27 +7,10 @@ Subjects: [[Ordinary Differential Equations]], [[Classical Mechanics]]
 Links: [[Second Order Linear Differential Equations]]
 ### Undamped Free Vibration
 
-If we have a simple harmonic oscillator with the differential equation
-
-$$ m u'' -k u=0 $$
-
-we can define the natural frequency $\omega_0 ^2 = k/m$. Then the solutions are of the form
-
-$$ u = A\cos \omega_0 t + B\sin\omega_0 t $$
-
-We can rewrite this as
-
-$$ u = R\cos(\omega_0 t -\delta) $$
-
-The way we can change between these representations by
-
-$$ \begin{align*} A = R\cos \delta& \qquad B = R\sin \delta \\ R= \sqrt{A^2+B^2}& \qquad \tan\delta = B/A \end{align*} $$
-
-The period of the motion is
-
+If we have a simple harmonic oscillator with the differential equation $$ m u'' -k u=0 $$we can define the natural frequency $\omega_0 ^2 = k/m$. Then the solutions are of the form $$ u = A\cos \omega_0 t + B\sin\omega_0 t $$We can rewrite this as$$ u = R\cos(\omega_0 t -\delta) $$The way we can change between these representations by $$ \begin{align*} A = R\cos \delta& \qquad B = R\sin \delta \\ R= \sqrt{A^2+B^2}& \qquad \tan\delta = B/A \end{align*} $$The period of the motion is
 $$ T = \frac{2\pi}{\omega_0} $$
 
-$R$ is called the _**amplitud**_ of the motion, and $\delta$ is called the **phase**.
+$R$ is called the **amplitude** of the motion, and $\delta$ is called the **phase**.
 
 ### Damped Free Vibrations
 

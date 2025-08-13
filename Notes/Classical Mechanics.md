@@ -22,6 +22,6 @@ tags:
 	- [[Central Forces in Classical Mechanics]]
 	- [[Energy of Interaction of Multiple Particles in Classical Mechanics]]
 - [[Oscillations and Hooke's Law]]
-	- [[Damped Oscillations]]
+	- [[Damped Oscillations in Classical Mechanics]]
 # Misc
 - [[Vibrations]]

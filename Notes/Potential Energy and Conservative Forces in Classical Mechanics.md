@@ -3,7 +3,7 @@ tags:
   - ClassicalMechanics
 ---
 Subjects: [[Classical Mechanics]]
-Links: [[Kinetic Energy and Work in Classical Mechanics]]
+Links: [[Kinetic Energy and Work in Classical Mechanics]], [[Conservative Fields]], [[Green's Theorem and Curl in R2]], [[Stokes Theorem and Curl in R3]]
 
 A force $\bf F$ acting on a particle is **conservative** iff it satisfies two conditions
 - $\bf F$ depends only on the particle position $\bf r$ (and not the velocity $\bf v$, or the time $t$, or any other variables); that is $\mathbf{F} = \mathbf{F}(\mathbf r)$
