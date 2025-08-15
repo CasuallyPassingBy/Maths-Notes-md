@@ -15,30 +15,26 @@ $R$ is called the **amplitude** of the motion, and $\delta$ is called the **phas
 ### Damped Free Vibrations
 
 If we include the damping effect, on the differential equation we get that, with $m, \gamma, k > 0$
-
 $$ mu''+\gamma u'+ku =0 $$
 
-Solving the characteristic polinomial we get that the roots are
-
-$$ r_1, r_2 = \frac{\gamma}{2m}\left(-1\pm \sqrt{1-\frac{4km}{\gamma^2}}\right) $$
+Solving the characteristic polynomial we get that the roots are $$ r_1, r_2 = \frac{\gamma}{2m}\left(-1\pm \sqrt{1-\frac{4km}{\gamma^2}}\right) $$
 
 There are various cases,
+- $\gamma^2-4km >0$, then $u = Ae^{r_1t}+Be^{r_2 t}$, this is called *overdamped*.
+- $\gamma^2-4km =0$, then $u = (A+Bt) e^{-\gamma t/2m}$, this is called *critically damped*.
+- $\gamma^2 -4km <0$, then $\mu =\dfrac{\sqrt{4km-\gamma^2}}{2m} >0$, and $u = e^{-\gamma t/2m}(A \cos\mu t+B\sin \mu t)$, this is called *underdamped*. 
 
-- $\gamma^2-4km >0$, then $u = Ae^{r_1t}+Be^{r_2 t}$, this is called **********overdamped**********
-- $\gamma^2-4km =0$, then $u = (A+Bt) e^{-\gamma t/2m}$, this is called **********critically damped**********
-- $\gamma^2 -4km <0$, then $\mu =\dfrac{\sqrt{4km-\gamma^2}}{2m} >0$, and $u = e^{-\gamma t/2m}(A \cos\mu t+B\sin \mu t)$, this is called **********underdamped**********
-
-In this last case, the motion isn’t periodic but it oscilates back and forth, $\mu$ is called the ****************quasi frecuency****************. By comparing $\mu$ to the frequency $\omega_0$ of an undamped motion we get that
+In this last case, the motion isn’t periodic but it oscillates back and forth, $\mu$ is called the *quasi frecuency*. By comparing $\mu$ to the frequency $\omega_0$ of an undamped motion we get that
 
 $$ \frac{\mu}{\omega_0} = \left(1-\frac{\gamma^2}{4km}\right)^{1/2} \approx 1-\frac{\gamma^2}{8km} $$
 
-if $\gamma^2/4km$ is small. By annalogy, the quatity $T_d = 2\pi/\mu$ is called the _**quasi period**_. If we compare $T_d$ and $T$ we get that
+if $\gamma^2/4km$ is small. By analogy, the quantity $T_d = 2\pi/\mu$ is called the _**quasi period**_. If we compare $T_d$ and $T$ we get that
 
 $$ \frac{T_d}{T} =\frac{\mu}{\omega_0} = \left(1-\frac{\gamma^2}{4km}\right)^{1/2} \approx 1-\frac{\gamma^2}{8km} $$
 
-The time between succsive maxima is $T_d$, and it behaves more like a period.
+The time between successive maxima is $T_d$, and it behaves more like a period.
 
-The ratio of the displacements at two succesive maxima is given by $\exp(\gamma T_d/2m)$. No matter the maxima chosen. The natural logarthm of this ratio is called the ******************logarithmic decremet****************** and is denoted as $\Delta$. Thus $\Delta = \pi\gamma/m\mu$.
+The ratio of the displacements at two successive maxima is given by $\exp(\gamma T_d/2m)$. No matter the maxima chosen. The natural logarithm of this ratio is called the *logarithmic decremet* and is denoted as $\Delta$. Thus $\Delta = \pi\gamma/m\mu$.
 
 # Forced Vibrations
 
@@ -58,15 +54,7 @@ A way I found to do it is to non-dimensionalize, to make the equation easier to 
 
 $$ u'' + \frac{\gamma}{m}u' + \frac{k}{m}u =\frac{F_0}{m} \cos(\omega t) $$
 
-We take advantage and define $\omega_0$ to be the natural frequency, defined as
-
-$$ \omega_0^2 = \frac{k}{m} $$
-
-The equation now looks like
-
-$$ u'' + \frac{\gamma}{m}u' + \omega_0^2u =\frac{F_0}{m} \cos(\omega t) $$
-
-Finally we make a weird step, and take that $\tau = \omega_0 t$. Then the next step, is to look at how the differential equation changes given that
+We take advantage and define $\omega_0$ to be the natural frequency, defined as $$ \omega_0^2 = \frac{k}{m} $$The equation now looks like $$ u'' + \frac{\gamma}{m}u' + \omega_0^2u =\frac{F_0}{m} \cos(\omega t) $$Finally we make a weird step, and take that $\tau = \omega_0 t$. Then the next step, is to look at how the differential equation changes given that
 
 $$ \frac{d u}{dt} = \frac{du}{d\tau} \frac{d\tau}{dt}, \qquad \frac{d^2 u}{dt^2} = \frac{d^2u}{d\tau^2}\left( \frac{d\tau}{dt}\right)^2 +\frac{du}{d\tau}\frac{d^2\tau}{dt^2} $$
 
