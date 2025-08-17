@@ -75,3 +75,6 @@ $$
 If we make the driving force $\omega_2$, then we get that the amplitud is $$A = \frac{f_0}{2\beta\omega_1}\approx \frac{f_0}{2\beta\omega_0}.$$
 ### Width of the Resonance; the $Q$ factor
 
+If we make the damping constant $\beta$ smaller, the resonance peak not only higher, but also gets narrower. We can make this idea more precises by defining *full width at half maximum* or *FWHM* as the interval between where $A^2$ is equal to its half maximum height. 
+
+We see that the points of half maximum are $$\omega = \sqrt{\omega_2^2 \pm \sqrt{12}\beta\omega_1}\approx \omega_0 \pm \beta. $$Thus the gull width at half maximum is $$\text{FWHM} = \sqrt{\omega_2^2 + \sqrt{12}\beta\omega_1}- \sqrt{\omega_2^2 - \sqrt{12}\beta\omega_1} \approx 2\beta.$$
