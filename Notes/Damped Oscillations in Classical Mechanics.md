@@ -3,7 +3,7 @@ tags:
   - ClassicalMechanics
 ---
 Subjects: [[Classical Mechanics]]
-Links: [[Oscillations and Hooke's Law]], [[Vibrations]], [[Second Order Linear Differential Equations]]
+Links: [[Oscillations and Hooke's Law]], [[Vibrations]], [[Second Order Linear Differential Equations]], [[Main definitions for Fourier Analysis]]
 
 There are several possibilities for the resistive force. Ordinary sliding friction is approximately constant in magnitud, but always directed opposite to the velocity. As we have seen when studying [[Air Resistance]], it is a reasonable assumption that the resistive force is proportional to $v$ or $v^2$. 
 
@@ -77,4 +77,13 @@ If we make the driving force $\omega_2$, then we get that the amplitud is $$A = 
 
 If we make the damping constant $\beta$ smaller, the resonance peak not only higher, but also gets narrower. We can make this idea more precises by defining *full width at half maximum* or *FWHM* as the interval between where $A^2$ is equal to its half maximum height. 
 
-We see that the points of half maximum are $$\omega = \sqrt{\omega_2^2 \pm \sqrt{12}\beta\omega_1}\approx \omega_0 \pm \beta. $$Thus the gull width at half maximum is $$\text{FWHM} = \sqrt{\omega_2^2 + \sqrt{12}\beta\omega_1}- \sqrt{\omega_2^2 - \sqrt{12}\beta\omega_1} \approx 2\beta.$$
+We see that the points of half maximum are $$\omega = \sqrt{\omega_2^2 \pm \sqrt{12}\beta\omega_1}\approx \omega_0 \pm \beta. $$Thus the gull width at half maximum is $$\text{FWHM} = \sqrt{\omega_2^2 + \sqrt{12}\beta\omega_1}- \sqrt{\omega_2^2 - \sqrt{12}\beta\omega_1} \approx 2\beta,$$
+or, equivalently, the *half width at half maximum* is $$\text{HWHM} = \frac{\sqrt{\omega_2^2 + \sqrt{12}\beta\omega_1}- \sqrt{\omega_2^2 - \sqrt{12}\beta\omega_1} }{2} \approx \beta.$$
+The sharpness of the resonance peak is indicated by the ratio of its width $2\beta$ to its position $\omega_2$. Sometimes we want a very sharp resonance, so it is common to practice to define a *quality factor* $Q$ as $$Q = \frac{\omega_0}{2\beta} = \pi \frac{1/\beta}{2\pi /\omega_0} = \pi \frac{\text{decay time}}{\text{period}}.$$
+# Periodic Driving Force
+
+Let $f$ be a periodic driving force, with period $\tau$. Then, we can define a $\omega := 1/\tau$. With this in mind, we can assume that $f$ is representable as Fourier series $$f(t) = \frac{a_0}{2} + \sum_{n = 1}^\infty a_n\cos(\omega n t) + b_n\sin(\omega n t),$$where $$a_n := \frac{2}{\tau}\int_{0}^\tau f(t)\cos(n\omega t)\, dt, \qquad b_n := \frac{2}{\tau}\int_{0}^\tau f(t)\sin(n\omega t)\, dt.$$
+Fortunately, we can assume that $f$ is an even function since we only need to know what happens for $t> 0$, then $b_n = 0$ for all $n \in \Bbb N ^+$. Then we get that $$f(t) = \sum_{n = 0}^\infty f_n\cos(\omega n t).$$
+We can get a solution for the differential equation $$\ddot x + 2\beta \dot x + \omega_0^2 x = f(t),$$as $$x(t) = \sum_{n = 0}^\infty A_n \cos(n\omega t - \delta_n)$$where $$A_n := \frac{f_n}{\sqrt{(\omega_0^2- n^2\omega^2)+ 4 \beta^2n^2 \omega^2}}, \qquad \delta_n := \arctan\left(\frac{2\beta n \omega}{\omega_0^2-n^2\omega^2}\right).$$
+### The Root Mean Squared Displacement
+
