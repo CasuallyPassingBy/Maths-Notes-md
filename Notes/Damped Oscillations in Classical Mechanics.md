@@ -3,7 +3,7 @@ tags:
   - ClassicalMechanics
 ---
 Subjects: [[Classical Mechanics]]
-Links: [[Oscillations and Hooke's Law]], [[Vibrations]], [[Second Order Linear Differential Equations]], [[Main definitions for Fourier Analysis]]
+Links: [[Oscillations and Hooke's Law]], [[Vibrations]], [[Second Order Linear Differential Equations]], [[Main definitions for Fourier Analysis]], [[Convergence of Fourier Series]]
 
 There are several possibilities for the resistive force. Ordinary sliding friction is approximately constant in magnitud, but always directed opposite to the velocity. As we have seen when studying [[Air Resistance]], it is a reasonable assumption that the resistive force is proportional to $v$ or $v^2$. 
 
@@ -56,8 +56,6 @@ We can be even more explicit in this case, and let $x(0) = x_0$, and $\dot x(0) 
 B_1 &= x_0-A\cos\delta\\
 B_2 &= \frac{1}{\omega_1}(v_0-\omega A \sin\delta + \beta B_1)
 \end{align*}$$
-
-
 ## Resonance
 
 We We say that apart from transient motions that die out quickly, the system's response is to oscillate sinusoidally at the same frequency as the driving force $$x(t) = A \cos(\omega t-\delta),$$where the amplitude $A$ is given by $$ A^2 = \frac{f_0^2}{(\omega_0^2-\omega^2)^2+4\beta^2\omega^2}.$$We see that $A \propto f_0$. We also need to examine how does the $A$ depend on the $\omega_0$, $\omega$ and $\beta.$ The most interesting case is when $\beta$ is small, so the second term of the denominator is small. If $\omega_0$ and $\omega$ are very different, then the first term is large, and the amplitude of the driven oscillations are small. On the other hand, if $\omega_0$ and $\omega$ are really closes, then both terms are very small, and the amplitude $A$ is very large. 
@@ -82,8 +80,10 @@ or, equivalently, the *half width at half maximum* is $$\text{HWHM} = \frac{\sqr
 The sharpness of the resonance peak is indicated by the ratio of its width $2\beta$ to its position $\omega_2$. Sometimes we want a very sharp resonance, so it is common to practice to define a *quality factor* $Q$ as $$Q = \frac{\omega_0}{2\beta} = \pi \frac{1/\beta}{2\pi /\omega_0} = \pi \frac{\text{decay time}}{\text{period}}.$$
 # Periodic Driving Force
 
-Let $f$ be a periodic driving force, with period $\tau$. Then, we can define a $\omega := 1/\tau$. With this in mind, we can assume that $f$ is representable as Fourier series $$f(t) = \frac{a_0}{2} + \sum_{n = 1}^\infty a_n\cos(\omega n t) + b_n\sin(\omega n t),$$where $$a_n := \frac{2}{\tau}\int_{0}^\tau f(t)\cos(n\omega t)\, dt, \qquad b_n := \frac{2}{\tau}\int_{0}^\tau f(t)\sin(n\omega t)\, dt.$$
-Fortunately, we can assume that $f$ is an even function since we only need to know what happens for $t> 0$, then $b_n = 0$ for all $n \in \Bbb N ^+$. Then we get that $$f(t) = \sum_{n = 0}^\infty f_n\cos(\omega n t).$$
+Let $f$ be a periodic driving force, with period $\tau$. Then, we can define a $\omega := 1/\tau$. With this in mind, we can assume that $f$ is representable as Fourier series $$f(t) = \frac{a_0}{2} + \sum_{n = 1}^\infty a_n\cos(n\omega t) + b_n\sin(n\omega t),$$where $$a_n := \frac{2}{\tau}\int_{0}^\tau f(t)\cos(n\omega t)\, dt, \qquad b_n := \frac{2}{\tau}\int_{0}^\tau f(t)\sin(n\omega t)\, dt.$$
+Fortunately, we can assume that $f$ is an even function since we only need to know what happens for $t> 0$, then $b_n = 0$ for all $n \in \Bbb N ^+$. Then we get that $$f(t) = \sum_{n = 0}^\infty f_n\cos(n\omega t).$$
 We can get a solution for the differential equation $$\ddot x + 2\beta \dot x + \omega_0^2 x = f(t),$$as $$x(t) = \sum_{n = 0}^\infty A_n \cos(n\omega t - \delta_n)$$where $$A_n := \frac{f_n}{\sqrt{(\omega_0^2- n^2\omega^2)+ 4 \beta^2n^2 \omega^2}}, \qquad \delta_n := \arctan\left(\frac{2\beta n \omega}{\omega_0^2-n^2\omega^2}\right).$$
 ### The Root Mean Squared Displacement
 
+It would be nice to have a single number to measure the oscillator's response and then just plot this number against the driving frequency, The most convenient quanitity to use is the *mean sqare* displacement $\langle x^2 \rangle$, and to give a quantity with the dimensions of length we usually discuss the *root mean square* of *RMS* displacement $$x_\text{rms} := \sqrt{\langle x^2\rangle}.$$We need a good definition for the average. It is usually defined as $$\langle x^2\rangle :=\frac1\tau \int_{-\tau/2}^{\tau/2} x^2\, dt.$$
+If $x$ has the following form $$x(t) = \sum_{n = 0}^\infty A_n \cos(n\omega  t-\delta_n),$$then $$\langle x^2\rangle = A_0^2+\frac12 \sum_{n= 1}^\infty A_n^2.$$
