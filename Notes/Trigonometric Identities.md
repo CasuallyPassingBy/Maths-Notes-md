@@ -1,40 +1,19 @@
+---
+tags:
+  - Identities
+---
 Links: [[Common Taylor Series]], [[Bernoulli numbers]], [[Hyperbolic Trigonometric Identities]], [[Useful Identities]]
 
 ### Pythagorean Identities
-
 $$ \cos^2x+\sin^2x=1 $$
 
 $$ 1+\tan^2x=\sec^2x $$
 
 $$ \cot^2x+1=\csc^2x $$
-
 ### Sum of Angles
-
-$$ \sin(\alpha \pm \beta) = \sin \alpha \cos \beta \pm \cos \alpha \sin \beta $$
-
-$$ \cos(\alpha \pm \beta) = \cos \alpha \cos \beta \mp \sin \alpha \sin \beta $$
-
-$$ \tan(\alpha \pm \beta) = \frac{\tan \alpha \pm \tan \beta}{1 \mp \tan \alpha \tan \beta} $$
-
-$$ \csc(\alpha \pm \beta) = \frac{\sec \alpha \sec \beta \csc \alpha \csc \beta}{\sec \alpha \csc \beta \pm \csc \alpha \sec \beta} $$
-
-$$ \sec(\alpha \pm \beta) = \frac{\sec \alpha \sec \beta \csc \alpha \csc \beta}{\csc \alpha \csc \beta \mp \sec \alpha \sec \beta} $$
-
-$$ \cot(\alpha \pm \beta) = \frac{\cot \alpha \cot \beta \mp 1}{\cot \beta \pm \cot \alpha} $$
-
+$$ \sin(\alpha \pm \beta) = \sin \alpha \cos \beta \pm \cos \alpha \sin \beta $$$$ \cos(\alpha \pm \beta) = \cos \alpha \cos \beta \mp \sin \alpha \sin \beta $$$$ \tan(\alpha \pm \beta) = \frac{\tan \alpha \pm \tan \beta}{1 \mp \tan \alpha \tan \beta} $$$$ \csc(\alpha \pm \beta) = \frac{\sec \alpha \sec \beta \csc \alpha \csc \beta}{\sec \alpha \csc \beta \pm \csc \alpha \sec \beta} $$$$ \sec(\alpha \pm \beta) = \frac{\sec \alpha \sec \beta \csc \alpha \csc \beta}{\csc \alpha \csc \beta \mp \sec \alpha \sec \beta} $$$$ \cot(\alpha \pm \beta) = \frac{\cot \alpha \cot \beta \mp 1}{\cot \beta \pm \cot \alpha}$$
 ### Double Angle
-
-$$ \sin (2\theta) = 2 \sin \theta \cos \theta = \frac{2\tan(\theta)}{1+\tan^2(\theta)} $$
-
-$$ \cos (2\theta) = \cos^2 \theta - \sin^2 \theta = 2 \cos^2 \theta - 1 = 1 - 2 \sin^2 \theta= \frac{1-\tan^2(\theta)}{1+ \tan^2(\theta)} $$
-
-$$ \tan (2\theta) = \frac{2 \tan \theta} {1 - \tan^2 \theta} $$
-
-$$ \csc (2\theta) = \frac{\sec \theta \csc \theta}{2} $$
-
-$$ \sec (2\theta) = \frac{\sec^2 \theta}{2 - \sec^2 \theta} $$
-
-$$ \cot (2\theta) = \frac{\cot^2 \theta - 1}{2 \cot \theta} $$
+$$ \sin (2\theta) = 2 \sin \theta \cos \theta = \frac{2\tan(\theta)}{1+\tan^2(\theta)} $$$$ \cos (2\theta) = \cos^2 \theta - \sin^2 \theta = 2 \cos^2 \theta - 1 = 1 - 2 \sin^2 \theta= \frac{1-\tan^2(\theta)}{1+ \tan^2(\theta)} $$$$ \tan (2\theta) = \frac{2 \tan \theta} {1 - \tan^2 \theta} $$$$ \csc (2\theta) = \frac{\sec \theta \csc \theta}{2} $$$$ \sec (2\theta) = \frac{\sec^2 \theta}{2 - \sec^2 \theta} $$$$ \cot (2\theta) = \frac{\cot^2 \theta - 1}{2 \cot \theta} $$
 
 ### Triple Angle
 
@@ -74,7 +53,7 @@ $$ \cot \frac{\theta}{2} = \csc \theta + \cot \theta = \pm\, \sqrt\frac{1 + \cos
 
 ### Product/Sum Identities
 
-- Product to Sum    $$ 2\cos \theta \cos \varphi = {{\cos(\theta - \varphi) + \cos(\theta + \varphi)}} $$   $$ 2\sin \theta \sin \varphi = {{\cos(\theta - \varphi) - \cos(\theta + \varphi)} } $$
+- Product to Sum    $$ 2\cos \theta \cos \varphi = {{\cos(\theta - \varphi) + \cos(\theta + \varphi)}} $$$$ 2\sin \theta \sin \varphi = {{\cos(\theta - \varphi) - \cos(\theta + \varphi)} } $$
     $$ 2\sin \theta \cos \varphi = {{\sin(\theta + \varphi) + \sin(\theta - \varphi)} } $$$$ 2\cos \theta \sin \varphi = {{\sin(\theta + \varphi) - \sin(\theta - \varphi)} } $$    $$ \tan \theta \tan \varphi =\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}{\cos(\theta-\varphi)+\cos(\theta+\varphi)} $$   
 - Sum to Product $$ \sin \theta \pm \sin \varphi = 2 \sin\left( \frac{\theta \pm \varphi}{2} \right) \cos\left( \frac{\theta \mp \varphi}{2} \right) $$$$ \cos \theta + \cos \varphi = 2 \cos\left( \frac{\theta + \varphi} {2} \right) \cos\left( \frac{\theta - \varphi}{2} \right) $$$$ \cos \theta - \cos \varphi = -2\sin\left( \frac{\theta + \varphi}{2}\right) \sin\left(\frac{\theta - \varphi}{2}\right) $$$$ \tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm \varphi)}{\cos\theta\cos\varphi} $$
 ### Power-reduction
@@ -169,3 +148,5 @@ $$ \int \csc^n x\, dx = \frac{-\cot x \csc^{n-2}x}{n-1} + \frac{n-2}{n-1}\int \c
 $$ \int \sec^n x\, dx = \frac{\tan x \sec^{n-2}x}{n-1} + \frac{n-2}{n-1}\int \sec^{n-2}x\, dx $$
 $$ \int \cot^n x\, dx = \frac{\cot^{n-1}x}{n-1} - \int \cot^{n-2}x\, dx $$
 
+### Harmonic Addition Theorem
+$$a cos(\theta)+b\sin(\theta) = c\cos(\theta-\delta),$$where $$c = \text{sgn}(a)\sqrt{a^2+b^2}, \qquad \delta = \arctan\left(-\frac ba\right)$$

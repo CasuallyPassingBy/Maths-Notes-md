@@ -23,5 +23,5 @@ tags:
 	- [[Energy of Interaction of Multiple Particles in Classical Mechanics]]
 - [[Oscillations and Hooke's Law]]
 	- [[Damped Oscillations in Classical Mechanics]]
-# Misc
-- [[Vibrations]]
+	- [[Vibrations]]
+- [[Variational Calculus Basics for Physics]]

@@ -60,4 +60,4 @@ We get that $$\begin{align*}
 We get the solution $$\begin{align*}
 x(t) &= A_x \cos(\omega_x t) \\
 y(t) &= A_y \sin(\omega_y t- \delta)
-\end{align*}$$where $\delta$ is the relative phase between $y$ and $x$. If $\omega_x/\omega_y$ is a rational number, we can see that the motion is periodic. If $\omega_x/\omega_y$ is *quasiperiodic*: the motion of the separate coordinates $x$ and $y$ is periodic but because the two periods are incompatible, the motion $(x, y)$ is not. 
+\end{align*}$$where $\delta$ is the relative phase between $y$ and $x$. If $\omega_x/\omega_y = p/q$ with $(p,q) = 1$, then period is $2\pi p/\omega_x = 2\pi q/\omega_y$. Additionally, if the motion is periodic, then that means that $\omega_x/\omega_y$ is rational, i.e., the motion is periodic iff $\omega_x/\omega_y$ is rational. If $\omega_x/\omega_y$ is  irrational. then the motion is *quasiperiodic*: the motion of the separate coordinates $x$ and $y$ is periodic but because the two periods are incompatible, the motion $(x, y)$ is not. 

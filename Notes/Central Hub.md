@@ -41,6 +41,7 @@ We have all the subjects:
 ## Advanced Topics
 - [[Measure Theory]]
 - [[Differential Geometry]]
+- [[Variational Calculus]]
 ## Special objects
 - [[Special Functions]]
 - [[Special Polynomials]]

@@ -24,13 +24,9 @@ There are various cases,
 - $\gamma^2-4km =0$, then $u = (A+Bt) e^{-\gamma t/2m}$, this is called *critically damped*.
 - $\gamma^2 -4km <0$, then $\mu =\dfrac{\sqrt{4km-\gamma^2}}{2m} >0$, and $u = e^{-\gamma t/2m}(A \cos\mu t+B\sin \mu t)$, this is called *underdamped*. 
 
-In this last case, the motion isn’t periodic but it oscillates back and forth, $\mu$ is called the *quasi frecuency*. By comparing $\mu$ to the frequency $\omega_0$ of an undamped motion we get that
+In this last case, the motion isn’t periodic but it oscillates back and forth, $\mu$ is called the *quasi frecuency*. By comparing $\mu$ to the frequency $\omega_0$ of an undamped motion we get that $$ \frac{\mu}{\omega_0} = \left(1-\frac{\gamma^2}{4km}\right)^{1/2} \approx 1-\frac{\gamma^2}{8km} $$
 
-$$ \frac{\mu}{\omega_0} = \left(1-\frac{\gamma^2}{4km}\right)^{1/2} \approx 1-\frac{\gamma^2}{8km} $$
-
-if $\gamma^2/4km$ is small. By analogy, the quantity $T_d = 2\pi/\mu$ is called the _**quasi period**_. If we compare $T_d$ and $T$ we get that
-
-$$ \frac{T_d}{T} =\frac{\mu}{\omega_0} = \left(1-\frac{\gamma^2}{4km}\right)^{1/2} \approx 1-\frac{\gamma^2}{8km} $$
+if $\gamma^2/4km$ is small. By analogy, the quantity $T_d = 2\pi/\mu$ is called the _**quasi period**_. If we compare $T_d$ and $T$ we get that $$ \frac{T_d}{T} =\frac{\mu}{\omega_0} = \left(1-\frac{\gamma^2}{4km}\right)^{1/2} \approx 1-\frac{\gamma^2}{8km} $$
 
 The time between successive maxima is $T_d$, and it behaves more like a period.
 
@@ -74,9 +70,9 @@ This is much easier to analize. We can examine the homogeneous solutions. We get
 
 $$ r = \frac{-\alpha \pm \sqrt{\alpha^2-4}}{2} $$
 
-We can examine it, but no matter the $\alpha$, we get that $\Re(r) <0$, then the particular solutions must vanish. If $\alpha\ne 2$, then $x _h(t) = Ae^{r_1 t}+ Be^{r_2 t}$, then since $\Re(r_1), \Re(r_2) <0$. then $x_h \to 0$ as $t\to \infty$. If $\alpha = 2$, then $x_h(t) = e^{-t}(A+ Bt)$, which also $x_h \to 0$ as $t\to \infty$. This solutions are called **********transient solutions********** since vanish when $t\to \infty$.
+We can examine it, but no matter the $\alpha$, we get that $\Re(r) <0$, then the particular solutions must vanish. If $\alpha\ne 2$, then $x _h(t) = Ae^{r_1 t}+ Be^{r_2 t}$, then since $\Re(r_1), \Re(r_2) <0$. then $x_h \to 0$ as $t\to \infty$. If $\alpha = 2$, then $x_h(t) = e^{-t}(A+ Bt)$, which also $x_h \to 0$ as $t\to \infty$. This solutions are called *transient solutions* since vanish when $t\to \infty$.
 
-The solutions that don’t vanish are called the _****steady-state solutions****_. Then for the particular solution we get that if we define $z$ such that $\Re(z) = x$, then we can solve the differential equation with $z(t) = Ae^{i\beta \tau}$, getting for the value of $A$
+The solutions that don’t vanish are called the *steady-state solutions*. Then for the particular solution we get that if we define $z$ such that $\Re(z) = x$, then we can solve the differential equation with $z(t) = Ae^{i\beta \tau}$, getting for the value of $A$
 
 $$ A = \frac{1}{1-\beta^2 +i\alpha \beta} $$
 
@@ -84,12 +80,10 @@ Doing some algebra we get
 
 $$ x(\tau) = \frac{1}{(1-\beta^2)^2 +(\alpha\beta)^2}[(1-\beta^2)\cos(\beta \tau) + \alpha\beta\sin(\beta\tau)] $$
 
-We can make it a little less ugly, using the [[Harmonic Addition Theorem|harmonic addition theorem]], getting
-
+We can make it a little less ugly, using the [[Trigonometric Identities#Harmonic Addition Theorem|harmonic addition theorem]], getting
 $$ x(\tau) = \frac{1}{\sqrt{(1-\beta^2)^2 +(\alpha\beta)^2}}\sin\left(\beta \tau + \arctan\left(\frac{1-\beta^2}{\alpha\beta}\right)\right) $$
 
 Resonance happens when $\omega = \omega_0$, then $\beta = 1$. If resonance happens then
-
 $$ x(\tau ) = \frac{\sin( \tau)}{\alpha} $$
 
 If we try to translate back to $u$, we get the following
