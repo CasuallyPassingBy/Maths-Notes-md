@@ -8,52 +8,97 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5d4ba0ac95718532",
+            "id": "2ce7f88448a97084",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OIST/Materias.md",
+                "file": "Central Hub.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Materias"
+              "title": "Central Hub"
             }
           },
           {
-            "id": "05c57ce427a3793c",
+            "id": "878767de4605bdeb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classical Mechanics.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Classical Mechanics"
-            }
-          },
-          {
-            "id": "fa47aa53f4618fd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trayectories in Physics.md",
+                "file": "Differential Geometry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Trayectories in Physics"
+              "title": "Differential Geometry"
+            }
+          },
+          {
+            "id": "b5fac0a096532e1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tensor Bundles and Tensor Fields on Smooth Manifolds.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Tensor Bundles and Tensor Fields on Smooth Manifolds"
+            }
+          },
+          {
+            "id": "2bb149a930354d6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vector Bundles on Smooth Manifolds.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Vector Bundles on Smooth Manifolds"
+            }
+          },
+          {
+            "id": "7e706f6d0877634e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Tangent Bundle.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "The Tangent Bundle"
+            }
+          },
+          {
+            "id": "bfc14bf5dc677b63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tangent Space for Manifolds.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Tangent Space for Manifolds"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -120,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "right": {
     "id": "beb862e217a984e3",
@@ -207,9 +253,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fa47aa53f4618fd0",
+  "active": "2bb149a930354d6e",
   "lastOpenFiles": [
+    "The Tangent Bundle.md",
+    "Vector Bundles on Smooth Manifolds.md",
+    "Tensor Bundles and Tensor Fields on Smooth Manifolds.md",
+    "Tangent Space for Manifolds.md",
+    "Tensor Product of Linear Functions.md",
+    "Differential Geometry.md",
     "Classical Mechanics.md",
+    "Trayectories in Physics.md",
+    "Central Hub.md",
     "OIST/Materias.md",
     "Upbringing_Mage/Sketch.md",
     "Untitled.md",
@@ -217,7 +271,6 @@
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",
-    "Central Hub.md",
     "Correlations, Musical Isomorphisms.md",
     "Trigonometric Identities.md",
     "Vibrations.md",
@@ -231,13 +284,6 @@
     "Quadratic Air Resistance.md",
     "Energy of Interaction of Multiple Particles in Classical Mechanics.md",
     "Air Resistance.md",
-    "Linear Air Resistance.md",
-    "Journal/2025-08-12.md",
-    "Potential Energy and Conservative Forces in Classical Mechanics.md",
-    "Group Theory.md",
-    "Normal Subgroups and Quotient Groups.md",
-    "Central Forces in Classical Mechanics.md",
-    "Linear Momentum in Classical Mechanics.md",
     "Journal",
     "Upbringing_Mage",
     "clase",

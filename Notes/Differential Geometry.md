@@ -38,6 +38,7 @@ This notes uses Einstein's summation convention.
 	- [[The Tangent Bundle]]
 		- [[Vector Fields on Smooth Manifolds]]
 			- [[Integral Curves and Local Flows in Rn]]
+	- [[Tensor Bundles and Tensor Fields on Smooth Manifolds]]
 - [[Smooth Partitions of Unity for Manifolds]]
 - [[Lie Groups]]
 	- [[Lie Subgroups]]
