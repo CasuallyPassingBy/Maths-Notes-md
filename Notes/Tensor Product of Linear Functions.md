@@ -51,7 +51,7 @@ T &= T^{\nu_1, \dots, \nu_q}_{\mu_1, \dots, \mu_p} \ e^{\mu_1} \otimes e^{\mu_2}
 
 Note that $V\otimes V'$ is isomorphic to $\mathcal L(V)$. The isomorphism in question is $\phi_V: V \otimes V' \to \mathcal L(V)$, for any $v\in V$ and $\alpha\in V'$, then $\phi_V(v \otimes \alpha)(u) = v\alpha(u)$ for all $u \in V$. We see that $T = \phi_V(T^i_j e_i \otimes e^j)$, where $T e_i = T^j_i e_j$. 
 
-We can generalise this result further to $\mathcal T^p_{q+1}(V)$ is naturally isomorphic to $\mathcal L(V'^{\otimes q} \otimes V^{\otimes k}, V)$. 
+We can generalise this result further to $\mathcal T^p_{q+1}(V)$ is naturally isomorphic to $\mathcal L(V'^{\otimes q} \otimes V^{\otimes k}, V)$.  ^5d22c0
 
 We can use this last result to get a natural operation called *trace* or *contraction*, which lowers the rank of a tensor by $2$. We define $\text{tr}: \mathcal T^{p+1}_{q+1}(V) \to \mathcal T^p_q(V)$ to be the trace of the endomorphism $$F(\omega^1, \dots, \omega^q, \cdot, V_1, \dots, V_p, \cdot) \in \mathcal T^1_1(V).  $$
 In terms of a basis the components of $\text{tr}(F)$ are $$\text{tr}(F)^{\nu_1, \dots, \nu_p}_{\mu_1, \dots, \mu_q} = F^{\nu_1, \dots, \nu_p, m}_{\mu_1, \dots, \mu_q, m}$$

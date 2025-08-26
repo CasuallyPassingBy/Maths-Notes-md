@@ -25,3 +25,4 @@ Similarly, a $1$-parameter family $\{\omega_t \in \Omega^k(M)\mid t\in  I\}$ of 
 **Def:** For $X, Y \in \mathfrak X(M)$ and $p \in M$, let $\phi: (-\varepsilon, \varepsilon) \times U \to M$ be a loca flow of $X$ on a neighbourhood $U$ of $p$ and define the *Lie derivative* $\mathcal L_X Y$ of $Y$ with respect to $X$ at $p$ to be the vector: $$(\mathcal L_X Y)_p = \lim_{t \to 0} \frac{(\varphi_{-t *} Y)_p- Y_p}{t} = \left.\frac{d}{dt}\right\rvert_{t = 0} (\varphi_{-t *} Y)_p$$where $\varphi_{-t*}$ is the pushforward by $\varphi_{-t}$. 
 
 **Th:** If $X$ and $Y$ are smooth vector fields on a manifold $M$, then the Lie derivative $\mathcal L_X Y$ coincides with the Lie bracket: $$ \mathcal L_X Y = [X, Y].$$
+# The Lie Derivative of a Differential Form

@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Smooth or Differentiable Manifolds]], [[Immersions and Submersions of Manifolds]]
+Links: [[Smooth or Differentiable Manifolds]], [[Submersions, Immersions and Embeddings of Manifolds]]
 
 **Def:** A subset $S$ of a manifold $N$ of dimension $n$ is a *regular submanifold* of dimension $k$ if every $p \in S$ there is a coordinate neighbourhood $(U, \phi) = (U, x^1, \dots, x^n)$ of $p$ in the maximal atlas of $N$ such that $U \cap S$ is defined by vanishing of $n-k$ of the coordinate functions. By renumbering the coordinates, we may assume that these $n-k$ coordinates functions are $x^{k+1}, \dots, x^n$. 
 

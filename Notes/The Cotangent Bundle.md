@@ -16,6 +16,8 @@ For each $U$ of a chart in the maximal atlas of $M$, let $\mathcal B_U$ be the c
 
 If $x^1, \dots, x^n$ are coordinates on $U \subseteq M$, then $\pi^* x^1, \dots \pi^* x^n, c_1, \dots, c_n$ are coordinates on $\pi^{-1}[U] \subseteq T^* M$. Properly speaking the *cotangent bundle* of a manifold $M$ is the triple $(T^* M, M, \pi)$, while $T^* M$ and $M$ are the *total space* and the *base space* of the cotangent bundle respectively. 
 
+Note that if $f: N \to M$ is a diffeomorphism, then we can see that the bundle map $(f, \tilde f)$, where $\tilde f: TN \to TM$ is given by $$\tilde f(p, v) = (f(p), f_*(v)) = (f(p), df_p v),$$gives rise to dual bundle map $(f^{-1}, \tilde f^*)$. 
+
 # Exterior Powers
 
 **Def:** Let $M$ be a manifold of dimension $n$. We mimic the contruction of the tangent and the cotangent bundles and form the set $${\textstyle\bigwedge}^{\!k} (T^*M) := \bigcup_{p \in M} {\textstyle\bigwedge}^{\!k} (T_p^*M)$$of all alternating $k$-tensors at all points in the manifold $M$. This set is called the $k$th *exterior power* of the cotangent bundle. There is a projection $\pi: {\textstyle\bigwedge}^{\!k} (T^*M)\to M$ by $\pi (\alpha) = p$ if ${\textstyle\bigwedge}^{\!k} (T_p^*M)$. 

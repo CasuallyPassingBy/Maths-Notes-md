@@ -33,3 +33,18 @@ We haven't proved that the dimension is indeed well defined. For that, we would 
 **Lemma:** Every manifold $M$ has a countable increasing sequence of subsets $\overline{V_n} \subseteq V_{n+1}$, with each $V_n$ open and $\overline{V_n}$ compact, such that $M = \bigcup_{n < \omega} V_n$. 
 
 **Th:** A topological manifold is metrizable iff it is paracompact.
+
+**Lemma:** Every topological manifold admits a countable, locally finite cover by precompact sets. 
+
+# Manifolds with Boundary
+
+Let us consider the closed $n$-dimensional *upper half-space* $\Bbb H^n \subseteq \Bbb R^n$, defined as $$\Bbb H^n := \{(x^1, \dots, x^n) \in \Bbb R^n \mid x^n \ge 0\}.$$We will use $\text{Int}(\Bbb H^n)$ and $\partial \Bbb H^n$ to denote the interior and boundary of $\Bbb H^n$, respectively, as a subset of $\Bbb R ^n$: $$\begin{align*}
+\text{Int}(\Bbb H^n) &= \{(x^1, \dots, x^n) \in \Bbb R^n \mid x^n > 0\}, \\
+\partial \Bbb H^n &= \{(x^1, \dots, x^n) \in \Bbb R^n \mid x^n = 0\}.
+\end{align*}$$
+**Def:** An $n$-dimension *topological manifold with boundary* is a second countable Hausdorff space $M$ in which every point has a neighbourhood homeomorphic to an open subset of $\Bbb H^n$. An open subset $U \subseteq M$ together with a homeomorphism $\varphi$ from $U$ to an open subset of $\Bbb H^n$ will be called a chart, just as in the case of manifolds. When it is necessary to make the distinction, we will call $(U, \varphi)$ an *interior chart* if $\varphi[U] \subseteq \text{Int}(\Bbb H^n)$, and *boundary chart* if $\varphi[U] \cap \partial \Bbb H^n \neq \varnothing$.
+
+**Prop:** Let $M$ be a topological manifold with boundary:
+- $M$ is locally path connected.
+- $M$ has at most countably many componentes, each of which is an open subset of $M$ and a connected topological manifold.
+- The fundamental group of $M$ is countable 

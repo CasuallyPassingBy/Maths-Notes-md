@@ -7,19 +7,20 @@ Links: [[The Cotangent Bundle]], [[Vector Fields on Smooth Manifolds]], [[Tangen
 
 **Def:** A *covector field*, a *differential $1$-form*, or more simply a $1$-*form* on $M$, is a function $\omega$ that assigns to each point $p$ in $M$ a covector $\omega_p$ at $p$. In this sense, it is dual to a vector field $M$. 
 
-In terms of the cotangent bundle $T^*M$, a differential $1$-form is simply a section of the cotangent bundle $T^*M$. Meaning, it is a map $\omega: M \to T^*M$ such that $\pi \circ \omega: \text{id}_M$, the identity on $M$, where $\pi$ is the projection of the cotangent bundle $(T^*M, M, \pi)$. We say that a $1$-form $\omega$ is smooth if it is as a map $M \to T^* M$.  
+In terms of the cotangent bundle $T^*M$, a differential $1$-form is simply a section of the cotangent bundle $T^*M$. Meaning, it is a map $\omega: M \to T^*M$ such that $\pi \circ \omega: \text{id}_M$, the identity on $M$, where $\pi$ is the projection of the cotangent bundle $(T^*M, M, \pi)$. We say that a $1$-form $\omega$ is smooth if it is as a map $M \to T^* M$.  This is because the cotangent bundle is actually the dual of the tangent bundle, i.e. $T^*M := (TM)^*$. 
+
 # Differential of a Function
 
 **Def:** If $f$ is a smooth real-valued function on a manifold $M$, its *differential* is defined to be the $1$-form $df$ on $M$ such that for any $p \in M$, and $X_p\in T_p M$, $$(df)_p(X_p) := X_p f$$
 **Prop:** If $f: M \to \Bbb R$ is a smooth function, then for $p \in M$ and $X_p \in T_p M$, $$ d(f)_p (X_p ) =f_*(X_p) = (df)_p (X_p) \left.\frac{d}{dt} \right\rvert_{f(p)}$$The first equality is refers to the difference in notation for the differential of a smooth function between manifolds. 
 
-This shows that under the canonical identification of the tangent space $T_{f(p)} \Bbb R$ with $\Bbb R$ via $a \left.\dfrac{d}{dt}\right\rvert_{f(p)} \leftrightarrow a$, $d(f)_p = f_*$ is the same as $df$. For this reason we are justified in calling both of them the *differential* of $f$. In terms of the differential $df$, a smooth function $f: M \to\Bbb R$ has a [[Immersions and Submersions of Manifolds#^071ac1|critical point]] at $p\in M$ iff $(df)_p = 0$.
+This shows that under the canonical identification of the tangent space $T_{f(p)} \Bbb R$ with $\Bbb R$ via $a \left.\dfrac{d}{dt}\right\rvert_{f(p)} \leftrightarrow a$, $d(f)_p = f_*$ is the same as $df$. For this reason we are justified in calling both of them the *differential* of $f$. In terms of the differential $df$, a smooth function $f: M \to\Bbb R$ has a [[Submersions, Immersions and Embeddings of Manifolds#^071ac1|critical point]] at $p\in M$ iff $(df)_p = 0$.
 
 # Local Expression for a Differential $1$-form
 
 Let $(U, \phi)= (U, x^1, \dots, x^n)$ be a coordinate chart on a manifold $M$. Then the differential $dx^1, \dots, dx^n$ are $1$-forms on $U$. 
 
-**Prop:** At each point $p\in U$, the covectors $(dx^1)_p,\dots, (dx^n)_p$ form a basis for the cotangent space $T_p^*M$ dual to the basis $\left.\dfrac{\partial}{\partial x^1}\right\rvert_p, \dots, \left.\dfrac{\partial}{\partial x^n}\right\rvert_p$ for the tangent space $T_p M$. 
+**Prop:** At each point $p\in U$, the covectors $(dx^1)_p,\dots, (dx^n)_p$ form a basis for the cotangent space $T_p^*M$ dual to the basis $\left.\dfrac{\partial}{\partial x^1}\right\rvert_p, \dots, \left.\dfrac{\partial}{\partial x^n}\right\rvert_p$ for the tangent space $T_p M$. Meaning that $(dx^1)_p, \dots, (dx^n)_p$ is the coframe of $\left.\dfrac{\partial}{\partial x^1}\right\rvert_p, \dots, \left.\dfrac{\partial}{\partial x^n}\right\rvert_p$
 
 **Obs:** Thus, every $1$-form $\omega$ on $U$ can be written as a linear combination $\omega = \sum a^i dx ^i$. 
 

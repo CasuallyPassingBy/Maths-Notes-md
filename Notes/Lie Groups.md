@@ -48,3 +48,5 @@ We see know that $\ell_g: G\to G$ is a diffeomorphism with inverse $\ell_{g^{-1}
 This gives rise to the concept of a [[Lie Algebra of a Lie Group]]
 
 **Prop:** Let $F: G \to H$ be a Lie group homomorphism. The kernel of $F$ is an embedded Lie group of $G$, whose codimension is equal to the rank of $F$. 
+
+**Existence of a Universal Covering Group:** Let $G$ be a connected Lie group. There exists a simply connected Lie group $\tilde G$ (called the universal covering group of $G$) and a smooth covering map $\pi: \tilde G\to G$ that is also a Lie group homomorphism.

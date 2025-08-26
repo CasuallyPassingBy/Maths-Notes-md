@@ -44,3 +44,16 @@ A smooth map $f: N \to M$ of manifolds induces a bundle map $(f, \tilde f)$, whe
 **Prop:** There a covariant functor $T$ from the category of smooth manifolds and smooth maps to the category of vector bundles and bundle maps:
 - to each manifold $M$, we associate its tangent bundle $TM$
 - to each $\mathcal C^\infty$ map $f: N \to M$ of manifolds, we associate the bundle map $T(f) = (f: N \to M, \tilde f: TN \to TM)$ 
+
+**Prop:** If $f: N \to M$ is a diffeomorphism, then we can define the dual bundle map of $(f, \tilde f)$, where $\tilde f: TN \to TM$, above, and consider 
+```tikz
+\usepackage{tikz-cd}
+\begin{document}
+\begin{tikzcd}
+T^*M \arrow{r}{\tilde f^*} \arrow{d}{\pi_E}& T^*N \arrow{d}{\pi_E} \\
+M \arrow{r}{f^{-1}}& N
+\end{tikzcd}
+\end{document}
+```
+
+Meaning that the reason we can pushforward differential forms only when $f$ is a diffeomorphism.

@@ -38,52 +38,7 @@
             }
           },
           {
-            "id": "b5fac0a096532e1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tensor Bundles and Tensor Fields on Smooth Manifolds.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Tensor Bundles and Tensor Fields on Smooth Manifolds"
-            }
-          },
-          {
-            "id": "2bb149a930354d6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vector Bundles on Smooth Manifolds.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Vector Bundles on Smooth Manifolds"
-            }
-          },
-          {
-            "id": "7e706f6d0877634e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Tangent Bundle.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "The Tangent Bundle"
-            }
-          },
-          {
-            "id": "bfc14bf5dc677b63",
+            "id": "e3853e06a768cea8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -95,6 +50,21 @@
               },
               "icon": "lucide-file",
               "title": "Tangent Space for Manifolds"
+            }
+          },
+          {
+            "id": "262fd2b928916eeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Submersions, Immersions and Embeddings of Manifolds.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Submersions, Immersions and Embeddings of Manifolds"
             }
           }
         ],
@@ -253,37 +223,37 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2bb149a930354d6e",
+  "active": "262fd2b928916eeb",
   "lastOpenFiles": [
-    "The Tangent Bundle.md",
-    "Vector Bundles on Smooth Manifolds.md",
-    "Tensor Bundles and Tensor Fields on Smooth Manifolds.md",
-    "Tangent Space for Manifolds.md",
-    "Tensor Product of Linear Functions.md",
-    "Differential Geometry.md",
-    "Classical Mechanics.md",
-    "Trayectories in Physics.md",
-    "Central Hub.md",
-    "OIST/Materias.md",
-    "Upbringing_Mage/Sketch.md",
+    "Vector Fields on Smooth Manifolds.md",
+    "Submersions, Immersions and Embeddings of Manifolds.md",
+    "Group Homomorphisms and Isomorphisms.md",
     "Untitled.md",
-    "Clifford Algebra.md",
+    "Tangent Space for Manifolds.md",
+    "Proper Maps.md",
+    "Differential Geometry.md",
+    "Vector Bundles on Smooth Manifolds.md",
+    "Bundle Maps for Vector Bundles.md",
+    "Central Hub.md",
+    "Smooth Partitions of Unity for Manifolds.md",
+    "Smooth or Differentiable Manifolds.md",
+    "Topological Manifolds.md",
+    "Smooth Covering Maps.md",
+    "Convergence of Sequences.md",
+    "Lie Groups.md",
+    "Lie Derivative and Interior Multiplication.md",
+    "Compactness.md",
+    "Submanifolds.md",
+    "The Rank of Smooth Map.md",
+    "Topology.md",
+    "Covering maps.md",
+    "Riemannian Metrics on Smooth Manifolds.md",
+    "Topological Subspaces.md",
+    "Local and Global Sections of Vector Bundles.md",
+    "Orthogonal Bases.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",
-    "Correlations, Musical Isomorphisms.md",
-    "Trigonometric Identities.md",
-    "Vibrations.md",
-    "Oscillations and Hooke's Law.md",
-    "Damped Oscillations in Classical Mechanics.md",
-    "Fourier Analysis.md",
-    "Convergence of Fourier Series.md",
-    "Orthogonal Bases.md",
-    "Main definitions for Fourier Analysis.md",
-    "Good Kernels and Convergence in Fourier Analysis.md",
-    "Quadratic Air Resistance.md",
-    "Energy of Interaction of Multiple Particles in Classical Mechanics.md",
-    "Air Resistance.md",
     "Journal",
     "Upbringing_Mage",
     "clase",

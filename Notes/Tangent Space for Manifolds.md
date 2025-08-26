@@ -74,3 +74,9 @@ Every smooth curve $c$ at $p$ in a manifold $M$ gives rise to a tangent vector $
 
 **Prop:** Suppose $X_p$ is a tangent vector at a point $p$ of a manifold $M$ and $f\in \mathcal C^\infty_p(M)$. If $c: (-\varepsilon, \varepsilon) \to M$ is a smooth curve starting at $p$ with $c'(0) = X_p$, then $$X_p f = \left.\frac{d}{dt}\right\rvert_0 (f \circ c)$$
 **Prop:** Let $F: N \to M$ be a smooth map of manifolds, $p\in N$, and $X_p\in T_p N$. If $c$ is a smooth curve starting at $p$ in $N$ with velocity $X_p$ at $p$, then: $$dF_{p}(X_p) = \left.\frac{d}{dt}\right\rvert_0 (F\circ c) (t)$$In other words, $F_{*, p}(X_p)$ is the velocity vector of the image curve $F\circ c$ at $F(p)$. 
+
+# The Tangent Space to a Manifold with Boundary
+
+Suppose $M$ is an $n$-dimensional manifold with boundary, and $p$ is a boundary point of $M$. We would like to preserve as much as possible, with this in mind we still define $T_p M$ as the space of all derivations of $\mathcal C^\infty(M)$ at $p$. 
+
+**Lemma:** If $M$ is an $n$-dimensional manifold with boundary, and $p$ is a boundary point of $M$, then $T_p M$ is an $n$-dimensional vector space, with basis given by the coordinate vectors $\left\{\left.\dfrac{\partial}{\partial x^j}\right\rvert_p\right\}$ in any smooth chart. 

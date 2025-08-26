@@ -61,3 +61,6 @@ Then the Jacobian is $$J(\tilde \psi \circ \tilde \phi^{-1})(\phi(p)) =
 \end{bmatrix} 
 $$
 The Jacobian determinant of the transition function $\tilde \psi\circ \tilde \phi^{-1}$ at $\phi(p)$ is $\left(\det\left(\dfrac{\partial y}{\partial x}\right)\right)^2$. 
+
+**Obs:** A smooth map $f: N \to M$ of manifolds induces a bundle map $(f, \tilde f)$ where $\tilde f: TN \to TM$ is given by $$\tilde f(p, v) = (f(p), f_*(v)) = (f(p), df_p v).$$
+This gives rise to a covariant functor $T$ from the category of smooth manifolds and smooth maps to the category of vector bundles and bundle maps.

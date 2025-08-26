@@ -44,3 +44,12 @@ Then $M$ has a unique smooth manifold structure such that each $(U_\alpha, \phi_
 
 **Prop:** Let $M$ be a smooth manifold. Every open cover of $M$ has a regular refinement. In particular, $M$ is paracompact.
 
+# Manifolds with Boundary
+
+We would like to define a smooth structure on a manifold with boundary. Recall that a smooth map from an arbitrary subset $A\subseteq \Bbb R^n$ to $\Bbb R^m$ is defined to be a map that admists a smooth extension to an open neighbourhood of each point. Thus if $U$ is an open subset of $\Bbb H^n$, a map $F: U \to \Bbb R^k$ is smooth if for each $x\in U$, there exists an open set $V\subseteq \Bbb R^n$ and a smooth map $\tilde F: V \to \Bbb R^k$ that agrees with $F$ in $V \cap \Bbb H^n$. If $F$ is such map, the restriction of $F$ to $U \cap \text{Int}(\Bbb H^n)$ is smooth in the usual sense. 
+
+We can see that continuity makes the partial derivative of $F$ at $U \cap \partial \Bbb H^n$ are determined by their values in $U \cap \text{Int}(\Bbb H^n)$, and therefore in particular are independent of the choice of extension. 
+
+Let $M$ be a topological manifold with boundary. Just as in the manifold case, a smooth structure for $M$ is defined to be a maximal smooth atlas. With such a structure $M$ is called a *smooth manifold with boundary*. a point $p\in M$ is called a *boundary point* if its image under some smooth chart is in $\partial \Bbb H^n$, and an interior if its image under some smooth chart is in $\text{Int}(\Bbb H^n)$. The *boundary* of $M$, the set of all boundary points, is denoted by $\partial M$; similarly, its *interior*, the set of all interior points, is denoted by $\text{Int}(M)$. 
+
+We can see that if $M$ is a smooth manifold with boundary, then $\text{Int}(M)$ is a smooth manifold.

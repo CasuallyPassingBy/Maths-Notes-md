@@ -42,8 +42,12 @@ Given an open cover $\{U_\alpha \mid \alpha < \kappa\}$ of $M$, we say that the 
 - There is a smooth partition of unity $\{\varphi_k \mid k < \omega\}$ with every $\varphi_k$ having compact support such that for each $k$, $\text{supp}(\varphi_k) \subseteq U_\alpha$ for some $\alpha < \kappa$.
 - If we do not require compact support, then there is a smooth partition of unity $\{\rho_\alpha \mid \alpha < \kappa\}$ subordinate to $\{U_\alpha \mid \alpha < \kappa\}$.
 
-**Cor (Existence of Bump function)**: Let $M$ be a manifold, and $A \subseteq M$ a closed set, and $U \subseteq M$ an open set containing $A$. Then, there's a smooth function $f: M \to \Bbb R$ such that $f|_B = 1$ and $\text{supp}(f) \subseteq U$. 
+**Cor (Existence of Bump function)**: Let $M$ be a manifold, and $A \subseteq M$ a closed set, and $U \subseteq M$ an open set containing $A$. Then, there's a smooth function $f: M \to \Bbb R$ such that $f|_A = 1$ and $\text{supp}(f) \subseteq U$. 
+
+**Cor (Extension Lemma)**: Let $M$ be a smooth manifold, $A\subseteq M$ be a closed subset and $f:A \to \Bbb R^k$ be a smooth function. For any open set $U$ containing $A$, there exists a smooth function $\tilde f; M \to \Bbb R^k$ such that $\tilde f|_A = f$, and $\text{supp}\tilde f \subseteq U$. 
 
 **Cor (Smooth Uryshon Lemma):** Let $M$ be a manifold. If $A, B\subseteq M$ are closed sets such that $A \cap B = \varnothing$, then there exists a smooth function $f: M \to \Bbb R$ such that $f|_A = 0$ and $f|_B = 1$.
 
 **Prop:** Suppose $\{\rho_\alpha \mid \alpha < \kappa \}$ is a partition of unity on a manifold $M$ subordinate to an open cover $\{U_\alpha \mid \alpha < \kappa\}$ of $M$ and $F: N \to M$ is a smooth map. Then the collection of functions $\{F^*\rho_\alpha \mid \alpha < \kappa \}$ is a partition of unity on $N$ subordinate to the open cover $\{F^{-1}[U_\alpha] \mid \alpha < \kappa\}$ of $N$.
+
+**Def:** If $M$ is a topological space, an *exhaustion function* for $M$ is a continuous function $f: M \to \Bbb R$ with the property that the set $M_c := \{x\in M \mid f(x) \le c\}$ is compact for each $c\in \Bbb R$. 

@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Submanifolds]], [[Smooth Functions on Smooth Manifolds]], [[Immersions and Submersions of Manifolds]]
+Links: [[Submanifolds]], [[Smooth Functions on Smooth Manifolds]], [[Submersions, Immersions and Embeddings of Manifolds]]
 
 **Constant rank theorem:** Let $N$ and $M$ be manifolds of dimension $n$ and $m$ respectively. Suppose $f: N \to M$ has constant rank $k$ in a neighbourhood of a point $p \in N$. Then there are charts $(U, \phi)$ centred at $p\in N$ and $(V, \psi)$ centred at $f(p)$ in $M$ such that for $(r^1, \dots, r^n)$ in $\phi[U]$. $$(\psi \circ f \circ \phi^{-1})(r^1, \dots, r^n) = (r^1, \dots, r^k, 0, \dots, 0)$$
 **Constant-rank level set theorem**: Let $f: N\to M$ be a smooth map of manifolds and $c\in M$. If $f$ has constant rank $k$ in a neighbourhood of the level set $f^{-1}\{c\}$ in $N$, then $f^{-1}\{c\}$ is a regular submanifold of $N$ of codimension $k$. ^54458e
@@ -29,7 +29,7 @@ It is in general not true that, if $f:N \to M$ a smooth function between manifol
 
 **Def:** A $\mathcal C^\infty$ map $f: N \to M$ is called an *smooth embedding* if
 - it is an immersion
-- It is a topological embedding
+- It is a [[Topological subspaces#^22f29a|topological embedding]]
 We call $f[N]$ to be an *embedded manifold*. 
 
 **Th:** If $f: N\to M$ is an embedding, then its image $f[N]$ is a regular submanifold of $M$.

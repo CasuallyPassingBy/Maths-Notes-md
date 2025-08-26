@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Local and Global Sections of Vector Bundles]], [[The Tangent Bundle]], [[Vector Fields on Rn]], [[Smooth Partitions of Unity for Manifolds]], [[Derivations]], [[Lie Algebra]]
+Links: [[Local and Global Sections of Vector Bundles]], [[The Tangent Bundle]], [[Vector Fields on Rn]], [[Smooth Partitions of Unity for Manifolds]], [[Derivations]], [[Lie Algebra]], [[Submersions, Immersions and Embeddings of Manifolds]]
 
 **Def:** A *vector field* $X$ on a manifold $M$ is a function that assigns a tangent vector $X_p \in T_p M$ to each point $p\in M$. In terms of the tangent bundle, a vector field on $M$ is simply a section of the tangent bundle $\pi: TM \to  M$ and the vector field is *smooth* if it is a smooth map from $M$ to $TM$. 
 
@@ -48,10 +48,15 @@ This notion does not extend in general to vector fields, since if $X$ is a vecto
 **Prop:** Let $F: N \to M$ be a smooth diffeomorphism of manifolds. If $g$ is a smooth function and $X$ a smooth vector field on $N$, then $$F_*(gX) = (g \circ F^{-1}) F_* X. $$
 **Prop:** Let $F: N \to M$ be a smooth diffeomorphism of manifolds. If $X$ and $Y$ are smooth vector fields on $N$, then $$F_* [X, Y] = [F_* X, F_* Y]$$
 **Cor:** Let $F: N \to M$ be a smooth diffeomorphism of manifolds, then $F_*: \mathfrak X(M) \to \mathfrak X(N)$ is a Lie algebra isomorphism. 
+
 # Related Vector Fields
 
-**Def:** Let $F: N \to M$ be a smooth map of manifolds. A vector field $X$ on $N$ is $F$-related to a vector field $\bar X$ on $M$ if for all $p \in N$, $$dF_p(X_p) = \bar X_ p$$
+**Def:** Let $F: N \to M$ be a smooth map of manifolds. A vector field $X$ on $N$ is $F$-related to a vector field $\bar X$ on $M$ if for all $p \in N$, $$dF_p(X_p) = \bar X_{F(p)}$$
 **Obs:** If $F: N \to M$ is a diffeomorphism and $X$ is vector field on $N$, then the pushforward $F_*X$ is defined, and the vector field $X$ is $F$-related to $F_*X$. 
 
 **Prop:** Let $F: N \to M$ be a smooth map of manifolds. A vector field $X$ on $N$ and vector field $\bar X$ on $M$ are $F$-related iff for all $g\in \mathcal C^\infty (M)$. $$ X(g\circ F) = (\bar X g) \circ F.$$
 **Prop:** Let $F: N \to M$ be a smooth map of manifolds. If the smooth vector fields $X$ and $Y$ are $F$-related to the smooth vector fields $\bar X$ and $\bar Y$, respectively, on $M$, then the Lie bracket $[X, Y]$ on $N$ is $F$-related to the Lie bracket $[\bar X, \bar Y]$ on $M$.
+
+**Prop:** If $\pi: M \to N$ is a submersion and $X$ is a smooth vector field on $N$, then there is a smooth vector field on $M$, called a *lift of $X$*, that is $\pi$ to $X$.
+
+**Cor:** Suppose $\pi: M \to N$ is a surjective submersion. If $X$ is a vector field on $M$ such that $\pi_* X_p = \pi_* X_q$ whenever $\pi(p) = \pi(q)$, then there exists a unique smooth vector field on $N$ that is $\pi$-related to $X$.

@@ -41,4 +41,8 @@ A *local frame* for $E$ over $U$ is an ordered $k$-tuple $(s_1, \dots, s_k)$ of 
 
 **Prop (Characterisation of smooth sections):** Let $\pi: E \to M$ be a smooth vector bundle and $U$ an open subset of $M$. Suppose $s_1, \dots, s_r$ is a smooth frame for $E$ over $U$. Then a section $s = \sum c^j s_j$ of $E$ over $U$ is smooth iff the coefficients $c^j$ are smooth functions on $U$.
 
-**Prop:** Let $\pi: E \to M$ be a smooth vector bundle and $s_1, \dots, s_r$ a smooth frame for $E$ over $U$ in $M$. Then every $e \in \pi^{-1}[U]$ can be written uniquely as a linear combination: $$e =  c^j(e) s_j(p), \quad p = \pi(e) \in U.$$ Then, $c^j: \pi^{-1}[U] \to \Bbb R$ is smooth for $j \in \{1, \dots, n\}$.
+**Prop:** Let $\pi: E \to M$ be a smooth vector bundle and $s_1, \dots, s_r$ a smooth frame for $E$ over $U$ in $M$. Then every $e \in \pi^{-1}[U]$ can be written uniquely as a linear combination: $$e =  c^j(e) s_j(p), \quad p = \pi(e) \in U.$$Then, $c^j: \pi^{-1}[U] \to \Bbb R$ is smooth for $j \in \{1, \dots, n\}$.
+
+**Def:** Let $\pi: E \to M$ be a smooth vector bundle and $U$ an open subset of $M$. Suppose $s_1, \dots, s_r$ is a frame for $E$ over $U$. We can define the dual coframe $\psi^1,\dots, \psi^r$ as the sections $\phi^k: M \to E^*$ such that $\phi^i(s_j) = \delta^i_j$. This is an analogue to a dual basis. 
+
+**Prop:** Let $\pi: E \to M$ be a smooth vector bundle and $U$ an open subset of $M$. Suppose $s_1, \dots, s_r$ is a smooth frame for $E$ over $U$, then the corresponding dual coframe $\psi^1,\dots, \psi^r$ is also smooth. 

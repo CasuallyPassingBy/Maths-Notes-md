@@ -4,7 +4,7 @@ tags:
   - LinearAlgebra
 ---
 Subjects: [[Differential Geometry]], [[Group Theory]]
-Links: [[Lie Groups]], [[Subgroups]], [[Immersions and Submersions of Manifolds]], [[The Rank of Smooth Map]]
+Links: [[Lie Groups]], [[Subgroups]], [[Submersions, Immersions and Embeddings of Manifolds]], [[The Rank of Smooth Map]]
 
 **Def:** A *Lie subgroup* of Lie group $G$ is:
 - an abstract subgroup $H$

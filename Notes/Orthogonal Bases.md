@@ -51,12 +51,10 @@ Let $V$ an inner product space, then we can define the projection operator as
 $$ \operatorname{proj}_u (v) := \frac{\langle u, v\rangle}{\langle u, u\rangle} u $$
 
 ### Gram-Schmidt Process
-
 Let $V$ be an inner product space and $S = \{w_1, \dots, w_m\}$ be a linearly independent subsets of $V$. Define $S' = \{v_1, \dots, v_m\}$ where: $v_1 = w_1$
-
 $$ v_k = w_k -\sum_{j=1}^{k-1} \operatorname{proj}_{v_j}(w_k) $$
 
-the $S'$ is an orthogonal set of nonzero vectors such that ${\operatorname{span}S' = \operatorname{span} S}$. This process is called Gram-Schmidt ****orthogonalization****. While if the we normalize the vector $v_1, \dots, v_m$, into $e_1, \dots, e_m$, then the procedure to get $e_1, \dots, e_m$ is called the Gram-Schmidt _orthonormalization_.
+the $S'$ is an orthogonal set of nonzero vectors such that ${\operatorname{span}S' = \operatorname{span} S}$. This process is called Gram-Schmidt *orthogonalization*. While if the we normalize the vector $v_1, \dots, v_m$, into $e_1, \dots, e_m$, then the procedure to get $e_1, \dots, e_m$ is called the Gram-Schmidt _orthonormalization_.
 
 Denote by $\operatorname{GS}(w_1, \dots, w_k)$ the result of applying the Gram-Schmidt process to a collection of vectors $w_1, \dots, w_m$. This yields a map: ${\operatorname{GS}:V^k \to V^k}$
 

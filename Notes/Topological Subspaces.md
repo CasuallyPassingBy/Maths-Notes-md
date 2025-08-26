@@ -51,7 +51,7 @@ For any continuous mapping $f: X \to Y$ and a subspace $M$ of $X$, the compositi
 
 **Prop:** Let $f: X \to Y$ and $g: Y \to X$ be maps between topological spaces. if $g \circ f$ is a closed/open, then the restriction $g|_{f[X]}: f[X] \to Z$ is closed/open.
 
-**Def:** Let $f:X \to Y$ be a function between topological spaces, and $L$ a subspace of $Y$, the *restriction of $f$ to $L$* is defined as the mapping of the subspace $f^{-1}[L] \subseteq X$ to the subspace $L \subseteq Y$, that assigns $f(x) \in L$ to $x\in f^{-1}[L]$; this restriction is denoted by $f_L$.
+**Def:** Let $f:X \to Y$ be a function between topological spaces, and $L$ a subspace of $Y$, the *restriction of $f$ to $L$* is defined as the mapping of the subspace $f^{-1}[L] \subseteq X$ to the subspace $L \subseteq Y$, that assigns $f(x) \in L$ to $x\in f^{-1}[L]$; this restriction is denoted by $f_L$. ^22f29a
 
 **Prop:** If $f: X\to Y$ is a closed/open mapping for any subspace $L\subseteq Y$ the restriction $f_L: f^{-1}[L] \to L$ is closed/open.
 

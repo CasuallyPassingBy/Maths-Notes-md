@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Topological Vector Bundles]], [[Submanifolds]] [[The Tangent Bundle]], [[Smooth Partitions of Unity for Manifolds]], [[The Cotangent Bundle]]
+Links: [[Topological Vector Bundles]], [[Submanifolds]] [[The Tangent Bundle]], [[Smooth Partitions of Unity for Manifolds]], [[The Cotangent Bundle]], [[Dual Vector Spaces]]
 
 **Def:** For any two maps $\pi: E \to M$ and $\pi': E'\to M$ with the same target space $M$, a map $\phi: E \to E'$ is said to be *fibre-preserving* if $\phi[\pi^{-1}\{p\}] \subseteq \pi'^{-1}\{p\}$ for all $p\in M$.
 
@@ -54,7 +54,6 @@ Let $$E := \coprod_{p \in M} E_p,$$and let $\pi: E \to M$ be the map that takes 
 - For each $\alpha < \kappa$, a bijective map $\phi_\alpha: \pi^{-1}[U_\alpha] \to U_\alpha \times \Bbb R^k$ whose restriction to each $E_p$ is a linear isomorphism from $E_p$ to $\{p\}\times \Bbb R^k \cong \Bbb R^k$.
 - For each $\alpha, \beta < \kappa$ such that $U_\alpha \cap U_\beta \neq \varnothing$, a smooth map $\tau_{\alpha \beta}: U_\alpha \cap U_\beta \to \text{GL}(k, \Bbb R)$ such that the composite map $\phi_\alpha \circ \phi_\beta^{-1}: (U_\alpha \cap U_\beta) \times \Bbb R^k \to U_\alpha \cap U_\beta) \times \Bbb R^k$ has the form: $$\phi_\alpha \circ \phi_\beta^{-1}(p, v) = (p, \tau_{\alpha\beta}(p) v) $$
 Then $E$ has a unique smooth manifold structure making it into a smooth vector bundle of rank $k$ over $M$, with $\pi$ as projection and $\phi_\alpha$ as smooth local trivialisations. 
-
 # Vector Subbundles
 
 **Def:** Given a smooth vector bundle $\pi: \to M$, a *smooth bundle* of $E$ is a subset $D \subseteq E$ with the following properties:
@@ -64,3 +63,20 @@ Then $E$ has a unique smooth manifold structure making it into a smooth vector b
 
 **Local Frame Criterion for Subbundles:** Let $\pi: E \to M$ be smooth vector bundle, and suppose for each $p \in M$ we are given an $m$-dimensional linear subspace $D_p \subseteq E_p$. Then $D = \coprod_{p \in M} D_p \subseteq E$ is a smooth subbundle iff if the following condition is satisfied: each point $p \in M$ has a neighbourhood $U$ on which there are smooth local sections $s_1, \dots, s_m: U \to E$ such that $s_1|_q, \dots, s_m|_q$ form a basis for $D_q$ at each $q \in U$.
 
+# Dual Bundles
+
+Let $\pi: E \to M$ be a smooth vector bundle over a smooth manifold $M$ of rank $r$. The *dual bundle* of $E$, denoted $E^*$, is the smooth vector bundle $$\pi^*: E^* \to M,$$where $E_p^*:= (E_p)'$ for every $p \in M$, $$E^* := \coprod_{p\in M}E_p^*,$$and $\pi^*(\lambda) =p$ for $\lambda \in E_p^*$. 
+
+The reason why it is smooth it is because if $E$ is locally trivialised over $U\subseteq M$ by $\phi:\pi^{-1}[U] \to U \times \Bbb R^k$, then $E^*$ is locally trivialised by $\phi^*: (\pi^*)^{-1}[U] \to U \times (\Bbb R^k)'$. Lastly, we only need that the transitions function behave nicely.
+It is easy enough to check that if $\phi_\alpha: \pi^{-1}[U_\alpha] \to U_\alpha \times \Bbb R^k$ and $\phi_\beta: \pi^{-1}[U_\beta] \to U_\beta \times \Bbb R^k$ are local trivialisations with a transition function betweeen trivilisations $\tau_{\alpha\beta}$, then $$\phi_\alpha \circ (\phi_\beta^*)^{-1}(p, v) = (p, ((\tau_{\alpha \beta}(p)'))^{-1}(v)).$$
+Let $\pi_E: E \to M$, and $\pi_F: F \to M$ be vector bundles over $M$, with bundle function $(\text{id}_M, \tilde f)$ from $F$ to $e$, then we can define the *dual bundle function* from $E^*$ to $F^*$, by $(\text{id}_M, \tilde f^*)$ where $$\tilde f^*(p, \lambda) := (p, \lambda \circ \tilde f_p).$$ We can generalise this to a slight broader class of bundle maps. Let $\pi_E:E \to M$ and $\pi_F: F \to N$ be two vector bundles, with a bundle map $(f, \tilde f)$ from $F$ to $E$. If $f$ is a diffeomorphism, then we can define the dual bundle map as $(f^{-1}, \tilde f^*)$ such that the following diagram commutes
+
+```tikz
+\usepackage{tikz-cd} 
+\begin{document} 
+\begin{tikzcd}
+F \arrow[d, two heads,"\pi_M"'] \arrow[r, "\tilde f^*"] & E \arrow[d, two heads,"\pi_N"]\\
+M \arrow[r, "f^{-1}"'] & N
+\end{tikzcd}
+\end{document}
+```
