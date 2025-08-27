@@ -10,7 +10,7 @@ Links: [[General Linear Group]], [[Lie Groups]], [[Commutative Ring]], [[Normal 
 
 # Special Linear Group over $\Bbb R$
 
-**Prop:** $\text{SL}(n, \Bbb R)$ is a Lie subgroup of $\text{GL}(n, \Bbb R)$ of dimension $n^2-1$.
+**Prop:** $\text{SL}(n, \Bbb R)$ is an embedded Lie subgroup of $\text{GL}(n, \Bbb R)$ of dimension $n^2-1$.
 
 **Prop:** $Z(\text{SL}(2n, \Bbb R)) = \{\pm I\}$ and $Z(\text{SL}(2n+1, \Bbb R)) = \{I\}$. 
 

@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[The Tensor Bundles]], [[Correlations, Musical Isomorphisms]], [[Submanifolds]]
+Links: [[The Tensor Bundles]], [[Correlations, Musical Isomorphisms]], [[Smooth Submanifolds]]
 
 **Def:** A *Riemannian metric* on a smooth manifold $M$ is a $2$-tensor field $g\in \mathcal T^2(M)$ that is *symmetric*, and *positive definite*. A Riemannian metric thus determines an inner product on each tangent space $T_pM$, which is typically written $\langle X, Y \rangle := g(X, Y)$ for $X, Y \in T_p M$. A manifold together with a given Riemannian metric is called a *Riemannian manifold*. We often use the word 'metric' to refer to a Riemannian metric when there is no chance for confusion. 
 

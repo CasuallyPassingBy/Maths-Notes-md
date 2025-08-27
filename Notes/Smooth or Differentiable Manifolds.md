@@ -46,10 +46,16 @@ Then $M$ has a unique smooth manifold structure such that each $(U_\alpha, \phi_
 
 # Manifolds with Boundary
 
-We would like to define a smooth structure on a manifold with boundary. Recall that a smooth map from an arbitrary subset $A\subseteq \Bbb R^n$ to $\Bbb R^m$ is defined to be a map that admists a smooth extension to an open neighbourhood of each point. Thus if $U$ is an open subset of $\Bbb H^n$, a map $F: U \to \Bbb R^k$ is smooth if for each $x\in U$, there exists an open set $V\subseteq \Bbb R^n$ and a smooth map $\tilde F: V \to \Bbb R^k$ that agrees with $F$ in $V \cap \Bbb H^n$. If $F$ is such map, the restriction of $F$ to $U \cap \text{Int}(\Bbb H^n)$ is smooth in the usual sense. 
+We would like to define a smooth structure on a manifold with boundary. Recall that a smooth map from an arbitrary subset $A\subseteq \Bbb R^n$ to $\Bbb R^m$ is defined to be a map that admits a smooth extension to an open neighbourhood of each point. Thus if $U$ is an open subset of $\Bbb H^n$, a map $F: U \to \Bbb R^k$ is smooth if for each $x\in U$, there exists an open set $V\subseteq \Bbb R^n$ and a smooth map $\tilde F: V \to \Bbb R^k$ that agrees with $F$ in $V \cap \Bbb H^n$. If $F$ is such map, the restriction of $F$ to $U \cap \text{Int}(\Bbb H^n)$ is smooth in the usual sense. 
 
 We can see that continuity makes the partial derivative of $F$ at $U \cap \partial \Bbb H^n$ are determined by their values in $U \cap \text{Int}(\Bbb H^n)$, and therefore in particular are independent of the choice of extension. 
 
 Let $M$ be a topological manifold with boundary. Just as in the manifold case, a smooth structure for $M$ is defined to be a maximal smooth atlas. With such a structure $M$ is called a *smooth manifold with boundary*. a point $p\in M$ is called a *boundary point* if its image under some smooth chart is in $\partial \Bbb H^n$, and an interior if its image under some smooth chart is in $\text{Int}(\Bbb H^n)$. The *boundary* of $M$, the set of all boundary points, is denoted by $\partial M$; similarly, its *interior*, the set of all interior points, is denoted by $\text{Int}(M)$. 
 
 We can see that if $M$ is a smooth manifold with boundary, then $\text{Int}(M)$ is a smooth manifold.
+
+**Cor:** Let $M$ be smooth manifold with boundary, then the set of interior points and boundary points are disjoint, i.e., $\text{Int}(\Bbb H^n) \cap \partial \Bbb H^n = \varnothing$. This result can be inferred using [[Submersions, Immersions and Embeddings of Manifolds#Submersions|submersions]]. 
+
+We can also get that the $\text{Int}(M)$ is an open submanifold of $M$. 
+
+**Prop:** Let $M$ be a smooth $n$-manifold with boundary. Then $\partial M$ is a topological $(n-1)$-manifold (without boundary), and it has a unique smooth structure such that the inclusion $\iota: \partial M \to M$ is a smooth embedding. 

@@ -38,7 +38,22 @@
             }
           },
           {
-            "id": "e3853e06a768cea8",
+            "id": "b0999097911e72eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spheres in Rn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Spheres in Rn"
+            }
+          },
+          {
+            "id": "ff7c941eb9d14a16",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,22 +68,82 @@
             }
           },
           {
-            "id": "262fd2b928916eeb",
+            "id": "22c4d9aee7003594",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Submersions, Immersions and Embeddings of Manifolds.md",
+                "file": "Bundle Maps for Vector Bundles.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Submersions, Immersions and Embeddings of Manifolds"
+              "title": "Bundle Maps for Vector Bundles"
+            }
+          },
+          {
+            "id": "4b8644e8e4539135",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Smooth Submanifolds.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Smooth Submanifolds"
+            }
+          },
+          {
+            "id": "f687307a1cb6bfd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Subgroups.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Lie Subgroups"
+            }
+          },
+          {
+            "id": "a183e8964b97566d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Orthogonal Group.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Orthogonal Group"
+            }
+          },
+          {
+            "id": "6492546907a06b0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/2025-08-26.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-08-26"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -152,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classical Mechanics.md",
+                "file": "Spheres in Rn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +237,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Classical Mechanics"
+              "title": "Backlinks for Spheres in Rn"
             }
           },
           {
@@ -223,34 +298,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "262fd2b928916eeb",
+  "active": "b0999097911e72eb",
   "lastOpenFiles": [
-    "Vector Fields on Smooth Manifolds.md",
-    "Submersions, Immersions and Embeddings of Manifolds.md",
-    "Group Homomorphisms and Isomorphisms.md",
-    "Untitled.md",
-    "Tangent Space for Manifolds.md",
-    "Proper Maps.md",
+    "Spheres in Rn.md",
     "Differential Geometry.md",
-    "Vector Bundles on Smooth Manifolds.md",
-    "Bundle Maps for Vector Bundles.md",
     "Central Hub.md",
-    "Smooth Partitions of Unity for Manifolds.md",
-    "Smooth or Differentiable Manifolds.md",
-    "Topological Manifolds.md",
-    "Smooth Covering Maps.md",
-    "Convergence of Sequences.md",
+    "Tangent Space for Manifolds.md",
+    "Vector Subbundles on Smooth Manifolds.md",
+    "Bundle Maps for Vector Bundles.md",
+    "Orthogonal Group.md",
+    "General Linear Group.md",
+    "Smooth Submanifolds.md",
+    "Lie Subgroups.md",
+    "Lie Algebra of a Lie Group.md",
     "Lie Groups.md",
-    "Lie Derivative and Interior Multiplication.md",
-    "Compactness.md",
-    "Submanifolds.md",
+    "Journal/2025-08-26.md",
+    "Special Linear Group.md",
+    "Smooth or Differentiable Manifolds.md",
+    "Submersions, Immersions and Embeddings of Manifolds.md",
+    "Lie Group Actions.md",
     "The Rank of Smooth Map.md",
-    "Topology.md",
-    "Covering maps.md",
-    "Riemannian Metrics on Smooth Manifolds.md",
-    "Topological Subspaces.md",
-    "Local and Global Sections of Vector Bundles.md",
-    "Orthogonal Bases.md",
+    "Untitled.md",
+    "Integral Curves and Local Flows in Rn.md",
+    "Topological Manifolds.md",
+    "Vector Fields on Smooth Manifolds.md",
+    "Group Homomorphisms and Isomorphisms.md",
+    "Proper Maps.md",
+    "Vector Bundles on Smooth Manifolds.md",
+    "Smooth Partitions of Unity for Manifolds.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",

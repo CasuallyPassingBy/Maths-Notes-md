@@ -36,7 +36,7 @@ Just to emphasise, but $\text{embedding} \implies \text{immersion}$, but we can 
 **Cor:** Suppose $M$ and $N$ are smooth manifolds of the same dimension, and $F: M \to N$ is an immersion or submersion. Then $F$ is a local diffeomorphism. If $F$ is bijective, it is a diffeomorphism.
 
 **Rank Theorem for Manifolds:** Suppose $M$ and $N$ are smooth manifolds of dimension $m$ and $n$, respectively, and $F: M \to N$ is a smooth map with constant rank $k$. For each $p\in M$ there exists a smooth coordinates $(x^1, \dots, x^m)$ centred at $p$ and $(v^1, \dots, v^n)$ centred at $F(p)$ in which $F$ has the coordinate representation $$F(x^1, \dots, x^m) = (x^1, \dots, x^k, 0, \dots, 0).$$
-**Cor:** Let $F: M \to N$ be a smooth map, and suppose $M$ is connected. Then the following are equivalent.
+**Cor:** Let $F: M \to N$ be a smooth map, and suppose $M$ is connected. Then the following are equivalent. ^815841
 - For each $p\in M$ there exist smooth charts near $p$ and $F(p)$ in which the coordinate representation of $F$ is linear.
 - $F$ has constant rank.
 
@@ -60,7 +60,7 @@ Just to emphasise, but $\text{embedding} \implies \text{immersion}$, but we can 
 
 **Cor:** Suppose $\pi: M \to N$ is a smooth map such that every point of $M$ is in the image of a smooth local section of $\pi$, then $\pi$ is a submersion.
 
-**Lemma:** Suppose $V\subseteq \text{Int}(\Bbb H^n)$ is open abnd $f: V \to f[V] \subseteq \Bbb H^n$ is a diffeomorphism onto its image. Then $f[V] \cap \partial \Bbb H^n = \varnothing$.
+**Lemma:** Suppose $V\subseteq \text{Int}(\Bbb H^n)$ is open and $f: V \to f[V] \subseteq \Bbb H^n$ is a diffeomorphism onto its image. Then $f[V] \cap \partial \Bbb H^n = \varnothing$.
 
 **Cor:** Let $M$ be smooth manifold with boundary, then the set of interior points and boundary points are disjoint, i.e., $\text{Int}(\Bbb H^n) \cap \partial \Bbb H^n = \varnothing$. 
 
@@ -99,8 +99,6 @@ N \arrow[rr, "F"] & & P.
 
 **Cor:** Suppose $\pi: M \to N$ is a surjective submersion. If $X$ is a vector field on $M$ such that $\pi_* X_p = \pi_* X_q$ whenever $\pi(p) = \pi(q)$, then there exists a unique smooth vector field on $N$ that is $\pi$-related to $X$.
 
-**Def:** A point $p$ in $N$ is a *critical point* of $F$ if the differential $dF_p: T_pN \to T_{F(p)} M$ fails to be surjective. it is a *regular point* of $F$ if the differential $dF_p$ is surjective, i.e., $F$ is a submersion at $p$. A point in $M$ is a *critical value* if it is the image of a critical point; otherwise it is a *regular value*.  ^071ac1
+**Def:** Let $M_1$ and $M_2$ be connected smooth manifolds of dimension $n$. For $i = 1, 2$, let $(W_i, \varphi_i)$ be a smooth coordinate domain centred at some point $p_i \in M_i$ such that $\varphi_i[W_i] \subseteq B(0, 2) \subseteq \Bbb R^n$. We define $U_i = \varphi_i^{-1}[B(0, 1)]\subseteq W_i$ and $M'_i := M_i \setminus U_i$. The *connected sum* of $M_1$ and $M_2$, denoted by $M_1 \# M_2$, is the quotient space of $M_1' \sqcup M_2'$ obtained by identifying each $q\in \partial U_1$ with $\varphi_2^{-1}\circ \varphi_1(q)\in \partial U_2$. 
 
-A point $c \in M$ is a critical value iff some point in the preimage $F^{-1}\{c\}$ is a critical point. A point $c$ in the image of $F$ is regular value iff *every* point in the preimage $F^{-1}\{c\}$ is a regular point. 
-
-**Prop:** For a real-valued function $f:M \to \Bbb R$, a point $p\in M$ is critical point iff relative to some chart $(U, x^1, \dots, x^n)$ containing $p$, all the partial derivatives satisfy $$\frac{\partial f}{\partial x^j} (p) = 0, \qquad j\in \{1, \dots, n\}$$
+$M_1 \# M_2$ is a connected topological $n$-manifold and has a unique structure such that the restriction of the quotient map to each $M_i'$ is a smooth embedding, where $M_i'$ is considered a smooth manifold with boundary. There are open subsets $U,V \subseteq M_1 \# M_2$ that are diffeomorphic to $M_1 \setminus \{p_1\}$ and $M_2\setminus \{p_2\}$, respectively, and such that $U \cap V$ is diffeomorphic to $B_2(0) \setminus \{0\}$.

@@ -4,7 +4,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Group Theory]], [[Differential Geometry]]
-Links: [[Smooth or Differentiable Manifolds]], [[Smooth Functions on Smooth Manifolds]], [[Topological Groups]], [[The Rank of Smooth Map]], [[Topological Groups]]
+Links: [[Smooth or Differentiable Manifolds]], [[Smooth Functions on Smooth Manifolds]], [[Topological Groups]], [[Submersions, Immersions and Embeddings of Manifolds]]
 
 **Def:** A *Lie group* is a $\mathcal C^\infty$ $G$ having a group structure such that the multiplication map: $$\mu : G\times G \to G, \qquad \mu(g,h)= gh $$and the inverse map $$\iota: G\to G, \qquad \iota(g)= g^{-1} $$ are both $\mathcal C^\infty$. 
 

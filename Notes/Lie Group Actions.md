@@ -30,6 +30,6 @@ Let $G$ be a Lie group. For any $g \in G$, the conjugation map $C_g: G \to G$ gi
 
 **Equivariant Rank Theorem:** Let $M$ and $N$ be smooth manifolds and let $G$ be a Lie group. Suppose $F: M \to N$ is a smooth map that is equivariant with respect to a transitive smooth $G$-action on $M$ and any smooth $G$-action on $G$. Then $F$ has constant rank. In particular, its level sets are closed embedded submanifolds of $M$. 
 
-This is a consequence of the [[The Rank of Smooth Map#^54458e|Constant Rank Theorem]].
+This is a consequence of the [[Submersions, Immersions and Embeddings of Manifolds#^815841|Constant Rank Theorem]].
 
 **Prop:** Any continuous action by a compact Lie group on manifold is proper.
