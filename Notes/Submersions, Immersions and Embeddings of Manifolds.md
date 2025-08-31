@@ -25,7 +25,7 @@ If $F$ has the same rank $k$ at every point, we say that it has *constant* rank 
 
 Just to emphasise, but $\text{embedding} \implies \text{immersion}$, but we can find examples of immersed manifolds that are not embedded manifolds.
 
-**Prop:** Suppose $F: M \to N$ is an injective immers ion. If either of the following conditions holds, then $F$ is a smooth embedding with closed image:
+**Prop:** Suppose $F: M \to N$ is an injective immersion. If either of the following conditions holds, then $F$ is a smooth embedding with closed image:
 - $M$ is compact.
 - $F$ is a proper map. 
 

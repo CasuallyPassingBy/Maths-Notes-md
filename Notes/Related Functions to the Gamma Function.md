@@ -2,7 +2,7 @@
 tags:
   - SpecialFunctions
 ---
-Subjects: [[Special Functions]]
+mSubjects: [[Special Functions]]
 Links: [[Gamma Function]]
 ## Pi function
 

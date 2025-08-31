@@ -36,3 +36,7 @@ N \arrow[d,two heads, "\pi"'] \arrow[dr, "F \circ \pi"] \\ M \arrow[r, "F"'] & L
 **Existence of a Universal Covering Group:** Let $G$ be a connected Lie group. There exists a simply connected Lie group $\tilde G$ (called the universal covering group of $G$) and a smooth covering map $\pi: \tilde G\to G$ that is also a Lie group homomorphism.
 
 **Prop:** Suppose $N$ and $M$ are connected smooth manifolds and $\pi: N \to M$ is a proper local diffeomorphism, then $\pi$ is a smooth covering map. 
+
+**Prop:** Let $\pi:N \to M$ be a smooth covering map. With the discrete topology, the covering group $\mathcal C_\pi(N)$ is a zero dimensional [[Lie groups|Lie group]] [[Lie group Actions|acting]] smoothly, freely and properly on $N$. 
+
+$(*)$ **Prop:** A covering map $\pi: N \to M$ is normal iff $\pi_*(\pi_1(N, p))$ is a normal subgroup of $\pi_1(M, \pi(p))$ for any $p\in N$. 

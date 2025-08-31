@@ -15,3 +15,7 @@ Links: [[General Linear Group]], [[Lie Groups]], [[Commutative Ring]], [[Normal 
 **Prop:** $Z(\text{SL}(2n, \Bbb R)) = \{\pm I\}$ and $Z(\text{SL}(2n+1, \Bbb R)) = \{I\}$. 
 
 **Prop:** $\text{SL}(n, \Bbb C)$ is an embedded $(2n^2-2)$-dimensional Lie subgroup of $\text{GL}(n, \Bbb C)$. 
+
+# Special Linear Group over $\Bbb C$
+
+**Prop:** The complex special linear group $\text{SL}(n,\Bbb C)$ is an embedded $(2n^2-2)$-dimensional Lie subgroup of $\text{GL}(n, \Bbb C)$. 

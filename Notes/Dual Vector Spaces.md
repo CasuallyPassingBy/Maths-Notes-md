@@ -24,7 +24,7 @@ The dual map has some algebraic properties:
 - Let $T \in \mathcal L (U,V)$, and $S \in \mathcal L (V,W)$, then $(ST)' = T' S'$.
 
 Let $U \subseteq V$, *the annihilator of $U$*denoted as $U^0$, is defined as the set:
-$$ U^0=\{\phi \in V' \mid \phi(U) = \{0\}\} =\{\phi \in V' \mid U \subseteq N(\phi)\} $$
+$$ U^0=\{\phi \in V' \mid \phi[U] = \{0\}\} =\{\phi \in V' \mid U \subseteq \ker(\phi)\} $$
 
 Suppose that $U\subseteq V$, then $U^0$ is a subspace of $V'$.
 
@@ -37,16 +37,15 @@ Let $V$ be a finite dimensional space and $U$ a subspace of $V$.
 - $U = V$ iff $U^0 = \{0\}$
 
 Suppose $U, W$ are subspaces of $V$, then ${(U+W)^0= U^0\cap W^0}$, and ${U^0+W^0\subseteq (U\cap W)^0}$
-Suppose $U, W$ are subspaces of $V$,a finite dimensional space, then ${(U\cap W)^0= U^0 + W^0}$.
 
-Let $V$ a finite dimensional vector space, and $U$ is a subspace of $V$, then:
+Suppose $U, W$ are subspaces of $V$,a finite dimensional space, then ${(U\cap W)^0= U^0 + W^0}.$
 
-$$ \dim V= \dim U+ \dim U^0 $$
+Let $V$ a finite dimensional vector space, and $U$ is a subspace of $V$, then: $$ \dim V= \dim U+ \dim U^0 $$
 
 Let $T \in \mathcal L (U,V)$ with $U$ and $V$ being finite dimensional, considering the null space and range of $T'$, we get the following results:
-- $N(T')= (R(T))^0$
-- $R(T') = (N(T))^0$
-- $\dim N(T') = \dim N(T) + \dim W -\dim V$
+- $\ker(T')= (R(T))^0$
+- $R(T') = (\ker(T))^0$
+- $\dim \ker(T') = \dim N(T) + \dim W -\dim V$
 - $\dim R(T') = \dim R(T)$
 
 Let $V$ and $W$ be finite dimensional vector spaces over the field $\Bbb F$, and ${T \in \mathcal L(V, W)}$, then:

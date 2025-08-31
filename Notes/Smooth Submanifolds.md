@@ -26,6 +26,12 @@ Let $M$ be a smooth manifold, and let $S\subseteq M$ be an embedded submanifold.
 **Examples:**
 - If $U \subseteq \Bbb R^n$ is open and $F: U \to \Bbb R^k$ is smooth, then the graph of $F$ is an embedded $n$-dimensional submanifold of $\Bbb R^{n+k}$.
 - For any $n \in \Bbb N$, $\Bbb S^n$ is an embedded $n$-submanifold of $\Bbb R^{n+1}$.
+
+**Cor:** If $S\subseteq M$ is an embedded submanifold and $\gamma: J \to M$ is a smooth curve whose image happens to lie in $S$, then $\gamma'(t)$ is in the subspace $T_{\gamma(t)}S$ of $T_{\gamma(t)} M$ for all $t\in J$. 
+
+**Prop:** An embedded submanifold is closed iff if the inclusion is [[Proper Maps|proper]].
+
+
 # Levels Sets of a Function
 
 **Def:** A *level set* of a map $F: N \to M$ is a subset $F^{-1}\{c\}$ for some $c\in M$. The value $c \in M$ is called the *level* of the level set $F^{-1}\{c\}$. If $F: N\to \Bbb R^n$, then $Z(F) := F^{-1}\{0\}$ is the *zero set* of $F$. 
@@ -48,14 +54,16 @@ The inverse image image $F^{-1}\{c\}$ of a regular value $c$ is called a *regula
 
 **Lemma:** Suppose $S\subseteq M$ is an embedded submanifold. If $\Phi: U \to N$ is any local defining map for $S$, then $T_p S = \ker (d\Phi_p)$, where $\Phi_* = d\Phi_p : T_p M \to T_{\Phi(p)} N$ for each $p \in S \cap U$.  ^83d047
 
-# Transversality Theorem
+**Lagrange Multipliers:** Let $M$ be a smooth manifold, and let $C\subseteq M$ be an embedded submanifold that admits a global defining function $\Phi: M \to \Bbb R^k$. Let $f\in  \mathcal C^\infty(M)$, and suppose $p\in C$ is a point at which $f$ attains its maximum or minimum value among points in $C$. Them there are real numbers $\lambda_1,\dots, \lambda_k$ (called *Lagrange multipliers*) such that $$df_p = \sum_{n = 1}^k\lambda_n d\Phi^k|_p.$$
+**Def:** Suppose $\Phi: M \to N$ is a smooth map and $S\subseteq M$ is an embedded submanifold. We say that $\Phi$ is *transverse to S* if for every $p\in \Phi^{-1}[S]$, the spaces $T_{\Phi(p)}S$ and $\Phi_* T_p M$ together span $T_{\Phi(p)} N$, i.e., $$T_{\Phi(p)} S + d\Phi_p[ T_p M] = T_{\Phi(p)}N. $$We denote this relation as $\Phi \pitchfork Z$. 
 
-**Def:** A $\mathcal C^\infty$ map $f: N \to M$ is said to be *transversal* to a regular submanifold $S \subseteq M$, if for every $p\in f^{-1}[S]$, $$df_p[T_p N] + T_{f(p)} S = T_{f(p)} M.$$
-**Th:** A $\mathcal C^\infty$ map $f: N \to M$ is transversal to a regular submanifold $S$ of codimension $k$ in $M$, then $f^{-1}[S]$ is regular submanifold of codimension $k$ in $N$. 
+**Transversality Theorem:** A $\mathcal C^\infty$ map $\Phi: M \to N$ is transversal to a embedded submanifold $S$ of codimension $k$ in $M$, then $\Phi^{-1}[S]$ is embedded submanifold of codimension $k$ in $M$. 
 
-When $S$ consists of a single point $c$, transversality of $f$ to $S$ simply means that $f^{-1}\{c\}$ is a regular level set. Thus the transversality theorem is a generalisation of the regular level set theorem. It is specially useful in giving conditions under which the intersection of two submanifolds is a submanifold. 
+**Def:** Two embedded submanifold $S_1, S_2 \subseteq M$ are said to be *transverse*, or to *intersect transversly*, if for each $p\in S_1 \cap S_2$, the tangent spaces $T_p S_1$ and $T_p S_2$ together span $T_p M.$ I am going to denote it as $S_1 \pitchfork S_2$. 
 
-# Immerse Submanifolds
+**Prop:** If $S_1$ and $S_2$ are transverse, then $S_1\cap S_2$ is en embedded submanifold of $M$ of dimension $\dim S_1 + \dim S_2- \dim M$. 
+
+# Immersed Submanifolds
 
 **Def:** Let $M$ be a smooth manifold. An *immersed submanifold of dimension $k$*, or *immersed $k$-submanifold* of $M$ is a subset $S \subseteq M$ endowed with a $k$-manifold topology together with a smooth structure such that the inclusion map $\iota:S \to M$ is a smooth immersion. As for embedded submanifolds, we define the *codimension of $S$ in $M$* to be $\dim M - \dim S$.
 
