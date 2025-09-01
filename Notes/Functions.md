@@ -72,7 +72,7 @@ Let $f$ be a function is _injective_ if for any $a_1, a_2 \in \text{dom}\,f$, if
 
 Let $f:A \to B$, then $f$ is _surjective_ if $\text{ran}\, f = B$. The set of all surjective functions from $A$ to $B$ is usually denoted as $\text{Sur}(A, B)$
 
-Let $f:A \to B$, $f$ is _bijective_ if it is injective and surjective. The set of all bijective functions from $A$ to $B$ is usually denoted as $\text{Bij}(A, B)$, and in the special case where $A =B$ it is denoted as $\text{Sym}(A)$ or $S_A$ , and is the [[Symmetric Groups|symmetric group of]] $A$. 
+Let $f:A \to B$, $f$ is *bijective* if it is injective and surjective. The set of all bijective functions from $A$ to $B$ is usually denoted as $\text{Bij}(A, B)$, and in the special case where $A =B$ it is denoted as $\text{Sym}(A)$ or $S_A$ , and is the [[Symmetric Groups|symmetric group of]] $A$. This related to the [[automorphism group]] in any category 
 
 - Equivalences of injectivity
     Let $f:X \to Y$, with $X \ne \varnothing$. Then all are equivalent:

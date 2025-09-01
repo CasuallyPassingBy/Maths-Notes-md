@@ -11,6 +11,7 @@ Links: [[Smooth or Differentiable Manifolds]], [[Smooth Functions on Smooth Mani
 **Def:** For $g \in G$, denote $\ell_g: G \to G$, $\ell_g(x) = \mu(g, x) = gx$, the operation of *left multiplication by $g$*, and $r_g: G \to G$, $r_a(x) = \mu(x, a) = xa$, the operation of the *right multiplication by $a$*. We also call left and right multiplications *left and right translations*. 
 
 An important examples are:
+- [[Torus in Rn]]
 - [[General Linear Group]]
 - [[Special Linear Group]]
 - [[Orthogonal Group]]

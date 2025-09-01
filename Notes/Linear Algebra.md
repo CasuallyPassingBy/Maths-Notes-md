@@ -4,7 +4,7 @@ tags:
 ---
 [[Central Hub]]
 # Overview
-Mainly used to study Friedberg's Linear algebra and Axler's Linear Algebra Done Right
+Mainly used to study Friedberg's Linear algebra and Axler's Linear Algebra Done Right. An offshoot of Linear Algebra can be found in [[Affine Geometry]].
 
 # Topics
 - [[Vector Spaces]]

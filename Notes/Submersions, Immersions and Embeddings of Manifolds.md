@@ -84,7 +84,7 @@ M \arrow[d,two heads, "\pi"'] \arrow[dr, "F"] \\ N \arrow[r, "\widetilde F"] & P
 \end{document}
 ```
 
-**Uniqueness of Smooth Quotients:** Suppose $\pi_1: M \to N_1$ and $\pi_2: M \to N$ are surjective submersions that are constant on each other's fibres. Then there exists a unique diffeomorphism $F: N_1 \to N_2$ such that $F \circ \pi_1 = \pi_2$. 
+**Uniqueness of Smooth Quotients:** Suppose $\pi_1: M \to N_1$ and $\pi_2: M \to N$ are surjective submersions that are constant on each other's fibres. Then there exists a unique diffeomorphism $F: N_1 \to N_2$ such that $F \circ \pi_1 = \pi_2$.  ^a3a253
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 

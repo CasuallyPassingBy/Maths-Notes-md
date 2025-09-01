@@ -65,6 +65,8 @@ If $Y$ is a subspace of $X$, then the inclusion $\iota:Y\to X$ is closed/open if
 The bijective function $\varphi$ defined over the topological space $X$ and with values in the space $Y$, it is called a *homeomorphism* if $\varphi$ is continuous with continuous inverse.
 The topological spaces $X$ and $Y$ are called *homeomorphic* if there's a homeomorphism between them. The expression $X\cong Y$ signifies that the spaces $X$ and $Y$ are homeomorphic
 
+The set of all homeomorphisms of the form $\varphi: X \to X$ forms a group under composition, and is denoted as $\text{Homeo}(X)$. This related to the [[automorphism group]] in any category
+
 A property $P$ is topological if for each space $X$ with the property $P$, then any homeomorphic space to $X$ also has the property $P$
 
 $f$ is open iff $f[B]$ is open on $Y$ for each $B\in \cal B$, where $\cal B$ is a base for $X$. Similarly, $f$ is closed iff $f[C]$ is open on $Y$ for each $C\in \cal C$, where $\cal C$ is a closed base for $X$. 

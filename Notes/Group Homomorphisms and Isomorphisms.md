@@ -49,7 +49,7 @@ In fact:
 - $\overline \varphi$ is surjective iff $\phi$ is surjective
 - $\overline \varphi$ is injective iff $\ker(\phi) = \ker(\psi)$
 
-**Noether's First Isomorphism Theorem:** If $\phi: G \to G'$ is a group homomorphism, then $\phi$ induces a group isomorphism $\overline \phi: G/\ker (\phi)\to \text{Im}(\phi)$, such that the diagram commutes: 
+**Noether's First Isomorphism Theorem:** If $\phi: G \to G'$ is a group homomorphism, then $\phi$ induces a group isomorphism $\overline \phi: G/\ker (\phi)\to \text{Im}(\phi)$, such that the diagram commutes:  ^ff5e58
 
 ```tikz
 \usepackage{tikz-cd} 

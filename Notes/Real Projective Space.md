@@ -26,6 +26,10 @@ Meaning that $\Bbb {RP}^n$ is a topological manifold of dimension $n$.
 
 It is easy to show that $\{(U_i, \phi_i)\mid i \in \{0, \dots, n\}\}$ is a $\mathcal C^\infty$ atlas for $\Bbb {RP}^n$, called the *standard atlas.* Meaning that $\Bbb {RP}^n$ is a smooth manifold.
 
+# As Quotient of a Zero Dimensional Lie Group
+
+The two-element group $\{\pm 1\}$ acts on $\Bbb S^n$ by multiplication. This action is obviously smooth and free, and it is proper because the group is compact. This defines a smooth structure on $\Bbb S^n/\{\pm 1\}$. In fact, this quotient manifold is diffeomorphic to $\Bbb {RP}^n$ with smooth structure we defined above. Let $p: \Bbb S^n \to \Bbb {RP}^n$ be the smooth covering map obtained by restricting the canonical projection $\Bbb R^{n+1}\setminus \{0\}\to \Bbb {RP}^n$ to the sphere. This map makes the same identification as the quotient map $\pi: \Bbb S^n \to \Bbb S^n/\{\pm 1\}$. This $\Bbb S^n /\{\pm 1\}$ is diffeomorphic to $\Bbb {RP}^n$, and $\Bbb {RP}^n$ is a compact manifold. 
+
 # Real Projective Varieties
 
 On the projective space $\Bbb {RP}^n$ a homogeneous polynomial $F(x_0, \dots,x_n)$ of degree $k$ is not a function, since its value at a point $[a_0, \dots, a_n]$ is not unique. However, the zero set in $\Bbb {RP}^n$ of a homogeneous polynomial $F(x_0, \dots, x_n)$ is well defined, since $F(a_0, \dots, a_n) = 0$ if $$F(ta_0, \dots, ta_n) = t^kF(a_0, \dots, a_n) = 0, \qquad \forall t\in \Bbb R^\setminus\{0\}$$The zero set of finitely many homogeneous polynomials in % is called a *real projective variety*. A projective variety defined by a single homogeneous polynomial of degree $k$ is called a *hypersurface* of degree $k$. 

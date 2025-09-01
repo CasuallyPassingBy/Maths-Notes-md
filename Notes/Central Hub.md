@@ -21,6 +21,7 @@ We have all the subjects:
 - [[Functional Analysis]]
 ## Algebra
 - [[Linear Algebra]]
+	- [[Affine Geometry]]
 - [[Group Theory]]
 - [[Ring Theory]]
 - [[Module Theory]]

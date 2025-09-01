@@ -38,8 +38,14 @@ This is a consequence of the [[Submersions, Immersions and Embeddings of Manifol
 
 **Prop:** Any continuous action by a compact Lie group on manifold is proper.
 
-**Quotient Manifold Theorem:** Suppose a Lie group $G$ acts smoothly, freely, and properly on a smooth manifold $M$. Then the *orbit space* $M/G$ is a topological manifold of dimension equal to $\dim M - \dim G$, and has a unique smooth structure with the property that the quotient map $\pi: M \to M/G$ is a smooth submersion.
+**Quotient Manifold Theorem:** Suppose a Lie group $G$ acts smoothly, freely, and properly on a smooth manifold $M$. Then the *orbit space* $M/G$ is a topological manifold of dimension equal to $\dim M - \dim G$, and has a unique smooth structure with the property that the quotient map $\pi: M \to M/G$ is a smooth submersion. ^d7ed22
+
+**Prop:** Suppose a Lie group acts smoothly on a manifold $M$. Each orbit is an immersed submanifold of $M$.
+
+**Prop:** Suppose a connected Lie group $G$ acts smoothly on a discrete space $K$. Then this action is trivial. 
+
+**Cor:** If $G$ is a connected Lie group, then every discrete normal subgroup of $G$ is central. 
 
 **Prop:** Let $\pi:N \to M$ be a smooth covering map. With the discrete topology, the [[Covering maps#^78c0a4|covering group]] $\mathcal C_\pi(N)$ is a zero dimensional Lie group acting smoothly, freely and properly on $N$. 
 
-**Th:** Suppose $M$ is a connected smooth manifold, and $\Gamma$ is a discrete group acting smoothly, freely and properly on $M$. Then the quotient space $M/\Gamma$ is a topological manifold and has a unique smooth structure such that $\pi: M \to M/\Gamma$ is a [[Smooth Covering Maps|smooth]] [[Covering maps#^06bb5b|normal]] covering map.
+**Th:** Suppose $M$ is a connected smooth manifold, and $\Gamma$ is a discrete group acting smoothly, freely and properly on $M$. Then the quotient space $M/\Gamma$ is a topological manifold and has a unique smooth structure such that $\pi: M \to M/\Gamma$ is a [[Smooth Covering Maps|smooth]] [[Covering maps#^06bb5b|normal]] covering map. ^2c0355

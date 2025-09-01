@@ -4,7 +4,7 @@ tags:
   - Topology
 ---
 Subjects: [[Group Theory]], [[Topology]]
-Links: [[Product Topology]], [[Groups]], [[Continuous Functions and Homeomorphims]], [[Subgroups]], [[Topological Subspaces]], [[Product Topology]], [[Homogeneous Topological Spaces]], [[Topological Indistinguishability]], [[Topological Vector Spaces]]
+Links: [[Product Topology]], [[Groups]], [[Continuous Functions and Homeomorphims]], [[Subgroups]], [[Topological Subspaces]], [[Product Topology]], [[Homogeneous Spaces]], [[Topological Indistinguishability]], [[Topological Vector Spaces]]
 
 **Def:** Let $(G, *)$ be a group. Let $\tau$ be topology on the set $G$. We say that the triple $(G, *, \tau)$ is a *topological group* if the function $\mu: G \times G \to G$ and $\iota: G \to G$, defined as $\mu(x,y) = x* y$ and $\iota(x) = x^{-1}$, are continuous. 
 
@@ -45,7 +45,7 @@ G_\beta \arrow[r, "\iota_\beta"']& G_\beta
 
 **Prop:** We see that for any topological group $(G, *, \tau)$ and any fixed $a\in G$, the $\ell_a(x) =ax$ and $r_a(x) = xa$ are homeomorphisms.
 
-**Prop:** Every topological group is [[Homogeneous Topological Spaces|homogeneous]]. 
+**Prop:** Every topological group is [[Homogeneous Spaces|homogeneous]]. 
 
 **Cor:** If $A$ is a subset of a topological group $G$. If $x$ is an interior point $A$, then there's a an open set $e\in V \in \tau$, such that $xV \subseteq A$. 
 
@@ -66,3 +66,5 @@ G_\beta \arrow[r, "\iota_\beta"']& G_\beta
 **Prop:** Every topological group that is $T_1$ is also $T_2$. 
 
 **Cor:** A topological group that is $T_0$ iff $T_3$.
+
+**Def:** Let $H$ be a subgroup of $G$, where $G$ is a topological group. We know that $G/H$ is the set of all *left cosets modulo $H$*, we can endow $G/H$ with the topology determined by the natural quotient map $\pi: G \to G/H$ sending each element $g\in G$ to its coset. 

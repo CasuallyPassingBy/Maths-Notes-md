@@ -4,9 +4,9 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Group Theory]], [[Differential Geometry]]
-Links: [[Lie Groups]], [[Matrix Representation of Linear Transformations]], [[Automorphism Group]], [[Trace of Matrix]], [[Special Linear Group]]
+Links: [[Lie Groups]], [[Matrix Representation of Linear Transformations]], [[Automorphism Group]], [[Trace of Matrix]], [[Special Linear Group]], [[Topological Connectedness]]
 
-If $V$ is a vector space over the field $F$, the general linear group of $V$ is defined as $\text{GL}(V) := \text{Aut}(V)$
+If $V$ is a vector space over the field $F$, the general linear group of $V$ is defined as $\text{GL}(V) := \text{Aut}(V)$. . This related to the [[automorphism group]] in any category
 
 Let $F$ being an field, and $\text{M}(n, F)$ be the set of all $n \times n$ matrices over the field $F$. Then $\text{GL}(n, F) := \{ A \in \text{M}(n , F) \mid \det A \neq 0\}$. 
 
@@ -47,3 +47,5 @@ b_n^1& a_n^1 & \dots & b_n^n & a^n_n \\
 \end{pmatrix}$$We can see that $\beta$ is an injective Lie group homomorphism whose image is a closed Lie subgroup of $\text{GL}(2n, \Bbb R)$. Thus $\text{GL}(n, \Bbb C)$ is isomorphic to this Lie subgroup of $\text{GL}(2n, \Bbb R)$. 
 
 **Prop:** Let us consider the evaluation map $\varepsilon: \text{Lie}(\text{GL}(n, \Bbb C)) \to T_{I_n} \text{GL}(n, \Bbb C)$, and the usual identification between tangent spaces to an open subset of a vector space and the vector space itself $\varphi: T_{I_n} \text{GL}(n, \Bbb C) \to {\frak gl}(n, \Bbb C)$. The composition of these maps yield a Lie algebra isomorphism between $\text{Lie}(\text{GL}(n, \Bbb C))$ and the matrix algebra ${\frak gl}(n, \Bbb C)$, i.e., $\varphi \circ \varepsilon: \text{Lie}(\text{GL}(n, \Bbb C)) \to {\frak gl}(n, \Bbb C)$ is a Lie algebra isomorphism. 
+
+**Prop:** The connected components of $\text{GL}(n,\Bbb R)$ are $\text{GL}^+(n, \Bbb R)$ and $\text{GL}^-(n, \Bbb R)$.

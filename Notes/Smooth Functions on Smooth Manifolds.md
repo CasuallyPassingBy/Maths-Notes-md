@@ -43,6 +43,8 @@ In this terminology, a function $f$ on $M$ is $\mathcal C^\infty$ on a chart $(U
 
 **Prop:** Let $U$ be an open subset of a manifold $M$ of dimension $n$. If $F:U \to F[U]\subseteq \Bbb R^n$ is a diffeomorphism onto an open subset of $\Bbb R^n$, then $(U, F)$ is a chart in the differentiable structure of $M$. 
 
+**Def:** The set of all diffeomorphisms of the form $\varphi: M \to M$ is called the *diffeomorphism group of $M$* and it is denoted as $\text{Diffeo}(M)$. This related to the [[automorphism group]] in any category.
+
 # Smoothness in Terms of Components
 
 **Prop:** Let $N$ be a manifold and $F:N \to \Bbb R^m$ a continuous map. The following are equivalent:
