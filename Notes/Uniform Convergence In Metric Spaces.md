@@ -19,12 +19,11 @@ The function $f$ is called the _************uniform limit************_ of $(f_k)
 
 Every uniformly convergent sequence of functions is pointwise convergent of sequence of functions.
 
-Let $Z=(Z, d_Z)$ and $X =(X,d_X)$ be metric spaces. If $f_k : Z\to X$ is continuous for all $k \in \Bbb N$ and $(f_k)$ converges uniformly to $f$ in $Z$, then $f: Z \to X$ is continuous.
+Let $Z=(Z, d_Z)$ and $X =(X,d_X)$ be metric spaces. If $f_k : Z\to X$ is continuous for all $k \in \Bbb N$ and $(f_k)$ converges uniformly to $f$ in $Z$, then $f: Z \to X$ is continuous. ^09cab8
 
 Let $(f_k)$ be a sequence in ${\cal B}(S, X)$. Then $(f_k)$ converges uniformly to $f$ in $S$ iff $(f_k)$ converges to $f$ in ${\cal B}(S, X)$.
 
 Let $Z$ and $X$ be metric spaces. The ***_space of continuous and bounded functions from $Z$ to $X$_ is the metric space.
-
 $$ {\cal C}^0_b(Z, X) = \{f:Z \to X\mid f \text{ is continuous and bounded}\} $$
 
 Let $Z$ and $X$ be metric spaces. Then ${\cal C}^0_b(Z, X)$ is closed subspace of ${\cal B}(Z, X)$.
@@ -34,7 +33,6 @@ A compact metric space is complete
 The finite product of complete metric spaces is complete
 
 We can see that if $K$ is a compact metric space, then
-
 $$ {\cal C}^0(K, X) = {\cal C}^0_b(K, X) $$
 
 [[Interchange of Limits|Differentiable Limit Theorem]], is a consequence of the general version uniform convergence.

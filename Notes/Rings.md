@@ -44,4 +44,16 @@ Then $(R, +, \times, 0, 1)$ is a unital ring.
 
 **Obs:** To show that a subsets of a ring $R$ is a subring it suffices to check it is *nonempty* and *closed under subtraction and multiplication*. 
 
-**Prop:** A ring $R$ is called a *Boolean ring* if $a^2 =a$ for all $a\in R$. 
+**Def:** A ring $R$ is called a *Boolean ring* if $a^2 =a$ for all $a\in R$. 
+
+**Obs:** Every Boolean ring is commutative.
+
+Standard examples for rings:
+- [[Integer Numbers]]
+- [[Integers modulo n]]
+Standard examples for fields are:
+- [[Rational Numbers]]
+- [[Real Numbers]]
+- [[Complex Numbers]]
+The most common example of a skew-field is:
+- [[Quaternions]]

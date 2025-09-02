@@ -30,6 +30,7 @@ This notes uses Einstein's summation convention.
 		- [[Spheres in Rn]]
 		- [[Real Projective Space]]
 			- [[Grassmannian Spaces]]
+			- [[Complex Projective Space]]
 - [[Tangent Space for Manifolds]]
 - [[Submersions, Immersions and Embeddings of Manifolds]]
 	- [[Smooth Submanifolds]]
@@ -51,6 +52,9 @@ This notes uses Einstein's summation convention.
 	- [[Lie Algebra of a Lie Group]]
 	- [[Lie Group Actions]]
 		- [[Homogeneous Spaces in the Case of Lie groups]]
+- [[Sets of Measure Zero in Smooth Manifolds]]
+	- [[The Whitney Embedding Theorem]]
+	- [[The Whitney Approximation Theorem]]
 - [[Lie Derivative and Interior Multiplication]]
 - [[Orientations and Covectors]]
 

@@ -17,7 +17,10 @@ Links: [[General Linear Group]], [[Lie Groups]], [[Commutative Ring]], [[Normal 
 **Prop:** $\text{SL}(n, \Bbb C)$ is an embedded $(2n^2-2)$-dimensional Lie subgroup of $\text{GL}(n, \Bbb C)$. 
 
 We can calculate the Lie algebra of $\text{SL}(n,\Bbb R)$ and it is $$\mathfrak {sl}(n, \Bbb R) = \{A \in {\frak gl}(n,\Bbb R) \mid \text{tr}(A) = 0\}. $$
+**Prop:** We can get $\text{SL}(n, \Bbb R)$ is diffeomorphic to $\text{SO}(n) \times \Bbb R^{(n(n+1)/2)-1}$. 
 
 # Special Linear Group over $\Bbb C$
 
 **Prop:** The complex special linear group $\text{SL}(n,\Bbb C)$ is an embedded $(2n^2-2)$-dimensional Lie subgroup of $\text{GL}(n, \Bbb C)$. 
+
+**Prop:** We can get $\text{SL}(n, \Bbb C)$ is diffeomorphic to $\text{SU}(n) \times \Bbb R^{n^2}$. 

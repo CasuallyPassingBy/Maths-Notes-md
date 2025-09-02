@@ -3,22 +3,14 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Real Projective Space]], [[The Rank of a Matrix and Matrix Inverses]], [[Continuous Actions of Groups]], [[Multi-index notation]]
+Links: [[Real Projective Space]], [[The Rank of a Matrix and Matrix Inverses]], [[Continuous Actions of Groups]], [[Multi-index notation]], [[Lie Group Actions]], [[General Linear Group]]
 
-**Def:** The Grassmannian $G(k, n)$ is the set of all $k$-planes through the origin of $\Bbb R^n$. Such a $k$-plane is a linear subspace of dimension $k$ of $\Bbb R^n$ and has a basis consisting of $k$ linearly independent vectors $a_1, \dots, a_k \in \Bbb R^n$. It is therefore completely specified by an $n\times k$ matrix $A = [a_1, \dots, a_k]$ of rank $k$. 
+**Def:** Let $V$ be an $n$-dimensional real vector space. For any integer $0 \le k \le n$, we let $\text G_k(V)$ denote the set of all $k$-dimensional linear subspaces of $V$. We will show that $\text G_k(V)$ can be naturally given the structure of a smooth manifold of dimension $k(n-k)$. 
 
-Two bases $a_1, \dots, a_k$ and $b_1, \dots, b_k$ determine the same $k$-plane if there is a change of basis matrix $G \in \text{GL}(k, \Bbb R)$ such that: $B = AG$, where$A = [a_1, \dots, a_k]$ and $B = [b_1, \dots, b_k]$. 
+Let $\text G_k(\Bbb R^n)$ denote the Grassmanian of $k$-dimensional subspaces of $\Bbb R^n$. The general linear group acts transitively on $\text G_k(\Bbb R^n)$: Given two subspaces $A$ and $B$, choose bases for both subspaces and extend them to bases for $\Bbb R^n$, and then linear transformation taking the first basis to the second also takes $A$ to $B$. Now we would like to calculate the stabiliser of the subspace $\Bbb R^k \subset \Bbb R^n$. We get that $$\text{Stab}(\Bbb R ^k) = \left\{\left.\begin{pmatrix} A & B \\ 0 & D \end{pmatrix}\; \right\rvert \; A \in \text{GL}(k, \Bbb R), D \in \text{GL}(n-k.\Bbb R), B \in \mathcal M_{k \times (n-k)}(\Bbb R)\right\},$$which is easily seen to be a closed Lie group of $\text{GL}(n, \Bbb R)$. Therefore $\text G_k (\Bbb R^n)$ has a unique smooth manifold structure making the natural $\text{GL}(n, \Bbb R)$ action smooth.
 
-**Def:** Let $F(k, n)$ be the set of all $n\times k$ matrices of rank $k$, with the topology as subspace of $\Bbb R^{n\times k}$, and $\sim$ the equivalence relation: $$A \sim B \iff \exists G\in \text{GL}(k, \Bbb R) [ B= AG]$$In the notation. From this [[The Rank of a Matrix and Matrix Inverses#^82654b|corollary]], we get that $F(k, n)$ is an open subset of $\Bbb R^{n\times k}$. There is a bijection between $G(k, n)$ and the quotient space $F(k, n)/ \text{GL}(k, \Bbb R)$. We give the Grassmannian $G(k, n)$ the quotient topology $F(k, n)/ \text{GL}(k, \Bbb R)$. 
+With the proof above, we see that for any $V$ an $n$-dimensional real vector space and $0\le k \le n$, then $\text G_k(V)$ is a has a unique smooth structure. The smooth manifold $\text G_k(V)$ is called the *Grassmanian manifold* of $k$-planes in $V$, or simply a *Grassmanian*. In the special case $V= \Bbb R^n$, the Grassmanian $\text G_k(\Bbb R^n)$ is often denoted by the simpler notation $\text G_{k, n}$ or $\text G(k, n)$. We get that $\text G_1(\Bbb R^{n+1})$ is exactly the $n$-dimensional projective space $\Bbb {RP}^n$. 
 
-**Obs:** Since $\text{GL}(k, \Bbb R)$ is a topological group and has a continuous action on $F(k, n)$, then the equivalence relation is open. Then $G(k, n)$ is second countable. 
+**Prop:** Let $V$ be a finite dimensional real vector space, then the Grassmanian $\text G_k(V)$ is a compact for each $k$. This is because we can do a very similar trick as above, but instead of $\text{GL}(n,\Bbb R)$ acting transitively and smooth smoothly we consider $\text O(n)$. 
 
-**Prop:** Mimicking the the proof the real projective space, we have that $G(k, n)$ is $T_2$. 
-
-Let $I$ be a strictly ascending multi-index $1 \le i_1 < \dots< i_k \le n$, and for $A\in F(k ,n)$, let $A_I$ be the $k\times k$ submatrix of $A$ consisting of the $i_1$th, $\dots$, $i_k$th rows of $A$. We define $$V_I := \{A \in F(k, n) \mid \det A_I \neq 0\}$$
-We get that $\{V_I \mid I\text{ stricly ascending mult-index of lenght }k\}$ is an open cover of $F(k, n)$.
-- If $A \in V_I$, then for any $G \in \text{GL}(k, \Bbb R)$ then $AG \in V_I$.
-
-We define $U_I = V_I /\sim$, is an open subset of $G(k, n)$. We define the function $\tilde \phi_I: V_I \to \Bbb R^{(n-k)\times k}$ by $$\tilde \phi_I(A) = (A A_I^{-1})_{I'}$$where $(\;\;)_{I'}$ denotes $(n-k) \times k$ sub-matrix from the complement of $I'$ of the multi-index $I$. Then $\tilde \phi_I$ induces a homeomorphism $\phi_I: U_I \to \Bbb R^{(n-k)\times k}$. We see that $\{U_I \mid  I\text{ stricly ascending mult-index of lenght }k\}$ is an open cover of $G(k, n)$. Then the $\{(U_I, \phi_I) \mid  I\text{ stricly ascending mult-index of lenght }k\}$ is a $\mathcal C^\infty$ atlas for $G(k, n)$. Therefore the Grassmannian $G(k, n)$ is a $\mathcal C^\infty$ manifold of dimension $k(n-k)$. 
-
-We see that the $\Bbb {RP}^n = G(1, n+1)$. 
+**Prop:** The set of $k$-dimensional complex linear subspaces of $\Bbb C^n$ is denoted by $\text G_k(\Bbb C^n)$. We get that $\text G_k(\Bbb C^n)$ is a compact smooth manifold making it into a compact homogeneous $\text U(n)$-space, and its dimension is $k(n-k)$. 

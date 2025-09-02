@@ -30,6 +30,8 @@ Let $G$ be a Lie group. For any $g \in G$, the conjugation map $C_g: G \to G$ gi
 
 $(*)$ **Ado's Theorem:** Every finite-dimensional Lie algebra admits a faithful finite-dimensional representation.
 
+## Quotients of Manifolds by Group Actions
+
 **Equivariant Rank Theorem:** Let $M$ and $N$ be smooth manifolds and let $G$ be a Lie group. Suppose $F: M \to N$ is a smooth map that is equivariant with respect to a transitive smooth $G$-action on $M$ and any smooth $G$-action on $N$. Then $F$ has constant rank. In particular, its level sets are closed embedded submanifolds of $M$. 
 
 This is a consequence of the [[Submersions, Immersions and Embeddings of Manifolds#^815841|Constant Rank Theorem]].
@@ -46,6 +48,21 @@ This is a consequence of the [[Submersions, Immersions and Embeddings of Manifol
 
 **Cor:** If $G$ is a connected Lie group, then every discrete normal subgroup of $G$ is central. 
 
+**Prop:** Given that $\pi: \tilde G\to G$ is a universal covering map, then the covering group $\mathcal C_\pi(\tilde G)$ is isomorphic to $\pi_1(G, e)$. Then we can prove that the fundamental group of a connected Lie group is abelian.
+
 **Prop:** Let $\pi:N \to M$ be a smooth covering map. With the discrete topology, the [[Covering maps#^78c0a4|covering group]] $\mathcal C_\pi(N)$ is a zero dimensional Lie group acting smoothly, freely and properly on $N$. 
 
 **Th:** Suppose $M$ is a connected smooth manifold, and $\Gamma$ is a discrete group acting smoothly, freely and properly on $M$. Then the quotient space $M/\Gamma$ is a topological manifold and has a unique smooth structure such that $\pi: M \to M/\Gamma$ is a [[Smooth Covering Maps|smooth]] [[Covering maps#^06bb5b|normal]] covering map. ^2c0355
+
+**Cor:** Let $\pi: N \to M$ be a smooth normal covering map, then $M$ is diffeomorphic to the quotient manifold $N/\mathcal C_\pi(N)$. 
+
+**Prop:** Let $M$ be a smooth manifold, and let $\pi: E \to M$ be a smooth vector bundle over $M.$ Suppose $\Gamma$ is a discrete group acting smoothly, freely and properly on both $E$ and $M$. Suppose further that $\pi$ is $\Gamma$-equivariant, and each $p\in M$ and each $g\in \Gamma$, the map $E_p$ to $E_{g\cdot p}$ is given by $v \mapsto g \cdot v$ is linear. Then $E/\Gamma$ can be given the structure of a smooth vector bundle over $M/\Gamma$ un such a way that the following diagram commutes:
+```tikz
+\usepackage{tikz-cd}
+\begin{document}
+\begin{tikzcd}
+E \arrow{r}\arrow{d}& E/\Gamma \arrow{d} \\
+M \arrow{r}& M/\Gamma
+\end{tikzcd}
+\end{document}
+```

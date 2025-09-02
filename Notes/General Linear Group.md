@@ -49,3 +49,5 @@ b_n^1& a_n^1 & \dots & b_n^n & a^n_n \\
 **Prop:** Let us consider the evaluation map $\varepsilon: \text{Lie}(\text{GL}(n, \Bbb C)) \to T_{I_n} \text{GL}(n, \Bbb C)$, and the usual identification between tangent spaces to an open subset of a vector space and the vector space itself $\varphi: T_{I_n} \text{GL}(n, \Bbb C) \to {\frak gl}(n, \Bbb C)$. The composition of these maps yield a Lie algebra isomorphism between $\text{Lie}(\text{GL}(n, \Bbb C))$ and the matrix algebra ${\frak gl}(n, \Bbb C)$, i.e., $\varphi \circ \varepsilon: \text{Lie}(\text{GL}(n, \Bbb C)) \to {\frak gl}(n, \Bbb C)$ is a Lie algebra isomorphism. 
 
 **Prop:** The connected components of $\text{GL}(n,\Bbb R)$ are $\text{GL}^+(n, \Bbb R)$ and $\text{GL}^-(n, \Bbb R)$.
+
+**Prop:** We can ge that $\text{GL}(n,\Bbb R)$ is diffeomorphic to $\text O(n) \times \text T^+(n, \Bbb R)$, where $\text T^+(n, \Bbb R)$ is the Lie group of $n\times n$ upper triangular real matrices with positive diagonal entries. In particular, we get the diffeomorphism $\text{GL}(n,\Bbb R) \cong \text{SO}(n) \times \text T^+(n, \Bbb R)$. 

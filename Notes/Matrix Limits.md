@@ -23,7 +23,6 @@ $$ \lim_{n\to \infty} PA_n = PL \text{ and } \lim_{n\to\infty}A_n Q=LQ $$
 $$ \lim_{n\to\infty} (QAQ^{-1})^n = QLQ^{-1} $$
 
 $(*)$ Let $A$ be a square matrix with complex entries. Then $\lim_{n\to \infty} A^n$ exists iff
-
 - Every eigenvalue of $A$ is of the form $\lambda =1$ or $|\lambda | <1$
 - If $1$ is an eigenvalue of $A$, then the dimension of the eigenspace corresponding to $1$ equals the multiplicity of $1$ as an eigenvalue of $A$.
 
@@ -32,7 +31,6 @@ This theorem depends on the theory of Jordan canonical forms, or in the use of S
 A weaker form of the theorem:
 
 Let $A \in \cal M_n(\mathbb C)$ such that:
-
 - Every eigenvalue of $A$ is of the form $\lambda =1$ or $|\lambda | <1$
 - $A$ is diagonalizable
 

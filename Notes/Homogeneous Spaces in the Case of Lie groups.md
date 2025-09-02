@@ -34,11 +34,9 @@ This theorem shows that the study of homogeneous spaces can be reduced to the pr
 
 **Prop:** If $G$ is a connected Lie group and $\Gamma \le G$ is a discrete subgroup, then the quotient map $\pi: G \to G/\Gamma$ is a smooth covering map.
 
-**Prop:** The image of a Lie group homomorphism is a Lie group
-
 **Prop:** Suppose $G$ is a Lie group.
 - If $K\subseteq G$ is a closed normal Lie group, then $G/K$ is a Lie group and the quotient map $\pi: G \to G/K$ is a Lie group homomorphism.
-- If $F: G \to H$ is a Lie group homomorphism, then $F$ descends to a Lie group isomorphism $\tilde F: G/\ker F \to \text{Im}(F)$. 
+- If $F: G \to H$ is a surjective Lie group homomorphism, then $F$ descends to a Lie group isomorphism $\tilde F: G/\ker F \to H$. 
 
 Meaning that we get that the true analogue of a normal subgroup for Lie groups is actually just closed normal Lie subgroups, and now we get an analogue of [[Group Homomorphisms and Isomorphisms#^ff5e58|Noether's First Isomorphism Theorem]] but for Lie groups.
 
@@ -48,8 +46,12 @@ Meaning that we get that the true analogue of a normal subgroup for Lie groups i
 - The induced Lie algebra homomorphism $F_*: \frak g \to h$ is an isomorphism.
 - $F$ is a local diffeomorphism.
 
-**Prop:** Suppose $X$ is a set, and we are given a transitive action of a Lie group $G$ on $X$ such that the stabiliser group of a point $p\in X$ is a closed Lie subgroup of $G$. Then $X$ has a unique smooth manifold structure such that the given structure is smooth. 
+**Prop:** Suppose $X$ is a set, and we are given a transitive action of a Lie group $G$ on $X$ such that the stabiliser group of a point $p\in X$ is a closed Lie subgroup of $G$. Then $X$ has a unique smooth manifold structure such that the given action is smooth.
 
 Meaning that we can give a set a smooth structure if there's a nice enough action from a Lie group. 
+
+**Prop:** The image of a Lie group homomorphism is a Lie group.
+
+**Cor:** Suppose $G$ and $H$ are Lie groups. If $F: G \to H$ is a Lie group homomorphism, then $F$ descends to a Lie group isomorphism $\tilde F: G/\ker F \to \text{Im} (F)$. 
 
 **Prop:** Suppose a  Lie group $G$ acts smoothly, freely, and properly on a manifold $M$. If $G$ and $M/G$ are connected, then $M$ is connected.

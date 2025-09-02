@@ -12,7 +12,7 @@ If the field is not specified, then $F = \Bbb R$.
 
 **Def:** The special orthogonal subgroup $\text{SO}(n, F)$ is the set of orthogonal matrices with unit determinant, $\text{SO}(n, F) = \text{O}(n ,F)\cap \text{SL}(n, F)$.
 
-**Def:** We can define its Lie algebra of the orthogonal group as $${\frak o}(n):= \{B\in {\frak gl}(n,\Bbb R) \mid B^\top + B = 0\}$$
+**Def:** We can define its Lie algebra of the orthogonal group as $${\frak o}(n):= \{B\in {\frak gl}(n,\Bbb R) \mid B^\top + B = 0\}$$If we additionally define ${\frak so}(n) := {\frak o}(n) \cap {\frak sl}(n,\Bbb R)$, then we see that ${\frak so}(n) = {\frak o}(n)$. 
 # Real Orthogonal Group
 
 **Prop:** $\text{O}(n)$ is a real compact Lie group of dimension $n(n-1)/2$, and it is an embedded Lie subgroup of $\text{GL}(n, \Bbb R)$. 

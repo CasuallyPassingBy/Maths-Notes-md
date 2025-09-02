@@ -15,6 +15,7 @@ Analysis:
 - Measure Theory (Halmos, Bogachev I/II)
 - Differential Geometry (Lee "Introduction to Smooth Manifolds" & Tu "Introduction to Manifolds")
 - Functional Analysis (Megginson)
+- Kurzweil-Henstock Integral (Bartle 'A Modern Theory of Integration')
 Probability:
 - Stochastic Process (Ross & UNAM)
 - Stochastic Calculus (Øskendal)

@@ -11,11 +11,10 @@ $$ d_X(f_n(z) , f_m(z)) < \varepsilon \qquad \forall z \in S $$
 
 ### Cauchy criterion for uniform convergence
 
-Let $X$ be a complete metric space. A sequence of functions $f_k :S \to X$, with $k \in \Bbb N$, converges uniformly on $S$ iff $(f_k)$ is uniformly Cauchy on $S$
+Let $X$ be a complete metric space. A sequence of functions $f_k :S \to X$, with $k \in \Bbb N$, converges uniformly on $S$ iff $(f_k)$ is uniformly Cauchy on $S$ ^3614fa
 
 Let $S$ be a set and $Z$ be a metric space:
-
-- If $X$ is a complete metric space, then ${\cal B}(S, X)$ and ${\cal C}^0_b(Z, X)$ are complete
+- If $X$ is a complete metric space, then ${\cal B}(S, X)$ and ${\cal C}^0_b(Z, X)$ are complete ^592bfd
 - If $V$ is a Banach space, then ${\cal B}(S, V)$ and ${\cal C}^0_b(Z, V)$ are Banach spaces
 
 We get that ${\cal C}^0(K, X)$ is complete if $X$ is complete

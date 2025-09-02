@@ -29,7 +29,7 @@ Assume that $f_n \rightarrow f$, and $\exists K> 0\forall n \in \mathbb{N} (|f_n
 
 $$ \lim_{n\to\infty}\int_If_n = \int_If $$
 
-### **Moore-Osgood Theorem***
+### Moore-Osgood Theorem*
 Let $a \in \Bbb R$ and the sequence of functions $f_n \rightrightarrows f$ on $X \setminus\{a\}$, and $\lim_{x\to a} f_n(x) = L_n$ exists for large $n\in \Bbb R$, then both $\lim_{n\to\infty} L_n$ and $\lim_{x\to a}f(x)$ exist and are equal, i.e.
 
 $$ \lim_{n\to\infty}\lim_{x\to a}f_n(x) = \lim_{x\to a}\lim_{n\to\infty}f_n(x) $$

@@ -14,6 +14,7 @@ An important examples are:
 - [[Torus in Rn]]
 - [[General Linear Group]]
 - [[Special Linear Group]]
+- [[Upper Triangular Matrices]]
 - [[Orthogonal Group]]
 - [[Unitary Group]]
 - [[symplectic group]]

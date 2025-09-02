@@ -14,6 +14,7 @@ We have all the subjects:
 - [[Category Theory]]
 ## Analysis
 - [[Real Analysis]]
+	- [[Kurzweil-Henstock Integral]]
 - [[Vector Analysis]]
 - [[Metric and Normed Spaces]]
 - [[Complex Analysis]]

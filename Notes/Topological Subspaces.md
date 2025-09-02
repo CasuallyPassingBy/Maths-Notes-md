@@ -71,3 +71,5 @@ For any continuous mapping $f: X \to Y$ and a subspace $M$ of $X$, the compositi
 **Prop:** If $\{F_\alpha: \alpha < \kappa\}$ is a locally finite closed cover of a space $X$ and $\{f_\alpha: F_\alpha \to Y\mid \alpha < \kappa\}$ a family of compatible continuous functions, then the combination $\bigcup_{\alpha < \kappa} f_\alpha: X \to Y$ is a continuous function.
 
 **Prop:** Suppose we are given a topological space $X$, a cover $\{A_\alpha : \alpha < \kappa\}$ of the space $X$ and a family $\{f_\alpha: A_\alpha \to Y\}$ of a compatible functions, such that the combination $f = \bigcup_{\alpha < \kappa} f_\alpha: X \to Y$ is continuous. If all mappings $f_\alpha$ are open (closed an the family $\{f_\alpha[A_\alpha] : \alpha < \kappa\}$ is locally finite), then the combination $f$ is open (closed).
+
+**Def:** A *retraction* of a topological space $X$ onto a subspace $Y\subseteq X$ is a continuous map $r:X \to Y$ such that $r|_Y$ is the identity map of $Y$. ^c8b9b2

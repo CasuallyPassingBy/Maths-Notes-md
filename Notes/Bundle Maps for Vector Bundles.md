@@ -22,7 +22,6 @@ M \arrow{r}{f}& N
 When both $\tilde f$ and $f$ are smooth we say that it is a *smooth bundle map*. We often refer to $\tilde f$ as a *bundle map*, and say that $\tilde f$ covers $f$. A bijective bundle map $\tilde f: E \to F$ whose inverse is also a bundle map is called a *bundle isomorphism*; if $F$ is also a diffeomorphism, it is called a *smooth bundle isomorphism* If there exists a (smooth bundle) isomorphism between $E$ and $F$, the two bundles are said to be *(smoothly) isomorphic*. 
 
 In the spacial case in which $E$ and $F$ are vector bundles over the same base manifold $M$, we require a more restrictive notion. A *bundle map over $M$* is a bundle map covering the identity of $M$, in other words, a continuous map $f: E \to F$ such that $\pi_F \circ f = \pi_E$, 
-
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
@@ -32,7 +31,6 @@ E \arrow{rr}{f} \arrow{dr}{\pi_E}&& F \arrow{dl}{\pi_F} \\
 \end{tikzcd}
 \end{document}
 ```
-
 and whose restriction to each fiber is linear. If $f: E \to F$ is a bundle map over $M$ that is also a (smooth) bundle isomorphism, then we say that $E$ and $F$ are *(smoothly) isomorphic over $M$.*
 
 The collection of all vector bundles together with bundle maps between them forms a [[Categories and Functors|category]].

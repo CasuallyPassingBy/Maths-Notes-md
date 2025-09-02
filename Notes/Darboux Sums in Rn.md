@@ -19,7 +19,7 @@ $$ m(R) = \prod_{i = 1}^n (b_i -a_i) $$
 
 will be called the measure of $R$. In the case that $m(R)>0$, then $R$ is called **non-degenerate.**
 
-**********Def:********** Let $R = \prod_{i = 1}^n[a_i, b_i]$. If $\mathcal P_i$ is a partition of the interval $[a_i, b_i]$, for each $1 \le i \le n$, we say that
+**Def:** Let $R = \prod_{i = 1}^n[a_i, b_i]$. If $\mathcal P_i$ is a partition of the interval $[a_i, b_i]$, for each $1 \le i \le n$, we say that
 
 $$ \cal P = \prod_{i = 1}^n P_i $$
 

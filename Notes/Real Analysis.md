@@ -9,6 +9,7 @@ Real Analysis is the study of real numbers and real-valued functions. I am mainl
 
 # Topics
 - [[Real Numbers]]
+	- [[Real Induction]]
 - [[Limits of a Sequence in R]]
 	- [[Properties of Limits of Sequences in R]]
 	- [[Cesàro Convergence]]
@@ -27,7 +28,7 @@ Real Analysis is the study of real numbers and real-valued functions. I am mainl
 	- [[Riemann Integrals in R Properties]]
 	- [[The Fundamental Theorem of Calculus]]
 	- [[Differentiation under the integral sign]]
-	- [[Lebesgue Criterion]]
+	- [[Sets of Measure Zero in Rn]]
 	- [[Improper Integrals in R]]
 	- [[Cauchy Principal Value in R]]
 	- [[Approximations of the Riemann Integral in R]]
