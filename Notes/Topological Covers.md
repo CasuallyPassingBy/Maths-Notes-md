@@ -11,7 +11,7 @@ We also say that a cover is locally finite if it is a cover and it is [[Special 
 
 **Def:** Let $\cal C$ is a cover of $X$. A *subcover of $\cal C$* is a subset $\cal D \subseteq C$ such that $\cal D$ is also a cover of $X$. We say that a subcover is finite if it is a finite subset of $\cal C$. 
 
-**Def:** A *refinement* of a cover $\cal C$ of a topological space is a new cover $\cal D$ of $X$ such that every set in $\cal D$ is contained in some set in $\cal C$. Formally $\mathcal D :=\{V_\beta \mid \beta<\lambda\}$ is refinement of $\cal C := \{U_\alpha \mid \alpha<\kappa\}$ if for all $\beta< \lambda$ there exists an $\alpha<\kappa$ such that $V_\beta\subseteq U_\alpha$. Nagata denotes this as $\mathcal D < \mathcal C$. 
+**Def:** A *refinement* of a cover $\cal C$ of a topological space is a new cover $\cal D$ of $X$ such that every set in $\cal D$ is contained in some set in $\cal C$. Formally $\mathcal D :=\{V_\beta \mid \beta<\lambda\}$ is refinement of $\cal C := \{U_\alpha \mid \alpha<\kappa\}$ if for all $\beta< \lambda$ there exists an $\alpha<\kappa$ such that $V_\beta\subseteq U_\alpha$. Nagata denotes this as $\mathcal D < \mathcal C$. We can also consider a special kind of refinement, we say that $\mathcal D := \{V_\alpha \mid \alpha < \kappa\}$ is a *precise refinement* of $\cal C$ if $V_\alpha \subseteq U_\alpha$ for every $\alpha< \kappa$. 
 
 If we drop the requirement for $\cal C$ and $\cal D$ to be covers, but still have the property that for each element $D\in \cal D$ there's a $C \in \cal C$ such that $D \subseteq C$, then we say that $\cal D$ is *inscribed in $\cal C$.*
 

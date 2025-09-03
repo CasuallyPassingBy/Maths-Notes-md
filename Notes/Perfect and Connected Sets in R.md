@@ -3,7 +3,7 @@ tags:
   - RealAnalysis
 ---
 Subjects: [[Real Analysis]]
-Links: [[Open and Closed Sets in R]]
+Links: [[Open and Closed Sets in R]], [[Topological Connectedness]]
 
 ## Perfect Sets
 

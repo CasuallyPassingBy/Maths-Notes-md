@@ -3,7 +3,7 @@ tags:
   - FunctionalAnalysis
 ---
 Subjects: [[Functional Analysis]]
-Links: [[Normed Vector Spaces]], [[Bounded Linear Operators]], [[Continuous Functions and Homeomorphims#^7182de|Open Functions]]
+Links: [[Normed Vector Spaces]], [[Bounded Linear Operators]], [[Open and Closed Functions]]
 
 **Def:** A *seminorm* or *prenorm* on a vector space $X$ is real valued function $p:X \to \Bbb R$ such that the following conditions are satisfies by all $x, y \in X$ and $\alpha \in \Bbb F$.
 - $p(\alpha x) = |\alpha| p(x).$

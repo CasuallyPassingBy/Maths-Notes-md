@@ -62,7 +62,8 @@ is compact iff $\dim V <\infty$
 
 $(M, d)$ be a metric space, then the following are equivalent:
 - $(M, d)$ is [[Compactness|compact]]
-- $(M, d)$ is [[Sequentially compactness|sequentially compact]]
+- $(M, d)$ is [[Sequential Compactness|sequentially compact]]
 - $(M, d)$ is [[Complete Metric Spaces|complete]] and [[Total Boundedness|totally bounded]]
 - $(M, d)$ is [[Countable compactness|countably compact]]
+- $(M, d)$ is [[Limit Point Compactness|limit point compact]]
 - $(M, d)$ is [[Psuedocompactness|pseudocompact]]

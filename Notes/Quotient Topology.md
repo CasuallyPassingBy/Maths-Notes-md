@@ -46,3 +46,40 @@ X \arrow[dr,"q = h\circ f"'] \arrow[r, "f"] & (Y, \tau_f) \arrow[d, "h", "\cong"
 \end{tikzcd}
 \end{document}
 ```
+
+**Passing to the Quotient:** Suppose $q:X \to Y$ is a quotient map, $Z$ is a topological space, and $f:X \to Z$ is any continuous that is constant on the fibres of $q$. Then there exists a unique continuous map $\tilde f:Y \to Z$ such that $f = \tilde f\circ q$
+```tikz
+\usepackage{tikz-cd} 
+\begin{document} 
+\begin{tikzcd}
+X \arrow[dr,"f"'] \arrow[r, "q"] & Y \arrow[d,dashed, "\tilde f"] \\ 
+& Z
+\end{tikzcd}
+\end{document}
+```
+In this situation, we say that $f$ *passes to the quotient* or *descends to the quotient*. 
+
+**Prop:** Suppose $P$ is a second countable space and $M$ is a quotient space of $P$. If $M$ is locally euclidean, then it is second countable. Thus if $M$ is locally Euclidean and $T_2$, then it is a manifold. 
+
+**Prop:** Suppose $q:X \to Y$ is an open quotient map. Then $Y$ is Hausdorff iff the set $\{(x_1, x_2)\in X \times X \mid q(x_1) = q(x_2)\}$ is closed in $X\times X$
+
+**Cor:** Suppose $\sim$ is an equivalence relation on a space $X$. If the quotient map $X \to X/\sim$ is an open map, then $X/\sim$ is Hausdorff iff $\sim$ is closed in $X\times X$. 
+
+**Def:** Suppose $q:X \to Y$ is a map. A subset $U \subseteq X$ is said to be *saturated with respect to $q$* if $U = q^{-1}[V]$ for some $V\subseteq Y$.
+
+**Prop:** Let $q:X \to Y$ be any map. For any subset $U \subseteq X$. the following are equivalent:
+- $U$ is saturated
+- $U = q^{-1}[q[U]]$
+- $U$ is the union of fibres
+- if $x\in U$, then every point $y\in X$ such that $q(x) = q(y)$ is also in $U$.
+
+**Prop:** A continuous surjective map $q:X \to Y$ is quotient map iff it takes saturated open sets to open subsets, or saturated closed subsets to closed sets.
+
+**Properties of Quotient Maps:**
+- Any composition of quotient maps is a quotient maps.
+- An injective quotient map is a homeomorphism.
+- If $q:X \to Y$ is a quotient map, a subset $K \subseteq Y$ is closed iff $q^{-1}[K]$ is closed in $X$.
+- If $q:X \to Y$ is a quotient map and $U\subseteq X$ is a saturated open or closed subsets, then the restriction $q|_U: U \to q[U]$ is a quotient map.
+- If $\{q_\alpha:X_\alpha \to Y_\alpha \mid \alpha < \kappa\}$ is an indexed family of quiteint maps, then the map $q: \coprod_{\alpha < \kappa} X_\alpha \to\coprod_{\alpha < \kappa} Y_\alpha$ whose restriction to each $X_\alpha$ is equal to $q_\alpha$ is a quotient map.
+
+**Prop:** If $q:X\to Y$ is a surjective continuos maps that is also open or closed, then it is a quotient map. 

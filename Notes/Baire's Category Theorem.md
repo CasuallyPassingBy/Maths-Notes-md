@@ -24,11 +24,13 @@ Every Borel set of a topological space $X$ is nearly open.
 
 We have that a space $X$ is of second category in itself, iff for every sequence $\{U_n \mid n \in \Bbb N\}$ of open and dense subsets of $X$, we have that $\bigcap \{U_n \mid n \in \Bbb N\}\ne \varnothing$ 
 
-## Baire's Category Theorem for Metric Spaces
+We say that a topological space $X$ is a *Baire space* if for every sequence of open and dense sets $\{U_n \mid n \in \Bbb N\}$ , we have that $\bigcap \{U_n \mid n \in \Bbb N\}$ is dense in $X$.
+
+**Prop:** In a Baire space, every meagre subset has dense complement. 
+
+# Baire's Category Theorem for Metric Spaces
 
 Let $X$ be a complete metric space and $\{A_n \mid n \in \Bbb N\}$ be a sequence of nowhere dense sets on $X$. Then we can see that $X\setminus \bigcup \{A_n \mid n \in \Bbb N\}$ is dense in $X$
-
-We say that a topological space $X$ is a *Baire space* if for every sequence of open and dense sets $\{U_n \mid n \in \Bbb N\}$ , we have that $\bigcap \{U_n \mid n \in \Bbb N\}$ is dense in $X$.
 
 Every Baire space is of the second category
 
@@ -37,6 +39,13 @@ Every complete metric space is a Baire space
 Every complete metric space is of the second category
 
 Let $X$ be a Baire space iff for every countable family of dense sets $\{G_n \mid n \in \Bbb N\}$ that are $G_\delta$ on $X$, we have that $\bigcap \{G_n \mid n \in \Bbb N\}$ is a dense subset of $X$.
+
+
+# Locally Compact $T_2$ spaces
+
+Every locally compact $T_2$ space is Baire space.
+
+## Consequences in $\Bbb R$ 
 
 We have that the set $\Bbb Q$ is not a $G_\delta$ subset on the metric of $\Bbb R$
 
@@ -47,3 +56,4 @@ We have that the set $\Bbb Q$ is not a $G_\delta$ subset on the metric of $\Bbb 
 **Cor:** The collection of all members of $\mathcal C[0, 1]$ that are not differentiable anywhere on $(0, 1)$ is of the second category in $\mathcal C[0, 1]$.
 
 **Th:** No Banach space has a countably infinite vector space basis. 
+

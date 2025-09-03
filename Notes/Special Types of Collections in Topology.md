@@ -7,6 +7,8 @@ Links: [[Topological Spaces]], [[Topological Covers]]
 
 **Def:** A family $\{A_\alpha \mid \alpha < \kappa\}$ of subsets of a topological space $X$ is *locally finite (locally countable)* if for every point $x\in X$ there exists a neighbourhood such that the set $\{\alpha < \kappa \mid U \cap A_\alpha\}$ is finite (countable). If every point $x \in X$ has a neighbourhood that intersects at most one set of a given family, then we say that the family is *discrete*. 
 
+**Def:** An indexed family $(U_\alpha\mid \alpha<\kappa)$ of subsets of a topological space $X$ is said to be a *locally finite family* if each point of $X$ has a neighbourhood that intersects $U_\alpha$ for at most finitely many values of $\alpha$. If this is the case the family $\{U_\alpha \mid \alpha< \kappa\}$ is also locally finite.
+
 **Obs:** A discrete family, as well as any finite family, is locally finite. 
 
 **Def:** A family $\{A_\alpha \mid \alpha < \kappa\}$ of subsets of a set $X$ is called *point-finite/point-countable* if for every $x\in X$ the set $\{\alpha <\kappa\mid x\in A_\alpha\}$ is finite/countable. 

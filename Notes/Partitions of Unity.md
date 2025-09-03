@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Paracompacteness]], [[Metrizable Spaces]]
+Links: [[Paracompacteness]], [[Metrizable Spaces]], [[Topological Manifolds]], [[Fully Normal Spaces]]
 
 **Def:** A family $\{f_\alpha : X \to [0, 1] \mid \alpha < \kappa\}$  of continuous functions from the space $X$ is called a *partition of unity*on the space $X$ if $$ \sum_{\alpha < \kappa} f_\alpha (x) =  1$$ for every $x\in X$. 
 
@@ -24,3 +24,5 @@ Note that for even that a partition of unity to exists for each $x\in X$ the set
 **Prop:** If $\cal U$ be a normal cover of a topological space $X$, then $\cal U$ has a $\sigma$-discrete open refinement.
 
 **Prop:** If a cover $\cal U$ of a topological space $X$ has a $\sigma$-locally finite open refinement consisting of cozero sets, then $\cal U$ is a normal cover.
+
+**Embeddability of Compact Manifolds:** Every compact manifold is homeomorphic toa subset of some Euclidean space.

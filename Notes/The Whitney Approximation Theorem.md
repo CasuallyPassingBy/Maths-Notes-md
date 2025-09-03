@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Sets of Measure Zero in Smooth Manifolds]], [[The Whitney Embedding Theorem]]
+Links: [[Sets of Measure Zero in Smooth Manifolds]], [[The Whitney Embedding Theorem]], [[Fundamental Group of a Topological Space]]
 
 **Def:** If $\delta: M \to\Bbb R$ is a positive continuous function, we say that two functions $F, G: M \to \Bbb R^k$ are *$\delta$-close* if $\|F(x)- G(x)\| <\delta (x)$ for all $x\in M$. This notion of $\delta$-close reminds to have a $\delta$-fine partition for the [[Henstock–Kurzweil Integral]].
 
@@ -29,3 +29,4 @@ A *tubular neighbourhood of $M$* is a neighbourhood $U$ of $M$ in $\Bbb R^n$ tha
 
 ## Smooth Approximation of Maps Between Manifolds
 
+**Whitney Approximation on Manifolds:** Let $N$ and $M$ be smooth manifolds, and let $F:N \to M$ be a continuous map. Then $F$ is homotopic to a smooth map $\tilde F: N \to M$. If $F$ is smooth on a closed subset $A\subseteq N$, then the homotopy can be taken relative to $A$. 

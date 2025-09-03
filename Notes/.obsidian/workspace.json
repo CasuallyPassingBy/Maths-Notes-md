@@ -4,71 +4,86 @@
     "type": "split",
     "children": [
       {
-        "id": "3dfd932889cac1de",
+        "id": "15b21c38b04b7694",
         "type": "tabs",
         "children": [
           {
-            "id": "f044a0106cbdc3c7",
+            "id": "10bf54aae657511a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Central Hub.md",
+                "file": "Topology.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Central Hub"
+              "title": "Topology"
             }
           },
           {
-            "id": "c44aba943cdec1b1",
+            "id": "309b2eda90dbcd7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry.md",
+                "file": "Compactness-Type Properties.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Differential Geometry"
+              "title": "Compactness-Type Properties"
             }
           },
           {
-            "id": "0a7bdf364cba315b",
+            "id": "35ab3749a09bd081",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Whitney Approximation Theorem.md",
+                "file": "Topological Manifolds.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Whitney Approximation Theorem"
+              "title": "Topological Manifolds"
             }
           },
           {
-            "id": "efe70fe9bbea245a",
+            "id": "43880125915dfb41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topological Subspaces.md",
+                "file": "Partitions of Unity.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Topological Subspaces"
+              "title": "Partitions of Unity"
+            }
+          },
+          {
+            "id": "062ea6eb0998121d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fully Normal Spaces.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Fully Normal Spaces"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -153,17 +168,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Whitney Approximation Theorem.md",
+                "file": "Fully Normal Spaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for The Whitney Approximation Theorem"
+              "title": "Backlinks for Fully Normal Spaces"
             }
           },
           {
@@ -172,12 +187,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Central Forces in Classical Mechanics.md",
+                "file": "Fully Normal Spaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Central Forces in Classical Mechanics"
+              "title": "Outgoing links from Fully Normal Spaces"
             }
           },
           {
@@ -224,34 +239,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0a7bdf364cba315b",
+  "active": "062ea6eb0998121d",
   "lastOpenFiles": [
-    "Topological Subspaces.md",
-    "The Whitney Approximation Theorem.md",
-    "Differential Geometry.md",
+    "Partitions of Unity.md",
+    "Topological Manifolds.md",
+    "Paracompacteness.md",
+    "Topological Covers.md",
+    "Special Types of Collections in Topology.md",
+    "Locally compactness.md",
+    "Compactness-Type Properties.md",
+    "Topology.md",
+    "Relative Compactness in Metric Spaces.md",
+    "Relative Compactness.md",
+    "Baire's Category Theorem.md",
+    "Open and Closed Functions.md",
+    "Fundamental Theorems in Functional Analysis.md",
+    "Continuous Functions and Homeomorphims.md",
+    "Sequential Compactness.md",
+    "Local Connectedness.md",
+    "Local Path Connectedness.md",
+    "Compactness in Metric Spaces.md",
+    "Limit Point Compactness.md",
+    "Compactness.md",
+    "Path Connectedness.md",
+    "Topological Connectedness.md",
+    "Perfect and Connected Sets in R.md",
+    "Connected Sets in Rn.md",
     "Central Hub.md",
-    "Interesting Stuff I want continue Learning.md",
-    "Real Analysis.md",
-    "Real Induction.md",
-    "Natural Numbers.md",
-    "The Whitney Embedding Theorem.md",
-    "Lie Groups.md",
-    "Lie Group Actions.md",
-    "Riemann Integral in Rn.md",
-    "Jordan Measure.md",
-    "Vector Analysis.md",
-    "Integral of Vector Valued functions of Rn.md",
-    "Integral of Vector Valued functions of R.md",
-    "Sets of Measure Zero in Rn.md",
-    "Sets of Measure Zero in Smooth Manifolds.md",
-    "Complete Function Spaces.md",
-    "Submersions, Immersions and Embeddings of Manifolds.md",
-    "Matrix Limits.md",
-    "Bounded Linear Operators.md",
-    "Integral over Jordan-measurable Sets.md",
-    "Interchange of Limits.md",
-    "Special Linear Group.md",
-    "General Linear Group.md",
+    "Homotopy in C.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",

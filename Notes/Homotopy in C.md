@@ -1,9 +1,10 @@
 ---
 tags:
   - ComplexAnalysis
+  - Topology/AlgebraicTopology
 ---
-Subjects: [[Complex Analysis]]
-Links: [[Contour Integrals in C]]
+Subjects: [[Complex Analysis]], [[Algebraic Topology]]
+Links: [[Contour Integrals in C]], [[Homotopy]]
 
 **Def:** Suppose $\gamma_0, \gamma_1:[0,1] \to G$ are two continuous curves from $z_0$ and $z_1$ in a set $G$. We say that $\gamma_0$ is **homotopic** with fixed endpoints to $\gamma_1$ in $G$ if there’s a continuous function ${H:[0,1]\times [0,1] \to G}$ from the unit square $[0,1]\times [0,1]$ into $G$ such that:
 - $H(0, t) = \gamma_0(t)$ for $t \in [0,1]$

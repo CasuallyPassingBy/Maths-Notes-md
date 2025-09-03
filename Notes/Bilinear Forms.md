@@ -2,7 +2,7 @@
 tags:
   - LinearAlgebra
 ---
-Subjects: [[Linear Algebra]]
+Subjects: [[Linear Algebra]], [[Clifford Algebra]]
 Links: [[Dual Vector Spaces]], [[Tensor Product of Modules]]
 
 **Def:** Let $V$ be a vector space over a field $\mathbb F$. A function ${H:V\times V\to \mathbb F}$ is called a **bilinear form** on $V$ if $H$ is linear in each variable when the other variable is held fixed. That is

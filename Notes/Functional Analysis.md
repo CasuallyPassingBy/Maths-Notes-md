@@ -14,4 +14,3 @@ tags:
 	- [[Quotient of Normed Spaces]]
 		- [[Fundamental Theorems in Functional Analysis]]
 		- [[Hanh-Banach Extension Theorem]]
-		- 

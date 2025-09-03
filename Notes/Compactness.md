@@ -33,9 +33,9 @@ Links: [[Topological Spaces]], [[Topological Covers]]
 
 **Prop:** If $f:X \to Y$ is a continuous and surjective function, and $X$ is a compact space, then $Y$ is compact, meaning that compactness is preserved by continuous surjective functions.
 
-**Cor:** If $f: X \to Y$ is a continuous function, and $X$ is compact, then 
+**Prop:** If $f: X \to Y$ is a continuous function, and $X$ is compact, then $f[X]$ is compact.
 
-**Cor:** If $f: X \to Y$ us a continuous function, $X$ and $Y$ are Hausdorff spaces, then any $A\in \mathcal P(X)$ satisfies that $\text{cl}_Y(f[A]) = f[\text{cl}_X (A)]$. 
+**Cor:** If $f: X \to Y$ is a continuous function, $X$ and $Y$ are Hausdorff spaces, and $X$ is compact, then any $A\in \mathcal P(X)$ satisfies $\text{cl}_Y(f[A]) = f[\text{cl}_X (A)]$.
 
 **Cor:** Every continuous function from a $T_2$ compact space to a $T_2$ space is closed. 
 
@@ -69,3 +69,7 @@ Links: [[Topological Spaces]], [[Topological Covers]]
 **Th:** Every infinite $T_2$ compact space $X$ satisfies $|X| \le \exp(\chi(X))$
 
 **Cor:** very infinite first countable $T_2$ compact space $X$ satisfies $|X| \le \frak c$.
+
+**Tube Lemma:** Let $X$ be any space and $Y$ be a compact space. If $x\in X$ and $U \subseteq X \times Y$ is an open subset containing $\{x\}\times Y$, then there is a neighbourhood $V$ of $X$ such that $V \times Y\subseteq U$. 
+
+**Prop:** Let $X$ be a metrizable space, if $A\subseteq X$ is compact, then $A$ is totally bounded.

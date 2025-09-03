@@ -24,7 +24,9 @@ We get the following corollary from [[Metrization Theorems|Stone's theorem]]
 
 **Lemma:** Every $T_2$ paracompact space is $T_3$.
 
-**Th:** Every $T_2$ paracompact space is $T_4$. 
+**Th:** Every $T_3$ paracompact space is $T_4$. 
+
+**Prop:** Suppose $X$ it a $T_2$ paracompact space, then every open cover admits an open locally finite precise refinement.
 
 **Lemma:** If every open cover of a topological space $X$ has a locally finite closed refinement, then $X$ is a paracompact. 
 
@@ -85,8 +87,6 @@ We get the following corollary from [[Metrization Theorems|Stone's theorem]]
 
 **Th:** If $X$ is a collectionwise $T_4$ and submetacompact space, then $X$ is paracompact.
 
-This result is an even stronger version of Michael-Nagami.
-
 **Prop:** If $X$ is paracompact and $Y$ is compact, then $X\times Y$ is paracompact.
 
 **Prop:** If $X$ is a $T_0$, collectionwise normal developable space, then $X$ is paracompact.
@@ -94,3 +94,5 @@ This result is an even stronger version of Michael-Nagami.
 **Cor:** The following statements are equivalent:
 - $X$ is $T_2$, paracompact and developable.
 - $X$ is $T_0$, collectionwise normal and developable.
+
+**Paracompactness Theorem:** Every second countable, locally compact Hausdorff space is paracompact.
