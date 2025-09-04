@@ -39,3 +39,7 @@ Links: [[Normal Hausdorff Spaces]], [[Paracompacteness]], [[Special Types of Col
 - Every open cover of $X$ has an closed locally finite refinement.
 - Every open cover is numerable.
 - Every open cover is normal.
+
+**Cor:** If $X$ is fully normal, then every open cover of X has a locally-finite refinement by cozero sets. In particular, X is paracompact and normal.
+
+**Cor:** A space if fully normal iff it is both paracompact and normal. 

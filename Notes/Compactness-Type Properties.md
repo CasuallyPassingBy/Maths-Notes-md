@@ -7,7 +7,7 @@ Links: [[Compactness]], [[Topological Spaces]]
 
 In topology, compactness being such an important property it is studied various compactness like properties:
 
-- [[Locally compactness]]
+- [[Local Compactness]]
 - [[Lindelöf spaces]]
 - [[Countable compactness]]
 	- [[Limit Point Compactness]]
@@ -17,6 +17,7 @@ In topology, compactness being such an important property it is studied various 
 - [[σ-Compactness]]
 	- [[σ-Local Compactness]]
 - [[Relative Compactness]]
+- [[Compactly Generated]]
 - [[Paracompacteness]]
 	- [[Countable paracompactness]]
 	- [[Metacompactness]]

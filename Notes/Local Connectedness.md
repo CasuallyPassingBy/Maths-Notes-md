@@ -14,3 +14,5 @@ Links: [[Topological Connectedness]]
 - Every component of $X$ is open.
 
 This means that local connectedness is hereditary with respect to open sets. 
+
+**Prop:** A locally connected topological space is homeomorphic to the disjoint union of its components.

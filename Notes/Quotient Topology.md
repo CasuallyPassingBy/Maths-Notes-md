@@ -3,9 +3,9 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Final Topology]], [[Equivalence Relations and Partitions]]
+Links: [[Weak Topology]], [[Equivalence Relations and Partitions]]
 
-**Def:** Let $(X, \tau)$ is a topological space, $Y$ a set, and $q: X \to Y$ a surjective function. The pair $(Y, \tau_q)$, where $\tau_q$ is the [[final topology]] on $Y$ defined by $q$ and $(X,\tau)$, we called the *quotient space* determined by $(X, \tau)$ and $q$. By the definitions of the final topology we get that $$\tau_q = \{A \subseteq Y \mid q^{-1}[A] \in\tau\}.$$
+**Def:** Let $(X, \tau)$ is a topological space, $Y$ a set, and $q: X \to Y$ a surjective function. The pair $(Y, \tau_q)$, where $\tau_q$ is the [[Weak Topology]] on $Y$ defined by $q$ and $(X,\tau)$, we called the *quotient space* determined by $(X, \tau)$ and $q$. By the definitions of the final topology we get that $$\tau_q = \{A \subseteq Y \mid q^{-1}[A] \in\tau\}.$$
 **Th:** If $(Y, \tau_q)$ is the quotient space determined by $q: (X, \tau) \to Y$, then $\tau_q$ is the finest topology on $Y$ that makes $q$ continuous, and is the unique topology on $Y$ that satisfy: for any topological space $Z$ and any $g:(Y, \tau_q) \to Z$, $g$ is continuous iff $g \circ q$ is continuous: 
 
 ```tikz

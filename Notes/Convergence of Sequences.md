@@ -24,6 +24,8 @@ Let $X$ be a topological space
 
 Let $X$ be a set, and $\tau_1$ and $\tau_2$ be topologies on $X$, such that $\tau_1 \subseteq \tau_2$. We see that the sequence $(x_n)_{n <\omega}$ converges to a point $x \in X$ in $(X, \tau_2)$, then $x_n \to x$, in $(X, \tau_1)$. 
 
-**Def:** If $X$ is a topological space, a sequence $(x_n)_{n <\omega}$ in $X$ is said to *escape to infinity* if for every compact set $K \subseteq X$ there are at most finitely many values of $n< \omega$ for which $x_n \in K$. 
+**Def:** If $X$ is a topological space, a sequence $(x_n)_{n <\omega}$ in $X$ is said to *diverges to infinity* if for every compact set $K \subseteq X$ there are at most finitely many values of $n< \omega$ for which $x_n \in K$. 
 
-**Prop:** A sequence on a topological manifold escapes to infinity iff it has no convergent subsequences.
+**Lemma:** Suppose $X$ is a first countable Hausdorff space. A sequence in $X$ diverges to infinity iff it has no convergent subsequence.
+
+**Prop:** A sequence on a topological manifold escapes to infinity iff it has no diverges subsequences.

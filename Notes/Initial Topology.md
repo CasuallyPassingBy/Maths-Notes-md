@@ -3,9 +3,9 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Continuous Functions and Homeomorphims]], [[Topological Spaces]], [[Bases, Subbases, and Local Basis for Topological Spaces]], [[Final Topology]]
+Links: [[Continuous Functions and Homeomorphims]], [[Topological Spaces]], [[Bases, Subbases, and Local Basis for Topological Spaces]], [[Weak Topology]]
 
-We would like to find the dual of the [[final topology]]. 
+We would like to find the dual of the [[Weak Topology]]. 
 
 **Prop:** Let $(Y, \tau)$ be a topological space, $X$ be a set and $f: X \to Y$. The set $$\;_f \tau := f^{-1}[\tau]$$is a topology on $X$. 
 

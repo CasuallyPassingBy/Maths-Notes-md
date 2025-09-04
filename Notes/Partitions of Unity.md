@@ -25,4 +25,8 @@ Note that for even that a partition of unity to exists for each $x\in X$ the set
 
 **Prop:** If a cover $\cal U$ of a topological space $X$ has a $\sigma$-locally finite open refinement consisting of cozero sets, then $\cal U$ is a normal cover.
 
+**Cor:** If $\cal U$ is an cover for a topological space $X$, then $\cal U$ is normal iff $\cal U$ is numerable.
+
 **Embeddability of Compact Manifolds:** Every compact manifold is homeomorphic toa subset of some Euclidean space.
+
+**Cor:** Every compact manifold with boundary is homemorphic to a subset of some Euclidean space.
