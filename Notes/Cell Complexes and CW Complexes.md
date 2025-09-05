@@ -13,11 +13,11 @@ Links: [[Continuous Functions and Homeomorphims]], [[Adjunction Topology]], [[Ha
 
 ## Cell Decompositions
 
-Suppose $X$ is a nonempty topological space, $\{D_\alpha \mid \alpha<\kappa\}$ is an indexed collection of closed $n$-cells for some fixed $n\ge 1$, and for each $\alpha$, we are given a continuos map $\varphi_\alpha: \partial D_\alpha \to X$. Letting $\varphi: \coprod_\alpha\partial D_\alpha \to X$ be the map those whose restrictions to each $\partial D_\alpha$ is $\varphi_\alpha$, we can form the adjunction space $$X \cup_\varphi \coprod_{\alpha <\kappa} \partial D_\alpha.$$
+Suppose $X$ is a nonempty topological space, $\{D_\alpha \mid \alpha<\kappa\}$ is an indexed collection of closed $n$-cells for some fixed $n\ge 1$, and for each $\alpha$, we are given a continuos map $\varphi_\alpha: \partial D_\alpha \to X$. Letting $\varphi: \coprod_\alpha\partial D_\alpha \to X$ be the map those whose restrictions to each $\partial D_\alpha$ is $\varphi_\alpha$, we can form the adjunction space $$X\; \cup_\varphi \coprod_{\alpha <\kappa} \partial D_\alpha.$$
 
 Any space homeomorphic to such an adjunction space is said to be obtained from $X$ by *attaching $n$-cells to $X$*. 
 
-**Def:** If $X$ is a nonemty topological space, a *cell decomposition of $X$* is a partition $\cal E$ of $X$ unto subspaces that are open cells of various dimensions, such that the following condition is satisfied. For each cell $e\in \cal E$ of dimension $n \ge 1$, there exists a continuous map $\varphi_x$ from some closed $n$-cell $D$ into $X$, called the *characteristic map for $e$*, that restricts to a homeomorphism from $\text{Int}(D)$ onto $e$ and maps $\partial D$ into the union of all cells of $\cal E$ of dimension strictly less than $n$. 
+**Def:** If $X$ is a nonempty topological space, a *cell decomposition of $X$* is a partition $\cal E$ of $X$ unto subspaces that are open cells of various dimensions, such that the following condition is satisfied. For each cell $e\in \cal E$ of dimension $n \ge 1$, there exists a continuous map $\varphi_e$ from some closed $n$-cell $D$ into $X$, called the *characteristic map for $e$*, that restricts to a homeomorphism from $\text{Int}(D)$ onto $e$ and maps $\partial D$ into the union of all cells of $\cal E$ of dimension strictly less than $n$. 
 
 **Def:** A *cell complex* is a $T_2$ space $X$ together with a specific cell decomposition of $X$. We usually write a cell complex as a pair $(X, \mathcal E)$. Given a cell complex $(X, \mathcal E)$, the open cells in $\cal E$ are typically just called *cells of $X$*. 
 
