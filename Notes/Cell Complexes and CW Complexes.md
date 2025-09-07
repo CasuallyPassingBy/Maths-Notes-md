@@ -90,4 +90,6 @@ We see that the union and the intersection of any collection of subcomplexes are
 
 **Lemma:** Suppose $X$ is a CW complex, $\{e_\alpha \mid \alpha < \kappa\}$ is the collection of cells of $X$, and for each $\alpha <\kappa$, $\varphi_\alpha: D_\alpha \to X$ is a characteristic map for the cell $e_\alpha$. Then the map $\varphi: \coprod_{\alpha} D_\alpha \to \coprod_\alpha \overline{e}_\alpha$ whose restriction to each $D_\alpha$ is $\varphi_\alpha$ is quotient map.
 
+**Prop:** Suppose $X$ is an $n$-dimensional CW complex with $n\ge 1$, and let $e$ is any $n$-cell of $X$. Then $X\setminus e$ is a subcomplex, and $X$ is homeomorphic to an adjunction space obtained from $X\setminus e$ by attaching a single $n$-cell.
+
 **Prop:** Let $X$ be a CW complex. Each skeleton $\text{skel}_n(X)$ is obtained from $\text{skel}_{n-1}(X)$ by attaching a collection of $n$-cells.
