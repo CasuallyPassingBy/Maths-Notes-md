@@ -64,8 +64,6 @@ We see that the union and the intersection of any collection of subcomplexes are
 **Def:** A CW complex is called a *regular CW complex* or *regular complex cell* if each of its cells is regular, and the closure of each cell is finite subcomplex. 
 
 **Examples:** 
-- We will construct a regular cell decomposition of $\Bbb S^n$. Since $\Bbb S^0$ is a finite discrete space is already a regular $0$-dimensional cell complex with two cells. We will proceed by induction. Let us suppose that we have constructed a regular cell decomposition of $\Bbb S^n$ with two cells in each dimension. Now consider $\Bbb S^n$ as a subspace of $\Bbb S^{n+1}$ (the subset where $x_{n+2} = 0$), we can see that the open upper and lower hemispheres of $\Bbb S^{n+1}$ are regular $n$-cells whose boundaries lie in $\Bbb S^{n}$. We get the regular cell decomposition of $\Bbb S^n$ with exactly two cells in each dimension $0$ through $n$. Lastly, for $k\le n$, the $k$-skeleton of this complex of $\Bbb S^k$. 
-- We can decompose $\Bbb S^n$ in another way, with only one $0$-cell and $n$-cell and no others. The $0$-cell is the north pole $N= (0,\dots, 0, 1)$, and the characteristic map for the $n$-cell is map $q:\bar {\Bbb B}^n\to \Bbb S^n$ which collapses $\partial \bar{\Bbb B}^n$. 
 - A regular cell decomposition of $\Bbb R$ is obtained by defining the $0$-cells to be the integers, and the $1$-cells to be intervals $(n,n+1)$ for $n \in \Bbb Z$, with characteristic maps $\varphi_n:[n, n+1] \to\Bbb R$ given by inclusion. Since the collection of cells is locally finite, then it satisfies conditions C and W.
 
 ## Topological Properties
@@ -93,3 +91,19 @@ We see that the union and the intersection of any collection of subcomplexes are
 **Prop:** Suppose $X$ is an $n$-dimensional CW complex with $n\ge 1$, and let $e$ is any $n$-cell of $X$. Then $X\setminus e$ is a subcomplex, and $X$ is homeomorphic to an adjunction space obtained from $X\setminus e$ by attaching a single $n$-cell.
 
 **Prop:** Let $X$ be a CW complex. Each skeleton $\text{skel}_n(X)$ is obtained from $\text{skel}_{n-1}(X)$ by attaching a collection of $n$-cells.
+
+**CW Construction Theorem:** Suppose $\{X_n \mid n <\omega\}$ be a be an increasing sequence of topological spaces that satisfy the following:
+- $X_0$ is a nonempty discrete space.
+- For each $n \ge 1$, $X_n$ is obtained from $X_{n-1}$ by attaching a (possible empty) collection of $n$-cells.
+Then $\bigcup_{n <\omega} X_n$ has a unique topology coherent with the family $\{X_n\mid n <\omega\}$, and a unique cell decomposition making it into a CW complex whose $\text{skel}_n(X) = X_n$ for each $n< \omega$.
+
+**Example:** We can continue the construction how we can obtain $\Bbb S^{n+1}$ from $\Bbb S^n$ by attaching two $(n+1)$-cells. If we continue this process inductively, we obtain a finite dimensional CW complex $\Bbb S^\infty = \bigcup_{n <\omega} \Bbb S^n$, with two cells of every dimension. It contains every $\Bbb S^n$ as a skeleton. 
+
+**Th:** Every CW complex is paracompact.
+
+# Connection to [[Topological Manifolds|Manifolds]]
+
+**Prop:** Suppose $X$ is a CW complex with countably many cells. If $X$ is locally Euclidean, then it is a manifold.
+
+**Prop:** If $M$ is a nonempty $n$-manifold and CW complex, then the dimension of $M$ as a CW complex is also $n$.
+

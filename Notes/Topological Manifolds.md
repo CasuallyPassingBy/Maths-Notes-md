@@ -56,6 +56,12 @@ $M_1 \# M_2$ is a connected topological $n$-manifold and has a unique structure 
 
 If $M_1$ and $M_2$ are compact, then so is $M_1\#M_2$.
 
+## Connection to [[Cell Complexes and CW Complexes|CW Complexes]]
+
+**Prop:** Suppose $X$ is a CW complex with countably many cells. If $X$ is locally Euclidean, then it is a manifold.
+
+**Prop:** If $M$ is a nonempty $n$-manifold and CW complex, then the dimension of $M$ as a CW complex is also $n$.
+
 # Manifolds with Boundary
 
 Let us consider the closed $n$-dimensional *upper half-space* $\Bbb H^n \subseteq \Bbb R^n$, defined as $$\Bbb H^n := \{(x^1, \dots, x^n) \in \Bbb R^n \mid x^n \ge 0\}.$$We will use $\text{Int}(\Bbb H^n)$ and $\partial \Bbb H^n$ to denote the interior and boundary of $\Bbb H^n$, respectively, as a subset of $\Bbb R ^n$: $$\begin{align*}
