@@ -26,6 +26,10 @@ Meaning that $\Bbb {RP}^n$ is a topological manifold of dimension $n$.
 
 It is easy to show that $\{(U_i, \phi_i)\mid i \in \{0, \dots, n\}\}$ is a $\mathcal C^\infty$ atlas for $\Bbb {RP}^n$, called the *standard atlas.* Meaning that $\Bbb {RP}^n$ is a smooth manifold.
 
+# As CW Complex
+
+If we consider the the usual inclusion $\Bbb R^{k+1} \subseteq \Bbb R^{n+1}$ for $k<n$, this allows us to consider $\Bbb{RP}^k$ as a subspace of $\Bbb{RP}^n$. Then $\Bbb{RP}^n$ has a CW decomposition with one cell in each dimension $0, \dots, n$ such that the $k$-skeleton is $\Bbb{RP}^k$ for $0 < k < n$. 
+
 # As Quotient of a Zero Dimensional Lie Group
 
 The two-element group $\{\pm 1\}$ acts on $\Bbb S^n$ by multiplication. This action is obviously smooth and free, and it is proper because the group is compact. This defines a smooth structure on $\Bbb S^n/\{\pm 1\}$. In fact, this quotient manifold is diffeomorphic to $\Bbb {RP}^n$ with smooth structure we defined above. Let $p: \Bbb S^n \to \Bbb {RP}^n$ be the smooth covering map obtained by restricting the canonical projection $\Bbb R^{n+1}\setminus \{0\}\to \Bbb {RP}^n$ to the sphere. This map makes the same identification as the quotient map $\pi: \Bbb S^n \to \Bbb S^n/\{\pm 1\}$. This $\Bbb S^n /\{\pm 1\}$ is diffeomorphic to $\Bbb {RP}^n$, and $\Bbb {RP}^n$ is a compact manifold. 

@@ -3,5 +3,6 @@
   "theme": "obsidian",
   "textFontFamily": "Calibri",
   "baseFontSize": 19,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": []
 }

@@ -48,7 +48,7 @@ We get the following corollary from [[Metrization Theorems|Stone's theorem]]
 
 **Th:** Every $T_2$ paracompact space is collectionwise normal.
 
-**Th:** Every $T_2$ paracompact space is fully normal.
+**Th:** Every normal paracompact space is [[Fully Normal Spaces|fully normal]].
 
 **Stone's coincidence theorem:** A $T_2$ space $X$ is paracompact iff it is fully normal.
 

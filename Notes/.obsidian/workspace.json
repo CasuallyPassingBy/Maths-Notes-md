@@ -13,17 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology.md",
+                "file": "Topological Manifolds.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Topology"
+              "title": "Topological Manifolds"
             }
           },
           {
-            "id": "8140a7efe73b8bc7",
+            "id": "fac2f491a99045f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cell Complexes and CW Complexes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Cell Complexes and CW Complexes"
+            }
+          },
+          {
+            "id": "82359f6984d9ed78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Real Projective Space.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Real Projective Space"
+            }
+          },
+          {
+            "id": "ea22d91ded14160c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Complex Projective Space.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Complex Projective Space"
+            }
+          },
+          {
+            "id": "ed9222e1d63cda81",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -38,22 +83,52 @@
             }
           },
           {
-            "id": "a3584847eeb74a29",
+            "id": "8198070e3d335f9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cell Complexes and CW Complexes.md",
+                "file": "Abstract Simplicial Complexes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Cell Complexes and CW Complexes"
+              "title": "Abstract Simplicial Complexes"
+            }
+          },
+          {
+            "id": "4f6810ead6b9e5a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spheres in Rn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Spheres in Rn"
+            }
+          },
+          {
+            "id": "7f9458a8e98ef362",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coherent Topologies.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Coherent Topologies"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -85,7 +160,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Topology",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5,
+    "width": 234.5,
     "collapsed": true
   },
   "right": {
@@ -133,36 +208,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "205485c8429c7699",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Cell Complexes and CW Complexes.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": true,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Cell Complexes and CW Complexes"
-            }
-          },
-          {
             "id": "906d58f6981038e3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cell Complexes and CW Complexes.md",
+                "file": "Topological Manifolds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Cell Complexes and CW Complexes"
+              "title": "Outgoing links from Topological Manifolds"
             }
           },
           {
@@ -171,10 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differentiable Functions on Differentiable Manifolds.md"
+                "file": "Topological Manifolds.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Differentiable Functions on Differentiable Manifolds"
+              "title": "Outline of Topological Manifolds"
             }
           },
           {
@@ -184,13 +243,35 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
+          },
+          {
+            "id": "c88922fe54c0fdcb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Topological Manifolds.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Topological Manifolds"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -209,18 +290,30 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a3584847eeb74a29",
+  "active": "8198070e3d335f9a",
   "lastOpenFiles": [
     "Simplicial Complexes.md",
-    "Topology.md",
+    "Complex Projective Space.md",
+    "Real Projective Space.md",
+    "Spheres in Rn.md",
     "Cell Complexes and CW Complexes.md",
+    "Compactly Generated.md",
+    "Coherent Topologies.md",
     "Topological Manifolds.md",
+    "Homogeneous Spaces.md",
+    "Topology.md",
+    "Abstract Simplicial Complexes.md",
     "Classification of Low Dimensional Manifolds.md",
+    "Topological Subspaces.md",
+    "Fully Normal Spaces.md",
+    "Paracompacteness.md",
+    "backgrounds/frieren.jpeg",
+    "backgrounds/Gz1PN3UaoAYB44a.jpeg",
+    "backgrounds",
+    "snippets",
     "Affine Spaces of Rn.md",
     "Convex Hulls.md",
-    "Untitled.md",
     "Affine Geometry.md",
-    "Spheres in Rn.md",
     "Adjunction Topology.md",
     "Weak Topology.md",
     "Topological Groups.md",
@@ -228,15 +321,7 @@
     "Local Connectedness.md",
     "Proper Maps.md",
     "Convergence of Sequences.md",
-    "Compactly Generated.md",
     "Compactness-Type Properties.md",
-    "Local Compactness.md",
-    "Normal Hausdorff Spaces.md",
-    "Partitions of Unity.md",
-    "Paracompacteness.md",
-    "Fully Normal Spaces.md",
-    "Topological Covers.md",
-    "Special Types of Collections in Topology.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",
@@ -248,8 +333,6 @@
     "Etica Profesional",
     "Pasted image 20250131162337.png",
     "Pasted image 20250109135004.png",
-    "Templates",
-    "Bachelor's_Thesis",
     "Untitled.canvas",
     "Pasted image 20240627014411.png",
     "Pasted image 20240118182937.png",

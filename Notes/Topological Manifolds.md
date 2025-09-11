@@ -48,6 +48,8 @@ We haven't proved that the dimension is indeed well defined. For that, we would 
 
 **Prop:** The fundamental group of any topological manifold is countable.
 
+**Prop:** Let $M$ be a connected topological manifold, then $M$ is a  $\text{Homeo}(M)$-[[Homogeneous Spaces|homogeneous]]. We can strengthen this result and get if $M$ is a connected $M$-manifold and $(p_1, \dots, p_k)$ and $(q_1,\dots, q_k)$ are two ordered $k$-tuples of distinct points in $M$, then there is a homeomorphism $F: M \to M$ such that $F(p_i) = q_i$. 
+
 ## Connected Sum
 
 **Def:** Let $M_1$ and $M_2$ be connected smooth manifolds of dimension $n$. For $i = 1, 2$, let $(W_i, \varphi_i)$ be a smooth coordinate domain centred at some point $p_i \in M_i$ such that $\varphi_i[W_i] \subseteq B(0, 2) \subseteq \Bbb R^n$. We define $U_i = \varphi_i^{-1}[B(0, 1)]\subseteq W_i$ and $M'_i := M_i \setminus U_i$. The *connected sum* of $M_1$ and $M_2$, denoted by $M_1 \# M_2$, is the quotient space of $M_1' \sqcup M_2'$ obtained by identifying each $q\in \partial U_1$ with $\varphi_2^{-1}\circ \varphi_1(q)\in \partial U_2$. 

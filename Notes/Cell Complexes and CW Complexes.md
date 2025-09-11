@@ -25,14 +25,6 @@ Any space homeomorphic to such an adjunction space is said to be obtained from $
 
 # CW complexes
 
-**Def:** Suppose $X$ is a topological space, and $\cal B$ is any family of subspaces of $X$ whose union is $X$. To say that the topology of $X$ is *coherent with $\cal B$* means that a subset $U\subseteq X$ is open in $X$ iff its intersection with each $B\in \cal B$ is open in $B$. The same applies for closed sets. 
-
-We see that [[compactly generated]] spaces are coherent with the family of compact subsets. 
-
-**Prop:** Suppose $X$ is a topological space whose topology is coherent with a family $\cal B$ of subspaces.
-- If $Y$ is another topological space, then a map $f:X\to Y$ is continuous iff $f|_B$ is continuous for each $B\in \cal B$.
-- The map $\coprod_{B\in \cal B} B \to X$ induced by the inclusion of each set $B \hookrightarrow X$ is a quotient map. 
-
 **Def:** A *CW complex* is a cell complex $(X, \mathcal E)$ satisfying the following additional conditions:
 - $(C)$ The closed of each cell is contained in a union of finitely many cells.
 - $(W)$ The topology of $X$ is coherent with the family of closed subspaces $\overline{\cal E}$. 
@@ -58,6 +50,10 @@ We see that the union and the intersection of any collection of subcomplexes are
 **Th:** Suppose $X$ is a CW complex and $Y$ is a subcomplex of $X$. Then $Y$ is closed in $X$, and with the subspace topology and the cell decomposition that it inherits from $X$ it is a CW complex. 
 
 **Prop:** If $X$ is any CW complex, the topology of $X$ is coherent with the collection of subspaces $\{X_n \mid n \ge 0\}$.
+
+**Prop:** Every CW complex is locally path-connected.
+
+**Obs:** Every CW complex is [[compactly generated]]. 
 
 **Def:** An open cell $e\subseteq X$ is called a *regular cell* if it admits a characteristic map that is a homeomorphism onto $\overline e$. For a regular cell, we can always take the inclusion map $\overline e \hookrightarrow X$ as a characteristic map.
 
@@ -99,11 +95,10 @@ Then $\bigcup_{n <\omega} X_n$ has a unique topology coherent with the family $\
 
 **Example:** We can continue the construction how we can obtain $\Bbb S^{n+1}$ from $\Bbb S^n$ by attaching two $(n+1)$-cells. If we continue this process inductively, we obtain a finite dimensional CW complex $\Bbb S^\infty = \bigcup_{n <\omega} \Bbb S^n$, with two cells of every dimension. It contains every $\Bbb S^n$ as a skeleton. 
 
-**Th:** Every CW complex is paracompact.
+**Th:** Every CW complex is [[Paracompacteness|paracompact]], since it is also $T_2$, then we know that it is also [[Fully Normal Spaces|fully normal]]. The proof of this theorem is that every open over is [[Partitions of Unity#^e9b5fd|numerable]].
 
 # Connection to [[Topological Manifolds|Manifolds]]
 
 **Prop:** Suppose $X$ is a CW complex with countably many cells. If $X$ is locally Euclidean, then it is a manifold.
 
 **Prop:** If $M$ is a nonempty $n$-manifold and CW complex, then the dimension of $M$ as a CW complex is also $n$.
-

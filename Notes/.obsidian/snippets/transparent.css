@@ -1,0 +1,10 @@
+body {
+  background: transparent !important;
+}
+
+.workspace,
+.workspace-tab-container,
+.workspace-split,
+.view-content {
+  background: transparent !important;
+}
