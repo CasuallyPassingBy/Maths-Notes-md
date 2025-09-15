@@ -14,3 +14,4 @@ We think of the parameter $t$ as time, and think of $H$ as giving a ways to defo
 **Prop:** For any topological spaces $X$ and $Y$, homotopy is an equivalence relation on the set of all continuous maps from $X$ to $Y$. 
 
 **Prop:** The homotopy relation is preserved by composition: if $f_0, f_1: X \to Y$ and $g_0, g_1:Y \to Z$ are continuous maps with $f_0\simeq f_1$ and $g_0\simeq g_1$, then $g_0 \circ f_0 \simeq g_1 \circ f_1$. 
+

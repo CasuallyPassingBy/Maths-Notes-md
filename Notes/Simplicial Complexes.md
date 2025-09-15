@@ -39,15 +39,20 @@ We see that a polyhedron is compact iff it associated simplicial complex is fini
 - Any $n$-simplex together with all of its faces is a simplicial complex whose polyhedron is homeomorphic to $\bar{\Bbb B}^n$.
 - The set of proper faces of an $n$-simplex constitutes an $(n-1)$-simplicial complex whose polyhedron is homeomorphic to $\Bbb S^{n-1}$. 
 
-**Def:** If $X$ is a topological space, a homeomorphism between $X$ and the polyhedron of some simplicial complex is called a *triangulation of $X$*. Any space that admits a triangulation is said to be *triangulable*. 
+**Def:** If $X$ is a topological space, a homeomorphism between $X$ and the polyhedron of some simplicial complex is called a *triangulation of $X$*. Any space that admits a triangulation is said to be *triangulable*.  ^dbc61e
 
 **Prop:** All $1$-dimensional manifolds with and without boundary are triangulable. 
 
-$(*)$ **Triangulation Theorem for $2$-Manifolds:** Every $2$-manifold is homeomorphic to the polyhedron of a $2$-dimensional simplicial complex, in which every $1$-simplex is a face of exactly two $2$-simpleces.
+$(*)$ **Triangulation Theorem for $2$-Manifolds:** Every $2$-manifold is homeomorphic to the polyhedron of a $2$-dimensional simplicial complex, in which every $1$-simplex is a face of exactly two $2$-simpleces. ^e0f03b
 
 $(*)$ **Triangulation Theorem for $3$-Manifolds:** Every $3$-manifold is triangulable. 
 
-There are $4$-manifolds that admit no triangulations; and it is still not known wether all manifolds of dimension greater than $4$ can be triangulated. (This is from Lee's book around 2010)
+$(*)$ 
+
+$(*)$ **Manolescu's Theorem:** There exists non-triangulable $n$-dimensional topological manifolds for every $n \ge 5$.
+
+**Def:** Suppose $\sigma = [v_0, \dots, v_k]$ is a simplex in $\Bbb R^n$ and $w\in \Bbb R^n$. If $\{w, v_0, \dots, v_k\}$ is affinely independent set, we say that $w$ is *affinely independent of $\sigma$*. In this case the simplex $[w, v_0, \dots, v_k]$ is denoted by $w*\sigma$ and is called the *cone on $\sigma$*. More generally, suppose $K$ is finite Euclidean simplicial complex and $w$ is a point in $\Bbb R^n$ that is affinely independent of every simplex in $K$. We define the *cone on $K$* to be the following collection of simplices in $\Bbb R^n$:  $$w*K := K \cup\{w*\sigma\mid \sigma \in K\}. $$
+We see that $w*K$ is homeomorphic to $CK$, the cone of $K$.
 
 # Simplicial Maps
 

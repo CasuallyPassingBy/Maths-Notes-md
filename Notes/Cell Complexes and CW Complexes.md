@@ -97,6 +97,11 @@ Then $\bigcup_{n <\omega} X_n$ has a unique topology coherent with the family $\
 
 **Th:** Every CW complex is [[Paracompacteness|paracompact]], since it is also $T_2$, then we know that it is also [[Fully Normal Spaces|fully normal]]. The proof of this theorem is that every open over is [[Partitions of Unity#^e9b5fd|numerable]].
 
+Let $X$ be a regular CW complex.
+- Let $\cal E$ be the set of open cells of $X$, and let $\cal K$ be the collection of all nonempty finite subsets $\{e_0, \dots,e_k\}\subseteq \cal E$ with the property that the dimensions $e_0, \dots, e_k$ are all distinct, and $e_{i-1}\subseteq\partial e_i$ for each $i =1, \dots, $k$. Then $\cal K$ is an [[Abstract Simplicial Complexes|abstract simplicial complex]].
+- If $K$ is a Euclidean simplicial complex whose vertex schema is isomorphic to $\cal K$, then $K$ is homeomorphic to $|K|$ and each cell of $X$ is sent to a subcomplex of $K$.
+- Every finite-dimensional, locally finite, countable, and regular CW complex is [[Simplicial Complexes#^dbc61e|triangulable]]. 
+
 # Connection to [[Topological Manifolds|Manifolds]]
 
 **Prop:** Suppose $X$ is a CW complex with countably many cells. If $X$ is locally Euclidean, then it is a manifold.

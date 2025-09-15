@@ -27,3 +27,8 @@ Given a Euclidean simplicial complex $K$, let $\cal K$ denote the collection of 
 **Def:** Two simplicial complexes are said to be *combinatorially equivalent* if they have a common subdivision. 
 
 It was conjectured that if two simplicial complexes have homeomorphic polyhedra, they are combinatorially equivalent; this conjecture became known as the *Hauptvermutung* of combinatorial topology. We know that it is true for all complexes of dimension $2$ and for triangulated compact manifolds of dimension $3$, buy false in all higher dimensions, even for compact manifolds. 
+
+We can define certain how get subcomplexes. Let $\cal K$ be a simplicial complex.
+- Let $\cal K'\subseteq K$, its *closure* is $\text{cl}({\cal K'}) := \{\tau \in {\cal K} \mid \tau \subseteq \sigma \in {\cal K'}\}$.
+- The *star* of a simplex $\tau\in \cal K$ is $\text{st}(\tau) := {\sigma\in {\cal K}\mid \tau \subseteq \sigma}\}$.
+- The *link* of a simplex $\tau \in \cal K$ is $$\text{lk}(\tau) := \{\sigma \in \text{cl}(\text{st}(\tau)) \mid \tau \cap \sigma = \varnothing\}.$$

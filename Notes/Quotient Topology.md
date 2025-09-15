@@ -83,3 +83,12 @@ In this situation, we say that $f$ *passes to the quotient* or *descends to the 
 - If $\{q_\alpha:X_\alpha \to Y_\alpha \mid \alpha < \kappa\}$ is an indexed family of quiteint maps, then the map $q: \coprod_{\alpha < \kappa} X_\alpha \to\coprod_{\alpha < \kappa} Y_\alpha$ whose restriction to each $X_\alpha$ is equal to $q_\alpha$ is a quotient map.
 
 **Prop:** If $q:X\to Y$ is a surjective continuos maps that is also open or closed, then it is a quotient map. 
+# Cones
+
+If $X$ is any topological space the quotient $(X\times [0, 1])/(X \times \{0\})$ obtained from the 'cylinder' $X\times I$ by collapsing one end point to a point is called the *cone on $X$*, and is denoted by $CX$. 
+
+We can identify $X$ and $X \times \{1\}$, thus we consider $X$ as a subspace of $CX$.
+
+If $X$ is topological space, then
+- $CX$ is path connected.
+- $CX$ is locally connected iff $X$ is locally path connected iff $X$ is connected.
