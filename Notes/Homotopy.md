@@ -15,3 +15,4 @@ We think of the parameter $t$ as time, and think of $H$ as giving a ways to defo
 
 **Prop:** The homotopy relation is preserved by composition: if $f_0, f_1: X \to Y$ and $g_0, g_1:Y \to Z$ are continuous maps with $f_0\simeq f_1$ and $g_0\simeq g_1$, then $g_0 \circ f_0 \simeq g_1 \circ f_1$. 
 
+**Example:** Let $B\subseteq \Bbb R^n$ and let $X$ be a topological space. Suppose $f,g :X \to B$ are any tw continuous maps with the property that for all $x\in X$, the line segment from $f(x)$ to $g(x)$ lies in $B$. We define a homotopy $H: f \simeq g$ by letting $H(x, t) := f(x) + t(g(x)-f(x))$. This is called the *straight-line homotopy between $f$ and $g$*. 

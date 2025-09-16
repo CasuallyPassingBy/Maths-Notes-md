@@ -46,7 +46,7 @@ We haven't proved that the dimension is indeed well defined. For that, we would 
 
 **Embeddability of Compact Manifolds:** Every compact manifold is homeomorphic toa subset of some Euclidean space.
 
-**Prop:** The fundamental group of any topological manifold is countable.
+**Prop:** [[Fundamental Group of a Topological Space|The fundamental group]] of any topological manifold is countable.
 
 **Prop:** Let $M$ be a connected topological manifold, then $M$ is a  $\text{Homeo}(M)$-[[Homogeneous Spaces|homogeneous]]. We can strengthen this result and get if $M$ is a connected $M$-manifold and $(p_1, \dots, p_k)$ and $(q_1,\dots, q_k)$ are two ordered $k$-tuples of distinct points in $M$, then there is a homeomorphism $F: M \to M$ such that $F(p_i) = q_i$. 
 

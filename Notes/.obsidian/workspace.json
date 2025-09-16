@@ -4,101 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "15b21c38b04b7694",
+        "id": "7c53d4423532cc6f",
         "type": "tabs",
         "children": [
           {
-            "id": "10bf54aae657511a",
+            "id": "e034b98a20912869",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quotient Topology.md",
+                "file": "Categories and Functors.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Quotient Topology"
-            }
-          },
-          {
-            "id": "d9a1b32510681bfe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Simplicial Complexes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Simplicial Complexes"
-            }
-          },
-          {
-            "id": "488a0ab773ff6aa7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Abstract Simplicial Complexes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Abstract Simplicial Complexes"
-            }
-          },
-          {
-            "id": "0f01e1c6238e0464",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Compact Surfaces.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Compact Surfaces"
-            }
-          },
-          {
-            "id": "5646f9961664cf3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homotopy.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Homotopy"
-            }
-          },
-          {
-            "id": "2d0d6fe11e56e248",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spheres in Rn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Spheres in Rn"
+              "title": "Categories and Functors"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -260,16 +184,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0f01e1c6238e0464",
+  "active": "e034b98a20912869",
   "lastOpenFiles": [
-    "Abstract Simplicial Complexes.md",
+    "Fundamental Group of a Topological Space.md",
+    "Group Homomorphisms and Isomorphisms.md",
+    "Categories and Functors.md",
+    "Topological Manifolds.md",
+    "Topological Subspaces.md",
+    "Category Theory.md",
+    "Spheres in Rn.md",
     "Homotopy.md",
+    "Cell Complexes and CW Complexes.md",
     "Compact Surfaces.md",
+    "Abstract Simplicial Complexes.md",
     "Simplicial Complexes.md",
     "Quotient Topology.md",
-    "Spheres in Rn.md",
-    "Topological Manifolds.md",
-    "Cell Complexes and CW Complexes.md",
     "Real Projective Space.md",
     "Complex Projective Space.md",
     "Coherent Topologies.md",
@@ -277,7 +206,6 @@
     "Homogeneous Spaces.md",
     "Topology.md",
     "Classification of Low Dimensional Manifolds.md",
-    "Topological Subspaces.md",
     "Fully Normal Spaces.md",
     "Paracompacteness.md",
     "backgrounds/frieren.jpeg",
@@ -288,10 +216,6 @@
     "Convex Hulls.md",
     "Affine Geometry.md",
     "Adjunction Topology.md",
-    "Weak Topology.md",
-    "Topological Groups.md",
-    "Submersions, Immersions and Embeddings of Manifolds.md",
-    "Local Connectedness.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",

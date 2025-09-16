@@ -86,4 +86,12 @@ For any continuous mapping $f: X \to Y$ and a subspace $M$ of $X$, the compositi
 
 **Prop:** A surjective topological embedding is a homeomorphism. 
 
+# Retractions
+
 **Def:** A *retraction* of a topological space $X$ onto a subspace $Y\subseteq X$ is a continuous map $r:X \to Y$ such that $r|_Y$ is the identity map of $Y$. ^c8b9b2
+
+**Prop:** The following are properties of retractions:
+- A retract of a connected space is connected.
+- A retract of a compact space is compact.
+- A retract of a retract is retract, meaning that if $A\subseteq B \subseteq X$, $A$ is a retract of $B$, and $B$ is retract of $X$, then $A$ is a retract of $X$.
+

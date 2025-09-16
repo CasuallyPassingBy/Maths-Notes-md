@@ -61,5 +61,40 @@ Let $S$ denote any sequence of symbols, $e$ denotes any symbol not in $S$. The f
 - Connected sum of $n \ge 1$ projective real planes: $$\langle a_1,\dots, a_n, \mid a_1a_1\cdots a_n a_n\rangle. $$
 We call the *standard presentations* of these surfaces.
 
+# Classification Theorem
+
 **Prop:** Every compact surface admits a polygonal presentation. To prove this fact we need to use that every $2$-manifold is [[Simplicial Complexes#^e0f03b|triangulable]]. 
 
+**Lemma:** The Klein bottle is homeomorphic to $\Bbb{RP}^2 \# \Bbb{RP}^2$ and has a presentation as $\langle a, b,\mid abab^{-1}\rangle$. 
+
+**Lemma:** The connected sum $\Bbb T^2 \# \Bbb{RP}^2$ is homemorphic to $\Bbb{RP}^2\# \Bbb{RP}^2\# \Bbb{RP}^2$. 
+
+**Classification of Compact Surfaces, Part 1:** Every nonempty, compact, connected $2$-manifold is homeomorphic to one of the following:
+- The sphere $\Bbb S^2$. 
+- A connected sum of one or more copies of $\Bbb T^2$.
+- A connected sum of one or more copies of $\Bbb {RP}^2$. 
+
+# Euler characteristic
+
+**Prop:** The [[Cell Complexes and CW Complexes#Euler Characteristic|Euler characteristic]] of a polygonal presentation is unchanged by elementary transformations.
+
+**Euler Characteristics of Compact Surfaces:** The Euler characteristic of a standard surface presentation is equal to
+- $2$ for the sphere,
+- $2-2n$ for the connected sum of tori,
+- $2-n$ the connected sum of $n$ projective planes. 
+
+# Orientability
+
+Let us that pair of edges that are to be identified are *complementary* if they appear in the presentation as both $a$ and $a^{-1}$, and *twisted* if they appear as $a$ and $a$ or as $a^{-1}$ and $a^{-1}$. 
+
+**Def:** We define the the *Möbius band* to be the geometric realisation of the polygonal presentation: $\langle a, b, c \mid abcb\rangle$. It is a $2$-dimensional manifold with boundary.
+
+**Prop:** A connect sum of one or projective planes contains a subspace that is homeomorphic to the Möbius band. 
+
+**Prop:** Suppose $M$ is a compact, connected $2$-manifold that contains a subset $B\subseteq M$ that is homeomorphic to the Möbius band. Then there is a compact $2$-manifold $M'$ such that $M$ is homeomorphic to the connected sum $M'\# \Bbb{RP}^2$. 
+
+Let us that a surface presentation $\cal P$ is *oriented* if it has no twisted edge pairs. A compact surface is said to be *orientable* if it admits an oriented presentation. 
+
+**Prop:** A compact surface is orientable iff it is homeomorphic to the sphere or a connected sum one or more tori.
+
+**Def:** The connected sum of $n$ tori is also known as the *orientable surface of genus $n$*, and the connected sum of $n$ projective planes is called the *nonorientable surface of genus $n$*. By convention, the sphere is the *unique orientable surface of genus $0$*. 

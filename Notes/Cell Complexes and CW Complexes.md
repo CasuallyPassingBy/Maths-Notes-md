@@ -107,3 +107,9 @@ Let $X$ be a regular CW complex.
 **Prop:** Suppose $X$ is a CW complex with countably many cells. If $X$ is locally Euclidean, then it is a manifold.
 
 **Prop:** If $M$ is a nonempty $n$-manifold and CW complex, then the dimension of $M$ as a CW complex is also $n$.
+
+# Euler Characteristic
+
+**Def:** If $X$ is a finite CW complex of dimension $n$, we define the *Euler characteristic of $X$*, denoted by $\chi(X)$, by $$\chi(X) := \sum_{k = 0}^n (-1) n_k,$$where $n_k$ is the number of $k$-cells of $X$.
+
+$(*)$ **Th:** If $X$ and $Y$ are finite CW complexes whose underlying topological spaces are homeomorphic, then $\chi(X) = \chi(Y)$, meaning that Euler's characteristic is a topological invariant. 
