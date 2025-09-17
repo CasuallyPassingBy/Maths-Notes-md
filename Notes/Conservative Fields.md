@@ -23,7 +23,7 @@ In this case we say that $\varphi$ is a _gradient or a potential_ for $F$.
 $$ J_F(x) =(J_F (x))^\top $$
 for all $x \in U$.
 
-**Def:** Let $U \subseteq \Bbb R^n$ a region. We say that $U$ is a star-domain if there’s a $x_0 \in U$, such that for any $y \in U$, then $[x_0, y] \subseteq U$.
+**Def:** Let $U \subseteq \Bbb R^n$ a region. We say that $U$ is a star-domain if there’s a $x_0 \in U$, such that for any $y \in U$, then $[x_0, y] \subseteq U$. ^525c9d
 
 **Th:** Let $F =(F_k)_{k = 1}^n :U \to \Bbb R^n$ be a $\cal C^1$ function on $U$. If $F$ is a field on $U$, with $U$ a star region. If
 $$ J_F(x) =(J_F (x))^\top $$

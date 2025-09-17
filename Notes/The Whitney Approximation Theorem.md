@@ -30,3 +30,9 @@ A *tubular neighbourhood of $M$* is a neighbourhood $U$ of $M$ in $\Bbb R^n$ tha
 ## Smooth Approximation of Maps Between Manifolds
 
 **Whitney Approximation on Manifolds:** Let $N$ and $M$ be smooth manifolds, and let $F:N \to M$ be a continuous map. Then $F$ is homotopic to a smooth map $\tilde F: N \to M$. If $F$ is smooth on a closed subset $A\subseteq N$, then the homotopy can be taken relative to $A$. 
+
+**Def:** If $M$ and $N$ are smooth manifolds, two smooth maps $F, G: M \to N$ are said to be *smoothly homotopic* if there is a smooth map $H:M \times [0, 1] \to N$ that is a homotopy between $F$ and $G$. 
+
+**Prop:** If $F, G: M \to N$ are homotopic smooth maps, then they are smoothly homotopic. If $F$ is homotopic to $G$ relative some closed subset $A\subseteq M$, then they are smoothly homotopic relative to $A$. 
+
+**Cor:** Any two points in a connected manifold can be joined by a smooth curve segment. 

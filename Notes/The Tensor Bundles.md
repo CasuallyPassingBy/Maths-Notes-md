@@ -24,4 +24,24 @@ Given a tensor field $F: \in \mathcal T^k_q(M)$, vector fields $X_i\in \mathcal 
 
 **Prop:** A map   $$\tau:\mathcal T^1(M) \times \dots \mathcal T^1(M)  \times \mathcal T(M) \times \mathcal T(M) \to \mathcal C^\infty(M)$$is induced by $(k, q)$-tensor field as above iff it is a multilinear map over $\mathcal C^\infty (M)$. Similarly, a map $$\mathcal T^1(M) \times \dots \mathcal T^1(M)  \times \mathcal T(M) \times \mathcal T(M) \to \mathcal T(M)$$ is induced by a $(k, q+1)$-tensor field iff it is multilinear over $\mathcal C^\infty(M)$. This has the same property as [[Tensor Product of Linear Functions#^5d22c0|tensors]]. 
 
-Let $f: N \to M$ be smooth map between smooth manifolds. If $S$ is a $(0, q)$-tensor field on $M$, then the *pullback* of $S$ by $f$ is the $(0, q)$-tensor field $f^* S$ on $M$ defined by $$(f^*S)_p(X_1, \dots, X_q) = S_{f(p)}(df_p X_1, \dots, df_p X_q)$$for $p\in M$ and $X_j \in T_p N$. 
+# Pullbacks
+
+If $F: M \to N$ is a smooth map, for each integer $k \ge 0$ and each $p\in M$ we obtain a map $F^*: T^k(T_{F(p)} N) \to T^k (T_p M)$ called the *pullback* by $$(F^*S)(X_1, \dots, X_k) := S(F_*X_1, \dots, F_*X_k).$$
+**Properties of Tensor Pullbacks:** Suppose $F:M \to N$ and $G:N \to P$ are smooth maps, $p\in M$, $S\in T^k(T_{F(p)} N)$ and $T\in T^l(T_{F(p)} N)$. 
+- $F^*:T^k(T_{F(p)} N) \to T^k(T_p M)$ is linear over $\Bbb R$.
+- $F^*(S \otimes T) = F^* S \otimes F^* T$
+- $(G\circ F)^*= F^* \circ G^*: T^k(T_{(G\circ F)(p)} P) \to T^k(T_p M)$
+- $(\text{Id}_N)^*S = S$
+- $F^*: T^k N \to T^k M$ is a smooth bundle map. 
+
+We see that the assignments $M \mapsto T^k M$ and $F\mapsto F^*$ yield a contravariant functor.
+
+**Properties of Tensor Field Pullbacks:** Suppose $F:M \to N$ and $G:N \to P$ are smooth maps, $p\in M$, $\sigma\in \mathcal T^k(T_{F(p)} N)$,  $\tau\in \mathcal T^l(T_{F(p)} N)$, and $f\in \mathcal C^\infty(N)$. 
+- $F^*(f \sigma) = (f \circ F) F^*\sigma$.
+- $F^*(\sigma \otimes \tau) = F^*\sigma \otimes F^*\tau$. 
+- $F^*\sigma$ is a smooth vector field
+- $F^*: \mathcal T^k(N) \to \mathcal T^k(M)$ is linear over $\Bbb R$
+- $(G\circ F)^*= F^* \circ G^*$
+- $(\text{Id}_N)^*\sigma = \sigma$
+
+**Cor:** Let $F:M \to N$ be smooth, and let 

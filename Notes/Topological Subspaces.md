@@ -95,3 +95,4 @@ For any continuous mapping $f: X \to Y$ and a subspace $M$ of $X$, the compositi
 - A retract of a compact space is compact.
 - A retract of a retract is retract, meaning that if $A\subseteq B \subseteq X$, $A$ is a retract of $B$, and $B$ is retract of $X$, then $A$ is a retract of $X$.
 
+**Prop:** A retract of a Hausdorff space is a closed subset.

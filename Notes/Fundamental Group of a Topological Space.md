@@ -7,7 +7,7 @@ Links: [[Homotopy]], [[Path Connectedness]], [[Groups]]
 
 Let $X$ be a topological space. A *path* in $X$ is a continuous map $f: [0, 1] \to X$. The points $p = f(0)$ and $q = f(1)$ are called the *initial point* and *terminal point* of $f$, respectively, and we say that $f$ is a *path from $p$ to $q$*. If a path starts and ends at the same point we call it a *loop*. 
 
-Let $X$ and $Y$ be topological spaces, and $A\subseteq X$ an arbitrary subset. A homotopy $H$ between maps $f, g:X \to Y$ is said to be *stationary on $X$* if $H(x, t) = f(x)$ for all $x\in A$ and $t\in [0, 1]$. If there exists such a homotopy $G$, we say that $f$ and $g$ are *homotopic relative to $A$*, and $H$ is also called a *homotopy relative to $A$*. A requirement, for two maps to be homotopic relative to $A$ is that they must agree on $A$. Sometimes when two maps are homotopic but the homotopy is not assumed to be stationary on any particular subspace, we say they are *free homotopic.*
+Let $X$ and $Y$ be topological spaces, and $A\subseteq X$ an arbitrary subset. A homotopy $H$ between maps $f, g:X \to Y$ is said to be *stationary on $X$* if $H(x, t) = f(x)$ for all $x\in A$ and $t\in [0, 1]$. If there exists such a homotopy $G$, we say that $f$ and $g$ are *homotopic relative to $A$*, and $H$ is also called a *homotopy relative to $A$*. A requirement, for two maps to be homotopic relative to $A$ is that they must agree on $A$. Sometimes when two maps are homotopic but the homotopy is not assumed to be stationary on any particular subspace, we say they are *free homotopic.* ^0f8fb7
 
 Now suppose $f$ and $g$ are two paths in $X$. A *path homotopy from $f$ to $g$* is homotopy that is stationary on the subset $\{0, 1\} \subseteq [0, 1]$, a homotopy that fixes the endpoints for all time. If there exists a path homotopy between $f$ and $g$, we say that they are *path homotopic*, and write $f\sim g$. 
 
@@ -48,9 +48,11 @@ When $X$ is path-connected we sometimes use the imprecise notation $\pi_1(X)$ to
 
 **Obs:** We see that every convex set in $\Bbb R^n$ is simply connected, and, in particular, $\Bbb R^n$ is simply connected.
 
+**Prop:** Let $X$ be a path-connected topological space, and let $p, q\in X$. If all paths from $p$ to $q$ give the same isomorphism of $\pi_1(X, p)$ with $\pi_1(X, q)$ iff $\pi_1(X, p)$ is abelian.
+
 ## Circle Representatives
 
-Let us consider $\Bbb S^1$ as a subset of the complex plane. Let $\omega: [0, 1] \to \Bbb S^1$ denote the loop given by $\omega(s) := \exp(2\pi i s)$. This loop travels once around the circle and maps $0$ and $1$ ot the base point $1\in \Bbb S^1$. We see that it is a quotient map. If $f:[0, 1] \to X$ is any loop in space $X$, it passes to the quotient to give a unique map $\tilde f: \Bbb S^1 \to X$ such that $\tilde f \circ \omega = f$, or that this diagram commutes: 
+Let us consider $\Bbb S^1$ as a subset of the complex plane. Let $\omega: [0, 1] \to \Bbb S^1$ denote the loop given by $\omega(s) := \exp(2\pi i s)$. This loop travels once around the circle and maps $0$ and $1$ to the base point $1\in \Bbb S^1$. We see that it is a quotient map. If $f:[0, 1] \to X$ is any loop in space $X$, it passes to the quotient to give a unique map $\tilde f: \Bbb S^1 \to X$ such that $\tilde f \circ \omega = f$, or that this diagram commutes: 
 ```tikz
 \usepackage{tikz-cd}
 \usepackage{amsfonts, amsmath, amssymb}
@@ -69,12 +71,14 @@ We call $\tilde f$ the *circle representative of $f$*. Conversely, any continuou
 - $\tilde f$ is freely homotopic to a constant map.
 - $\tilde f$ extends to a continuous map from the closed disk into $X$.
 
-Square Lemma: Let $F: [0, 1] \times [0,  1] \to X$ be a continuous map, and let $f, g, h$, and $k$ be paths in $X$ defined by $$\begin{align*}
+**Square Lemma:** Let $F: [0, 1] \times [0,  1] \to X$ be a continuous map, and let $f, g, h$, and $k$ be paths in $X$ defined by $$\begin{align*}
 f(s)  & := F(s , 0) \\
 g(s)  & := F(1 , s) \\
 h(s)  & := F(0 , s) \\
 k(s)  & := F(s , 1) \\
 \end{align*} $$Then $f \cdot g \sim h \cdot k$. 
+
+**Prop:** For any path connected space $X$ and any base point $X$, there's a bijection between the set of conjugacy classes of elements of $\pi_1(X, p)$ and $[\Bbb S^1, X]$. 
 
 # Fundamental Group in Manifolds
 
@@ -107,6 +111,10 @@ We see that $\pi_1: \mathsf{Top}_*\to \mathsf{Grp}$ assigns to each pointed topo
 **Prop:** Suppose $A$ is a [[Topological Subspaces#Retractions|retract]] of $X$. If $r:X \to A$ is any retraction, then for any $p\in A$, $(\iota_A)_*: \pi_1(A, p) \to \pi_1(X, p)$ is injective and $r_*: \pi_1(X, p) \to \pi_1(A, p)$ is surjective. 
 
 **Cor:** A retract of a simply connected space is simply connected.
+
+**Prop:** Let $X$ be a homogeneous space and $x\in X$, then $\pi_1(X, x)$ is indepentent of choice of base point.
+
+**Prop:** Let $G$ be a topological group. $\pi_1(G, g)$ is abelian. 
 
 ### Fundamental Groups of Product Spaces
 

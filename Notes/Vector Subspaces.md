@@ -17,6 +17,8 @@ A subspace $U$ of $V$ is a vector space that $U \subseteq V$, using the same def
 
 ## Minkowski Sum
 
+^2b44bd
+
 Suppose that $S_1, S_2$ are sets: the Minkowski sum of $S_1$ and $S_2$ is defined as :
 $$ S_1+S_2 = \{x + y : x\in S_1, y \in S_2\} $$
 
