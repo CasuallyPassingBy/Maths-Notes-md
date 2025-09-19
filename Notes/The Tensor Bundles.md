@@ -44,4 +44,4 @@ We see that the assignments $M \mapsto T^k M$ and $F\mapsto F^*$ yield a contrav
 - $(G\circ F)^*= F^* \circ G^*$
 - $(\text{Id}_N)^*\sigma = \sigma$
 
-**Cor:** Let $F:M \to N$ be smooth, and let 
+**Cor:** Let $F:M \to N$ be smooth, and let $\sigma \in \mathcal T^k(N)$. If $p\in M$ and $(y^j)$ are smooth coordinates for $N$ on a neighbourhood $F(p)$, then $F^*\sigma$ has the following expression near $p$: $$F^*(\sigma_{j_1, \dots, j_k} dy^{j_1}\otimes \dots \otimes dy^{j_k}) = (\sigma_{j_1, \dots, j_k}\circ F) d(y^{j_1}\circ F)\otimes \dots \otimes d(y^{j_k}\circ F).$$

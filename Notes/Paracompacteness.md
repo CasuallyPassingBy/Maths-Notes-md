@@ -24,7 +24,7 @@ We get the following corollary from [[Metrization Theorems|Stone's theorem]]
 
 **Lemma:** Every $T_2$ paracompact space is $T_3$.
 
-**Th:** Every regular paracompact space is $T_4$. 
+**Th:** Every regular paracompact space is normal. 
 
 **Prop:** Suppose $X$ it a $T_2$ paracompact space, then every open cover admits an open locally finite precise refinement.
 
