@@ -5,7 +5,8 @@ Welcome to my comprehensive collection of mathematics notes! This repository con
 # Overview
 The notes in this repository encompass various branches and topics within mathematics. Whether you're studying for exams, working on assignments, or exploring mathematical concepts, these notes are structured to support your learning journey.
 
-![image](https://github.com/user-attachments/assets/d8a36c42-4362-43fa-822c-2fc7f5cbbe6b)
+<img width="815" height="891" alt="image" src="https://github.com/user-attachments/assets/c570d43b-333f-4fd7-90a5-abd976dce6e4" />
+
 
 ## Table of Contents
 
