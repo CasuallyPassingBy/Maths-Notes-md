@@ -31,7 +31,7 @@ $$
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 X \arrow[dr, two heads,"\pi"'] \arrow[rr, "T"]& & Y\\
  & X/M \arrow[ur, dashed, "S"']
 \end{tikzcd}

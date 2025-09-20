@@ -42,7 +42,7 @@ Thus, after this identifications, the exterior derivatives $d$ on $0$-forms, $1$
 \usepackage{amsfonts}
 \usepackage{amsmath}
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 \Omega^0(U) \arrow[d, "\simeq"'] \arrow[r, "d"] & 
 \Omega^1(U) \arrow[d, "\simeq"'] \arrow[r, "d"] &
 \Omega^2(U) \arrow[d, "\simeq"'] \arrow[r, "d"]  &

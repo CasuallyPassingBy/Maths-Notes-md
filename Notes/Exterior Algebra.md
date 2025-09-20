@@ -30,7 +30,7 @@ The product defined on $\bigwedge (V)$ is called the *exterior product* and it i
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 V \arrow[r,hook,"i"] \arrow[dr, "f"'] & {\textstyle\bigwedge}(V) \arrow[d, dashed,"\varphi"]\\ 
 & A
 \end{tikzcd}
@@ -43,7 +43,7 @@ V \arrow[r,hook,"i"] \arrow[dr, "f"'] & {\textstyle\bigwedge}(V) \arrow[d, dashe
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 V^k \arrow[r,hook,"w"] \arrow[dr, "f"'] & {\textstyle\bigwedge}_k(V) \arrow[d, dashed,"\varphi"]\\ 
 & W
 \end{tikzcd}

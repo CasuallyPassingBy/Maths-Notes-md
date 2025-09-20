@@ -33,7 +33,13 @@ Links: [[Topological Spaces]], [[Continuous Functions and Homeomorphims]], [[Sum
 
 **Prop:** A nonempty subset of $\Bbb R$ is connected iff it is a singleton or interval. 
 
-**Cor  (Intermediate Value Theorem):** Suppose $X$ is a connected toplogical space and $f:X \to \Bbb R$ is continuous. If $p,q \in X$, the $f$ attains every value between $f(p)$ and $f(q)$. 
+**Cor  (Intermediate Value Theorem):** Suppose $X$ is a connected topological space and $f:X \to \Bbb R$ is continuous. If $p,q \in X$, the $f$ attains every value between $f(p)$ and $f(q)$. 
+
+**Obs:** For $n > 1$, $\Bbb R^n$ is not homeomorphic to any subset of $\Bbb R$. This is because $U\subseteq \Bbb R$ is open and $x\in U$, then $U \setminus \{x\}$ is not connected.
+
+**[[Topological Manifolds#^ca2c82|Invariance of Dimension]], $1$-dimensional Case:** A nonempty topological space cannot tb both a $1$-manifold and $n$-manifold for $n> 1$. 
+
+**[[Topological Manifolds#^cd5f36|Invariance of Boundary]], $1$-dimensional Case:** Suppose $M$ is a $1$-dimensional manifold with boundary. Then a point of $M$ cannot be both a boundary point and an interior point. 
 
 ## Components
 

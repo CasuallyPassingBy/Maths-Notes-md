@@ -60,7 +60,7 @@ This is a consequence of the [[Submersions, Immersions and Embeddings of Manifol
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 E \arrow{r}\arrow{d}& E/\Gamma \arrow{d} \\
 M \arrow{r}& M/\Gamma
 \end{tikzcd}

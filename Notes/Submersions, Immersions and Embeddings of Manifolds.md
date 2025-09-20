@@ -68,7 +68,7 @@ Just to emphasise, but $\text{embedding} \implies \text{immersion}$, but we can 
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}     
+\begin{tikzcd}[row sep=2cm, column sep=2cm]    
 M \arrow[d,two heads, "\pi"'] \arrow[dr, "F\circ \pi"] \\ N \arrow[r, "F"'] & P.
 \end{tikzcd}
 \end{document}
@@ -78,7 +78,7 @@ M \arrow[d,two heads, "\pi"'] \arrow[dr, "F\circ \pi"] \\ N \arrow[r, "F"'] & P.
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}     
+\begin{tikzcd}[row sep=2cm, column sep=2cm]     
 M \arrow[d,two heads, "\pi"'] \arrow[dr, "F"] \\ N \arrow[r, "\widetilde F"] & P.
 \end{tikzcd}
 \end{document}
@@ -88,7 +88,7 @@ M \arrow[d,two heads, "\pi"'] \arrow[dr, "F"] \\ N \arrow[r, "\widetilde F"] & P
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}     
+\begin{tikzcd}[row sep=2cm, column sep=2cm]     
 & M \arrow[dl,two heads, "\pi_1"'] \arrow[dr,two heads, "\pi_2"] \\ 
 N \arrow[rr, "F"] & & P.
 \end{tikzcd}

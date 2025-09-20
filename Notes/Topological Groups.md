@@ -23,7 +23,7 @@ Links: [[Product Topology]], [[Groups]], [[Continuous Functions and Homeomorphim
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 G \times G \arrow[r, "*"] \arrow[d, "\pi_\beta \times \pi_\beta"'] &G \arrow[d, "\pi_\beta"] \\ 
 G_\beta \arrow[r, "*_\beta"']& G_\beta
 \end{tikzcd}
@@ -34,7 +34,7 @@ and
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 G  \arrow[r, "\iota"] \arrow[d, "\pi_\beta "'] &G \arrow[d, "\pi_\beta"] \\ 
 G_\beta \arrow[r, "\iota_\beta"']& G_\beta
 \end{tikzcd}

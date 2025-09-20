@@ -18,7 +18,7 @@ We would like to find the dual of the [[Weak Topology]].
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 Z \arrow[dr,"f\circ g"'] \arrow[r, "g"] & (X, \,_f \tau) \arrow[d, "f"] \\ 
 & Y
 \end{tikzcd}
@@ -38,7 +38,7 @@ Let $\{(Y_\alpha, \kappa_\alpha) \mid \alpha < \kappa\}$ be a family of topologi
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 Z \arrow[dr,"f_\alpha \circ g"'] \arrow[r, "g"] & (X, \,_\mathcal F \tau) \arrow[d, "f_\alpha"] \\ 
 & Y_\alpha
 \end{tikzcd}

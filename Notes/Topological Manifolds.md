@@ -18,7 +18,7 @@ A manifold is said to have dimension $n$ if all of its connected components have
 
 **Prop:** Every open subset of an $n$-manifold is an $n$-manifold.
 
-$(*)$ **Invariance of Dimension:** If $m \neq n$, a nonempty topological space cannot be both an $m$-manifold and an $n$-manifold.
+$(*)$ **Invariance of Dimension:** If $m \neq n$, a nonempty topological space cannot be both an $m$-manifold and an $n$-manifold. ^ca2c82
 
 We haven't proved that the dimension is indeed well defined. For that, we would need to know that for $n \neq m$ an open subset of $\Bbb R^n$ is not homeomorphic to an open subset of $\Bbb R^m$. This fact, called the invariance of dimension, is indeed true, but not in the scope right now.
 
@@ -74,7 +74,7 @@ Let us consider the closed $n$-dimensional *upper half-space* $\Bbb H^n \subsete
 
 **Prop:** If $M$ is an $n$-dimensional manifold with boundary, then $\text{Int}(M)$ is an open subset of $M$, which is itself an $n$-dimensional without boundary.
 
-$(*)$ **Invariance of Boundary:** If $M$ is a manifold without boundary, then a point of $M$ cannot be a boundary point and an interior point. Thus $\partial M$ and $\text{Int}(M)$ are disjoint whose union is $M$
+$(*)$ **Invariance of Boundary:** If $M$ is a manifold without boundary, then a point of $M$ cannot be a boundary point and an interior point. Thus $\partial M$ and $\text{Int}(M)$ are disjoint whose union is $M$ ^cd5f36
 
 **Cor:** If $M$ is a nonempty $n$-dimensional manifold with boundary, then $\partial M$ is closed in $M$, and $M$ is an $n$-manifold iff $\partial M = \varnothing$. 
 

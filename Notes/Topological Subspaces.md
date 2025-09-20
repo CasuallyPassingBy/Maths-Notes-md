@@ -52,7 +52,7 @@ The embedding $i: M \to X$ is open/closed iff $M$ is open/closed.
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 
 Y \arrow[dr,"\iota \circ f"'] \arrow[r, "f"] & S \arrow[d,hook, "\iota"] \\ 
 & X

@@ -47,7 +47,7 @@ Since a one-point space is simply connected, wee that every contractible space i
 \usepackage{amsfonts, amsmath, amssymb}
 
 \begin{document}
-\begin{tikzcd}[sep = .5 cm]
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 & \pi_1(X, p)\arrow[dl, "\varphi_*"']\arrow[dr, "\psi_*"]& \\
 \pi_1(Y, \varphi(p))\arrow[rr, "\Phi_h"'] && \pi_1(Y, \psi(p)) 
 \end{tikzcd}

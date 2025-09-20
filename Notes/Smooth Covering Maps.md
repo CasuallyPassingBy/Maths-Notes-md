@@ -25,7 +25,7 @@ Links: [[Covering maps]], [[Smooth Functions on Smooth Manifolds]], [[Proper Map
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}     
+\begin{tikzcd}[row sep=2cm, column sep=2cm] 
 N \arrow[d,two heads, "\pi"'] \arrow[dr, "F \circ \pi"] \\ M \arrow[r, "F"'] & L
 \end{tikzcd}
 \end{document}

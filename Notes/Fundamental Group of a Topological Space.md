@@ -58,7 +58,7 @@ Let us consider $\Bbb S^1$ as a subset of the complex plane. Let $\omega: [0, 1]
 \usepackage{amsfonts, amsmath, amssymb}
 
 \begin{document}
-\begin{tikzcd}[sep = .5 cm]
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 [0,1]\arrow[d, two heads, "\omega"'] \arrow[dr, "f"] \\
 \mathbb{S}^1 \arrow[r, "\tilde f"'] & X
 \end{tikzcd}

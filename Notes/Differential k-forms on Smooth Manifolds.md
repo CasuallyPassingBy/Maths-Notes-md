@@ -51,7 +51,7 @@ Now suppose $F: N \to M$ is a smooth map of manifolds. At each point $p \in N$, 
 \usepackage{amsfonts}
 \usepackage{amsmath}
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 T_p N  \times \dots \times T_p N    \arrow[r, "F_* \times \dots \times F_*"] & 
 T_{F(p)} M \times \dots \times T_{F(p)} M \arrow[r, "\omega_{F(p)}"] &
 \Bbb R

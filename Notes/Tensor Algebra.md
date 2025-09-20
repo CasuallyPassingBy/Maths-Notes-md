@@ -21,7 +21,7 @@ The elements fo $T^k(M)$ are called $k$-*tensors*. Then: $$T(M) := \bigoplus_{k 
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}     
+\begin{tikzcd}[row sep=2cm, column sep=2cm]     
 M \arrow[dr, "\phi"] \arrow[r, hook, "\iota"] & T(M) \arrow[d, dashed, "\Phi"]\\
 & A
 \end{tikzcd}

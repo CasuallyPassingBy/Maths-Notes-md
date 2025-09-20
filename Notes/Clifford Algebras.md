@@ -13,16 +13,16 @@ $$uv+ vu = 2\langle u, v\rangle,$$
 where$$\langle u, v\rangle := \frac12(Q(u+v)- Q(u)- Q(v))$$is $\langle \cdot, \cdot\rangle$ is the symmetric bilinear form associated with $Q$. 
 
 **Universal Property:** A Clifford algebra $\text{Cl}(V, Q)$ is a pair $(B, i)$ where $B$ is a unital associative algebra over $K$ and $i$ is a linear map $i:V \to B$ that satisfies $i(v)^2 = Q(v) 1_B$ for all $v\in V$, defined by the following universal property: given any unital associative algebra $A$ over $K$ and any linear map $j: V \to A$ such that $j(v)^2 = Q(v) 1_A$ for all $v\in V$, there is a unique morphism $f:B \to A$ such that the following diagram commutes
-
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}     
+\begin{tikzcd}[row sep=2cm, column sep=2cm]    
 V \arrow[dr, "j"] \arrow[r, hook, "i"] & C\ell(V, Q) \arrow[d, dashed, "f"]\\
 & A
 \end{tikzcd}
 \end{document}
 ```
+
 The quadratic form $Q$ may be replaced by a bilinear form $\langle \cdot, \cdot \rangle$ that has the property $\langle v, v\rangle = Q(v)$, for $v\in V$, in which case an equivalent requirement on $j$ is $j(v) j(v) = \langle v, v\rangle 1_A$ for all $v\in V$. When the characteristic of the field is not $2$, this may be replaced by what is then an equivalent requirement $$j(v) j(w) + j(w)j(v) = (\langle v, w\rangle+ \langle w, v\rangle)1_A \qquad \forall v, w\in V,$$where the bilinear form may be additionally restricted to being symmetric without loss of generality.
 
 From the universal property we get two things. Firstly, since $\text{Cl}(V, Q)$ contains $V$ and satisfies the above universal property, so that $\text{Cl}(V, Q)$ is unique up to a unique isomorphism. We also see that the map $i$ is injective, so we treat $V$ as a subspace of $\text{Cl}(V, Q)$. 

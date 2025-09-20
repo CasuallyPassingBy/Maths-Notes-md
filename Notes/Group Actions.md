@@ -27,7 +27,7 @@ Suppose $X$ and $Y$ are both $G$-sets. A map $F: X \to Y$ is said to be *equivar
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 X \arrow[r, "F"] \arrow[d, "\phi_g"'] & Y \arrow{d}{\phi_g} \\
 X \arrow[r, "F"'] & Y
 \end{tikzcd}

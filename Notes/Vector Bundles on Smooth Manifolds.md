@@ -11,7 +11,7 @@ Links: [[Topological Vector Bundles]], [[Smooth Submanifolds]] [[The Tangent Bun
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 E \arrow{rr}{\phi} \arrow{dr}{\pi}&& E'\arrow{dl}{\pi'} \\
 & M
 \end{tikzcd}
@@ -25,7 +25,7 @@ E \arrow{rr}{\phi} \arrow{dr}{\pi}&& E'\arrow{dl}{\pi'} \\
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 \pi^{-1}[U] \arrow{rr}{\phi} \arrow{dr}{\pi}&& U \times R^k\arrow{dl}{\pi_1} \\
 & M
 \end{tikzcd}
@@ -74,7 +74,7 @@ Let $\pi_E: E \to M$, and $\pi_F: F \to M$ be vector bundles over $M$, with bund
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 F \arrow[d, two heads,"\pi_M"'] \arrow[r, "\tilde f^*"] & E \arrow[d, two heads,"\pi_N"]\\
 M \arrow[r, "f^{-1}"'] & N
 \end{tikzcd}

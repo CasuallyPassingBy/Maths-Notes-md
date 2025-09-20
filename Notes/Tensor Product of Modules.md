@@ -37,7 +37,7 @@ Equivalently, the correspondence $\varphi \leftrightarrow \Phi$ in the commutati
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}     
+\begin{tikzcd}[row sep=2cm, column sep=2cm]     
 M \times N \arrow[dr, "\phi"] \arrow[r, two heads, "\iota"] & M \otimes_R N \arrow[d, dashed, "\Phi"]\\
 & L
 \end{tikzcd}
@@ -71,7 +71,7 @@ for all $m, m_1, m_2 \in M$, $n, n_1, n_2 \in N$, and $r_1, r_2 \in R$.
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}     
+\begin{tikzcd}[row sep=2cm, column sep=2cm]     
 M \times N \arrow[dr, "\phi"] \arrow[r, two heads, "\iota"] & M \otimes_R N \arrow[d, dashed, "\Phi"]\\
 & L
 \end{tikzcd}
@@ -90,7 +90,7 @@ There's a special case when we consider, when $R$ is a subring of $S$. Then $S$ 
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}     
+\begin{tikzcd}[row sep=2cm, column sep=2cm]     
 N \arrow[dr, "\phi"] \arrow[r, two heads, "\iota"] & S \otimes_R N \arrow[d, dashed, "\Phi"]\\
 & L
 \end{tikzcd}
@@ -121,7 +121,7 @@ Hence there is a bijection between the $n$-linear maps $\varphi: \prod_{i = 1}^n
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}     
+\begin{tikzcd}[row sep=2cm, column sep=2cm]     
 \prod\limits_{i = 1}^n M_i \arrow[dr, "\phi"] \arrow[r, two heads, "\iota"] & \bigotimes\limits_{i = 1}^n M_i \arrow[d, dashed, "\Phi"]\\
 & L
 \end{tikzcd}

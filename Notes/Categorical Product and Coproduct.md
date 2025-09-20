@@ -13,7 +13,7 @@ Links: [[Categories and Functors]], [[Product Topology]], [[Direct Product of Gr
 \usepackage{amsfonts, amsmath, amssymb}
 
 \begin{document}
-\begin{tikzcd}[sep = .5 cm]
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 &  P\arrow[d, "\pi_\alpha"] \\
 Y \arrow[ur, dashed, "f"] \arrow[r, "f_\alpha"'] & X_\alpha
 \end{tikzcd}
@@ -40,7 +40,7 @@ The product may or may not exist in a given category, for example in $\sf Field$
 \usepackage{amsfonts, amsmath, amssymb}
 
 \begin{document}
-\begin{tikzcd}[sep = .5 cm]
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 S \arrow[dr, dashed, "f"] & \\
 X_\alpha \arrow[u, "\iota_\alpha"] \arrow[r, "f_\alpha"'] & Y
 \end{tikzcd}

@@ -28,7 +28,7 @@ With the Lie bracket $[\;, \;]$, the tangent space $T_e G$ becomes a Lie algebra
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 T_e H \arrow[d,"\cong"] \arrow[r, "\phi"] & T_e G \arrow[d,"\cong"]\\
 {Lie}(H) \arrow[r, dashed] & {Lie}(G)
 \end{tikzcd}

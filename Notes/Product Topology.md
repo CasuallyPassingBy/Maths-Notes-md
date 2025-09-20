@@ -36,7 +36,7 @@ For each $\alpha< \kappa$, we can define the function $\pi_\alpha: \prod_{\beta<
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 Z \arrow[dr,"\pi_\alpha \circ g"'] \arrow[r, "g"] &\prod_{\beta<\kappa}X_\beta \arrow[d, "\pi_\alpha"] \\ 
 & X_\alpha
 \end{tikzcd}
@@ -76,7 +76,7 @@ $$for each $\alpha < \kappa$.
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 & \prod_{\alpha<\kappa}X_\alpha \arrow[d, "\pi_\alpha"] \\ 
 Y \arrow[r,"f_\alpha"'] \arrow[ur, dashed,"f"] & X_\alpha
 \end{tikzcd}

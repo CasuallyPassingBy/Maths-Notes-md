@@ -11,7 +11,7 @@ Links: [[Weak Topology]], [[Equivalence Relations and Partitions]]
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 X \arrow[dr,"g\circ q"'] \arrow[r, "q"] & (Y, \tau_q) \arrow[d, "g"] \\ 
 & Z
 \end{tikzcd}
@@ -40,7 +40,7 @@ We can also consider equivalence relations since there's a natural bijection bet
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 X \arrow[dr,"q = h\circ f"'] \arrow[r, "f"] & (Y, \tau_f) \arrow[d, "h", "\cong"'] \\ 
 & (\mathcal D, \tau_\mathcal D)
 \end{tikzcd}
@@ -51,7 +51,7 @@ X \arrow[dr,"q = h\circ f"'] \arrow[r, "f"] & (Y, \tau_f) \arrow[d, "h", "\cong"
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 X \arrow[dr,"f"'] \arrow[r, "q"] & Y \arrow[d,dashed, "\tilde f"] \\ 
 & Z
 \end{tikzcd}

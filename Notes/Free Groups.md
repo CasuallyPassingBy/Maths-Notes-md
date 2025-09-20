@@ -17,7 +17,7 @@ We degine the *free group on $S$*  denoted by $F(S)$, to be the free product of 
 \usepackage{amsfonts, amsmath, amssymb}
 
 \begin{document}
-\begin{tikzcd}[sep = .5 cm]
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 F(S) \arrow[dr, dashed, "\Phi"] & \\
 S \arrow[u, hook,"\iota_\alpha"] \arrow[r, "\varphi"'] & H
 \end{tikzcd}

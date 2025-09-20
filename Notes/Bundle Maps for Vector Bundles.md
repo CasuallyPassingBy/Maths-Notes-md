@@ -11,7 +11,7 @@ Links: [[Vector Bundles on Smooth Manifolds]], [[Smooth Functions on Smooth Mani
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 E \arrow{r}{\tilde f} \arrow{d}{\pi_E}& F \arrow{d}{\pi_E} \\
 M \arrow{r}{f}& N
 \end{tikzcd}
@@ -25,7 +25,7 @@ In the spacial case in which $E$ and $F$ are vector bundles over the same base m
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 E \arrow{rr}{f} \arrow{dr}{\pi_E}&& F \arrow{dl}{\pi_F} \\
 & M
 \end{tikzcd}
@@ -47,7 +47,7 @@ A smooth map $f: N \to M$ of manifolds induces a bundle map $(f, \tilde f)$, whe
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 T^*M \arrow{r}{\tilde f^*} \arrow{d}{\pi_E}& T^*N \arrow{d}{\pi_E} \\
 M \arrow{r}{f^{-1}}& N
 \end{tikzcd}

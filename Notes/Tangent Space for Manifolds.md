@@ -34,7 +34,7 @@ Let $F: N \to M$ and $G: M \to P$ be smooth maps of manifolds, and $p\in N$. The
 \usepackage{amsfonts}
 \usepackage{amsmath}
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 T_p N      \arrow[r, "dF_p"] & 
 T_{F(p)} M \arrow[r, "dG_{F(p)}"] &
 T_{G(F(p))} P

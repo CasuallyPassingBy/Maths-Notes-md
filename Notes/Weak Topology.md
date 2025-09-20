@@ -13,7 +13,7 @@ Let's consider $X$ a topological space, $Y$ a set, and $f:X \to Y$. We would lik
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 X \arrow[dr,"g\circ f"'] \arrow[r, "f"] & Y \arrow[d, "g"] \\ 
 & Z
 \end{tikzcd}
@@ -33,14 +33,14 @@ We can generalise this technique, in an analogue way as we did with the initial 
 - The collection $\tau_\mathcal F$ is a topology on $Y$.
 - Each $f_\alpha: (X_\alpha, \tau_\alpha) \to (Y, \tau_\mathcal F)$ is continuous for each $\alpha < \kappa$, and $\tau_\mathcal F$ is the finest topology of $Y$ with this property.
 - $\tau_\mathcal F$ is the unique topology on $Y$ that satisfies: For any topological space $Z$, a function $g: (Y, \tau_\mathcal F) \to Z$ is continuous iff $g\circ f_\alpha$ is continuous for each $\alpha < \kappa$. 
-
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 X_\alpha \arrow[dr,"g\circ f_\alpha"'] \arrow[r, "f_\alpha"] & (Y, \tau_\mathcal F) \arrow[d, "g"] \\ 
 & Z
 \end{tikzcd}
 \end{document}
 ```
+
 **Def:** A topology $\tau_\mathcal F$ is called the *strong topology* or the *final topology*,on $Y$ defined by the family of functions $\mathcal F$ and the family of topological spaces $\{(X_\alpha, \tau_\alpha) \mid \alpha < \kappa\}$. 

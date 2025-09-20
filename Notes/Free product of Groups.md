@@ -32,7 +32,7 @@ Let us observe that for each group $G_\alpha$, there is a canonical map $\iota_\
 \usepackage{amsfonts, amsmath, amssymb}
 
 \begin{document}
-\begin{tikzcd}[sep = .5 cm]
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
 *_\alpha G_\alpha \arrow[dr, dashed, "\Phi"] & \\
 G_\alpha \arrow[u, hook,"\iota_\alpha"] \arrow[r, "\varphi_\alpha"'] & H
 \end{tikzcd}
