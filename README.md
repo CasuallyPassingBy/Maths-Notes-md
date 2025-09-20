@@ -41,6 +41,7 @@ The notes in this repository encompass various branches and topics within mathem
 
 ### Advanced Topics
 - Measure Theory
+- Algebraic Topology
 
 ### Special Objects
 - Special Functions
