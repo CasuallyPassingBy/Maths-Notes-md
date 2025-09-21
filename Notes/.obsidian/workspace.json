@@ -4,20 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "35e12952edb9a534",
+        "id": "439496627bf5edb8",
         "type": "tabs",
         "children": [
           {
-            "id": "11a61cf613b3ca77",
+            "id": "17102ac7445a06d5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Central Hub.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Central Hub"
+            }
+          },
+          {
+            "id": "a336d64a5f83b1d8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\begin{tikzcd}",
+                "query": "OIST",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,8 +96,7 @@
               "title": "Tag Folder"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,8 +194,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "11a61cf613b3ca77",
+  "active": "a336d64a5f83b1d8",
   "lastOpenFiles": [
+    "Numerical Analysis.md",
+    "Solutions of Equations of One Variable.md",
+    "Bisection Method.md",
+    "Central Hub.md",
+    "Algebraic Topology.md",
+    "Journal/Yang Aran Routine.md",
+    "OIST/OIST Recommendation Letters.md",
+    "OIST/OIST Statement of Purpose.md",
+    "OIST/OIST Application.md",
+    "Topology.md",
+    "Separation Axioms.md",
     "Free Abelian Groups.md",
     "Generation of Modules, Direct Sum, and Free Modules.md",
     "Module and Algebra (Structure).md",
@@ -196,17 +222,6 @@
     "Fundamental Group of a Topological Space.md",
     "Group Homomorphisms and Isomorphisms.md",
     "Topological Connectedness.md",
-    "Weak Topology.md",
-    "Vector Bundles on Smooth Manifolds.md",
-    "Topological Groups.md",
-    "The Exterior Derivative on Rn.md",
-    "Tensor Product of Modules.md",
-    "Tensor Algebra.md",
-    "Tangent Space for Manifolds.md",
-    "Submersions, Immersions and Embeddings of Manifolds.md",
-    "Smooth Covering Maps.md",
-    "Quotient Topology.md",
-    "Quotient of Normed Spaces.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",
