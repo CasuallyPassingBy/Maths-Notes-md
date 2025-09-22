@@ -61,3 +61,5 @@ Since a one-point space is simply connected, wee that every contractible space i
 We see that the subspace $X \times \{1\}\subseteq Y \sqcup (X \times I)$ is a saturate closed subset homeomorphic to $X$. The restriction of this quotient map $q: Y \sqcup (X \times I) \to Z_f$ to this subset is an embedding of $X$. The image of the embedding is denoted by $\bar X$. Similarly, for $Y$, and $\bar Y$.
 
 **Prop:** With notation as above, if $f$ is a homotopy equivalence, then $\bar Y$ and $\bar X$ are deformation retracts of $Z_f$. Thus two spaces are homotopy equivalent iff they are both homeomorphic to deformation retracts of a single space. 
+
+**Def:** A point $p$ in a topological space $X$ is said to be a *nondegenerate base point* of $p$ has a neighbourhood that admits a strong deformation retraction onto $p$. This definition is incomplete for more general homotopy theory. ^85d060

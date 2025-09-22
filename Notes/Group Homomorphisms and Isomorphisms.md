@@ -31,22 +31,16 @@ A group homomorphism $\phi: G \to G'$ is surjective iff $\text{Im}(\phi) = G'$
 - If $\phi: G \to G'$ is a group isomorphism, then its inverse $\phi^{-1}: G'\to G$ is also an isomorphism.
 - If $\phi: G \to G'$ and $\psi:G'\to G''$ are group isomorphisms, then the composition $\psi \circ \phi: G \to G''$ is also an isomorphism.
 
-**Factorising Homomorphism:** Let $\phi$ and $\psi$ be group homomorphism such that  ^b63bfc
+**Fundamental Theorem on homomorphism:** Let $G$ and $H$ be groups, $f: G \to H$ a group homomorphism, $N \trianglelefteq G$, $\rho: G \to G/N$ be the canonical group homomorphism. If $N \le \ker f$, them there exists a unique homomorphism $h: G/N \to H$ such that $f = h \circ \varphi$. Additionally, $h$ is injective iff $N= \ker f$. ^b63bfc
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
 \begin{tikzcd}[row sep=2cm, column sep=2cm]
-G \arrow[d, two heads,"\psi"'] \arrow[r, "\phi"] & \mathrm{Im}(\phi) \\ G/\ker(\phi) \arrow[ur, dashed, "\overline{\phi}"']
+G \arrow[d, two heads,"\varphi"'] \arrow[r, "f"] & H \\ G/N\arrow[ur, dashed, "h"']
 \end{tikzcd}
 \end{document}
 ```
 
-where $\psi$ is surjective and $\ker(\psi) \le \ker(\phi)$. Then there exists a unique group homomorphism $\overline \varphi: T \to H$ such that $\phi = \overline \varphi \circ \psi$, and:
-- $\text{Im}(\overline \varphi) = \text{Im}(\phi)$
-- $\ker(\overline \varphi) = \psi[\ker(\phi)]$ 
-In fact:
-- $\overline \varphi$ is surjective iff $\phi$ is surjective
-- $\overline \varphi$ is injective iff $\ker(\phi) = \ker(\psi)$
 
 **Noether's First Isomorphism Theorem:** If $\phi: G \to G'$ is a group homomorphism, then $\phi$ induces a group isomorphism $\overline \phi: G/\ker (\phi)\to \text{Im}(\phi)$, such that the diagram commutes:  ^ff5e58
 

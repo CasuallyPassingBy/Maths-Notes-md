@@ -25,7 +25,7 @@ tags:
 	- [[Automorphism Group]]
 - [[Direct Product of Groups]]
 	- [[Finite Abelian Groups]]
-- [[Free product of Groups]]
+- [[Free Product of Groups]]
 	- [[Free Groups]]
 		- [[Free Abelian Groups]]
 	- [[Group Presentations]]

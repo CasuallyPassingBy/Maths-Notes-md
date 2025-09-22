@@ -44,3 +44,13 @@ G_\alpha \arrow[u, hook,"\iota_\alpha"] \arrow[r, "\varphi_\alpha"'] & H
 Because of this, I am going to denote it as $\coprod_\alpha G_\alpha$. 
 
 **Cor:** The free product is the unique group (up to isomorphism) satisfying the characteristic property.
+
+# Amalgamated Free Product
+
+**Def:** Let $H$, $G_1$, $G_2$ be groups, and $f_1: H \to G_1$ and $f_2: H \to G_2$ group homomorphisms. The *amalgamated free product of $G_1$ and $G_2$ along $H$*, denoted by $G_1 \ast_H G_2$, is the quotient group $G_1 \ast G_2/\overline C$, where $C := \{f_1(h) f_2(h)^{-1} \mid h \in H\}$.
+
+**Presentation of an Amalgamated Free Product:** Let $f_1: H\to G_1$ and $f_2 : H \to G_2$ be group homomorphisms. Suppose $G_1, G_2$ and $H$ have following presentations: $$\begin{align*} G_1 &\cong \langle \alpha_1,\dots, \alpha_m \mid \rho_1,\dots, \rho_r\rangle, \\
+G_2 &\cong \langle \beta_1,\dots, \beta_n \mid \sigma_1,\dots, \sigma_s\rangle, \\
+H &\cong \langle \gamma_1,\dots, \gamma_p \mid \tau_1,\dots, \tau_t\rangle.
+\end{align*}$$
+Then the amalgamated free product has the presentation $$G_1 \ast_H G_2 \cong \langle a_1, \dots, \alpha_m, \beta_1,\dots, \beta_n \mid \rho_1, \dots, \rho_r,\sigma_1, \dots, \sigma_s,u_1 = v_1,\dots,u_p = v_p\rangle, $$where $u_a$ is an expression for $f_1(\gamma_a)\in G_1$ in terms of the generators, and $v_a$ similarly, expresses $f_2(\gamma_a)\in G_2$ in terms of its generators. 

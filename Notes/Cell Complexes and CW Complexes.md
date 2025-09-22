@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Continuous Functions and Homeomorphims]], [[Adjunction Topology]], [[Hausdorff Spaces]], [[Spheres in Rn]]
+Links: [[Continuous Functions and Homeomorphims]], [[Adjunction Topology]], [[Hausdorff Spaces]], [[Spheres in Rn]], [[Graphs]]
 
 **Def:** An *open $n$-cell* is any topological space that is homeomorphic to the open unit ball $\Bbb B^n$, and a *closed $n$-cell* is any space homeomorphic to $\bar{\Bbb B}^n$. 
 

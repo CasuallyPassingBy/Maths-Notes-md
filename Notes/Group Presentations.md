@@ -24,4 +24,4 @@ Note that if that isomorphism exist it is uniquely determined by specifying whic
 - The group $\Bbb Z \times \Bbb Z$ has presentation $\langle \beta, \gamma\mid \beta\gamma = \gamma\beta\rangle$.
 - The [[Cyclic Groups|cyclic group]] $C_n$ has the presentation $C_n \cong \langle \alpha \mid \alpha^n = 1\rangle$.
 - The [[Dihedral Groups|Dihedral group]] $D_{2n}$ has presentation $D_{2n} \cong \langle r,s \mid r^n = s^2 = (sr)^2 = 1\rangle$. 
-- Let $\{G_\alpha\}_{\alpha <\kappa}$ be a collection of groups, if each $G_\alpha$ has a presentation $\langle S_\alpha \mid R_\alpha\rangle$, then $\coprod_\alpha G_\alpha$ has a presentation $$\left\langle \left.\bigcup_{\alpha <\kappa} S_\alpha \; \right\rvert\; \bigcup_{\alpha <\kappa} R_\alpha\right\rangle.$$
+- Let $\{G_\alpha\}_{\alpha <\kappa}$ be a collection of groups, if each $G_\alpha$ has a presentation $\langle S_\alpha \mid R_\alpha\rangle$, and the collection $\{S_\alpha\mid \alpha <\kappa\}$ is pairwise disjoint, then $\coprod_\alpha G_\alpha$ has a presentation $$\left\langle \left.\bigcup_{\alpha <\kappa} S_\alpha \; \right\rvert\; \bigcup_{\alpha <\kappa} R_\alpha\right\rangle.$$
