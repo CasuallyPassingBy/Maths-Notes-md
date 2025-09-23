@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Sets of Measure Zero in Smooth Manifolds]], [[The Whitney Embedding Theorem]], [[Fundamental Group of a Topological Space]]
+Links: [[Sets of Measure Zero in Smooth Manifolds]], [[The Whitney Embedding Theorem]], [[Homotopy]]
 
 **Def:** If $\delta: M \to\Bbb R$ is a positive continuous function, we say that two functions $F, G: M \to \Bbb R^k$ are *$\delta$-close* if $\|F(x)- G(x)\| <\delta (x)$ for all $x\in M$. This notion of $\delta$-close reminds to have a $\delta$-fine partition for the [[Henstock–Kurzweil Integral]].
 

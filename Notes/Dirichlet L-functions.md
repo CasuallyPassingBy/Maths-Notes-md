@@ -1,7 +1,6 @@
 ---
 tags:
-  - NumberTheory
-  - AnalyticNumberTheory
+  - NumberTheory/AnalyticNumberTheory
 ---
 Subjects: [[Analytic Number Theory]]
 Links: [[Dirichlet Characters]], [[Riemann Zeta Function]], [[Dirichlet Series]], [[Prime Numbers]], [[Infinite Products]], [[Infinite Product of Functions]]

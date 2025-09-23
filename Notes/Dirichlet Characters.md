@@ -1,7 +1,7 @@
 ---
 tags:
   - FourierAnalysis
-  - AnalyticNumberTheory
+  - NumberTheory/AnalyticNumberTheory
 ---
 Subjects: [[Elementary Number Theory]], [[Fourier Analysis]]
 Links: [[Fourier Analysis on finite abelian groups]], [[Euler Totient Function]], [[Multiplicative Functions]]
@@ -21,4 +21,4 @@ are called the *Dirichlet characters* modulo $q$. We shall denote the extension 
 
 **Def:** A Dirichlet character is said to be *real* if it takes on only real values (that is $+1$, $-1$, or $0$) and *complex* otherwise. $\chi$ is real iff $\chi(n) = \overline{\chi(n)}$
 
-**Def:** The Dirichlet character $\chi$ is *even* if $\chi(-1) = 1$ and it si *odd* of $\chi(-1) = -1$
+**Def:** The Dirichlet character $\chi$ is *even* if $\chi(-1) = 1$ and it is *odd* of $\chi(-1) = -1$

@@ -1,7 +1,6 @@
 ---
 tags:
-  - NumberTheory
-  - AnalyticNumberTheory
+  - NumberTheory/AnalyticNumberTheory
 ---
 Subjects: [[Elementary Number Theory]], [[Analytic Number Theory]]
 Links: [[Multiplicative Functions]]

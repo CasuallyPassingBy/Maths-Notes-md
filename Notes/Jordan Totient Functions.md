@@ -1,7 +1,6 @@
 ---
 tags:
-  - AnalyticNumberTheory
-  - NumberTheory
+  - NumberTheory/AnalyticNumberTheory
 ---
 Subjects: [[Elementary Number Theory]], [[Analytic Number Theory]]
 

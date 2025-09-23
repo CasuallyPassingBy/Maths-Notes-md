@@ -1,7 +1,6 @@
 ---
 tags:
   - NumberTheory
-  - "#AnalyticNumberTheory"
 ---
 Subjects: [[Elementary Number Theory]]
 Links: [[Greatest Common Divisor]], [[Lowest Common Multiple]]

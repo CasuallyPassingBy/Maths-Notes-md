@@ -1,7 +1,7 @@
 ---
 tags:
-  - AnalyticNumberTheory
   - NumberTheory
+  - NumberTheory/AnalyticNumberTheory
 ---
 Subjects: [[Elementary Number Theory]], [[Analytic Number Theory]]
 Links: [[Jordan Totient Functions]], [[Möbius Function and Inversion Formula]], [[Multiplicative Functions]]

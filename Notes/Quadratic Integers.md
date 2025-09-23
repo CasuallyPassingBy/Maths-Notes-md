@@ -1,7 +1,7 @@
 ---
 tags:
   - RingTheory
-  - AlgebraicNumberTheory
+  - NumberTheory/AlgebraicNumberTheory
 ---
 Subjects: [[Ring Theory]], [[Algebraic Number Theory]]
 Links: [[Rings]], [[Continued Fractions]]

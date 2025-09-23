@@ -26,4 +26,6 @@ Note that $\pi_1(\Bbb T^2) \cong \langle\beta,\gamma\mid \beta \gamma = \gamma\b
 
 **Def:** If $M$ is a compact surface, we can define the *Euler characteristic of $M$*, denoted by $\chi(M)$, to be the Euler characteristic of the presentation of that surface. 
 
-**Lemma:** Suppose $M$ and $N$ are nonempty, compact, connected $2$-manifolds. 
+**Lemma:** Suppose $M$ and $N$ are nonempty, compact, connected $2$-manifolds. $M$ and $N$ are homeomorphic iff they have isomorphic fundamental groups.
+
+**Prop:** Suppose $M$ and $N$ are nonempty, compact, connected $2$-manifolds. Any two connected sums of $M$ and $N$ are homeomorphic. 
