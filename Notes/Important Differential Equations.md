@@ -40,10 +40,7 @@ The **Airy Equation**
 $$y'' -x y = 0 $$
 which is a generalisation of $\sin$ and $\cos$, the solutions are called the [[Airy Functions]]
 
-The Euler's hypergeometric differential equation:
-
-$$ z(1-z)y'' +[c-(a+b+1)z]y'-aby =0 $$
-
+The Euler's hypergeometric differential equation: $$ z(1-z)y'' +[c-(a+b+1)z]y'-aby =0 $$
 The [[Hypergeometric Function|Hypergeometric function]] is a solution to the equation which has $3$ singular points at $0$, $1$ and $\infty$.
 
 The [[Lotka-Volterra Predator-Prey Model]]: 

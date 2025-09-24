@@ -38,9 +38,15 @@ Note that the sheets are connected, disjoint and open implies that they are comp
 
 If $q:E \to X$ us a covering map, the cardinality of any fiber is called the *number of sheets of the covering*. 
 
+**Prop:** A covering map is proper iff it is finite-sheeted. 
+
+**Prop:** Let $q:E \to X$ is a covering map. $E$ is compact iff $X$ is compact and $q$ is finite-sheeted. 
+
 **Prop:** Let $M$ and $N$ be connected manifolds of dimension $n$, and suppose $\widetilde M\to M$ is a $k$-sheeted covering map. There is a connected sum $M \# N$ that admits a $k$-sheeted covering by a manifold $\widetilde M \# N \#\cdots \# N$ (connected sum of $\widetilde M$ with $k$ disjoint copies of $N$)
 
 **Prop:** Every nonorientable compact surface of genus $n \ge 1$ has a two sheeted covering by an orientable one of genus $n-1$. 
+
+**Prop:** Let $X$ be a CW complex, and $q:E \to X$ be a covering map. Then $E$ has CW decomposition for which each cell is mapped homeomorphically by $q$ onto the cell $X$. 
 
 # Lifting Properties
 

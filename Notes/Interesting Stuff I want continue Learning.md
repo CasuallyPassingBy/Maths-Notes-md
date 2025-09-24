@@ -9,6 +9,18 @@
 
 ### Algebraic Topology 
 - [ ] Introduction to Topological Manifolds by Lee (75%)
+	- [x] Topological Spaces
+	- [x] New Spaces from Old
+	- [x] Connectedness and Compactness
+	- [x] Cell Complexes
+	- [x] Compact Surfaces
+	- [x] Homotopy and the Fundamental Group
+	- [x] The Circle
+	- [x] Some Group Theory
+	- [x] The Seifert-Van Kampen Theorem
+	- [ ] Covering Maps
+	- [ ] Group Actions and Covering Maps
+	- [ ] Homolohgy
 - [ ] Algebraic Topology by Hatcher (0%)
 
 ## Algebra
@@ -29,7 +41,27 @@
 	- [ ] Bogachev I
 	- [ ] Bogachev II
 -  Differential Geometry
-	- [ ] Lee (50%)
+	- [ ]  Introduction to Smooth Manifolds by Lee (50%)
+		- [x] Smooth Manifolds
+		- [x] Smooth Maps
+		- [x] Tangent Vectors
+		- [x] Vector Fields
+		- [x] Vector Bundles
+		- [x] The Cotangent Bundle
+		- [x] Submersion, Immersions and Embeddings
+		- [x] Submanifolds
+		- [x] Lie Group Actions
+		- [x] Embedding and Approximation Theorems
+		- [ ] Tensors
+		- [ ] Differential Forms
+		- [ ] Orientations
+		- [ ] Integration on Manifolds
+		- [ ] De Rham Cohomology
+		- [ ] The de Rham Theorem
+		- [ ] Integral Curves and Flow
+		- [ ] Lie Derivatives
+		- [ ] Integral Manifolds and Foliations
+		- [ ] Lie Groups and Their Lie Algebras
 - Riemannian Geometry
 	- [ ] Lee (0%)
 -  Functional Analysis
@@ -46,7 +78,7 @@
 	- [ ] Øskendal
 ## Physics
 -  Classical Mechanics 
-	- [ ] Taylor (30%)
+	- [ ] Taylor
 - Electromagnetism
 	- [ ] DJ Griffiths
 -  Quantum Mechanics
@@ -59,7 +91,19 @@
 -  Theory of Computation
 	- [ ] Sipser
 -  Numerical Analysis
-	- [ ] Burden
+	- [ ] Burden (20%)
+		- [x] Error Analysis
+		- [x] Solutions of Equations in One Variable
+		- [x] Interpolation and Polynomial Approximations
+		- [ ] Numerical Differentiation and Integration
+		- [ ] Initial Value Problems for ODE
+		- [ ] Direct Methods for Solving Linear Systems
+		- [ ] Iterative Techniques in Matrix Algebra
+		- [ ] Approximation Theory
+		- [ ] Approximating Eigenvalues
+		- [ ] Numerical Solutions of Nonlinear systems of Equations
+		- [ ] Boundary-Value Problems for ODE
+		- [ ] Numerical Solutions to PDE
 ## Other
 - [ ] Finite Operator Calculus (Finite Operator Calculus.pdf)
 - [ ] Umbral Calculus (Pure and Applied Mathematics 111)
