@@ -83,13 +83,19 @@ Whenever $q:E \to X$ is a covering map, we use the following notation for lifts 
 
 A natural problem arises when considering covering maps, and that is when a function has a lift, this is called as the *lifting problem*. 
 
-**Lifting Criterion:** Suppose $q:E \to X$ is a covering map. Let $Y$ be a connected and locally path-connected space, and let $\varphi: Y \to X$ be a continuous map. Given any points $y_0\in Y$ and $e_0\in E$ such that $q(e_0) = \varphi(y_0)$, the map $\varphi$ has a lift $\widetilde \varphi: Y\to E$ satisfying $\widetilde \varphi(y_0) = e_0$ iff the subgroup $\varphi_*[\pi_1(Y, y_0)]$ of $\pi_1(X, \varphi(y_0))$ is contained in $q_*[\pi_1(E, e_0)]$. 
+**Lifting Criterion:** Suppose $q:E \to X$ is a covering map. Let $Y$ be a connected and locally path-connected space, and let $\varphi: Y \to X$ be a continuous map. Given any points $y_0\in Y$ and $e_0\in E$ such that $q(e_0) = \varphi(y_0)$, the map $\varphi$ has a lift $\widetilde \varphi: Y\to E$ satisfying $\widetilde \varphi(y_0) = e_0$ iff the subgroup $\varphi_*[\pi_1(Y, y_0)]$ of $\pi_1(X, \varphi(y_0))$ is contained in $q_*[\pi_1(E, e_0)]$, i.e., $\varphi_*[\pi_1(Y, y_0)] \le q_*[\pi_1(E, e_0)]\le \pi_1(X, \varphi(y_0))$. 
 
 **Obs:** If $\varphi: Y \to X$ has a lift $\widetilde \varphi:Y \to E$, then we get that $\varphi_*[\pi_1(Y, y_0)] \le q_*[\pi_1(E, e_0)]$, without the additional hypothesis about $Y$.
 
 **Lifting Maps from Simply Connected Spaces:** If $q:E \to X$ is a covering map and $Y$ is a simply connected and locally path-connected space, then every continuous function $\varphi: Y\to X$ has a lift to $E$. Given any point $y_0\in Y$, the lift can be chosen to take $y_0$ to any point in the fiber over $\varphi(y_0)$. 
  
 **Lifting Maps to Simply Connected Spaces:** Suppose $q:E\to X$ is a covering map and $E$ is simply connected. For any connected and locally path-connected space $Y$, a continuous map $\varphi: Y \to X$ has a lift to $E$ iff $\varphi_*$ is the zero homomorphism fro some base point $y_0\in Y$. If this is the case, then the lift can be chosen to take $y_0$ to any point in the fiber over $\varphi(y_0)$. 
+
+# Interesting Theorems
+
+**Borsuk-Ulam Theorem:** For any continuous map $F: \Bbb S^2\to \Bbb R^2$, there is a point $x\in \Bbb S^2$ such that $F(x) = F(-x)$. We get the nice corollary, there are antipodal points on earth with the same temperature and atmospheric pressure. 
+
+**Ham Sandwich Theorem:** 
 
 # Stuff for Later
 

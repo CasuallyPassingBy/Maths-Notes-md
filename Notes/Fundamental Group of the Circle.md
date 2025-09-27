@@ -104,3 +104,11 @@ For any continuous map $\varphi: \Bbb S^1 \to \Bbb S^1$, let $\rho_\varphi: \Bbb
 - $D(\psi \circ \varphi)$ is equal to the matrix product $D(\psi) D(\varphi)$
 - For every $2\times 2$ integer matrix $E$, there is a continuous map $\varphi: \Bbb T^2\to \Bbb T^2$ such that $D(\varphi) = E$.
 - If $\varphi$ is homotopic to a homeomorphism iff $D(\varphi)$ is invertible over the integers.
+
+# Even and Odd Functions
+
+**Def:** Let $f:\Bbb S^1 \to\Bbb S^1$ be a continuous functions. We say $f$ is odd if $f(-z) = f(z)$ for all $z\in \Bbb S^1$, and *even* if $f(z) = f(-z)$.
+
+**Prop:** Every odd map has an odd degree. This result relies on a more general covering maps theory.
+
+**Prop:** Every even map has an even degree, 
