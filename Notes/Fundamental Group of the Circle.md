@@ -3,7 +3,7 @@ tags:
   - Topology/AlgebraicTopology
 ---
 Subjects: [[Algebraic Topology]]
-Links: [[Fundamental Group of a Topological Space]], [[Homotopy Equivalence]], [[Homotopy in C]], [[Covering maps]], [[Topological Manifolds]]
+Links: [[Fundamental Group of a Topological Space]], [[Homotopy Equivalence]], [[Homotopy in C]], [[Covering Maps]], [[Topological Manifolds]]
 
 For the rest of the note we will analyse $\pi_1(\Bbb S^1, 1)$ on a close examination of the expoontial quotient map $\varepsilon: \Bbb R \to \Bbb S^1 \subseteq \Bbb C$ defined $\varepsilon(r):= \exp(2\pi ir)$. 
 # Lifting Properties of the Circle

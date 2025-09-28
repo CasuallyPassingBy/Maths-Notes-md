@@ -3,7 +3,7 @@ tags:
   - Topology/AlgebraicTopology
 ---
 Subjects: [[Algebraic Topology]]
-Links: [[Covering maps]], [[Fundamental Group of a Topological Space]], [[Group Actions]]
+Links: [[Covering Maps]], [[Fundamental Group of a Topological Space]], [[Group Actions]]
 
 **The Monodromy Action:** Suppose $q:E \to X$ is a covering map and $x\in X$. There is a transitive right action of $\pi_1(X, x)$ on the fibre $q^{-1}\{x\}$, called the *monodromy action*, given by $e\cdot [f] = \widetilde f_e(1)$ for $e\in q^{-1}\{x\}$ and $[f]\in \pi_1(X, x)$. 
 
@@ -76,3 +76,6 @@ E \arrow[rr, dashed, "Q"] \arrow[dr, "q"] && E' \arrow[dl, "q' "'] \\
 **Existence of the Universal Covering Space:** Let $X$ be a topological space. $X$ has a universal covering space iff $X$ is  connected, locally path-connected, and semilocally simply connected. 
 
 **Example:** Define a map $q: \Bbb S^n \to \Bbb{RP}^n$ by sending each point $x$ in the sphere to the line through the origin and $x$, thought of as a point in $\Bbb{RP}^n$. Then $q$ is a covering map, and the fiber over each point $\Bbb{RP}^n$ is a pair of antipodal points $\{\pm x\}$. Additionally, if $n\ge 2$, then $\Bbb S^n$ is simply connected, then $\Bbb S^n$ is a universal covering space of $\Bbb{RP}^n$. 
+
+**Prop:** Suppose $X$ is a connected space that has a contractible universal covering space. For any connected and locally path-connected space $Y$, a continuous function $f: Y \to X$ is null-homotopic iff for each $y\in Y$, the induced homomorphism $f_*: \pi_1(Y, y) \to \pi_1(X, f(y))$ is the trivial map.
+

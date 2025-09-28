@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Covering maps]], [[Smooth Functions on Smooth Manifolds]], [[Proper Maps]]
+Links: [[Covering Maps]], [[Smooth Functions on Smooth Manifolds]], [[Proper Maps]]
 
 **Def:** If $N$ and $M$ are connected smooth manifolds, a *smooth covering map* $\pi: N \to M$ is a smooth surjective map with the property that every $p\in M$ has a connected neighbourhood $U$ such that each components of $\pi^{-1}[U]$ is mapped *diffeomorphically* onto $U$ by $\pi$. In this context we will say that $U$ is evenly covered. The manifold $M$ is called the *base* of the *covering*, and $N$ is called a *covering manifold*.
 

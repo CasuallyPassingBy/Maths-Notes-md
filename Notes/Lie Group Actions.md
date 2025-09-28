@@ -50,9 +50,9 @@ This is a consequence of the [[Submersions, Immersions and Embeddings of Manifol
 
 **Prop:** Given that $\pi: \tilde G\to G$ is a universal covering map, then the covering group $\mathcal C_\pi(\tilde G)$ is isomorphic to $\pi_1(G, e)$. Then we can prove that the fundamental group of a connected Lie group is abelian.
 
-**Prop:** Let $\pi:N \to M$ be a smooth covering map. With the discrete topology, the [[Covering maps#^78c0a4|covering group]] $\mathcal C_\pi(N)$ is a zero dimensional Lie group acting smoothly, freely and properly on $N$. 
+**Prop:** Let $\pi:N \to M$ be a smooth covering map. With the discrete topology, the [[Covering Maps#^78c0a4|covering group]] $\mathcal C_\pi(N)$ is a zero dimensional Lie group acting smoothly, freely and properly on $N$. 
 
-**Th:** Suppose $M$ is a connected smooth manifold, and $\Gamma$ is a discrete group acting smoothly, freely and properly on $M$. Then the quotient space $M/\Gamma$ is a topological manifold and has a unique smooth structure such that $\pi: M \to M/\Gamma$ is a [[Smooth Covering Maps|smooth]] [[Covering maps#^06bb5b|normal]] covering map. ^2c0355
+**Th:** Suppose $M$ is a connected smooth manifold, and $\Gamma$ is a discrete group acting smoothly, freely and properly on $M$. Then the quotient space $M/\Gamma$ is a topological manifold and has a unique smooth structure such that $\pi: M \to M/\Gamma$ is a [[Smooth Covering Maps|smooth]] [[Covering Maps#^06bb5b|normal]] covering map. ^2c0355
 
 **Cor:** Let $\pi: N \to M$ be a smooth normal covering map, then $M$ is diffeomorphic to the quotient manifold $N/\mathcal C_\pi(N)$. 
 

@@ -89,17 +89,17 @@ A natural problem arises when considering covering maps, and that is when a func
 
 **Lifting Maps from Simply Connected Spaces:** If $q:E \to X$ is a covering map and $Y$ is a simply connected and locally path-connected space, then every continuous function $\varphi: Y\to X$ has a lift to $E$. Given any point $y_0\in Y$, the lift can be chosen to take $y_0$ to any point in the fiber over $\varphi(y_0)$. 
  
-**Lifting Maps to Simply Connected Spaces:** Suppose $q:E\to X$ is a covering map and $E$ is simply connected. For any connected and locally path-connected space $Y$, a continuous map $\varphi: Y \to X$ has a lift to $E$ iff $\varphi_*$ is the zero homomorphism fro some base point $y_0\in Y$. If this is the case, then the lift can be chosen to take $y_0$ to any point in the fiber over $\varphi(y_0)$. 
+**Lifting Maps to Simply Connected Spaces:** Suppose $q:E\to X$ is a covering map and $E$ is simply connected. For any connected and locally path-connected space $Y$, a continuous map $\varphi: Y \to X$ has a lift to $E$ iff $\varphi_*$ is the zero homomorphism from some base point $y_0\in Y$. If this is the case, then the lift can be chosen to take $y_0$ to any point in the fiber over $\varphi(y_0)$. 
 
 # Interesting Theorems
 
-**Borsuk-Ulam Theorem:** For any continuous map $F: \Bbb S^2\to \Bbb R^2$, there is a point $x\in \Bbb S^2$ such that $F(x) = F(-x)$. We get the nice corollary, there are antipodal points on earth with the same temperature and atmospheric pressure. 
+**Borsuk-Ulam Theorem $2$-dimensional Version:** For any continuous map $F: \Bbb S^2\to \Bbb R^2$, there is a point $x\in \Bbb S^2$ such that $F(x) = F(-x)$. We get the nice corollary, there are antipodal points on earth with the same temperature and atmospheric pressure. 
 
-**Ham Sandwich Theorem:** 
+**Ham Sandwich Theorem in $\Bbb R^3$:** Given three disjoint, bounded, connected open subsets $U_1, U_2, U_3\subseteq \Bbb R^3$, there exists a plane that simultaneously bisects all three, in the sense that the plane divides $\Bbb R^3$ into two half-spaces $H^+$ and $H^-$ such that for each $i$ $U_i \cap H^+$ has the same [[Lebesgue Measure in Rn|Lebesgue measure]] as $U_i \cap H^-$. 
 
 # Stuff for Later
 
-**Def:** Let $X$ and $Y$ be topological spaces, and let $\pi: X \to Y$ be a covering map. A *covering transformation* or *deck transformation* of $\pi$ is a homemorphism $\varphi: X \to X$ such that $\pi \circ \varphi = \pi$
+**Def:** Let $X$ and $Y$ be topological spaces, and let $\pi: X \to Y$ be a covering map. A *covering transformation* or *deck transformation* of $\pi$ is a homeomorphism $\varphi: X \to X$ such that $\pi \circ \varphi = \pi$
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
