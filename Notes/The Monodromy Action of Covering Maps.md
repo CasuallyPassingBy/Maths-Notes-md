@@ -5,9 +5,9 @@ tags:
 Subjects: [[Algebraic Topology]]
 Links: [[Covering Maps]], [[Fundamental Group of a Topological Space]], [[Group Actions]]
 
-**The Monodromy Action:** Suppose $q:E \to X$ is a covering map and $x\in X$. There is a transitive right action of $\pi_1(X, x)$ on the fibre $q^{-1}\{x\}$, called the *monodromy action*, given by $e\cdot [f] = \widetilde f_e(1)$ for $e\in q^{-1}\{x\}$ and $[f]\in \pi_1(X, x)$. 
+**The Monodromy Action:** Suppose $q:E \to X$ is a covering map and $x\in X$. There is a transitive action of $\pi_1(X, x)$ on the fibre $q^{-1}\{x\}$, called the *monodromy action*, given by $[f]\cdot e = \widetilde f_e(1)$ for $e\in q^{-1}\{x\}$ and $[f]\in \pi_1(X, x)$. 
 
-**Isotropy Groups of the Monodromy Action:** Suppose $q:E \to X$ is a covering map and $x\in X$. For each $e\in q^{-1}\{x\}$ the isotropy group of $e$ under the monodromy action is $q_*[\pi_1(E,e)] \subseteq \pi_1(X,x)$. 
+**Isotropy Groups of the Monodromy Action:** Suppose $q:E \to X$ is a covering map and $x\in X$. For each $e\in q^{-1}\{x\}$ the isotropy group of $e$ under the monodromy action is $\pi_1(X, x)_e = q_*[\pi_1(E,e)] \le \pi_1(X,x)$. 
 
 **Cor:** Suppose $q:E \to X$ is a covering map. The monodromy action is free on each fiber of $q$ iff $E$ is simply connected.
 
@@ -17,7 +17,7 @@ Links: [[Covering Maps]], [[Fundamental Group of a Topological Space]], [[Group 
 
 **Conjugacy Theorem:** Let $q: E \to X$ be a covering map. For any $x\in X$, as $e$ varies over the fiber $q^{-1}\{x\}$, the set of induced subgroups $q_*[\pi_1(E, e)]$ is exactly one conjugacy class in $\pi_1(X, x)$. 
 
-**Def:** A covering map $q: E \to X$ is called a *normal covering* if the induced subgroup $q_*[\pi_1(E, e)]$ is a normal subgroup of $\pi_1(X, q(e))$ for some $e\in E$. 
+**Def:** A covering map $q: E \to X$ is called a *normal covering* if the induced subgroup $q_*[\pi_1(E, e)]\trianglelefteq\pi_1(X, q(e))$ for some $e\in E$. 
 
 **Characterisation of Normal Coverings:** Suppose $q: E \to X$ is a covering map. The following statements are equivalent.
 - The subgroup $q_*[\pi_1(E, e)]$ is a normal for some $e\in E$, i.e, $q$ is normal.
@@ -65,7 +65,7 @@ E \arrow[rr, dashed, "Q"] \arrow[dr, "q"] && E' \arrow[dl, "q' "'] \\
 ```
 - Any two simply connected coverings of the same space are isomorphic. 
 
-**Def;** Any covering of $X$ by a simply connected space $\widetilde X$ is called a *universal covering*, and $\widetilde X$ is called the *universal covering space of $X$.*
+**Def:** Any covering of $X$ by a simply connected space $\widetilde X$ is called a *universal covering*, and $\widetilde X$ is called the *universal covering space of $X$.* ^84e006
 
 **Def:** We say that a space $X$ is *locally simply connected* if it admits a basis of simply connected open subsets. 
 
@@ -73,7 +73,7 @@ E \arrow[rr, dashed, "Q"] \arrow[dr, "q"] && E' \arrow[dl, "q' "'] \\
 
 **Def:** If $X$ is a topological space, a subset $U\subseteq X$ is a *relatively simply connected* if the inclusion $U \hookrightarrow X$ induces the trivial homomorphism on the fundamental groups, and $X$ is *semilocally simply connected* if every point in $X$ has a relatively simply connected neighbourhood. 
 
-**Existence of the Universal Covering Space:** Let $X$ be a topological space. $X$ has a universal covering space iff $X$ is  connected, locally path-connected, and semilocally simply connected. 
+**Existence of the Universal Covering Space:** Let $X$ be a topological space. $X$ has a universal covering space iff $X$ is connected, locally path-connected, and semilocally simply connected. 
 
 **Example:** Define a map $q: \Bbb S^n \to \Bbb{RP}^n$ by sending each point $x$ in the sphere to the line through the origin and $x$, thought of as a point in $\Bbb{RP}^n$. Then $q$ is a covering map, and the fiber over each point $\Bbb{RP}^n$ is a pair of antipodal points $\{\pm x\}$. Additionally, if $n\ge 2$, then $\Bbb S^n$ is simply connected, then $\Bbb S^n$ is a universal covering space of $\Bbb{RP}^n$. 
 

@@ -8,33 +8,63 @@
         "type": "tabs",
         "children": [
           {
-            "id": "01007db4bd03e1d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebraic Topology.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Algebraic Topology"
-            }
-          },
-          {
             "id": "74b52e4a434df364",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Covering Group.md",
+                "file": "Automorphism Group of a Covering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Covering Group"
+              "title": "Automorphism Group of a Covering"
+            }
+          },
+          {
+            "id": "d435b66015c51706",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Monodromy Action of Covering Maps.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "The Monodromy Action of Covering Maps"
+            }
+          },
+          {
+            "id": "b83fa25d9a4007b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Group Actions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Group Actions"
+            }
+          },
+          {
+            "id": "4cf393e34cee30fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Covering Maps.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Covering Maps"
             }
           },
           {
@@ -68,51 +98,6 @@
             }
           },
           {
-            "id": "f4b2b43acc51ef08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Monodromy Action of Covering Maps.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "The Monodromy Action of Covering Maps"
-            }
-          },
-          {
-            "id": "bfe3d71dff70e3be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Covering Maps.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Covering Maps"
-            }
-          },
-          {
-            "id": "c0bbda31cb19a3cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homotopy Equivalence.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Homotopy Equivalence"
-            }
-          },
-          {
             "id": "b4c686cd378717cb",
             "type": "leaf",
             "state": {
@@ -128,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -289,20 +274,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3d516b40299a4b0d",
+  "active": "d435b66015c51706",
   "lastOpenFiles": [
-    "Covering Maps.md",
-    "Covering Group.md",
-    "Covering Space Actions.md",
-    "Group Actions.md",
-    "Continuous Actions of Groups.md",
+    "Automorphism Group of a Covering.md",
     "The Monodromy Action of Covering Maps.md",
+    "Group Actions.md",
+    "Covering Maps.md",
+    "Covering Space Actions.md",
     "Algebraic Topology.md",
-    "Smooth Covering Maps.md",
+    "Proper Actions of Groups.md",
+    "Continuous Actions of Groups.md",
     "Homotopy Equivalence.md",
+    "OIST/OIST Application.md",
+    "Smooth Covering Maps.md",
     "Homotopy.md",
     "Fundamental Group of the Circle.md",
-    "OIST/OIST Application.md",
     "Compact Surfaces.md",
     "OIST/OIST Article Prerequisites.md",
     "Interesting Stuff I want continue Learning.md",
@@ -316,7 +302,6 @@
     "Open and Closed Functions.md",
     "Cardinal Functions of Topological Spaces.md",
     "Group Theory.md",
-    "Fundamental Group of a Topological Space.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",
