@@ -13,88 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automorphism Group of a Covering.md",
+                "file": "Algebraic Topology.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Automorphism Group of a Covering"
-            }
-          },
-          {
-            "id": "d435b66015c51706",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Monodromy Action of Covering Maps.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "The Monodromy Action of Covering Maps"
-            }
-          },
-          {
-            "id": "b83fa25d9a4007b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Group Actions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Group Actions"
-            }
-          },
-          {
-            "id": "4cf393e34cee30fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Covering Maps.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Covering Maps"
-            }
-          },
-          {
-            "id": "3d516b40299a4b0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Covering Space Actions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Covering Space Actions"
-            }
-          },
-          {
-            "id": "5e5bedbb1493dabc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Continuous Actions of Groups.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Continuous Actions of Groups"
+              "title": "Algebraic Topology"
             }
           },
           {
@@ -112,8 +37,7 @@
               "title": "OIST Application"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Covering Space Actions.md",
+                "file": "Universal Covering of Compact Surfaces.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -251,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Covering Space Actions"
+              "title": "Backlinks for Universal Covering of Compact Surfaces"
             }
           }
         ],
@@ -274,22 +198,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d435b66015c51706",
+  "active": "74b52e4a434df364",
   "lastOpenFiles": [
-    "Automorphism Group of a Covering.md",
-    "The Monodromy Action of Covering Maps.md",
-    "Group Actions.md",
-    "Covering Maps.md",
-    "Covering Space Actions.md",
+    "OIST/OIST Application.md",
     "Algebraic Topology.md",
+    "Topology.md",
+    "Universal Covering of Compact Surfaces.md",
     "Proper Actions of Groups.md",
     "Continuous Actions of Groups.md",
+    "Automorphism Group of a Covering.md",
+    "Compact Surfaces.md",
+    "Covering Space Actions.md",
+    "Covering Maps.md",
+    "Group Actions.md",
+    "The Monodromy Action of Covering Maps.md",
     "Homotopy Equivalence.md",
-    "OIST/OIST Application.md",
     "Smooth Covering Maps.md",
     "Homotopy.md",
     "Fundamental Group of the Circle.md",
-    "Compact Surfaces.md",
     "OIST/OIST Article Prerequisites.md",
     "Interesting Stuff I want continue Learning.md",
     "Cubic Spline Interpolation.md",
@@ -300,8 +226,6 @@
     "Topological Spaces.md",
     "The Derivative on R.md",
     "Open and Closed Functions.md",
-    "Cardinal Functions of Topological Spaces.md",
-    "Group Theory.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",

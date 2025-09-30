@@ -5,7 +5,7 @@ tags:
 Subjects: [[Algebraic Topology]]
 Links: [[Covering Maps]], [[Fundamental Group of a Topological Space]], [[Group Actions]]
 
-**The Monodromy Action:** Suppose $q:E \to X$ is a covering map and $x\in X$. There is a transitive action of $\pi_1(X, x)$ on the fibre $q^{-1}\{x\}$, called the *monodromy action*, given by $[f]\cdot e = \widetilde f_e(1)$ for $e\in q^{-1}\{x\}$ and $[f]\in \pi_1(X, x)$. 
+**The Monodromy Action:** Suppose $q:E \to X$ is a covering map and $x\in X$. There is a transitive action of $\pi_1(X, x)$ on the fibre $q^{-1}\{x\}$, called the *monodromy action*, given by $e\cdot [f] = \widetilde f_e(1)$ for $e\in q^{-1}\{x\}$ and $[f]\in \pi_1(X, x)$. 
 
 **Isotropy Groups of the Monodromy Action:** Suppose $q:E \to X$ is a covering map and $x\in X$. For each $e\in q^{-1}\{x\}$ the isotropy group of $e$ under the monodromy action is $\pi_1(X, x)_e = q_*[\pi_1(E,e)] \le \pi_1(X,x)$. 
 
@@ -52,7 +52,7 @@ A covering homomorphism that is also a homeomorphism is said to be a *covering i
 
 # Universal Covering Space
 
-**Universality of Simly Connected Coverings:**
+**Universality of Simply Connected Coverings:**
 - Let $q: E\to X$ be a covering map with $E$ simply connected. If $q': E'\to X$ is any covering map, there exists a covering map $Q: E \to E'$ such that the following diagram commutes: 
 ```tikz
 \usepackage{tikz-cd}

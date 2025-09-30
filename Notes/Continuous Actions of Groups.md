@@ -16,3 +16,7 @@ Links: [[Topological Groups]], [[Group Actions]], [[Quotient Topology]], [[Prope
 We say two points $x, y \in X$ are equivalent if they are in the same orbit, i.e., there is an element $g\in G$, such that $y = \alpha(g, x)$. Let $X/G$ be the quotient space of this equivalence relation, called the *orbit space* of the action $\alpha$. 
 
 **Prop:** The map $\pi: X \to X/G$ is an open map. Meaning that the equivalence relation is open. 
+
+**Hausdorff Criterion for Orbit Spaces:** Suppose $E$ is a topological space and $\Gamma$ is a group acting on $E$ by homeomorphisms. The following statements are equivalent:
+-  Then $E/\Gamma$ is Hausdorff.
+- If $e, e'\in E$ lie in different orbits, there exists neighbourhoods $U$ of $e$ and $V$ of $e'$ such that $U \cap (g\cdot V) = \varnothing$ for all $g\in \Gamma$. 
