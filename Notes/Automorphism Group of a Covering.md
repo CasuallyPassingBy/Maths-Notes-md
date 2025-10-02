@@ -42,7 +42,11 @@ $$\text{Aut}_q(E) \cong \frac{N_{\pi_1(X, x)}(q_*[\pi_1(E, e)])}{q_*[\pi_1(E, e)
 
 **Simply Connected Case:** If $q: E \to X$ is a covering map and $E$ is simply connected, then the automorphism group of the covering map is isomorphic to the fundamental group of $X$. In fact, for any $x\in X$ and $e\in q^{-1}\{x\}$, the map $\gamma \mapsto \varphi_\gamma$ of the theorem above is an isomorphism from $\pi_1(X, x)$ to $\text{Aut}_q(E)$. 
 
+**Prop:** If we wanted to give a topology to $\text{Aut}_q(E)$ such that its action on $E$ is continuous, then the only topology that works is the discrete topology. 
+
 # Classification Theorem
+
+**Prop:** Suppose $q:E \to X$ is a covering map. Let $E/\text{Aut}_q(E)$ be the orbit space, and let $\pi: E \to E/\text{Aut}_q(E)$ be the quotient map. Then there is $q': E/\text{Aut}_q(E)\to X$ such that $q' \circ \pi = q$. 
 
 **Classification Theorem:** Let $X$ be a topological space that has a [[The Monodromy Action of Covering Maps#^84e006|universal covering space]], and let $x_0\in X$ be any base point. there is a one-to-one correspondence between isomorphism classes of coverings of $X$ and conjugacy classes of subgroups of $\pi_1(X, x_0)$. The correspondence associates each covering $\widehat q: \widehat E\to X$ with the conjugacy class of its induced subgroup.
 

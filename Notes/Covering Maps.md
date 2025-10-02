@@ -96,19 +96,3 @@ A natural problem arises when considering covering maps, and that is when a func
 **Borsuk-Ulam Theorem $2$-dimensional Version:** For any continuous map $F: \Bbb S^2\to \Bbb R^2$, there is a point $x\in \Bbb S^2$ such that $F(x) = F(-x)$. We get the nice corollary, there are antipodal points on earth with the same temperature and atmospheric pressure. 
 
 **Ham Sandwich Theorem in $\Bbb R^3$:** Given three disjoint, bounded, connected open subsets $U_1, U_2, U_3\subseteq \Bbb R^3$, there exists a plane that simultaneously bisects all three, in the sense that the plane divides $\Bbb R^3$ into two half-spaces $H^+$ and $H^-$ such that for each $i$ $U_i \cap H^+$ has the same [[Lebesgue Measure in Rn|Lebesgue measure]] as $U_i \cap H^-$. 
-
-# Stuff for Later
-
-**Def:** Let $X$ and $Y$ be topological spaces, and let $\pi: X \to Y$ be a covering map. A *covering transformation* or *deck transformation* of $\pi$ is a homeomorphism $\varphi: X \to X$ such that $\pi \circ \varphi = \pi$
-```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}[row sep=2cm, column sep=2cm]
-X \arrow[rr, "\varphi"] \arrow[dr, "\pi"] && X \arrow[dl, "\pi"'] \\
-& Y
-\end{tikzcd}
-\end{document}
-```
-The set $\mathcal C_\pi(X)$ of all covering transformations, called the *covering group* of $\pi$, is a group under composition, acting on $X$ on the left. The covering group is the key to constructing smooth manifolds covered by $X$. ^78c0a4
-
-**Def:** A covering map $\pi: X \to Y$ is said to be *normal* if the covering group $\mathcal C_\pi(X)$ acts transitively on the fibres of $\pi$. ^06bb5b
