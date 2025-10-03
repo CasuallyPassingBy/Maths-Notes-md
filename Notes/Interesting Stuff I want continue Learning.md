@@ -18,9 +18,9 @@
 	- [x] The Circle
 	- [x] Some Group Theory
 	- [x] The Seifert-Van Kampen Theorem
-	- [ ] Covering Maps
-	- [ ] Group Actions and Covering Maps
-	- [ ] Homolohgy
+	- [x] Covering Maps
+	- [x] Group Actions and Covering Maps
+	- [ ] Homology
 - [ ] Algebraic Topology by Hatcher (0%)
 
 ## Algebra
@@ -86,6 +86,15 @@
 -  Statistical Mechanics 
 -  Fluid Mechanics
 ## Computer Science
+- Machine Learning
+	- [ ] **_Understanding Machine Learning: From Theory to Algorithms_** by Shai Shalev-Shwartz and Shai Ben-David
+	- [ ] Nielsen
+		- [x] Using neural nets to recognize handwritten digits
+		- [x] How the backpropagation algorithm works
+		- [ ] Improving the way neural networks learn
+		- [ ] A visual proof that neural nets can compute any function
+		- [ ] Why are deep neural networks hard to train
+		- [ ] Deep learning
 - Algorithms and Data Structures 
 	- [ ] Cormen
 -  Theory of Computation

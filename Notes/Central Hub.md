@@ -56,6 +56,7 @@ We have all the subjects:
 - [[Theory of computation]]
 - [[Algorithms and Data Structures]]
 - [[Artificial Intelligence]]
+- [[Neural Networks]]
 ## Miscellaneous
 - [[Fractional Calculus]]
 - [[Umbral calculus]]

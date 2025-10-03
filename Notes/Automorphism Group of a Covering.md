@@ -33,6 +33,8 @@ Let $\text{Deck}(E/X) = \text{Aut}_q(E)$ denote the set of all automorphisms of 
 
 **Normal Coverings Have Transitive Automorphism Groups:** If $q:E \to X$ is a covering map, then $\text{Aut}_q(E)$ acts transitively on each fiber iff $q$ is a normal covering. 
 
+**Prop:** Suppose $q_1: E \to X_1$ and $q_2: E \to X_2$ are normal coverings. There exists a covering $X_1\to X_2$ making the diagram commute iff $\text{Aut}_{q_1}(E) \le \text{Aut}_{q_2}(E)$. 
+
 **Th:** Suppose $q:E \to X$ is a covering map and $x\in X$. The restriction map $\varphi \mapsto \varphi|_{q^{-1}\{x\}}$ is a group isomorphism between $\text{Aut}_q(E)$ and the group $\text{Aut}_{\pi_1(X, x)}(q^{-1}\{x\})$ of $\pi_1(X, x)$-automorphism of $q^{-1}\{x\}$. 
 
 **Covering Group Structure Theorem:** Suppose $q:E \to X$ is a covering map, $e\in E$, and $x = q(e)$. Let $G = \pi_1(X, x)$ and $H = $q_*[\pi_1(E, e)] \le \pi_1(X, x)$. For each path class $\gamma \in N_G(H)$ (the [[normaliser]] of $H$ in $G$), there is a unique covering automorphism $\varphi_\gamma\in \text{Aut}_q(E)$ that satisfies $\varphi_\gamma(e) = e \cdot \gamma$. The map $\varphi \mapsto \varphi_\gamma$ is a surjective homomorphism from $N_G(H)$ to $\text{Aut}_q(E)$ with kernel equal to $H$, so it descends to an isomorphism from $N_G(H)$ to $\text{Aut}_q(E)$:

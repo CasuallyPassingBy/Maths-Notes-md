@@ -27,3 +27,5 @@ Using the group homomorphism because $\Gamma$ acts on $E$ by homeomorphism, then
 **Prop:** Let $\Gamma$ be a discrete subgroup of a connected and locally path-connected topological group $G$. Then the action of $\Gamma$ on $G$ by left translations is a covering map space action, so the quotient map $q: G \to G/\Gamma$ is a normal covering map. 
 
 **Cor:** Suppose $G$ and $H$ are connected and locally path-connected topological groups, and $\varphi: G \to H$ is a surjective continuous homomorphism with discrete kernel. If $\varphi$ is an open or closed map, then it is a normal covering map. 
+
+**Prop:** Let $E$ be a Hausdorff space. Every free, continuous action of a finite group on $E$ is a covering space action with Hausdorff quotient. 

@@ -18,5 +18,8 @@ This comes from [[Topology]]
 - [[Covering Maps]]
 	- [[The Monodromy Action of Covering Maps]]
 		- [[Automorphism Group of a Covering]]
+			- [[Covering Space Actions]]
 		- [[Proper Actions of Groups]]
 	- [[Universal Covering of Compact Surfaces]]
+- [[Singular Homology]]
+

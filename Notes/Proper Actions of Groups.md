@@ -23,13 +23,11 @@ The converse is not true, if $E$ is any locally compact $T_2$ space and $G$ is a
 
 **Cor:** Let $M$ be a connected $n$-manifold on which a discrete group $\Gamma$ acts continuously, freely and properly. Then $M/\Gamma$ is an $n$-manifold. 
 
-**Prop:** Let $M$ be a topological manifold, and let $G$ be a topological manifold and topological group acting continuously on $M$. The action is proper iff the following is satisfied: If $\{p_i \}$ is a convergent sequence in $M$ and $\{g_i\}$ is a sequence in $G$ such $\{g_i \cdot p_i \}$ converges, then a subsequence of $\{g_i\}$ converges.
+**Prop:** Let $E$ be a second countable, locally compact Hausdorff space, and $G$ be a topological group with a continuous action on $G$. The following statements are equivalent:
+- The action of $G$ on $E$ is continuous.
+- whenever $(e_i)$ is a sequence on $E$ and $(g_i)$ is a sequence on $G$ such that both $(e_i)$ and $(g_i\cdot e_i)$ converge in $E$, a subsequence of $(g_i)$ converges in $G$. 
 
-**Cor:** Let $M$ and $G$ be a topological manifolds. If $G$ is compact and a topological group acting continuously on $M$, then the action is proper.
-
-**Cor:** Any action action by a compact Lie group on a manifold is proper.
-
-**Prop:** Suppose a discrete group $\Gamma$ acts continuously on a manifold $M$. The action is proper iff the following condition holds: Any two points $p, q\in M$ have neighbourhoods $U$, $V$ such that the set $\{\varphi \in \Gamma\mid (\varphi \cdot U) \cap V \neq \varnothing\}$ is finite.
+**Prop:** Suppose a discrete group $\Gamma$ acts continuously on locally compact Hausdorff space $E$. The action is proper iff the following condition holds: Any two points $p, q\in E$ have neighbourhoods $U$, $V$ such that the set $\{\varphi \in \Gamma\mid (\varphi \cdot U) \cap V \neq \varnothing\}$ is finite.
 
 **Cor:** Suppose a discrete group $\Gamma$ acts continuously on a manifold $M$. The action is proper iff the following conditions hold:
 - Each $p\in M$ has a neighbourhood $U$ such that $(\varphi \cdot U) \cap U \neq \varnothing$ for only finitely many $\varphi \in \Gamma$.
