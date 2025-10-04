@@ -2,7 +2,7 @@
 tags:
 ---
 Subjects: [[Algebraic Topology]]
-Links: [[Simplicial Complexes]], [[Affine Maps]], [[Free Abelian Groups]]
+Links: [[Simplicial Complexes]], [[Affine Maps]], [[Free Abelian Groups]], [[Chain Complexes]]
 
 **Def:** For any integer $p \ge 0$, let $\Delta_p \subseteq \Bbb R^p$ denote the *standard $p$-simplex* $[e_0, e_1,\dots, e_p]$, where $e_0 =0$ and, for $1\le i \le p$. $e_i$ is the $i$the element of the standard basis. If $X$ is a topological space, a *singular $p$-simplex in $X$* is a continuous map $\sigma: \Delta_p \to X$. 
 
@@ -37,3 +37,18 @@ The equivalence class of a $p$-cycle $c$ in $H_p(X)$ is denoted by $[c]$, and is
 
 **Homology of a Retract:** Suppose $X$ is a topological space and $A\subseteq X$ is retract of $X$. Then for each $p$, the homology homomorphism $H_p(A)\to H_p(X)$ induced by inclusion is injective.
 
+## Elementary Computations
+
+**Prop:** Let $X$ be a space, let $\{X_\alpha \mid \alpha <\kappa\}$ be the set of path components of $X$, and let $\iota_\alpha: X_\alpha \hookrightarrow X$ be inclusion. Then for each $p\ge 0$ the map $\bigoplus_{\alpha <\kappa} H_p(X_\alpha) \to H_p(X)$ whose restriction to $H_p(X_\alpha)$ is $(\iota_\alpha)_*: H_p(X_\alpha) \to H_p(X)$, is an isomorphism. 
+
+**Zero-Dimensional Homology:** For any topological space $X$, $H_0$ is a free abelian group with basis consisting of an arbitrary point in each path component. 
+
+**Homology of a Discrete Space:** If $X$ is a discrete space, then $H_0(X)$ is a free abelian group with one generator for each point of $X$, and $H_p(X) = 0$ for $p >0$. 
+
+## Homotopy Invariance
+
+**Th:** If $f_0, f_1: X \to Y$ are homotopic maps, then for each $p \ge 0$ the induced homomorphism $(f_0)_*, (f_1)_*: H_p(X) \to H_p(Y)$ are equal. 
+
+**Homotopy Invariance of Singular Homology:** Suppose $f: X \to Y$ is a homotopy equivalence. Then for each $p \ge 0$, $f_*:H_p(X) \to H_p(Y)$ is an isomorphism.
+
+**Cor:** Suppose $X$ is a contractible topological space. Then $H_p(X) = 0$ for all $p > 0$. 

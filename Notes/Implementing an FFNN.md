@@ -5,8 +5,14 @@ tags:
 Subjects: [[Neural Networks]]
 Links: [[Gradient Descent for FFNN]], [[Feedforward Neural Networks]]
 
-```python
 
+```python
+import micropip
+await micropip.install("numpy")
+```
+This is just to have numpy be available. 
+
+```python
 import random, numpy as np
 
 class Network:
