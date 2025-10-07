@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OIST/OIST Application.md",
+                "file": "OIST/OIST Recommendation Letters.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "OIST Application"
+              "title": "OIST Recommendation Letters"
             }
           },
           {
@@ -37,8 +37,7 @@
               "title": "OIST Statement of Purpose"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,13 +100,11 @@
               "title": "Tag Folder"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 234.5,
-    "collapsed": true
+    "width": 234.5
   },
   "right": {
     "id": "beb862e217a984e3",
@@ -200,11 +197,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bcb1ab61b1106406",
+  "active": "b4c686cd378717cb",
   "lastOpenFiles": [
+    "OIST/OIST Reccomendation Letter Dario.md",
+    "OIST/OIST Recommendation Letters.md",
     "OIST/OIST Application.md",
-    "Singular Homology.md",
     "OIST/OIST Statement of Purpose.md",
+    "Singular Homology.md",
     "Fundamental Group of CW Complexes.md",
     "Covering Maps.md",
     "Graphs and Free Groups.md",
@@ -226,8 +225,6 @@
     "Perceptrons.md",
     "Feedforward Neural Networks.md",
     "Journal/2025-10-02.md",
-    "Sigmoid Neurons.md",
-    "The Monodromy Action of Covering Maps.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",
