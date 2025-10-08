@@ -96,15 +96,16 @@
             "state": {
               "type": "tagfolder-view",
               "state": {},
-              "icon": "stacked-levels",
-              "title": "Tag Folder"
+              "icon": "lucide-ghost",
+              "title": "tagfolder-view"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 234.5
+    "width": 234.5,
+    "collapsed": true
   },
   "right": {
     "id": "beb862e217a984e3",
@@ -193,16 +194,15 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "daily-notes:Open today's daily note": false,
-      "omnisearch:Omnisearch": false
+      "daily-notes:Open today's daily note": false
     }
   },
   "active": "b4c686cd378717cb",
   "lastOpenFiles": [
-    "OIST/OIST Reccomendation Letter Dario.md",
-    "OIST/OIST Recommendation Letters.md",
-    "OIST/OIST Application.md",
     "OIST/OIST Statement of Purpose.md",
+    "OIST/OIST Recommendation Letters.md",
+    "OIST/OIST Reccomendation Letter Dario.md",
+    "OIST/OIST Application.md",
     "Singular Homology.md",
     "Fundamental Group of CW Complexes.md",
     "Covering Maps.md",
