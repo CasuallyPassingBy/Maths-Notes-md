@@ -34,10 +34,23 @@
 	- [ ] Zaldivar (30%)
 	- [ ] Rotman 
 -  Number Theory 
+	- [ ] Rosen
 -  Category Theory
 ## Analysis
 - [ ] Measure Theory
 	- [ ] Halmos (40%)
+		- [x] Sets and Classes
+		- [x] Measures and Outer Measures
+		- [x] Extension of Measures
+		- [x] Measurable Functions
+		- [x] Integration
+		- [ ] General Set Functions
+		- [ ] Product Spaces
+		- [ ] Transformations and functions
+		- [ ] Probability
+		- [ ] Locally compact spaces
+		- [ ] Haar Measure
+		- [ ] Measure and topology in groups
 	- [ ] Bogachev I
 	- [ ] Bogachev II
 -  Differential Geometry
