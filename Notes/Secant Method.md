@@ -3,7 +3,7 @@ tags:
   - NumericalAnalysis
 ---
 Subjects: [[Numerical Analysis]]
-Links: [[Solutions of Equations of One Variable]]
+Links: [[Solutions of Equations of One Variable]], [[Newton-Raphson Method]]
 
 The main problem of using Newton’s method is the need of the derivative of $f$ at each approximation. Sometimes $f'(x)$ can be more complicated to calculate than $f(x)$. If we look at the definition of derivative, we get it as
 
@@ -21,36 +21,48 @@ This is called the **_Secant method_**
 
 ### Secant Method Code
 
-```julia
-function secant_method(f, x0, x1, tol = 1e-6, max_iter = 1000)
-    # Initialize the iteration counter and the initial approximations
+```python
+def secant_method(f, x0, x1, tol=1e-6, max_iter=1000):
+    """
+    Secant method for finding roots of f(x) = 0.
+
+    Parameters:
+        f (callable): The function whose root we seek.
+        x0 (float): First initial guess.
+        x1 (float): Second initial guess.
+        tol (float): Tolerance for convergence.
+        max_iter (int): Maximum number of iterations.
+
+    Returns:
+        float: The approximated root.
+    """
     x_prev = x0
     x_current = x1
-    
-    for iter in  1:max_iter
-        f_prev = f(x_prev)       # Evaluate the function at the previous approximation
-        f_current = f(x_current) # Evaluate the function at the current approximation
-        
+
+    for i in range(1, max_iter + 1):
+        f_prev = f(x_prev)
+        f_current = f(x_current)
+
         # Check for convergence
-        if abs(x_prev - x_current) < tol  # this can change to any of the 3 inqualites to check for convergence
+        if abs(x_prev - x_current) < tol:
             return x_current
-        end
-        
-        # Check if the difference is close to zero
-        if abs(x_current - x_prev) < tol
-            println("Difference between approximations close to zero. Secant method cannot proceed.")
+
+        # Check if the denominator or difference is too small
+        if abs(f_current - f_prev) < tol:
+            print("Difference between function values close to zero. Secant method cannot proceed.")
             return x_current
-        end
-        
-        # Update the approximation using the secant method
+
+        # Update approximation using the secant formula
         x_next = x_current - f_current * (x_current - x_prev) / (f_current - f_prev)
-        x_prev = x_current
-        x_current = x_next
-    end
-    
-    println("Did not converge within the maximum iterations.")
+        x_prev, x_current = x_current, x_next
+
+    print("Did not converge within the maximum iterations.")
     return x_current
-end
+
+
+f = lambda x: x**2 - 2
+root = secant_method(f, x0=1.0, x1=2.0)
+print("Approximate root:", root)
 ```
 
 This method is generally slower than Newton’s Method, but also generally cheaper to compute. This method and Newton’s Method is used to refine an answer obtained by another technique, since they already need quite a good approximations but generally converges rapidly.

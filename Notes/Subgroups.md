@@ -36,4 +36,4 @@ There are a couple of important subgroups of any group $G$
 The first we will consider is called the *centraliser of an element $g \in G$* defined as: $$Z_G(g)=C_G(g) = \{h \in G \mid gh = hg\}$$
 We can generalise this concept with $S\subseteq G$, with a group called the *centraliser of $S$* defined as $$Z_G(S) = \bigcap_{g\in S} Z_G(g) = \{h \in G \mid \forall g \in S[gh = hg ]\}$$
 The centre of a group $G$, is defined as $$Z(G) = \{g\in G \mid \forall h \in G[gh=hg]\} = \bigcap_{g\in G}Z_G(g)$$
-We also have that $Z(G) \trianglelefteq G$. 
+We also have that $Z(G) \trianglelefteq G$.  ^0fafab

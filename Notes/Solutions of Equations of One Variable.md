@@ -9,9 +9,10 @@ Non Iterative Methods:
 - [[Bisection Method]]
 Iterative Methods:
 - [[Fixed Point Iteration]]
-- [[Newton's Method]]
+- [[Newton-Raphson Method]]
+	- [[Secant Method]]
+	- [[Method of False Position]]
 - [[Horner and Müller Methods]]
-- [[Secant Method]]
 
 There a couple of aspects for iterative methods:
 - [[Error Analysis of Iterative Methods]]

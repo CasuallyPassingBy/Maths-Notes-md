@@ -15,10 +15,28 @@ Additionally, we can define a $\beta: X \times G\to X$, often written $(x, g)\ma
 - $x\cdot e =x$ 
 Then we say that $\beta$ is a *right action of $G$ on $X$*. 
 
-**Def:** For any $x\in X$, the *orbit* of $x$ under the action is the set $$\text{Orb}_\alpha(x) = G \cdot x := \{g\cdot x \mid g\in G\},$$the set of all images of $x$ under the action by elements of $G$.
+**Def:** If $X \neq \varnothing$, let $G \times X \to X$ given by $g*x= x$ for all $x\in X$, then we say that $G$ acts on $X$ *trivially*. 
+
+**Def:** If $G$ is a group acting on $X$. We define the set of *fixed points of $g$* for $g\in G$, as $$X^g := \{x\in X\mid g*x = x\}.$$
+**Def:** For any $x\in X$, the *orbit* of $x$ under the action is the set $$\text{orb}_\alpha(x) = G \cdot x := \{g\cdot x \mid g\in G\},$$the set of all images of $x$ under the action by elements of $G$.
 
 **Def:** Given $x\in X$, the *isotropy group* of $x$ or the *stabiliser of $x$*, denoted by $G_x$, is the set of elements $g\in G$ that fix $x$: $$G_x := \{g\in G \mid g\cdot x =x\} $$
-**Prop:** Suppose $G$ is a group, and $X$ is a $G$-set. For each $x\in X$, and $g\in G$, then $$G_{g\cdot x} = g G_x g^{-1}. $$ 
+**Examples:** 
+- If $H \le G$, and $H$ acts on $G$ by left translations, $H \times G \to G$ given by $h*g = hg$, then $\text{orb}_H(g) =Hg.$  
+- If $G$ is a group, and $G$ acts on itself via conjugation, $G \times G \to G$ such that $\sigma* g = \sigma g \sigma^{-1}$, then $G_g = Z_G(g)$, the [[Subgroups#^0fafab|centraliser]] of $g$ in $G$, and $\text{orb}_G(g)$ is the conjugation class of $g$ in $G$.
+
+**Orbit-Stabilser Theorem:** If $X$ is a $G$-set, then for each $x\in X$ we have that $$|\text{orb}_G(x)| = [G: G_x].$$
+**Th:** Suppose $G$ is a group, and $X$ is a $G$-set. For each $x\in X$, and $g\in G$, then $$G_{g\cdot x} = g G_x g^{-1}. $$
+**Cor:** Let $X$ be a $G$-set. if for some $x\in X$ we have that $G_x \trianglelefteq G$, then for all $y \in \text{orb}_G(x)$ we have that $G_y = G_x$.
+
+**Burnside's Lemma or Frobenius Theorem:** Let $G$ be a finite group, and $X$ be a finite $G$-set. If $n$ is the number of orbits of $X$ under the action of $G$, then $$n = \frac1{|G|} \sum_{g\in G}|X^g|. $$
+**Obs:** Let be $X$ a $G$-set. The action of $G$ on $X$ induces a homomorphism $\phi:  G \to S_X$, given by $\phi(g)(x) = g*x$. Additionally, if $\psi: G \to S_X$ is a homomorphism, then $\psi$ induces an action of $G$ on $X$ given by $\sigma*x := \phi(\sigma) (x)$. This means that a $G$-action on $X$ is the same as a homomorphism $\phi:G \to S_X$.  We can write it as $$\text{Acc}(G, X) \leftrightarrow \text{Hom}(G, S_X). $$
+The homomorphism from $\phi: G \to S_X$ above is called the *permutation representation* associated to a given action. 
+
+**Def:** If $X$ is a $G$-set, then the action of $G$ on $X$ is called *faithful* if its permutation representation is injective. Let $\alpha: G \times X \to X$ be an action on, then we can define its kernel to be the kernel of its permutation representation. 
+
+**Prop:** Let $\alpha:G \times X \to X$ be an action, and $\phi:G \to S_X$ be its permutation representation, then $$\ker\alpha := \ker\phi = \bigcap_{x\in X} G_x $$
+**Cor:**  Let $\alpha:G \times X \to X$ be an action, $\phi:G \to S_X$ be its permutation representation, and $N = \ker \phi \trianglelefteq G$, then $G/N$ acts on $X$, there's $\tilde\phi: G/N \to S_X$ is injective, and there's a faithful action from $G/N$ on $X$. 
 
 # Types of Actions
 

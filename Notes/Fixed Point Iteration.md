@@ -23,23 +23,22 @@ has a zero at $p$
 
 ### Fixed Point of Functional Iteration
 
-```julia
-function fixed_point_iteration(g, x0; tol=1e-6, max_iter=1000)
-    # Initialize the iteration counter and the initial approximation
-    x_current = x0
-    
-    while i in 1:max_iter
-        x_next = g(x_current)  # Compute the next approximation
-        # Check for convergence
-        if abs(x_next - x_current) < tol
-            return x_next
-        end
+```python
+def fixed_point_iteration(g, x0, tolerance:float = 1e-6, max_iterations = 1_000):
+	x_current = x0
+	
+	for _ in range(max_iterations):
+		x_next = g(x_current)
+		
+		if abs(x_next - x_current) < tolerance:
+			return x_next
+		x_current = x_next
+	
+	print('Did not converge within the maximum iterations')
+	return x_current
 
-        x_current = x_next  # Update the approximation
-    end
-		println("Did not converge within the maximum iterations.")
-    return x_current
-end
+g = lambda x: 0.5 * (x + 2 / x)
+print(fixed_point_iteration(g, 1))
 ```
 
 ### Fixed Point Theorem

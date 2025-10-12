@@ -3,7 +3,7 @@ tags:
   - NumericalAnalysis
 ---
 Subjects: [[Numerical Analysis]]
-Links: [[Solutions of Equations of One Variable]]
+Links: [[Solutions of Equations of One Variable]], [[Newton-Raphson Method]]
 ## Horner’s Method
 
 Let
@@ -24,50 +24,41 @@ $$ P(x) = (x-x_0) Q(x) +b_0 $$
 
 Finally we get that $P'(x) = Q(x) +(x-x_0) Q'(x)$, and $P'(x_0) = Q(x_0)$
 
-```julia
-function horner_method(coeffs, x)
+```python
+def horner_method(coeffs, x):
+    """
+    Evaluate a polynomial and its derivative at a point x using Horner's method.
 
-    """
+    Parameters:
+        coeffs (list or tuple): Polynomial coefficients in descending order.
+                                For example, [3, 1, 2] represents 3x^2 + x + 2.
+        x (float): Point at which to evaluate the polynomial.
 
-    Calculate the value of P(x) and P'(x) using Horner's method.
+    Returns:
+        Px (float): Value of the polynomial at x.
+        Px_prime (float): Value of the derivative at x.
+    """
+    n = len(coeffs)
+    Px = coeffs[0]
+    Px_prime = 0
 
-    coeffs: A list of coefficients in descending order, where coeffs[1] is the coefficient of the highest degree term.
+    for i in range(1, n):
+        Px_prime = Px_prime * x + coeffs[i - 1] * (n - i)
+        Px = Px * x + coeffs[i]
 
-            For example, [3, 1, 2] represents 3x^2 + x + 2.
+    return Px, Px_prime
 
-    x: The value at which to evaluate the polynomial.
-
-    Returns:
-
-    Px: The value of the polynomial P(x) at the given point x.
-
-    Px_prime: The value of the derivative of the polynomial P'(x) at the given point x.
-
-    """
-
-    n = length(coeffs)
-
-    Px = coeffs[1]
-
-    Px_prime = 0
-
-    for i in 2:n
-
-        Px = Px * x + coeffs[i]
-
-        Px_prime = Px_prime * x + coeffs[i - 1] * (n - i + 1)
-
-    end
-
-    return Px, Px_prime
-
-end
+coeffs = [3, 1, 2]  # Represents 3x^2 + x + 2
+x = 2
+Px, Px_prime = horner_method(coeffs, x)
+print("P(x) =", Px)
+print("P'(x) =", Px_prime)
 ```
+
 
 ## Müller’s Method
 
-The idea of muller’s method is to create a parabola that passes through three points of the function $(p_0, f(p_0))$, $(p_1, f(p_1))$ and $(p_2, f(p_2))$ like an extension of [[Newton's Method]], using a polynomial of the form
-
+The idea of Müller’s method is to create a parabola that passes through three points of the function $(p_0, f(p_0))$, $(p_1, f(p_1))$ and $(p_2, f(p_2))$ like an extension of [[Newton-Raphson Method]], using a polynomial of the form
 $$ P(x) = a(x-p_2)^2 +b(x-p_2) +c $$
 
 the constants $a$, $b$ and $c$ can be determined from the conditions:
@@ -84,50 +75,68 @@ since we want the zeros of this quadratic, then we use the quadratic formula 2.0
 
 $$ p_3 -p_2 = \frac{-2c}{b\pm \sqrt{b^2 -4ac}} $$
 
-In Müller’s Method we make it such that the sign of the radical to agree witht the sign of $b$, getting that
+In Müller’s Method we make it such that the sign of the radical to agree witt the sign of $b$, getting that
 
 $$ p_3 = p_2 -\frac{2c}{b + \operatorname{sgn}(b)\sqrt{b^2-4ac}} $$
 
 Finally, we iterate through and when $b^2-4ac <0$, the method converges to complex roots.
 
-```julia
-function mullers_method(f, x0, x1, x2; tol=1e-10, max_iter=1000)
-    # f: The function for which to find roots
-    # x0, x1, x2: Initial points for the iteration
-    # tol: Tolerance for convergence
-    # max_iter: Maximum number of iterations
+```python
+import cmath
 
-    iter = 0
-    while iter < max_iter
-        h1 = x1 - x0
-        h2 = x2 - x1
-        delta1 = (f(x1) - f(x0)) / h1
-        delta2 = (f(x2) - f(x1)) / h2
+def mullers_method(f, x0, x1, x2, tol=1e-10, max_iter=1000, imag_tol=1e-12):
+    """
+    Müller's method for finding roots of a function f(x), supporting complex roots.
+
+    If the imaginary part of the root is smaller than imag_tol, returns the real part only.
+
+    Parameters:
+        f (callable): Function whose root is sought.
+        x0, x1, x2 (float or complex): Initial guesses for the root.
+        tol (float): Convergence tolerance.
+        max_iter (int): Maximum number of iterations.
+        imag_tol (float): Threshold below which imaginary parts are ignored.
+
+    Returns:
+        x (float or complex): Approximated root.
+        iteration (int): Number of iterations used.
+    """
+    for iteration in range(max_iter):
+        h1, h2 = x1 - x0, x2 - x1
+        f0, f1, f2 = f(x0), f(x1), f(x2)
+        delta1 = (f1 - f0) / h1
+        delta2 = (f2 - f1) / h2
         a = (delta2 - delta1) / (h2 + h1)
         b = a * h2 + delta2
-        c = f(x2)
+        c = f2
 
-        # Calculate the two candidate roots
-        radicand = b^2 - 4a*c
-        if abs(b + sqrt(radicand)) > abs(b - sqrt(radicand))
-            den = b + sqrt(radicand)
-        else
-            den = b - sqrt(radicand)
-        end
+        radicand = b**2 - 4*a*c
+        sqrt_rad = cmath.sqrt(radicand)
 
-        # Update roots
-        x = x2 - 2c / den
+        den = b + sqrt_rad if abs(b + sqrt_rad) > abs(b - sqrt_rad) else b - sqrt_rad
+        if den == 0:
+            raise ZeroDivisionError("Denominator became zero during iteration.")
 
-        # Check for convergence
-        if abs(f(x)) < tol
-            return x, iter
-        end
+        x = x2 - 2*c / den
 
-        # Update points for the next iteration
+        if abs(f(x)) < tol:
+            # Return only real part if imaginary part is negligible
+            if abs(x.imag) < imag_tol:
+                return x.real, iteration + 1
+            return x, iteration + 1
+
         x0, x1, x2 = x1, x2, x
-        iter += 1
-    end
 
-    error("Müller's method did not converge within the specified number of iterations.")
-end
+    raise RuntimeError("Müller's method did not converge within the specified number of iterations.")
+
+f = lambda x: x**3 - x - 2
+root, iterations = mullers_method(f, 1, 1.5, 2)
+print("Root:", root)
+print("Iterations:", iterations)
+
+f = lambda x: x**2 + 1  # roots at ±i
+root, iterations = mullers_method(f, 0.5, 1, 1.5)
+print("Root:", root)
+print("Iterations:", iterations)
+
 ```

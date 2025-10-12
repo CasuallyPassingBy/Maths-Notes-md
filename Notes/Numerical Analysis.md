@@ -15,7 +15,7 @@ tags:
 - [[Solutions of Equations of One Variable]]
 	- [[Bisection Method]]
 	- [[Fixed Point Iteration]]
-	- [[Newton's Method]]
+	- [[Newton-Raphson Method]]
 		- [[Secant Method]]
 		- [[Method of False Position]]
 	- [[Horner and Müller Methods]]

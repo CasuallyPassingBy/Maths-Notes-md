@@ -3,7 +3,7 @@ tags:
   - NumericalAnalysis
 ---
 Subjects: [[Numerical Analysis]]
-Links: [[Solutions of Equations of One Variable]], [[Fixed Point Iteration]], [[Newton's Method]], [[Horner and Müller Methods]], [[Secant Method]], [[Method of False Position]]
+Links: [[Solutions of Equations of One Variable]], [[Fixed Point Iteration]], [[Newton-Raphson Method]], [[Horner and Müller Methods]], [[Secant Method]], [[Method of False Position]]
 
 ## Aitken’s $\Delta^2$ Method
 
@@ -29,27 +29,47 @@ $$ p_0^{(0)}, \quad p_1^{(0)} =g(p_0^{(0)}), \quad p_2^{(0)} = g(p_1^{(0)}), \qu
 
 ********Th:******** Suppose that $x = g(x)$ has a solution $p$ with $g'(p) \ne 1$. If there exist a $\delta >0$ such that ${g \in \cal C^3[p-\delta, p+\delta]}$, then Steffensen’s Method gives quadratic convergence for any ${p_0 \in [p - \delta , p +\delta]}$
 
-```julia
-function steffensen_acceleration(f, x0, tol=1e-6, max_iter=1000)
+```python
+def steffensen_acceleration(f, x0, tol=1e-6, max_iter=1000):
+    """
+    Steffensen's acceleration method for fixed-point iteration.
+
+    Parameters:
+        f (callable): Function defining the fixed-point iteration x = f(x).
+        x0 (float or complex): Initial guess.
+        tol (float): Convergence tolerance.
+        max_iter (int): Maximum number of iterations.
+
+    Returns:
+        x (float or complex): Approximated fixed point.
+    """
     x_current = x0
-    
-    for iter in 1:max_iter
+
+    for iter_count in range(1, max_iter + 1):
         x_next = f(x_current)
         x_next_next = f(x_next)
-        
+
+        denominator = x_next_next - 2*x_next + x_current
+        if denominator == 0:
+            print("Denominator is zero. Steffensen's method cannot proceed.")
+            return x_current
+
         # Apply Steffensen's acceleration
-        x_accelerated = x_current - ((x_next - x_current)^2) / (x_next_next - 2x_next + x_current)
-        
+        x_accelerated = x_current - ((x_next - x_current)**2) / denominator
+
         # Check for convergence
-        if abs(x_accelerated - x_current) < tol
-            println("Converged after $iter iterations.")
+        if abs(x_accelerated - x_current) < tol:
+            print(f"Converged after {iter_count} iterations.")
             return x_accelerated
-        end
-        
-        x_current = x_accelerated  # Update the approximation
-    end
-    
-    println("Did not converge within the maximum iterations.")
+
+        x_current = x_accelerated
+
+    print("Did not converge within the maximum iterations.")
     return x_current
-end
+
+# Fixed-point iteration example: sqrt(2) via g(x) = 0.5*(x + 2/x)
+g = lambda x: 0.5 * (x + 2 / x)
+root = steffensen_acceleration(g, x0=1.0)
+print("Approximate fixed point:", root)
+
 ```

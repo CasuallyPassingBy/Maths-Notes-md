@@ -3,7 +3,7 @@ tags:
   - NumericalAnalysis
 ---
 Subjects: [[Numerical Analysis]]
-Links: [[Solutions of Equations of One Variable]], [[Fixed Point Iteration]], [[Newton's Method]], [[Horner and Müller Methods]], [[Secant Method]], [[Method of False Position]]
+Links: [[Solutions of Equations of One Variable]], [[Fixed Point Iteration]], [[Newton-Raphson Method]], [[Horner and Müller Methods]], [[Secant Method]], [[Method of False Position]]
 
 ## Order of Convergence
 
@@ -42,12 +42,11 @@ If $g^{(m+1)}(p) \ne 0$ then it will be a higher order of convergence. If $g^{(m
 
 ## Multiple Roots
 
-A solution $p$ of $f(x) = 0$ is a ********************zero of multiplicity******************** $m$ of $f$ it for $x \ne p$, we can write ${f(x) =(x-p)^m q(x)}$, where $\lim\limits_{x \to p} q(x) \ne 0$. We call _******simple******_ zeros those with multiplicitie of $1$
+A solution $p$ of $f(x) = 0$ is a *zero of multiplicity* $m$ of $f$ it for $x \ne p$, we can write ${f(x) =(x-p)^m q(x)}$, where $\lim\limits_{x \to p} q(x) \ne 0$. We call *simple* zeros those with multiplicity of $1$. 
 
 The function $f \in {\cal C}^1[a,b]$ has a simple zero at $p$ in $(a,b)$ iff $f(p) = 0$ but $f'(p)\ne 0$
 
 In general, the function $f \in {\cal C}^m[a,b]$ has a zero multiplicity $m$ at $p \in (a,b)$ iff
-
 $$ f^{(k)}(p) = 0 \quad \text{for }0 \le k <m \qquad\text{and}\qquad f^{(m)}(p) \ne 0 $$
 
 The main problem with Newton’s Method is that it fails for non simple zeros of a function, then with that in mind we can consider a function $\mu(x)$, and supposing that $p$ is a zero of $f$ with multiplicity $m$, then
@@ -66,43 +65,64 @@ with this method we are assured to converge quadratically to $p$, regardless of 
 
 ### Modified Newton’s Method Code
 
-```julia
-function modified_newton(f, f_prime, f_double_prime, x0, tol=1e-6, max_iter=1000)
-    # Initialize the iteration counter and the initial approximation
-    iter = 0
+```python
+def modified_newton(f, f_prime, f_double_prime, x0, tol=1e-6, max_iter=1000, imag_tol=1e-12):
+    """
+    Modified Newton's method for finding roots of f(x)=0, converges faster even for multiple roots.
+
+    Supports complex roots. Returns real part if imaginary part is smaller than imag_tol.
+
+    Parameters:
+        f (callable): Function whose root is sought.
+        f_prime (callable): First derivative of f.
+        f_double_prime (callable): Second derivative of f.
+        x0 (float or complex): Initial guess.
+        tol (float): Convergence tolerance.
+        max_iter (int): Maximum number of iterations.
+        imag_tol (float): Threshold below which imaginary parts are ignored.
+
+    Returns:
+        x (float or complex): Approximated root.
+    """
     x_current = x0
-    
-    while iter < max_iter
-        f_val = f(x_current)       # Evaluate the function
-        f_prime_val = f_prime(x_current)  # Evaluate the first derivative
-        f_double_prime_val = f_double_prime(x_current)  # Evaluate the second derivative
-        
-        # Check for convergence
-        if abs(f_val) < tol # This can be changed for different inequalities
-            println("Converged after $iter iterations.")
-            return x_current
-        end
-        
-        # Check if the derivative is close to zero
-        if abs(f_double_prime_val * f_prime_val + f_val) < tol
-            println("The denominator is close to zero. Modified Newton's method cannot proceed.")
-            return x_current
-        end
-        
-        # Update the approximation using the modified Newton's method
-        x_next = x_current - f_val * (f_prime_val / (f_double_prime_val * f_prime_val + f_val))
-        
-        x_current = x_next  # Update the approximation
-        
-        iter += 1
-    end
-    
-    println("Did not converge within the maximum iterations.")
-    return x_current
-end
+
+    for iter_count in range(max_iter):
+        f_val = f(x_current)
+        f_prime_val = f_prime(x_current)
+        f_double_prime_val = f_double_prime(x_current)
+
+        # Convergence check
+        if abs(f_val) < tol:
+            return x_current.real if abs(x_current.imag) < imag_tol else x_current
+
+        denominator = f_double_prime_val * f_prime_val + f_val
+        if abs(denominator) < tol:
+            print("Denominator close to zero. Modified Newton's method cannot proceed.")
+            return x_current.real if abs(x_current.imag) < imag_tol else x_current
+
+        x_next = x_current - f_val * (f_prime_val / denominator)
+        x_current = x_next
+
+    print("Did not converge within the maximum iterations.")
+    return x_current.real if abs(x_current.imag) < imag_tol else x_current
+
+f = lambda x: x**3 - 1
+f_prime = lambda x: 3*x**2
+f_double_prime = lambda x: 6*x
+
+root = modified_newton(f, f_prime, f_double_prime, x0=0.5)
+print("Root:", root)
+
+f = lambda x: x**3 - 1
+f_prime = lambda x: 3*x**2
+f_double_prime = lambda x: 6*x
+
+root = modified_newton(f, f_prime, f_double_prime, x0=-1 + 3j)
+print("Root:", root)
+
 ```
 
-The problem of this can be the evalution of $f''$, but there’s also the probleme that there’s a lot of round off error, when substracting numbers that are close to zero and that provide a lot of round off error. So that’s an important thing to consider
+The problem of this can be the evaluation of $f''$, but there’s also the problem that there’s a lot of round off error, when subtracting numbers that are close to zero and that provide a lot of round off error. So that’s an important thing to consider
 
 We can also modify Newton’s Method such that it has convergence of order $3$, with $f(p) = 0$
 

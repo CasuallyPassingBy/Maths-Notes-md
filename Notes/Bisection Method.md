@@ -20,36 +20,34 @@ then we reapply this process
 
 ### Bisection Code
 
-```julia
-function bisection(f, a, b, tol=1e-6, max_iter=1000)
-    # Check if f(a) and f(b) have opposite signs
-    if sign(f(a)) * sign(f(b)) > 0
-        error()
-    end
-    
-    # Initialize iteration counter and midpoint
-    iter = 0
-    c = (a + b) / 2
-    
-    while abs(f(c)) > tol && iter < max_iter
-        c = a + (b-a)/2
-        fp = f(c)
-        # Check if the root is at midpoint
-        if fp == 0 || (b-a)/2 < tol
-            break
-        end
-        # Update the interval
-        if sign(fp) * sign(f(a)) < 0 # We use sign to avoid underflow/overflow
-            b = c
-        else
-            a = c
-        end
-        iter += 1
-    end
-		println("Did not converge within the maximum iterations.")
-    return c
-end
+```python
+def bisection(f, a:float, b:float, tolerance:float = 1e-6, max_iterations:int = 1_000):
+	def sign(x):
+		return (x> 0) - (x < 0)
+	if sign(f(a))* sign(f(b)) > 0:
+		raise Exception(f'The endpoints {a} and {b} must have different signs when evaluated by the function')
+		
+	iteration = 0
+	midpoint = (a+b)/2
+	
+	while (abs(f(midpoint)) > tolerance) and (iteration < max_iterations):
+		midpoint = (a+b)/2
+		fp = f(midpoint)
+		if fp == 0 or (b-a)/2 < tolerance:
+			return midpoint
+		elif sign(fp) * sign(f(a)) < 0:
+			b = midpoint
+		else:
+			a = midpoint
+		iteration += 1
+	return midpoint	
+
+f = lambda x: x*x - 2
+a = 1
+b = 2
+print(bisection(f, a, b, tolerance = 1e-7))
 ```
+
 
 We have multiple criterion for stopping the algorithm given a tolerance $\varepsilon$, while generating $p_1, \dots, p_N$ until one of the condition is met
 
