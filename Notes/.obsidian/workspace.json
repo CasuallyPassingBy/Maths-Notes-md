@@ -43,6 +43,21 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Cauchy and Sylow Theorems.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Cauchy and Sylow Theorems"
+            }
+          },
+          {
+            "id": "1fe6a63dc2ed4915",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Group Theory.md",
                 "mode": "source",
                 "source": false,
@@ -53,37 +68,67 @@
             }
           },
           {
-            "id": "489bfe109c585557",
+            "id": "5d92665fa4d8752a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Group Actions.md",
+                "file": "Semidirect Product of Groups.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Group Actions"
+              "title": "Semidirect Product of Groups"
             }
           },
           {
-            "id": "482af22f1b842dda",
+            "id": "0d209970c8e6d9c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subgroups.md",
+                "file": "Cyclic Groups.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Subgroups"
+              "title": "Cyclic Groups"
+            }
+          },
+          {
+            "id": "758e13bf5b70df1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cauchy and Sylow Theorems.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Cauchy and Sylow Theorems"
+            }
+          },
+          {
+            "id": "3a1f3041c192c2d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dihedral Groups.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Dihedral Groups"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -244,12 +289,18 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "489bfe109c585557",
+  "active": "5d92665fa4d8752a",
   "lastOpenFiles": [
+    "Cyclic Groups.md",
+    "Cauchy and Sylow Theorems.md",
+    "Semidirect Product of Groups.md",
+    "Group Theory.md",
+    "Dihedral Groups.md",
     "Subgroups.md",
     "Group Actions.md",
-    "Group Theory.md",
+    "Group Equivariant Maps.md",
     "Normal Subgroups and Quotient Groups.md",
+    "Automorphism Group of a Covering.md",
     "Central Hub.md",
     "OIST/OIST Application.md",
     "Mayer-Vietoris Theorem.md",
@@ -266,12 +317,6 @@
     "Numerical Analysis.md",
     "Method of False Position.md",
     "Newton-Raphson Method.md",
-    "Horner and Müller Methods.md",
-    "Secant Method.md",
-    "Bisection Method.md",
-    "OIST/OIST Statement of Purpose.md",
-    "Interesting Stuff I want continue Learning.md",
-    "OIST/OIST Reccomendation Letter Dario.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",

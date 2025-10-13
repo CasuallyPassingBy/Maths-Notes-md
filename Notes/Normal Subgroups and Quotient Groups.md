@@ -62,4 +62,6 @@ we also have that $H \trianglelefteq G$ iff $H/N \trianglelefteq G/N$.
 
 **Th:** If $G$ is abelian, then any subgroup is a normal subgroup.
 
+**Prop:** Let $G$ be a group. If $G/Z(G)$ is cyclic, then $G$ is abelian. 
+
 **Def:** Let $G$ be a group, and $S \subseteq G$. We define the normal closure of $S$ to be $$\overline S:= \bigcap \{N \mid S \subseteq N \trianglelefteq G\}.$$
