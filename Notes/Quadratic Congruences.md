@@ -6,17 +6,14 @@ Subjects: [[Elementary Number Theory]]
 
 **Def:** Let $p$ be an odd prime and $\gcd(a, p) = 1$. If the quadratic congruence $x^2 \equiv a \pmod p$ has a solution, then $a$ is said to be a _quadratic residue_ of $p$. Otherwise, a is called a _quadratic nonresidue_ of $p$.
 
-From the definition, we can interpret it as wether $a$ has a square root. Similary with the real numbers that we can’t take a square root of all real numbers and staying in the reals. This is an analagous requierment.
+From the definition, we can interpret it as whether $a$ has a square root. Similarly, with the real numbers that we can’t take a square root of all real numbers and staying in the reals. This is an analogous requirement.
 
-### Euler’s Criterion
+**Euler’s Criterion:** Let $p$ be an odd prime and $\gcd(a, p)=1$. Then $a$ is a quadratic residue of $p$ iff ${a^{(p-1)/2} \equiv 1 \pmod p}$
 
-Let $p$ be an odd prime and $\gcd(a, p)=1$. Then $a$ is a quadratic residue of $p$ iff ${a^{(p-1)/2} \equiv 1 \pmod p}$
-
-****************Cor:**************** Let $p$ be an odd prime and $\gcd(a, p) = 1$. Then $a$ is a quadratic residue or nonresidue according to wether
-
+**Cor:** Let $p$ be an odd prime and $\gcd(a, p) = 1$. Then $a$ is a quadratic residue or nonresidue according to whether
 $$ a^{(p-1)/2} \equiv 1 \pmod p \quad \text{ or } \quad a^{(p-1)/2} \equiv -1 \pmod p $$
 
-****Th:**** Let $p$ be an odd prime then among the reduced residue system there are $(p-1)/2$ quadratic residues and non-residues
+**Th:** Let $p$ be an odd prime then among the reduced residue system there are $(p-1)/2$ quadratic residues and non-residues
 
 ********Th:******** Let $p$ be an odd prime and $\gcd(a, p ) = 1$. Then the quadratic congruence
 

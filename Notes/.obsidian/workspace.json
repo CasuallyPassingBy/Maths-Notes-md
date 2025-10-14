@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b4c686cd378717cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OIST/OIST Recommendation Letters.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "OIST Recommendation Letters"
-            }
-          },
-          {
             "id": "bcb1ab61b1106406",
             "type": "leaf",
             "state": {
@@ -38,97 +23,37 @@
             }
           },
           {
-            "id": "90fcc9b20b9e2255",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cauchy and Sylow Theorems.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Cauchy and Sylow Theorems"
-            }
-          },
-          {
-            "id": "1fe6a63dc2ed4915",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Group Theory.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Group Theory"
-            }
-          },
-          {
-            "id": "5d92665fa4d8752a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semidirect Product of Groups.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Semidirect Product of Groups"
-            }
-          },
-          {
-            "id": "0d209970c8e6d9c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cyclic Groups.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Cyclic Groups"
-            }
-          },
-          {
-            "id": "758e13bf5b70df1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cauchy and Sylow Theorems.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Cauchy and Sylow Theorems"
-            }
-          },
-          {
             "id": "3a1f3041c192c2d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dihedral Groups.md",
+                "file": "Sylow Subgroups of the Symmetric Groups.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Dihedral Groups"
+              "title": "Sylow Subgroups of the Symmetric Groups"
+            }
+          },
+          {
+            "id": "6e2b82dfc7b66a54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quadratic Congruences.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Quadratic Congruences"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -289,34 +214,34 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "5d92665fa4d8752a",
+  "active": "6e2b82dfc7b66a54",
   "lastOpenFiles": [
-    "Cyclic Groups.md",
-    "Cauchy and Sylow Theorems.md",
+    "Elementary Number Theory.md",
+    "Quadratic Congruences.md",
+    "Sylow Subgroups of the Symmetric Groups.md",
+    "OIST/OIST Application.md",
     "Semidirect Product of Groups.md",
     "Group Theory.md",
+    "OIST/OIST Recommendation Letters.md",
+    "L'Hôpital's Rules.md",
+    "Real Analysis.md",
+    "Central Hub.md",
+    "Discrete Calculus.md",
+    "Wreath Product of Groups.md",
     "Dihedral Groups.md",
-    "Subgroups.md",
+    "Cauchy and Sylow Theorems.md",
+    "Cyclic Groups.md",
     "Group Actions.md",
+    "Subgroups.md",
     "Group Equivariant Maps.md",
     "Normal Subgroups and Quotient Groups.md",
     "Automorphism Group of a Covering.md",
-    "Central Hub.md",
-    "OIST/OIST Application.md",
     "Mayer-Vietoris Theorem.md",
     "The Seifert-Van Kampen Theorem.md",
     "Singular Homology and Fundamental Group.md",
     "Algebraic Topology.md",
     "Fundamental Group of a Topological Space.md",
     "Singular Homology.md",
-    "OIST/OIST Recommendation Letters.md",
-    "Fixed Point Iteration.md",
-    "Solutions of Equations of One Variable.md",
-    "Accelerating Convergence for Iterative Methods.md",
-    "Error Analysis of Iterative Methods.md",
-    "Numerical Analysis.md",
-    "Method of False Position.md",
-    "Newton-Raphson Method.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",

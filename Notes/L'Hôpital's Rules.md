@@ -9,7 +9,8 @@ Let $f,g$ be continuous on an interval containing $a$, assume $f$ and $g$ differ
 
 $$ \lim_{x\to a}\frac{f'(x)}{g'(x)}= L\implies\lim_{x\to a}\frac{f(x)}{g(x)} =L $$
 
+
 $\infty/\infty$ case: 
-Assume $f$ and $g$ are differentiable on $(a, b)$ and that $g'(x) \ne 0$ for all $x ∈ (a, b)$. If $\lim_{x\to a} |g(x)|=\infty$ , then:
+Assume $f$ and $g$ are differentiable on $(a, b)$ and that $g'(x) \ne 0$ for all $x ∈ (a, b)$. If $\lim_{x\to a} |f(x)|=\lim_{x\to a} |g(x)|=\infty$ , then:
 
 $$ \lim_{x\to a}\frac{f'(x)}{g'(x)}= L\implies\lim_{x\to a}\frac{f(x)}{g(x)} =L $$

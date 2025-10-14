@@ -3,11 +3,14 @@ tags:
   - GroupTheory
 ---
 Subjects: [[Group Theory]]
-Links: [[Groups]], [[Direct Product of Groups]], [[Group Actions]]
+Links: [[Groups]], [[Direct Product of Groups]], [[Group Actions]], [[Automorphism Group]]
+
+## Action point of view
 
 **Def:** Given two normal subgroup $K, Q\trianglelefteq G$, such that $KQ = G$ and $K \cap Q = \{e\}$, we say that $G$ is the direct product of $Q$ and $K$. We can relax the conditions such that $K \trianglelefteq G$ and $Q \le G$ such that $K \cap Q = \{e\}$ and $KQ = G$, we say that $G$ is the *semidirect product of $K$ by $Q$* and we will denote it by $$G = K \rtimes Q= Q \ltimes K.$$
-
 If $K \trianglelefteq G$ and $Q'$ is a group isomorphic to $Q\le G$ such that $K \cap Q = \{e\}$ and $KQ = G$, we say that $G$ is the *semidirect product of $K$ by $Q'$*, and we also denote it as $G = K\rtimes Q'$. This will be the definition we will be using. 
+
+This is called the *inner semidirect product*. 
 
 **Obs:** If $G = K \rtimes Q$, we know that $K \cap Q \trianglelefteq Q$ and $Q/(K \cap Q)\cong KQ/K$, and because $K \cap Q =\{e\}$ and $KQ =G$, then $G \cong G/K$, meaning that the semidirect product $G = K \rtimes Q$ is necessarily of the form $$ G = K \rtimes G/K.$$
 
@@ -31,3 +34,28 @@ If $K \trianglelefteq G$ and $Q'$ is a group isomorphic to $Q\le G$ such that $K
 - $G = K' \rtimes Q'$ is the semidirect product realises $\theta$. 
 
 **Th:** If $G = K \rtimes Q$ is the semidirect product of $K$ by $Q$, then $G \cong K \rtimes_\theta Q$, for some action $\theta$ of $Q$ on $K$. 
+
+**Prop:** Let $K$, and $Q$ be groups. $K \rtimes_\theta Q \cong  K \times Q$ iff $\theta$ is the trivial action, meaning that $k^x = k$ for every $k\in K$ and $x\in Q$.
+
+**Examples:** 
+- Let $V$ be a $K$-vector space. The group of all its affine transformations are given by $$\text{Aff}(V) \cong V \rtimes_\theta \text{GL}(V),$$where $\theta$ is the natural action of $\text{GL}(V)$ on $V$. 
+
+## Group Homomorphism to the Automrphism Group
+
+We can use the permutation representation of the action $\theta: Q \times K \to K$, then $\varphi: Q \to S_K$. Note that we want $\varphi(x)(k k') = \varphi(x)(k) \varphi(x)(k')$, this means that $\varphi(x)$ is a group endomorphism of $K$, and since it is bijective, $\varphi(x)$ is a group automorphism of $K$. Meaning, that $\varphi: Q \to\text{Aut}(K)$. Lastly, we get a similar correspondence between bilinear actions of $Q$ on $K$ to group homomorphisms from $Q$ to $\text{Aut}(K)$. Thus $$\text{BilAct}(Q, K) \leftrightarrow \text{Hom}(Q, \text{Aut}(K)). $$We can rephrase the theory presented using group homomorphisms from $Q$ to $\text{Aut}(K)$. 
+
+If $G = N \rtimes H$, then there is a group homomorphism $\varphi: H \to \text{Aut}(N)$ given by $\varphi_h(n) = hnh^{-1}$, and for $g = nh$, $g' =n'h'$, then $gg' = nhn'h' = n \varphi_h(n')hh'$. 
+
+For a group $G$, consider a normal subgroup $N$ and another subgroup $H$, such that $NH = G$ and $N\cap H = \{e\}$. We define a group homomorphism $\varphi: H \to \text{Aut}(N)$ defined by conjugation, $$\varphi_h(n) = hnh^{-1}, \quad \text{for all $h\in H$ and $n\in N$}.$$We can define a the group $G' = N \times H$ such that $$(n_1, h_1) \cdot (n_2, h_2) = (n_1 \varphi_{h_1}(n_2), h_1, h_2).$$The groups $N$ and $H$ determine $G$ up to isomorphism, meaning that $G' \cong G$. This kind of construction is called an *inner semidirect product* or *internal semidirect product.*
+
+Given any two groups $N$ and $H$ and a group homomorphism $\varphi: H \to \text{Aut}(N)$, we can construct a new group $N \rtimes_\varphi H$, called the *outer semidirect product* of $N$ and $H$ with respect to $\varphi$, defined as follows:
+- The underlying set is the Cartesian product $N \times H$.
+- The group operation is determined by the group homomorphism $\varphi$: $$(n_1, h_1) (n_2, h_2) = (n_1 \varphi_{h_1}(n_2), h_1h_2) $$for $n_1, n_2\in N$ and $h_1, h_2\in H$. 
+
+Using this characterisation it is easier to get an upper bound on the amount of semidirect products of groups, since at most there will be the number of $\text{Hom}(H, \text{Aut}(N))$. 
+
+An example when we get the maximum number of semidirect products is $C_8$ and $C_2$. The automorphism group of $C_8$ is isomorphic to $(\Bbb Z/8\Bbb Z ^\times,\cdot)$.
+- The homomorphism corresponding to $1$ is trivial, and the semidirect product is $C_8\times C_2$.
+- The homomorphism corresponding to $3$ generates $C_8\rtimes_3 C_2 \cong \text{SD}_{16}$, which is the [[semidihedral group]] of order $16$.
+- The homomorphism corresponding to $5$ generates $C_8 \rtimes_5 C_2$ is the Iwasawa group of order $16$.
+- The homomorphism corresponding to $7$ generates $C_8 \rtimes_7 C_2 \cong D_8$ the [[Dihedral Groups|dihedral group]] of order $16$. 

@@ -1,0 +1,12 @@
+{
+  "excludeDirectories": "OIST, Templates, Journal, Upbringing_Mage",
+  "displayIndividualItems": false,
+  "showNotes": false,
+  "showAttachments": false,
+  "showFiles": false,
+  "showLinks": false,
+  "showWords": false,
+  "showSize": false,
+  "showQuality": false,
+  "showTags": false
+}
