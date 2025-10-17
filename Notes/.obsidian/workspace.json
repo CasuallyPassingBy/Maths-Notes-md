@@ -8,22 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bcb1ab61b1106406",
+            "id": "3a1f3041c192c2d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OIST/OIST Application.md",
+                "file": "Symmetric Groups.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "OIST Application"
+              "title": "Symmetric Groups"
             }
           },
           {
-            "id": "3a1f3041c192c2d9",
+            "id": "21aa82c31802c470",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cauchy and Sylow Theorems.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Cauchy and Sylow Theorems"
+            }
+          },
+          {
+            "id": "66dd025274d127e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,6 +50,51 @@
               },
               "icon": "lucide-file",
               "title": "Sylow Subgroups of the Symmetric Groups"
+            }
+          },
+          {
+            "id": "70f90a7850b00d9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cauchy and Sylow Theorems.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Cauchy and Sylow Theorems"
+            }
+          },
+          {
+            "id": "ff4949556c940f25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Group Homomorphisms and Isomorphisms.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Group Homomorphisms and Isomorphisms"
+            }
+          },
+          {
+            "id": "d36e64bd97b158a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Direct Product of Groups.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Direct Product of Groups"
             }
           },
           {
@@ -51,9 +111,24 @@
               "icon": "lucide-file",
               "title": "Quadratic Congruences"
             }
+          },
+          {
+            "id": "c0b4a8d6c81dd13e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Legendre Symbols.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Legendre Symbols"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -214,14 +289,18 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "6e2b82dfc7b66a54",
+  "active": "ff4949556c940f25",
   "lastOpenFiles": [
-    "Elementary Number Theory.md",
-    "Quadratic Congruences.md",
+    "Cauchy and Sylow Theorems.md",
     "Sylow Subgroups of the Symmetric Groups.md",
-    "OIST/OIST Application.md",
-    "Semidirect Product of Groups.md",
     "Group Theory.md",
+    "Symmetric Groups.md",
+    "Direct Product of Groups.md",
+    "Quadratic Congruences.md",
+    "Legendre Symbols.md",
+    "OIST/OIST Application.md",
+    "Elementary Number Theory.md",
+    "Semidirect Product of Groups.md",
     "OIST/OIST Recommendation Letters.md",
     "L'Hôpital's Rules.md",
     "Real Analysis.md",
@@ -229,7 +308,6 @@
     "Discrete Calculus.md",
     "Wreath Product of Groups.md",
     "Dihedral Groups.md",
-    "Cauchy and Sylow Theorems.md",
     "Cyclic Groups.md",
     "Group Actions.md",
     "Subgroups.md",
@@ -239,9 +317,6 @@
     "Mayer-Vietoris Theorem.md",
     "The Seifert-Van Kampen Theorem.md",
     "Singular Homology and Fundamental Group.md",
-    "Algebraic Topology.md",
-    "Fundamental Group of a Topological Space.md",
-    "Singular Homology.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",

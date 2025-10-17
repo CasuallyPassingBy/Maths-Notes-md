@@ -6,12 +6,10 @@ Subjects: [[Elementary Number Theory]]
 Links: [[Quadratic Congruences]], [[Prime Numbers]]
 ## The Legendre Symbols
 
-**********Def:********** Let $p$ be an odd prime and let $\gcd(a, p )=1$. The ***************_Legendre symbol $(a/p)$_ is defined by
-
+**Def:** Let $p$ be an odd prime and let $\gcd(a, p )=1$. The *Legendre symbol* $(a/p)$ is defined by
 $$ \left(\frac{a}{p}\right) = \begin{cases} 1 & \text{if $a$ is a quadratic residue of $p$} \\ -1 & \text{if $a$ is not a quadratic residue of $p$} \end{cases} $$
 
 ********Th:******** Let $p$ be an odd prime and let $a$ and $b$ be integers that are relatively prime to $p$. Then
-
 - If $a\equiv b \pmod p$, then $(a/p)=(b/p)$
 - $(a^2/p ) =1$
 - $(a/p) \equiv a^{(p-1)/2} \pmod p$
@@ -19,7 +17,7 @@ $$ \left(\frac{a}{p}\right) = \begin{cases} 1 & \text{if $a$ is a quadratic resi
 - $(1/p) = 1$
 - $(-1/p) = (-1)^{(p-1)/2}$
 
-**********Cor:********** If $p$ is an odd prime then
+**Cor:** If $p$ is an odd prime then
 $$ (-1/p) = \begin{cases} 1 & \text{if }p \equiv 1 \pmod 4 \\ -1 & \text{if }p \equiv 3 \pmod 4 \\ \end{cases} $$
 This results is linked with [[Wilson's Theorem]]
 

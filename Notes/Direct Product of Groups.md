@@ -21,13 +21,13 @@ Links: [[Groups]], [[Cartesian Product]], [[Normal Subgroups and Quotient Groups
 **Prop:** We have the following properties of the diagonal:
 - $\Delta \le G \times G$
 - $\Delta \cong G$ 
-- $\Delta \triangleleft G\times G$ iff $G$ is abelian
+- $\Delta \trianglelefteq G\times G$ iff $G$ is abelian
 
 **Prop:** let $n, m \in \Bbb N^+$ with $(n, m) = 1$, then $\Bbb Z_{nm} \cong \Bbb Z_n \times \Bbb Z_m$
 
 **Prop:** Let $G$ be a group, and $H, K \trianglelefteq G$. If $G = HK$ and $H \cap K = \{e\}$, then $G \cong H \times K$. In the proof of this statement, we saw that if $a\in G$ and $b\in K$, then $ab = ba$, meaning every element of $G$ commutes with every element of $K$.
 
-**Prop:** If $H$ and $K$ are subgroups of a finite group $G$, then $$HK = \frac{|H||K|}{|H\cap K|}$$
+**Prop:** If $H$ and $K$ are subgroups of a finite group $G$, then $$|HK| = \frac{|H||K|}{|H\cap K|}$$
 **Def:** Let $H, K\trianglelefteq G$, such that:
 - $H \cap K = \{e\}$
 - $HK = G$
@@ -44,12 +44,12 @@ Then we say that $G$ is the *direct internal product* of $H$ and $K$
 **Prop:** Let $G = \prod_{i = 1}^n H_i$ (the Cartesian product), and $N \triangleleft G$. We define $N_i = \pi_i[N]$, then $N = \prod_{i = 1}^n N_i$, then $$G/N \cong \prod_{i = 1}^n H_i /N_i$$
 
 **Prop:** Let $G_1, \dots, G_n$ be groups. If $G = \prod_{i = 1}^n G_i$, then:
-- each $\widetilde G_i \triangleleft G$ 
+- each $\widetilde G_i \trianglelefteq G$ 
 - $G = \prod_{i = 1}^n \widetilde G_i$, where the multiplication being done is the one for subsets. 
 - $\widetilde G_i \cap \prod_{j \ne i}^n\widetilde  G_j =\{e\}$, for each $i= 1, \dots, n$. $\widetilde G_i$ has trivial intersection with the product of all other subgroups. 
 
 **Def:** Let $H_1, \dots, H_n \le G$ with $n \in \Bbb N$. We say that $G$ is the *direct internal product* of the subgroups $H_1, \dots, H_n$ if  it satisfies the following conditions:
-- $H_i \triangleleft G$ 
+- $H_i \trianglelefteq G$ 
 - $G = H_1 \cdots H_n = \prod_{i = 1}^n H_i$ (where this is the product of subsets of $G$)
 - $H_i \cap \prod_{j \ne i}^n H_j =\{e\}$, for each $i = 1, \dots, n$
 

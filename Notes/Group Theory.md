@@ -18,6 +18,7 @@ tags:
 		- [[Unitary Group]]
 		- [[Affine Group]]
 			- [[Euclidean Group]]
+	- [[Rubik's Cube Group]]
 	- [[Cyclic Groups]]
 - [[Subgroups]]
 	- [[Normal Subgroups and Quotient Groups]]
