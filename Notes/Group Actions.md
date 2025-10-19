@@ -26,7 +26,7 @@ Then we say that $\beta$ is a *right action of $G$ on $X$*.
 - If $G$ is a group, and $G$ acts on itself via conjugation, $G \times G \to G$ such that $\sigma* g = \sigma g \sigma^{-1}$, then $G_g = Z_G(g)$, the [[Subgroups#^0fafab|centraliser]] of $g$ in $G$, and $\text{orb}_G(g)$ is the conjugation class of $g$ in $G$.
 
 **Orbit-Stabilser Theorem:** If $X$ is a $G$-set, then for each $x\in X$ we have that $$|\text{orb}_G(x)| = [G: G_x].$$
-**Cor:** If $G$ is a finite group, and $H, K \le G$, then for all $x\in G$ we have that $$|HxK| = \frac{|H||K|}{|H \cap xKx^{-1}|} $$
+**Cor:** If $G$ is a finite group, and $H, K \le G$, then for all $x\in G$ we have that $$|HxK| = \frac{|H||K|}{|H \cap xKx^{-1}|} $$ ^81eaff
 
 **Th:** Suppose $G$ is a group, and $X$ is a $G$-set. For each $x\in X$, and $g\in G$, then $$G_{g\cdot x} = g G_x g^{-1}. $$
 **Cor:** Let $X$ be a $G$-set. if for some $x\in X$ we have that $G_x \trianglelefteq G$, then for all $y \in \text{orb}_G(x)$ we have that $G_y = G_x$.

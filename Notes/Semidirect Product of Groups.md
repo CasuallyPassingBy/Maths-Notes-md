@@ -59,3 +59,16 @@ An example when we get the maximum number of semidirect products is $C_8$ and $C
 - The homomorphism corresponding to $3$ generates $C_8\rtimes_3 C_2 \cong \text{SD}_{16}$, which is the [[semidihedral group]] of order $16$.
 - The homomorphism corresponding to $5$ generates $C_8 \rtimes_5 C_2$ is the Iwasawa group of order $16$.
 - The homomorphism corresponding to $7$ generates $C_8 \rtimes_7 C_2 \cong D_8$ the [[Dihedral Groups|dihedral group]] of order $16$. 
+
+**Prop:** Let $H$, $K$ be groups. let $\varphi_i: K \to \text{Aut}(H)$, with $i \in \{1, 2\}$, be homomorphisms, and let $G_i = H \rtimes_{\varphi_i} K$ be the corresponding semidirect products. Let $H_i$ and $K_i$ be the natural images of $H$ and $K$ respectively in $G_i$. If there exists isomorphisms $\alpha: H \to H$, and $\beta: K \to K$ such that for every $k\in K$, $$\varphi_2(\beta(k)) = \alpha \circ \varphi_1(k) \circ \alpha^{-1},$$or that this diagram commutes
+```tikz
+\usepackage{tikz-cd} 
+\usepackage{amsfonts, amsmath, amssymb}
+\begin{document} 
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
+K\arrow[r, "\varphi_1"]\arrow[d, "\beta"'] & \text{Aut}(H)\arrow[d, "\text{conjugation by $\alpha$}"] \\
+K\arrow[r, "\varphi_2"'] & \text{Aut}(H)
+\end{tikzcd}
+\end{document}
+```
+then there exists an isomorphism $\phi: G_1 \to G_2$ such that $\phi[H_1] = H_2$. Conversely, if $H$ is abelian and such $\phi$ exists, then there exists isomorphisms $\alpha: H \to H$, and $\beta: K \to K$ such that for every $k\in K$, $$\varphi_2(\beta(k)) = \alpha \circ \varphi_1(k) \circ \alpha^{-1},$$

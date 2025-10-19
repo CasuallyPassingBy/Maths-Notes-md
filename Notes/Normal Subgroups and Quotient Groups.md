@@ -65,3 +65,6 @@ we also have that $H \trianglelefteq G$ iff $H/N \trianglelefteq G/N$.
 **Prop:** Let $G$ be a group. If $G/Z(G)$ is cyclic, then $G$ is abelian. 
 
 **Def:** Let $G$ be a group, and $S \subseteq G$. We define the normal closure of $S$ to be $$\overline S:= \bigcap \{N \mid S \subseteq N \trianglelefteq G\}.$$
+**Def:** Let $H \trianglelefteq G$ is said to be a *maximum normal subgroup* if there's no other normal subgroup $K \trianglelefteq G$ such that $H < K < G$. 
+
+**Obs:** $H \trianglelefteq G$ is a maximum normal subgroup iff $G/H$ is [[Simple Groups|simple]]. 

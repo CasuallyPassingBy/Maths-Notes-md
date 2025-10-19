@@ -8,127 +8,67 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3a1f3041c192c2d9",
+            "id": "9e421c8a5836bb69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Symmetric Groups.md",
+                "file": "Nilpotent Groups.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Symmetric Groups"
+              "title": "Nilpotent Groups"
             }
           },
           {
-            "id": "21aa82c31802c470",
+            "id": "59de0fd129975a5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cauchy and Sylow Theorems.md",
+                "file": "Commutator Subgroup.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Cauchy and Sylow Theorems"
+              "title": "Commutator Subgroup"
             }
           },
           {
-            "id": "66dd025274d127e7",
+            "id": "aaf3405f2f46edb1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sylow Subgroups of the Symmetric Groups.md",
+                "file": "Solvable Groups.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sylow Subgroups of the Symmetric Groups"
+              "title": "Solvable Groups"
             }
           },
           {
-            "id": "70f90a7850b00d9f",
+            "id": "c27c7e86fd3b38e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cauchy and Sylow Theorems.md",
+                "file": "Solvable Groups.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Cauchy and Sylow Theorems"
-            }
-          },
-          {
-            "id": "ff4949556c940f25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Group Homomorphisms and Isomorphisms.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Group Homomorphisms and Isomorphisms"
-            }
-          },
-          {
-            "id": "d36e64bd97b158a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Direct Product of Groups.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Direct Product of Groups"
-            }
-          },
-          {
-            "id": "6e2b82dfc7b66a54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quadratic Congruences.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Quadratic Congruences"
-            }
-          },
-          {
-            "id": "c0b4a8d6c81dd13e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Legendre Symbols.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Legendre Symbols"
+              "title": "Solvable Groups"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -289,34 +229,34 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "ff4949556c940f25",
+  "active": "aaf3405f2f46edb1",
   "lastOpenFiles": [
+    "Nilpotent Groups.md",
     "Cauchy and Sylow Theorems.md",
-    "Sylow Subgroups of the Symmetric Groups.md",
+    "Commutator Subgroup.md",
+    "Solvable Groups.md",
+    "Untitled.md",
     "Group Theory.md",
-    "Symmetric Groups.md",
-    "Direct Product of Groups.md",
-    "Quadratic Congruences.md",
-    "Legendre Symbols.md",
-    "OIST/OIST Application.md",
-    "Elementary Number Theory.md",
-    "Semidirect Product of Groups.md",
-    "OIST/OIST Recommendation Letters.md",
-    "L'Hôpital's Rules.md",
-    "Real Analysis.md",
-    "Central Hub.md",
-    "Discrete Calculus.md",
-    "Wreath Product of Groups.md",
-    "Dihedral Groups.md",
-    "Cyclic Groups.md",
-    "Group Actions.md",
-    "Subgroups.md",
-    "Group Equivariant Maps.md",
+    "Group Extensions.md",
+    "Fundamental Group of the Circle.md",
     "Normal Subgroups and Quotient Groups.md",
-    "Automorphism Group of a Covering.md",
-    "Mayer-Vietoris Theorem.md",
-    "The Seifert-Van Kampen Theorem.md",
-    "Singular Homology and Fundamental Group.md",
+    "Simple Groups.md",
+    "Alternating Groups.md",
+    "Symmetric Groups.md",
+    "Group Actions.md",
+    "Classification of Groups of order p^2q.md",
+    "General Linear Group.md",
+    "Group Homomorphisms and Isomorphisms.md",
+    "Semidirect Product of Groups.md",
+    "Legendre Symbols.md",
+    "Quadratic Congruences.md",
+    "Direct Product of Groups.md",
+    "Elementary Number Theory.md",
+    "Sylow Subgroups of the Symmetric Groups.md",
+    "Semidire.md",
+    "Integers modulo n.md",
+    "OIST/OIST Application.md",
+    "OIST/OIST Recommendation Letters.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",

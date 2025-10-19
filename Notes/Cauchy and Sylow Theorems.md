@@ -37,11 +37,21 @@ An important example, is when $G$ acts on itself by conjugation. Note that the o
 
 **Example:** If $G = S_p$, with $p$ prime, then we know that $|S_p| = p (p-1)!$, and $p \not\mid (p-1)!$, thus the Sylow $p$-groups of $S_p$ must have order exactly $p$. Thus, the Sylow $p$-groups must be cyclic, and $S_p$ has exactly $(p-1)!$ number of $p$-cycles.  If $n_p$ is the number of Sylow $p$-groups, then $n_p (p-1) = (p-1)!$, and $n_p = (p-2)!$. Lastly, by Sylow's third theorem, we know that $n_p \equiv 1 \pmod p$, and $(p-2)! \equiv 1 \pmod p$. Getting another proof of [[Wilson's Theorem]].
 
+**Obs:** We see that this actually a special case of a more general result: If $G$ is a finite group and $H\le $G$, then the number of subgroups of $G$ that are conjugated to $H$ is $[G: N_G(H)].$ This is by the [[Group Actions#^81eaff|orbit-stabilzer theorem]]. 
+
+**Prop:** Let $G$ be a finite group and $\mathcal S_p$ be Sylow $p$-subgroup of $G$. Then $\mathcal S_p$ is the unique Sylow $p$-subgroup of its normalizer and $N:= N_G(P)$ and the normalizer of $N$ is equal to $N$.
+
+**Lemma:** Let $G$ be a finite group, $N \trianglelefteq G$, and $P$ be normal Sylow $p$-subgroup of $N$. Then $P$ is a normal subgroup of $G$. 
+
 ## Applications of Sylow's Theorem
 
 **Def:** If $p$ is a prime, a group $G$ is said to be a $p$-group if every element of $G$ has order a power of $p$.
 
 **Prop:** A finite group $G$ is a $p$-group iff it has order a power of $p$.
+
+**Cor:** If $Q$ is a normal $p$-subgroup of $G$, then $Q$ is contained in every Sylow $p$-subgroup $P$ of $G$. 
+
+**Prop:** If $G$ is a finite $p$-group and $H\trianglelefteq G$, then $H\cap Z(G) \neq 1$. 
 
 **Lemma:** If $G$ is a finite $p$-group, then $Z(G)$ is nontrivial.
 
@@ -63,4 +73,15 @@ An important example, is when $G$ acts on itself by conjugation. Note that the o
 - If $G$ is abelian, then $G \cong \Bbb Z/pq\Bbb Z$ is cyclic of order $pq$.
 - If $G$ is not abelian, then $p \equiv 1 \pmod q$ and $G \cong \langle a, b\mid a^q =1 = b^p, aba^{-1} = b^r\rangle$, where $r$ integer such that $1 < r <p$ and $r^q \equiv 1 \pmod p$. 
 
-**Example:** If $p >2$ is a prime, there's a nonabelian group $G$ of order $2p$ such that $p \equiv 1\pmod 2$, we get by the theorem $$G \cong \langle a,b \mid a^2 = b^p, aba^{-1} = b^r\rangle,$$where $r$ is number such that $1<r<p$ and $r^2 \equiv 1 \pmod p$. Now we have that $p \mid r^2-1,$ thus $r \equiv 1, p-1 \pmod p$, thus $r \equiv -1 \pmod p$, and we get that $aba = b^{-1}$. This means that $G$ is isomorphic to the dihedral group of order $2p$, or $D_p$.
+**Example:** If $p >2$ is a prime, there's a nonabelian group $G$ of order $2p$ such that $p \equiv 1\pmod 2$, we get by the theorem $$G \cong \langle a,b \mid a^2 = b^p, aba^{-1} = b^r\rangle,$$where $r$ is number such that $1<r<p$ and $r^2 \equiv 1 \pmod p$. Now we have that $p \mid r^2-1,$ thus $r \equiv 1, p-1 \pmod p$, thus $r \equiv -1 \pmod p$, and we get that $aba = b^{-1}.$This means that $G$ is isomorphic to the [[Dihedral Groups|dihedral group]] of order $2p$, or $D_p$.
+
+**Prop:** Let $G$ be a finite group of order $p^2q$, where $p$ and $q$ are distinct primes. Then $G$ has at least one normal Sylow subgroup.
+- If $p> q$, then the Sylow $p$-subgroup is normal.
+- If $q> p$, then either the Sylow $q$-subgroup is normal or the Sylow $p$-subgroup is normal.
+In particular, a group of order $p^2q$ cannot be simple.
+
+We can continue the analysis for this type of groups [[Classification of Groups of order p^2q|here]].
+
+**Prop:** Let $G$ be a finite group of order $pqr$, with $p <q<r$ primes. Then:
+- $G$ has a normal subgroup of order $qr$.
+- $G$ has a normal Sylow $r$-subgroup. 

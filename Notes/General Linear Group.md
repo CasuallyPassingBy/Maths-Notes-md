@@ -12,6 +12,9 @@ Let $F$ being an field, and $\text{M}(n, F)$ be the set of all $n \times n$ matr
 
 If $V$ has finite dimension $n$, then $\text{GL}(V)$ and $\text{GL}(n ,F)$ are isomorphic. This is because we have the matrix representation of linear transformations. 
 
+**Lemma:** Let $A$ be a $2\times 2$ matrix over a field $k$. If $A$ is not a scalar multiple of the identity matrix, then $A$ is similar to the matrix $$\begin{pmatrix}0 & -\det(A) \\ 1 & \text{tr}(A)\end{pmatrix} $$
+**Cor:** Two non scalar $2\times 2$ matrices over $k$ are similar iff they have the same eigenvalues. 
+
 # General Linear Group over $\Bbb R$
 
 We have that $\text{GL}(n, \Bbb R)$ has extra properties. In particular we have that $\text{GL}(n, \Bbb R) = \det^{-1}[\Bbb R\setminus\{0\}]$, meaning is an open set of $\Bbb R^{n \times n}$. Then we have that as an open subset of $\Bbb R^{n \times n}$, it is a manifold. It is fairly easy to prove that $\mu$ (matrix multiplication) and $\iota$ (matrix inverse) are $\mathcal C^\infty$. Meaning that $\text{GL}(n, \Bbb R)$ is an Lie group. 
