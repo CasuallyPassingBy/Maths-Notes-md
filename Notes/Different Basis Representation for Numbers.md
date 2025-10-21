@@ -5,8 +5,7 @@ tags:
 Subjects: [[Elementary Number Theory]]
 Links: [[Euclidean Algorithm#Division Algorithm|Division Algorithm]], [[Greatest Common Divisor]]
 
-**Alg:** Let $N$ be a positive integer and $b > 1$. We apply the division algorithm yields the integers $q_1$ and $a_0$ satisfying
-
+**Alg:** Let $N$ be a positive integer and $b > 1$. We apply the division algorithm yields the integers $q_1$ and $a_0$ satisfying 
 $$ N= q_1 b+a_0 \quad 0\le a_0 <b $$
 
 If $q_1 \ge b$, we can divide it once more, obtaining

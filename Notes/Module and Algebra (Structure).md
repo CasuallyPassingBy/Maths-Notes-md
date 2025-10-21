@@ -3,7 +3,7 @@ tags:
   - "#ModuleTheory"
 ---
 Subjects: [[Module Theory]]
-Links: [[Vector Spaces]], [[Rings]], [[Groups]], [[Ring Ideals and Quotient Rings]], [[Polynomial Ring]]
+Links: [[Vector Spaces]], [[Rings]], [[Groups]], [[Ring Ideals and Quotient Rings]], [[Polynomial Ring of a Single Variable]]
 
 # Module
 

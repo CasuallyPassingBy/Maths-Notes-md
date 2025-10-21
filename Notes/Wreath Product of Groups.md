@@ -15,3 +15,5 @@ The *restricted wreath product* $A \text{ wr}_\Omega Q$ is constructed in the sa
 In the most common case, $\Omega = Q$, and $Q$ acts on itself by left multiplication. In this case, the unrestricted and restricted wreath product may be denoted by $A \text{ Wr } Q$, or $A \wr Q$, and $A \text{ wr } Q$. This is calle the *regular wreath product.*
 
 Note that $A \text{ wr}_\Omega Q\le A \wr_\Omega H$. 
+
+If $A$ and $Q$ are finite, then $|A \wr Q| = |A|^{|Q|} |Q|$. 

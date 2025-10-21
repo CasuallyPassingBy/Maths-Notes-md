@@ -41,7 +41,6 @@ Suppose we have the network:
 \draw (O) -- (out);
 \end{tikzpicture}
 \end{document}
-
 ```
 As mentioned earlier, the left most layer in this network is called the *input layer*, and the neurons within that layer are called *input neurons*. The rightmost or *output layer* contains the *output neurons*. The middle layer is called a *hidden layer*, since the neurons in this layer are neither inputs nor outputs.
 ```tikz

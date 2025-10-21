@@ -4,7 +4,7 @@ tags:
   - RingTheory
 ---
 Subjects: [[Linear Algebra]], [[Ring Theory]]
-Links: [[Characteristic and Minimal Polynomial of a Linear Transformation]], [[Jordan Normal Form]], [[Eigenspaces and Diagonal Matrices]], [[Polynomial Ring]]
+Links: [[Characteristic and Minimal Polynomial of a Linear Transformation]], [[Jordan Normal Form]], [[Eigenspaces and Diagonal Matrices]], [[Polynomial Ring of a Single Variable]]
 
 **Def:** Let $T$ be a linear operator on a finite dimensional vector space $V$ with characterisitc polynomial
 

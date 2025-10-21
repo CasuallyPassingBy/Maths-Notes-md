@@ -8,63 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9e421c8a5836bb69",
+            "id": "1508708c09258526",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nilpotent Groups.md",
+                "file": "Interesting Stuff I want continue Learning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Nilpotent Groups"
+              "title": "Interesting Stuff I want continue Learning"
             }
           },
           {
-            "id": "59de0fd129975a5c",
+            "id": "e838e7839fbe181e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Commutator Subgroup.md",
+                "file": "Ring Theory.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Commutator Subgroup"
+              "title": "Ring Theory"
             }
           },
           {
-            "id": "aaf3405f2f46edb1",
+            "id": "ae5e90a2173f647c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solvable Groups.md",
+                "file": "Polynomial Ring of a Single Variable.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Solvable Groups"
-            }
-          },
-          {
-            "id": "c27c7e86fd3b38e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Solvable Groups.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Solvable Groups"
+              "title": "Polynomial Ring of a Single Variable"
             }
           }
         ],
@@ -229,34 +214,34 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "aaf3405f2f46edb1",
+  "active": "ae5e90a2173f647c",
   "lastOpenFiles": [
-    "Nilpotent Groups.md",
-    "Cauchy and Sylow Theorems.md",
-    "Commutator Subgroup.md",
+    "Polynomial Ring of a Single Variable.md",
+    "Ring Theory.md",
+    "Rings.md",
+    "Quadratic Integers.md",
+    "Interesting Stuff I want continue Learning.md",
     "Solvable Groups.md",
-    "Untitled.md",
+    "Simple Groups.md",
+    "Feedforward Neural Networks.md",
+    "Wreath Product of Groups.md",
+    "Different Basis Representation for Numbers.md",
+    "Sylow Subgroups of the Symmetric Groups.md",
+    "Group Homomorphisms and Isomorphisms.md",
+    "Neural Networks.md",
     "Group Theory.md",
+    "Nilpotent Groups.md",
+    "Commutator Subgroup.md",
+    "Cauchy and Sylow Theorems.md",
+    "Untitled.md",
     "Group Extensions.md",
     "Fundamental Group of the Circle.md",
     "Normal Subgroups and Quotient Groups.md",
-    "Simple Groups.md",
     "Alternating Groups.md",
     "Symmetric Groups.md",
     "Group Actions.md",
     "Classification of Groups of order p^2q.md",
     "General Linear Group.md",
-    "Group Homomorphisms and Isomorphisms.md",
-    "Semidirect Product of Groups.md",
-    "Legendre Symbols.md",
-    "Quadratic Congruences.md",
-    "Direct Product of Groups.md",
-    "Elementary Number Theory.md",
-    "Sylow Subgroups of the Symmetric Groups.md",
-    "Semidire.md",
-    "Integers modulo n.md",
-    "OIST/OIST Application.md",
-    "OIST/OIST Recommendation Letters.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",

@@ -14,7 +14,7 @@ The sequence of subgroups above is called the *central superios sequence* of $G$
 
 **Lemma:** Every finite $p$-group is nilpotent. 
 
-We get the following strict inclusions of the different classes of subgroups: $$\mathsf{Ab} \subseteq\mathsf{Nil} \subseteq \mathsf{Sol}.$$
+We get the following strict inclusions of the different classes of subgroups: $$\mathsf{Abelian} \subseteq\mathsf{Nilpotent} \subseteq \mathsf{Solavable}.$$
 **Lemma:**
 - Let $H$ and $K$ subgroups of $G$. Then $[H, K] \subseteq H$ iff $K \le N_G(H)$. 
 - If $K \trianglelefteq G$ and $K \le H \le G$, then $[H, G] \le K$ iff $H/K \le Z(G/K)$. 

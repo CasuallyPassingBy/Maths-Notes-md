@@ -3,7 +3,7 @@ tags:
   - LinearAlgebra
 ---
 Subjects: [[Linear Algebra]]
-Links: [[Eigenvalues]], [[Eigenspaces and Diagonal Matrices]], [[Polynomial Ring]]
+Links: [[Eigenvalues]], [[Eigenspaces and Diagonal Matrices]], [[Polynomial Ring of a Single Variable]]
 ## Cayley-Hamilton Theorem
 Supose $T \in \mathcal L(V)$, then we define the _characteristic polynomial_ of $T$, as
 $$ \chi_T(t ) = \det (T-tI) $$

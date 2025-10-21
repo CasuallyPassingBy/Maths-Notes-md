@@ -54,5 +54,3 @@ This means that the class $\sf Sol$ of solvable groups is closed under subgroups
 **Lemma:** If $n \ge 5$ and $G = S_n$, then the derived subgroup $G^{(k)}$ of $G$ has all the $3$-cycles of $S_n$, for $k \ge 1$. 
 
 **Cor:** If $n \ge 5$, the group $S_n$ is not solvable. 
-
-

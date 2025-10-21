@@ -2,7 +2,7 @@
 tags:
 ---
 Subjects: [[Finite Operator Calculus]]
-Links: [[Fields]], [[Polynomial Ring]]
+Links: [[Fields]], [[Polynomial Ring of a Single Variable]]
 
 **Def:** By a *polynomial sequence* we shall denote a sequence of polynomials $p_i(x)$ $i \in \Bbb N$, where $p_i(x)$ is exactly of degree $i$ for all $i$. 
 

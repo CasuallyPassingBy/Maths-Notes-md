@@ -3,7 +3,7 @@ tags:
   - LinearAlgebra
 ---
 Subjects: [[Linear Algebra]]
-Links: [[Eigenvalues]], [[Matrix Representation of Linear Transformations]], [[Polynomial Ring]]
+Links: [[Eigenvalues]], [[Matrix Representation of Linear Transformations]], [[Polynomial Ring of a Single Variable]]
 
 Def: Let $T\in \mathcal L(V)$ and $m \in \Bbb N^+$, then
 

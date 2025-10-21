@@ -29,9 +29,28 @@
 		- [ ] Exterior Algebra and Grassmann Algebra (Orientation and Quasi-Hodge Isomorphisms)
 -  Ring Theory
 	- [ ] Dummit & Foote
+		- [ ] Introduction to Rings
+		- [ ] Euclidean Domains, Principal Ideal Domains, and Unique Factorization Domains
+		- [ ] Polynomial Rings
 -  Group Theory
 	- [ ] Dummit & Foote
-	- [ ] Zaldivar (30%)
+	- [ ] Zaldivar (65%)
+		- [x] Symmetries and binary operations
+		- [x] Groups and subgroups
+		- [x] Cyclic Groups
+		- [x] Permutation groups
+		- [x] Cosets and Quotient Groups
+		- [x] Homomorphisms and Isomorphisms
+		- [x] Direct Products and Finite Abelian Groups
+		- [x] Group Actions and Frobenius Theorem
+		- [x] Cauchy and Sylow Theorems
+		- [x] Simple Groups
+		- [ ] Solvable Groups
+		- [ ] Matrix Groups
+		- [ ] Linear Representations of Finite groups
+		- [ ] Characters of finite groups
+		- [ ] Applications of Character Theory
+		- [ ] Algebraic Integers
 	- [ ] Rotman 
 -  Number Theory 
 	- [ ] Rosen

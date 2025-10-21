@@ -32,7 +32,7 @@ Then $(R, +, \times, 0, 1)$ is a unital ring.
 - A nonzero element $a$ of $R$ is called a *zero divisor* if there is a nonzero element $b\in R$ such that $ab =  0$ or $ba =0$.
 - Assume $R$ has an identity $1 \ne 0$. An element $u\in R$ is called a *unit* in $R$ if there is some $v\in R$ such that $uv = vu = 1$. The set of units in $R$ is denoted $R^\times$. 
 
-**Obs:** If $R$ is a unital ring, then $R^\times$ forms a group under multiplication, so $R^\times$ will be referred to as a the *group of units* of $R$. A zero divisor cannot be a unit.
+**Obs:** If $R$ is a unital ring, then $R^\times$ forms a group under multiplication, so $R^\times$ will be referred to as a the *group of units* of $R$. A zero divisor cannot be a unit. Let us note that $(-1)^2 =1$. 
 
 **Def:** A unital commutative ring is called an *integral domain* if it has no zero divisors.
 
@@ -40,13 +40,35 @@ Then $(R, +, \times, 0, 1)$ is a unital ring.
 
 **Cor:** Any finite integral domain is a field.
 
+**Obs:** If $R$ is an integral domain, and $x^2   =1$ for some $x\in R$, then $x=\pm 1$. 
+
 **Def:** A *subring* of the ring $R$ is a subgroup of $R$ that is closed under multiplication.
 
 **Obs:** To show that a subsets of a ring $R$ is a subring it suffices to check it is *nonempty* and *closed under subtraction and multiplication*. 
 
+**Obs:** Every subring of a field that contains the identity is an integral domain. 
+
+**Def:** Let $R$ be a ring. We define the *centre of $R$* to be $Z(R) := \{z\in R \mid \forall x\in R[zx = xz]\}.$
+
+**Obs:** $Z(R)$ is a subring of $R$. If $R$ is unital then so is $Z(R)$. Finally, if $R$ is a skew-field, then $Z(R)$ is a field. 
+
+**Def:** Let $R$ be a ring and $a\in R$. We define the *centralizer of $a$* to be the set $C(a) := \{r\in R \mid ar = ra\}$. 
+
+**Obs:** Let us note that $C(a)$ is a subring of $R$ for any $a\in R$, and $$Z(R) =\bigcap_{a\in R} C(a).$$Additionally, if $R$ is a skew-field, then so is $C(a)$ for all $a\in R$.
+
 **Def:** A ring $R$ is called a *Boolean ring* if $a^2 =a$ for all $a\in R$. 
 
 **Obs:** Every Boolean ring is commutative.
+
+**Prop:** The only Boolean ring that is an integral domain is $\Bbb Z/2\Bbb Z$. 
+
+**Def:** An element $x$ in $R$ is called *nilpotent* if $x^m = 0$ for some $m \in \Bbb N$.
+
+**Prop:** Let $x$ be a nilpotent element of the ring $R$.
+- $x$ is either $0$ or a zero divisor.
+- If $R$ is commutative, then $rx$ is also nilpotent for every $r\in R$.
+- $1+x$ is a unit
+- If $R$ is commutative, then the sum of a nilpotent element and a unit is a unit.
 
 Standard examples for rings:
 - [[Integer Numbers]]

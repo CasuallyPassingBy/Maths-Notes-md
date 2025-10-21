@@ -33,7 +33,7 @@ The set $\Bbb Q$ is countable
 
 **Lemma:** Given a rational number $r$, there is a unique integer $e$ such that $e \le r <e+1$. We call $e$ the integer part of $r$, $e = \lfloor r \rfloor$ 
 
-The expansion of integers in base $p$ is well known, and explored in [[Different Basis Representation]]. By the lemma above, we see that $r = \lfloor r\rfloor +q$, with $q \in \Bbb Q$ and $0 \le q < 1$.  We concentrate on the expansion of $q$. 
+The expansion of integers in base $p$ is well known, and explored in [[Different Basis Representation for Numbers]]. By the lemma above, we see that $r = \lfloor r\rfloor +q$, with $q \in \Bbb Q$ and $0 \le q < 1$.  We concentrate on the expansion of $q$. 
 
 We construct a sequence of *digits* $0, 1, \dots, p-1$ by recursion, as follows: 
 - Find $a_1 \in \{0, \dots, p-1\}$ such that such that $a_1/p \le q < (a_1 +1)/p$, let $a_1 = \lfloor p \cdot q\rfloor$

@@ -11,7 +11,7 @@ tags:
 - [[Greatest Common Divisor]]
 	- [[Lowest Common Multiple]]
 	- [[Euclidean Algorithm]]
-		- [[Different Basis Representation]]
+		- [[Different Basis Representation for Numbers]]
 		- [[Linear Diophantine Equations]]
 	- [[Prime Numbers]]
 - [[Integers modulo n]]
