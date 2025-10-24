@@ -71,15 +71,13 @@ If $(i_n: X_n \to X_{n+1})_{n < \omega}$ is a sequence of closed embeddings betw
 **Th:** For every $T_1$-space $X$ the following conditions are equivalent:
 - The space $X$ is $T_5$.
 - Every open subspace of $X$ is $T_4$.
-- For every pair of separated sets $A, B \subseteq X$, then $A, B$ are *separated by neighbourhoods*.
+- For every pair of separated sets $A, B \subseteq X$, then $A, B$ are *separated by neighbourhoods.*
 
 **Lemma:** The space $[0, \omega)^{\omega_1}$ is not a normal space.
 
 **Cor:** Let $\{(X_\alpha, \tau_\alpha) \mid \alpha < \kappa\}$ be a family of not indiscrete topological spaces. If $\kappa > \omega$, then $\prod_{\alpha < \kappa} X_\alpha$ is not hereditarily normal.
 
 One can be tempted to compare [[collectionwise normal spaces]] to hereditarily normal spaces, but these properties are completely independent of each other.
-
-****
 
 # Perfect Normality
 

@@ -4,7 +4,7 @@ tags:
   - NumberTheory/AlgebraicNumberTheory
 ---
 Subjects: [[Ring Theory]], [[Algebraic Number Theory]]
-Links: [[Rings]], [[Continued Fractions]]
+Links: [[Rings and Fields]], [[Continued Fractions]]
 
 **Def:** Let $D \in \Bbb Q$ that is not a perfect square in $\Bbb Q$, i.e. $\sqrt{D} \notin \Bbb Q$, and define $$\Bbb Q(\sqrt D) := \{a + b\sqrt D\mid a, b\in \Bbb Q\} \subseteq \Bbb C.$$
 

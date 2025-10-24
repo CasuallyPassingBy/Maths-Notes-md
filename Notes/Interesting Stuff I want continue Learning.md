@@ -8,7 +8,7 @@
 	- [ ] Prieto
 
 ### Algebraic Topology 
-- [ ] Introduction to Topological Manifolds by Lee (75%)
+- [ ] Introduction to Topological Manifolds by Lee 
 	- [x] Topological Spaces
 	- [x] New Spaces from Old
 	- [x] Connectedness and Compactness

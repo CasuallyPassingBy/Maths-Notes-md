@@ -26,6 +26,8 @@ tags:
 - [[Group Homomorphisms and Isomorphisms]]
 	- [[Automorphism Group]]
 - [[Direct Product of Groups]]
+	- [[Direct Limits of Abelian Groups]]
+	- [[Inverse Limits of Abelian Groups]]
 	- [[Finite Abelian Groups]]
 	- [[Group Extensions]]
 - [[Group Actions]]

@@ -38,7 +38,6 @@ $$ x = \sum_{k = 1}^r a_k x_kN_k $$
 then $x$ is a solution up to modulo $N$.
 
 ********Th:******** The system of linear congruences
-
 $$ ax+by \equiv r \pmod n$$$$ cx+dy \equiv s \pmod n $$
 has a unique solution modulo $n$ whenever $\gcd(ad-bc, n)=1$.
 
@@ -47,13 +46,10 @@ $$ x \equiv (ad-bc)^{-1}(dr-bs) \pmod n $$$$ y \equiv (ad-bc)^{-1}(as-cr) \pmod 
 This to me feels like solving a linear system of equations in a $\Bbb Z_n$ [[Module and Algebra (Structure)|module]], and a matrix over $\Bbb Z_n$
 
 ********************Th:******************** Given a linear congruence of the form
-
 $$ ax+by \equiv c \pmod n $$
 
 there exists solutions if $\gcd(a,b, n )\mid c$ and there will be $n$ different solutions up to modulo $n$.
 
 which might be equivalent to looking for solutions of the Diophantine equation
-
 $$ ax+by+nz = c $$
-
 with $0\le x, y < n$

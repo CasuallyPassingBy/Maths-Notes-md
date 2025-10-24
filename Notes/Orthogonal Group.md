@@ -4,7 +4,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Group Theory]], [[Differential Geometry]]
-Links: [[General Linear Group]], [[Fields]], [[Lie Subgroups]], [[Unitary Group]], [[Topological Connectedness]]
+Links: [[General Linear Group]], [[Rings and Fields|Fields]], [[Lie Subgroups]], [[Unitary Group]], [[Topological Connectedness]]
 
 
 **Def:** For any field $F$, an $n \times n$ matrix with entries in $F$ such that its inverse equals its transpose is called an *orthogonal matrix over $F$*. The $n\times n$ orthogonal matrices form a subgroup, denoted $\text{O}(n, F)$, of the [[General Linear Group]] $\text{GL}(n F)$; that is $$ \text{O}(n, F) = \{Q \in \text{GL}(n, F) \mid Q Q^\top = Q^\top Q = I\}$$

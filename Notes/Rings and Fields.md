@@ -56,7 +56,7 @@ Then $(R, +, \times, 0, 1)$ is a unital ring.
 
 **Obs:** Let us note that $C(a)$ is a subring of $R$ for any $a\in R$, and $$Z(R) =\bigcap_{a\in R} C(a).$$Additionally, if $R$ is a skew-field, then so is $C(a)$ for all $a\in R$.
 
-**Def:** A ring $R$ is called a *Boolean ring* if $a^2 =a$ for all $a\in R$. 
+**Def:** In a ring $R$, an element $a\in R$ is called *idenpotent* if $a^2 = a$. A ring $R$ is called a *Boolean ring* if every element is idenpotent. 
 
 **Obs:** Every Boolean ring is commutative.
 
@@ -71,8 +71,12 @@ Then $(R, +, \times, 0, 1)$ is a unital ring.
 - If $R$ is commutative, then the sum of a nilpotent element and a unit is a unit.
 
 Standard examples for rings:
-- [[Integer Numbers]]
 - [[Integers modulo n]]
+- [[Matrix Rings]]
+Standard examples for Integral Domains:
+- [[Integer Numbers]]
+- [[Integers modulo n]] for $n$ prime
+- [[p-adic Integers]]
 Standard examples for fields are:
 - [[Rational Numbers]]
 - [[Real Numbers]]

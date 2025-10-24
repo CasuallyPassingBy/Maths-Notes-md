@@ -59,6 +59,7 @@ Th:******_* If $|S| \le \aleph_ \alpha$ and for all $A \in S$, $|A| \le \aleph_ 
 	- (Hausdorff maximal principle): Every partially ordered set has a maximal chain. Equivalently, in any partially ordered set, every chain can be extended to a maximal chain
 - Alegbra:
 	- Every vector space has a [[Bases and Dimension|basis]]
+	- Every commutative unital ring has a [[Maximal Ideals|maximal ideal]]
 - Point-set Topology:
 	- (Tychonoff's theorem): The Cartesian Product of any family of compact topological spaces is compact
 

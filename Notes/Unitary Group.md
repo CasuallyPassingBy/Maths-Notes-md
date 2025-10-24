@@ -4,7 +4,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Group Theory]], [[Differential Geometry]]
-Links: [[General Linear Group]], [[Orthogonal Group]], [[Fields]], [[Lie Subgroups]], [[Orthogonal Projections and Spectral Theorem]], [[Special Linear Group]], [[Topological Connectedness]]
+Links: [[General Linear Group]], [[Orthogonal Group]], [[Rings and Fields|Fields]], [[Lie Subgroups]], [[Orthogonal Projections and Spectral Theorem]], [[Special Linear Group]], [[Topological Connectedness]]
 
 **Def:** The set of all $n\times n$ Hermitian matrices is denoted as $$\text{U}(n) := \{A \in \mathcal M_n(\Bbb C)\mid A^* A = 1\}$$is called the *unitary group*. We see that $U(n)$ is a subgroup of $\text{GL}(n, \Bbb C)$. 
 

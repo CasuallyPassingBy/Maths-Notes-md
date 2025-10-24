@@ -18,20 +18,13 @@ In other words, a list $e_1, \dots, e_m$ of vectors in $V$ is orthonormal if ${\
 
 Every orthonormal list of vectors us linearly independent.
 
-****Parseval’s Identity****
-
-If $e_1, \dots, e_m$ is an orthonormal list of vectors in $V$, then
-
+**Parseval’s Identity: ** If $e_1, \dots, e_m$ is an orthonormal list of vectors in $V$, then
 $$ \left\|\sum_{k = 1}^m a_k e_k \right\|^2 = \sum_{k = 1}^m |a_k|^2 $$
 
 let $u,v \in V$, then
-
 $$ \langle u, v\rangle = \sum_{k = 1}^m \langle u, e_i \rangle \overline{\langle v, e_i \rangle} $$
 
-**********************************Bessel’s Inequality**********************************
-
-If $e_1, \dots, e_m$ is an orthonormal list of vectors in $V$, and $v \in V$then
-
+**Bessel’s Inequality:** If $e_1, \dots, e_m$ is an orthonormal list of vectors in $V$, and $v \in V$then
 $$ \sum_{k = 1}^m |\langle v, e_k\rangle| \le \|v\|^2 $$
 
 ********Def:******** An **orthonormal basis** of $V$ is an orthonormal list of vectors in $V$ that is also a basis of $V$.
@@ -39,15 +32,9 @@ $$ \sum_{k = 1}^m |\langle v, e_k\rangle| \le \|v\|^2 $$
 Every orthonormal list of vectors in $V$ with length $\dim V$ is an orthonormal basis of $V$.
 
 Suppose $e_1, \dots, e_n$ is an orthonormal basis of $V$ and $v \in V$. Then
-
 $$ v = \sum_{k = 1}^n \langle v, e_k\rangle e_k $$
-
-and
-
-$$ \|v\|^2 = \sum_{k = 1}^n |\langle v, e_k\rangle|^2 $$
-
+and $$ \|v\|^2 = \sum_{k = 1}^n |\langle v, e_k\rangle|^2 $$
 Let $V$ an inner product space, then we can define the projection operator as
-
 $$ \operatorname{proj}_u (v) := \frac{\langle u, v\rangle}{\langle u, u\rangle} u $$
 
 ### Gram-Schmidt Process
@@ -68,26 +55,22 @@ Since the Gram-Schmidt process works through induction this also applies to a li
 
 There’s a variant that uses transfinite recursion applied to a infinite sequence of vectors.
 
-**********Cor:********** Every finite-dimensional inner product space has an orthonormal basis.
+**Cor:** Every finite-dimensional inner product space has an orthonormal basis.
 
-******Cor:****** Then every orthonormal list of vectors in $V$ can be extended to an orthonormal basis if $V$.
+**Cor:** Then every orthonormal list of vectors in $V$ can be extended to an orthonormal basis if $V$.
 
-**********Cor:********** Suppose $T \in \mathcal L(V)$. If $T$ has an upper triangleular matrix with respect to some basis of $V$, then $T$ has an upper triangleular matrix with respect to some orthonormal basis of $V$.
+**Cor:** Suppose $T \in \mathcal L(V)$. If $T$ has an upper triangular matrix with respect to some basis of $V$, then $T$ has an upper triangular matrix with respect to some orthonormal basis of $V$.
 
-### ********************************Schur’s Theorem Basic Form********************************
-Suppose $V$ is a finite dimensional complex vector space and $T \in \mathcal L(V)$. Then $T$ has an upper triangleular matrix with respect to some orthonormal basis of $V$.
+### Schur’s Theorem Basic Form
+Suppose $V$ is a finite dimensional complex vector space and $T \in \mathcal L(V)$. Then $T$ has an upper triangular matrix with respect to some orthonormal basis of $V$.
 
 ### Schur’s Theorem General Form
 
-Let $V$ be s finite dimensional inner product space over $\mathbb F$, and $T \in \mathcal L(V)$. If the characteristic polynomial of $T$, $\chi_T$, splits over $\mathbb F$. Then there exists an orthonormal basis $\gamma$ for $V$ such that the matrix $[T]_\gamma$ is upper triangleular.
+Let $V$ be s finite dimensional inner product space over $\mathbb F$, and $T \in \mathcal L(V)$. If the characteristic polynomial of $T$, $\chi_T$, splits over $\mathbb F$. Then there exists an orthonormal basis $\gamma$ for $V$ such that the matrix $[T]_\gamma$ is upper triangular.
 
 ### Riesz Representation Theorem
 Suppose $V$ is finite dimensional and $\phi \in V'$. Then there’s a unique vector $u \in V$ such that
-
 $$ \phi(v) = \langle v, u\rangle = \langle u| v\rangle $$
 
-for all $v \in V$. Also $u$ is of the form
-
-$$ u = \sum_{k = 1}^n \overline{\phi(e_k)}e_k $$
-
+for all $v \in V$. Also $u$ is of the form $$ u = \sum_{k = 1}^n \overline{\phi(e_k)}e_k $$
 where $e_1, \dots e_n$ is an orthonormal basis of $V$.

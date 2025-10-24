@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#SetTheory  ",
@@ -132,6 +132,13 @@
         "a": 1,
         "rgb": 16119713
       }
+    },
+    {
+      "query": "tag:#RingTheory  ",
+      "color": {
+        "a": 1,
+        "rgb": 14510088
+      }
     }
   ],
   "collapse-display": true,
@@ -144,6 +151,6 @@
   "repelStrength": 15.1041666666667,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.06564677733567388,
+  "scale": 0.09822140947508239,
   "close": true
 }

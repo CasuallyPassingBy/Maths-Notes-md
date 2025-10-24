@@ -3,7 +3,7 @@ tags:
   - LinearAlgebra
 ---
 Subjects: [[Linear Algebra]]
-Links: [[Fields]]
+Links: [[Rings and Fields|Fields]]
 
 A vector space $(V, +, \cdot)$ over the field $(\mathbb{F}, +,\cdot),$ is an algebraic structure with the following :
 
@@ -17,3 +17,5 @@ A vector space $(V, +, \cdot)$ over the field $(\mathbb{F}, +,\cdot),$ is an alg
 8. $\forall x \in V \forall a,b \in\mathbb{F} [a(bx) = (ab)x]$
 9. $\forall x \in V \exists a,b \in \mathbb{F}[(a+b) x= ax + bx]$
 10. $\forall x, y \in V \forall a \in \mathbb{F} [a(x+y) = ax + ay]$
+
+We see that a vector space is an [[Groups|abelian group ]]and a field [[Group Actions|acting]] on it. 
