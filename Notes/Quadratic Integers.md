@@ -38,3 +38,19 @@ a^2+ab+ \dfrac{1-D}{4} b^2 & D \equiv 1 \pmod 4,\end{cases}$$where $$\overline \
 **Th:** If $D <0$, then $(\Bbb Z[\omega])^\times = \{\pm 1\}$, when $D\neq -1, -3$. 
 
 **Th:** If $D> 0$, then $(\Bbb Z[\omega])^\times$ is infinite. 
+
+
+
+**Prop:** There are special values of the quadratic integers where it is an [[Euclidean Domains|Euclidean domain]]. 
+- $\Bbb Z[\sqrt{2}]$. 
+- The Gaussian Integers $\Bbb Z[i]$.
+- $\Bbb Z[\sqrt{-2}]$.
+- The Eisenstein Integers $\Bbb Z[(1+\sqrt{-3})/2]$.
+- $\Bbb Z[(1+\sqrt{-7})/2]$.
+- $\Bbb Z[(1+\sqrt{-11})/2]$.
+
+**Prop:** The following rings are [[Principal Ideal Domains|principal ideal domains]] but not Euclidean Domains:
+- $\Bbb Z[(1+\sqrt{-19})/2]$
+- $\Bbb Z[(1+\sqrt{-43})/2]$
+- $\Bbb Z[(1+\sqrt{-67})/2]$
+- $\Bbb Z[(1+\sqrt{-163})/2]$

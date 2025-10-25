@@ -47,6 +47,6 @@ Note that the cardinality of $\Bbb Z_p$ is the same as $\Bbb R$.
 
 **Prop:** $\sum_{k = 0}^\infty b_kp^k$ is a unit in $\Bbb Z_p$ iff $b_0\neq 0$. 
 
-**Prop:** Every ideal of  is of the form $p^n \Bbb Z_p$ for some integer $n \ge 0$. In particular,  is a [[Principal Ideal Domain]], and  is a [[Maximal Ideals|local ring]] because it has a unique maximal ideal $p\Bbb Z_p$. 
+**Prop:** Every ideal of  is of the form $p^n \Bbb Z_p$ for some integer $n \ge 0$. In particular,  is a [[Principal Ideal Domains]], and  is a [[Maximal Ideals|local ring]] because it has a unique maximal ideal $p\Bbb Z_p$. 
 
 We can consider the the field of fractions of $\Bbb Z_p$, this would be $\Bbb Q_p$ which are the [[p-adic Numbers]].

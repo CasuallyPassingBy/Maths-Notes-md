@@ -10,8 +10,8 @@ I am using Dummit's and Foote's 'Abstract Algebra', in particular the chapters t
 
 # Topics
 - [[Rings and Fields]]
-	- [[p-adic Integers]]
 	- [[Quadratic Integers]]
+		- [[Primes of the Gaussian and Eisenstein Integers]]
 	- [[Polynomial Ring of a Single Variable]]
 		- [[Formal Power Series Ring of a Single Variable]]
 		- [[Formal Laurent Series Ring of a Single Variable]]
@@ -31,7 +31,8 @@ I am using Dummit's and Foote's 'Abstract Algebra', in particular the chapters t
 	- [[Prime Ideals on Commutative Rings]]
 	- [[Chinese Remainder Theorem for Rings]]
 - [[Ring of Fractions]]
-- [[Euclidean Domains]]
-	- [[Principal Ideal Domain]]
+- [[Integral Domains]]
+	- [[Euclidean Domains]]
+	- [[Principal Ideal Domains]]
+		- [[Bézout Domains]]
 	- [[Unique Factorisation Domains]]
-	- [[Bézout Domains]]

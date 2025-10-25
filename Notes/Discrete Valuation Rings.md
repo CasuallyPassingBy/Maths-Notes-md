@@ -25,4 +25,4 @@ The set $R = \{x\in K^\times \mid \nu(x) \ge 0\} \cup \{0\}$ is called the *valu
 
 **Cor:** A discrete valuation ring is local. 
 
-**Cor:** A discrete valuation ring is a [[Principal Ideal Domain|principal ideal domain]]. 
+**Cor:** A discrete valuation ring is a [[Principal Ideal Domains|principal ideal domain]]. 
