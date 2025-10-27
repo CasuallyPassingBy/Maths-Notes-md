@@ -29,8 +29,8 @@
 		- [ ] Exterior Algebra and Grassmann Algebra (Orientation and Quasi-Hodge Isomorphisms)
 -  Ring Theory
 	- [ ] Dummit & Foote
-		- [ ] Introduction to Rings
-		- [ ] Euclidean Domains, Principal Ideal Domains, and Unique Factorization Domains
+		- [x] Introduction to Rings
+		- [x] Euclidean Domains, Principal Ideal Domains, and Unique Factorization Domains
 		- [ ] Polynomial Rings
 -  Group Theory
 	- [ ] Dummit & Foote

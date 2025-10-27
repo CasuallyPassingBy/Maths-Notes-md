@@ -25,3 +25,5 @@ $$b_0 = \frac1{a_0}, \qquad b_{n} =-\frac1{a_0} \sum_{k = 1}^{n} a_k b_{n-k}.$$
 **Prop:** If $F$ is a field, then the field of fractions of $F[[x]]$ is the ring $F((x))$ of formal Laurent series. 
 
 **Prop:** If $F$ is a field, then $F[[x]]$ is a [[Discrete Valuation Rings|discrete valuation ring]]. 
+
+**Cor:** If $F$ is a field, then $F[[x]]$ is an [[Euclidean Domains|Euclidean domain]]. 

@@ -63,3 +63,19 @@ where $r_n$ is the last nonzero remainder. Such an $r_n$ exists since $N(b) > N(
 The proposition above generalises the notion of a [[Linear Diophantine Equations|linear Diophantine equation]]. An observation, is that this equation has an algorithm to solve, unlike in more general contexts, like [[Bézout domains]]. 
 
 **Th:** Every Euclidean domain is a [[Unique Factorisation Domains|unique factorisation domain]]. 
+
+## $k$-stage Euclidean Domain
+
+**Def:** Let $R$ be an integral domain and $N:R \to \Bbb N$ be a norm on $R$. Suppose that for any $a, b\in R$ with $b\neq 0$, there exists elements $q_1, \dots, q_k \in R$ and $r_1, \dots, r_k\in R$ such that $$
+\begin{align*}
+a &= bq_1 + r_1 \\
+b &= r_1q_2 + r_2 \\
+r_1 &=  r_2 q_3 +  r_3 \\
+&\vdots \\
+r_{k-2} &= r_{k-1}q_{k} +r_k
+\end{align*}
+$$such that $r_k = 0$ or $N(r_k) < N(b)$. 
+
+**Prop:** Iterating the divisions in a $k$-stage Euclidean domain produces a grestest common divisor of $a$ and $b$ which is a linear combination of $a$ and $b$. This means that every $k$-stage euclidean domain is a [[Bézout Domains|Bézout domain]]. 
+
+**Prop:** If $k$-stage Euclidean in which every nonzero nonunit can be factored into a finite number of irreducibles, then it is a a [[Unique Factorisation Domains|unique factorisation domain]]. In particular, it is also a [[Principal Ideal Domains|principal ideal domain]].

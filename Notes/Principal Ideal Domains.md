@@ -46,8 +46,13 @@ Links: [[Euclidean Domains]], [[Maximal Ideals]], [[Prime Ideals on Commutative 
 
 **Cor:** Let $R$ be a principal ideal domain. There exists a multiplicative Dedekind-Hasse norm on $R$. 
 
+**Th:** Let $R$ be an integral domain. $R$ is principal ideal domain iff it has a Dedekind-Hasse norm. 
+
+**Th:** Let $R$ be an integral domain. $R$ is a principal ideal domain iff it is a [[Bézout Domains|Bézout domain]] and unique factorisation domain. 
+
 **Prop:** The following [[Quadratic Integers|quadratic integer]] rings are Principal Ideal Domains|principal ideal domains but not Euclidean Domains:
 - $\Bbb Z[(1+\sqrt{-19})/2]$
 - $\Bbb Z[(1+\sqrt{-43})/2]$
 - $\Bbb Z[(1+\sqrt{-67})/2]$
 - $\Bbb Z[(1+\sqrt{-163})/2]$
+

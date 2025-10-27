@@ -54,3 +54,5 @@ a^2+ab+ \dfrac{1-D}{4} b^2 & D \equiv 1 \pmod 4,\end{cases}$$where $$\overline \
 - $\Bbb Z[(1+\sqrt{-43})/2]$
 - $\Bbb Z[(1+\sqrt{-67})/2]$
 - $\Bbb Z[(1+\sqrt{-163})/2]$
+
+**Prop:** Let $\cal O$ be the ring of quadratic integers. If $\cal O$ is a principal ideal domain, then the absolute value of the field norm $N$ on $\cal O$ is a Dedekind-Hasse norm on $\cal O$. If the quadratic integer ring $\cal O$ possess any Dedekind-Hasse norm, then in fact the absolute value of the field norm on $\cal O$ already provides a Dedekind-Hasse norm on $\cal O$. 
