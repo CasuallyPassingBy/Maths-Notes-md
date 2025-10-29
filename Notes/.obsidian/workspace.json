@@ -36,6 +36,16 @@
               "icon": "lucide-file",
               "title": "Interesting Stuff I want continue Learning"
             }
+          },
+          {
+            "id": "68f397dd27f59635",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ]
       }
@@ -212,10 +222,11 @@
   },
   "active": "909230084fcf6e79",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Polynomials in Several Variables over a Field.md",
-    "Ring Theory.md",
     "Interesting Stuff I want continue Learning.md",
+    "Harmonic Functions.md",
+    "Polynomials in Several Variables over a Field.md",
+    "Untitled.md",
+    "Ring Theory.md",
     "Polynomial Ring of a Single Variable.md",
     "Legendre Symbols.md",
     "Formal Power Series Ring of a Single Variable.md",
@@ -237,7 +248,6 @@
     "Orthogonal Complements.md",
     "Orthogonal Bases.md",
     "Inverse Limits of Abelian Groups.md",
-    "Normal Hausdorff Spaces.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",

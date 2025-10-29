@@ -2,7 +2,7 @@
 tags:
   - SpecialFunctions
 ---
-**Def:** A function $u: A\subseteq \Bbb R^n \to \Bbb R$ where $A$ is an open subset of $\Bbb R^n$ is called ********_harmonic on $A$_ if $\Delta u  =0$ in $A$.
+**Def:** A function $u: A\subseteq \Bbb R^n \to \Bbb R$ where $A$ is an open subset of $\Bbb R^n$ is called *harmonic on $A$* if $\Delta u  =0$ in $A$.
 
 We can develop a lot of theory for [[2D Harmonic Functions]] using complex analysis
 
