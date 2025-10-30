@@ -8,6 +8,7 @@ tags:
 # Topics
 - [[Integer Numbers]]
 	- [[Rational Numbers]]
+- [[Integer Divisibility]]
 - [[Greatest Common Divisor]]
 	- [[Lowest Common Multiple]]
 	- [[Euclidean Algorithm]]
