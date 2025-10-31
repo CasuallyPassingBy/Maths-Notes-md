@@ -25,5 +25,4 @@ Cor: Suppose that $V$ finite dimensional. Then each operator of $V$ has at most 
 ********Def:******** Suppose $T\in \mathcal{L}(V)$ and $U$ is a subspace of $V$ invariant of $T$:
 - The *restriction operator* $T|_U \in \mathcal L(U)$ is defined by:    $$ T|_U(u) = Tu $$
     for $u \in U$
-- The *quotient operator* $T/U \in \mathcal L(V/U)$ is defined by:    $$ (T/U) (v+U) = Tv+U $$
-    for $v\in V$
+- The *quotient operator* $T/U \in \mathcal L(V/U)$ is defined by:    $$ (T/U) (v+U) = Tv+U $$    for $v\in V$

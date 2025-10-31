@@ -1,7 +1,6 @@
 ---
 tags:
   - MeasureTheory
-  - SetTheory
 ---
 Subjects: [[Set Theory]], [[Measure Theory]]
 Links: [[Rings and Algebras of Sets]], [[Regular and Singular Cardinals]], [[Limits of Sets]], [[Borel Sets]], , [[Ordinal Numbers#The Transfinite Induction Principle|Transfinite Induction]]
