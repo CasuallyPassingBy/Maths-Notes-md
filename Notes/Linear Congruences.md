@@ -48,8 +48,6 @@ This to me feels like solving a linear system of equations in a $\Bbb Z_n$ [[Mod
 ********************Th:******************** Given a linear congruence of the form
 $$ ax+by \equiv c \pmod n $$
 
-there exists solutions if $\gcd(a,b, n )\mid c$ and there will be $n$ different solutions up to modulo $n$.
-
-which might be equivalent to looking for solutions of the Diophantine equation
+there exists solutions if $\gcd(a,b, n )\mid c$ and there will be $n$ different solutions up to modulo $n$, which might be equivalent to looking for solutions of the Diophantine equation
 $$ ax+by+nz = c $$
 with $0\le x, y < n$

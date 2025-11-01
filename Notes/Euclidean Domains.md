@@ -3,7 +3,7 @@ tags:
   - RingTheory
 ---
 Subjects: [[Ring Theory]]
-Links: [[Integral Domains]], [[Euclidean Algorithm]]
+Links: [[Integral Domains]], [[Integer Divisibility]]
 
 All the rings in this note are commutative
 
@@ -11,7 +11,7 @@ All the rings in this note are commutative
 
 **Def:** The integral domain $R$ is said to be an *Euclidean Domain*, or posses *Divsion Algorithm,* if there is a norm on $R$ such that any two elements $a$ and $b$ of $R$ with $b \ne 0$ there exists elements $q$ and $r$ in $R$ with $$a = bq +r\quad \text{with $r = 0$ or $N(r) < N(b)$}. $$The element $q$ is called a *quotient* and the element $r$ is the *remainder* of the division. 
 
-The importance of the existence of a Division Algorithm on an integral domain $R$ is that allows a *[[Euclidean Algorithm]]* for two elements of $a$ and $b$ of $R$: by successive 'division' we can write $$\begin{align*} a&= q_0 b+r_0 \\ b &= q_1 r_0+ r_1 \\ r_0 &= q_2 r_1 + r_2 \\ &\vdots \\ r_{n-2} &= q_nr_{n-1} + r_n \\ r_{n-1} &= q_{n+1} r_n\end{align*}$$
+The importance of the existence of a Division Algorithm on an integral domain $R$ is that allows a *[[Integer Divisibility]]* for two elements of $a$ and $b$ of $R$: by successive 'division' we can write $$\begin{align*} a&= q_0 b+r_0 \\ b &= q_1 r_0+ r_1 \\ r_0 &= q_2 r_1 + r_2 \\ &\vdots \\ r_{n-2} &= q_nr_{n-1} + r_n \\ r_{n-1} &= q_{n+1} r_n\end{align*}$$
 where $r_n$ is the last nonzero remainder. Such an $r_n$ exists since $N(b) > N(r_0) > N(r_1) >\dots > N(r_n)$ is a decreasing sequence of nonnegative integers if the remainder are nonzero, and such sequence cannot continue indefinitely. Note also that there is no guarantee that these elements are *unique*. 
 
 **Examples:**

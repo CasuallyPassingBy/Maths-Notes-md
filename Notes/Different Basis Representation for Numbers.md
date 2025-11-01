@@ -3,7 +3,7 @@ tags:
   - NumberTheory
 ---
 Subjects: [[Elementary Number Theory]]
-Links: [[Euclidean Algorithm#Division Algorithm|Division Algorithm]], [[Greatest Common Divisor]]
+Links: [[Integer Divisibility#Division Algorithm|Division Algorithm]], [[Integer Divisibility]]
 
 **Alg:** Let $N$ be a positive integer and $b > 1$. We apply the division algorithm yields the integers $q_1$ and $a_0$ satisfying 
 $$ N= q_1 b+a_0 \quad 0\le a_0 <b $$
