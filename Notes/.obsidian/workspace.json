@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Primitive Roots.md",
+                "file": "Linear Diophantine Equations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Primitive Roots"
+              "title": "Linear Diophantine Equations"
             }
           },
           {
@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -256,12 +256,13 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "9d24bca822f5ef1d",
+  "active": "c9817735b47c8c99",
   "lastOpenFiles": [
-    "Euler Totient Function.md",
     "Primitive Roots.md",
-    "Polynomial Ring of a Single Variable.md",
+    "Linear Diophantine Equations.md",
     "Elementary Number Theory.md",
+    "Euler Totient Function.md",
+    "Polynomial Ring of a Single Variable.md",
     "Möbius Function and Inversion Formula.md",
     "primitie roots.md",
     "Fermat's Little Theorem.md",
@@ -280,7 +281,6 @@
     "Eigenvalues.md",
     "Rings and Algebras of Sets.md",
     "Linear Algebra.md",
-    "Linear Diophantine Equations.md",
     "Harmonic Functions.md",
     "Formal Power Series Ring of a Single Variable.md",
     "Discrete Valuation Rings.md",
