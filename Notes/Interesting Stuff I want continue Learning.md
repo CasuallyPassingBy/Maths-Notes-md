@@ -53,6 +53,7 @@
 		- [ ] Algebraic Integers
 	- [ ] Rotman 
 -  Number Theory 
+	- [ ] Niven
 	- [ ] Rosen
 -  Category Theory
 ## Analysis
@@ -108,6 +109,8 @@
 	- [ ] UNAM
 -  Stochastic Calculus
 	- [ ] Øskendal
+- Nonparamatric Statistics
+	- [ ] Gibbons
 ## Physics
 -  Classical Mechanics 
 	- [ ] Taylor
