@@ -43,8 +43,11 @@ The ring $R$ appears in $R[x]$ as the *constant polynomials*. Note that $R\not\s
 # Polynomials Rings Over Fields
 
 **Th:** Let $F$ be a field. The polynomial ring $F[x]$ is an [[Euclidean Domains|Euclidean domain]]. Specifically, if $a(x)$ and $b(x)$ are two polynomials in $F[x]$ with $b(x)$ nonzero, then *unique* $q(x)$ and $r(x)$ in $F[x]$ such that $$a(x) = q(x) b(x)+r(x) \quad r(x) = 0 \text{ or } \deg(r(x))<\deg(b(x)).$$
-**Cor:** If $F$ is a field, then $F[x]$ is a [[Principal Ideal Domains|principal ideal domain]] and a [[Unique Factorisation Domains|unique factorisation domain.]] 
+**Cor:** If $F$ is a field, then $F[x]$ is a [[Principal Ideal Domains|principal ideal domain]] and a [[Unique Factorisation Domains|unique factorisation domain.]]
+
 **Cor:** Let $f(x)$ be a polynomial in $F[x]$. $F[x]/(f(x))$ is a field iff $f(x)$ is irreducible.
+
+**Cor:** Let $F$ be a field and $f(x)\in F[x]$. For every $\alpha\in F$, we see that the residue when dividing $f(x)$  by $(x-\alpha)$ is $f(\alpha)$. 
 
 We note that the quotient and remainder in the Division algorithm applied to $a(x), b(x)\in F[x]$ are *independent of field extension* in the following sense. Suppose $F$ is a field contained in the field $E$ and $a(x) = Q(x) b(x) + R(Xx)$ from some $Q(x), R(x) \in E[x]$ that satisfy the conditions of the theorem above. We can also write $a(x) = q(x) b(x) + r(x)$ for some $q(x), r(x) \in F[x]$. By uniqueness, $q(x) = Q(x)$ and $r(x) = R(x)$. In particular, $b(x) \mid a(x)$ in the ring $E[x]$ iff $b(x) \mid a(x)$ in the ring $F[x]$. Also, the greatest common divisor of $a(x)$ and $b(x)$ is the same, once we make it unique by specifying it to be monic, whether these elements are viewed in $F[x]$ or in $E[x]$. 
 
@@ -58,6 +61,8 @@ We note that the quotient and remainder in the Division algorithm applied to $a(
 
 **Prop:** Let $g(x)$ be a nonconstant element of $F[x]$ and let$$g(x) = \prod_{k = 1}^m f_k(x)^{\alpha_k} $$be its factorisation into irreducibles, where $f_k(x)$ are distinct. Then we have the following isomorphisms of rings: $$F[x]/(g(x)) \cong \prod_{k = 1}^m F[x]/(f_k(x)^{\alpha_k}).$$
  This is actually a corollary of the [[Chinese remainder theorem for rings]]. 
+
+**Def:** Let $F$ be a field, If $f(x)\in F[X]$, we say that an element $\alpha\in F$ is a root or zero of *multiplicity* $m\ge 1$ of $f(x)$ if $(x-\alpha)^m \mid f(x)$ and $(x-\alpha)^{m+1}\not\mid f(x)$. 
 
 **Prop:** If the polynomial $f(x)$ has roots $\alpha_1,\dots, \alpha_k$ in $F$ (not necessarily distinct), then $f(x)$ has $(x-\alpha_1)\cdots (x-\alpha_k)$ as a factor. In particular, a polynomial of degree $n$ in one variable over a field $F$ has at most $n$ roots in $F$, even counted with multiplicity.
 
