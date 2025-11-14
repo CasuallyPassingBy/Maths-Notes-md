@@ -44,6 +44,8 @@ We see that $F \subseteq F(X)\subseteq K$, and $F(X)$ is the *smallest field* of
 **Prop:** Let $K/F$ a field extension and $\alpha \in K$. If $F(\alpha)/F$ the simple extension obtained by adjoining $\alpha$ to $F$. Then $$F(\alpha) = \left\{\left.\frac{f(\alpha)}{g(\alpha)}\; \right\rvert\; f(x), g(x)\in F[x], g(\alpha) \neq 0\right\} $$
 **Def:** Let $K/F$ be a field extension. An element $\alpha\in K$ is called an *algebraic extension* over $F$, if there exists a polynomial $p(x)\in F[x]\setminus\{0\}$, such that $p(\alpha) = 0$. Otherwise, we say that $\alpha$ is *transcendental over $F$*.  
 
+**Obs:** Let $K/F$ be a field extension and $\alpha\in K$ be transcendental over F, then $f(\alpha)\in K$ is also transcendental over $F$ for every $f(x)\in F[x]$. 
+
 **Lemma:** The monic polynomial with minimal degree $m(x)\in F[x]$ such that $\alpha\in K$ is a root is unique. Furthermore, $m(x)$ is irreducible in $F[x]$, and $m(x)$ divides any other polynomial $p(x)\in F[x]$ with $\alpha$ as one of its roots.
 
 **Def:** The *irreducible monic polynomial* $m(x)\in F[x]$ with minimal degree such that $\alpha\in K$ is a roof, is called the *minimal polynomial* of $\alpha$, and can be denoted as $\text{Irr}(\alpha, F)\in F[x]$. 
@@ -54,13 +56,27 @@ We see that $F \subseteq F(X)\subseteq K$, and $F(X)$ is the *smallest field* of
 **Cor:** If $\alpha\in K$ is algebraic over $F$, then $$[F(\alpha): F] = \text{deg}(\text{Irr}(\alpha, F)).$$
 **Cor:** If $\alpha$ is algebraic over $F$, then every element of $F(\alpha)$ is algebraic over $F$. 
 
+**Prop:** Let $F(\alpha)/F$ be a simple finite extension. Consider the function $\tilde\alpha: K(\alpha) \to K(\alpha)$ defined as $\tilde \alpha(x) = \alpha \cdot x$. Then $\tilde\alpha$ is a $K$-linear transformation, and $\phi(x) := \det(xI -\tilde \alpha)$ satisifes the equality $\text{Irr}(\alpha, F) = \phi(x)$. 
+
+This fact is related to [[Rational or Frobenius Normal Form]] of linear transformations, and $\phi(x)$ is not the characteristic polynomial but the minimal polynomial of the companion matrix. 
+
 **Def:** An field extension $K/F$ is called *algebraic* if all of the elements of $K$ are algebraic over $F$. 
 
 **Cor:** Every finite field extension $K/F$ is algebraic, 
 
 **Prop:** A field extension $K/F$ is finite iff it is algebraic and there is a finite number of elements $\alpha_1, \dots,\alpha_n \in K$ such that $K = F(\alpha_1,\dots, \alpha_n)$. 
 
+**Obs:** This gives the equivalence that a field extension is finite iff it is algebraic and [[Classification of Simple Field Extensions#^e1f018|finitely generated]].
+
+**Cor:** Let $L/K$ be a finite extension. If $[L:K]$ is a prime number, then $L/K$ is a simple extension. 
+
 **Th:** If $L/K$ and $K/F$ are algebraic extension, the $L/F$ is also an algebraic extension. 
+
+**Cor:** Let $L/K$ be a field extension. If $\alpha_1,\dots,\alpha_n\in L$ are algebraic over $K$, then the extension $K(\alpha_1,\dots, \alpha_n) /K$ is algebraic. 
+
+**Cor:** Let $L/F$ be a field extension, and $\Gamma\subseteq L$ be a set such that every $\alpha\in \Gamma$ is algebraic over $F$. Then $F(\Gamma)/F$ is an algebraic extension. 
+
+**Prop:** $L/K$ be an algebraic field extension. If $K$ is countable, then so is $L$. 
 
 **Lemma:** Let $K/F$ be a field extension. If $\alpha, \beta\in K\setminus \{0\}$ are algebraic over $F$, then $\alpha\pm\beta, \alpha \beta$ and $\alpha/\beta$ are algebraic over $F$. This means that the set $L\subseteq K$ of all the algebraic elements over $F$ is a field and $F\subseteq L$. 
 
@@ -68,3 +84,8 @@ We see that $F \subseteq F(X)\subseteq K$, and $F(X)$ is the *smallest field* of
 
 **Cor:** Let $F$ be a field and $f(x) \in F[x]$ a polynomial of degree $n \ge 1$. Them, there's a finite extension $K/F$ of degree at most $n!$ such that $f(x)$ has all of its roots in $K$. 
 
+**Def:** Let $L/K$ be a field extension. An element $\alpha\in L$ is called an *algebraic of degree $n$* over $K$, if $\alpha$ is the root of a polynomial $f(x)\in K[x]$ of degree $n$, but it is not a root of a polynomial in $K[x]$ with degree less than $n$.
+
+**Obs:** If $\alpha\in L$ is a algebraic element of degree $n$ over $K$, then $[K(\alpha), K] = n$. 
+
+**Prop:** If $\alpha, \beta\in L$ are algebraic elements over $K$ with degrees $m$ and $n$, respectively, and $(m. n) = 1$, then $[K(\alpha, \beta): K] = mn$. 
