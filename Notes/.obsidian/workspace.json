@@ -13,28 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Field Theory.md",
+                "file": "Automorphism Group of a Field Extension.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Field Theory"
-            }
-          },
-          {
-            "id": "1036e513a6688ae7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Field Extensions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Field Extensions"
+              "title": "Automorphism Group of a Field Extension"
             }
           },
           {
@@ -68,21 +53,22 @@
             }
           },
           {
-            "id": "60bdc130e0582ded",
+            "id": "2f0fecf85b25dd8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/2025-11-13.md",
+                "file": "Journal/2025-11-14.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-13"
+              "title": "2025-11-14"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -254,17 +240,21 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "b17f3fe8692c63ca",
+  "active": "2f0fecf85b25dd8b",
   "lastOpenFiles": [
-    "Algebraic Closure of a Field.md",
+    "Automorphism Group of a Field Extension.md",
     "Classification of Simple Field Extensions.md",
+    "Journal/2025-11-14.md",
+    "Journal/2025-11-13.md",
+    "Polynomial Ring of a Single Variable.md",
     "Field Extensions.md",
+    "Graded Ring.md",
+    "Ring Theory.md",
+    "Field Theory.md",
+    "Algebraic Closure of a Field.md",
     "Rational or Frobenius Normal Form.md",
     "Linear Algebra.md",
-    "Field Theory.md",
-    "Journal/2025-11-13.md",
     "Journal/2025-11-12.md",
-    "Polynomial Ring of a Single Variable.md",
     "Group Homomorphisms and Isomorphisms.md",
     "Fundamental Group of the Circle.md",
     "Euler Totient Function.md",
@@ -278,10 +268,6 @@
     "Möbius Function and Inversion Formula.md",
     "primitie roots.md",
     "Fermat's Little Theorem.md",
-    "Ring Theory.md",
-    "Quadratic Congruences.md",
-    "Linear Congruences.md",
-    "Legendre Symbols.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",

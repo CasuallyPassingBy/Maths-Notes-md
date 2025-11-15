@@ -1,5 +1,6 @@
 ---
 tags:
+  - RingTheory
 ---
 Subjects: [[Ring Theory]]
 Links: [[Module and Algebra (Structure)]], [[Rings and Fields]], [[Ring Homomorphisms]]

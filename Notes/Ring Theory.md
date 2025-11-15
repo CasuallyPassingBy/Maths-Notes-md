@@ -19,6 +19,7 @@ I am using Dummit's and Foote's 'Abstract Algebra', in particular the chapters t
 	- [[Matrix Rings]]
 	- [[Group Rings]]
 	- [[Discrete Valuation Rings]]
+	- [[Graded Ring]]
 - [[Ring Homomorphisms]]
 	- [[Product and Coproduct of Rings]]
 		- [[Direct Limits of Abelian Groups]]
