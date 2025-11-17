@@ -9,7 +9,7 @@ Links: [[Tangent Vectors in Rn]], [[Derivations]]
 
 We can identify vector fields on $U$ with column vectors of $\mathcal C^\infty$ functions on $U$: $$X = \sum a^i \frac{\partial}{\partial x^i} \longleftrightarrow \langle a^1, \dots, a^n\rangle$$
 Multiplication of vector fields by functions on $U$ is defined pointwise: $$(f X)_p = f(p) X_p, \qquad p \in U$$
-then we get that $fX = \sum (fa^i) \dfrac{\partial}{\partial x^i}$ is a $\mathcal C^\infty$ vector field. The set of all $\mathcal C^\infty$ vector fields on $U$, denoted by $\mathfrak X(U)$ or as $\text{Vect}(U)$, is not only a vector space over $\Bbb R$, but also a [[Module and Algebra (Structure)|module]] over the ring $\mathcal C^\infty(U)$. 
+then we get that $fX = \sum (fa^i) \dfrac{\partial}{\partial x^i}$ is a $\mathcal C^\infty$ vector field. The set of all $\mathcal C^\infty$ vector fields on $U$, denoted by $\mathfrak X(U)$ or as $\text{Vect}(U)$, is not only a vector space over $\Bbb R$, but also a [[Module and Algebra|module]] over the ring $\mathcal C^\infty(U)$. 
 
 ## Derivations
 

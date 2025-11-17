@@ -3,7 +3,7 @@ tags:
   - RealAnalysis
 ---
 Subjects: [[Real Analysis]]
-Links: [[Continuity on R]], [[Module and Algebra (Structure)]]
+Links: [[Continuity on R]], [[Module and Algebra]]
 
 Let $f$ be defined on $[a,b]$. If $P=\{x_i\}_{i=0}^n$ is a partition of $[a,b]$, and ${\Delta f_k = f(x_k)-f(x_{k-1})}$, for all $k \le n$. If there’s an $M >0$ such that:
 

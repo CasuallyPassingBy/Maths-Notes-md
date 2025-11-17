@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Derivations]], [[Module and Algebra (Structure)]]
+Links: [[Derivations]], [[Module and Algebra]]
 
 **Def:** Let $K$ be a field. A *Lie Algebra* over $K$ is a vector space $L$ over $K$ together with the product $[\;, \;]: V \times V \to K$, is called the *bracket*, satisfying the following properties: for all $a, b\in K$ and $X, Y, Z \in L$, 
 - $[aX + bY, Z] = a[X, Z] + b[Y, Z]$ 

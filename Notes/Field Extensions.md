@@ -50,6 +50,8 @@ We see that $F \subseteq F(X)\subseteq K$, and $F(X)$ is the *smallest field* of
 
 **Def:** The *irreducible monic polynomial* $m(x)\in F[x]$ with minimal degree such that $\alpha\in K$ is a roof, is called the *minimal polynomial* of $\alpha$, and can be denoted as $\text{Irr}(\alpha, F)\in F[x]$. 
 
+**Obs:** If $L/F$ is  field extension and $\alpha$ is algebraic over both $F$ and $L$, then $\text{Irr}(\alpha, L) \mid \text{Irr}(\alpha, F)$ in $L[x]$. 
+
 **Prop:** Let $\alpha\in K$ algebraic over $F$ and $m(x) := \text{Irr}(\alpha, F)\in F[x]$. Then $$F(\alpha) = \{p(\alpha) \mid p(x) \in F[x], \text{deg}(p(x)) < \text{deg}(m(x))\}\cong F[x]/(\text{Irr}(\alpha, F)(x))$$
 **Th:** Let $K/F$ a field extension, and $\alpha\in K$. Then, $\alpha$ is algebraic over $F$ iff the extension $F(\alpha)/F$ is finite. 
 

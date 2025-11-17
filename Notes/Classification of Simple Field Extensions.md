@@ -51,6 +51,8 @@ K\arrow[r, "\text{id}_F"] & L
 
 **Def:** A field extension $K/F$ is called *finitely generated* if $K = F(\alpha_1,\dots, \alpha_n)$ with $n<\infty$.  ^e1f018
 
+**Lemma:** Let $F(\alpha, \beta) = (F(\alpha))(\beta)$, for any field $F$ and $\alpha, \beta$ . 
+
 **Obs:** This gives the equivalence that a field extension is finite iff it is algebraic and finitely generated.
 
 **Def:** Let $K/F$ be an extension $\alpha_1, \dots, \alpha_n\in K$ transcendental over $F$. We say that $\alpha_1,\dots,\alpha_n$ are *algebraically independent over $F$* if there is no nonzero polynomial $p\in F[x_1,\dots, x_n]$ such that $$p(\alpha_1,\dots, \alpha_n) = 0.$$Otherwise, we say that are *algebraically dependent.*

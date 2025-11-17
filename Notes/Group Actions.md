@@ -39,6 +39,8 @@ The homomorphism from $\phi: G \to S_X$ above is called the *permutation represe
 
 **Prop:** Let $\alpha:G \times X \to X$ be an action, and $\phi:G \to S_X$ be its permutation representation, then $$\ker\alpha := \ker\phi = \bigcap_{x\in X} G_x $$
 **Cor:**  Let $\alpha:G \times X \to X$ be an action, $\phi:G \to S_X$ be its permutation representation, and $N = \ker \phi \trianglelefteq G$, then $G/N$ acts faithfully on $X$, there's $\tilde\phi: G/N \to S_X$ is injective, such that $\tilde\phi$ is the permutation representation of the action of $G/N$ on $X$. 
+
+**Def:** Let $X$ be a $G$-set, then we the subset of $X^G$ of $X$ is called the *fixed-point set* or the *set of $G$-fixed points*, of the $G$-action on $X$. We can also call them the *invariant elements,* and we can denote it as $X^ G$ or $\text{Fix}_G(X)$.  ^7f0380
 # Types of Actions
 
 The action is *transitive* if for any two points $x, y \in X$, there is a group element $g\in G$ such that $\alpha(g, x) = y$, or equivalently if the orbit of any point is all of $X$

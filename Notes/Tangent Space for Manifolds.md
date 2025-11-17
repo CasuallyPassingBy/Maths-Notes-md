@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Tangent Vectors in Rn]], [[Smooth or Differentiable Manifolds]], [[Module and Algebra (Structure)]], [[Derivations]], [[Smooth Functions on Smooth Manifolds]], [[Partial Derivatives on Manifolds]], [[Matrix Representation of Linear Transformations]], [[Differentiability of Vector valued functions of Rn]]
+Links: [[Tangent Vectors in Rn]], [[Smooth or Differentiable Manifolds]], [[Module and Algebra]], [[Derivations]], [[Smooth Functions on Smooth Manifolds]], [[Partial Derivatives on Manifolds]], [[Matrix Representation of Linear Transformations]], [[Differentiability of Vector valued functions of Rn]]
 
 # Tangent Space at a Point
 

@@ -2,12 +2,12 @@
 tags:
 ---
 Subjects: 
-Links: [[Lie Algebra]], [[Module and Algebra (Structure)]], [[Graded Ring]]
+Links: [[Lie Algebra]], [[Module and Algebra]], [[Graded Ring]], [[Rings and Fields]]
 
-If $A$ is an algebra over a field $K$, a *derivation* of $A$  is a $K$-linear map $D: A\to A$ such that $$D(ab) = (Da) b + a(Db$$
+If $A$ is an $R$-algebra over a commutative ring $R$, a *derivation* of $A$  is a $R$-linear map $D: A\to A$ such that $$D(ab) = (Da) b + a(Db)$$
 The set of all derivations of $A$ is closed under addition and scalar multiplication and thus forms a vector space, denoted by $\text{Der}(A)$. We don't have that $\text{Der}(A)$ is an algebra since the composition of derivations isn't necessarily a derivation. 
 
-Let $D_1$ and $D_2$ be two derivations, then $D_1 D_2 - D_2 D_1$ is a derivation, denoted as $[D_1, D_2]$, and it is called the *commutator*of $D_1$ and $D_2$.
+Let $D_1$ and $D_2$ be two derivations, then $D_1 D_2 - D_2 D_1$ is a derivation, denoted as $[D_1, D_2]$, and it is called the *commutator* of $D_1$ and $D_2$.
 
 **Prop:** For any algebra $A$, the set $\text{Der}(A)$ along with the commutator $[\;, \;]$ is a Lie algebra.
 
