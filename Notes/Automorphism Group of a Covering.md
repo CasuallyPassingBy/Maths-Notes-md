@@ -52,7 +52,7 @@ $$\text{Aut}_q(E) \cong \frac{N_{\pi_1(X, x)}(q_*[\pi_1(E, e)])}{q_*[\pi_1(E, e)
 
 **Classification Theorem:** Let $X$ be a topological space that has a [[The Monodromy Action of Covering Maps#^84e006|universal covering space]], and let $x_0\in X$ be any base point. there is a one-to-one correspondence between isomorphism classes of coverings of $X$ and conjugacy classes of subgroups of $\pi_1(X, x_0)$. The correspondence associates each covering $\widehat q: \widehat E\to X$ with the conjugacy class of its induced subgroup.
 
-This gives us a Galois correspondence between the covering spaces and subgroups of the fundamental group, given that the original space has a universal covering space. This is akin to having a normal and separable field extension.
+This gives us a [[Galois Field Extensions#^5c8efc|Galois correspondence]] between the covering spaces and subgroups of the fundamental group, given that the original space has a universal covering space. This is akin to having a normal and separable field extension.
 
 **Cor:** Suppose $q: E \to X$ is the universal covering space of $X$, and $x_0\in X$ is any base point. Given a subgroup $H \le \pi_1(X, x_0)$, let $\widehat H \le \text{Aut}_q(E)$ be the subgroup corresponding to $H$ under the isomorphism between $\text{Aut}_q(E)$ and $\pi_1(X,x_0)$. Then $q$ descents to a continuous map $\widehat q: E/\widehat H \to X$; which is a covering space whose induced subgroup is $H$, .i.e, $H = \widehat q_*[\pi_1(E/\widehat H, \widehat e_0)]$ for some $\widehat e_0\in \widehat q^{-1}\{x_0\}$. 
 

@@ -22,8 +22,7 @@ $$ \phi(p^k) = p^k\left(1-\frac{1}{p}\right) = p^k-p^{k-1} $$
 
 $$ \phi(n) = n \prod_{i = 1}^r \left(1-\frac{1}{p_i}\right) = n \prod_{p\mid n} \left(1-\frac{1}{p}\right) $$
 
-**********Th (Gauss):********** For each $n \ge1$ ********************
-
+**Th (Gauss):** For each $n \ge1$
 $$ \operatorname{Id}(n)= n = \sum_{d\mid n}\phi(d) = (\phi * 1) $$
 
 and

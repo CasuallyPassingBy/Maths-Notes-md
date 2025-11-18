@@ -16,4 +16,3 @@ For this note $F$ is a field with characteristic different from $2$.
 We can find $m, n$, if we solve the system of equations $$
 \begin{align*}a &= m+n \\ a^2-b &= (m-n)^2\end{align*}$$
 **Cor:** Let $a, b\in \Bbb Q$. If $a^2-b$ is a square in $\Bbb Q$, then $\Bbb Q(\sqrt{a+\sqrt b})$ is a biquadratic field.
-

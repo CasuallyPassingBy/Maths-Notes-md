@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b17f3fe8692c63ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Automorphism Group of a Field Extension.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Automorphism Group of a Field Extension"
-            }
-          },
-          {
             "id": "bd39a5acdab20225",
             "type": "leaf",
             "state": {
@@ -38,82 +23,37 @@
             }
           },
           {
-            "id": "4143382eb4396fd9",
+            "id": "cace6cc2b316b799",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Biquadratic Field Extensions.md",
+                "file": "Cyclotomic Polynomials and Extensions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Biquadratic Field Extensions"
+              "title": "Cyclotomic Polynomials and Extensions"
             }
           },
           {
-            "id": "36b879f8502a3ad7",
+            "id": "c535dfd583114377",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Composite Extensions.md",
+                "file": "Möbius Function and Inversion Formula.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Composite Extensions"
+              "title": "Möbius Function and Inversion Formula"
             }
           },
           {
-            "id": "ef3a2bc81c056b23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Field Extensions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Field Extensions"
-            }
-          },
-          {
-            "id": "ac87f827d376ca60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Classification of Simple Field Extensions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Classification of Simple Field Extensions"
-            }
-          },
-          {
-            "id": "2f0fecf85b25dd8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/2025-11-15.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-11-15"
-            }
-          },
-          {
-            "id": "6ecb35b6bc4a910f",
+            "id": "275295bdf1816d2b",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -261,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese Remainder Theorem for Rings.md",
+                "file": "Möbius Function and Inversion Formula.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -271,7 +211,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Chinese Remainder Theorem for Rings"
+              "title": "Backlinks for Möbius Function and Inversion Formula"
             }
           }
         ],
@@ -295,34 +235,34 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "4143382eb4396fd9",
+  "active": "c535dfd583114377",
   "lastOpenFiles": [
-    "Biquadratic Field Extensions.md",
+    "Cyclotomic Polynomials and Extensions.md",
+    "Möbius Function and Inversion Formula.md",
     "Field Theory.md",
-    "Composite Extensions.md",
-    "Journal/2025-11-16.md",
-    "Field Extensions.md",
-    "Classification of Simple Field Extensions.md",
+    "Separable Field Extensions.md",
+    "Euler Totient Function.md",
+    "Splitting Fields and Normal Field Extensions.md",
+    "Algebraic Closure of a Field.md",
+    "Galois Field Extensions.md",
     "Automorphism Group of a Field Extension.md",
+    "Algebraic Topology.md",
+    "Automorphism Group of a Covering.md",
+    "Covering Space Actions.md",
+    "Universal Covering of Compact Surfaces.md",
+    "Field Extensions.md",
+    "Composite Field Extensions.md",
+    "Tensor Product of Modules.md",
+    "Tensor Product of Linear Functions.md",
+    "Biquadratic Field Extensions.md",
+    "Journal/2025-11-16.md",
+    "Classification of Simple Field Extensions.md",
     "Journal/2025-11-15.md",
     "Group Actions.md",
     "Cauchy and Sylow Theorems.md",
     "Module and Algebra.md",
     "Journal/2025-11-14.md",
     "Polynomial Ring of a Single Variable.md",
-    "Characteristic of a Ring.md",
-    "Derivations.md",
-    "Untitled.md",
-    "Journal/2025-11-13.md",
-    "Graded Ring.md",
-    "Ring Theory.md",
-    "Algebraic Closure of a Field.md",
-    "Rational or Frobenius Normal Form.md",
-    "Linear Algebra.md",
-    "Journal/2025-11-12.md",
-    "Group Homomorphisms and Isomorphisms.md",
-    "Fundamental Group of the Circle.md",
-    "Euler Totient Function.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",

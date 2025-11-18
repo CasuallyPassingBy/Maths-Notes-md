@@ -140,6 +140,7 @@ The previous theorem clearly extends by induction to any finite direct sum of $R
 
 **Cor:** Let $R$ be commutative ring and let $M \cong R^s$ and $N \cong R^t$ be free $R$-modules with bases $m_1, \dots, m_s$ and $n_1, \dots, n_t$, respectively. Then $M \otimes_R N$ is a free $R$-module of rank $st$, with basis $m_i \otimes n_j$, $1 \le i \le s$ and $1 \le j \le t$, i.e., $$R^s \otimes_R R^t \cong R^{st}.$$ In general, the product of two free modules or arbitrary rank over a commutative ring is free.
 
+**Cor:** Let $U$ and $V$ be $F$-vector spaces. If $U$ and $V$ are finite dimensional, then $$\text{dim}(U \otimes_F V) = (\dim U) (\dim V). $$
 **Prop:** Suppose $R$ is a commutative ring and $M, N$ are left $R$-modules, considered with standard $R$-module structures. Then there is a unique $R$-module isomorphism $$M \otimes_R N \cong N \otimes_R M$$mapping $m \otimes n \mapsto n \otimes m$.
 
 **Prop:** Let $R$ be a commutative ring and $A$ and $B$ be $R$-algebras. Then the multiplication $(a \otimes b) (a' \otimes b') = aa' \otimes bb'$ is well defined and makes $A \otimes_R B$ into an $R$-algebra.

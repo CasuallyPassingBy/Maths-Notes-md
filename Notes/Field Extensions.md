@@ -55,12 +55,18 @@ We see that $F \subseteq F(X)\subseteq K$, and $F(X)$ is the *smallest field* of
 **Prop:** Let $\alpha\in K$ algebraic over $F$ and $m(x) := \text{Irr}(\alpha, F)\in F[x]$. Then $$F(\alpha) = \{p(\alpha) \mid p(x) \in F[x], \text{deg}(p(x)) < \text{deg}(m(x))\}\cong F[x]/(\text{Irr}(\alpha, F)(x))$$
 **Th:** Let $K/F$ a field extension, and $\alpha\in K$. Then, $\alpha$ is algebraic over $F$ iff the extension $F(\alpha)/F$ is finite. 
 
+**Cor:** Suppose $F = \Bbb Q(\alpha_1,\dots, \alpha_n)$ where $\alpha_i^2 \in \Bbb Q$ for $i \in\{1,\dots, n\}$, then $\sqrt[3]{2}\notin F$. 
+
+**Prop:** Let $F$ be a field and $F(\alpha) /F$ be a field extension. If $[F(\alpha): F]$ is odd, then $F(\alpha) = F(\alpha^2)$. 
+
 **Cor:** If $\alpha\in K$ is algebraic over $F$, then $$[F(\alpha): F] = \text{deg}(\text{Irr}(\alpha, F)).$$
 **Cor:** If $\alpha$ is algebraic over $F$, then every element of $F(\alpha)$ is algebraic over $F$. 
 
-**Prop:** Let $F(\alpha)/F$ be a simple finite extension. Consider the function $\tilde\alpha: K(\alpha) \to K(\alpha)$ defined as $\tilde \alpha(x) = \alpha \cdot x$. Then $\tilde\alpha$ is a $K$-linear transformation, and $\phi(x) := \det(xI -\tilde \alpha)$ satisifes the equality $\text{Irr}(\alpha, F) = \phi(x)$. 
+**Prop:** Let $F(\alpha)/F$ be a simple finite extension. Consider the function $\tilde\alpha: K(\alpha) \to K(\alpha)$ defined as $\tilde \alpha(x) = \alpha \cdot x$. Then $\tilde\alpha$ is a $K$-linear transformation, and $\phi(x) := \det(xI -\tilde \alpha)$ satisfies the equality $\text{Irr}(\alpha, F) = \phi(x)$. 
 
 This fact is related to [[Rational or Frobenius Normal Form]] of linear transformations, and $\phi(x)$ is not the characteristic polynomial but the minimal polynomial of the companion matrix. 
+
+**Th:** If $K/F$ be a finite field extension. If $[K: F] \le n$ then $K$ is isomorphic to a subfield of $\mathcal M_n(F)$. This means, that $\mathcal M_n(F)$ contains all the field extensions of degree less than $n$. 
 
 **Def:** An field extension $K/F$ is called *algebraic* if all of the elements of $K$ are algebraic over $F$. 
 
@@ -68,7 +74,7 @@ This fact is related to [[Rational or Frobenius Normal Form]] of linear transfor
 
 **Prop:** A field extension $K/F$ is finite iff it is algebraic and there is a finite number of elements $\alpha_1, \dots,\alpha_n \in K$ such that $K = F(\alpha_1,\dots, \alpha_n)$. 
 
-**Obs:** This gives the equivalence that a field extension is finite iff it is algebraic and [[Classification of Simple Field Extensions#^e1f018|finitely generated]].
+**Obs:** This gives the equivalence that a field extension is finite iff it is algebraic and [[Classification of Simple Field Extensions#^e1f018|finitely generated]] by algebraic elements. 
 
 **Cor:** Let $L/K$ be a finite extension. If $[L:K]$ is a prime number, then $L/K$ is a simple extension. 
 
@@ -77,6 +83,8 @@ This fact is related to [[Rational or Frobenius Normal Form]] of linear transfor
 **Cor:** Let $L/K$ be a field extension. If $\alpha_1,\dots,\alpha_n\in L$ are algebraic over $K$, then the extension $K(\alpha_1,\dots, \alpha_n) /K$ is algebraic. 
 
 **Cor:** Let $L/F$ be a field extension, and $\Gamma\subseteq L$ be a set such that every $\alpha\in \Gamma$ is algebraic over $F$. Then $F(\Gamma)/F$ is an algebraic extension. 
+
+**Prop:** Let $K/F$ be an algebraic extension. If $R$ is subring of $K$ that contains $F$, then $R$ is a field. This tells us that the intermediate rings of an algebraic extension are actually intermediate fields. 
 
 **Prop:** $L/K$ be an algebraic field extension. If $K$ is countable, then so is $L$. 
 
