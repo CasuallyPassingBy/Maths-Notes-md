@@ -21,3 +21,4 @@ Links: [[Field Extensions]]
 **Def:** The field $\Bbb Q(\zeta_n)$ is called the cyclotomic field of $n$th roots of unity. 
 
 **Cor:** The degree over $\Bbb Q$ of the cyclotomic field of $n$th roots of unity is $\varphi(n)$: $$[\Bbb Q(\zeta_n) : \Bbb Q] = \varphi(n). $$
+
