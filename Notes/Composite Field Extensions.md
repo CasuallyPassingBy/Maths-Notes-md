@@ -14,3 +14,7 @@ Links: [[Field Extensions]]
 **Prop:** The field $F(\alpha_1,\dots, \alpha_n)$ is the composite field of the fields $F(\alpha_1)$, $F(\alpha_2)$,..., $F(\alpha_n)$.
 
 **Prop:** Let $K_1$ and $K_2$ be two finite field extensions of a field $F$ contained in the field $K$. The $F$-algebra $K_1\otimes K_2$ is a field iff $[K_1K_2: F] = [K_1: F] [K_2:F]$, where $K_1\otimes K_2$ is represents the [[Tensor Product of Modules|tensor product]] of vector spaces. 
+
+**Obs:** Let $K_1$ and $K_2$ be finite extensions of $F$ contained in a field $K$, and assume both are splitting fields over $F$.
+- $K_1K_2$ is a splitting field over $F$.
+- $K_1\cap K_2$ is a splitting field over $F$.

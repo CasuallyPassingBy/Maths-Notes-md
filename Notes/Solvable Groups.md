@@ -2,7 +2,7 @@
 tags:
   - GroupTheory
 ---
-Subjects: [[Group Theory]]
+gSubjects: [[Group Theory]]
 Links: [[Commutator Subgroup]], [[Normal Subgroups and Quotient Groups]]
 
 **Def:** If $G$ is any group, we say that a *normal series* of $G$ is a chain of subgroups $$\{e\} 

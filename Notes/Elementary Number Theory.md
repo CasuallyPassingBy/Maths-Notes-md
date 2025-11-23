@@ -13,6 +13,7 @@ tags:
 		- [[Different Basis Representation for Numbers]]
 		- [[Linear Diophantine Equations]]
 	- [[Prime Numbers]]
+		- [[Fermat primes]]
 - [[Integers modulo n]]
 	- [[Linear Congruences]]
 	- [[Fermat's Little Theorem]]

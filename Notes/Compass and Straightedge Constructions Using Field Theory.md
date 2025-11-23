@@ -1,10 +1,9 @@
 ---
 tags:
   - FieldTheory
-  - ModernGeometry
 ---
-Subjects: [[Modern Geometry]], [[Field Theory]]
-Links: [[Field Extensions]]
+Subjects: [[Field Theory]]
+Links: [[Field Extensions]], [[Galois Field Extensions]]
 
 **Elemental Operations:** Suppose given a set of points $\cal P$ of $\Bbb R^2$. The only operations that are permitted are:
 - Straightedge: For any two points of $\cal P$ connect them with the unique line between them.
@@ -37,7 +36,7 @@ Given a set of points ${\cal P} \subseteq \Bbb R^2$ with at least two points, ch
 
 This explains why we can choose without loss of generality that our set of points to contains ${\cal P} \subseteq \Bbb R^2$  the points $(0,0)$ and $(1, 0)$. 
 
-If $Q = (x, y) \in \Bbb R^2$ is contructible from $\cal P$, then we know that $x$ and $y$ are also constructible real numbers from $\cal P$. In general, if $Q_n = (x_n, y_n)\in \Bbb R^2$ is a constructible point that can be constructed from $\cal P$, then there are a sequence of points $Q_1 =(x_1, y_1),\dots, Q_n$, such that $Q_1$ is contrstructible from $\cal P$ in a single step, and $Q_{i+1}$ is constructible from ${\cal P} \cup\{Q_j \mid 1 \le j \le i\}$. In on of these cases we can define $$K_{i+1} := K_i(x_{i+1}, y_{i+1}), $$and $K_0 := \Bbb Q$. From this definition, we see that $$\Bbb Q = K_0 \subseteq K_1 \subseteq K_1 \subseteq \cdots \subseteq K_n\subseteq \Bbb R.$$The natural question is what is the value of $[K_{i+1}: K_i]$. 
+If $Q = (x, y) \in \Bbb R^2$ is constructible from $\cal P$, then we know that $x$ and $y$ are also constructible real numbers from $\cal P$. In general, if $Q_n = (x_n, y_n)\in \Bbb R^2$ is a constructible point that can be constructed from $\cal P$, then there are a sequence of points $Q_1 =(x_1, y_1),\dots, Q_n$, such that $Q_1$ is constructible from $\cal P$ in a single step, and $Q_{i+1}$ is constructible from ${\cal P} \cup\{Q_j \mid 1 \le j \le i\}$. In on of these cases we can define $$K_{i+1} := K_i(x_{i+1}, y_{i+1}), $$and $K_0 := \Bbb Q$. From this definition, we see that $$\Bbb Q = K_0 \subseteq K_1 \subseteq K_1 \subseteq \cdots \subseteq K_n\subseteq \Bbb R.$$The natural question is what is the value of $[K_{i+1}: K_i]$. 
 
 **Lemma:** With the notation of the last paragraphs, $x_{i+1}$ and $y_{i+1}$ are roots in $K_{i+1}$ of quadratic polynomials of $K_i$.
 
@@ -48,13 +47,13 @@ If $Q = (x, y) \in \Bbb R^2$ is contructible from $\cal P$, then we know that $x
 	2. $\alpha_{i+1}^2\in \Bbb Q(\alpha_1,\dots, \alpha_i)$ for every $1 \le i <n$. 
 	3. $\alpha\in \Bbb Q(\alpha_1,\dots, \alpha_n)$. 
 
-**Cor:** If $\alpha$ is a contructible real number then $[Q(\alpha) : \Bbb Q]$ is a power of $2$. 
+**Cor:** If $\alpha$ is a constructible real number then $[\Bbb Q(\alpha) : \Bbb Q]$ is a power of $2$. 
 
 ## Classic Greek Problems
 
 **Th:** It is impossible, with compass and straightedge, to trisect the angle of $\pi/3$. 
 
-This is because if $\alpha = \cos(\pi/9)$, then $[\Bbb Q(\alpha),\Bbb Q] = 3$.
+This is because if $\alpha = \cos(\pi/9)$, then $[\Bbb Q(\alpha),\Bbb Q] = 3$. This automatically proves that $\cos(2\pi/9)$ and the regular nonagon are impossible using only compass and straightedge. This also implies, although a bit more subtly, that the angles $\pi/180$ and $\pi/90$ are not constructible. 
 
 **Th:** It is impossible, with compass and straightedge, to duplicate the volume of a cube.
 
@@ -68,10 +67,21 @@ This is because $\pi$ is transcendental over $\Bbb Q$.
 
 We are gonna identify the plane $\Bbb R^2$ with $\Bbb C$, with the natural isomorphism $(a,b) \mapsto a+bi$. 
 
+**Cor:** We see that the regular pentagon and hexagon are constructible with compass and straightedge. 
+
 **Th:** Let $\cal P\subseteq \Bbb C$ be a set of points that contain $0$ and $1$. Let $\alpha\in \Bbb C$. The following statements are equivalent.
 - $\alpha\in\Bbb C$ is constructible from $\cal P$.
 - There exists a sequence $\alpha_0,\dots,\alpha_n\in\Bbb C$ such that $\alpha_i^2\in \Bbb Q(\alpha_0,\dots, \alpha_{i-1})$ and $\alpha\in \Bbb Q(\alpha_0,\dots, \alpha_n)$.
 - $\alpha$ is algebraic over $\Bbb Q$, and the [[Normal Closure of a Field|normal closure]] $N$ of $\Bbb Q(\alpha)/\Bbb Q$ has degree $[N: \Bbb Q] = 2^r$ for some integer $r \ge 0$. 
 
-**Gauss's Theorem:** Let $n \ge 1$ be an integer. The regular $n$-gon is constructible with compass and straightedge iff $$ n = 2^m p_1\cdots p_r,$$where $m\ge 0$ and $p_i$ are [[Fermat primes]].
+**Gauss's Theorem:** Let $n \ge 1$ be an integer. The regular $n$-gon is constructible with compass and straightedge iff $$ n = 2^m p_1\cdots p_r,$$where $m\ge 0$ and $p_i$ are [[Fermat primes]]. 
 
+The proof relies that a primitive $n$th root of unity is constructible iff the regular $n$-gon is constructible. We use that we  the $n$th [[Cyclotomic Polynomials and Extensions|cyclotomic extension]] is a normal extension, and that we know has degree $\varphi(n)$. Finally, we just check that $\varphi(n)$ is a power of $2$, which only happens if the odd primes are Fermat primes, and with $1$ as their exponent. 
+
+**Prop:** An angle $\theta$ can be trisected with compass and straightedge iff the polynomial $$f(x) = 4x^3-3x+\cos(\theta)$$is reducible over $\Bbb Q(\cos(\theta))$. 
+
+**Cor:** The angle of $\pi/60$, or $3°$, is constructible using only compass and straightedge. Explicitely, $$\begin{align*}
+\cos \frac\pi{60} &= \frac1{8}(\sqrt3-1)\sqrt{5+\sqrt 5}+\frac1{16}(\sqrt6-\sqrt2)(\sqrt 5-1) \\
+\sin \frac\pi{60} &= \frac 1{16}(\sqrt6+\sqrt 2)(\sqrt5-1)-\frac18 (\sqrt3-1)\sqrt{5-\sqrt5},
+\end{align*}
+$$

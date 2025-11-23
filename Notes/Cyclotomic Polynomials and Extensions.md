@@ -9,7 +9,7 @@ Links: [[Field Extensions]]
 
 **Def:** A generator of the cyclic group $\mu_n$ is called a *primitive $n$th roots of unity*. Let $\zeta_n$ be the a primitive $n$th root of unity. 
 
-**Obs:** Suppose $m$ and $n$ are relatively prime positive integers. Then $\zeta_m \zeta_n$ is a primitive $mn$th root of unity. 
+**Obs:** Suppose $m$ and $n$ are relatively prime positive integers. Then $\zeta_m \zeta_n$ is a primitive $mn$th root of unity. If $\zeta_n$ is a primitive $n$th root of unity, and $d$ is divisor of $n$, then $\zeta_n^d$ is a primitive $(n/d)$th root of unity. 
 
 **Def:** We define the $n$th cyclotomic polynomial $\Phi_n(x)$ to be the polynomial whose rors are the primitive $n$th roots of unity $$\Phi_n(x) := \prod_{\zeta \text{ primitive }\in \mu_n}(x-\zeta) = \prod_{\substack{1 \le a <n \\ (a, n) = 1}} (x-\zeta_n^a),$$which has degree $\varphi(n)$, where $\varphi(n)$ is the [[Euler totient function]]. 
 
