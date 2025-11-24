@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Field Theory.md",
+                "file": "Cyclotomic Polynomials and Extensions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Field Theory"
+              "title": "Cyclotomic Polynomials and Extensions"
             }
           }
         ]
@@ -196,9 +196,9 @@
   },
   "active": "98984761d541048c",
   "lastOpenFiles": [
+    "Field Theory.md",
     "Separable Field Extensions.md",
     "Cyclotomic Polynomials and Extensions.md",
-    "Field Theory.md",
     "Composite Field Extensions.md",
     "Galois Field Extensions.md",
     "s.md",

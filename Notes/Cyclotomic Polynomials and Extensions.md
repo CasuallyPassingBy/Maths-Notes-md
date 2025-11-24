@@ -18,7 +18,10 @@ Links: [[Field Extensions]]
 
 **Prop:** The cyclotomic polynomial $\Phi_n$ is an irreducible monic polynomial in $\Bbb Z[x]$ of degree $\varphi(n)$. 
 
-**Def:** The field $\Bbb Q(\zeta_n)$ is called the cyclotomic field of $n$th roots of unity. 
+**Prop:** If $n$ is an odd integer, then $\Phi_{2n}(x) = \Phi_n(-x)$. 
+
+**Def:** The field $\Bbb Q(\zeta_n)$ is called the *cyclotomic field of $n$th roots of unity.* 
 
 **Cor:** The degree over $\Bbb Q$ of the cyclotomic field of $n$th roots of unity is $\varphi(n)$: $$[\Bbb Q(\zeta_n) : \Bbb Q] = \varphi(n). $$
+**Prop:** If $K/\Bbb Q$ is a finite field extension, then $K$ has only a finite number of roots of unity. 
 
