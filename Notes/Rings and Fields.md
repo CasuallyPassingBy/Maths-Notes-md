@@ -52,6 +52,8 @@ Then $(R, +, \times, 0, 1)$ is a unital ring.
 
 **Obs:** $Z(R)$ is a subring of $R$. If $R$ is unital then so is $Z(R)$. Finally, if $R$ is a skew-field, then $Z(R)$ is a field. 
 
+**Lemma:** Let $D$ be a skew-field. If $Z =Z(D)$, then $D$ is a $Z$-vector space.
+
 **Def:** Let $R$ be a ring and $a\in R$. We define the *centralizer of $a$* to be the set $C(a) := \{r\in R \mid ar = ra\}$. 
 
 **Obs:** Let us note that $C(a)$ is a subring of $R$ for any $a\in R$, and $$Z(R) =\bigcap_{a\in R} C(a).$$Additionally, if $R$ is a skew-field, then so is $C(a)$ for all $a\in R$.

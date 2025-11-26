@@ -31,12 +31,11 @@ Of the second kind: $K_n$ is the $n$th Kummer’s number and $K_n = p_n\# -1$
 
 **Th:** There are infinitely primes of the form $4k+3$, $3k+2$ and $6k+5$
 
-### Dirichlet’s Theorem
-If $a$ and $b$ are relatively prime positive integers, then the arithmetic progression
-
-$$ a, a+b, a+2b, \dots, a+kb, \dots $$
-
+### Dirichlet's Theorem on Primes in Arithmetic Progressions
+If $a$ and $b$ are relatively prime positive integers, then the arithmetic progression $$ a, a+b, a+2b, \dots, a+kb, \dots $$
 contains infinitely many primes. The proof uses [[Dirichlet L-functions#Dirichlet's Theorem for Arithmetic Progressions|Dirichlet L-functions]]
+
+**Th:** For any positive integer $m$ there are infinitely many primes $p$ with $p \equiv 1 \pmod m$, equivalently, the arithmetic progression $$m+1, 2m+1,\dots km+1,\dots$$contains infinitely many primes. The proof uses [[Cyclotomic Polynomials and Extensions|cyclotomic polynomials]]. 
 
 ********Th:******** If all the $n > 2$ terms of the arithmetic progression
 

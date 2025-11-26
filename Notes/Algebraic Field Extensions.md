@@ -25,11 +25,7 @@ Links: [[Field Extensions]]
 **Cor:** If $\alpha\in K$ is algebraic over $F$, then $$[F(\alpha): F] = \text{deg}(\text{Irr}(\alpha, F)).$$
 **Cor:** If $\alpha$ is algebraic over $F$, then every element of $F(\alpha)$ is algebraic over $F$. 
 
-**Prop:** Let $F(\alpha)/F$ be a simple finite extension. Consider the function $\tilde\alpha: K(\alpha) \to K(\alpha)$ defined as $\tilde \alpha(x) = \alpha \cdot x$. Then $\tilde\alpha$ is a $K$-linear transformation, and $\phi(x) := \det(xI -\tilde \alpha)$ satisfies the equality $\text{Irr}(\alpha, F) = \phi(x)$. 
 
-This fact is related to [[Rational or Frobenius Normal Form]] of linear transformations, and $\phi(x)$ is not the characteristic polynomial but the minimal polynomial of the companion matrix. 
-
-**Th:** If $K/F$ be a finite field extension. If $[K: F] \le n$ then $K$ is isomorphic to a subfield of $\mathcal M_n(F)$. This means, that $\mathcal M_n(F)$ contains all the field extensions of degree less than $n$. 
 
 **Cor:** Every finite field extension $K/F$ is algebraic, 
 

@@ -43,6 +43,12 @@ Given $H\le \text{Aut}(L/F)$ let $$L^H := \{a\in L \mid a\in \forall \sigma\in H
 - If $H \le \text{Aut}(L/F)$, then $H \le S(F(H))$. 
 - If $M$ is an intermediate field of $L/F$, then $M \subseteq F(S(M))$. 
 
+**Def:** A *character* $\chi$ of a group $G$ with values in the field $L$ is a homomorphism from $G$ to the multiplicative group of $L$: $\chi: G \to L^\times$, i.e., $\chi(g_1g_2) = \chi(g_1) \chi(g_2)$ for all $g_1, g_2\in G$. 
+
+**Def:** The characters $\chi_1,\dots, \chi_n$ of $G$ are said to be *linearly independent* over $L$ if they are linearly independent as function on $G$,i.e., there is no nontrivial relation $$a_1 \chi_1 + \dots + a_n \chi_n = 0$$with $a_1,\dots, a_n \in L$ not all zero. 
+
+**Linear Independence of Characters:** If $\chi_1,\dots, \chi_n$ are distinct characters of $G$ with values in $L$ then they are linearly independent over $L$ .
+
 **Dedekind theorem:** Let $F$ be a field. Then, any finite set of distinct automorphisms $\sigma_1,\dots,\sigma_n: F \to F$ are linearly independent. Meaning, if $a_1\sigma_1(x) + a_n\sigma_n(x) = 0$ for all $x\in F$, then $a_i = 0$ for all $i\in\{1,\dots, n\}$. 
 
 **Cor:** If $L/F$ is a finite field extension, then $|\text{Aut}(L/F)|\le [L:F]$. 
