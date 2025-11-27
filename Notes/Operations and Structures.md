@@ -5,7 +5,7 @@ tags:
 Subjects: [[Set Theory]]
 Links: [[Natural Numbers]], [[Ordinal Numbers#The Transfinite Recursion Theorem, Parametric Version|Stronger recursion Theorem]], [[Alephs]]
 
-**Def:** A _binary operation_ on $S$ is a function from $S^2$ into $S$. Nonletter symbols such as $+, \cdot, _, \triangle$, etc. are often used to denote operations. The output of the function is dented as $x_y$ instead of $*(x, y)$.
+**Def:** A _binary operation_ on $S$ is a function from $S^2$ into $S$. Nonletter symbols such as $+, \cdot, _, \triangle$, etc. are often used to denote operations. The output of the function is dented as $x*y$ instead of $*(x, y)$.
 
 **Def:** A **unary operation** on $S$ is a function mapping a subset of $S$ into $S$. A *ternary operation* on $S$ is a function on a subset $S^3$ into $S$.
 
@@ -61,6 +61,8 @@ where $R_i$ is an $r_i$-ary relation on $A$ for each $i \in m$ and $F_j$ is an $
 - $h(F_j(a_0, \dots, a_{f_j-1})) = F_j(h(a_0), \dots, h(a_{f_j-1}))$ for all $a_0, \dots, a_{f_j-1}\in A$ and ${j \in n}$, provided that either side is defined.
 
 An isomorphism between $\frak U$ and $\frak U$ is called an _automorphism._ The trivial automorphism is the identity.
+
+Given a structure $\frak U$, we can conside
 
 **Def:** Consider a fixed structure $\mathfrak{U} = (A, \langle R_0, \dots, R_{m-1}\rangle, \langle F_0, \dots, F_{n-1}\rangle)$. A set $B \subseteq A$ is called **closed** if the result of applying any operation to elements of $B$ is again in $B$. Let $C\subseteq A$; the ********closure******** of $C$, to be denoted $\overline C$, is the least closed set containing all elements of $C$:
 

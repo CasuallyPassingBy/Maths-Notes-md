@@ -7,6 +7,8 @@ Links: [[Field Extensions]], [[Characteristic of a Ring]]
 
 For this note $F$ is a field with characteristic different from $2$. 
 
+**Obs:** Let $F$ be a field. If $D$ is not a square in $F$, then $F(\sqrt D)/F$ is a field extension. Note that this is a Galois extension, with $\text{Gal}(F(\sqrt D)/ F) \cong C_2$, the cyclic group of order $2$. 
+
 **Lemma:** Let $\alpha$ and $\beta$ be elements of $F$, neither of which is a square in $F$. Then $F(\sqrt\alpha, \sqrt\beta)$ is of degree $4$ if $\alpha\beta$ is not a square in $F$ and is of degree $2$ otherwise.
 
 **Def:**  Let $\alpha$ and $\beta$ be elements of $F$, neither of which is a square in $F$. When $F(\sqrt\alpha, \sqrt\beta)$ is of degree $4$ over $F$ the field extensions is called a *biquadratic extension* of $F$. 

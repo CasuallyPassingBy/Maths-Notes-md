@@ -54,13 +54,13 @@
 	- [ ] Rotman 
 - Field Theory
 	- [ ] Dummit & Foote
-		- [ ] Field Theory
+		- [x] Field Theory
 		- [ ] Galois Theory
 	- [ ] Zaldivar
 		- [x] Rings
 		- [x] Fields
 		- [ ] Elements of Galois Theory
-		- [ ] Straightedge and Compass Constructions
+		- [x] Straightedge and Compass Constructions
 		- [ ] Radical Solubilty
 	- [ ] Origami Constructible Numbers
 	- [ ] Marked Ruler and Compass Constructible Numbers

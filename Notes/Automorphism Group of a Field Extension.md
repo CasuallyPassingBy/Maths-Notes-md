@@ -59,3 +59,5 @@ Given $H\le \text{Aut}(L/F)$ let $$L^H := \{a\in L \mid a\in \forall \sigma\in H
 **Cor:** Let $L$ be a field. The function $F$, that assigns each finite subgroup $G$ of $\text{Aut}(L)$ to $L^G,$ is injective.
 
 The results above show that the importance for a finite extension $L/F$ is to have that $F = L^G$ is the fixed field of the group $\text{Aut}(L/F)$. 
+
+****

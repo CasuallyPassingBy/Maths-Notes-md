@@ -7,7 +7,7 @@ Links: [[Field Extensions]], [[Automorphism Group of a Field Extension]], [[Spli
 
 **Def:** If $L/F$ is a separable and normal extension, we call it a *Galois extension.* Additionally, the automorphism group $\text{Aut}(L/F)$ is known as the *Galois group of the extension* and it is denoted $\text{Gal}(L/F)$. 
 
-**Def:** Let $L/F$ be a Galois extension. If $\alpha\in K$ the elements $\sigma(\alpha)$ for $\sigma\in \text{Gal}(L/F)$ are called *Galois conjuages* of $\alpha$ over $F$. If $E$ is subfield of $L$ containing $F$, the field $\sigma[E]$ is called the *conjugate field* of $E$ over $F$. 
+**Def:** Let $L/F$ be a Galois extension. If $\alpha\in K$ the elements $\sigma(\alpha)$ for $\sigma\in \text{Gal}(L/F)$ are called *Galois conjugates* of $\alpha$ over $F$. If $E$ is subfield of $L$ containing $F$, the field $\sigma[E]$ is called the *conjugate field* of $E$ over $F$. 
 
 **Th:** Let $L/F$ be a finite field extensions with automorphism group $G := \text{Aut}(L/F)$. The following statements are equivalent.
 1. $L/F$ is a Galois extension. 
@@ -77,3 +77,5 @@ The proof is as follows:
 The proof of the last point of the fundamental theorem of Galois theory actually relies on the [[Group Homomorphisms and Isomorphisms#^ff5e58|first isomorphism theorem for groups]], 
 
 This theorem, actually gives us the *Galois correspondence* between subgroups of $\text{Gal}(L/F)$ and intermediate fields of the extension $L/F$. ^5c8efc
+
+**Prop:** Let $f(x) \in F[x]$ be a an irreducible polynomial of degree $n$ over the field $F$, $L$ be the splitting field of $f(x)$ over $F$ and $\alpha$ be a root of $f(x)$ in $L$. If $K/F$ is a finite Galois extension contained in $L/F$, then the polynomial $f(x)$ splits into a product of $m$ irreducible polynomials each of degree $d$ over $K$, where $m = [F(\alpha) \cap K : F]$, and $d = [K(\alpha): K]$. 
