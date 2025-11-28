@@ -41,11 +41,8 @@ $$ \left\{a \in \left.\prod_{i \in n}A_i \;\right|\; \text{for some }a_0, a_1, \
 
 A special case is the $0$-ary operation, since it is of the form $\{(\langle\rangle, a)\}$ where $a\in A$. We call them _********constants,********_ and we don’t distinguish them with elements of $A$.
 
-There are problems if we want to define $n$-tuples with recursion as:
-
-$$ (a_0) = a_0 $$$$\forall n \in \Bbb N^+[(a_i)_{i\in n}=(a_0, a_1, \dots, a_n) = ((a_0, a_1, \dots, a_{n-1}), a_n)=((a_i)_{i\in n-1}, a_n)]  
+There are problems if we want to define $n$-tuples with recursion as:$$ (a_0) = a_0 $$$$\forall n \in \Bbb N^+[(a_i)_{i\in n}=(a_0, a_1, \dots, a_n) = ((a_0, a_1, \dots, a_{n-1}), a_n)=((a_i)_{i\in n-1}, a_n)]  
 $$
-
 since we need a [[Ordinal Numbers#The Transfinite Recursion Theorem, Parametric Version|stronger recursion Theorem]]
 ## Structure types
 
@@ -62,7 +59,7 @@ where $R_i$ is an $r_i$-ary relation on $A$ for each $i \in m$ and $F_j$ is an $
 
 An isomorphism between $\frak U$ and $\frak U$ is called an _automorphism._ The trivial automorphism is the identity.
 
-Given a structure $\frak U$, we can conside
+Given a structure $\frak U$, we can consider the [[automorphism group]]. 
 
 **Def:** Consider a fixed structure $\mathfrak{U} = (A, \langle R_0, \dots, R_{m-1}\rangle, \langle F_0, \dots, F_{n-1}\rangle)$. A set $B \subseteq A$ is called **closed** if the result of applying any operation to elements of $B$ is again in $B$. Let $C\subseteq A$; the ********closure******** of $C$, to be denoted $\overline C$, is the least closed set containing all elements of $C$:
 

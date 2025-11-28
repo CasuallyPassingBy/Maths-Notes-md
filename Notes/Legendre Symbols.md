@@ -21,7 +21,9 @@ $$ \left(\frac{a}{p}\right) = \begin{cases} 1 & \text{if $a$ is a quadratic resi
 $$ (-1/p) = \begin{cases} 1 & \text{if }p \equiv 1 \pmod 4 \\ -1 & \text{if }p \equiv 3 \pmod 4 \\ \end{cases} $$
 This results is linked with [[Wilson's Theorem]]
 
-********Th:******** There are infinitely many primes of the form $4k+1$
+**Th:** There are infinitely many primes of the form $4k+1$
+
+**Obs:** Either $a$, $b$ or $ab$ is a square modulo every prime.
 
 ********Th:******** If $p$ is an odd prime then $$ \sum_{a = 1}^{p-1}(a/p) =0 $$
 Hence, there are precisely $(p-1)/2$ quadratic residues and $(p-1)/2$ quadratic nonresidues of $p$
