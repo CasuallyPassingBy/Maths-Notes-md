@@ -32,6 +32,12 @@
 		- [x] Introduction to Rings
 		- [x] Euclidean Domains, Principal Ideal Domains, and Unique Factorization Domains
 		- [ ] Polynomial Rings
+			- [x] Definitions and Basic Properties
+			- [x] Polynomials over Fields I
+			- [x] Polynomial Rings that are UFDs
+			- [x] Irreducibility Criteria
+			- [x] Polynomial Rings over Fields II
+			- [ ] Polynomials in Several Variables over a Field and Gröbner Bases
 -  Group Theory
 	- [ ] Dummit & Foote
 	- [ ] Zaldivar (65%)
@@ -56,6 +62,15 @@
 	- [ ] Dummit & Foote
 		- [x] Field Theory
 		- [ ] Galois Theory
+			- [x] Basic Definitions
+			- [x] Fundamental Theorem of Galois Theory
+			- [x] Finite Fields
+			- [ ] Composite Extensions and Simple Extensions
+			- [ ] Cyclotomic Extensions and Abelian Extensions over $\Bbb Q$
+			- [ ] Galois Group of Polynomials
+			- [ ] Solvable and Radical Extensions: Insolvability of the Quintic
+			- [ ] Computations of Galois Groups over $\Bbb Q$
+			- [ ] Transcendental Extensions, Inseperable Extenstions, Infinite Galois Groups
 	- [ ] Zaldivar
 		- [x] Rings
 		- [x] Fields
@@ -66,6 +81,17 @@
 	- [ ] Marked Ruler and Compass Constructible Numbers
 -  Number Theory 
 	- [ ] Niven
+		- [x] Divisibilty
+		- [x] Congruences
+		- [x] Quadratic Reciprocity
+		- [x] Some Number theoretic functions
+		- [ ] Some Diophantine Equations
+		- [ ] Farey Fractions
+		- [ ] Continued Fractions
+		- [ ] Observations about Primes distrubution
+		- [ ] Algebraic numbers
+		- [ ] Partition function
+		- [ ] Density of integers sequences
 	- [ ] Rosen
 -  Category Theory
 ## Analysis
@@ -126,6 +152,22 @@
 ## Physics
 -  Classical Mechanics 
 	- [ ] Taylor
+		- [x] Newton's Laws of Motion
+		- [x] Projectiles and Charges Particles
+		- [x] Momentum and Angular Momentum
+		- [x] Energy
+		- [x] Oscillations
+		- [ ] Calculus of Variations
+		- [ ] Lagrange's Equations
+		- [ ] Two-Body Central Force-Problems
+		- [ ] Mechanics in Noninteral Frames
+		- [ ] Rotational Motion of Rigid Bodies
+		- [ ] Coupled Oscillators and Normal Modes
+		- [ ] Nonlinear Mechanics and Chaos
+		- [ ] Hamiltonian Mechanics
+		- [ ] Collision theory
+		- [ ] Special Relativity
+		- [ ] Continuum Mechanics
 - Electromagnetism
 	- [ ] DJ Griffiths
 -  Quantum Mechanics

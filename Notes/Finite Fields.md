@@ -19,6 +19,8 @@ Let now $\Bbb F$ be a any finite field of characteristic $p$. If $\Bbb F$ is of 
 
 **Def:** Let $F$ be a field of characteristic $p$. The map $\phi: F \to F$ such that $\phi(a) = a^p$ is a monomorphism called the *Frobenious endomorphism* of $F$. 
 
+**Obs:** If $F$ is a finite field, then $F$ is perfect, meaning, every finite extension is separable
+
 **Prop:** If $f (x) \in \Bbb F_p$, then $f(x^p) = f(x)^p$. 
 
 **Cor:** $${pn \choose pi} \equiv {n \choose i} \pmod p.$$
@@ -57,16 +59,3 @@ We have seen that $\Bbb F_{p^n}/ \Bbb F_{p^m}$ is a field extension iff $m \mid 
 
 **Prop:** The splitting field of the polynomial $x^p-x-a$ over $\Bbb F_p$ where $a \neq 0$, $a\in \Bbb F_p$, 
 
-### Berlekamp's Factorisation Algorithm
-
-We outline the Berlekamp factorisation algorithm for factoring polynomial in $\Bbb F_p[x]$. The efficiency of this algorithm is bases on the efficiency of computing greatest common divisors in $\Bbb F_p[x]$ by the Euclidean Algorithm and on the efficiency of row-reduction matrix algorithms for solving systems of linear equations.
-
-Let $f(x) \in \Bbb F_p[x]$ be a monic polynomial of degree $n$ and let $f(x) = p_1(x) \cdots p_k(x)$ where $p_1(x), p_2(x), \dots, p_k(x)$ are powers of distinct monic polynomials in $\Bbb F_p[x]$. We know that it suffices to determine the factors $p_1(x), \dots, p_k(x)$, since the original irreducibles can be  determined from their powers using the $p$th powers and by computing greatest common divisors with derivatives. 
-
-**Lemma:** Let $g(x)\in \Bbb F_p[x]$ be any polynomial of degree $n$. Denote $R(h(x))$ to be the remainder of $h(x)$ after division by $f(x)$. The following statements are equivalent.
-- $R(g(x^p)) = g(x)$
-- $f(x)$ divides $\prod_{m = 0}^{p-1} (g(x)-m)$
-- $p_i(x)$ divides $\prod_{m = 0}^{p-1} (g(x)-m)$, for $i \in \{1,\dots, k\}$.
-- For each $i\in \{1,\dots, k\}$ there is an $s_i\in\Bbb F_i$ such that $p_i(x)$ divides $g(x) - s_i$, or $g(x) \equiv s_i \pmod{p_i(x)}$. 
-
-**Lemma:** The polynomials $g(x)$ of degree $<n$ satisfying the equivalent conditions of the previous lemma form a $\Bbb F_p$-vector space

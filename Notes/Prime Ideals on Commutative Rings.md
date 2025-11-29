@@ -37,7 +37,7 @@ We are generalising the notion of [[Prime Numbers|prime]] in the integers. The *
 - Every element of $R$ is either nilpotent or an unit. 
 - $R/(\text{nil }R)$ is a field. 
 
-**Def:** A proper ideal $Q$ of a commutative ring $R$ is called *primary* if whenever $ab\in Q$ and $a\notin Q$ then there's $n \in \Bbb N$ such that $b^n \in Q$. 
+**Def:** A proper ideal $Q$ of a commutative ring $R$ is called *primary* if whenever $ab\in Q$ and $a\notin Q$ then there's $n \in \Bbb N$ such that $b^n \in Q$.  ^096736
 
 **Obs:** Every prime ideal of $R$ is a primary ideal. The primary ideals of $\Bbb Z$ are $0$ and $(p^n)$, where $p$ is prime and $n$ is a positive integer.
 

@@ -79,3 +79,19 @@ The proof of the last point of the fundamental theorem of Galois theory actually
 This theorem, actually gives us the *Galois correspondence* between subgroups of $\text{Gal}(L/F)$ and intermediate fields of the extension $L/F$. ^5c8efc
 
 **Prop:** Let $f(x) \in F[x]$ be a an irreducible polynomial of degree $n$ over the field $F$, $L$ be the splitting field of $f(x)$ over $F$ and $\alpha$ be a root of $f(x)$ in $L$. If $K/F$ is a finite Galois extension contained in $L/F$, then the polynomial $f(x)$ splits into a product of $m$ irreducible polynomials each of degree $d$ over $K$, where $m = [F(\alpha) \cap K : F]$, and $d = [K(\alpha): K]$. 
+
+**Prop:** Let $f(x)\in F[x]$ be an irreducible polynomials of degree $b$ over the field $F$, let $L$ be the splitting field of $f(x)$ over $F$ and let $\alpha$ be a root of $f(x)$ in $L$. If $K$ is any Galois extension of $F$, then the polynomial $f(x)$ splits into a product of $m$ irreducible polynomials each of degree $d$ over $K$, where $d = [K(\alpha): K] = [(L \cap K)(\alpha): L \cap K]$ and $m = n/d = [F(\alpha)\cap K : F]$. 
+
+**Def:** Let $E/F$ be any finite separable extension. Fix an algebraic closure $\overline F$ fo $F$. The *Galois closure* of $E/F$ is the smallest subfield $K\subseteq \overline F$ such that 
+- $E\subseteq K$
+- $K/F$ is a Galois extension.
+- If $L/F$ is any Galois extension $\overline F$ with $E\subseteq L$, then $K \subseteq L$. 
+
+# Types of Galois Extensions
+- Cyclic extension
+- Abelian extension
+- $p$-extension
+
+**Def:** Let $p$ be a prime and let $F$ be a field. Let $K/F$ be a Galois extension whose Galois group is a $p$-group, such an extension is called a *$p$-extension*
+
+**Prop:** Let $L$ be a $p$-extension of $K$. The Galois closure of $L$ over $F$ is a $p$-extension of $F$. 

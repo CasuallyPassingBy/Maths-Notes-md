@@ -60,3 +60,9 @@ K\arrow[r, "\text{id}_F"] & L
 **Steinitz Theorem:** Let $L/F$ is a finitely generated field extension. We know that there's an intermediate field $F \subseteq K \subseteq L$ such that $K = F(\alpha_1,\dots, \alpha_r)$ where each $\alpha_j$ is transcendental element and $\alpha_1,\dots, \alpha_r$ are algebraically independent over $F$, and $L/K$ is a finite extension. If there is another intermediate field $K' = F(\beta_1,\dots,\beta_s)$ such that the elements $\beta_i$ are transcendental and algebraically independent over $F$ and $L/K'$ is a finite extension, then $r =s$. 
 
 **Def:** Let $L/F$ be a finitely generated field extension. Let $K = F(\alpha_1,\dots,\alpha_r)$ such that $L/K$ is a finite extension and $\alpha_1,\dots, \alpha_r$ are algebraically independent over $F$. The integer $r\ge 0$ is called the *degree of transcendence* of the extension $L/K$, and is denoted as $$\text{tr. deg.}(L/F):= r.$$
+**Def:** Let $E/F$ be any finite separable extension. The Galois extension $K$ of $F$ containing $E$ is called the *Galois closure* of $E$ over $F$. 
+
+**Prop:** Let $K/F$ be a finite extension. Then $K = F(\theta)$ iff there exists only finitely many subfields of $K$ containing $F$.
+
+**The Primitive Element Theorem:** If $K/F$ is finite and separable, then $K/F$ is simple. In particular, any finite extension of fields of characteristic $0$ is simple.
+

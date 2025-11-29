@@ -27,9 +27,14 @@ Links: [[Automorphism Group of a Field Extension]], [[Splitting Fields and Norma
 
 **Def:** A field $K$ of characteristic $p$ is called *perfect* if every element of $K$ is a $p$th power in $K$, i.e., $K = K^p$. Ant field of characteristic $0$ is also called perfect.
 
+**Th:** Let $F$ be a field with characteristic $p> 0$. $F$ is a perfect field iff every finite extension is separable. 
+
 **Prop:** Let $p(x)$ be an irreducible polynomial over a field $F$ of characteristic $p$. Then there is a unique integer $k \ge 0$ and a unique irreducible separable polynomial $p_\text{sep}\in F[x]$ such that $$p(x) = p_\text{sep} (x^{p^k}).$$
 **Def:** Let $p(x)$ be an irreducible polynomial of characteristic $p$. The degree of $p_\text{sep}(x)$ in the last proposition is called the *separable degree* of $p(x)$, denoted $\deg_s p(x)$. The integer $p^k$ in the proposition is called the *inseparable degree* of $p(x)$, dented $\deg_i p(x)$. 
 
 **Obs:** Let $p(x)\in F[x]$. $p(x)$ is separable iff it inseparability degree is $1$ iff its degree is equal to its separable degree. Also, computing degree in the relation $p(x) = p_\text{sep}(x^{p^k})$ we see that $$\deg p(x) = \deg_s p(x) \deg_i p(x).$$
+**Def:** Let $E/F$ be any finite separable extension. The Galois extension $K$ of $F$ containing $E$ is called the *Galois closure* of $E$ over $F$. 
 
-**Cor:** Every finite extension of a perfect field is separable. In particular, every finite extension of either $\Bbb Q$ or a finite field. 
+**Prop:** Let $K/F$ be a finite extension. Then $K = F(\theta)$ iff there exists only finitely many subfields of $K$ containing $F$.
+
+**The Primitive Element Theorem:** If $K/F$ is finite and separable, then $K/F$ is simple. In particular, any finite extension of fields of characteristic $0$ is simple.
