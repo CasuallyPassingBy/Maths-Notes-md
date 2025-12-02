@@ -82,8 +82,7 @@
               "title": "Galois Field Extensions"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -255,11 +254,11 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "457742dd82c55b93",
+  "active": "62a8b5c225231167",
   "lastOpenFiles": [
-    "Separable Field Extensions.md",
-    "Composite Field Extensions.md",
     "Galois Field Extensions.md",
+    "Composite Field Extensions.md",
+    "Separable Field Extensions.md",
     "Field Theory.md",
     "Interesting Stuff I want continue Learning.md",
     "Finite Fields.md",
