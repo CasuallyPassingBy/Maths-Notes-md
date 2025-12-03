@@ -25,6 +25,7 @@ We have all the subjects:
 	- [[Affine Geometry]]
 - [[Group Theory]]
 - [[Ring Theory]]
+- [[Field Theory]]
 - [[Module Theory]]
 - [[Algebra Theory]]
 - [[Clifford Algebra]]

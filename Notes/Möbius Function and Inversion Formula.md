@@ -10,7 +10,7 @@ Links: [[Multiplicative Functions]]
 $$ \mu(n) = \begin{cases} 1 & \text{if } n= 1 \\ 0 & \text{if }p^2\mid n \text{ for some prime }p \\ (-1)^r & \text{if } n = p_1 p_2 \cdots p_r \text{ where $p_i$ are distinct primes} \end{cases} $$
 
 Similarly we with the use of the Kronecker delta, we can define it as
-$$ \mu(n) = \delta_{\omega(n), \Omega(n)} \lambda(n) $$
+$$ \mu(n) = \delta_{\omega(n), \Omega(n)} \lambda(n) = \delta_{\omega(n), \Omega(n)}(-1)^{\Omega(n)} $$
 
 where $\lambda$ is the [[Additive Functions#Liouville function|Liouville function.]]
 
@@ -45,6 +45,6 @@ $$ \sum_{d\mid n}\mu(d) f(d) = \prod_{p\mid n} (1-f(p)) $$
 $$ f^{-1}(n) = \mu(n)f(n) \quad \text{for all }n\ge1 $$
 
 
-Another way to define the Möbius $\mu$ function is as follows
-$$ \mu(n) = \sum_{\substack{1 \le k\le n \\ \gcd(k,n)=1}} e^{2\pi i\frac{k}{n}} $$
+**Prop:** The Möbius $\mu$-function satisfies the following equality
+$$ \mu(n) = \sum_{\substack{1 \le k\le n \\ (k,n)=1}} e^{2\pi i\frac{k}{n}} $$
 Which is the sum of the [[Cyclotomic Polynomials and Extensions|primitive]] $n$th roots of unity. 

@@ -92,6 +92,14 @@ This theorem, actually gives us the *Galois correspondence* between subgroups of
 - Abelian extension
 - $p$-extension
 
+**Def:** The extension $K/F$ is called an *abelian* extension if $K/F$ is Galois and $\text{Gal}(K/F)$ is an abelian group. 
+
+**Obs:** Every subfield containing $F$ of an abelian extension of $F$ is a again an abelian extension of $F$. We also see that the composite of abelian extensions is again an abelian extension. 
+
+**Th:** Let $G$ be any finite abelian group. Then there is a subfield $K$ of a [[Cyclotomic Polynomials and Extensions|cyclotomic field]] with $\text{Gal}(K/\Bbb Q) \cong G$. 
+
+$(*)$**Kronecker-Weber Theorem:** Let $K$ be a finite abelian extension of $\Bbb Q$. Then $K$ is contained in a cyclotomic extension of $\Bbb Q$. 
+
 **Def:** Let $p$ be a prime and let $F$ be a field. Let $K/F$ be a Galois extension whose Galois group is a $p$-group, such an extension is called a *$p$-extension*
 
 **Prop:** Let $L$ be a $p$-extension of $K$. The Galois closure of $L$ over $F$ is a $p$-extension of $F$. 

@@ -2,10 +2,12 @@
 tags:
   - Subject
 ---
+[[Central Hub]]
+
 Related: [[Ring Theory]]
 
 # Overview
-
+I am using Dummit's and Foote's 'Abstract Algebra', in particular the chapters that are dedicated to Field and Galois theory
 # Topics
 
 - [[Field Extensions]]
@@ -22,6 +24,8 @@ Related: [[Ring Theory]]
 				- [[Finite Fields]]
 					- [[Berlekamp's Factorisation Algorithm]]
 					- [[Artin-Schreier Extensions]]
+				- [[Galois Groups of Polynomials]]
+					- [[Solvable and Radical Extensions]]
 	- [[Composite Field Extensions]]
 - [[Linear Algebraic Invariants in Field Theory]]
 - [[Compass and Straightedge Constructions Using Field Theory]]

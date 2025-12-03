@@ -1,7 +1,7 @@
-
 ## Topology
 - [x] Fully Normal Spaces
-- [ ] Vietoris Hyperspace (Illanes & Nadler)
+- [ ] Vietoris Hyperspace 
+	- [ ] Illanes & Nadler
 - [ ] Topology
 	- [ ] Engelking
 		- [ ] Stone-Čech compactification
@@ -65,8 +65,8 @@
 			- [x] Basic Definitions
 			- [x] Fundamental Theorem of Galois Theory
 			- [x] Finite Fields
-			- [ ] Composite Extensions and Simple Extensions
-			- [ ] Cyclotomic Extensions and Abelian Extensions over $\Bbb Q$
+			- [x] Composite Extensions and Simple Extensions
+			- [x] Cyclotomic Extensions and Abelian Extensions over $\Bbb Q$
 			- [ ] Galois Group of Polynomials
 			- [ ] Solvable and Radical Extensions: Insolvability of the Quintic
 			- [ ] Computations of Galois Groups over $\Bbb Q$
@@ -74,7 +74,7 @@
 	- [ ] Zaldivar
 		- [x] Rings
 		- [x] Fields
-		- [ ] Elements of Galois Theory
+		- [x] Elements of Galois Theory
 		- [x] Straightedge and Compass Constructions
 		- [ ] Radical Solubilty
 	- [ ] Origami Constructible Numbers
@@ -144,11 +144,21 @@
 ## Probability
 -  Stochastic Process 
 	- [ ] Ross
-	- [ ] UNAM
+	- [ ] Rincon
+		- [ ] Caminatas Aleatorias
+		- [ ] Cadenas de Markov
+		- [ ] Proceso de Poisson
+		- [ ] Cadenas de Markov a tiempo continuo
+		- [ ] Procesos de renovación y confiabilidad
+		- [ ] Martingalas
+		- [ ] Moviemiento Browniano
+		- [ ] Calculo Estocástico
 -  Stochastic Calculus
 	- [ ] Øskendal
 - Nonparamatric Statistics
 	- [ ] Gibbons
+- Parametric Statistics
+	- [ ] 
 ## Physics
 -  Classical Mechanics 
 	- [ ] Taylor
@@ -177,6 +187,7 @@
 ## Computer Science
 - Machine Learning
 	- [ ] **_Understanding Machine Learning: From Theory to Algorithms_** by Shai Shalev-Shwartz and Shai Ben-David
+	- [ ] The Welch Labs Illustrated Guide to AI
 	- [ ] Nielsen
 		- [x] Using neural nets to recognize handwritten digits
 		- [x] How the backpropagation algorithm works

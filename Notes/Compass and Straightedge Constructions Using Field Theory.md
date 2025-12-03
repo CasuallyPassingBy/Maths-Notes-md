@@ -85,3 +85,4 @@ The proof relies that a primitive $n$th root of unity is constructible iff the r
 \sin \frac\pi{60} &= \frac 1{16}(\sqrt6+\sqrt 2)(\sqrt5-1)-\frac18 (\sqrt3-1)\sqrt{5-\sqrt5},
 \end{align*}
 $$
+Because I found it mildly interesting we can calculate $\cos(2\pi/5)$ and $\sin(2\pi/5)$, $$\cos\frac{2\pi}5 = \frac{\sqrt5 -1}{4}, \qquad \sin\frac{2\pi}5 = \sqrt\frac{5+\sqrt 5}{8}.$$

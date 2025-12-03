@@ -20,7 +20,7 @@ Links: [[Field Extensions]]
 
 **Prop:** If $n$ is an odd integer, then $\Phi_{2n}(x) = \Phi_n(-x)$. 
 
-**Def:** The field $\Bbb Q(\zeta_n)$ is called the *cyclotomic field of $n$th roots of unity.* 
+**Def:** The field $\Bbb Q(\zeta_n)/\Bbb Q$ is called the *cyclotomic field of $n$th roots of unity.* 
 
 **Cor:** The degree over $\Bbb Q$ of the cyclotomic field of $n$th roots of unity is $\varphi(n)$: $$[\Bbb Q(\zeta_n) : \Bbb Q] = \varphi(n). $$
 **Prop:** If $K/\Bbb Q$ is a finite field extension, then $K$ has only a finite number of roots of unity. 
@@ -41,3 +41,19 @@ We can get a weakened version of [[Prime Numbers#Dirichlet’s Theorem|Dirichlet
 **Cor:** Let $a\in \Bbb Z$. If $p$ is an odd prime that divides $\Phi_m(a)$, then either $p$ divides $m$ or $p \equiv 1 \pmod m$. 
 
 **Th:** For any positive integer $m$ there are infinitely many primes $p$ with $p \equiv 1 \pmod m$. 
+
+**Th:** The Galois group of the cyclotomic field $\Bbb Q(\zeta_n)$ of $n$th roots of unity is isomorphic to the multiplicative group $(\Bbb Z/n\Bbb Z)^\times$. The isomorphism is given explicitly by the map $a \pmod n \mapsto \sigma_a$, where $\sigma_a(\zeta_n) = \zeta_n^a$. 
+
+**Obs:** A basis for $\Bbb Q(\zeta_p)$ over $\Bbb Q$ is given by $$\zeta_p, \zeta_p^2, \dots, \zeta_p^{p-2},\zeta_p^{p-1}.$$The reason for choosing this basis is that any $\sigma$ in the Galois group $\text{Gal}(\Bbb Q(\zeta_p)/\Bbb Q)$ simply *permutes* these basis elements since these are precisely the primitive $p$ roots of unity.  This where we need that $p$ is prime. Let $H$ be any subgroup of the Galois group of $\Bbb Q(\zeta_p)$ over $\Bbb Q$ and let $$\alpha_H = \sum_{\sigma\in H} \sigma(\zeta_p), $$the sum of the conjugates by the elements in $H$. We can prove that the fixed field of $H$ is $\Bbb Q(\alpha)$. 
+
+**Cor:** Let $n =\prod_{k = 0}^\infty p_k^{\alpha_k}$ be the prime decomposition of the positive integer $n$ into distinct prime powers. Then the cyclotomic fields $\Bbb Q(\zeta_{p_k^{\alpha_k}})$, $k \in \Bbb N$ intersect only in the field $\Bbb Q$ and their composite is the cyclotomic field $\Bbb Q(\zeta_n)$. We have $$\text{Gal}(\Bbb Q(\zeta_n)/\Bbb Q) \cong \prod_{k = 0}^\infty \text{Gal}(\Bbb Q(\zeta_{p_k^{\alpha_k}})/\Bbb Q) $$which by the we get the following isomorphism, equivalent to the [[Linear Congruences#Chinese Remainder Theorem|Chinese Remainder Theorem]]$$(\Bbb Z/n \Bbb Z)^\times \cong \prod_{k = 0}^\infty (\Bbb Z/p_k^{\alpha_k}\Bbb Z)^\times  $$
+**Th:** Let $G$ be any finite abelian group. Then there is a subfield $K$ of a cyclotomic field with $\text{Gal}(K/\Bbb Q) \cong G$. 
+
+$(*)$ **Kronecker-Weber Theorem:** Let $K$ be a finite abelian extension of $\Bbb Q$. Then $K$ is contained in a cyclotomic extension of $\Bbb Q$. 
+
+**Prop:** Let $\zeta_n$ denote the primitive $n$th root of unity and let $K = \Bbb Q(\zeta_n)$ be the associated cyclotomic field. We see that $\text{Tr}_{K/\Bbb Q} (\zeta_n) = \mu(n),$ where $\mu$ is the [[Möbius Function and Inversion Formula|Möbius function]], and $\text{Tr}_{K/\Bbb Q}$ is the [[Linear Algebraic Invariants in Field Theory|trace of an element]].
+
+**Prop:** The primitive $n$th roots of unity form a basis over $\Bbb Q$ for the cyclotomic field of $n$th roots of unity iff $n$ is squarefree. 
+
+**Def:** We see that complex conjugation restricts to the automorphism $\sigma_{-1}\in \text{Gal}(\Bbb Q(\zeta_n)/\Bbb Q)$ of the cyclotomic field of $n$th roots of unity. We see that $\Bbb Q(\zeta_n + \zeta_n^{-1})$ is a subfield of the real elements of $\Bbb Q(\zeta_n)$. We call this field the *maximal real subfield of $\Bbb Q(\zeta_n)$.*
+

@@ -23,63 +23,18 @@
             }
           },
           {
-            "id": "457742dd82c55b93",
+            "id": "4681845db0a025b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Composite Field Extensions.md",
+                "file": "Field Theory.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Composite Field Extensions"
-            }
-          },
-          {
-            "id": "8a143f2dc88aadd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Separable Field Extensions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Separable Field Extensions"
-            }
-          },
-          {
-            "id": "e654f75225bbfdc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Galois Field Extensions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Galois Field Extensions"
-            }
-          },
-          {
-            "id": "404509c14d6e78b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Galois Field Extensions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Galois Field Extensions"
+              "title": "Field Theory"
             }
           }
         ]
@@ -220,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Field Theory.md",
+                "file": "Interesting Stuff I want continue Learning.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -230,7 +185,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Field Theory"
+              "title": "Backlinks for Interesting Stuff I want continue Learning"
             }
           }
         ],
@@ -256,32 +211,32 @@
   },
   "active": "62a8b5c225231167",
   "lastOpenFiles": [
-    "Galois Field Extensions.md",
-    "Composite Field Extensions.md",
-    "Separable Field Extensions.md",
     "Field Theory.md",
     "Interesting Stuff I want continue Learning.md",
+    "Polynomials in Several Variables over a Field.md",
+    "Ring Theory.md",
+    "Central Hub.md",
+    "Cyclotomic Polynomials and Extensions.md",
+    "Möbius Function and Inversion Formula.md",
+    "Compass and Straightedge Constructions Using Field Theory.md",
+    "Trigonometric Identities.md",
+    "Additive Functions.md",
+    "Linear Algebraic Invariants in Field Theory.md",
+    "Galois Field Extensions.md",
+    "Biquadratic Field Extensions.md",
+    "Chinese Remainder Theorem for Rings.md",
+    "Composite Field Extensions.md",
+    "Separable Field Extensions.md",
     "Finite Fields.md",
     "Classification of Simple Field Extensions.md",
     "Berlekamp's Factorisation Algorithm.md",
     "Prime Ideals on Commutative Rings.md",
     "Artin-Schreier Extensions.md",
     "Operations and Structures.md",
-    "Linear Algebraic Invariants in Field Theory.md",
     "Legendre Symbols.md",
     "Quadratic Congruences.md",
     "Automorphism Group of a Field Extension.md",
     "Untitled.md",
-    "Biquadratic Field Extensions.md",
-    "Ring Theory.md",
-    "Algebraic Field Extensions.md",
-    "Trace of Matrix.md",
-    "Discrete Valuation Rings.md",
-    "Inverse Limits of Abelian Groups.md",
-    "Direct Limits of Abelian Groups.md",
-    "Inverse Limits.md",
-    "Splitting Fields and Normal Field Extensions.md",
-    "Dirichlet L-functions.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",
