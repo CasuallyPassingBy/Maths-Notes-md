@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "721714e98c777f2d",
+        "id": "89fc590da235e667",
         "type": "tabs",
         "children": [
           {
-            "id": "62a8b5c225231167",
+            "id": "7bbc4f8b1f172eb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,21 +23,22 @@
             }
           },
           {
-            "id": "4681845db0a025b2",
+            "id": "b94867a735611e8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Field Theory.md",
+                "file": "Galois Groups of Polynomials.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Field Theory"
+              "title": "Galois Groups of Polynomials"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interesting Stuff I want continue Learning.md",
+                "file": "Central Hub.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -185,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Interesting Stuff I want continue Learning"
+              "title": "Backlinks for Central Hub"
             }
           }
         ],
@@ -209,34 +210,35 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "62a8b5c225231167",
+  "active": "b94867a735611e8b",
   "lastOpenFiles": [
-    "Field Theory.md",
+    "Symmetric Groups.md",
+    "Galois Groups of Polynomials.md",
     "Interesting Stuff I want continue Learning.md",
-    "Polynomials in Several Variables over a Field.md",
-    "Ring Theory.md",
     "Central Hub.md",
-    "Cyclotomic Polynomials and Extensions.md",
-    "Möbius Function and Inversion Formula.md",
-    "Compass and Straightedge Constructions Using Field Theory.md",
-    "Trigonometric Identities.md",
-    "Additive Functions.md",
-    "Linear Algebraic Invariants in Field Theory.md",
-    "Galois Field Extensions.md",
-    "Biquadratic Field Extensions.md",
-    "Chinese Remainder Theorem for Rings.md",
-    "Composite Field Extensions.md",
-    "Separable Field Extensions.md",
-    "Finite Fields.md",
-    "Classification of Simple Field Extensions.md",
-    "Berlekamp's Factorisation Algorithm.md",
-    "Prime Ideals on Commutative Rings.md",
-    "Artin-Schreier Extensions.md",
-    "Operations and Structures.md",
-    "Legendre Symbols.md",
-    "Quadratic Congruences.md",
-    "Automorphism Group of a Field Extension.md",
-    "Untitled.md",
+    "Statistics.md",
+    "Bayesian Approach to Hypothesis Test.md",
+    "Almost finished projects.md",
+    "Linear Congruences.md",
+    "Bayesian Approach to Point Estimators.md",
+    "Point Estimation.md",
+    "Bayesian Approach to Interval Estimation.md",
+    "Some Hypothesis Tests Based on the Generalised Likelihood Ratio.md",
+    "Pasted image 20251204143947.png",
+    "Chi-squared Distribution.md",
+    "Continuous Distributions.md",
+    "Probability Functions for Random Variables.md",
+    "Probability Theory.md",
+    "Random Variables.md",
+    "Probability Measure.md",
+    "Rings and Algebras of Sets.md",
+    "Measure Theory.md",
+    "Maximum Likelihood estimators.md",
+    "Euler Totient Function.md",
+    "Euler–Mascheroni Constant.md",
+    "Some test based on the generalised likelihood ratio.md",
+    "Special Notations.md",
+    "Special Numbers.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",
@@ -258,7 +260,6 @@
     "Math/Untitled 1.canvas",
     "Pasted image 20240118230317.png",
     "Pasted image 20240118230028.png",
-    "Pasted image 20240118183035.png",
     "Untitled 1.canvas"
   ]
 }

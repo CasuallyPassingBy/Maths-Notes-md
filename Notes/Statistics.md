@@ -5,9 +5,10 @@ tags:
 [[Central Hub]]
 # Overview
 
+The Parametric Inferential Statistics I used mainly *Inferencia Estadística para Estudiantes de Ciencias* by Alamilla et. al. 
+
 # Topics
-- [[Descriptive Statistics]]
-# Parametric 
+## Parametric 
 - [[Statistics and Sample Distribution]]
 	- [[Order Statistics]]
 	- [[Sufficient Statistics]]
@@ -30,7 +31,7 @@ tags:
 	- [[Statistical Test for Simple Hypotheses]]
 	- [[Uniformly Most Powerful Tests]]
 	- [[Generalised Likelihood Ratio]]
-		- [[Some test based on the generalised likelihood ratio]]
+		- [[Some Hypothesis Tests Based on the Generalised Likelihood Ratio]]
 	- [[P-value and Statistical Significance Test]]
 	- [[Bayesian Approach to Hypothesis Test]]
 # Non Parametric

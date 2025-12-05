@@ -14,9 +14,7 @@ $$ x = x_0+\frac{n}{d}t, \qquad 0 \le t < d\land t\in \Bbb Z $$
 **********Cor:********** If $\gcd(a,n)$, then the linear congruence $ax\equiv b \pmod n$ has a unique solution modulo $n$.
 
 ### Chinese Remainder Theorem
-
-Let $n_1, n_2, \dots, n_r$ be positive integers such that $\gcd(n_i, n_j) =1$ for $i \ne j$. Then the system of linear congruences
-
+Let $n_1, n_2, \dots, n_r$ be positive integers such that $\gcd(n_i, n_j) =1$ for $i \ne j$. Then the system of linear congruence
 $$ \begin{align*} x \equiv a_1& \pmod {n_1} \\ x \equiv a_2& \pmod {n_2} \\ \vdots& \\ x \equiv a_r& \pmod {n_r} \\
 
 \end{align*} $$
@@ -24,17 +22,12 @@ $$ \begin{align*} x \equiv a_1& \pmod {n_1} \\ x \equiv a_2& \pmod {n_2} \\ \vdo
 has a unique solution, which is unique modulo the integer $N= n_1 n_2\cdots n_r$.
 
 The solution is obtained by
-
 $$ N_k = \frac{N}{n_k} \quad\text{for $i \in\{1, \dots,r\}$} $$
 
 then we know that $\gcd(N_k, n_k) =1$ then we can define
-
 $$ x_k \equiv N_k^{-1} \pmod{n_k}\quad\text{for $i \in\{1, \dots,r\}$} $$
 
-then the solution is of the form
-
-$$ x = \sum_{k = 1}^r a_k x_kN_k $$
-
+then the solution is of the form $$ x = \sum_{k = 1}^r a_k x_kN_k $$
 then $x$ is a solution up to modulo $N$.
 
 ********Th:******** The system of linear congruences

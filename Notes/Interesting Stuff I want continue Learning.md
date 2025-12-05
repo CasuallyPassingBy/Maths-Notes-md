@@ -1,3 +1,4 @@
+[[Almost finished projects]]
 ## Topology
 - [x] Fully Normal Spaces
 - [ ] Vietoris Hyperspace 
@@ -8,20 +9,8 @@
 	- [ ] Prieto
 
 ### Algebraic Topology 
-- [ ] Introduction to Topological Manifolds by Lee 
-	- [x] Topological Spaces
-	- [x] New Spaces from Old
-	- [x] Connectedness and Compactness
-	- [x] Cell Complexes
-	- [x] Compact Surfaces
-	- [x] Homotopy and the Fundamental Group
-	- [x] The Circle
-	- [x] Some Group Theory
-	- [x] The Seifert-Van Kampen Theorem
-	- [x] Covering Maps
-	- [x] Group Actions and Covering Maps
-	- [ ] Homology
-- [ ] Algebraic Topology by Hatcher (0%)
+- [x] Introduction to Topological Manifolds by Lee 
+- [ ] Algebraic Topology by Hatcher 
 
 ## Algebra
 -  Clifford Algebra 
@@ -70,7 +59,7 @@
 			- [ ] Galois Group of Polynomials
 			- [ ] Solvable and Radical Extensions: Insolvability of the Quintic
 			- [ ] Computations of Galois Groups over $\Bbb Q$
-			- [ ] Transcendental Extensions, Inseperable Extenstions, Infinite Galois Groups
+				- [ ] Transcendental Extensions, Inseperable Extenstions, Infinite Galois Groups
 	- [ ] Zaldivar
 		- [x] Rings
 		- [x] Fields
@@ -96,7 +85,7 @@
 -  Category Theory
 ## Analysis
 - [ ] Measure Theory
-	- [ ] Halmos (40%)
+	- [ ] Halmos
 		- [x] Sets and Classes
 		- [x] Measures and Outer Measures
 		- [x] Extension of Measures
@@ -112,7 +101,7 @@
 	- [ ] Bogachev I
 	- [ ] Bogachev II
 -  Differential Geometry
-	- [ ]  Introduction to Smooth Manifolds by Lee (50%)
+	- [ ]  Introduction to Smooth Manifolds by Lee 
 		- [x] Smooth Manifolds
 		- [x] Smooth Maps
 		- [x] Tangent Vectors
@@ -134,7 +123,7 @@
 		- [ ] Integral Manifolds and Foliations
 		- [ ] Lie Groups and Their Lie Algebras
 - Riemannian Geometry
-	- [ ] Lee (0%)
+	- [ ] Lee
 -  Functional Analysis
 	- [ ] Megginson
 -  Kurzweil-Henstock Integral
@@ -145,7 +134,7 @@
 -  Stochastic Process 
 	- [ ] Ross
 	- [ ] Rincon
-		- [ ] Caminatas Aleatorias
+		- [x] Caminatas Aleatorias
 		- [ ] Cadenas de Markov
 		- [ ] Proceso de Poisson
 		- [ ] Cadenas de Markov a tiempo continuo
@@ -158,7 +147,7 @@
 - Nonparamatric Statistics
 	- [ ] Gibbons
 - Parametric Statistics
-	- [ ] 
+	- [x] Inferencia estadistica (Ruth)
 ## Physics
 -  Classical Mechanics 
 	- [ ] Taylor
@@ -183,6 +172,7 @@
 -  Quantum Mechanics
 	- [ ] DJ Griffiths
 -  Statistical Mechanics 
+	- [ ] States of Matter Goodstein
 -  Fluid Mechanics
 ## Computer Science
 - Machine Learning
@@ -200,7 +190,7 @@
 -  Theory of Computation
 	- [ ] Sipser
 -  Numerical Analysis
-	- [ ] Burden (20%)
+	- [ ] Burden
 		- [x] Error Analysis
 		- [x] Solutions of Equations in One Variable
 		- [x] Interpolation and Polynomial Approximations
@@ -216,3 +206,4 @@
 ## Other
 - [ ] Finite Operator Calculus (Finite Operator Calculus.pdf)
 - [ ] Umbral Calculus (Pure and Applied Mathematics 111)
+- Game Theory

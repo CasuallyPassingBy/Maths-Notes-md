@@ -45,4 +45,6 @@ There are different types of hypothesis test
 - [[Statistical Test for Simple Hypotheses]]
 - [[Uniformly Most Powerful Tests]]
 - [[Generalised Likelihood Ratio]]
+	- [[Some Hypothesis Tests Based on the Generalised Likelihood Ratio]]
 -  [[P-value and Statistical Significance Test]]
+- [[Bayesian Approach to Hypothesis Test]]

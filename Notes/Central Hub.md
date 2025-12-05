@@ -1,7 +1,7 @@
 We have all the subjects:
 
 [[Interesting Stuff I want continue Learning]]
-
+[[Almost finished projects]]
 # Subjects
 
 ## Foundational
@@ -27,7 +27,6 @@ We have all the subjects:
 - [[Ring Theory]]
 - [[Field Theory]]
 - [[Module Theory]]
-- [[Algebra Theory]]
 - [[Clifford Algebra]]
 
 ## Differential Equations
@@ -52,12 +51,13 @@ We have all the subjects:
 - [[Special Notations]]
 ## Physics
 - [[Classical Mechanics]]
+- [[Electrodynamics]]
 - [[Quantum Mechanics]]
 ## Computer Science
 - [[Theory of computation]]
 - [[Algorithms and Data Structures]]
 - [[Artificial Intelligence]]
-- [[Neural Networks]]
+	- [[Neural Networks]]
 ## Miscellaneous
 - [[Fractional Calculus]]
 - [[Umbral calculus]]
