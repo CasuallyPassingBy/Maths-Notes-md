@@ -4,41 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "89fc590da235e667",
+        "id": "3c5064a1c33bb652",
         "type": "tabs",
         "children": [
           {
-            "id": "7bbc4f8b1f172eb4",
+            "id": "603dc080cb245191",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interesting Stuff I want continue Learning.md",
+                "file": "Latches and Flip-Flops.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Interesting Stuff I want continue Learning"
+              "title": "Latches and Flip-Flops"
             }
           },
           {
-            "id": "b94867a735611e8b",
+            "id": "1ad6252b0132e7ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Galois Groups of Polynomials.md",
+                "file": "Logic Gates.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Galois Groups of Polynomials"
+              "title": "Logic Gates"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,12 +209,18 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "b94867a735611e8b",
+  "active": "603dc080cb245191",
   "lastOpenFiles": [
-    "Symmetric Groups.md",
-    "Galois Groups of Polynomials.md",
+    "Logic Gates.md",
+    "Latches and Flip-Flops.md",
+    "Digital Circuits.md",
     "Interesting Stuff I want continue Learning.md",
+    "Combinational Building Blocks for Digital Circuits.md",
+    "Karnaugh Maps.md",
+    "Boolean Equations for Digital Circuits.md",
     "Central Hub.md",
+    "Galois Groups of Polynomials.md",
+    "Symmetric Groups.md",
     "Statistics.md",
     "Bayesian Approach to Hypothesis Test.md",
     "Almost finished projects.md",
@@ -233,12 +238,6 @@
     "Probability Measure.md",
     "Rings and Algebras of Sets.md",
     "Measure Theory.md",
-    "Maximum Likelihood estimators.md",
-    "Euler Totient Function.md",
-    "Euler–Mascheroni Constant.md",
-    "Some test based on the generalised likelihood ratio.md",
-    "Special Notations.md",
-    "Special Numbers.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",

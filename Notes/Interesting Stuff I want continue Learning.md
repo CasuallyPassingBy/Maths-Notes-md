@@ -59,7 +59,7 @@
 			- [ ] Galois Group of Polynomials
 			- [ ] Solvable and Radical Extensions: Insolvability of the Quintic
 			- [ ] Computations of Galois Groups over $\Bbb Q$
-				- [ ] Transcendental Extensions, Inseperable Extenstions, Infinite Galois Groups
+			- [ ] Transcendental Extensions, Inseperable Extenstions, Infinite Galois Groups
 	- [ ] Zaldivar
 		- [x] Rings
 		- [x] Fields
@@ -189,6 +189,17 @@
 	- [ ] Cormen
 -  Theory of Computation
 	- [ ] Sipser
+- Digital Circuits
+	- [ ] _Digital Design and Computer Architecture_ — Harris & Harris
+		- [ ] Chapter 1
+		- [ ] Chapter 2
+		- [ ] Chapter 3
+		- [ ] Chapter 4
+		- [ ] Chapter 5
+		- [ ] Chapter 6
+		- [ ] Chapter 7
+		- [ ] Chapter 8
+		- [ ] Chapter 9 (online supplement)
 -  Numerical Analysis
 	- [ ] Burden
 		- [x] Error Analysis

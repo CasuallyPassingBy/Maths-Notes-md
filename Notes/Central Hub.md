@@ -58,6 +58,7 @@ We have all the subjects:
 - [[Algorithms and Data Structures]]
 - [[Artificial Intelligence]]
 	- [[Neural Networks]]
+- [[Digital Circuits]]
 ## Miscellaneous
 - [[Fractional Calculus]]
 - [[Umbral calculus]]
