@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3c5064a1c33bb652",
+        "id": "fec908e49b9ad7a2",
         "type": "tabs",
         "children": [
           {
-            "id": "603dc080cb245191",
+            "id": "290ab95f066c5c75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Latches and Flip-Flops.md",
+                "file": "Journal/2025-12-11.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Latches and Flip-Flops"
-            }
-          },
-          {
-            "id": "1ad6252b0132e7ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Logic Gates.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Logic Gates"
+              "title": "2025-12-11"
             }
           }
         ]
@@ -209,10 +194,15 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "603dc080cb245191",
+  "active": "290ab95f066c5c75",
   "lastOpenFiles": [
-    "Logic Gates.md",
+    "Journal/2025-12-11.md",
+    "Prime Ideals on Commutative Rings.md",
+    "Ring Ideals and Quotient Rings.md",
+    "Jobs/Places I want to Apply.md",
+    "Jobs",
     "Latches and Flip-Flops.md",
+    "Logic Gates.md",
     "Digital Circuits.md",
     "Interesting Stuff I want continue Learning.md",
     "Combinational Building Blocks for Digital Circuits.md",
@@ -234,10 +224,6 @@
     "Continuous Distributions.md",
     "Probability Functions for Random Variables.md",
     "Probability Theory.md",
-    "Random Variables.md",
-    "Probability Measure.md",
-    "Rings and Algebras of Sets.md",
-    "Measure Theory.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",
@@ -250,7 +236,6 @@
     "clase",
     "OIST",
     "Pasted image 20250213183155.png",
-    "Etica Profesional",
     "Pasted image 20250131162337.png",
     "Pasted image 20250109135004.png",
     "Untitled.canvas",
