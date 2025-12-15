@@ -154,4 +154,26 @@ Again, we analyse the latch by writing the truth table. For convenience the inte
 This means that when $\text{CLK} = 1$, then latch is *transparent*. the data at $D$ flows through $Q$ as if the latch were just a buffer. When $\text{CLK} = 0$, the latch is *opaque*. If blocks the new data from flowing to $Q$, and $Q$ remembers the old value. Hence, the D latch is sometimes called a *transparent latch* or *level-sensitive latch*. 
 
 ## D Flip Flop
+A *D flip-flop* can be built from back-to-back D latches controlled by complementary clocks. The first latch $\text{L1}$, is called the *master*. The second latch, $\text{L2}$, is called the *slave*. The node between them is named $\text{N1}$.
+![[Pasted image 20251214200137.png]]
+A symbol for the D flip-flop is given by $(b)$, and if we don't need $\overline Q$, we can condense it to $(c)$. 
+
+When $\text{CLK} = 0$, the master latch is transparent and the slave is opaque. Therefore, whatever value was at $D$ propagates through to $\text{N1}$. When $\text{CLK} = 1$, the master foes opaque and the slave becomes transparent. The value at $\text{N1}$ propagates to $Q$, but $\text{N1}$ is cut off from $D$. Hence, whatever value was at $D$ immediately before the clock rises from $0$ to $1$ gets copies to $Q$ immediately after the clock rises. At at all other times, $Q$ retains its old value, because there is always an opaque latch blocking the path between $D$ and $Q$. 
+
+This means that a *D flip-flop copies $D$ to $Q$ on the rising edge of the clock, and remembers its state at all other times.* A D flip-flop is also known as a *master-slave flip-flop*, and *edge-triggered flip-flop*, or a *positive edge-triggered flip-flop*. The triangle in the symbols denotes an edge-triggered clock input. The $\overline Q$ output is often omitted when it is not needed. 
+
+### Register
+
+An $N$-bit is a bank of $N$ flip-flops that share a common $\text{CLK}$ input, so that all bit of the register are updated at the same time. Registers are the key building block of most sequential circuits. 
+
+## Enabled Flip-Flops
+An *enabled flip-flop* adds another input called $\text{EN}$ or $\text{ENABLE}$ to determine whether data is loaded on the clock edge. When $\text{EN}$ is $\text{TRUE}$, the enabled flip-flop behaves an ordinary D flip-flop. When $\text{EN}$ is $\text{FALSE}$, the enabled flip-flop ignores the clock and retains its state. Enabled flip-flops are useful when we wish to load a new value into a flip-flop only some of the time, rather than every clock edge. 
+
+The most common way to maye an enabled flip-flop is to add a multiplexer. The input multiplexer chooses whether to pass the value at $D$, if $\text{EN}$ is $\text{TRUE}$, or to recycle the old state from $Q$, if $\text{EN}$ is $\text{FALSE}$. Another way do this is to have a *gated clock*. If $\text{EN}$ is $\text{TRUE}$, the $\text{CLK}$ input to the flip-flop toggles normally. If $\text{EN}$ is $\text{FALSE}$, the $\text{CLK}$ inputs is $\text{FALSE}$ and the flip-flop retains its old value. 
+![[Pasted image 20251214203014.png]]
+
+Notice that $\text{EN}$ must not change while $\text{CLK} =1$, lest the flip-flop see a clock *glitch* (switch at an incorrect time). Generally, performing logic on the clock is a bad idea.
+
+## Reset-able Flip-Flop
+A *reset-able flip-flop* adds another inputs called $\text{RESET}$. When $\text{RESET}$ is $\text{FALSE}$, the reset-able flip-flop behaves like an ordinary D flip-flop. When $\text{RESET}$ is $\text{TRUE}$, the reset-able flip-flop ignores $D$ and resets the output to $0$. Reset-able flip-flop are useful when we want to force a known state into all flip-flops in a system when we first turn it on.
 
