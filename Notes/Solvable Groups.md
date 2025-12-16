@@ -27,7 +27,7 @@ Links: [[Commutator Subgroup]], [[Normal Subgroups and Quotient Groups]]
 
 **Obs:** Every abelian group is solvable. A finite nonabelian simple group is not solvable, since its unique normal series $1 \trianglelefteq G$ is doesn't have abelian quotients.
 
-**Prop:** Every finite $p$-group is solvable. Furthermore, if $G$ is a group of order $p^n$, then there's a series of groups $$\{e\} = G_0\subseteq G_1 \subseteq \dots \subseteq G_n = G$$ such that $G_k$ is normal in $G_{k+1}$, $|G_k| = p^k$ for $0 \le k \le n$, and the quotients $G_{k+1}/G_k$ are cyclic of order $p$. 
+**Prop:** Every finite $p$-group is solvable. Furthermore, if $G$ is a group of order $p^n$, then there's a series of groups $$\{e\} = G_0\subseteq G_1 \subseteq \dots \subseteq G_n = G$$ such that $G_k$ is normal in $G_{k+1}$, $|G_k| = p^k$ for $0 \le k \le n$, and the quotients $G_{k+1}/G_k$ are cyclic of order $p$.  ^e7deef
 
 **Prop:** Let $G$ be a finite group of order $pq$ with $p$ and $q$ primes, then $G$ is solvable.
 

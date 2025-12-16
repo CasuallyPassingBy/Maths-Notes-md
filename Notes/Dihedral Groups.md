@@ -20,7 +20,7 @@ the relation $r^n = \rho^2 = e$ and $\rho r \rho = r^{-1}$.
 
 **Prop:** $|D_n| = 2n$. 
 
-**Def**: We call $D_n$ the *dihedral group of order $n$*
+**Def**: We call $D_n$ the *dihedral group of order $2n$*
 
 **Prop:** let $r = r_{2\pi /n}$ then $R_n := \langle r \rangle \cong \Bbb Z_n$  
 

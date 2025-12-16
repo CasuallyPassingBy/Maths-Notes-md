@@ -26,8 +26,7 @@ Links: [[Field Extensions]]
 **Prop:** If $K/\Bbb Q$ is a finite field extension, then $K$ has only a finite number of roots of unity. 
 
 **Prop:** We can use the [[Möbius Function and Inversion Formula#Möbius Inversion formula|Möbius inversion formula]] to get the following formula: $$\Phi_n (x):= \prod_{d \mid n }(x^d-1)^{\mu(n/d)}.$$
-
-**Prop:** Let $\ell$ be a prime, and let $\Phi_\ell (x) = (x^\ell-1)/(x-1)\in \Bbb Z[x]$. We want to determine the factorisation of $\Phi_\ell(x)$ modulo $p$ for any prime $p$. Let $\zeta$ denote any fixed primite $\ell$th root of unity.
+**Prop:** Let $\ell$ be a prime, and let $\Phi_\ell (x) = (x^\ell-1)/(x-1)\in \Bbb Z[x]$. We want to determine the factorisation of $\Phi_\ell(x)$ modulo $p$ for any prime $p$. Let $\zeta$ denote any fixed primive $\ell$th root of unity.
 - If $p = \ell$, then $\Phi_\ell(x) = (x-1)^{\ell-1}\in (\Bbb Z/\ell \Bbb Z)[x]$.
 - Suppose $p \neq \ell$, and let $f$ denote the order of $p \mod \ell$. The smallest power of $p$ with $p^f \equiv 1 \pmod \ell$. We know that $\mathbb F_{p^n}$ is cyclic, then $n = f$ is the smallest power $p^n$ of $p$ with $\zeta \in \Bbb F_{p^n}$. This means that the minimal polynomial of $\zeta$ over $(\Bbb Z/p\Bbb Z)[x]$ has degree $f$. 
 - We see that $(\Bbb Z/p\Bbb Z)(\zeta) = (\Bbb Z/p\Bbb Z)(\zeta^a)$ for any $a$ that is not divisible by $\ell$. Finally, we see that $\Phi_\ell(x)$ is the product of $(\ell-1)/f$ distinct irreducible polynomials of degree $f$in $(\Bbb Z/p\Bbb Z)[x]$. 

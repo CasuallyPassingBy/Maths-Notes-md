@@ -4,22 +4,62 @@
     "type": "split",
     "children": [
       {
-        "id": "3f65f1b5f287998c",
+        "id": "6666b1adba2f7a4a",
         "type": "tabs",
         "children": [
           {
-            "id": "c51efaf29121057b",
+            "id": "306717e6ee51c0c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital Circuits.md",
+                "file": "Galois Groups of Polynomials.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Digital Circuits"
+              "title": "Galois Groups of Polynomials"
+            }
+          },
+          {
+            "id": "48b7f56bb7a165e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Determinants.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Determinants"
+            }
+          },
+          {
+            "id": "47a6e02cf6bba18c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cyclotomic Polynomials and Extensions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyclotomic Polynomials and Extensions"
+            }
+          },
+          {
+            "id": "473851cfd57accc7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -194,14 +234,23 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "c51efaf29121057b",
+  "active": "306717e6ee51c0c4",
   "lastOpenFiles": [
+    "Cyclotomic Polynomials and Extensions.md",
+    "Dihedral Groups.md",
+    "Binomial Coefficients.md",
+    "Determinants.md",
+    "Galois Groups of Polynomials.md",
+    "Compass and Straightedge Constructions Using Field Theory.md",
+    "Higher Derivatives of Analytic Functions.md",
+    "Solvable Groups.md",
+    "Synchronous Logic Design.md",
+    "Digital Circuits.md",
     "Latches and Flip-Flops.md",
     "Pasted image 20251214203248.png",
     "Pasted image 20251214203014.png",
     "Pasted image 20251214200137.png",
     "Pasted image 20251214200032.png",
-    "Digital Circuits.md",
     "Interesting Stuff I want continue Learning.md",
     "Timing of Digital Circuits.md",
     "Pasted image 20251212005936.png",
@@ -217,19 +266,11 @@
     "Karnaugh Maps.md",
     "Boolean Equations for Digital Circuits.md",
     "Central Hub.md",
-    "Galois Groups of Polynomials.md",
     "Symmetric Groups.md",
     "Statistics.md",
     "Bayesian Approach to Hypothesis Test.md",
     "Almost finished projects.md",
-    "Linear Congruences.md",
-    "Bayesian Approach to Point Estimators.md",
-    "Point Estimation.md",
-    "Bayesian Approach to Interval Estimation.md",
-    "Some Hypothesis Tests Based on the Generalised Likelihood Ratio.md",
     "Pasted image 20251204143947.png",
-    "Chi-squared Distribution.md",
-    "Continuous Distributions.md",
     "backgrounds/frieren.jpeg",
     "backgrounds/Gz1PN3UaoAYB44a.jpeg",
     "backgrounds",

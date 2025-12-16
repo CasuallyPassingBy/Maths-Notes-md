@@ -3,13 +3,15 @@ tags:
   - FieldTheory
 ---
 Subjects: [[Field Theory]]
-Links: [[Galois Field Extensions]], [[Polynomial Ring of a Single Variable]], [[Symmetric Groups]], [[Splitting Fields and Normal Field Extensions]]
+Links: [[Galois Field Extensions]], [[Polynomial Ring of a Single Variable]], [[Symmetric Groups]], [[Splitting Fields and Normal Field Extensions]], [[Alternating Groups]], [[Symmetric Polynomials]]
 
 **Def:** If $f(x) \in F[x]$ is a separable polynomial, then we define the Galois group of $f(x)$ to be the Galois group of the splitting field of $f(x)$ over $F$. 
 
-If $K/F$ is a Galois extension, the $K$ is the splitting filed for some separable polynomial $f(x)\in F[x]$. Any $F$-automorphism $\sigma\in \text{Gal}(K/F)$ maps a root of an irreducible factor of $f(x)$ to another root of the irreducible factor and $\sigma$ is uniquely determined by its action on these roots. If we fix a labelling of the roots $\alpha_1,\dots, \alpha_n$ , hence defines a unique permutation of the subscripts $\{1,2,\dots, n\}$. This gives us an injection $$\text{Gal}(K/F) \hookrightarrow S_n $$of the Galois group into the symmetric group of $n$ letters. This means that we can think of Galois groups as subgroups of $S_n$, and gives a group theoretic explanation on why the splitting fields for a polynomial of degree $n$ over $F$ is of degree at most $n!$ over $F$.
+If $K/F$ is a Galois extension, the $K$ is the splitting field for some separable polynomial $f(x)\in F[x]$. Any $F$-automorphism $\sigma\in \text{Gal}(K/F)$ maps a root of an irreducible factor of $f(x)$ to another root of the irreducible factor and $\sigma$ is uniquely determined by its action on these roots. If we fix a labelling of the roots $\alpha_1,\dots, \alpha_n$ , hence defines a unique permutation of the subscripts $\{1,2,\dots, n\}$. This gives us an injection $$\text{Gal}(K/F) \hookrightarrow S_n $$of the Galois group into the symmetric group of $n$ letters. This means that we can think of Galois groups as subgroups of $S_n$, and gives a group theoretic explanation on why the splitting fields for a polynomial of degree $n$ over $F$ is of degree at most $n!$ over $F$.
 
 If $f(x)$ is irreducible, then given two roots of $f(x)$ there is an $F$-automorphism in the Galois group of $f(x)$ which maps the first root to the second. Such a group is said to be *transitive* on the roots, i.e., the Galois group of $f(x)$ [[Group Actions#Types of Actions|acts transitively]] on the roots. 
+
+**Lemma (Jordan):** Let $F$ be a field, $f(x)\in F[x]$ a monic separable polynomial, and $L$ its splitting field . $f(x)$ is irreducible in $K[x]$ iff the Galois group $\text{Gal}(L/K)$ acts transitively on the set of roots of $f(x)$. 
 
 **Def:** Let $x_1,x_2, \dots, x_n$ be indeterminates. The *elementary symmetric functions* $s_0, s_1, \dots, s_n$ are defined $$\begin{align*}
 s_0&:= 1\\
@@ -38,4 +40,83 @@ This result says that if there are no relations among the coefficients of a poly
 
 For $n \ge 5$ there is only one normal subgroup of $S_n$, namely the subgroup $A_n$ of index $2$. Hence, in general, there is only one normal subfield of $F(x_1,\dots, x_n)$ containing $F(s_1,\dots, s_n)$ an extension of degree $2$.
 
-w
+**Def:** Define the *discriminant* $D$ of $x_1, \dots, x_n$ by the formula $$D := \prod_{1\le i < j\le n} (x_i -x_j)^2.$$We define the discriminant of a polynomial to be the discriminant of the roots of the polynomial. 
+
+We see that the discriminant is a symmetric functions and hence an element of $K = F(s_1,\dots, s_n)$. We see that the alternating group fixes this element$$\sqrt D = \prod_{1 \le i < j\le n} (x_i-x_j),$$ and the fundamental theorem of Galois theory (if the field has characteristic different from $2$) then $\sqrt D$ generates the fixed field of $A_n$ and generates a quadratic extension of $K.$
+
+**Prop:** If the characteristic of $F$ is different from $2$ then the permutation $\sigma\in S_n$ is an element of $A_n$ iff it fixes $\sqrt{D}$. 
+
+**Prop:** The Galois group of $f(x)\in F[x]$ is a subgroup of $A_n$ iff the the discriminant $D\in F$ is an square element of $F$. 
+
+This property together with the fact that $D= 0$ determines the presence of multiple roots, is the reason $D$ is called the *discriminant*. 
+
+## Polynomials of Degree $2$
+If we consider the polynomial $x^2+ax+b$ with roots $\alpha, \beta$. The discriminant $D$ is just $(\alpha-\beta)^2$, can be written easily as $s_1^2-4s_2$, meaning that $$D = a^2-4b = (\alpha-\beta)^2.$$
+We see that the polynomial is separable iff $a^2-4b \neq 0$. The Galois group is a subgroup of $S_2\cong C_2$, and it is trivial iff $a^2-4b$ is a square, which completely determines the possible Galois groups. This actually tells us that if the polynomial is reducible, $D$ is a square in $F$, then the Galois group is trivial, while if the polynomial is irreducible the Galois group is isomorphic $C_2$ since the splitting field is the quadratic extension $F(\sqrt D)$. 
+
+## Polynomials of Degree $3$
+Suppose the cubic polynomial is $$f(x) = x^3+ax^2+bx+c.$$If we make the substitution $x = y-a/3$ the polynomial becomes $$g(y) = y^3+py+q, $$making $g(y)$ a depressed cubic, where $$p = \frac 13(3b-a^2), \qquad q = \frac 1{27}(2a^3-9ab+27c).$$The splitting fields of $f(x)$ and $g(y)$ are the same since their roots differ by the constant $a/3\in F$, and they have the same discriminant because it involves the differences of the roots. 
+
+By doing black magic, we see that the discriminant of $g(y)$ is given by $$D = -4p^3-27q^2.$$If we expand we see that the discriminant of $f(x)$ in terms of its coefficients is $$D= a^2b^2-4b^3-4a^3c-27c^2+18abc.$$
+### Galois Group
+There are two main cases.
+1. If the cubic polynomial $f(x)$ is reducible, then it splits either into three linear factors or into a linear factor and an irreducible quadratic. In the first case the Galois group is trivial and in the second case the Galois group is of order $2$.
+2. If the cubic polynomial $f(x)$ is irreducible then a root generates an extension of degree $3$ over $F$, so the degree of the splitting field over $F$ is divisible by $3$. This means that there are only two means possibilities, $A_3 \cong C_3$ and $S_3$. We know that the Galois group is $A_3$ iff the discriminant is a square. 
+   
+   If $D$ is a square in $F$, then the splitting field of $f(x)$ over $F$ is obtained by adjoining any single root of $f(x)$ to $F$. The resulting field is Galois over $F$. If $D$ is not a square in $F$, then the splitting field of $f(x)$ is of degree $6$ over $F$, hence it is the field $F(\theta, \sqrt D)$ for any one of the roots $\theta$ of $f(x)$. This extension is obviously Galois over $F$ with Galois group $S_3$, with generators $\sigma$ which takes $\theta$ to one of the other roots of $f(x)$ and fixes $\sqrt D$, and $\tau$, which takes $\sqrt D$ to $-\sqrt D$ and $\theta$. 
+   
+   This means that the splitting field of $f(x)$ over $F$ is obtained by adjoining $\sqrt D$ and a root.
+
+## Polynomials of Degree $4$
+Let the quartic polynomial be $$f(x) = x^4+ax^3+bx^2+cx +d$$which under the substitution $x = y-a/4% becomes the quartic $$g(y) = y^4+py^2+qy+r $$with $$\begin{align*} p &:=\frac18(-3a^2+8b) \\ q&:= \frac 18 (a^3-4ab+8c) \\ r &:= \frac 1{256}(-3a^4+16a^2b-64ac+256d)\end{align*}.$$
+Let us note that $g(y)$ is a depressed quartic polynomial. Let the roots of $g(y)$ be $\alpha_1, \alpha_2,\alpha_3$ and $\alpha_4$ and let $G$ denote the Galois group for the splitting field of $g(y)$ or o of $f(x)$. 
+
+We first consider the case where $g(y)$ is reducible. If $g(y)$ is reducible, we have three cases.
+1. If it splits into a linear and cubic, then $G$ is the Galois group of the cubic.
+2. If it splits into two irreducible quadratics, then the splitting field is the extension $F(\sqrt{D_1}, \sqrt{D_2})$ where $D_1$ and $D_2$ are the discriminants of the two quadratics. We actually have two subcases, if $F(\sqrt{D_1}, \sqrt{D_2})$ is a biquadratic extension, then its Galois group is the Klein $4$-group; if it isn't,  then it is just a quadratic extension and $G \cong C_2$. 
+
+The second case where $g(y)$ is irreducible is a little bit more complex. We must remember that the Galois group acts transitively on the roots of the polynomial. If we examine the possibilities we see that the only subgroups of $S_4$ that act transitively on $\{1,2,3,4\}$, and hence real candidates are:
+1. $S_4$
+2. $A_4$
+3. $D_4$, the [[Dihedral Groups|dihedral group]] of order $8$, on an unrelated note this is a Sylow $2$-group of $S_4$. 
+4. $V$, the Klein $4$-group.
+5. $C_4$, the [[Cyclic Groups|cyclic group]] of order $4$.
+
+We are gonna consider the elements $$\begin{align*} \theta_1 &:= (\alpha_1 +\alpha_2)(\alpha_3 + \alpha_4) \\ \theta_2 &:= (\alpha_1 +\alpha_3)(\alpha_2+ \alpha_4) \\ \theta_3 &:= (\alpha_1 +\alpha_4)(\alpha_2 + \alpha_3) \end{align*}.$$These elements are permuted amongst themsleves by the elements of $S_4$. The stabiliser of $\theta_1$ in $S_4$ is isomorphic to $D_4$. The subgroup that of $S_4$ which stabilises all of these elements is the intersection of their stabilisers, in particular, it is isomorphic to the Klein $4$-group $V$. 
+
+Since $S_4$ permutes $\theta_1. \theta_2, \theta_3$ we see that the elementary symmetric functions in the $\theta$'s are fixed by all the elements of $S_4$, and thus are in $F$. By computations I refuse to do, we know that the elementary symmetric functions are $2p$, $p^2-4r$, and $-q^2$, which shows the that $\theta_1, \theta_2, \theta_3$ are the roots of $$h(x) = x^3-2px^2+(p^2-4r)x+q^2 $$called the *resolvent cubic* for the quartic $g(y)$. Since $$\begin{align*}
+\theta_1- \theta_2 &= -(\alpha_1-\alpha_4)(\alpha_2-\alpha_3) \\ 
+\theta_1- \theta_3 &= -(\alpha_1-\alpha_3)(\alpha_2-\alpha_4) \\ 
+\theta_2- \theta_3 &= -(\alpha_1-\alpha_2)(\alpha_3-\alpha_4)\end{align*} $$we see that the discriminant of the resolvent cubic is the *same* as the discriminant of the quartic $g(y)$, hence also as the discriminant of the quartic $f(x)$. We get that $$D = 16p^4r -4p^3q^2-128 p^2r^2+144 pq^2r-27q^4+256r^3 $$or using $a, b,c,d$ we get that $$\begin{align*}D = &-128b^2d^2 -4a^3c^3+16b^4d-27a^4d^2+18abc^3+144 a^2bd^2-192acd^2 \\
+&+a^2b^2c^2-4ac^2b^3d-6a^2c^2d +144bc^2d+256d^3-27c^4-80ab^2cd+18a^3bcd.
+\end{align*} $$
+The splitting field of the resolvent cubic is a subfield of the splitting field of the quartic, so the Galois group of the resolvent cubic is a quotient of $G$. Hence knowing the action of the Galois group on the roots of the resolvent cubic $h(x)$ gives information about the Galois group of $g(y)$. 
+### Galois Group
+There are four main cases.
+1. Suppose that the resolvent cubic is irreducible. If $D$ is not a square, then $G$ is not contained in $A_4$ and the Galois group of the resolvent cubic is $S_3$ which implies that the Galois group is isomorphic to $S_4$. 
+2. If the resolvent cubic is irreducible and $D$ is a square, then $G$ is a subgroup of $A_4$, and $3$ divides $|G|$, meaning that $G \cong A_4$. 
+3. If the resolvent cubic is reducible and $h(x)$ splits completely in $F$, then $G \cong V$, where $V$ is the Klein $4$-group.
+4. If the resolvent cubic splits into a linear and quadratic, then one of $\theta_1, \theta_2, \theta_3$ is in $F$. Then $G$ stabilises $\theta_1$, but not $\theta_2$ and $\theta_3$, so we have that $G \cong D_4$ or $G\cong C_4$. 
+	1. If $g(y)$ is irreducible over $F(\sqrt D)$, then $G \cong D_4$.
+	2. Otherwise, $G \cong C_4$. 
+
+We can actually examine the case where our base field is $\Bbb Q$. 
+- If $F$ is an extension of $\Bbb Q$ of degree $4$ that is not Galois over $\Bbb Q$, then the Galois closure of $F$ has Galois group that is isomorphic to either $S_4$, $A_4$ or $D_4$. Additionally, the Galois group is dihedral iff $F$ contains a quadratic extension of $\Bbb Q$. 
+
+
+# Fundamental Theorem of Algebra
+
+The proof is really slick, but we need a couple lemmas.
+
+**Lemma:** There are no nontrivial finite extensions of $\Bbb R$ of odd degree. Equivalently, every polynomial with real coefficients of odd degree has a root in the reals.
+
+**Lemma:** There are no quadratic extensions of $\Bbb C$. Equivalently, quadratic polynomials with coefficients in $\Bbb C$ have roots in $\Bbb C$. 
+
+**Fundamental Theorem of Algebra:** Every polynomial $f(x)\in \Bbb C[x]$ of degree $n$ has precisely $n$ roots in $\Bbb C$ (counted with multiplicity). Equivalently, $\Bbb C$ is algebraically closed.
+
+Proof:
+It suffices to prove that a polynomial with real coefficients has a root in $\Bbb C$.  Let $f(x)$ be a polynomial with real coefficients and let $K$ be the splitting field of $f(x)$ over $\Bbb R$. Then $K(i)$ is a Galois extension of $\Bbb R$. Let $G$ denote its Galois group and let $P_2$ denote a [[Cauchy and Sylow Theorems#Sylow's Theorem|Sylow]] $2$-subgroup of $G$. The fixed field of $P_2$ is an extension of $\Bbb R$ of odd degree, hence it is trivial. 
+
+We see that $\text{Gal}(K(i)/\Bbb C)$ is a $2$-group. Since $2$-groups [[Solvable Groups#^e7deef|have subgroups of all orders]], if this group is nontrivial, there would exist a quadratic extension of $\Bbb C$, which contradicts our second lemma. Thus $\Bbb C$ is algebraically closed. 
+
+This theorem can be proven using [[Higher Derivatives of Analytic Functions#The Fundamental Theorem of Alegebra|analytical tools]]. 

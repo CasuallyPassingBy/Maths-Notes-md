@@ -74,7 +74,7 @@ We are gonna identify the plane $\Bbb R^2$ with $\Bbb C$, with the natural isomo
 - There exists a sequence $\alpha_0,\dots,\alpha_n\in\Bbb C$ such that $\alpha_i^2\in \Bbb Q(\alpha_0,\dots, \alpha_{i-1})$ and $\alpha\in \Bbb Q(\alpha_0,\dots, \alpha_n)$.
 - $\alpha$ is algebraic over $\Bbb Q$, and the [[Normal Closure of a Field|normal closure]] $N$ of $\Bbb Q(\alpha)/\Bbb Q$ has degree $[N: \Bbb Q] = 2^r$ for some integer $r \ge 0$. 
 
-**Gauss's Theorem:** Let $n \ge 1$ be an integer. The regular $n$-gon is constructible with compass and straightedge iff $$ n = 2^m p_1\cdots p_r,$$where $m\ge 0$ and $p_i$ are [[Fermat primes]]. 
+**Gauss-Wantzel Theorem:** Let $n \ge 1$ be an integer. The regular $n$-gon is constructible with compass and straightedge iff $$ n = 2^m p_1\cdots p_r,$$where $m\ge 0$ and $p_i$ are [[Fermat primes]]. 
 
 The proof relies that a primitive $n$th root of unity is constructible iff the regular $n$-gon is constructible. We use that we  the $n$th [[Cyclotomic Polynomials and Extensions|cyclotomic extension]] is a normal extension, and that we know has degree $\varphi(n)$. Finally, we just check that $\varphi(n)$ is a power of $2$, which only happens if the odd primes are Fermat primes, and with $1$ as their exponent. 
 

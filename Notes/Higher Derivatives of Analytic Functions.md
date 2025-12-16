@@ -63,6 +63,8 @@ If $f$ is an entire and there is a constant $M$, such that $|f(z)| \le M$ for al
 ### The Fundamental Theorem of Alegebra
 Let $a_0, a_1, \dots, a_n$ be a collection of $n+1$ complex numbers and suppose $n \ge1$ and $a_n \ne 0$. Let $p(z) = a_0 + a_1z +\dots a_n z^n$. Then there exists a point in $z_0 \in \Bbb C$, such that $p(z_0) =0$ .
 
+This theorem can be proven using exclusively [[Galois Groups of Polynomials#Fundamental Theorem of Algebra|algebraic tools]]. 
+
 **********Cor:********** If $P(x)$ is a polynoomial of degree $n \ge1$ with complex coefficients, then there exists constants $x_1, x_2,\dots, x_k$, and unique positive integers $m_1, m_2, \dots, m_k$, such that $\sum_{i = 1}^k m_i = n$, and
 
 $$ P(x) = a \prod_{i = 1}^k (x-x_i)^{m_i} $$
