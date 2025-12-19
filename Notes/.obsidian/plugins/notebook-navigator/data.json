@@ -247,6 +247,10 @@
     "Interesting Stuff I want continue Learning.md": {
       "folder": true,
       "tag": false
+    },
+    "Journal/Yang Aran Routine.md": {
+      "folder": true,
+      "tag": false
     }
   },
   "fileIcons": {},
@@ -269,9 +273,9 @@
   "tagAppearances": {},
   "recentColors": [],
   "lastShownVersion": "",
-  "latestKnownRelease": "1.9.1",
-  "lastAnnouncedRelease": "1.7.3",
-  "lastReleaseCheckAt": 1765915521105,
+  "latestKnownRelease": "1.9.2",
+  "lastAnnouncedRelease": "1.9.2",
+  "lastReleaseCheckAt": 1766105006850,
   "rootFolderOrder": [],
   "rootTagOrder": []
 }

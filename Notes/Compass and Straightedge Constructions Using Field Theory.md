@@ -72,7 +72,7 @@ We are gonna identify the plane $\Bbb R^2$ with $\Bbb C$, with the natural isomo
 **Th:** Let $\cal P\subseteq \Bbb C$ be a set of points that contain $0$ and $1$. Let $\alpha\in \Bbb C$. The following statements are equivalent.
 - $\alpha\in\Bbb C$ is constructible from $\cal P$.
 - There exists a sequence $\alpha_0,\dots,\alpha_n\in\Bbb C$ such that $\alpha_i^2\in \Bbb Q(\alpha_0,\dots, \alpha_{i-1})$ and $\alpha\in \Bbb Q(\alpha_0,\dots, \alpha_n)$.
-- $\alpha$ is algebraic over $\Bbb Q$, and the [[Normal Closure of a Field|normal closure]] $N$ of $\Bbb Q(\alpha)/\Bbb Q$ has degree $[N: \Bbb Q] = 2^r$ for some integer $r \ge 0$. 
+- $\alpha$ is algebraic over $\Bbb Q$, and the [[Normal and Galois Closure of a Field Extension|normal closure]] $N$ of $\Bbb Q(\alpha)/\Bbb Q$ has degree $[N: \Bbb Q] = 2^r$ for some integer $r \ge 0$. 
 
 **Gauss-Wantzel Theorem:** Let $n \ge 1$ be an integer. The regular $n$-gon is constructible with compass and straightedge iff $$ n = 2^m p_1\cdots p_r,$$where $m\ge 0$ and $p_i$ are [[Fermat primes]]. 
 

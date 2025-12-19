@@ -18,7 +18,7 @@ I am using Dummit's and Foote's 'Abstract Algebra', in particular the chapters t
 	- [[Cyclotomic Polynomials and Extensions]]
 - [[Automorphism Group of a Field Extension]]
 	- [[Splitting Fields and Normal Field Extensions]]
-		- [[Normal Closure of a Field]]
+		- [[Normal and Galois Closure of a Field Extension]]
 		- [[Separable Field Extensions]]
 			- [[Galois Field Extensions]]
 				- [[Finite Fields]]
