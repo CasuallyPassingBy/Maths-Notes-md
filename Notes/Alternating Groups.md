@@ -20,3 +20,7 @@ Links: [[Symmetric Groups]], [[Subgroups]]
 **Th:** $A_n$ is simple for every $n \ge 5$. 
 
 **Obs:** This theorem gives us a nice counter example to the converse of Lagrange's theorem. $A_5$ doesn't have a subgroup of order $30$, since that group would have to be normal. 
+
+**Prop:** We see that that for any $n \in  \Bbb N^+$, $$[A_n, A_n] \le [S_n, S_n] \le A_n$$
+- for $n \ge 3$, then $[S_n, S_n] = A_n$
+- for $n \ge 5$, then $[A_n, A_n] = A_n$, meaning that $A_n$ is perfect. 
