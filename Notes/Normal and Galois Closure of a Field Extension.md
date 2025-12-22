@@ -14,10 +14,11 @@ In other words, $N$ is the smallest extension of $L$ such that $N/F$ is normal.
 - There is a normal closure $N$ of $L/F$, and even more, $N/F$ is finite.
 - If $N'$ is a another normal closure $L/F$, the the extensions $N/F$ and $N'/F$ are isomorphic as field extensions. 
 
+**Lemma:** Let $K/F$ be a finite field extension, and fix an algebraic closure $\overline F$ of $F$. Let $\text{Hom}_F(K, \overline F)$ be the set of all $F$-embeddings of $K$ into $\overline F$. The composite field of $\{\sigma(K) \mid \sigma\in \text{Hom}_F(K, \overline F)\}$ is the normal closure of $K/F$. 
+
 **Def:** If $L/F$ is an algebraic and separable field extension, then the normal closure $N$ of $L/F$, then $N/F$ is a Galois field extension, and $N$ is called the *Galois closure* of $L/F$. 
 
 We can prove that this Galois extension exists using [[composite field extensions]]. 
-
 
 **Prop:** Let $K/F$ be a finite extension. Then $K = F(\theta)$ iff there exists only finitely many subfields of $K$ containing $F$.
 

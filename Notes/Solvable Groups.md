@@ -2,8 +2,10 @@
 tags:
   - GroupTheory
 ---
-gSubjects: [[Group Theory]]
+Subjects: [[Group Theory]]
 Links: [[Commutator Subgroup]], [[Normal Subgroups and Quotient Groups]]
+
+The terminology of solvable groups actually comes from field theory, and in particular, when we are interested in [[Solvable and Radical Extensions|solving polynomials by radicals]]. 
 
 **Def:** If $G$ is any group, we say that a *normal series* of $G$ is a chain of subgroups $$\{e\} 
 = G_n \subseteq \dots \subseteq G_2 \subseteq G_1 \subseteq G_0 := G,$$such that $G_{m + 1} \trianglelefteq G_m$ for every $m$. The quotients of the series are $G_m/G_{m+1}$, and the *length of the series* is the number of strict inclusions. 

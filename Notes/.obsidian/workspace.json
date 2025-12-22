@@ -13,17 +13,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/2025-12-19.md",
+                "file": "Journal/2025-12-21.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-19"
+              "title": "2025-12-21"
             }
           },
           {
-            "id": "c7574f7beb3ae506",
+            "id": "d5cec221d7ac459c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,6 +35,21 @@
               },
               "icon": "lucide-file",
               "title": "Solvable and Radical Extensions"
+            }
+          },
+          {
+            "id": "a0226b813554b694",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Composite Field Extensions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Composite Field Extensions"
             }
           },
           {
@@ -50,6 +65,16 @@
               },
               "icon": "lucide-file",
               "title": "Yang Aran Routine"
+            }
+          },
+          {
+            "id": "33b8f53b9cb5ef99",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -227,38 +252,38 @@
   "active": "306717e6ee51c0c4",
   "lastOpenFiles": [
     "Journal/Yang Aran Routine.md",
-    "Journal/2025-12-19.md",
+    "Journal/2025-12-21.md",
     "Solvable and Radical Extensions.md",
-    "Field Theory.md",
     "Composite Field Extensions.md",
+    "Solvable Groups.md",
+    "Galois Groups of Polynomials.md",
+    "Vandermonde matrix.md",
+    "Normal and Galois Closure of a Field Extension.md",
+    "Journal/2025-12-20.md",
+    "Journal/2025-12-19.md",
+    "Interpolation and Polynomial Approximation.md",
+    "Field Theory.md",
     "Cyclotomic Polynomials and Extensions.md",
     "Dihedral Groups.md",
     "Semidirect Product of Groups.md",
     "Alternating Groups.md",
     "Commutator Subgroup.md",
-    "Galois Groups of Polynomials.md",
     "Templates/Daily Template.md",
     "Symmetric Groups.md",
-    "Normal and Galois Closure of a Field Extension.md",
     "Journal/2025-12-18.md",
     "Binomial Coefficients.md",
     "Determinants.md",
     "Compass and Straightedge Constructions Using Field Theory.md",
     "Higher Derivatives of Analytic Functions.md",
-    "Solvable Groups.md",
     "Synchronous Logic Design.md",
     "Digital Circuits.md",
-    "Latches and Flip-Flops.md",
     "Pasted image 20251214203248.png",
     "Pasted image 20251214203014.png",
     "Pasted image 20251214200137.png",
     "Pasted image 20251214200032.png",
-    "Interesting Stuff I want continue Learning.md",
-    "Timing of Digital Circuits.md",
     "Pasted image 20251212005936.png",
     "Pasted image 20251212005526.png",
     "Pasted image 20251212004720.png",
-    "Journal/2025-12-11.md",
     "Jobs",
     "Pasted image 20251204143947.png",
     "backgrounds/frieren.jpeg",

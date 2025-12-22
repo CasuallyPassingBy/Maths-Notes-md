@@ -50,6 +50,8 @@ We see that the discriminant is a symmetric functions and hence an element of $K
 
 This property together with the fact that $D= 0$ determines the presence of multiple roots, is the reason $D$ is called the *discriminant*. 
 
+We can see that the $\sqrt D$ has a very similar form to the determinant of a [[Vandermonde matrix]]. 
+
 ## Polynomials of Degree $2$
 If we consider the polynomial $x^2+ax+b$ with roots $\alpha, \beta$. The discriminant $D$ is just $(\alpha-\beta)^2$, can be written easily as $s_1^2-4s_2$, meaning that $$D = a^2-4b = (\alpha-\beta)^2.$$
 We see that the polynomial is separable iff $a^2-4b \neq 0$. The Galois group is a subgroup of $S_2\cong C_2$, and it is trivial iff $a^2-4b$ is a square, which completely determines the possible Galois groups. This actually tells us that if the polynomial is reducible, $D$ is a square in $F$, then the Galois group is trivial, while if the polynomial is irreducible the Galois group is isomorphic $C_2$ since the splitting field is the quadratic extension $F(\sqrt D)$. 
