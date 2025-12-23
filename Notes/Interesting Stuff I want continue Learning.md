@@ -56,7 +56,7 @@
 			- [x] Finite Fields
 			- [x] Composite Extensions and Simple Extensions
 			- [x] Cyclotomic Extensions and Abelian Extensions over $\Bbb Q$
-			- [ ] Galois Group of Polynomials
+			- [x] Galois Group of Polynomials
 			- [ ] Solvable and Radical Extensions: Insolvability of the Quintic
 			- [ ] Computations of Galois Groups over $\Bbb Q$
 			- [ ] Transcendental Extensions, Inseperable Extenstions, Infinite Galois Groups
@@ -67,7 +67,7 @@
 		- [x] Straightedge and Compass Constructions
 		- [ ] Radical Solubilty
 	- [ ] Origami Constructible Numbers
-	- [ ] Marked Ruler and Compass Constructible Numbers
+	- [ ] Marked Ruler and Compass Constr uctible Numbers
 -  Number Theory 
 	- [ ] Niven
 		- [x] Divisibilty

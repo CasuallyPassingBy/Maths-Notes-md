@@ -19,7 +19,7 @@ In the language of group theory, we see that $a$ is a generator of the multiplic
 
 **Th:** If $p$ is prime, then there are $\phi(p-1)$ primitive roots modulo $p$. The only numbers that have primitive roots are $p^k$, $2p^k$, $2$ and $4$ with an odd prime $p$. 
 
-**Cor:** Let $p$ be a prime. The multiplicative group $(\Bbb Z/p \Bbb Z)^\times$ of nonzero residue classes $\mod p$ is cyclic. 
+**Cor:** Let $p$ be a prime. The multiplicative group $(\Bbb Z/p \Bbb Z)^\times$ of nonzero residue classes $\mod p$ is cyclic. you didnt expect that comment
 
 **Cor:** Let $n \ge 2$ be an integer with factorisation $n = \prod_{k = 0}^\infty p_k ^{\alpha_k}$ in $\Bbb Z$. We have the following isomorphisms of multiplicative groups:
 - $(\Bbb Z/n\Bbb Z)^\times \cong \prod_{k = 0}^\infty (\Bbb Z/p^\alpha \Bbb Z)^\times$.

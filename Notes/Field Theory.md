@@ -25,7 +25,7 @@ I am using Dummit's and Foote's 'Abstract Algebra', in particular the chapters t
 					- [[Berlekamp's Factorisation Algorithm]]
 					- [[Artin-Schreier Extensions]]
 				- [[Galois Groups of Polynomials]]
-					- [[Solvable and Radical Extensions]]
+					- [[Solvable Polynomials and Radical Extensions]]
 	- [[Composite Field Extensions]]
 - [[Linear Algebraic Invariants in Field Theory]]
 - [[Compass and Straightedge Constructions Using Field Theory]]

@@ -3,7 +3,25 @@ tags:
   - FieldTheory
 ---
 Subjects: [[Field Theory]]
-Links: [[Field Extensions]]
+Links: [[Field Extensions]], [[Separable Field Extensions]], [[Characteristic of a Ring]], [[Splitting Fields and Normal Field Extensions]]
+
+If $K$ is a field, let $L$ be the splitting field of the polynomial $x^n -1\in K[x]$. If $K = \Bbb Q$, the polynomial is separable, but if $K$ has characteristic $p> 0$, and $n = p^r q$ with $p\not\mid q$, then $$x^n-1 = (x^q-1)^{p^r}\in K[x], $$and the splitting field of $x^q-1$ is the same as the splitting field of $x^n-1$. With this in mind, we can focus on the splitting fields of $x^n -1$ with $p\not\mid n$. Let suppose that the characteristic of $K$ doesn't divide $n$ and $L$ be the splitting field of $x^n-1$. The $n$th roots of unity form a finite group, $\mu_n \le  L^*$, this must be a cyclic group of order $n$. A generator of $\mu_n$ is called a *primitive $n$th root of unity.* If $\omega$ is a primitive $n$th root of unity, then $L = K(\omega)$. We call the fields $L = K(\omega)$ is called a *cyclotomic field*. 
+
+We see that every primitive $n$th root of unity can be used to generate $L$, if we consiser the all of the primitive roots of unity, the polynomial that they define is $$\Phi_n(x) :=\prod_{\omega}(x-\omega)\in L[x],$$where the product is over all the primitive $n$th roots of unity, and this polynomial is known as the $n$th cyclotomic polynomial. 
+
+**Prop:** Let $K$ be a field and suppose that the characteristic of $K$ doesn't divide $n$. If $K_0$ is its prime field of $K$, then $\Phi_n(x)\in K_0[x]$. 
+
+**Th:** Let $K$ be a field and suppose that the characteristic of $K$ doesn't divide $n$. Let $\Phi_n$ the $n$th cyclotomic polynomial over $K$, and let $L$ be the splitting field of $\Phi_n$ over $K$, then
+- The extensions $L/K$ is finite and Galois, and $L = K(\omega)$, where $\omega$ is an primitive $n$th root of unity.
+- The group $\text{Gal}(L/K)$ is abelian, and is isomorphic to a subgroup of $(\Bbb Z/n\Bbb Z)^\times$.
+- The polynomial $\Phi_n$ is irreducible over $K$ iff $\text{Gal}(L/K) \cong (\Bbb Z/n\Bbb Z)^\times$. 
+
+**Prop:** Let $p$ be a prime and $n$ be a positive integer such that $p\not\mid n$. 
+- If $\omega$ is a primitive $n$th root of unity, then $[\Bbb F_p(\omega) : \Bbb F_p] = e$, where $e$ is the order of $p$ in $(\Bbb Z/n\Bbb Z)^\times$. 
+- $\Phi_n$ is irreducible over $\Bbb F_p$ iff $(\Bbb Z/n\Bbb Z)^\times$ is a cyclic group with $p$ as a generator.
+
+The proposition above tells us that the there must be a primitive root modulo $n$, so must be of the form $q^k$, $2q^k$, $2$ and $4$. 
+# Cyclotmic Extensions over $\Bbb Q$
 
 **Def:** Let $\mu_n$ denote the *group of $n$th roots of unity* over $\Bbb Q$. 
 
@@ -11,7 +29,7 @@ Links: [[Field Extensions]]
 
 **Obs:** Suppose $m$ and $n$ are relatively prime positive integers. Then $\zeta_m \zeta_n$ is a primitive $mn$th root of unity. If $\zeta_n$ is a primitive $n$th root of unity, and $d$ is divisor of $n$, then $\zeta_n^d$ is a primitive $(n/d)$th root of unity. 
 
-**Def:** We define the $n$th cyclotomic polynomial $\Phi_n(x)$ to be the polynomial whose rors are the primitive $n$th roots of unity $$\Phi_n(x) := \prod_{\zeta \text{ primitive }\in \mu_n}(x-\zeta) = \prod_{\substack{1 \le a <n \\ (a, n) = 1}} (x-\zeta_n^a),$$which has degree $\varphi(n)$, where $\varphi(n)$ is the [[Euler totient function]]. 
+**Def:** We define the $n$th cyclotomic polynomial $\Phi_n(x)$ to be the polynomial whose roots are the primitive $n$th roots of unity $$\Phi_n(x) := \prod_{\zeta \text{ primitive }\in \mu_n}(x-\zeta) = \prod_{\substack{1 \le a <n \\ (a, n) = 1}} (x-\zeta_n^a),$$which has degree $\varphi(n)$, where $\varphi(n)$ is the [[Euler totient function]]. 
 
 **Obs:** Let $n$ be a positive integer, then $$x^n-1 = \prod_{d \mid n}\Phi_d(x).$$This is equivalent to $$n = \sum_{d\mid n}\phi(d) $$
 **Lemma:** The cyclotomic polynomial $\Phi_n(x)$ is a monic polynomial in $\Bbb Z[x]$ of degree $\varphi(n)$. 
