@@ -27,13 +27,13 @@ We see that $(\alpha, \zeta)^n$ is fixed by $\text{Gal}(K/F)$, hence is an eleme
 
 If we want to examine what happens when $\text{char K} \mid n$, we need to consider the [[Artin-Schreier Extensions]]. 
 
-**Def:** An element $\alpha$ which is algebraic over $F$ can be *expressed by radicals* or *solved for in terms of radicals* if $\alpha$ is an element of a field $K$ which can be obtained by a succession of simple radical extensions $$F = K_0 \hookrightarrow K_1 \hookrightarrow \cdots \hookrightarrow K_i \hookrightarrow K_{i+1} \hookrightarrow \cdots \hookrightarrow K_n = K$$where $K_{i+1} = K_i (\sqrt[n_i]{ a_i})$ for some $a_i \in K_i$, $i = 0, 1,\dots, n-1$. Here $\sqrt[n_i]{a_i}$ denotes some root of the polynomial $x^{n_i}-a_i$. such a field $K$ will be called a *root extension* of $F$.
+**Def:** A finite extension $L/K$ is called a *radical extension* if it is separable and there is an tower of extensions $$K \subseteq K_1\subseteq \dots \subseteq K_n  = L$$where each subextension $K_{j+1}/K_j$ is of the following types:
+- We adjoin a root of unity.
+- We adjoin a root of the polynomial $x^{n_j}-a_j\in K_j[x]$, and $n_j$ is not divisible by $\text{char }K_j.$
+- We adjoin a root of the polynomial $x^{p}-x-a_j\in K_j[x]$, and $0 \neq p = \text{char }K_j$. 
+A tower of extensions such as above is called a *radical tower.* A finite extension $M/K$ is *solvable by radicals* if there exist a radical extension $L/K$ such that $M \subseteq L$. 
 
-A polynomial $f(x)\in F[x]$ can be *solved by radicals* if all its roots can be solved for in terms of radicals.
-
-This gives us a precise meaning to the intuitive notion that $\alpha$ is obtained by successive algebraic operations and successive root extractions. 
-
-In considering radical extensions one may always adjoin roots of unity, since by definition roots of unity are radicals. 
+A polynomial $f(x)\in K[x]$ can be *solved by radicals* if its splitting field is solvable by radicals. 
 
 **Obs:** The composite of two root extensions is again a root extension. 
 
@@ -64,3 +64,14 @@ Let us consider the cubic $$f(x) = x^3+ax^2+bx+c,$$ the substituion where $x = y
 \theta_1^3 &= -3q + \frac32 \rho(3q+\sqrt D) + \frac32 \rho^2(3q-\sqrt D) -6q \\&= \frac{-27}{2}q + \frac 32 \sqrt{-3D}\end{align*}$$Again, we can do some calculations to get that $$\theta_1 \theta_2 = -3p.$$Using $D = -4p^3-27q^2$, we obtain Cardano's explicit formulas. Let $$\begin{align*} A &= \sqrt[3]{\frac{-27}{2}q + \frac 32 \sqrt{-3D}} \\ B &=\sqrt[3]{\frac{-27}{2}q - \frac 32 \sqrt{-3D}} \end{align*}$$Lastly, the roots of the equation $y^3+py+q = 0$ are $$\alpha= \frac{A+B}{3},\quad  \beta = \frac{\rho^2 A+ \rho B}{3}, \quad \gamma = \frac{\rho A+ \rho^2 B}{3},$$where $\rho = -\dfrac12 + \dfrac12 \sqrt{-3}$. 
 
 There are two notable cases that can be distinguished by the sign of the discriminant. 
+
+## Solution of Quartic Equations By Radicals
+
+We consider the case of the quartic polynomial $f(x) = x^4+ax^3+bx^2+cx+d$, which under the substitution $x = y-a/4$ becomes the quartic $$g(y) = y^4+py^2+qy+r$$with $$\begin{align*} p &:=\frac18(-3a^2+8b) \\ q&:= \frac 18 (a^3-4ab+8c) \\ r &:= \frac 1{256}(-3a^4+16a^2b-64ac+256d)\end{align*}.$$ Let the roots of $g(y)$ be $\alpha_1,\dots\alpha_4$. The resolvent cubic is $$h(x) = x^3-2px^2+(p^2-4r)x+ q^2 $$and has roots $$\begin{align*} \theta_1 &:= (\alpha_1 +\alpha_2)(\alpha_3 + \alpha_4) \\ \theta_2 &:= (\alpha_1 +\alpha_3)(\alpha_2+ \alpha_4) \\ \theta_3 &:= (\alpha_1 +\alpha_4)(\alpha_2 + \alpha_3) \end{align*}.$$
+The Galois group of the splitting field for $f(x)$ over the splitting field of the resolvent cubic $h(x)$ is $V$, the Klein $4$-group. We know that such extensions are [[Biquadratic Field Extensions|biquadratic]], which means that it is possible to solve for the roots $\alpha_1,\dots, \alpha_4$ in terms of square roots of expressions involving $\theta_1$, $\theta_2$ and $\theta_3$ of the resolvent cubic. We have that $$\begin{align*}
+&\sqrt{-\theta_1} =\alpha_1 +\alpha_2 \quad -\sqrt{-\theta_1} =\alpha_3 +\alpha_4 \\
+&\sqrt{-\theta_2} =\alpha_1 +\alpha_3 \quad -\sqrt{-\theta_2} =\alpha_2 +\alpha_4 \\
+&\sqrt{-\theta_3} =\alpha_1 +\alpha_4 \quad -\sqrt{-\theta_2} =\alpha_2 +\alpha_3 .\\
+\end{align*}
+$$
+We can see that $\sqrt{-\theta_1}\sqrt{-\theta_2}\sqrt{-\theta_3} = -q$, so that the choice of two square roots determines the third. Since $\alpha_1 +\alpha_2+\alpha_3+\alpha_4 = 0$, if we add left-handed equations we obtain $2\alpha_1$.  $$\begin{align*} 2\alpha_1 &= \sqrt{-\theta_1} + \sqrt{-\theta_2}+ \sqrt{-\theta_3} \\ 2\alpha_2 &= \sqrt{-\theta_1} - \sqrt{-\theta_2} - \sqrt{-\theta_3} \\ 2\alpha_3 &=  -\sqrt{-\theta_1} + \sqrt{-\theta_2}- \sqrt{-\theta_3} \\ 2\alpha_4 &=  -\sqrt{-\theta_1} - \sqrt{-\theta_2}+ \sqrt{-\theta_3} \end{align*}$$which reduced the solutions of the quartic equation to the solution of the associated resolvent cubic. 

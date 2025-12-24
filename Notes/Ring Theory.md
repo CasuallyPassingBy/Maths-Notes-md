@@ -17,6 +17,7 @@ I am using Dummit's and Foote's 'Abstract Algebra', in particular the chapters t
 		- [[Formal Power Series Ring of a Single Variable]]
 		- [[Formal Laurent Series Ring of a Single Variable]]
 		- [[Polynomials in Several Variables over a Field]] (Pending Construction)
+			- [[Gröbner Bases]]
 			- [[Symmetric Polynomials]]
 	- [[Matrix Rings]]
 	- [[Group Rings]]

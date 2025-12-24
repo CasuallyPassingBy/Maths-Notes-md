@@ -48,24 +48,8 @@
 		- [ ] Algebraic Integers
 	- [ ] Rotman 
 - Field Theory
-	- [ ] Dummit & Foote
-		- [x] Field Theory
-		- [ ] Galois Theory
-			- [x] Basic Definitions
-			- [x] Fundamental Theorem of Galois Theory
-			- [x] Finite Fields
-			- [x] Composite Extensions and Simple Extensions
-			- [x] Cyclotomic Extensions and Abelian Extensions over $\Bbb Q$
-			- [x] Galois Group of Polynomials
-			- [ ] Solvable and Radical Extensions: Insolvability of the Quintic
-			- [ ] Computations of Galois Groups over $\Bbb Q$
-			- [ ] Transcendental Extensions, Inseperable Extenstions, Infinite Galois Groups
-	- [ ] Zaldivar
-		- [x] Rings
-		- [x] Fields
-		- [x] Elements of Galois Theory
-		- [x] Straightedge and Compass Constructions
-		- [ ] Radical Solubilty
+	- [x] Dummit & Foote
+	- [x] Zaldivar
 	- [ ] Origami Constructible Numbers
 	- [ ] Marked Ruler and Compass Constr uctible Numbers
 -  Number Theory 
