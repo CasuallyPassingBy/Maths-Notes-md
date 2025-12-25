@@ -78,3 +78,28 @@ Since $\#^2 = 1$, there is a refinement in the grading of $\mathcal T^*(V)$. An 
 **Obs:** This definition implies that $$\widetilde{(\alpha_1 \otimes \alpha_2 \otimes \dots \otimes \alpha_p)} = \alpha_p \otimes \dots\otimes \alpha_2 \otimes \alpha_1,$$for $\{\alpha_k \mid 1\le k\le p\} \subseteq V'$, which justifies the name reversion. 
 
 **Def:** The composition of grade involution and the reversion is called *conjutation* and it is denoted by a bar: $$\overline  T_p := \#\left(\widetilde{T_p}\right) = \widetilde{\#(T_p)}. $$
+
+# Symmetric Tensors
+
+We care considering a field that let's us have the appropriate factorials, for example a field of [[Characteristic of a Ring|characteristic]] $0$. 
+
+Symmetric tensors, those whose value are unchanged by rearranging their arguments, are extremely important in differential geometry. We will only consider covariant and contravariant tensors. 
+
+Let $V$ be a finite dimensional vector space, and $k$ be a positive integer. There's a natural [[Group Actions|action]] from $S_k$ to $\mathcal T^k(V)$ and $\mathcal T_k(V)$. This actions is to permute the entries of a given tensor, given $\sigma\in S_k$ and $T$ a $k$-contravariant or covariant tensor, then  $$\sigma T(X_1,\dots, X_k) := T(X_{\sigma(1)}, \dots, X_{\sigma(k)}).$$
+We say that a tensor is symmetric if for every $\sigma\in S_k$, then $\sigma T=T$, meaning that $(S_k)_T = S_k$, or that the stabiliser of $T$ under this action is the whole group. The set of covariant $k$-tensors on $V$ is denoted by $\Sigma^k(V)$, and the set of contravariant $k$-tensors on $V$ is denoted by $\Sigma_k(V)$. Note that a tensor $T$ is symmetric iff the its components $T_{i_1,\dots, i_k}$ with respect to any basis are unchanged by any permutation of indices.
+
+We define $\text{Sym }T$ by $$\text{Sym }T:= \frac1{k!}\sum_{\sigma\in S_k}\sigma T.$$
+
+**Properties of Symmetrisation:** 
+- For any covariant or contravariant tensor $T$, $\text{Sym }T$ is symmetric. 
+- $T$ is symmetric iff $\text{Sym }T =T$. 
+
+If $S$ and $T$ are symmetric tensors on $V$, then $S\otimes T$ is not symmetric, in general. Thus, we we want a product that also respects symmetry. If $S\in \Sigma^k(V)$ and $T\in\Sigma^\ell(V)$, we define their *symmetric product* to be the $(k+\ell)$-tensor $ST$ given by $$ST := \text{Sym }(S \otimes T). $$
+
+Let $V$ be an $n$-dimensional real vector space. Then $\dim \Sigma^k(V) = {n+k-1\choose k}$. 
+
+**Properties of the Symmetric Product:** 
+- The symmetric product is symmetric and bilinear: for all symmetric tensors $R, S, T$ and all $a, b\in F$, $$ST =TS $$and $$(aR+bS)T = aRT+ bST = T(aR+bS).$$
+- $R(ST) = R(ST)$, meaning that the symmetric product is associative. 
+- If $\omega$ and $\eta$ are covectors, then $$\omega \eta = \frac12 (\omega\otimes \eta + \eta\otimes \omega) $$
+

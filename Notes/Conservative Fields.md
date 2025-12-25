@@ -37,13 +37,11 @@ $$ J_F(x) =(J_F (x))^\top $$
 for all $x \in U$ iff $F$ is a conservative field on $U$.
 
 ### Smooth Homotopy
-**Def:** A homotopy $H:[0,1]\times [0,1] \to G$ is called smooth if the intermediate curves $\gamma_s(t)$ are piecewise smooth functions of $t$ for each $s$ and the cross curves $\lambda_t(s)$ are piecewise smooth functions of $s$ for each $t$
+**Def:** A homotopy $H:[0,1]\times [0,1] \to G$ is called smooth if the intermediate curves $\gamma_s(t)$ are piecewise smooth functions of $t$ for each $s$ and the cross curves $\lambda_t(s)$ are piecewise smooth functions of $s$ for each $t$.
 
-********************************************Smooth Deformation Theorem:******************************************** Suppose $F$ is a $\cal C^1$ function with symmetric Jacobian matrix on an open set $G$ and that $\Gamma_0$ and $\Gamma_1$ are piecewise smooth in $G$, with parametrizations $\gamma_0$ and $\gamma_1$ respectively. .
-- If $\gamma_0$ and $\gamma_1$ are paths from $x_0$ to $x_1$ and are homotopic in $G$ with fixed endpoints with a smooth homotopy, then
-    $$ \int_{\Gamma_0} F \cdot\, d\gamma_0 = \int_{\Gamma_1} F \cdot\, d\gamma_1 $$
-- If $\gamma_0$ and $\gamma_1$ are closed curves which are homotopic as closed curves in $G$ with a smooth homotopy, then
-    $$ \oint_{\Gamma_0} F \cdot\, d\gamma_0= \oint_{\Gamma_1} F \cdot\, d\gamma_1 $$
+********************************************Smooth Deformation Theorem:******************************************** Suppose $F$ is a $\mathcal C^1$ function with symmetric Jacobian matrix on an open set $G$ and that $\Gamma_0$ and $\Gamma_1$ are piecewise smooth in $G$, with parametrizations $\gamma_0$ and $\gamma_1$ respectively. .
+- If $\gamma_0$ and $\gamma_1$ are paths from $x_0$ to $x_1$ and are homotopic in $G$ with fixed endpoints with a smooth homotopy, then    $$ \int_{\Gamma_0} F \cdot\, d\gamma_0 = \int_{\Gamma_1} F \cdot\, d\gamma_1 $$
+- If $\gamma_0$ and $\gamma_1$ are closed curves which are homotopic as closed curves in $G$ with a smooth homotopy, then    $$ \oint_{\Gamma_0} F \cdot\, d\gamma_0= \oint_{\Gamma_1} F \cdot\, d\gamma_1 $$
 
 Still lacks the theory of integration on continuous curves, to get this result. The proof is equivalent to the one to prove [[Homotopy in C#Smooth Deformation Theorem|Smooth Deformation Theorem]] of complex analysis.
 

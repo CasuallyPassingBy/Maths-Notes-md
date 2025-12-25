@@ -54,7 +54,10 @@ The inverse image image $F^{-1}\{c\}$ of a regular value $c$ is called a *regula
 
 **Lemma:** Suppose $S\subseteq M$ is an embedded submanifold. If $\Phi: U \to N$ is any local defining map for $S$, then $T_p S = \ker (d\Phi_p)$, where $\Phi_* = d\Phi_p : T_p M \to T_{\Phi(p)} N$ for each $p \in S \cap U$.  ^83d047
 
-**Lagrange Multipliers:** Let $M$ be a smooth manifold, and let $C\subseteq M$ be an embedded submanifold that admits a global defining function $\Phi: M \to \Bbb R^k$. Let $f\in  \mathcal C^\infty(M)$, and suppose $p\in C$ is a point at which $f$ attains its maximum or minimum value among points in $C$. Them there are real numbers $\lambda_1,\dots, \lambda_k$ (called *Lagrange multipliers*) such that $$df_p = \sum_{n = 1}^k\lambda_n d\Phi^k|_p.$$
+**Lagrange Multipliers:** Let $M$ be a smooth manifold, and let $C\subseteq M$ be an embedded submanifold that admits a global defining function $\Phi: M \to \Bbb R^k$. Let $f\in  \mathcal C^\infty(M)$, and suppose $p\in C$ is a point at which $f$ attains its maximum or minimum value among points in $C$. Them there are real numbers $\lambda_1,\dots, \lambda_k$ (called *Lagrange multipliers*) such that $$df_p = \sum_{n = 1}^k\lambda_n d\Phi^k|_p.$$ ^f347ae
+
+The proof of this relies on the fact $\{d\Phi^1|_p,\dots, d\Phi^l|_p\}$ forms a basis for the [[Dual Vector Spaces#^500dc6|annihilator]] of $T_p C$. A critical point of $f|_C$ must have a vanishing differential, then $d(f|_C)_p$ must be an element of the annihilator of $T_p C$ when seen as subspace of $T_pM$. 
+
 **Def:** Suppose $\Phi: M \to N$ is a smooth map and $S\subseteq M$ is an embedded submanifold. We say that $\Phi$ is *transverse to S* if for every $p\in \Phi^{-1}[S]$, the spaces $T_{\Phi(p)}S$ and $\Phi_* T_p M$ together span $T_{\Phi(p)} N$, i.e., $$T_{\Phi(p)} S + d\Phi_p[ T_p M] = T_{\Phi(p)}N. $$We denote this relation as $\Phi \pitchfork Z$. 
 
 **Transversality Theorem:** A $\mathcal C^\infty$ map $\Phi: M \to N$ is transversal to a embedded submanifold $S$ of codimension $k$ in $M$, then $\Phi^{-1}[S]$ is embedded submanifold of codimension $k$ in $M$. 

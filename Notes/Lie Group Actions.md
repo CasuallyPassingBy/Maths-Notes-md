@@ -4,7 +4,7 @@ tags:
   - GroupTheory
 ---
 Subjects: [[Differential Geometry]], [[Group Theory]]
-Links: [[Group Actions]], [[Continuous Actions of Groups]], [[Lie Groups]], [[Representations of Groups]], [[General Linear Group]], [[Lie Algebra]], [[Lie Algebra of a Lie Group]], [[Continuous Actions of Groups#Proper Actions|Proper Actions]]
+Links: [[Group Actions]], [[Continuous Actions of Groups]], [[Lie Groups]], [[Representations of Groups]], [[General Linear Group]], [[Lie Algebra]], [[Lie Algebra of a Lie Group]], [[Continuous Actions of Groups#Proper Actions|Proper Actions]], [[Riemannian Metrics on Smooth Manifolds]]
 
 **Def:** A smooth manifold $M$ endowed with an smooth action from a Lie group $G$ is called a *smooth $G$-space*. 
 ## Representations
@@ -66,3 +66,13 @@ M \arrow{r}& M/\Gamma
 \end{tikzcd}
 \end{document}
 ```
+
+# Actions on Riemannian Manifolds
+
+Let $(M, g)$ be a connected Riemannian manifold, and let $\Gamma$ be a Lie group, and let $\theta: \Gamma\times  M \to M$ be a group action. We say that $\Gamma$ *acts by isometries* if for each $g\in \Gamma$, the map $\theta_g: M \to M$ is Riemannian isometry. $\Gamma$ acts *discontinuously* if no $\Gamma$-orbit has a limit point in $M$. 
+
+Acting by isometry can be also be understood as there being an group homomorphism $\theta: \Gamma\to \text{Iso}(M)$, The action being free and acting by isometry would imply that the group homomorphism is injective. 
+
+**Prop:** If $\Gamma$ acts, freely, smoothly, and discontinuously on $M$ by isometries, then the quotient map $M \to M/\Gamma$ is a smooth covering map. 
+
+**Prop:** Let $\Gamma$ be a discrete group acting smoothly, freely, and properly on a connected smooth manifold $\widetilde M$, and let $M = \widetilde M/\Gamma$. If a Riemannian metric $\widetilde g$ on $\widetilde M$ is a pullback of a metric on $M$ by the quotient map $\pi: \widetilde M\to M$ iff $\Gamma$ acts by isometry. 

@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Covering Maps]], [[Smooth Functions on Smooth Manifolds]], [[Proper Maps]]
+Links: [[Covering Maps]], [[Smooth Functions on Smooth Manifolds]], [[Proper Maps]], [[Covering maps]]
 
 **Def:** If $N$ and $M$ are connected smooth manifolds, a *smooth covering map* $\pi: N \to M$ is a smooth surjective map with the property that every $p\in M$ has a connected neighbourhood $U$ such that each components of $\pi^{-1}[U]$ is mapped *diffeomorphically* onto $U$ by $\pi$. In this context we will say that $U$ is evenly covered. The manifold $M$ is called the *base* of the *covering*, and $N$ is called a *covering manifold*.
 
@@ -39,4 +39,4 @@ N \arrow[d,two heads, "\pi"'] \arrow[dr, "F \circ \pi"] \\ M \arrow[r, "F"'] & L
 
 **Prop:** Let $\pi:N \to M$ be a smooth covering map. With the discrete topology, the covering group $\mathcal C_\pi(N)$ is a zero dimensional [[Lie groups|Lie group]] [[Lie group Actions|acting]] smoothly, freely and properly on $N$. 
 
-$(*)$ **Prop:** A covering map $\pi: N \to M$ is normal iff $\pi_*(\pi_1(N, p))$ is a normal subgroup of $\pi_1(M, \pi(p))$ for any $p\in N$. 
+**Prop:** A covering map $\pi: N \to M$ is normal iff $\pi_*(\pi_1(N, p))$ is a normal subgroup of $\pi_1(M, \pi(p))$ for any $p\in N$. 

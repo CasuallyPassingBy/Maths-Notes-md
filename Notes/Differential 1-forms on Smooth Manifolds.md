@@ -38,7 +38,7 @@ Let $(U, \phi)= (U, x^1, \dots, x^n)$ be a coordinate chart on a manifold $M$. T
 
 **Cor:** If $f$ is a smooth function of a manifold $M$, then its differential $df$ is a smooth $1$-form on $M$.
 
-Suppose $(U, x^1, \dots, x^n)$ and $(V, \dots, y^1, \dots, y^n)$ are two charts on $M$ with nonempty overlap. Then a smooth $1$-form $\omega$ on $U\cap V$ has two different local expressions: $$X =  X_i dx^i =  \tilde X_i dy^i.$$Then we see that $$X_k =  \tilde X_i \frac{\partial y^i}{\partial x^k}$$**
+Suppose $(U, x^1, \dots, x^n)$ and $(V, \dots, y^1, \dots, y^n)$ are two charts on $M$ with nonempty overlap. Then a smooth $1$-form $\omega$ on $U\cap V$ has two different local expressions: $$X =  X_i dx^i =  \tilde X_i dy^i.$$Then we see that $$X_k =  \tilde X_i \frac{\partial y^i}{\partial x^k}$$
 **Def:** If $\omega$ is a $1$-form and $X$ is a vector field on the manifold $M$, we define a function $\omega(X)$ on $M$ by the formula $$\omega(X)_p := \omega_p(X_p)\in \Bbb R, \qquad p \in M.$$
 **Prop (Linearity of a $1$-form over functions):** Let $\omega$ be a $1$-form on a manifold $M$. If $f$ is a function and $X$ is a vector field on $M$, then $\omega(fX) = f\omega(X)$. 
 

@@ -24,7 +24,7 @@ The dual map has some algebraic properties:
 - Let $T \in \mathcal L (U,V)$, and $S \in \mathcal L (V,W)$, then $(ST)' = T' S'$.
 
 Let $U \subseteq V$, *the annihilator of $U$*denoted as $U^0$, is defined as the set:
-$$ U^0=\{\phi \in V' \mid \phi[U] = \{0\}\} =\{\phi \in V' \mid U \subseteq \ker(\phi)\} $$
+$$ U^0=\{\phi \in V' \mid \phi[U] = \{0\}\} =\{\phi \in V' \mid U \subseteq \ker(\phi)\} $$ ^500dc6
 
 Suppose that $U\subseteq V$, then $U^0$ is a subspace of $V'$.
 
@@ -60,7 +60,15 @@ Where $([T]_\beta^\gamma)^\top$ is the transpose of $[T]_\beta^\gamma$. Similarl
 - $(\lambda A)^\top=\lambda A^\top$
 - $(AC)^\top = A^\top C^\top$
 
-Even though that $V \cong V'$ for finite dimensional spaces, there’s a more natural isomorphism between $V$ and $V''$. Let $V$ be finite dimensional, ${\Lambda:V \to V''}$ defined by $\Lambda(x) = \widehat x \in V''$ , and $\widehat x(f) = f(x)$, for $f\in V'$. $\Lambda$ is more natural since it doesn’t depend in choosing a basis for $V$.
+Even though that $V \cong V'$ for finite dimensional spaces, there’s a more natural isomorphism between $V$ and $V''$. Let $V$ be finite dimensional, ${\Lambda:V \to V''}$ defined by $\Lambda(x) = \widehat x \in V''$ , and $\widehat x(f) = f(x)$, for $f\in V'$. The map $\Lambda$ is more natural since it doesn’t depend in choosing a basis for $V$.
+
+This informal notion of 'natural', meaning independent of arbitrary choices and compatible with linear maps, can be made precise using category theory.
+
+If we put this intuition in the language of category theory we see the following. Let $\mathsf{ Vect}_K$ be the category of $K$-vector spaces with morphisms being $K$-linear transformations. Then we can define a functor $\mathcal D: \mathsf{Vect}_K \to \mathsf{Vect}_K$ as follows: 
+- $\mathcal D(V) = V'$, and $\mathcal D(T)= T'$. 
+Note that $\cal D$ is a contravariant functor.
+
+**Prop:** There is a [[Natural Transformations|natural transformation]] from $\mathcal D \circ \mathcal D$ to $\text{id}_{\mathsf{Vect}_K}$, but there is not one from $\cal D$ to $\text{id}_{\mathsf{Vect}_K}$, meaning that there is a 'natural' isomorphism from $V$ to $V''$, but there is no 'natural' isomorphism from $V$ to $V'$. 
 
 Suppose that $V$ is finite dimensional and $U$ is a subspace of $V$, then
 $$ \Lambda[U] = U^{00} $$

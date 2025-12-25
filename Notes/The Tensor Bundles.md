@@ -15,7 +15,7 @@ We can check that $T^k_qM$ can be made into a smooth vector bundle in a unique w
 
 We can also write this definition in a symbolic manner, $\mathcal T^k_q(M) := \Gamma(T^k_q M)$, and $\mathcal T^k (M) := \Gamma(T^k M)$. 
 
-In terms of any local frame, a $(k, q)$-tensor field $F$ can be written in terms of the basis, where now the components $F^{\nu_1, \dots, \nu_k}_{\mu_1, \dots, \mu_q}$ are to be interpreted as functions on $U$. In particular, in terms of a coordinate frame $\{\partial_i\}$ and its duall coframe $\{dx^i\}$, $F$ has the coordinate expression $$F_p = F^{\nu_1, \dots, \nu_k}_{\mu_1,\dots, \mu_q}(p) \partial_{\nu_1}\otimes \dots\otimes  \partial_{\nu_k}\otimes dx^{\mu_1}\otimes \dots \otimes dx^{\mu_q}.$$
+In terms of any local frame, a $(k, q)$-tensor field $F$ can be written in terms of the basis, where now the components $F^{\nu_1, \dots, \nu_k}_{\mu_1, \dots, \mu_q}$ are to be interpreted as functions on $U$. In particular, in terms of a coordinate frame $\{\partial_i\}$ and its dual coframe $\{dx^i\}$, $F$ has the coordinate expression $$F_p = F^{\nu_1, \dots, \nu_k}_{\mu_1,\dots, \mu_q}(p) \partial_{\nu_1}\otimes \dots\otimes  \partial_{\nu_k}\otimes dx^{\mu_1}\otimes \dots \otimes dx^{\mu_q}.$$
 **Prop:** Let $F: M \to T^k_qM$ be a section. $F$ is a smooth tensor field iff whenever $\{X_i\}$ are smooth vector fields and $\{\omega^j\}$ are smooth $1$-forms on an open set $U \subseteq M$, the function $F(\omega_1,\dots, \omega^q, X_1\dots, X_k)$ on $U$, defined by $$F(\omega_1,\dots, \omega^q, X_1\dots, X_k)(p) = F_p(\omega_1,\dots, \omega^q, X_1\dots, X_k),$$ is smooth.
 
 **Obs:** Let $F: M \to T^k_qM$ is a section. $F$ is smooth iff every one of its components is smooth.
@@ -23,6 +23,13 @@ In terms of any local frame, a $(k, q)$-tensor field $F$ can be written in terms
 Given a tensor field $F: \in \mathcal T^k_q(M)$, vector fields $X_i\in \mathcal T(M)$ , and $1$-forme $\mathcal T^1(M)$, $F$ induces a map $$F: \mathcal T^1(M) \times \dots \mathcal T^1(M)  \times \mathcal T(M) \times \mathcal T(M) \to \mathcal C^\infty(M).$$We can see that this map is *multilinear over $\mathcal C^\infty (M)$*. 
 
 **Prop:** A map   $$\tau:\mathcal T^1(M) \times \dots \mathcal T^1(M)  \times \mathcal T(M) \times \mathcal T(M) \to \mathcal C^\infty(M)$$is induced by $(k, q)$-tensor field as above iff it is a multilinear map over $\mathcal C^\infty (M)$. Similarly, a map $$\mathcal T^1(M) \times \dots \mathcal T^1(M)  \times \mathcal T(M) \times \mathcal T(M) \to \mathcal T(M)$$ is induced by a $(k, q+1)$-tensor field iff it is multilinear over $\mathcal C^\infty(M)$. This has the same property as [[Tensor Product of Linear Functions#^5d22c0|tensors]]. 
+
+**Lemma:** Let $M$ be a smooth manifold, and let $\sigma: M \to T^kM$ be a rough section. The following are equivalent.
+- $\sigma$ is smooth,
+- In any smooth coordinate chart, the component functions of $\sigma$ are smooth.
+- If $X_1,\dots, X_k$ are smooth vector fields defined on any open subset $U \subseteq M$, then the function $\sigma(X_1,\dots, X_k): U \to \Bbb R$, defined as $$\sigma(X_1,\dots, X_k)(p) _:= \sigma(X_1|_p, \dots, X_k|_p) $$is smooth. 
+
+**Lemma:** Let $M$ be a smooth manifold and suppose $\sigma\in \mathcal T^k(M)$, $\tau \mathcal T^\ell(M)$ and $f\in \mathcal C^\infty (M).$ The $f\sigma$ and $\sigma\otimes\tau$ are also smooth tensor fields whose compoentns un any smooth local coordinate chart are $(f\sigma)_{i_1,\dots, i_k} = f \sigma_{i_1,\dots, i_k}$, and $(\sigma\otimes \tau)_{i_1,\dots, i_{k+\ell}} = \sigma_{i_1,\dots, i_k}\tau_{i_1,\dots, i_\ell}$. 
 
 # Pullbacks
 
@@ -45,3 +52,5 @@ We see that the assignments $M \mapsto T^k M$ and $F\mapsto F^*$ yield a contrav
 - $(\text{Id}_N)^*\sigma = \sigma$
 
 **Cor:** Let $F:M \to N$ be smooth, and let $\sigma \in \mathcal T^k(N)$. If $p\in M$ and $(y^j)$ are smooth coordinates for $N$ on a neighbourhood $F(p)$, then $F^*\sigma$ has the following expression near $p$: $$F^*(\sigma_{j_1, \dots, j_k} dy^{j_1}\otimes \dots \otimes dy^{j_k}) = (\sigma_{j_1, \dots, j_k}\circ F) d(y^{j_1}\circ F)\otimes \dots \otimes d(y^{j_k}\circ F).$$
+
+A *symmetric tensor field* on a manifold is simply a covariant tensor field whose value at a point is a [[Tensor Product of Linear Functions#Symmetric Tensors|symmetric tensor]]. The symmetric product of two or more tensor fields is defined pointwise, just like the tensor product. 

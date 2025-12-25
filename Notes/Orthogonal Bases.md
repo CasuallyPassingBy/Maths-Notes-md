@@ -68,7 +68,7 @@ Suppose $V$ is a finite dimensional complex vector space and $T \in \mathcal L(V
 
 Let $V$ be s finite dimensional inner product space over $\mathbb F$, and $T \in \mathcal L(V)$. If the characteristic polynomial of $T$, $\chi_T$, splits over $\mathbb F$. Then there exists an orthonormal basis $\gamma$ for $V$ such that the matrix $[T]_\gamma$ is upper triangular.
 
-### Riesz Representation Theorem
+### Riesz' Representation Theorem
 Suppose $V$ is finite dimensional and $\phi \in V'$. Then there’s a unique vector $u \in V$ such that
 $$ \phi(v) = \langle v, u\rangle = \langle u| v\rangle $$
 

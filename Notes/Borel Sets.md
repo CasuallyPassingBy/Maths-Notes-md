@@ -1,7 +1,6 @@
 ---
 tags:
   - MeasureTheory
-  - Topology
 ---
 Subjects: [[Measure Theory]], [[Topology]]
 Links: [[Open and Closed Sets in R]], [[Real Numbers]], [[Rings and Algebras of Sets]], [[Ordinal Numbers#The Transfinite Induction Principle|Transfinite Induction]], [[Topological Spaces]]

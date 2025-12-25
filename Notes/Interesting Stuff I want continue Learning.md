@@ -17,16 +17,7 @@
 	- [ ] ("An Introduction to Clifford Algebras and Spinors")
 		- [ ] Exterior Algebra and Grassmann Algebra (Orientation and Quasi-Hodge Isomorphisms)
 -  Ring Theory
-	- [ ] Dummit & Foote
-		- [x] Introduction to Rings
-		- [x] Euclidean Domains, Principal Ideal Domains, and Unique Factorization Domains
-		- [ ] Polynomial Rings
-			- [x] Definitions and Basic Properties
-			- [x] Polynomials over Fields I
-			- [x] Polynomial Rings that are UFDs
-			- [x] Irreducibility Criteria
-			- [x] Polynomial Rings over Fields II
-			- [ ] Polynomials in Several Variables over a Field and Gröbner Bases
+	- [x] Dummit & Foote
 -  Group Theory
 	- [ ] Dummit & Foote
 	- [ ] Zaldivar (65%)
@@ -51,7 +42,7 @@
 	- [x] Dummit & Foote
 	- [x] Zaldivar
 	- [ ] Origami Constructible Numbers
-	- [ ] Marked Ruler and Compass Constr uctible Numbers
+	- [ ] Marked Ruler and Compass Constructible Numbers
 -  Number Theory 
 	- [ ] Niven
 		- [x] Divisibilty
@@ -202,3 +193,24 @@
 - [ ] Finite Operator Calculus (Finite Operator Calculus.pdf)
 - [ ] Umbral Calculus (Pure and Applied Mathematics 111)
 - Game Theory
+
+# Projects
+- [x] Chess
+- [ ] Brownian Motion & Diffusion
+	- [x] Write up
+	- [ ] Github
+		- [ ] README
+		- [ ] Organisation
+- [ ] Black-Scholes equations
+	- [x] Github
+		- [x] Write up
+	- [ ] Simulations
+- [ ] Higgs-Boson Detection
+	- [x] Write up
+	- [ ] Github
+		- [ ] README
+		- [ ] Organisation
+- [ ] NumAlgoJulia
+- [ ] Black Hole Simulation
+- [ ] Neural Networks with Nielsen
+- [ ] Upbringing of a Mage

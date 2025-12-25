@@ -5,6 +5,10 @@ tags:
 [[Central Hub]]
 # Overview
 
+This is related to:
+- [[Analytic Number Theory]]
+- [[Algebraic Number Theory]]
+
 # Topics
 - [[Integer Numbers]]
 	- [[Rational Numbers]]
