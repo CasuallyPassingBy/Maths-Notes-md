@@ -59,3 +59,4 @@ This notes uses Einstein's summation convention.
 - [[Orientations and Covectors]]
 
 - [[Riemannian Metrics on Smooth Manifolds]]
+	- [[The Tangent-Cotangent Bundle Isomorphism]]

@@ -80,3 +80,11 @@ M \arrow[r, "f^{-1}"'] & N
 \end{tikzcd}
 \end{document}
 ```
+
+# Tensor Bundles
+
+Let $\pi: E \to M$ be a smooth vector bundle over a smooth manifold $M$ of rank $r$. We can construct the 
+
+Suppose that $E$ is a smooth vector bundle over a smooth manifold $M$, and $V\subseteq M$ is an open set with the property that for each $p\in M$, the intersection of $V$ with the fiber $E_p$ is convex and nonempty. By a 'section of $V$' we will mean a section of $E$ whose image lies in $V$. 
+- There exists a smooth global section of $V$.
+- Suppose $A\to V$ is a smooth section of $V$ defined on a closed subset $A\subseteq M$. There is a smooth global section $\widetilde \sigma$ of $V$ whose restriction to $A$ is equal to $\sigma$. If $V$ contains the image of the zero section of $E$, then $\widetilde \sigma$ can be chosen to be supported in any predetermined neighbourhood of $A$. 
