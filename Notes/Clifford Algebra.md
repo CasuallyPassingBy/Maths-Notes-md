@@ -10,6 +10,7 @@ I am using "An Intrduction to Clifford Algebras and Spinnors" by Vaz and Rocha.
 - [[Vectors and Covectors]]
 	- [[Bilinear Forms]]
 	- [[Correlations, Musical Isomorphisms]]
+		- [[Symplectic Vector Spaces]]
 	- [[Tensor Product of Linear Functions]]
 - [[Exterior Algebra]]
 	- [[Exterior Algebra of Multicovectors]]

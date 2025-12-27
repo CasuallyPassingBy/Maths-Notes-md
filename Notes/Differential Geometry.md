@@ -18,6 +18,7 @@ This notes uses Einstein's summation convention.
 - [[Exterior Algebra]]
 	- [[Exterior Algebra of Multicovectors]]
 		- [[The Dual Functor and the Multicovector Functor]]
+		- [[Alternating Tensor Algebra]]
 
 - [[Differential Forms on Rn]]
 	- [[The Exterior Derivative on Rn]]
@@ -45,8 +46,9 @@ This notes uses Einstein's summation convention.
 - [[Smooth Partitions of Unity for Manifolds]]
 - [[The Cotangent Bundle]]
 	- [[Differential 1-forms on Smooth Manifolds]]
-	- [[Differential k-forms on Smooth Manifolds]]
+	- [[Differential forms on Smooth Manifolds]]
 		- [[The Exterior Derivative on Manifolds]]
+		- [[Symplectic Forms on Smooth Manifolds]]
 - [[Lie Groups]]
 	- [[Lie Subgroups]]
 	- [[Lie Algebra of a Lie Group]]

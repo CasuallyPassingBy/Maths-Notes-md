@@ -9,6 +9,18 @@ Links: [[Sets of Measure Zero in Smooth Manifolds]], [[The Whitney Embedding The
 
 **Whitney Approximation Theorem:** Let $M$ be a smooth manifold and let $F: M \to \Bbb R^k$ be a continuous function. Given any positive continuous function $\delta: M \to \Bbb R$, there exists a smooth function $\tilde F: M \to \Bbb R ^k$ that is $\delta$-close to $F$. If $F$ is smooth on a closed subset $A\subseteq M$, then $\tilde F$ can be chosen to be equal to $F$ on $A$.
 
+If we let $(M, g)$ be a [[Riemannian Metrics on Smooth Manifolds|Riemannian manifold]], we can extend this theorems to work for vector fields.
+
+**Def:** If $\delta: M \to \Bbb R$ is a positive continuous function, we say that two vector fields $X, Y: M \to TM$, in the Riemannian manifold $(M, g)$, if $\|X_p-Y_p\|_g < \delta(p)$ for all $p\in M$.
+
+**Th:** Let $(M, g)$ be a Riemannian manifold and let $X: M \to TM$ be a continuous vector field. Given any positive continuous function $\delta: M \to \Bbb R$, there exists a smooth vector field $Y: M \to TM$ such that is $\delta$-close to $X$. If $X$ is smooth on a closed subset $A\subseteq M$, then $Y$ can be chosen to be equal to $F$ on $A$. 
+
+**Cor:** Let $M$ be a smooth manifold. 
+- If there exists a global non-vanishing vector field on $M$, then there exists a global *smooth* non-vanishing vector field. 
+- If there exist $k$ independent vector fields on $M$, then there exists $k$ independent *smooth* vector fields.
+
+This corollary also depends on the fact that for every smooth manifold $M$, there exists a Riemannian metric. 
+
 ## Tubular Neighbourhoods
 
 **Def:** Let $M\subseteq \Bbb R^n$ be an embedded $m$-dimensional submanifold. At any $x\in M,$ out usual identifications allow us to view the tangent space $T_xM$ as a subspace of $T_x \Bbb R^n$, which inherits the Euclidean dot product courtesy of its canonical identification with $\Bbb R^n$. We define the *normal space* to $M$ at $x$ to be subspace $N_x M \subseteq T_x\Bbb R^n$ consisting of all vectors that are orthogonal to $T_x M$ with respect to the Euclidean dot product. The *normal bundle* of $M$ is the subset $NM \subseteq T\Bbb R^n$ defined by $$NM := \coprod_{x\in M}N_x M := \{(x, v) \in T\Bbb R^n\mid x\in M, v\in N_x M\}. $$There is a natural projection $\pi_{NM}: NM \to M$ defined as the restriction to $NM$ of $\pi: T\Bbb R^n \to \Bbb R^n$, and each fiber $N_xM$ is vector space of dimension $n-m$. 

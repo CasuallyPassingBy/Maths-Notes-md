@@ -7,7 +7,7 @@ Links: [[The Tangent Bundle]], [[Dual Vector Spaces]], [[Vector Bundles on Smoot
 
 **Def:** Let $M$ be a smooth manifold and a $p$ a point in $M$. The *cotangent space* of $M$ at $p$, denoted by $T_p^* M$ or $T_*(M)$, is defined to be the dual space of the tangent space $T_p M$. $$ T_p ^*M := (T_p M)' = \text{Hom}(T_p M, \Bbb R) = \mathcal L(T_p M, \Bbb R).$$An element of the cotangent space $T_p^*M$ is called a *covector at $p$*. Thus a covector $\omega_p$ at $p$ is a linear function $\omega_p: T_p M \to \Bbb R$. 
 
-**Def:** The underlying set of the *cotangent bundle* $T^*M$ of a manifold $M$ is the union of the cotangent space at all points in $M$: $$T^* := \bigcup_{p \in M} T_p^*M.$$
+**Def:** The underlying set of the *cotangent bundle* $T^*M$ of a manifold $M$ is the union of the cotangent space at all points in $M$: $$T^*M := \coprod_{p \in M} T_p^*M.$$
 Just as in the case of the tangent bundle, the union is a disjoint union  and there is a natural map $\pi: T^* M \to M$ given by $\pi(\alpha) = \alpha$ if $\alpha \in T_p^*M$. We mimic the construction of the tangent bundle, we give $T^*M$ a topology as follows. If $(U, \phi) = (U, x^1, \dots, x^n)$ is a chart on $M$, and $p \in U$, then each $\alpha \in T_p^* M$ can be written uniquely as a linear combination $$\alpha = \sum c_i (\alpha) dx^i\rvert_p.$$This gives rise to a bijection $$\begin{align*}
 \tilde \phi : &T^* U \to \phi(U) \times \Bbb R^n, \\ 
 &\alpha \mapsto (\phi(p), c_1(\alpha), \dots, c_n(\alpha)) = (\phi \circ \pi, c_1, \dots, c_n)(\alpha). \end{align*}$$Using this bijection, we can transfer the topology of $\phi(U) \times \Bbb R^n$ to $T^*U$. 
@@ -20,11 +20,11 @@ Note that if $f: N \to M$ is a diffeomorphism, then we can see that the bundle m
 
 # Exterior Powers
 
-**Def:** Let $M$ be a manifold of dimension $n$. We mimic the contruction of the tangent and the cotangent bundles and form the set $${\textstyle\bigwedge}^{\!k} (T^*M) := \bigcup_{p \in M} {\textstyle\bigwedge}^{\!k} (T_p^*M)$$of all alternating $k$-tensors at all points in the manifold $M$. This set is called the $k$th *exterior power* of the cotangent bundle. There is a projection $\pi: {\textstyle\bigwedge}^{\!k} (T^*M)\to M$ by $\pi (\alpha) = p$ if ${\textstyle\bigwedge}^{\!k} (T_p^*M)$. 
+**Def:** Let $M$ be a manifold of dimension $n$. We mimic the construction of the tangent and the cotangent bundles and form the set $${\textstyle\bigwedge}^{\!k} (T^*M) := \coprod_{p \in M} {\textstyle\bigwedge}^{\!k} (T_p^*M)$$of all alternating $k$-tensors at all points in the manifold $M$. This set is called the $k$th *exterior power* of the cotangent bundle. There is a projection $\pi: {\textstyle\bigwedge}^{\!k} (T^*M)\to M$ by $\pi (\alpha) = p$ if ${\textstyle\bigwedge}^{\!k} (T_p^*M)$. 
 
 If $(U, \phi)$ is a coordinate chart on $M$, then there's a bijection $$
 \begin{align*}
-{\textstyle\bigwedge}^{\!k} (T^*U) = &\bigcup_{p \in U} {\textstyle\bigwedge}^{\!k} (T_p^*U) \simeq \phi[U] \times \Bbb R^{n \choose k} \\
+{\textstyle\bigwedge}^{\!k} (T^*U) = &\coprod_{p \in U} {\textstyle\bigwedge}^{\!k} (T_p^*U) \simeq \phi[U] \times \Bbb R^{n \choose k} \\
 & \alpha \in {\textstyle\bigwedge}^{\!k} (T_p^*U)\mapsto (\phi(p), \{c_I(\alpha)\}_I),
 \end{align*}
 $$where $\alpha = \sum c_I(\alpha) dx^I\rvert_p \in {\textstyle\bigwedge}^{\!k} (T_p^*U)$ and $I \in \mathcal I_{k, n}$. In this way we can give ${\textstyle\bigwedge}^{\!k} (T^*U)$ and hence ${\textstyle\bigwedge}^{\!k} (T^*M)$ a topology and even a differentiable structure. The projection map $\pi: {\textstyle\bigwedge}^{\!k} (T^*M) \to M$ is a smooth vector bundle of rank ${n \choose k}$. 

@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Lie Groups]], [[Lie Algebra]], [[Vector Fields on Smooth Manifolds]], [[Differential k-forms on Smooth Manifolds]]
+Links: [[Lie Groups]], [[Lie Algebra]], [[Vector Fields on Smooth Manifolds]], [[Differential forms on Smooth Manifolds]]
 
 Let $G$ be a Lie group. We see know that $\ell_g: G\to G$ is a diffeomorphism with inverse $\ell_{g^{-1}}$. The diffeomorphism $\ell_g$ maps $e\mapsto g$, and induces an isomorphism of tangent spaces: $$d(\ell_g)_e = \ell_{g*}: T_e G \to T_g G$$Thus, if we can describe the tangent space $T_e G$ at the identity, then $\ell_{g*}[T_e G]$ will give a description of the tangent space $T_g G$ at any point $g\in G$. 
 

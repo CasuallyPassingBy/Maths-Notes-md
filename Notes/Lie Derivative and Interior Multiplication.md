@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Vector Fields on Smooth Manifolds]], [[Differential 1-forms on Smooth Manifolds]], [[Differential k-forms on Smooth Manifolds]], [[Integral Curves and Local Flows in Rn]]
+Links: [[Vector Fields on Smooth Manifolds]], [[Differential 1-forms on Smooth Manifolds]], [[Differential forms on Smooth Manifolds]], [[Integral Curves and Local Flows in Rn]]
 
 # Families of Vector Fields and Differential Forms
 

@@ -58,13 +58,18 @@ T_{F(p)} M \times \dots \times T_{F(p)} M \arrow[r, "\omega_{F(p)}"] &
 \end{tikzcd}
 \end{document}
 ```
+
 **Linearity of the pullback:** Let $F: N \to M$ be a smooth map. If $\omega, \tau$ are $k$-forms on $M$ and $a$ is a real number, then:
 - $F^*(\omega + \tau) = F^*\omega + F^*\tau$
 - $F^*(a\omega) = aF^*\omega$
 
 **Prop:** If $F: N \to M$ is a smooth map of manifolds and $\omega$ is a smooth $k$-form on $M$, then $F^*\omega$ is a smooth $k$-form on $N$. The proof of this relies on [[The Exterior Derivative on Manifolds]].
 
-#### Restrictions
+**Lemma:** In any smooth chart,  $$F^*(\omega_I dy^I ) = (\omega_I \circ F) d(y^{i_1} \circ F)\wedge\dots \wedge d(y^{i_k} \circ F)  $$
+**Prop:** Let $F: M \to N$ be a smooth map between $n$-dimensional manifolds. If $(x^i)$ and $(y^j)$ are smooth coordinates on open sets $U \subseteq M$ and $V\subseteq N$, repectively, and $u$ is is a smooth real-valued function on $V$, then the following holds in $U \cap F^{-1}[V]$: $$F^*(u\, dy^1\wedge \dots \wedge dy^n) = (u \circ F)\left(\dfrac{\partial (F^1, \dots, F^n)}{\partial(x^1, \dots, x^n)}\right) \, dx^1\wedge \dots \wedge dx^n.$$
+**Cor:** If $(U, (x^i))$ and $(V, (y^i))$ are overlapping smooth coordinate chart on $M$, then the following identity holds on $U \cap V$: $$dy^1\wedge \dots \wedge dy^n = \frac{\partial(y^1, \dots, y^n)}{\partial (x^1,\dots, x^n)}dx^1\wedge\dots \wedge dx^n $$
+
+### Restrictions
 
 **Def:** Let $S\subseteq M$ be an immersed manifold and $i: S \to M$ the inclusion map. At any point $p \in S$, since the differential $i_* :T_p S \to T_p M$ is injective, then $T_p S$ can be interpreted as subspace of $T_p M$. If $\omega$ is a $k$-form on $M$, then the *restriction* of $\omega$ to $S$ is the $k$-form $\omega|_S$ defined by $$(\omega|_S)_p(v_1, \dots, v_k) = \omega_p (v_1,\dots, v_k), \qquad p \in S, v_1,\dots, v_k \in T_p S.$$**Prop:** If $i:S \hookrightarrow M$ is the inclusion map of an immersed submanifold $S$ and $\omega$ is a $k$-form on $M$, then $i^* \omega = \omega|_S$. 
 

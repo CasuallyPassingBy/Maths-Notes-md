@@ -23,32 +23,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry.md",
+                "file": "Symplectic Forms on Smooth Manifolds.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Differential Geometry"
+              "title": "Symplectic Forms on Smooth Manifolds"
             }
           },
           {
-            "id": "b0ae9a70a7353ef8",
+            "id": "8a8b2e162d842bc6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Whitney Approximation Theorem.md",
+                "file": "The Exterior Derivative on Manifolds.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Whitney Approximation Theorem"
+              "title": "The Exterior Derivative on Manifolds"
+            }
+          },
+          {
+            "id": "9d12db5dd47bf064",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential forms on Smooth Manifolds.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Differential forms on Smooth Manifolds"
+            }
+          },
+          {
+            "id": "6e5c56a806d66d0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Algebra.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Linear Algebra"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -221,34 +251,34 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "b0ae9a70a7353ef8",
+  "active": "de10e33c2c58df50",
   "lastOpenFiles": [
+    "The Exterior Derivative on Manifolds.md",
+    "Untitled.md",
+    "Symplectic Forms on Smooth Manifolds.md",
+    "Differential forms on Smooth Manifolds.md",
+    "Line Integrals Using Differential 1-forms.md",
     "Differential Geometry.md",
+    "Clifford Algebra.md",
+    "Linear Algebra.md",
+    "Tensor Product of Linear Functions.md",
+    "Symplectic Vector Spaces.md",
+    "Correlations, Musical Isomorphisms.md",
+    "Exterior Algebra.md",
+    "Alternating Tensor Algebra.md",
+    "The Whitney Approximation Theorem.md",
+    "Exterior Algebra of Multicovectors.md",
+    "The Cotangent Bundle.md",
+    "Partial Derivatives on Manifolds.md",
     "Smooth Submanifolds.md",
     "Vector Bundles on Smooth Manifolds.md",
     "The Tangent-Cotangent Bundle Isomorphism.md",
     "Riemannian Metrics on Smooth Manifolds.md",
-    "Tensor Product of Linear Functions.md",
     "Lie Group Actions.md",
     "Smooth Covering Maps.md",
     "Automorphism Group.md",
     "Implicit Function Theorem.md",
-    "Partial Derivatives on Manifolds.md",
     "Submersions, Immersions and Embeddings of Manifolds.md",
-    "Categories and Functors.md",
-    "Dual Vector Spaces.md",
-    "Differential 1-forms on Smooth Manifolds.md",
-    "Journal/2025-12-24.md",
-    "Journal/2025-12-23.md",
-    "Bundle Maps for Vector Bundles.md",
-    "The Gradient.md",
-    "Orthogonal Bases.md",
-    "Correlations, Musical Isomorphisms.md",
-    "Automorphism Group of a Covering.md",
-    "Clifford Algebra.md",
-    "Vectors and Covectors.md",
-    "Rectifiable Curves.md",
-    "Orthogonal Complements.md",
     "Pasted image 20251214203248.png",
     "Pasted image 20251214203014.png",
     "Pasted image 20251214200137.png",
