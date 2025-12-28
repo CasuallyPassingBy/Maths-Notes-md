@@ -3,7 +3,7 @@ tags:
   - GroupTheory
 ---
 Subjects: [[Group Theory]]
-Links: [[Symmetric Groups]], [[Matrix Groups]], [[Subgroups]], [[Normal Subgroups and Quotient Groups]]
+Links: [[Symmetric Group]], [[Matrix Groups]], [[Subgroups]], [[Normal Subgroups and Quotient Groups]]
 
 In general, a regular polygon with $n$ sides centred at the origin of $\Bbb R^2$. If we consider its symmetries, by labelling the vertices from $1$ to $n$, consecutively and counterclockwise, the symmetries would be the transformations of the polygon that move the $n$ vertices to the same $n$ vertices. 
 

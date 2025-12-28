@@ -48,3 +48,8 @@ Because of this proposition, if $(V, \omega)$ is a symplectic vector space, a ba
 - $\omega(A_i, A_j) = \omega(B_i, B_j) = 0$. 
 hold, which is equivalent to $\omega$ being given by $\omega = \sum_{i = 1}^n \alpha^i \wedge \beta^i$ in terms of the dual basis. The proposition above tells us that every symplectic vector space has a symplectic basis.
 
+**Prop:** Let $(V, \omega)$ be a symplectic vector space of dimension $2n$. Then for each symplectic, isotropic, coisotropic, or Lagrangian subspace $S\subseteq V$, there exists a basis $(A_i, B_i)$ for $V$ with the following property
+- If $S$ is symplectic, $S = \text{span}\{A_1, B_1,\dots, A_k, B_k\}$ for some $k\le n$.
+- If $S$ is isotropic, $S = \text{span}\{A_1,\dots, A_k\}$ for some $k\le n$.
+- If $S$ is coisotropic, $S = \text{span}\{A_1,\dots, A_n, B_1,\dots, B_k\}$ for some $k\le n$.
+- If $S$ is Lagrangian, $S = \text{span}\{A_1,\dots, A_n\}$. 

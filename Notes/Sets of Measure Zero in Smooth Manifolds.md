@@ -19,4 +19,4 @@ It is a result that it is proved nicely using the concept of sets of measure zer
 
 **Cor:** If $M$ is a smooth manifold and $N\subseteq M$ is an immersed submanifold of positive codimension, then $N$ has measure zero in $M$. 
 
-$(*)$ **Sard's Theorem:** If $F:M \to N$ is any smooth map of the set of critical values of $F$ has measure zero in $N$. 
+**Sard's Theorem:** If $F:M \to N$ is any smooth map of the set of critical values of $F$ has measure zero in $N$. 

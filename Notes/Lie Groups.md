@@ -17,7 +17,7 @@ An important examples are:
 - [[Upper Triangular Matrices]]
 - [[Orthogonal Group]]
 - [[Unitary Group]]
-- [[symplectic group]]
+- [[Symplectic Group]]
 
 **Prop:** For any $g \in G$ in a Lie group, then $\ell_g: G \to G$ is a diffeomorphism. 
 

@@ -3,7 +3,7 @@ tags:
   - GroupTheory
 ---
 Subjects: [[Group Theory]]
-Links: [[Groups]], [[Functions]], [[Normal Subgroups and Quotient Groups]], [[Symmetric Groups]], [[Automorphism Group]], [[Endomorphism Ring]]
+Links: [[Groups]], [[Functions]], [[Normal Subgroups and Quotient Groups]], [[Symmetric Group]], [[Automorphism Group]], [[Endomorphism Ring]]
 
 **Def:** If a function between two groups $\phi: G \to G'$ satisfying that $\phi(ab) = \phi(a) \phi(b)$ for all $a, b\in G$, then we say that $\phi$ is a *group homomorphism*, or a *group morphism*, of $G$ on $G'$. In the case that $G' = G$, then $\phi$ is called a *group endomorphism*. 
 

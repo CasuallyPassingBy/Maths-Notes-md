@@ -87,7 +87,7 @@
 		- [x] Submanifolds
 		- [x] Lie Group Actions
 		- [x] Embedding and Approximation Theorems
-		- [ ] Tensors
+		- [x] Tensors
 		- [ ] Differential Forms
 		- [ ] Orientations
 		- [ ] Integration on Manifolds

@@ -3,7 +3,7 @@ tags:
   - GroupTheory
 ---
 Subjects: [[Group Theory]]
-Links: [[Symmetric Groups]], [[Subgroups]]
+Links: [[Symmetric Group]], [[Subgroups]]
 
 **Def:** Let $A_n = \{\sigma \in S_n \mid \text{sgn}(\sigma) = 1\} \subseteq S_n$. Having $\text{sgn}: S_n \to \{-1, 1\}$ a group homomorphism, them we see that $A_n := \ker(\text{sgn})$. 
 

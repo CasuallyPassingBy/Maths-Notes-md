@@ -5,7 +5,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Linear Algebra]], [[Clifford Algebra]], [[Differential Geometry]]
-Links: [[Exterior Algebra]], [[Symmetric Groups]], [[Alternating Groups]]
+Links: [[Exterior Algebra]], [[Symmetric Group]], [[Alternating Groups]]
 
 We ask for $K$ not to have characteristic $2$, for this section.
 

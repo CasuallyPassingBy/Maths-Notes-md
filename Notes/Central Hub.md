@@ -19,6 +19,7 @@ We have all the subjects:
 - [[Metric and Normed Spaces]]
 - [[Complex Analysis]]
 - [[Fourier Analysis]]
+- [[Measure Theory]]
 - [[Functional Analysis]]
 ## Algebra
 - [[Linear Algebra]]
@@ -41,7 +42,6 @@ We have all the subjects:
 - [[Stochastic Simulation]]
 - [[Nonlinear Programming]]
 ## Advanced Topics
-- [[Measure Theory]]
 - [[Differential Geometry]]
 - [[Variational Calculus]]
 ## Special objects

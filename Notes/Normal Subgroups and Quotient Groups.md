@@ -3,7 +3,7 @@ tags:
   - GroupTheory
 ---
 Subjects: [[Group Theory]]
-Links: [[Groups]], [[Subgroups]], [[Integers modulo n]], [[Equivalence Relations and Partitions]], [[Symmetric Groups]], [[Alternating Groups]], [[Quotient of Vector Spaces]]
+Links: [[Groups]], [[Subgroups]], [[Integers modulo n]], [[Equivalence Relations and Partitions]], [[Symmetric Group]], [[Alternating Groups]], [[Quotient of Vector Spaces]]
 
 # Cosets
 

@@ -3,7 +3,7 @@ tags:
   - FieldTheory
 ---
 Subjects: [[Field Theory]]
-Links: [[Galois Field Extensions]], [[Polynomial Ring of a Single Variable]], [[Symmetric Groups]], [[Splitting Fields and Normal Field Extensions]], [[Alternating Groups]], [[Symmetric Polynomials]]
+Links: [[Galois Field Extensions]], [[Polynomial Ring of a Single Variable]], [[Symmetric Group]], [[Splitting Fields and Normal Field Extensions]], [[Alternating Groups]], [[Symmetric Polynomials]]
 
 **Def:** If $f(x) \in F[x]$ is a separable polynomial, then we define the Galois group of $f(x)$ to be the Galois group of the splitting field of $f(x)$ over $F$, we can denote it as $\text{Gal}(f(x)/F)$. 
 

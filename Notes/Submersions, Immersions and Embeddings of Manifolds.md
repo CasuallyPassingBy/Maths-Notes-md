@@ -28,6 +28,10 @@ Just to emphasise, but $\text{embedding} \implies \text{immersion}$, but we can 
 **Prop:** Suppose $F: M \to N$ is an injective immersion. If either of the following conditions holds, then $F$ is a smooth embedding with closed image:
 - $M$ is compact.
 - $F$ is a proper map. 
+- $F$ is open or closed
+- $M$ has empty boundary and $\dim M = \dim N$. 
+
+**Local Embedding Theorem:** Suppose $M$ and $N$ are smooth manifolds with or without boundary, and $F: M \to N$ is a smooth map. Then $F$ is a smooth immersion iff every point in $M$ has a neighbourhood $U\subseteq M$ such that $F|_U: U \to N$ is a smooth embedding. 
 
 # Constant-Rank Maps Between Manifolds
 
@@ -45,11 +49,17 @@ Just to emphasise, but $\text{embedding} \implies \text{immersion}$, but we can 
 - If $F$ is injective, then it is an immersion.
 - If $F$ is bijective, then it is a diffeomorphism.
 
+**Local Immersion Theorem for Manifold with Boundary:** Suppose $M$ is a smooth $m$-manifold with boundary, $N$ is a smooth $n$-manifold, and $F: M \to N$ is a smooth immersion. For any $p\in \partial M$, there exists a smooth boundary chart $(U, \varphi)$ for $M$ centred at $p$ and a smooth coordinate chart $(V,\psi)$ for $N$ centred at $F(p)$ with $F[U] \subseteq V$, in which $F$ has coordinate representation $$\widehat F(x^1,\dots, x^m) = (x^1,\dots, x^m, 0,\dots 0) $$
+
 **Prop:** Suppose $M$ is a smooth manifold, $p \in M$ and $y^1, \dots, y^n$ are smooth real-valued functions defined on a neighbourhood $p$ of $M$.
 - If $dy^1|_p, \dots, dy^n|_p$ form a basis for $T^*_pM$, then $(y^1, \dots, y^n)$ are smooth coordinates for $M$ in some neighbourhood.
 - If $dy^1|_p, \dots, dy^n|_p$ are independent, then are real valued functions $y^{n+1}, \dots, y^m$ such that $(y^1, \dots, y^m)$ are smooth coordinates for $M$ in some neighbourhood of $p$.
 - If $dy^1|_p, \dots, dy^n|_p$ span $T_p^*M$, then there are indices $i_1, \dots, i_k$ such that $(y^{i_1}, \dots, y^{i_k})$ are smooth coordinates for $M$ in some neighbourhood of $p$.
 # Submersions
+
+**Def:** If $\pi: M \to N$ is a smooth map, a *section of $\pi$* is a continuous right inverse for $\pi$, i.e., a continuous map $\sigma: N\to M$ such that $\pi \circ \sigma = \text{Id}_N$. A *local section of $\pi$* is a continuous map $\sigma: U \to M$ defined on some open subset $U\subseteq N$ and satisfying $\pi\circ \sigma = \text{Id}_U$. This is just the analogous definition for [[covering maps]] . 
+
+**Local Section Theorem:** Suppose $M$ and $N$ are smooth manifolds and $\pi:M \to N$ is a smooth map. Then $\pi$ is a smooth submersion iff every point of $M$ is in the image of a smooth local section of $\pi$. 
 
 **Prop:** Let $\pi: M \to N$ be a submersion.
 - $\pi$ is an open map.

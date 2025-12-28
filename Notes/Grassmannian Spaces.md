@@ -14,3 +14,9 @@ With the proof above, we see that for any $V$ an $n$-dimensional real vector spa
 **Prop:** Let $V$ be a finite dimensional real vector space, then the Grassmanian $\text G_k(V)$ is a compact for each $k$. This is because we can do a very similar trick as above, but instead of $\text{GL}(n,\Bbb R)$ acting transitively and smooth smoothly we consider $\text O(n)$. 
 
 **Prop:** The set of $k$-dimensional complex linear subspaces of $\Bbb C^n$ is denoted by $\text G_k(\Bbb C^n)$. We get that $\text G_k(\Bbb C^n)$ is a compact smooth manifold making it into a compact homogeneous $\text U(n)$-space, and its dimension is $k(n-k)$. 
+
+**Def:** Let $\Lambda_{2n}\subseteq \text{G}_{n}(\Bbb R^{2n})$ denote the set of [[Symplectic Vector Spaces|Lagrangian]] subspaces of $\Bbb R ^{2n}$. 
+
+**Prop:** 
+- We see that $\text{Sp}(2n, \Bbb R)$ acts transitively in $\Lambda_{2n}$.
+- 
