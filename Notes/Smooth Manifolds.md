@@ -13,7 +13,7 @@ Links: [[Topological Manifolds]]
 
 **Lemma:** Let $\mathfrak U$ be an atlas on a locally Euclidean space. If two charts $(U, \phi)$ and $(V, \psi)$ are both compatible with the atlas $\mathfrak U$, then they are compatible with each other.
 
-# Smooth  or Differentiable Manifolds 
+# Smooth Manifolds 
 
 **Def:** A *smooth* or $\mathcal C^\infty$ manifold is a topological manifold $M$ together with a maximal atlas. The maximal atlas is also called a *differentiable structure* on $M$. 
 
@@ -23,7 +23,7 @@ Links: [[Topological Manifolds]]
 
 **Prop:** Let $\mathfrak U$ be the maximal atlas on a manifold $M$. For any open set $U$ in $M$ and a point $p\in U,$ there existes a coordinate open set $U_\alpha$ such that $p \in U_\alpha \subseteq U$.
 
-in the context of manifolds, we denote the standard coordinates in $\Bbb R^n$ by $r^1, \dots, r^n$. If $(U, \phi: U \to \Bbb R^n)$ is a char on a manifold, we let $x^i = r^i \circ \phi$ be the $i$th component and write $\phi = (x^1, \dots, x^n)$  and $(U, \phi) = (U, x^1, \dots, x^n)$. Thus, for $p \in U$, $(x^1(p), \dots, x^n(p))$ is a point in $\Bbb R^n$. The functions $x^1, \dots, x^n$ are called *coordinates* or *local coordinate* on $U$. By abuse of notation, we sometimes omit the $p$. So the notation $(x^1, \dots, x^n)$ stands alternatively for local coordinates on the open set $U$ and por a point in $\Bbb R^n$. By a *chart $(U, \phi)$ about $p$* in a manifold $M$, we will mean a chart in the differentiable structure of $M$ such that $p\in U$. 
+In the context of manifolds, we denote the standard coordinates in $\Bbb R^n$ by $r^1, \dots, r^n$. If $(U, \phi: U \to \Bbb R^n)$ is a char on a manifold, we let $x^i = r^i \circ \phi$ be the $i$th component and write $\phi = (x^1, \dots, x^n)$  and $(U, \phi) = (U, x^1, \dots, x^n)$. Thus, for $p \in U$, $(x^1(p), \dots, x^n(p))$ is a point in $\Bbb R^n$. The functions $x^1, \dots, x^n$ are called *coordinates* or *local coordinate* on $U$. By abuse of notation, we sometimes omit the $p$. So the notation $(x^1, \dots, x^n)$ stands alternatively for local coordinates on the open set $U$ and por a point in $\Bbb R^n$. By a *chart $(U, \phi)$ about $p$* in a manifold $M$, we will mean a chart in the differentiable structure of $M$ such that $p\in U$. 
 
 **Example:** If $M$ and $N$ $\mathcal C^\infty$ manifold, then $M \times N$ with its product topology is Hausdorff and second countable. 
 
@@ -37,6 +37,9 @@ Then $M$ has a unique smooth manifold structure such that each $(U_\alpha, \phi_
 
 **Prop:**  If $\mathfrak U$ and $\mathfrak V$ are $\mathcal C^\infty$ atlases for the manifolds $M$ and $N$ of dimension $m$ and $n$, respectively, then the collection $$\{(U\times V, \phi \times \psi: U\times V \to \Bbb R^n \times \Bbb R^n) \mid (U, \phi)\in \mathfrak U, (V, \psi)\in \mathfrak V \}$$of charts is $\mathcal C^\infty$ atlas on $M \times N$. Therefore, $M \times N$ is a $\mathcal C^\infty$ manifold of dimension $m + n$.
 
+**Def:** If $M$ be a smooth manifold, any chart $(U, \varphi)$ contained in the given maximal smooth atlas is called a *smooth chart*, and the corresponding coordinate map $\varphi$ is called a *smooth coordinate map*. It is useful also to introduce the terms *smooth coordinate domain* or *smooth coordinate neighbourhood* for the domain of a smooth coordinate chart. A *smooth coordinate ball* means a smooth coordinate domain whose image under a smooth coordinate map is a ball in Euclidean space. A *smooth coordinate cube* is defined similarly. 
+
+We say that $B\subseteq M$ is a *regular coordinate ball* if there is a smooth coordinate ball $B' \supseteq \overline B$ and a smooth coordinate map $\varphi: B' \to \Bbb R^n$ such that for some positive real numbers $r <r'$,  $$\varphi[B] = B_r(0),\quad \varphi[\overline B] = \overline B_r(0), \quad \text{and}\quad \varphi[B'] = B_{r'}(0). $$
 **Def:** If $M$ is a smooth manifold, we say that an open cover $\{W_n \mid n < \omega\}$ of $M$ is *regular* it it satisfies the following properties:
 - The cover $\{W_n\}_{n < \omega}$ is locally finite.
 - Each $W_n$ is the domain of a smooth coordinate map $\phi_n: W_n \to \Bbb R^k$ where $\phi[W_n] \subseteq B(0, 3)$
@@ -54,8 +57,12 @@ Let $M$ be a topological manifold with boundary. Just as in the manifold case, a
 
 We can see that if $M$ is a smooth manifold with boundary, then $\text{Int}(M)$ is a smooth manifold.
 
-**Cor:** Let $M$ be smooth manifold with boundary, then the set of interior points and boundary points are disjoint, i.e., $\text{Int}(\Bbb H^n) \cap \partial \Bbb H^n = \varnothing$. This result can be inferred using [[Submersions, Immersions and Embeddings of Manifolds#Submersions|submersions]]. 
+Let $M$ be a topological manifold with a boundary. A *smooth structure for $M$* is defined to be a maximal smooth atlas. With such structure $M$ is called a *smooth manifold with boundary*. Every smooth manifold is automatically a smooth manifold with boundary. 
+
+Any chart in the given smooth atlas is called a *smooth chart for $M$*. *Smooth coordinate balls, smooth coordinate half-balls*, and *regular coordinate balls in $M$* are defined in the natural way. In addition, a subset $B\subseteq M$ is called a *regular coordinate half-ball* if there is a smooth coordinate half-ball $B' \subseteq \overline B$ and a smooth coordinate map $\varphi: B' \to \Bbb H^n$ such that for some positive  real numbers $r <r'$,  $$\varphi[B] = B_r(0)\cap \Bbb H^n,\quad \varphi[\overline B] = \overline B_r(0)\cap \Bbb H^n, \quad \text{and}\quad \varphi[B'] = B_{r'}(0)\cap \Bbb H^n. $$
+
+**Prop:** Suppose $M_1, \dots M_k$ are smooth manifold and $N$ is a smooth manifold with boundary. Then $M_1\times \dots \times M_k\times N$ is a smooth manifold with boundary, and $\partial (M_1\times \dots \times M_k\times N) = M_1\times \dots \times M_k \times \partial N$. 
+
+**Smooth Invariance of the Boundary:** Suppose $M$ is a smooth manifold with boundary and $p\in M$. If there is a some smooth chart $(U,\varphi)$ for some $M$ such that $\varphi[U] \subseteq \Bbb H^n$ and $\varphi (p)\in\partial \Bbb H^n$, then the same is true for every smooth chart whose domain contains $p$.
 
 We can also get that the $\text{Int}(M)$ is an open submanifold of $M$. 
-
-**Prop:** Let $M$ be a smooth $n$-manifold with boundary. Then $\partial M$ is a topological $(n-1)$-manifold (without boundary), and it has a unique smooth structure such that the inclusion $\iota: \partial M \to M$ is a smooth embedding. 

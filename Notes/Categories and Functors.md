@@ -25,7 +25,7 @@ There are several examples for categories:
 - $\mathsf{HTop}_*$, the class of pointed topological spaces and pointed continuous maps modulo [[Fundamental Group of a Topological Space#^0f8fb7|homotopy relative to the base point]]. 
 - $\mathsf{Man}^0$, the class of [[topological manifolds]] and continuous maps.
 - $\mathsf{Man}^0_*$, the class of pointed topological manifolds and pointed continuous functions
-- $\mathsf{Man}^\infty$, the class of [[Smooth or Differentiable Manifolds|smooth manifolds]] and smooth maps between them.
+- $\mathsf{Man}^\infty$, the class of [[Smooth Manifolds|smooth manifolds]] and smooth maps between them.
 - $\mathsf{Man}^\infty_*$, the class of pointed smooth manifolds and pointed smooth functions
 - $\mathsf{Met}$, the class of [[metric spaces]] and short maps. 
 - $\mathsf{VB}$, the class of [[Vector Bundles on Smooth Manifolds]] and smooth bundle maps.}

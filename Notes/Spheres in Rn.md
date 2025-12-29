@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Smooth or Differentiable Manifolds]], [[Vector Fields on Smooth Manifolds]]
+Links: [[Smooth Manifolds]], [[Vector Fields on Smooth Manifolds]]
 
 We define $\Bbb S^n := \{x\in \Bbb R^{n+1} \mid \|x\| = 1\}$. 
 

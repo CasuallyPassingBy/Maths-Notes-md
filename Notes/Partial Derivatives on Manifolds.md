@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Smooth Functions on Smooth Manifolds]], [[Smooth or Differentiable Manifolds]], [[Differentiability of Vector valued functions of Rn]], [[Inverse Function Theorem in Rn]]
+Links: [[Smooth Functions on Smooth Manifolds]], [[Smooth Manifolds]], [[Differentiability of Vector valued functions of Rn]], [[Inverse Function Theorem in Rn]]
 
 **Def:** On a manifold $M$ of dimension $n$, let $(U, \phi)$ be a chart and $f$ a $\mathcal C^\infty$ function as a function into $\Bbb R^n$, and $\phi$ has $n$ components $x^1, \dots, x^n$. The means that if $r^1, \dots, r^n$ are the standard coordinates on $\Bbb R^n$, then $x^i = r^i \circ \phi$. For $p\in U$, we define the *partial derivative* $\dfrac{\partial f}{\partial x^i}$ of $f$ with respect to $x^i$ at $p$ to be: $$\left.\frac{\partial}{\partial x^i}\right\rvert_p f:= \frac{\partial f}{\partial x^i} (p) := \frac{\partial(f\circ \phi^{-1})}{\partial r^i}(\phi(p)) := \left.\frac{\partial}{\partial r^i}\right\rvert_{\phi(p)}(f \circ \phi^{-1}) $$Since $p = \phi^{-1})\phi(p)$, this equation may be written in the form $$ \frac{\partial f}{\partial x^i} (\phi^{-1}(\phi(p)) = \frac{\partial (f \circ \phi^{-1})}{\partial r^i})(\phi(p))$$Thus, as functions $\phi[U]$, $$\frac{\partial f}{\partial x^i} \circ \phi^{-1} = \frac{\partial (f\circ \phi^{-1})}{\partial r^i}$$The partial derivative $\dfrac{\partial f}{\partial x^i}$ is $\mathcal C^\infty$ on $U$ because the composition $\left(\dfrac{\partial f}{\partial x^i}\right) \circ \phi^{-1}$ is $\mathcal C^\infty$ on $\phi[U]$. 
 

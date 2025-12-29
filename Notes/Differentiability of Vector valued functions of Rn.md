@@ -91,6 +91,8 @@ Furthermore, the Jacobian matrix of $F$ is given at $a$ is given by
 
 $$ J_F(a) = J_f(g(a))J_g(a) $$
 
+**Cor:** Suppose $U \subseteq \Bbb R^n$ and $V\subseteq \Bbb R^m$ are open subsets and $F: U \to V$ is a diffeomorphism. Then $m = n$, for each $a\in U$, the total derivative $df(a)$ is invertible and $df(a)^{-1} = d(f^{-1})(F(a))$. 
+
 ### Mean-Value Theorem
 Let $f:D\subseteq\Bbb R^n\to \Bbb R^m$ be a differentiable function whose open set domain contains the points $x$ and ${x+h}$ and the segment joining them. Then the corresponding to unit vector ${{\hat u}\in \Bbb R^n}$ there is $\theta \in (0,1)$
 

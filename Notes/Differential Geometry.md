@@ -24,7 +24,7 @@ This notes uses Einstein's summation convention.
 	- [[The Exterior Derivative on Rn]]
 
 - [[Topological Manifolds]]
-	- [[Smooth or Differentiable Manifolds]]
+	- [[Smooth Manifolds]]
 		- [[Smooth Functions on Smooth Manifolds]]
 			- [[Smooth Covering Maps]]
 		- [[Partial Derivatives on Manifolds]]

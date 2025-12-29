@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Smooth or Differentiable Manifolds]], [[Submersions, Immersions and Embeddings of Manifolds]]
+Links: [[Smooth Manifolds]], [[Submersions, Immersions and Embeddings of Manifolds]]
 
 # Embedded Submanifolds
 
@@ -121,11 +121,11 @@ More generally, an immersed or embedded *submanifold with boundary* in $M$ is de
 
 **Prop:** Let $M$ be a smooth $n$-manifold with boundary. Then $\partial M$ is a topological $(n-1)$-manifold (without boundary), and it has a unique smooth structure such that the inclusion $\iota: \partial M \to M$ is a smooth embedding. This means that $\partial M$ is an embedded hypersurface of $M$. 
 
-**Prop:** Supose $M$ is a smooth manifold with boundary and $D\subseteq M$ is a regular domain. 
+**Prop:** Suppose $M$ is a smooth manifold with boundary and $D\subseteq M$ is a regular domain. 
 
 **Def:** If $M$ is a smooth manifold with boundary. If $p\in \partial M$, a vector $X\in T_p M \setminus T_p\partial M$ is said to be *inward pointing* if for some $\varepsilon> 0$, there exists a smooth curve $\gamma: [0, \varepsilon) \to M$ such that $\gamma(0) = p$ and $\gamma'(0) = X$ , and it is *outward pointing* if there exists such a curve whose domain is $(-\varepsilon, 0]$. 
 
-**Prop:** Supopse $M$ is a smooth $n$-dimensional manifold with boundary, $p\in \partial M$, and $(x^i)$ are smooth boundary coordinates defined on a neighbourhood of $p$. The inward pointing vectors in $T_pM$ are precisely those with positive $x^n$-component, the outward-pointing are the ones with negative $x^n$-component, and the ones tangent to $\partial M$ are those with zero $x^n$-component. Thus $T_p M$ is the disjoint union of $T_p M$, the set of inward pointing and outward-pointing vectors, and $v\in T_p M$ is inward pointing iff $-v$ is outward pointing. 
+**Prop:** Suppose $M$ is a smooth $n$-dimensional manifold with boundary, $p\in \partial M$, and $(x^i)$ are smooth boundary coordinates defined on a neighbourhood of $p$. The inward pointing vectors in $T_pM$ are precisely those with positive $x^n$-component, the outward-pointing are the ones with negative $x^n$-component, and the ones tangent to $\partial M$ are those with zero $x^n$-component. Thus $T_p M$ is the disjoint union of $T_p M$, the set of inward pointing and outward-pointing vectors, and $v\in T_p M$ is inward pointing iff $-v$ is outward pointing. 
 
 **Def:** IF $M$ is a smooth manifold, a *boundary defining* function for $M$ is a smooth function $f: M \to [0,\infty)$ such that $f^{-1}\{0\} = \partial M$ and $df_p \neq 0$ for all $p\in \partial M$. 
 

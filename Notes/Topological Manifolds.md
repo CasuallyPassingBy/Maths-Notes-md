@@ -38,17 +38,19 @@ We haven't proved that the dimension is indeed well defined. For that, we would 
 
 **Lemma:** Let $M$ be an $n$-manifold. If $B'\subseteq M$ is any coordinate ball and $\varphi: B' \to B(0, r')\subseteq \Bbb R^n$ is a homeomorphism, then $\varphi^{-1}[B(0, r)]$ is a regular coordinate ball. 
 
-**Prop:** Every manifold has a countable basis of regular coordinate balls.
+**Prop:** Every topological manifold has a countable basis of regular coordinate balls.
 
 **Cor:** Every topological manifold is [[Local Compactness|locally compact]].
 
-**Prop:** Every topological manifold is [[Paracompacteness|paracompact]], and by Smirnov's metrization theorem, we know that every topological manifold is metrizable. 
+**Prop:** Every topological manifold is [[Paracompacteness|paracompact]], and by Smirnov's metrization theorem, we know that every topological manifold is [[Metrizable Spaces|metrizable]]. 
 
-**Embeddability of Compact Manifolds:** Every compact manifold is homeomorphic toa subset of some Euclidean space.
+**Embeddability of Compact Manifolds:** Every compact manifold is homeomorphic to a subset of some Euclidean space.
 
 **Prop:** [[Fundamental Group of a Topological Space|The fundamental group]] of any topological manifold is countable.
 
 **Prop:** Let $M$ be a connected topological manifold, then $M$ is a  $\text{Homeo}(M)$-[[Homogeneous Spaces|homogeneous]]. We can strengthen this result and get if $M$ is a connected $M$-manifold and $(p_1, \dots, p_k)$ and $(q_1,\dots, q_k)$ are two ordered $k$-tuples of distinct points in $M$, then there is a homeomorphism $F: M \to M$ such that $F(p_i) = q_i$. 
+
+**Prop:** A locally Euclidean Hausdorff space is a topological manifold iff it is $\sigma$-compact. 
 
 ## Connected Sum
 
@@ -72,25 +74,29 @@ Let us consider the closed $n$-dimensional *upper half-space* $\Bbb H^n \subsete
 \end{align*}$$
 **Def:** An $n$-dimension *topological manifold with boundary* is a second countable Hausdorff space $M$ in which every point has a neighbourhood homeomorphic to an open subset of $\Bbb H^n$. An open subset $U \subseteq M$ together with a homeomorphism $\varphi$ from $U$ to an open subset of $\Bbb H^n$ will be called a chart, just as in the case of manifolds. When it is necessary to make the distinction, we will call $(U, \varphi)$ an *interior chart* if $\varphi[U] \subseteq \text{Int}(\Bbb H^n)$, and *boundary chart* if $\varphi[U] \cap \partial \Bbb H^n \neq \varnothing$.
 
-**Prop:** If $M$ is an $n$-dimensional manifold with boundary, then $\text{Int}(M)$ is an open subset of $M$, which is itself an $n$-dimensional without boundary.
-
 $(*)$ **Invariance of Boundary:** If $M$ is a manifold without boundary, then a point of $M$ cannot be a boundary point and an interior point. Thus $\partial M$ and $\text{Int}(M)$ are disjoint whose union is $M$ ^cd5f36
 
-**Cor:** If $M$ is a nonempty $n$-dimensional manifold with boundary, then $\partial M$ is closed in $M$, and $M$ is an $n$-manifold iff $\partial M = \varnothing$. 
+**Prop:** Let $M$ be a topological $n$-manifold with boundary.
+- $\text{Int }M$ is an open subset of $M$ and a topological $n$-manifold without boundary.
+- $\partial M$ is a closed subset of $M$ and topological $(n-1)$-manifold withuot boundary.
+- $M$ is a topological manifold iff $\partial M = \varnothing$.
+- If $n =0$, then $\partial M = \varnothing$ and $M$ is a $0$-manifold. 
 
-**Prop:** Let $M$ be a topological manifold with boundary is [[Local Path Connectedness|locally path connected]].
+**Def:** If $M$ is an $n$-manifold with boundary, let us say that a subset $B\subseteq M$ is a *regular coordinate half-ball* if there is an open subset $B'$ containing $\overline B$ and a homeomorphism from $B'$ to $B(0,r') \cap \Bbb H^n$ that takes $B$ to $B(0, r) \cap \Bbb H^n$ and $\overline B$ to $\overline B(0, r) \cap \Bbb H^n$ for some $0 < r<r'$. 
 
-**Cor:** Every topological -manifold with boundary is homeomorphic to a disjoint union to countable many connected -manifolds with boundary.
+**Prop:** Let $M$ be a topological manifold with boundary.
+- $M$ has a countable basis of precompact coordinate ball and half-balls.
+- $M$ is [[Local Compactness|locally compact]]. 
+- $M$ is [[Paracompacteness|paracompact]].
+- $M$ is [[Local Path Connectedness|locally path connected]].
+- $M$ has countably many components, each of which is an open subset of $M$ and a connected topological manifold with boundary.
+- The [[Fundamental Group of a Topological Space|fundamental group]] of $M$ is countably
+
+**Prop:** Every topological manifold  with boundary is [[Paracompacteness|paracompact]], and by Smirnov's metrization theorem, we know that every topological manifold is metrizable. 
 
 **The Double of a Manifold with Boundary:** Suppose $M$ is an $n$-dimensional manifold with boundary. if $h: \partial M \to \partial M$ is the identity map the resulting space $M\cup_h M$ is denoted by $D(M)$ and called the *double of $M$*. 
 
 **Prop:** Suppose $M$ is a connected manifold with nonempty boundary, then its double $D(M)$ is connected.
-
-**Def:** If $M$ is an $n$-manifold with boundary, let us say that a subset $B\subseteq M$ is a *regular coordinate half-ball* if there is an open subset $B'$ containing $\overline B$ and a homemorphism from $B'$ to $B(0,r') \cap \Bbb H^n$ that takes $B$ to $B(0, r) \cap \Bbb H^n$ and $\overline B$ to $\overline B(0, r) \cap \Bbb H^n$ for some $0 < r<r'$. 
-
-**Prop:** Every manifold with boundary has countable basis consisting of regular balls and half-balls.
-
-**Prop:** Every topological manifold  with boundary is [[Paracompacteness|paracompact]], and by Smirnov's metrization theorem, we know that every topological manifold is metrizable. 
 
 **Prop:** If $M$ is a compact manifold with boundary, then $D(M)$ is also compact.
 

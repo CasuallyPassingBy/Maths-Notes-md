@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Smooth or Differentiable Manifolds]], [[Sets of Measure Zero in Rn]]
+Links: [[Smooth Manifolds]], [[Sets of Measure Zero in Rn]]
 
 **Def:** We say that subset $A$ of a smooth $n$-manifold $M$ has measure zero if for every chart $(U,\varphi)$ for $M$, the set $\varphi[A\cap U]$ has measure zero in $\Bbb R^n$. It follows that any set of measure zero has dense complement, because if $M\setminus A$ is not dense, then $A$ contains a nonempty open set which would imply that $\psi[A \cap V]$ contains a nonempty open set for a smooth chart $(V, \psi)$. 
 

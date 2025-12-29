@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Topology]], [[Differential Geometry]]
-Links: [[Partitions of Unity]], [[Topological Manifolds]], [[Smooth or Differentiable Manifolds]], [[Special Types of Collections in Topology]], [[Smooth Functions on Smooth Manifolds]]
+Links: [[Partitions of Unity]], [[Topological Manifolds]], [[Smooth Manifolds]], [[Special Types of Collections in Topology]], [[Smooth Functions on Smooth Manifolds]]
 
 # Bump Functions
 
@@ -51,3 +51,5 @@ Given an open cover $\{U_\alpha \mid \alpha < \kappa\}$ of $M$, we say that the 
 **Prop:** Suppose $\{\rho_\alpha \mid \alpha < \kappa \}$ is a partition of unity on a manifold $M$ subordinate to an open cover $\{U_\alpha \mid \alpha < \kappa\}$ of $M$ and $F: N \to M$ is a smooth map. Then the collection of functions $\{F^*\rho_\alpha \mid \alpha < \kappa \}$ is a partition of unity on $N$ subordinate to the open cover $\{F^{-1}[U_\alpha] \mid \alpha < \kappa\}$ of $N$.
 
 **Def:** If $M$ is a topological space, an *exhaustion function* for $M$ is a continuous function $f: M \to \Bbb R$ with the property that the set $M_c := \{x\in M \mid f(x) \le c\}$ is compact for each $c\in \Bbb R$. 
+
+**Prop:** Every smooth manifold with or without boundary admits a smooth positive exhaustion function. 
