@@ -3,15 +3,17 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Sets of Measure Zero in Smooth Manifolds]], [[The Whitney Embedding Theorem]], [[Homotopy]]
+Links: [[Sard's Theorem]], [[The Whitney Embedding Theorem]], [[Homotopy]]
 
 **Def:** If $\delta: M \to\Bbb R$ is a positive continuous function, we say that two functions $F, G: M \to \Bbb R^k$ are *$\delta$-close* if $\|F(x)- G(x)\| <\delta (x)$ for all $x\in M$. This notion of $\delta$-close reminds to have a $\delta$-fine partition for the [[Henstock–Kurzweil Integral]].
 
 **Whitney Approximation Theorem:** Let $M$ be a smooth manifold and let $F: M \to \Bbb R^k$ be a continuous function. Given any positive continuous function $\delta: M \to \Bbb R$, there exists a smooth function $\tilde F: M \to \Bbb R ^k$ that is $\delta$-close to $F$. If $F$ is smooth on a closed subset $A\subseteq M$, then $\tilde F$ can be chosen to be equal to $F$ on $A$.
 
+**Cor:** If $M$ is a smooth manifold with or without boundary and $\delta: M \to \Bbb R$ is a positive continuous function then there is a smooth function $e:M \to \Bbb R$ such that $0<e(x) <\delta(x)$ for all $x\in M$. 
+
 If we let $(M, g)$ be a [[Riemannian Metrics on Smooth Manifolds|Riemannian manifold]], we can extend this theorems to work for vector fields.
 
-**Def:** If $\delta: M \to \Bbb R$ is a positive continuous function, we say that two vector fields $X, Y: M \to TM$, in the Riemannian manifold $(M, g)$, if $\|X_p-Y_p\|_g < \delta(p)$ for all $p\in M$.
+**Def:** If $\delta: M \to \Bbb R$ is a positive continuous function, we say that two vector fields $X, Y: M \to TM$, in the Riemannian manifold $(M, g)$, if $\|X_p-Y_p\|_g < \delta(p)$ for all $p\in M.$
 
 **Th:** Let $(M, g)$ be a Riemannian manifold and let $X: M \to TM$ be a continuous vector field. Given any positive continuous function $\delta: M \to \Bbb R$, there exists a smooth vector field $Y: M \to TM$ such that is $\delta$-close to $X$. If $X$ is smooth on a closed subset $A\subseteq M$, then $Y$ can be chosen to be equal to $F$ on $A$. 
 
@@ -43,8 +45,12 @@ A *tubular neighbourhood of $M$* is a neighbourhood $U$ of $M$ in $\Bbb R^n$ tha
 
 **Whitney Approximation on Manifolds:** Let $N$ and $M$ be smooth manifolds, and let $F:N \to M$ be a continuous map. Then $F$ is homotopic to a smooth map $\tilde F: N \to M$. If $F$ is smooth on a closed subset $A\subseteq N$, then the homotopy can be taken relative to $A$. 
 
+**Cor:** Suppose $N$ is a smooth manifold with or without boundary, $M$ is a smooth manifold, $A\subseteq N$ is a closed subset, and $f: A \to M$ is a smooth map. Then $f$ has a smooth extension fo $N$ iff it has a continuous extension to $N$. 
+
 **Def:** If $M$ and $N$ are smooth manifolds, two smooth maps $F, G: M \to N$ are said to be *smoothly homotopic* if there is a smooth map $H:M \times [0, 1] \to N$ that is a homotopy between $F$ and $G$. 
 
-**Prop:** If $F, G: M \to N$ are homotopic smooth maps, then they are smoothly homotopic. If $F$ is homotopic to $G$ relative some closed subset $A\subseteq M$, then they are smoothly homotopic relative to $A$. 
+**Lemma:** If $N$ and $M$ are smooth manifolds with or without boundary, smooth homotopy is an equivalemce relation on the set of all smooth functions from $N$ to $M$.
+
+**Th:** Suppose $N$ is a smooth manifold or without boundary, $M$ is a smooth manifold and $F, G:N \to M$ are smooth maps. If $F$ and $G$ are homotopic then they are smoothly homotopic. If $F$ and $G$ are homotopic relative to some closed subset $A\subseteq N$, then they are smoothly homotopic relative to $A$. 
 
 **Cor:** Any two points in a connected manifold can be joined by a smooth curve segment. 

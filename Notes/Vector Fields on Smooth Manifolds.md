@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Local and Global Sections of Vector Bundles]], [[The Tangent Bundle]], [[Vector Fields on Rn]], [[Smooth Partitions of Unity for Manifolds]], [[Derivations]], [[Lie Algebra]], [[Submersions, Immersions and Embeddings of Manifolds]]
+Links: [[Local and Global Sections of Vector Bundles]], [[The Tangent Bundle]], [[Vector Fields on Rn]], [[Smooth Partitions of Unity for Manifolds]], [[Derivations]], [[Lie Algebra]], [[Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds]]
 
 **Def:** A *vector field* $X$ on a manifold $M$ is a function that assigns a tangent vector $X_p \in T_p M$ to each point $p\in M$. In terms of the tangent bundle, a vector field on $M$ is simply a section of the tangent bundle $\pi: TM \to  M$ and the vector field is *smooth* if it is a smooth map from $M$ to $TM$. 
 

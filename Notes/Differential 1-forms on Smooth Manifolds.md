@@ -14,7 +14,7 @@ In terms of the cotangent bundle $T^*M$, a differential $1$-form is simply a sec
 **Def:** If $f$ is a smooth real-valued function on a manifold $M$, its *differential* is defined to be the $1$-form $df$ on $M$ such that for any $p \in M$, and $X_p\in T_p M$, $$(df)_p(X_p) := X_p f$$
 **Prop:** If $f: M \to \Bbb R$ is a smooth function, then for $p \in M$ and $X_p \in T_p M$, $$ d(f)_p (X_p ) =f_*(X_p) = (df)_p (X_p) \left.\frac{d}{dt} \right\rvert_{f(p)}$$The first equality is refers to the difference in notation for the differential of a smooth function between manifolds. 
 
-This shows that under the canonical identification of the tangent space $T_{f(p)} \Bbb R$ with $\Bbb R$ via $a \left.\dfrac{d}{dt}\right\rvert_{f(p)} \leftrightarrow a$, $d(f)_p = f_*$ is the same as $df$. For this reason we are justified in calling both of them the *differential* of $f$. In terms of the differential $df$, a smooth function $f: M \to\Bbb R$ has a [[Submersions, Immersions and Embeddings of Manifolds#^071ac1|critical point]] at $p\in M$ iff $(df)_p = 0$.
+This shows that under the canonical identification of the tangent space $T_{f(p)} \Bbb R$ with $\Bbb R$ via $a \left.\dfrac{d}{dt}\right\rvert_{f(p)} \leftrightarrow a$, $d(f)_p = f_*$ is the same as $df$. For this reason we are justified in calling both of them the *differential* of $f$. In terms of the differential $df$, a smooth function $f: M \to\Bbb R$ has a [[Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds#^071ac1|critical point]] at $p\in M$ iff $(df)_p = 0$.
 
 # Local Expression for a Differential $1$-form
 

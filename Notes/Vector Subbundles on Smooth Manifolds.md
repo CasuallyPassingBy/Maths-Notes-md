@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Vector Bundles on Smooth Manifolds]], [[Smooth Submanifolds]]
+Links: [[Vector Bundles on Smooth Manifolds]], [[Embedded Smooth Submanifolds]]
 
 **Def:** Given a smooth vector bundle $\pi: E \to M$, a *smooth subbundle* of $E$ is a subset $D\subseteq E$ with the following properties:
 - $D$ is an embedded submanifold of $E$

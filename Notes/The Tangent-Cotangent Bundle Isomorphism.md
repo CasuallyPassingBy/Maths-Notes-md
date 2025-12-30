@@ -30,7 +30,7 @@ In smooth coordinates, $\text{grad }f$ has the expression $$\text{grad }f = g^{i
 
 The way we actually build the global frame is fairly simple. since $d\Phi_p: T_p M \to T_{\Phi(p)} \Bbb R^k$ is surjective then we know that the the differential of the component functions $d\Phi_1,\dots, d\Phi_k$ actually behaves as the basis for the annihilator of $T_pS$, and thus $\text{grad }\Phi_1|_p,\dots, \text{grad }\Phi_k|_p$ is a linearly independent that spans $N_pS$. We can turn this into a global frame $p\mapsto (\text{grad }\Phi_1|_p,\dots, \text{grad }\Phi_k|_p)$, which is what we wanted. 
 
-The proof highlights that [[Smooth Submanifolds#^f347ae|Lagrange multipliers for manifolds]] is equivalent to a regular level set of a smooth manifold has a trivial normal bundle. 
+The proof highlights that [[Embedded Smooth Submanifolds#^f347ae|Lagrange multipliers for manifolds]] is equivalent to a regular level set of a smooth manifold has a trivial normal bundle. 
 
 **Prop:** For any smooth manifold $TM$ and $T^*M$ are isomorphic as vector bundles. There doesn't exists a rule that assigns every smooth manifold to a bundle isomorphism $\lambda_M: TM \to T^*M$ in such a way that every diffeomorphism $F: M \to N$, the following diagram commute: 
 ```tikz

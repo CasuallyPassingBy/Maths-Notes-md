@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Topological Vector Bundles]], [[Smooth Submanifolds]] [[The Tangent Bundle]], [[Smooth Partitions of Unity for Manifolds]], [[The Cotangent Bundle]], [[Dual Vector Spaces]]
+Links: [[Topological Vector Bundles]], [[Embedded Smooth Submanifolds]] [[The Tangent Bundle]], [[Smooth Partitions of Unity for Manifolds]], [[The Cotangent Bundle]], [[Dual Vector Spaces]]
 
 **Def:** For any two maps $\pi: E \to M$ and $\pi': E'\to M$ with the same target space $M$, a map $\phi: E \to E'$ is said to be *fibre-preserving* if $\phi[\pi^{-1}\{p\}] \subseteq \pi'^{-1}\{p\}$ for all $p\in M$.
 

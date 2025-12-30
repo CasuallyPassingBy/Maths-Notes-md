@@ -31,6 +31,6 @@ Let $f:R\subseteq \Bbb R^n\to \Bbb R$ be bounded over the rectangle $R$. $f$ is 
 
 **Lemma:** A subset $A\subseteq \Bbb R^n$ has measure zero iff for every $\varepsilon>0$ can be covered by a countable collection of open balls, the sum of whose Jordan-measure is $0$. 
 
-**Lemma:** Suppose $A\subseteq \Bbb R^n$ has measure zero and $F: A \to \Bbb R^n$ is a smooth map. Then $F[A]$ has measure $0$.
+**Prop:** Suppose $A\subseteq \Bbb R^n$ has measure zero and $F: A \to \Bbb R^n$ is a smooth map. Then $F[A]$ has measure $0$.
 
 **Lemma:** Suppose $F: U \to \Bbb R^n$ is a smooth map, where $U$ is an open subset of $\Bbb R^m$ and $m<n$. Then $F[U]$ has measure zero in $\Bbb R^n$.

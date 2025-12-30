@@ -35,7 +35,7 @@ Another way to write $\tilde\phi = (\phi \circ \pi, \phi_*)$, where $\phi_*$ is 
 
 **Def:** A manifold whose tangent bundle is trivial is said to be *paralelisable*. 
 
-**Prop:** If $M$ is a smooth manifold of dimension $n$, parallelisability is equivalent of the existence of a smooth frame $X_1, \dots, X_n$ on $M$. 
+**Prop:** If $M$ is a smooth manifold of dimension $n$, parallelisability is equivalent of the existence of a smooth frame $X_1, \dots, X_n$ on $M$, and $TM$ being diffeomorphic $M \times \Bbb R^n$.  
 
 **Prop (Transition functions for the total space of the tangent bundle):** Let $(U, \phi) = (U, x^1, \dots, x^n)$ and $(V, \psi) = (V, y^1, \dots, y^n)$ be overlapping coordinate charts on a manifolds $M$. They induce coordinate charts $(TU, \tilde \phi)$ and $(TV, \tilde \psi)$ on the total space $TM$ of the tangent bundle, with transition function $\tilde \psi \circ \tilde \phi^{-1}$: $$(x^1, \dots, x^n, a^1, \dots, a^n) \mapsto (y^1, \dots, y^n, b^1, \dots, b^n)$$
 If we want to calculate the Jacobian matrix of the transition function $\tilde \psi \circ \tilde \phi^{-1}$ at $\phi(p)$, we need to calculate 4 derivatives:
@@ -62,5 +62,11 @@ Then the Jacobian is $$J(\tilde \psi \circ \tilde \phi^{-1})(\phi(p)) =
 $$
 The Jacobian determinant of the transition function $\tilde \psi\circ \tilde \phi^{-1}$ at $\phi(p)$ is $\left(\det\left(\dfrac{\partial y}{\partial x}\right)\right)^2$. 
 
-**Obs:** A smooth map $f: N \to M$ of manifolds induces a bundle map $(f, \tilde f)$ where $\tilde f: TN \to TM$ is given by $$\tilde f(p, v) = (f(p), f_*(v)) = (f(p), df_p v).$$
-This gives rise to a covariant functor $T$ from the category of smooth manifolds and smooth maps to the category of vector bundles and bundle maps.
+By putting the differentials of $F$ at all pionts of $M$, we obtained a globally defined map between tangent bundles, called the *global differential* or *global tangent map* and denoted by $dF: TM \to TN$. This is just the map whose resctriction to each tangent space $T_p M\subseteq TM$ is $dF_p$. 
+
+**Prop:** If $F:M \to N$ is a smooth map, then its global differential $dF: TM \to TN$ is a smooth map. 
+
+**Cor:** Suppose $F: M \to N$ and $G: N \to P$ are smooth maps.
+- $d(G\circ F) = dG \circ dF$. 
+- $d(\text{id}_M) = \text{id}_{TM}$.
+- If $F$ is a diffeomorphism, then $dF: TM \to TN$ is also a diffeomorphism, and smooth vector bundle isomorphism, and $(dF)^{-1} = d(F^{-1}).$
