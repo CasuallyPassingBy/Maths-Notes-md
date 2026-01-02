@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Sard's Theorem]], [[Embedded Smooth Submanifolds]], [[Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds]], [[Smooth Manifolds]]
+Links: [[Sets of Measure Zero in Smooth Manifolds and Sard's Theorem]], [[Embedded Smooth Submanifolds]], [[Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds]], [[Smooth Manifolds]]
 
 
 **Th:** Let $F:M \to \Bbb R^m$ be any smooth map, where $M$ is a smooth $n$-manifold and $m \ge 2n$. For any $\varepsilon > 0$ there is a smooth immersion $\tilde F: M \to \Bbb R^m$ such that $\sup_M\|\tilde F - F\| \le \varepsilon$.

@@ -42,7 +42,7 @@ This notes uses Einstein's summation convention.
 			- [[Smooth Submanifold of Manifolds with a Boundary]]
 	- [[Rank and Local Normal Forms of Smooth Manifolds]]
 	- [[Smooth Covering Maps]]
-- [[Sard's Theorem]]
+- [[Sets of Measure Zero in Smooth Manifolds and Sard's Theorem]]
 	- [[The Whitney Embedding Theorem]]
 	- [[The Whitney Approximation Theorem
 	- [[Transversailty Theorems for Smooth Manifolds]]

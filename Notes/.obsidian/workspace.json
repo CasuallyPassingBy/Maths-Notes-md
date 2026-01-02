@@ -48,22 +48,67 @@
             }
           },
           {
-            "id": "6aaea37456bcf365",
+            "id": "4b53101b693c706b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/Yang Aran Routine.md",
+                "file": "Sets of Measure Zero in Smooth Manifolds and Sard's Theorem.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Yang Aran Routine"
+              "title": "Sets of Measure Zero in Smooth Manifolds and Sard's Theorem"
+            }
+          },
+          {
+            "id": "6ea05a55ebad802e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transversailty Theorems for Smooth Manifolds.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Transversailty Theorems for Smooth Manifolds"
+            }
+          },
+          {
+            "id": "561e083afa4993cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Subgroups.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Lie Subgroups"
+            }
+          },
+          {
+            "id": "f0d037f0da05d315",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Groups.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Lie Groups"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -236,34 +281,34 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "ee132e66f78873da",
+  "active": "561e083afa4993cc",
   "lastOpenFiles": [
-    "Interesting Stuff I want continue Learning.md",
-    "Journal/2025-12-29.md",
-    "Journal/Yang Aran Routine.md",
+    "Lie Groups.md",
+    "Lie Subgroups.md",
+    "Smooth Covering Maps.md",
     "Transversailty Theorems for Smooth Manifolds.md",
+    "Functions.md",
+    "Untitled.md",
     "Tangent Spaces and Vector Fields on Submanifolds.md",
+    "Journal/Yang Aran Routine.md",
+    "Embeddings for Smooth Manifolds.md",
+    "Sets of Measure Zero in Smooth Manifolds and Sard's Theorem.md",
+    "Embedded Smooth Submanifolds.md",
+    "Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds.md",
+    "Journal/2025-12-29.md",
+    "Sets of Measure Zero in Rn.md",
+    "Interesting Stuff I want continue Learning.md",
     "Differential Geometry.md",
     "The Whitney Approximation Theorem.md",
     "Topological Subspaces.md",
-    "Sard's Theorem.md",
     "The Whitney Embedding Theorem.md",
-    "Embedded Smooth Submanifolds.md",
     "Smooth Submanifold of Manifolds with a Boundary.md",
     "Smooth Maps on and Between Submanifolds.md",
-    "Sets of Measure Zero in Rn.md",
     "Immersed Smooth Submanifolds.md",
-    "Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds.md",
-    "Smooth Covering Maps.md",
     "Rank and Local Normal Forms of Smooth Manifolds.md",
-    "Embeddings for Smooth Manifolds.md",
     "Tangent Space for Manifolds.md",
     "The Tangent Bundle.md",
     "Fundamental Group of the Circle.md",
-    "Smooth Manifolds.md",
-    "Topological Manifolds.md",
-    "Smooth Functions on Smooth Manifolds.md",
-    "Smooth Partitions of Unity for Manifolds.md",
     "Pasted image 20251214203248.png",
     "Pasted image 20251214203014.png",
     "Pasted image 20251214200137.png",

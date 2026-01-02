@@ -63,3 +63,6 @@ The inverse image image $F^{-1}\{c\}$ of a regular value $c$ is called a *regula
 
 **Th:** Suppose $M$ is a smooth manifold and $S\subseteq M$ is an embedded submanifold. The subspace topology on $S$ and the smooth structure given by the $k$-slice condition, for some $k$, are the only topology and smooth structure with respect to which $S$ is an embdedded or immersed submanifold. 
 
+
+# Submanifolds of Manfolds with Boundary
+

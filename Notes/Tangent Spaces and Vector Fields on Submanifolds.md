@@ -7,7 +7,7 @@ Links: [[Smooth Manifolds]], [[Embedded Smooth Submanifolds]], [[Immersed Smooth
 
 Let $M$ be a smooth manifold with or without boundary, and let $S\subseteq M$ be an immersed or embedded submanifold. Since the inclusion map $\iota:S \to M$ is a smooth immersion, at each point $p\in S$ we have the injective linear map $d\iota_p : T_p S \to T_p M$. We will adopt the convention *identifying* $T_p S$ with its image under this map, thereby thinking of $T_pS$ as a certain linear subspace of $T_p M$.
 
-**Prop:** Suppose $M$ is a smooth submanifld with or without boudary, $S\subseteq M$ is an immersed or embedded submanifold, and $p\in S$. A vector $v\in T_pM$ is in $T_pS$ iff there is a smooth curve $\gamma: J \to M$ whose image is contained in $S$, and which is also smooth as a map into $S$, such that $0\in J$, $\gamma(0) = p$, and $\gamma'(0) = v$, 
+**Prop:** Suppose $M$ is a smooth submanifold with or without boundary, $S\subseteq M$ is an immersed or embedded submanifold, and $p\in S$. A vector $v\in T_pM$ is in $T_pS$ iff there is a smooth curve $\gamma: J \to M$ whose image is contained in $S$, and which is also smooth as a map into $S$, such that $0\in J$, $\gamma(0) = p$, and $\gamma'(0) = v$, 
 
 **Prop:** Suppose $M$ is a smooth manifold with or without boundary, and $S\subseteq M$ is an embedded submanifold and $p\in S$. As a subspace of $T_pS$ is given by $$T_p S= \{X\in T_p M \mid\forall f\in \mathcal C^\infty (M) [f|_S = 0\implies Xf = 0]\}.$$
 **Examples:**

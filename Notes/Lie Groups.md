@@ -6,9 +6,12 @@ tags:
 Subjects: [[Group Theory]], [[Differential Geometry]]
 Links: [[Smooth Manifolds]], [[Smooth Functions on Smooth Manifolds]], [[Topological Groups]], [[Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds]]
 
-**Def:** A *Lie group* is a $\mathcal C^\infty$ $G$ having a group structure such that the multiplication map: $$\mu : G\times G \to G, \qquad \mu(g,h)= gh $$and the inverse map $$\iota: G\to G, \qquad \iota(g)= g^{-1} $$ are both $\mathcal C^\infty$. 
+**Def:** A *Lie group* is a smooth manifold $G$ (without boundary) that is also a group in the algebraic sense, with the property that the multiplication map $m: G\times G \to G$ and inversion map $i: G \to G$, given by $$m(g,h) := gh,\qquad i(g)  := g^{-1},$$are both smooth. 
+
+**Prop:** If $G$ is a smooth manifold with a group structure such that the map $G\times G \to G$ given by  $(g,h) \mapsto gh^{-1}$ is smooth, then $G$ is a Lie group.
 
 **Def:** For $g \in G$, denote $\ell_g: G \to G$, $\ell_g(x) = \mu(g, x) = gx$, the operation of *left multiplication by $g$*, and $r_g: G \to G$, $r_a(x) = \mu(x, a) = xa$, the operation of the *right multiplication by $a$*. We also call left and right multiplications *left and right translations*. 
+
 
 An important examples are:
 - [[Torus in Rn]]
@@ -27,7 +30,11 @@ An important examples are:
 
 The group homomorphism condition means that for all $g, h\in H$, $F(gh) = F(g)F(h)$. This can be written functionally as $F\circ \ell_g = \ell_{F(g)} \circ F$. 
 
+**Th:** Every Lie group homomorphism has [[Rank and Local Normal Forms of Smooth Manifolds|constant rank]]. 
+
 **Cor:** The image of a Lie group homomorphism is a Lie group. 
+
+**Cor:** A Lie group homomorphism is a Lie group isomorphism iff it is bijective. 
 
 **Def:** The *identity component $G_0$* of a Lie group $G$ is the connected component of the identity element $e$ in $G$. 
 
@@ -51,4 +58,9 @@ This gives rise to the concept of a [[Lie Algebra of a Lie Group]]
 
 **Prop:** Let $F: G \to H$ be a Lie group homomorphism. The kernel of $F$ is an embedded Lie group of $G$, whose codimension is equal to the rank of $F$. 
 
-**Existence of a Universal Covering Group:** Let $G$ be a connected Lie group. There exists a simply connected Lie group $\tilde G$ (called the universal covering group of $G$) and a smooth covering map $\pi: \tilde G\to G$ that is also a Lie group homomorphism.
+**Existence of a Universal Covering Group:** Let $G$ be a connected Lie group. There exists a simply connected Lie group $\tilde G$, called the *universal covering group of $G$*, that admits a smooth covering map $\pi: \tilde G \to G$ that is also a Lie group homomorphism.
+
+This is an immediate consequence of [[Smooth Covering Maps#^d56ba7|Universal Covering Manifold]]
+
+**Uniqueness of the Universal Covering Group:** For any connected Lie group $G$, the universal covering map is unique in the following sense: ig $\tilde G$ and $\tilde G'$ are simply connected Lie groups that admits smooth covering maps $\pi: \tilde G \to G$ and $\pi': \tilde G'\to G$ that are also Lie group homomorphism, then there exists a Lie group isomorphism $\Phi: \tilde G \to \tilde G'$ such that $\pi' \circ \Phi = \pi$ .
+

@@ -59,7 +59,7 @@
 	- [ ] Rosen
 -  Category Theory
 ## Analysis
-- [ ] Measure Theory
+- Measure Theory
 	- [ ] Halmos
 		- [x] Sets and Classes
 		- [x] Measures and Outer Measures

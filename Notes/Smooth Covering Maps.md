@@ -26,7 +26,7 @@ Links: [[Covering Maps]], [[Smooth Functions on Smooth Manifolds]], [[Proper Map
 
 **Prop:** Let $\pi: E \to M$ is a smooth map between smooth manifolds that is a topological covering map. Then $\pi$ is a smooth covering map. 
 
-**Covering Spaces of Smooth Manifolds:** Suppose $M$ is a connected smooth $n$-manifold, and $\pi: E \to M$ is a topological covering map. Then $E$ is a topological $n$-manifold, and has a unique smooth structure such that $\pi$ is a smooth covering map.
+**Covering Spaces of Smooth Manifolds:** Suppose $M$ is a connected smooth $n$-manifold, and $\pi: E \to M$ is a topological covering map. Then $E$ is a topological $n$-manifold, and has a unique smooth structure such that $\pi$ is a smooth covering map. ^d56ba7
 
 **Covering Spaces of Smooth Manifolds with Boundary:** Suppose $M$ is a connected smooth $n$-manifold with boundary, and let $\pi: E \to M$ is a topological covering map. Then $E$ is a topological $n$-manifold with boundary such that $\partial E = \pi ^{-1}[\partial M]$, and it has a unique smooth structure such that $\pi$ is a smooth covering map. 
 

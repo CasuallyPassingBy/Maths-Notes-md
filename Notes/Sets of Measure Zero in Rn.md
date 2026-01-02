@@ -14,7 +14,11 @@ Links: [[Jordan Measure]], [[Riemann Integral in Rn]], [[Riemann Integral in R]]
 
 **Prop:** If $A\subseteq \Bbb R^n$ such that $\lambda(A) = 0$, then $\text{int}(A) = \varnothing$. 
 
-**Prop:** Any proper affine subspace of $\Bbb R^n$ has measure zero in $\Bbb R^n$.
+**Lemma:** Suppose $A\subseteq \Bbb R^n$ is a compact subset whose intersection with $\{c\}\times \Bbb R^{n-1}$ has $(n-1)$-dimensional measure zero for every $c\in \Bbb R$. Then $A$ has $n$-dimensional measure zero, 
+
+**Cor:** Any proper affine subspace of $\Bbb R^n$ has measure zero in $\Bbb R^n$.
+
+**Prop:** Suppose $A$ is an open or closed subset of $\Bbb R^{n-1}$ or $\Bbb H^{n-1}$, and $f: A \to \Bbb R$ is a continuous function. Then the graph of $f$ has measure zero in $\Bbb R^n$. 
 
 **Prop:** Let $A \subseteq \Bbb R^n$, be at most numerable then $\lambda(A) =0$
 
@@ -29,7 +33,7 @@ Links: [[Jordan Measure]], [[Riemann Integral in Rn]], [[Riemann Integral in R]]
 ### Lebesgue Criterion for Integrability
 Let $f:R\subseteq \Bbb R^n\to \Bbb R$ be bounded over the rectangle $R$. $f$ is integrable over $R$ iff the set of discontinuities of $f$ over $R$, $D(f, R)$ has Lebesgue measure $0$, i.e. $\lambda(D(f, R)) = 0$.
 
-**Lemma:** A subset $A\subseteq \Bbb R^n$ has measure zero iff for every $\varepsilon>0$ can be covered by a countable collection of open balls, the sum of whose Jordan-measure is $0$. 
+**Lemma:** A subset $A\subseteq \Bbb R^n$ has measure zero iff for every $\varepsilon>0$ can be covered by a countable collection of open balls, the sum of whose Jordan-measure is less than $\varepsilon$. 
 
 **Prop:** Suppose $A\subseteq \Bbb R^n$ has measure zero and $F: A \to \Bbb R^n$ is a smooth map. Then $F[A]$ has measure $0$.
 

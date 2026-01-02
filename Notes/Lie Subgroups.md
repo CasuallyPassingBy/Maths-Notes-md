@@ -4,19 +4,33 @@ tags:
   - LinearAlgebra
 ---
 Subjects: [[Differential Geometry]], [[Group Theory]]
-Links: [[Lie Groups]], [[Subgroups]], [[Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds]], [[Embedded Smooth Submanifolds]]
+Links: [[Lie Groups]], [[Subgroups]], [[Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds]], [[Immersed Smooth Submanifolds]], [[Embedded Smooth Submanifolds]]
 
 **Def:** A *Lie subgroup* of Lie group $G$ is:
 - an abstract subgroup $H$
 - $H$ is an *immersed manifold* via the inclusion map
 - the group operations on $H$ are smooth
 
-**Prop:** If $H$ is an abstract subgroup and a embedded submanifold of a Lie group $G$, then it is a closed Lie subgroup of $G$.
+**Def:** Suppose $G$ is an arbitrary Lie group and $H \le G$ is an *open subgroup*, a subgroup that is also an open subset. Similarly, we say that $H \le G$ is a *closed subgroup* if $H$ is a closed subset of $G$ and a subgroup. 
 
-**Def:** A subgroup $H$ that is a regular submanifold is called an *embedded Lie subgroup*, because the inclusion $i: H \to G$ of a regular submanifold is an embedding. 
+**Prop:** Let $G$ be a Lie group, and suppose $H\le G$ is a subgroup that is also an embedded submanifold. Then $H$ is a Lie subgroup. 
 
-$(*)$ **Th: (Closed subgroup theorem):** A closed subgroup of a Lie group is an embedded Lie group
+**Lemma:** Suppose $G$ is a Lie group and $H\le G$ is an open subgroup. Then $H$ is an embedded Lie subgroup. In addition, $H$ is closed so it is a union of connected components of $G$. 
 
+**Prop:** Suppose $G$ is a Lie group, and $W\subseteq G$ is any neighbourhood of the identity. 
+- $W$ generates an open subgroup of $G$.
+- if $W$ is connected, it generates a connected open subgroup of $G$.
+- If $G$ is connected, then $W$ generates $G$. 
+
+**Def:** If $G$ is a Lie group, the connected component of $G$ containing the identity is called the *identity component of $G$.
+
+**Prop:** Let $G$ be a Lie group and let $G_0$ be its identity component. Then $G_0$ is a normal subgroup of $G$, and it is the only connected open subgroup. Every connected component of $G$ is diffeomorphic to $G_0$. 
+
+**Prop:** Let $F: G\to H$ be a Lie group homomorphism. The kernel of $F$ is a properly embedded Lie subgroup of $G$, whose codimension is equal to the rank of $F$. 
+
+**Prop:** If $F: G \to H$ is an injective Lie group homomorphism, then image of $F$ has a unique manifold structure such that $F[G]$ is a Lie subgroup of $H$ and $F:G \to F[G]$ is a Lie group isomorphism,
+
+**Th:** Suppose $G$ is a Lie group and $H \le G$ be a Lie subgroup. Then $H$ is closed in $G$ iff it is embedded. 
 # Lie Algebra of a Lie Subgroup
 
 If $G$ is a Lie group and $H \le G$ is a Lie subgroup, we would like that the Lie algebra of $H$ a would be a Lie subalgebra of that of $G$. Strictly, speaking that is not possible since elements in $\text{Lie}(H)$ are vector fields in $H$, not $G$, and so are not even elements of $\text{Lie}(G)$. 
