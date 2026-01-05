@@ -31,6 +31,7 @@ Links: [[Lie Groups]], [[Subgroups]], [[Submersions, Immersions and Local Diffeo
 **Prop:** If $F: G \to H$ is an injective Lie group homomorphism, then image of $F$ has a unique manifold structure such that $F[G]$ is a Lie subgroup of $H$ and $F:G \to F[G]$ is a Lie group isomorphism,
 
 **Th:** Suppose $G$ is a Lie group and $H \le G$ be a Lie subgroup. Then $H$ is closed in $G$ iff it is embedded. 
+
 # Lie Algebra of a Lie Subgroup
 
 If $G$ is a Lie group and $H \le G$ is a Lie subgroup, we would like that the Lie algebra of $H$ a would be a Lie subalgebra of that of $G$. Strictly, speaking that is not possible since elements in $\text{Lie}(H)$ are vector fields in $H$, not $G$, and so are not even elements of $\text{Lie}(G)$. 
