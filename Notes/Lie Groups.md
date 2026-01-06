@@ -24,7 +24,7 @@ An important examples are:
 
 **Prop:** For any $g \in G$ in a Lie group, then $\ell_g: G \to G$ is a diffeomorphism. 
 
-**Prop:** The Cartesian product $G_1 \times G_2$ of two Lie groups $(G_1, \mu_1)$ and $(G_2, \mu_2)$ is a Lie group under coordinatewise multiplication $\mu_1 \times \mu_2$.
+**Prop:** The Cartesian product $G_1 \times G_2$ of two Lie groups $(G_1, \mu_1)$ and $(G_2, \mu_2)$ is a Lie group under coordinate wise multiplication $\mu_1 \times \mu_2$.
 
 **Def:** A map $F: H \to G$ between two Lie groups $H$ and $G$ is a *Lie group homomorphism* if its a smooth map and a group homomorphism. 
 
@@ -35,12 +35,6 @@ The group homomorphism condition means that for all $g, h\in H$, $F(gh) = F(g)F(
 **Cor:** The image of a Lie group homomorphism is a Lie group. 
 
 **Cor:** A Lie group homomorphism is a Lie group isomorphism iff it is bijective. 
-
-**Def:** The *identity component $G_0$* of a Lie group $G$ is the connected component of the identity element $e$ in $G$. 
-
-**Prop:** We have that $G_0$ is a normal Lie subgroup. 
-
-**Def:** The quotient group $G/G_0$ is called the *component group* of $G$. Its elements are the connected component of $G$.
 
 **Prop:** An open subgroup $H$ of a connected Lie group $G$ is equal to $G$.
 
@@ -62,5 +56,5 @@ This gives rise to the concept of a [[Lie Algebra of a Lie Group]]
 
 This is an immediate consequence of [[Smooth Covering Maps#^d56ba7|Universal Covering Manifold]]
 
-**Uniqueness of the Universal Covering Group:** For any connected Lie group $G$, the universal covering map is unique in the following sense: ig $\tilde G$ and $\tilde G'$ are simply connected Lie groups that admits smooth covering maps $\pi: \tilde G \to G$ and $\pi': \tilde G'\to G$ that are also Lie group homomorphism, then there exists a Lie group isomorphism $\Phi: \tilde G \to \tilde G'$ such that $\pi' \circ \Phi = \pi$ .
+**Uniqueness of the Universal Covering Group:** For any connected Lie group $G$, the universal covering map is unique in the following sense: if $\tilde G$ and $\tilde G'$ are simply connected Lie groups that admits smooth covering maps $\pi: \tilde G \to G$ and $\pi': \tilde G'\to G$ that are also Lie group homomorphism, then there exists a Lie group isomorphism $\Phi: \tilde G \to \tilde G'$ such that $\pi' \circ \Phi = \pi$ .
 

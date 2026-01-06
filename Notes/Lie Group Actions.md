@@ -7,6 +7,39 @@ Subjects: [[Differential Geometry]], [[Group Theory]]
 Links: [[Group Actions]], [[Continuous Actions of Groups]], [[Lie Groups]], [[Representations of Groups]], [[General Linear Group]], [[Lie Algebra]], [[Lie Algebra of a Lie Group]], [[Continuous Actions of Groups#Proper Actions|Proper Actions]], [[Riemannian Metrics on Smooth Manifolds]]
 
 **Def:** A smooth manifold $M$ endowed with an smooth action from a Lie group $G$ is called a *smooth $G$-space*. 
+
+**Prop:** Suppose $E$ and $M$ are smooth manifolds with or without boundary, and  $\pi:N \to M$ is a smooth covering map. With the discrete topology, the [[Covering Maps#^78c0a4|covering group]] $\text{Aut}_\pi(N)$ is a zero dimensional Lie group acting smoothly, freely and properly on $N$. 
+
+Suppose $G$ is a Lie group, and $M$ and $N$ are both smooth manifolds endowed with a left or right $G$-actions. A map $F:M \to N$ is said to be *equivariant* with respect to the given $G$-actions if for each $g\in G$,  $$\begin{align*} F(g \cdot p) &= g\cdot F(p) \quad \text{for left actions}  \\  F(p \cdot g) &= F(p)\cdot g \quad \text{for right actions}   \end{align*}$$
+
+
+**Equivaraint Rank Theorem:** Let $M$ and $N$ be smooth manifolds and let $G$ be a Lie group. Suppose $F: M \to N$ is a smooth map that is equivariant with respect to a transitive smooth $G$-action on $M$ and any smooth action on $N$. Then $F$ has [[Rank and Local Normal Forms of Smooth Manifolds|constant rank]]. Thus, if $F$ is surjective, it is a smooth submersion, if it is injective it is a smooth immersion; and if it is bijective it is a diffeomorphism. 
+
+Suppose $G$ is a Lie group, $M$ is a smooth manifold, and $\theta: G\times M \to M$ is a smooth left action. For each $p\in M$, we define a map $\theta^{(p)}: G\to M$ by $$\theta^{(p)}(g) = g\cdot p. $$This is often called the *orbit map*, because its image is the orbit $G \cdot p$. We see that $\theta^{(p)}\{p\}$ is just the stabiliser group $G_p$. 
+
+**Properties of the Orbit Map:** Suppose $\theta$ is a smooth left action of a Lie group $G$ on A smooth manifold $M$. For each $p\in M$, the orbit map $\theta^{(p)}: G\to M$ is smooth and has constant rank, so the stabiliser group $G_p$ is a properly embedded Lie subgroup of $G$. If $G_p = \{e\}$, then $\theta^{(p)}$ is an injective smooth immersion, so that $G \cdot p$ is an immersed submanifold of $M$. 
+
+
+## Semidirect Products
+
+Suppose $H$ and $N$ are Lie groups and $\theta: H \times N\to N$ is a smooth left action of $H$ on $N$. If is said to be an *action by automorphism* if for each $h\in H$, the map $\theta_h:N  \to N$ is a group automorphism of $N$. Given such an action, we define a new Lie group $N \rtimes_\theta H$, called the *semidirect product of $H$ and $N$,* as follows. As a smooth manifold $N \rtimes_\theta H$ is just the Cartesian product $N \times H$ by the group operation is defined by $$(n, h)(n', h') = (n\theta_h(n'), hh').$$
+Sometimes, if the action of $H$ on $N$ is understood or irrelevant, the semidirect product is denoted simply by $N \rtimes H$.
+
+**Example:** We see that the [[Euclidean Group]] is actually just the semidirect product of $\Bbb R^n \rtimes \text O(n)$, where $\text O(n)$ is the [[Orthogonal Group]]. 
+
+**Prop:** Suppose $N$ and $H$ are Lie groups, and $\theta$ is a smooth action of $H$ on $N$ by automorphism. Let $G = N \rtimes_\theta H$. 
+- The subsets $\bar N = N \times \{e\}$ and $\bar H = \{e\}\times H$ are closed Lie subgroups of $G$ isomorphic to $N$ and $H$, respectively.
+- $\bar N$ is a normal subgroup of $G$.
+- $\bar N \cap \bar H = \{(e, e)\}$ and $\bar N\bar H = G$. 
+
+**Characterisation of Semidirect Products:** Suppose $G$ is a Lie group, and $N, H \le G$ are closed Lie subgroups such that $N$ is normal $N \cap H = \{e\}$, and $NH ) G$. Then the map $(n, h) \mapsto nh$ is a Lie group isomorphism between $N \rtimes_\theta H$ and $G$, where $\theta: H \times N\to N$ is the action by conjugation: $\theta_h(n) = hnh^{-1}$. 
+
+Under the hypothesis of the theorem above, we say that $G$ is the *internal semidirect product of $N$ and $H$*. 
+
+We see that this is just the natural extension of the [[Semidirect Product of Groups]] applied to Lie groups.
+
+
+
 ## Representations
 
 **Def:** If $G$ is a Lie group, a *(finite-dimensional) representation of $G$* is a Lie group homomorphism $\rho: G \to \text{GL}(V)$ for some finite dimensional real or complex vector space $V$. 
@@ -32,12 +65,6 @@ $(*)$ **Ado's Theorem:** Every finite-dimensional Lie algebra admits a faithful 
 
 ## Quotients of Manifolds by Group Actions
 
-**Equivariant Rank Theorem:** Let $M$ and $N$ be smooth manifolds and let $G$ be a Lie group. Suppose $F: M \to N$ is a smooth map that is equivariant with respect to a transitive smooth $G$-action on $M$ and any smooth $G$-action on $N$. Then $F$ has constant rank. In particular, its level sets are closed embedded submanifolds of $M$. 
-
-This is a consequence of the [[Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds#^815841|Constant Rank Theorem]].
-
-**Prop:** Let $F: G \to H$ be a Lie group homomorphism. The kernel of $F$ is an embedded Lie subgroup of $G$, whose codimension is equal to the rank of $F$. 
-
 **Prop:** Any continuous action by a compact Lie group on manifold is proper.
 
 **Quotient Manifold Theorem:** Suppose a Lie group $G$ acts smoothly, freely, and properly on a smooth manifold $M$. Then the *orbit space* $M/G$ is a topological manifold of dimension equal to $\dim M - \dim G$, and has a unique smooth structure with the property that the quotient map $\pi: M \to M/G$ is a smooth submersion. ^d7ed22
@@ -49,8 +76,6 @@ This is a consequence of the [[Submersions, Immersions and Local Diffeomorphism 
 **Cor:** If $G$ is a connected Lie group, then every discrete normal subgroup of $G$ is central. 
 
 **Prop:** Given that $\pi: \tilde G\to G$ is a universal covering map, then the covering group $\mathcal C_\pi(\tilde G)$ is isomorphic to $\pi_1(G, e)$. Then we can prove that the fundamental group of a connected Lie group is abelian.
-
-**Prop:** Let $\pi:N \to M$ be a smooth covering map. With the discrete topology, the [[Covering Maps#^78c0a4|covering group]] $\mathcal C_\pi(N)$ is a zero dimensional Lie group acting smoothly, freely and properly on $N$. 
 
 **Th:** Suppose $M$ is a connected smooth manifold, and $\Gamma$ is a discrete group acting smoothly, freely and properly on $M$. Then the quotient space $M/\Gamma$ is a topological manifold and has a unique smooth structure such that $\pi: M \to M/\Gamma$ is a [[Smooth Covering Maps|smooth]] [[Covering Maps#^06bb5b|normal]] covering map. ^2c0355
 

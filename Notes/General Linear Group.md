@@ -33,6 +33,8 @@ Let $\det: \text{GL}(n, \Bbb R) \to \Bbb R$ be the determinant map. The tangent 
 
 **Prop:** $Z(\text{GL}(2n, \Bbb R)) \not\cong  Z(\text{SL}(2n, \Bbb R)\times \Bbb R^\times)$. Meaning that $\text{GL}(2n, \Bbb R)) \not\cong  \text{SL}(2n, \Bbb R)\times \Bbb R^\times$.
 
+**Prop:** $\text{GL}(n, \Bbb R) \cong \text{SL}(n,\Bbb R)\rtimes \Bbb R^\times$, we can think of this as the [[Lie Group Actions#Semidirect Products|Semidirect Product of Lie Groups]]. 
+
 The subset $\text{GL}^+(n, \Bbb R)\subseteq \text{GL}(n, \Bbb R)$ consisting of real $n\times n$ matrices with positive determinants is a subgroup. It is an open subset of $\text{GL}(n, \Bbb R)$ by continuity of the determinant, thus it is an embedded Lie subgroup of dimension $n^2$.
 
 We would like to consider the Lie algebra of $\text{GL}(n, \Bbb R)$. Since $T_{I_n} \text{GL}(n, \Bbb R)$ can be identifies with $\text{GL}(n, \Bbb R)$, then the Lie algebra of $\text{GL}(n, \Bbb R)$ is itself. To make the distinction that is equipped with the bracket commutator of matrices we denote it as ${\frak gl}(n,\Bbb R)$. 
@@ -54,3 +56,5 @@ b_n^1& a_n^1 & \dots & b_n^n & a^n_n \\
 **Prop:** The connected components of $\text{GL}(n,\Bbb R)$ are $\text{GL}^+(n, \Bbb R)$ and $\text{GL}^-(n, \Bbb R)$.
 
 **Prop:** We can ge that $\text{GL}(n,\Bbb R)$ is diffeomorphic to $\text O(n) \times \text T^+(n, \Bbb R)$, where $\text T^+(n, \Bbb R)$ is the Lie group of $n\times n$ upper triangular real matrices with positive diagonal entries. In particular, we get the diffeomorphism $\text{GL}(n,\Bbb R) \cong \text{SO}(n) \times \text T^+(n, \Bbb R)$. 
+
+**Prop:** $\text{GL}(n, \Bbb C) \cong \text{SL}(n,\Bbb C)\rtimes \Bbb C^\times$, we can think of this as the [[Lie Group Actions#Semidirect Products|Semidirect Product of Lie Groups]]. 
