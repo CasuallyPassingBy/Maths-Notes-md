@@ -17,7 +17,7 @@ Then we have that $\Bbb {RP}^n$ is compact.
 
 **Prop:** The real projective space $\Bbb {RP}^n$ is $T_2$. 
 
-# The Standard $\mathcal C^\infty$ Atlas on a Real Projective Space
+# The Standard Smooth Atlas on a Real Projective Space
 
 Let $[a^0, \dots, a^n]$ be homogeneous coordinates on the projective space $\Bbb {RP}^n$. $a^0$ is not a well-defined function $\Bbb {RP}^n$, the condition $a^0 \neq 0$ is independent of the choice of representative for $[a^0, \dots, a^n]$. With this condition, we can define: $$U_0 := \{[a^0, \dots, a^n]\in \Bbb {RP}^n \mid a^0\neq 0\}$$Similarly, for each $i\in \{1, \dots, n\}$, let $$U_i := \{[a^0, \dots, a^n]\in \Bbb {RP}^n \mid a^i \neq 0\}$$
 We define the map: $\phi_i: U_i \to \Bbb R^n$ by $$[a^0, \dots, a^n] \mapsto \left(\frac{a^0}{a^i}, \dots, \hat{\frac{a^i}{a^i}}, \dots \frac{a^n}{a^i}\right)$$where the caret sign $\widehat \;$  over $a^i/ a^i$ means that entry is to be omitted. This proves that $\Bbb {RP}^n$ is locally Euclidean with the charts $(U_i, \phi_i)$ as charts.
@@ -36,5 +36,4 @@ The two-element group $\{\pm 1\}$ acts on $\Bbb S^n$ by multiplication. This act
 
 # Real Projective Varieties
 
-On the projective space $\Bbb {RP}^n$ a homogeneous polynomial $F(x_0, \dots,x_n)$ of degree $k$ is not a function, since its value at a point $[a_0, \dots, a_n]$ is not unique. However, the zero set in $\Bbb {RP}^n$ of a homogeneous polynomial $F(x_0, \dots, x_n)$ is well defined, since $F(a_0, \dots, a_n) = 0$ if $$F(ta_0, \dots, ta_n) = t^kF(a_0, \dots, a_n) = 0, \qquad \forall t\in \Bbb R^\setminus\{0\}$$The zero set of finitely many homogeneous polynomials in % is called a *real projective variety*. A projective variety defined by a single homogeneous polynomial of degree $k$ is called a *hypersurface* of degree $k$. 
-
+On the projective space $\Bbb {RP}^n$ a homogeneous polynomial $F(x_0, \dots,x_n)$ of degree $k$ is not a function, since its value at a point $[a_0, \dots, a_n]$ is not unique. However, the zero set in $\Bbb {RP}^n$ of a homogeneous polynomial $F(x_0, \dots, x_n)$ is well defined, since $F(a_0, \dots, a_n) = 0$ if $$F(ta_0, \dots, ta_n) = t^kF(a_0, \dots, a_n) = 0, \qquad \forall t\in \Bbb R ^\times$$The zero set of finitely many homogeneous polynomials in % is called a *real projective variety*. A projective variety defined by a single homogeneous polynomial of degree $k$ is called a *hypersurface* of degree $k$. 

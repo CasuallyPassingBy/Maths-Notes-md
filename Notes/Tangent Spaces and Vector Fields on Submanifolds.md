@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Smooth Manifolds]], [[Embedded Smooth Submanifolds]], [[Immersed Smooth Submanifolds]], [[Tangent Space for Manifolds]]
+Links: [[Smooth Manifolds]], [[Embedded Smooth Submanifolds]], [[Immersed Smooth Submanifolds]], [[Tangent Space for Manifolds]], [[Vector Fields on Smooth Manifolds]]
 
 Let $M$ be a smooth manifold with or without boundary, and let $S\subseteq M$ be an immersed or embedded submanifold. Since the inclusion map $\iota:S \to M$ is a smooth immersion, at each point $p\in S$ we have the injective linear map $d\iota_p : T_p S \to T_p M$. We will adopt the convention *identifying* $T_p S$ with its image under this map, thereby thinking of $T_pS$ as a certain linear subspace of $T_p M$.
 
@@ -32,3 +32,12 @@ Let $M$ be a smooth manifold with or without boundary, and let $S\subseteq M$ be
 
 The proof of this relies on the fact $\{d\Phi^1|_p,\dots, d\Phi^l|_p\}$ forms a basis for the [[Dual Vector Spaces#^500dc6|annihilator]] of $T_p C$. A critical point of $f|_C$ must have a vanishing differential, then $d(f|_C)_p$ must be an element of the annihilator of $T_p C$ when seen as subspace of $T_pM$. 
 
+# Vector Fields
+
+If $S\subseteq M$ is an immersed or embedded submanifold with or without boundary, a vector field $X$ on $M$ does not necessarily restrict to a vector field on $S$, because $X_p$ may not lie on the subspace $T_p S \subseteq T_p M$ at a point $p\in S$. Given a point $p\in S$, a vector field $X$ on $M$ is said to be *tangent to $S$ at $p$* if $X_p \in T_p S\subseteq T_p M$. It is *tangent to $S$* if it is tangent to $S$ ar every point of $S$.
+
+**Prop:** Let $M$ be a smooth manifold, $S\subseteq M$ be an embedded submanifold with or without boundary, and $X$ be a smooth vector field on $M$. Then $X$ is tangent to $S$ iff $(Xf)|_S = 0$ for every $f\in {\cal C}^\infty(M)$ such that $f|_S = 0$. 
+
+**Restricting Vector Fields to Submaniolds:** Let $M$ be a smooth manifold, let $S\subseteq M$ be an immersed submanifold with or without boundary, and let $\iota: S \hookrightarrow M$ denote the inclusion map. If $Y\in {\frak X}(M)$ is tangent to X$, then there is a unique smooth vector field on $S$, denoted by $Y|_S$, that is $\iota$-related to $Y$. 
+
+**Cor:** Let $M$ be a smooth manifold and let $S$ be an immersed submanifold with or without boundary in $M$. If $Y_1$ and $Y_2$ are smooth vector fields on $M$ that are tangent to $X$, then $[Y_1, Y_2]$ is also tangent to $S$. 

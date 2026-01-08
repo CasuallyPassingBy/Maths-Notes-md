@@ -38,6 +38,7 @@ Under the hypothesis of the theorem above, we say that $G$ is the *internal semi
 
 We see that this is just the natural extension of the [[Semidirect Product of Groups]] applied to Lie groups.
 
+**Prop:** Suppose $G$, $N$, and $H$ are Lie groups. Then $G$ is isomorphic to a semidirect product $N \rtimes H$ iff there are Lie group homomorphism $\varphi: G \to H$ and $\psi: H \to G$ such that $\varphi \circ\psi = \text{id}_H$ and $\ker \varphi \cong N$. 
 
 
 ## Representations

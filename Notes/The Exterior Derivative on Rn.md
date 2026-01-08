@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Differential Forms on Rn]], [[Derivations]], [[The Gradient]], [[Stokes Theorem and Curl in R3]], [[Gauss's Theorem and Divergence in R3]]
+Links: [[Derivations]], [[The Gradient]], [[Stokes Theorem and Curl in R3]], [[Gauss's Theorem and Divergence in R3]]
 
 To define the *exterior derivative* of a $\mathcal C^\infty$ $k$-form, we first define it for $0$-forms: the exterior derivative of $f \in \mathcal C^\infty (U)$ is defined to be the differential form $df \in \Omega^1(U)$, in terms of it's coordinates: $$df =  \frac{\partial f}{\partial x^i} dx^i$$
 **Def:** For $k \ge 1$, if $\omega = \sum a_I dx^I \in \Omega^k(U)$, then $$d\omega =  da_I \wedge dx^I = \left(  \frac{\partial a_I}{\partial x^j}dx^j\right) \wedge dx^I \in \Omega^{k+1}(U)$$

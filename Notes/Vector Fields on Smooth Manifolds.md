@@ -3,22 +3,57 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Local and Global Sections of Vector Bundles]], [[The Tangent Bundle]], [[Vector Fields on Rn]], [[Smooth Partitions of Unity for Manifolds]], [[Derivations]], [[Lie Algebra]], [[Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds]]
+Links: [[Local and Global Sections of Vector Bundles]], [[The Tangent Bundle]], [[Smooth Partitions of Unity for Manifolds]], [[Derivations]], [[Lie Algebra]], [[Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds]]
 
-**Def:** A *vector field* $X$ on a manifold $M$ is a function that assigns a tangent vector $X_p \in T_p M$ to each point $p\in M$. In terms of the tangent bundle, a vector field on $M$ is simply a section of the tangent bundle $\pi: TM \to  M$ and the vector field is *smooth* if it is a smooth map from $M$ to $TM$. 
+**Def:** If $M$ is a smooth manifold with or without boundary, a *vector field on $M$* is a continuous section of the map $\pi: TM \to M$. More concretely, a vector field is a continuous map $X:M \to TM$, usually written $p\mapsto X_p$, with the property $$\pi \circ X = \text{id}_M,$$or equivalently, $X_p\in T_pM$ for each $p\in M$. 
 
-**Lemma:** Let $(U, \phi) = (U, x^1, \dots, x^n)$ be a chart on a manifold $M$. A vector field $X = X^i \dfrac{\partial}{\partial x^i}$ on $U$ is smooth iff the coefficient functions $a^i$ are all smooth on $U$.  
+We are primarily interested in *smooth vector fields,* that ones that are smooth as maps from $M$ to $TM$. In addition, for some purposes it is useful to consider maps from $M$ to $TM$ that would be a vector fields except they might not be continuous. A *rough vector field on $M$* is a map $X: M \to TM$, such that $\pi \circ X = \text{id}_M$. Just as for functions, if $X$ is a vector field on $M$, the *support of $X$* is defined to be the closure of the set $\{p\in M \mid X_p \neq 0\}$. A vector field is said to be *complactly supported* if its support is a compact set. 
+
+Suppose $M$ is a smooth $n$-manifold with or without boundary. If $X: M \to TM$ is a rough vector field and $(U, (x^i))$ is any smooth coordinate chart for $M$, we can write the value of $X$ on $U$ in terms the coordinate basis vectors: $$X = X^i \left.\frac{\partial}{\partial x^i}\right\rvert_p. $$This defines $n$ functions $X^i:U \to \Bbb R$, called the *component functions of $X$* in the given chart.
+
+**Smoothness Criterion for Vector Fields:** Let $M$ be a smooth manifold with or without boundary, and let $X: M \to TM$ be a rough vector field. If $(U, (x^i))$ is any smooth coordinate chart on $M$, then the restriction of $X$ to $U$ is smooth iff its component functions with respect to this chart are smooth. 
 
 **Prop:** Let $X$ be a vector field on a manifold $M$. The following are equivalent:
 - The vector field $X$ is smooth on $M$.
-- The manifold $M$ has an atlas such that any chart $(U, \phi) = (U, x^1, \dots, x^n)$ of the atlas, the coefficients $a^i$ of $X = X^i \dfrac{\partial}{\partial x^i}$ relative to the frame $\dfrac{\partial}{\partial x^i}$ are all smooth.
-- On any chart $(U, \phi) = (U, x^1, \dots, x^n)$ on the manifold $M$, the coefficients $a^i$ of $X = X^i \dfrac{\partial}{\partial x^i}$ relative to the frame $\dfrac{\partial}{\partial x^i}$ are all smooth.
+- The manifold $M$ has an atlas such that any chart $(U, \phi) = (U, x^1, \dots, x^n)$ of the atlas, the coefficients $X^i$ of $X = X^i \dfrac{\partial}{\partial x^i}$ relative to the frame $\dfrac{\partial}{\partial x^i}$ are all smooth.
+- On any chart $(U, \phi) = (U, x^1, \dots, x^n)$ on the manifold $M$, the coefficients $X^i$ of $X = X^i \dfrac{\partial}{\partial x^i}$ relative to the frame $\dfrac{\partial}{\partial x^i}$ are all smooth.
 
-**Def:** Just as for the case of [[Vector Fields on Rn]], a vector field $X$ on a manifold $M$ induces a linear map on the algebra $\mathcal C^\infty (M)$ of smooth functions on $M$; for $f \in \mathcal C^\infty (M)$, define $Xf$ to be the function $$(Xf)(p) = X_p f, \qquad p \in M$$
-**Cor:** Suppose $(U, x^1, \dots, x^n)$ and $(V, \dots, y^1, \dots, y^n)$ are two charts on $M$ with nonempty overlap. Then a smooth vector field $X$ on $U\cap V$ has two different local expressions: $$X = X^i \frac{\partial}{\partial x^i} = \tilde X^i \frac{\partial}{\partial y^i}.$$Then we see that $$X^k = \tilde X^i \frac{\partial x^k}{\partial y^i}$$
+If $M$ is a smooth manifold with or without boundary and $A \subseteq M$ is an arbitrary subset, a *vector field along $A$* is a continuous map $X: A \to TM$ satisfying $\pi \circ X = \text{id}_A$. We call it s a *smooth vector field along $A$* if for each $p\in A$, there is a neighbourhood $V$ of $p$ in $M$ and a smooth vector field $Y$ on $V$ that agrees with $X$ on $V \cap A$.
+
+**Extension Lemma for Vector Fields:** Let $M$ be a smooth manifold with or without boundary, and let $A\subseteq M$ be a closed subset. Suppose $X$ is a smooth vector space along $A.$ Given any open subset $U$ containing $A$, there exists a smooth global vector field $Y$ on $M$ such that $Y|_A =X$ and $\text{supp } Y \subseteq U$. 
+
+**Prop:** Let $M$ be a smooth manifold with or without boundary. Given $p\in M$ and $v\in T_pM$, there is a smooth global vector field $X$ on $M$ such that $X_p = v$.
+
+**Cor:** Suppose $(U, x^1, \dots, x^n)$ and $(V, \dots, y^1, \dots, y^n)$ are two charts on $M$ with nonempty overlap. Then a smooth vector field $X$ on $U\cap V$ has two different local expressions: $$X = X^i \frac{\partial}{\partial x^i} = \tilde X^i \frac{\partial}{\partial y^i}.$$Then we see that $$X^k = \tilde X^i \frac{\partial x^k}{\partial y^i}.$$
 **Def:** The set of all smooth vector fields on $M$ is denoted as $\Gamma(M) = \mathfrak X(M)$ or $\text{Vect}(M)$, is clearly a $\Bbb R$-vector space, and a $\mathcal C^\infty(M)$-module. 
 
-**Cor:** We have that $\mathfrak X(M) = \text{Der}(\mathcal C^\infty (M))$, by the case of real open sets. 
+# Local and Global Frames
+
+**Def:** Suppose $M$ is a smooth $n$-manifold with or without boundary. An ordered $k$-tuple $(X_1,\dots,X_k)$ of vector fields defined on some subset $A\subseteq M$ is said to be *linearly independent* if $(X_1|_p,\dots, X_k|_p)$ is linearly independent $k$-tuple in $T_pM$ for each $p\in A$, and is said to *span the tangent bundle* if the $k$-tuple $(X_1|_p,\dots, X_k|_p)$ spans $T_p M$ at each $p\in A$. A *local frame for $M$* is an ordered $n$-tuple of vector fields $(E_1,\dots, E_n)$ define on an open subset $U\subseteq M$ that is linearly independent and spans the tangent bundle; thus the vectors $(E_1|_p,\dots, E_n|_p)$ form a basis for $T_p M$ at each $p\in U$. It is called a *global frame* if $U =M$, and a *smooth frame* if each of the vector fields $E_i$ is smooth. We often use the shorthand notation $(E_i)$ to denote the frame $(E_1,\dots, E_n)$. If $M$ has dimension $n,$ then to check that the ordered $n$-tuple of vector fields $(E_1,\dots, E_n)$ is a local frame, it suffices to check that either that is linearly independent or that it spans the tangent bundle.
+
+**Completion of Local Frames:** Let $M$ be a smooth $n$ manifold with or without boundary.
+- If $(X_1,\dots, X_k)$ is a linearly independent $k$-tuple of smooth vector fields on an open subset $U\subseteq M$, with $1 \le k < n$, then for each $p\in U$ there exist smooth vector fields $X_{k+1},\dots, X_n$ in a neighbourhood $V$ of $p$ such that $(X_1,\dots, X_n)$ is a smooth local frame for $M$ on $U\cap V$.
+- If $(v_1,\dots, v_k)$ is linearly independent $k$-tuple of vectors in $T_p M$ for some $p\in M$, with $1\le k \le n$ then there exists a smooth local frame $(X_i)$ on a neighbourhood $p$ such that $X_i|_p$ for $i =1,\dots, k$.
+- If $(X_1,\dots, X_n)$ is a linearly independent $n$-tuple of smooth vector fields along a closed subset $A\subseteq M$, then there exists a smooth local frame $(\tilde X_1,\dots, \tilde X_n)$ on some neighbourhood of $A$ such that $\tilde X_i|_A = X_i$ for $i =1,\dots, n$. 
+
+**Def:** Let $(M, g)$ be a Riemannian manifold. A $k$-tuple of vector fields $(E_1,\dots, E_k)$ defined on some subset $A\subseteq M$ is said to be *orthonormal* if for each $p\in A$, the vectors $(E_1|_p,\dots, E_k|_p)$ is orthonormal with respect to the inner product $g(\cdot, \cdot)$. A (local or global) frame consisting of orthonormal vector fields is called an *orthonormal frame*. 
+
+**Gram-Schmidt Algorithm for Frames:** Suppose $(M, g)$ is a Riemannian manifold and $(X_i)$ is a smooth local frame $TM$ over an open subset $U\subseteq M$. Then there id a smooth orthonormal frame $(E_j)$ over $U$ such that $\text{span} (E_1|_p,\dots, E_j|_p) = \text{span} (X_1|_p,\dots, X_j|_p)$ for $j= 1,\dots, n$ for each $p\in U$. 
+
+# Vector Fields as Derivations of $\mathcal C^\infty(M)$
+
+**Def:** If $X\in \mathfrak X(M)$ and $f$ is a smooth real-valued function defined on an open subset $U\subseteq M$, we obtain a new function $Xf: U\to \Bbb R$, defined by  $$(Xf)(p) = X_p f.$$Because the action of a tangent vector field on a function is determined by the values of the function in an arbitrarily small neighbourhood, it follows that $Xf$ us locally determined. In particular, for any open subset $V\subseteq U$, $$(Xf)|_V = X(f|_V).$$
+
+**Prop.** Let $M$ be a smooth manifold with or without boundary, and let $X: M \to TM$ be a rough vector field. The following are equivalent:
+- $X$ is smooth. 
+- For every $f\in \mathcal C^\infty(M)$, the function $Xf$ is smooth on $M$.
+- For every open subset $U\subseteq M$ and every $f\in \mathcal C^\infty(U)$, the function $Xf$ is smooth on $U$. 
+
+One consequence of the preceding proposition is that a smooth vector field $X\in\mathfrak X(M)$ defines a map from $\mathcal C^\infty(M)$ to itself by $f\mapsto Xf$. This map is linear over $\Bbb R$. Moreover, we see that satisfies the following equality: $$X(fg) = f Xg+ g Xf,$$for all $f, g\in \mathcal C^\infty(M)$.
+
+**Prop:** Let $M$ be a smooth manifold with or without boundary. A map $D: \mathcal C^\infty(M) \to \mathcal C^\infty(M)$ is a derivation iff is of the form $Df = Xf$ for some smooth vector field $X\in \mathfrak X(M)$. 
+
+**Cor:** We have that $\mathfrak X(M) \cong \text{Der}(\mathcal C^\infty (M))$. 
 
 **Prop (Smoothness of a vector field in terms of functions):** A vector field $X$ on $M$ is smooth iff for every smooth function $f$ on $M$, the function $Xf$ is smooth on $M$.
 
@@ -35,27 +70,26 @@ Just as for derivations that the composition of two derivations it is usually no
 
 **Prop:** We have that $(\mathfrak X(M), [ \; , \;])$ is a real Lie algebra. 
 
-**Prop:** If $f$ and $g$ are smooth functions and $X$ and $Y$ are smooth vector fields on a manifold $M$, then $$[fX, gY] = fg[X, Y] + f(Xg)Y - g(Yf)X$$
+**Prop:** If $f$ and $g$ are smooth functions and $X$ and $Y$ are smooth vector fields on a manifold $M$, then $$[fX, gY] = fg[X, Y] + (fXg)Y - (gYf)X$$
 **Prop:** Let $X$ and $Y$ be two smooth vector fields on $M$, with coordinate expressions for $X$ and $Y$ being $$X =  X^i \frac{\partial}{\partial x ^i}, \qquad \text{and} \qquad Y =  Y^j \frac{\partial}{\partial x ^j}$$in terms of some smooth local coordinates $(x^i)$ for $M$. Then $$[X, Y] =  \left(X^i \frac{\partial Y^j}{\partial x^i} -Y^i \frac{\partial X^j}{\partial x^i}\right)  \frac{\partial}{\partial x^j}$$
-# Pushforward of Vector Fields
-
- **Def:** Let $F: N \to M$ be a smooth map of manifolds and let $dF_p: T_p N \to T_{F(p)} M$ be its differential at a point $p \in N$. If $X_p \in T_p N$, we call $F_* (X_p) = dF_p(X_p)$ the *pushforward* of the vector $X_p$ at $p$. 
-  
-This notion does not extend in general to vector fields, since if $X$ is a vector field on $N$ and $z = F(p) = F(q)$ for two distinct points $p, q \in N$, then $X_p$ and $X_q$ are both pushed forward to the tangent vectors at $z\in M$, there's no reason why $F_*(X_p)$ and $F_*(X_q)$ should be equal.
-
-**Def:** If $F: N \to M$ is a diffeomorphism, then there's no ambiguity about the meaning of $(F_* X)_{F(p)} = dF_p(X_p)$, since $F$ is surjective, $F_* X$ is defined everywhere on $M$.
-
-**Prop:** Let $F: N \to M$ be a smooth diffeomorphism of manifolds. If $g$ is a smooth function and $X$ a smooth vector field on $N$, then $$F_*(gX) = (g \circ F^{-1}) F_* X. $$
-**Prop:** Let $F: N \to M$ be a smooth diffeomorphism of manifolds. If $X$ and $Y$ are smooth vector fields on $N$, then $$F_* [X, Y] = [F_* X, F_* Y]$$
-**Cor:** Let $F: N \to M$ be a smooth diffeomorphism of manifolds, then $F_*: \mathfrak X(M) \to \mathfrak X(N)$ is a Lie algebra isomorphism. 
 
 # Related Vector Fields
 
-**Def:** Let $F: N \to M$ be a smooth map of manifolds. A vector field $X$ on $N$ is $F$-related to a vector field $\bar X$ on $M$ if for all $p \in N$, $$dF_p(X_p) = \bar X_{F(p)}$$
-**Obs:** If $F: N \to M$ is a diffeomorphism and $X$ is vector field on $N$, then the pushforward $F_*X$ is defined, and the vector field $X$ is $F$-related to $F_*X$. 
+**Def:** Suppose $F: M\to N$ is smooth and $X$ is a vector field on $M$, and suppose there happens to be a vector field $Y$ on $N$ with the property that for each $p\in M$ $dF_p (X_p) = Y_{F(p)}$. In this case, we say that the vector fields $X$ and $Y$ are $F$*-related*, 
 
-**Prop:** Let $F: N \to M$ be a smooth map of manifolds. A vector field $X$ on $N$ and vector field $\bar X$ on $M$ are $F$-related iff for all $g\in \mathcal C^\infty (M)$. $$ X(g\circ F) = (\bar X g) \circ F.$$
+**Prop:** Suppose $F:M \to N$ is a smooth map between manifolds with or without boundary, $X\in {\frak X}(M)$ and $Y\in {\frak X}(M)$. Then $X$ and $Y$ are $F$-related iff for every real valued function $f$ defined on an open subset of $N$,  $$X(f \circ F) = (Yf)\circ F $$
+**Prop:** Suppose $M$ and $N$ are smooth manifold with or without boundary, and $F: M \to N$ is a diffeomorphism. For every $X\in {\frak X}(M)$, there is a unique smooth vector field $N$ that is $F$-related to $X$. 
+
+In this situation we denote the unique vector field that is $F$-related to $X$ by $F_*X$, and call it the *pushforward of $X$ by $F$*. Remember, it is only when $F$ is a diffeomorphism that $F_*X$ is defined. The explicit formula of $F_*X$ is $$(F_* X)_q := dF_{F^{-1}(q)}(X_{F^{-1}(q)}). $$As long as the inverse map $F^{-1}$ can be computed explicitly, the pushforward of a vector field can be computed from this formula. 
+
+**Cor:** Suppose $F: M \to N$ is a diffeomorphism and $X\in {\frak X}(M)$. For any $f\in {\cal C}^\infty (N)$, $$((F_* X)f)\circ F = X(f\circ F). $$
+
+**Prop:** Let $F: N \to M$ be a smooth diffeomorphism of manifolds. If $g$ is a smooth function and $X$ a smooth vector field on $N$, then $$F_*(gX) = (g \circ F^{-1}) F_* X. $$
+
 **Prop:** Let $F: N \to M$ be a smooth map of manifolds. If the smooth vector fields $X$ and $Y$ are $F$-related to the smooth vector fields $\bar X$ and $\bar Y$, respectively, on $M$, then the Lie bracket $[X, Y]$ on $N$ is $F$-related to the Lie bracket $[\bar X, \bar Y]$ on $M$.
+
+**Prop:** Let $F: N \to M$ be a smooth diffeomorphism of manifolds. If $X$ and $Y$ are smooth vector fields on $N$, then $$F_* [X, Y] = [F_* X, F_* Y]$$
+**Cor:** Let $F: N \to M$ be a smooth diffeomorphism of manifolds, then $F_*: \mathfrak X(M) \to \mathfrak X(N)$ is a Lie algebra isomorphism. 
 
 **Prop:** If $\pi: M \to N$ is a submersion and $X$ is a smooth vector field on $N$, then there is a smooth vector field on $M$, called a *lift of $X$*, that is $\pi$ to $X$.
 

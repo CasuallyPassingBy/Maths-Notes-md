@@ -13,7 +13,6 @@ This notes uses Einstein's summation convention.
 	- [[Rectifiable Surfaces]]
 
 - [[Tangent Vectors in Rn]]
-	- [[Vector Fields on Rn]]
 
 - [[Exterior Algebra]]
 	- [[Exterior Algebra of Multicovectors]]
