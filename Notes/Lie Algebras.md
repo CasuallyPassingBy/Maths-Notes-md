@@ -17,3 +17,13 @@ Links: [[Derivations]], [[Module and Algebra]]
 **Obs:** If $A$ is any algebra over a field $K$, then the product $$[x, y] = xy - yx, \quad x,y \in A$$ makes $A$ into a Lie algebra over $K$. 
 
 **Def:** A *Lie subalgebra* of a Lie algebra $\frak g$ is a vector subspace $\frak h \subseteq g$ that is closed under the bracket $[\; , \;]$.  
+
+**Prop:** Given $K$-Lie algebras $\frak g$ and $\frak h$, then the direct sum $\frak g \oplus h$ is a Lie algebra with the bracket defined by $$[(X, Y),(X', Y')] := ([X, X'], [Y, Y']). $$
+
+**Def:** Let $\frak g$ be a Lie algebra. A vector subspace $\frak h \le g$ is a called an *ideal of $\frak g$* if $[X, Y]\in \frak h$ whenever $X\in \frak h$ and $Y\in \frak g$.
+
+**Basic Properties of Ideals:** 
+- It $\frak h$ is an ideal in $\frak g$, then the quotient space $\frak g/h$ has a unique Lie algebra structure such that the projection $\pi: \frak g\to g/h$ is a Lie algebra homomorphism.
+- A subspace $\frak h \le g$ is an ideal iff it is the kernel of a Lie algebra homomorphism. 
+
+This is directly analogous to idea of an [[Ring Ideals and Quotient Rings|ideal in rings]]. 

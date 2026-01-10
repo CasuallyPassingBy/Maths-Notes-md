@@ -37,7 +37,7 @@ There are several examples for categories:
 - $\mathsf{Field}$, the class of [[Rings and Fields|Fields]] and field homomorphisms.
 - $\mathsf{Meas}$, the class of [[Measure Spaces and Measurable Spaces|measure spaces]] and measurable functions. 
 - $\mathsf{LIE}$, the class of [[Lie groups]] and Lie group homomorphisms.
-- $\mathsf{lie}$, the class of [[Lie Algebra|Lie algebras]] and Lie algebra homomorphisms.
+- $\mathsf{lie}$, the class of [[Lie Algebras|Lie algebras]] and Lie algebra homomorphisms.
 - $\mathsf{CW}$, the class of [[Cell Complexes and CW Complexes|CW complexes]] and continuous maps.
 - $\mathsf{Smp}$, the class of [[simplicial complexes]] and simplicial maps.
 

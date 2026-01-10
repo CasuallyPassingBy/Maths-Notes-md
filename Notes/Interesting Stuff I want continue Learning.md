@@ -105,6 +105,10 @@
 	- [ ] Bartle 'A Modern Theory of Integration'
 -  Analysis on Metric Spaces
 	- [ ] 'Lectures on  Analysis on Metric Spaces' by Heinonen
+# Differential Equations
+- Ordinary Differential Equations
+	- [ ] Birkhoff and Rota
+
 ## Probability
 -  Stochastic Process 
 	- [ ] Ross

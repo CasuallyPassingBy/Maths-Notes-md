@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Differentiablity of Real valued functions of Rn#Directional Derivatives|Directional Derirvatives on Rn]], [[Derivations]], [[Lie Algebra]]
+Links: [[Differentiablity of Real valued functions of Rn#Directional Derivatives|Directional Derirvatives on Rn]], [[Derivations]], [[Lie Algebras]]
 
 We visualise the tangent space $T_p(\Bbb R^n)$ at $p$ in $\Bbb R^n$ as the vector space of all arrows emanating from $p$. To distinguish the between points and vectors, I am going to use the notation $p = (p^1, \dots, p^n)$ for points and $v = \langle v^1, \dots, v^n\rangle$ or as $$v = \begin{bmatrix}v^1 \\ \vdots \\ v^n\end{bmatrix} $$
 We usually denote the standard basis for $\Bbb R^n$ or $T_p(\Bbb R^n)$ by $e_1, \dots, e_n$. Then $v = \sum v^i e_i$ for some $v^i \in \Bbb R$. The elements of $T_p(\Bbb R^n)$ are called *tangent vectors* (or simply *vectors*) at $p$ in $\Bbb R^n$.

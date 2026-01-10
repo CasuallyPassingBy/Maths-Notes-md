@@ -8,97 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "450a96f4a3c6122c",
+            "id": "ab3a404af916936b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interesting Stuff I want continue Learning.md",
+                "file": "Integral Curves.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Interesting Stuff I want continue Learning"
+              "title": "Integral Curves"
             }
           },
           {
-            "id": "ee132e66f78873da",
+            "id": "8d336c385a1c14d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/2026-01-06.md",
+                "file": "Existence and Uniqueness of Solutions to Systems of Differential Equations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-06"
-            }
-          },
-          {
-            "id": "2900cb5fe7418cdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vector Fields on Smooth Manifolds.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Vector Fields on Smooth Manifolds"
-            }
-          },
-          {
-            "id": "4e5863ac9ebdbe1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vector Fields on Smooth Manifolds.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Vector Fields on Smooth Manifolds"
-            }
-          },
-          {
-            "id": "23eaa9cb2795741c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Algebra of a Lie Group.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Lie Algebra of a Lie Group"
-            }
-          },
-          {
-            "id": "b1b062f32c6ff733",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tangent Spaces and Vector Fields on Submanifolds.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Tangent Spaces and Vector Fields on Submanifolds"
+              "title": "Existence and Uniqueness of Solutions to Systems of Differential Equations"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -271,34 +210,34 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "23eaa9cb2795741c",
+  "active": "ab3a404af916936b",
   "lastOpenFiles": [
+    "Interesting Stuff I want continue Learning.md",
+    "Existence and Uniqueness of Solutions to Systems of Differential Equations.md",
+    "Integral Curves.md",
+    "Journal/2026-01-06.md",
     "Vector Fields on Smooth Manifolds.md",
+    "Lie Algebra of a Lie Group.md",
+    "General Linear Group.md",
+    "Lie Algebras.md",
     "Tangent Spaces and Vector Fields on Submanifolds.md",
+    "Fundamental Group of the Circle.md",
+    "Smooth Maps on and Between Submanifolds.md",
+    "Differential Geometry.md",
     "Differential Forms on Rn.md",
     "The Exterior Derivative on Rn.md",
-    "Differential Geometry.md",
     "Bundle Maps for Vector Bundles.md",
     "Vector Fields on Rn.md",
-    "Journal/2026-01-06.md",
     "Real Projective Space.md",
     "Lie Group Actions.md",
-    "Interesting Stuff I want continue Learning.md",
     "Journal/2026-01-05.md",
     "Journal/2025-12-29.md",
     "Sets of Measure Zero in Smooth Manifolds and Sard's Theorem.md",
     "Transversailty Theorems for Smooth Manifolds.md",
     "Lie Subgroups.md",
-    "General Linear Group.md",
     "Unitary Group.md",
     "Orthogonal Group.md",
     "Lie Groups.md",
-    "Backpropagation Algorithm for FFNN.md",
-    "Neural Networks.md",
-    "Gradient Descent for FFNN.md",
-    "Implementing an FFNN.md",
-    "Smooth Covering Maps.md",
-    "Functions.md",
     "Pasted image 20251214203248.png",
     "Pasted image 20251214203014.png",
     "Pasted image 20251214200137.png",

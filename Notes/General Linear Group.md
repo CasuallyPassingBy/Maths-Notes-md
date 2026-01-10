@@ -39,6 +39,8 @@ The subset $\text{GL}^+(n, \Bbb R)\subseteq \text{GL}(n, \Bbb R)$ consisting of 
 
 We would like to consider the Lie algebra of $\text{GL}(n, \Bbb R)$. Since $T_{I_n} \text{GL}(n, \Bbb R)$ can be identifies with $\text{GL}(n, \Bbb R)$, then the Lie algebra of $\text{GL}(n, \Bbb R)$ is itself. To make the distinction that is equipped with the bracket commutator of matrices we denote it as ${\frak gl}(n,\Bbb R)$. 
 
+**Prop:** Since $\det: \text{GL}(n,\Bbb R) \to \Bbb R^\times$ is a Lie group homomorphism, then its induced Lie algebra homomorphism is $\text{tr}: {\frak gl}(n.\Bbb R) \to \Bbb R$. 
+
 Define a map $\beta: \text{GL}(n, \Bbb C) \to \text{GL}(2n, \Bbb R)$ by replacing each complex matrix entry $a+bi$ with the $2\times 2$ block $\begin{pmatrix} a & -b \\ b & a\end{pmatrix}$:  $$\beta \begin{pmatrix}
 a_1^1+ ib_1^1 & \dots &a_1^n +ib^n_1 \\
 \vdots &&\vdots \\

@@ -41,3 +41,10 @@ If $S\subseteq M$ is an immersed or embedded submanifold with or without boundar
 **Restricting Vector Fields to Submaniolds:** Let $M$ be a smooth manifold, let $S\subseteq M$ be an immersed submanifold with or without boundary, and let $\iota: S \hookrightarrow M$ denote the inclusion map. If $Y\in {\frak X}(M)$ is tangent to X$, then there is a unique smooth vector field on $S$, denoted by $Y|_S$, that is $\iota$-related to $Y$. 
 
 **Cor:** Let $M$ be a smooth manifold and let $S$ be an immersed submanifold with or without boundary in $M$. If $Y_1$ and $Y_2$ are smooth vector fields on $M$ that are tangent to $X$, then $[Y_1, Y_2]$ is also tangent to $S$. 
+
+**Prop:** Let $M$ be a smooth manifold with boundary. There exists a global smooth vector field on $M$ whose restriction to $\partial M$ is everywhere inward-pointing, and one whose restriction to $\partial M$ is everywhere outward-pointing. 
+
+**Extension Lemma for Vector Fields on Submanifolds:** Suppose $M$ is a smooth manifold and $S\subseteq M$ is an embedded submanifold with or without boundary. Given $X\in {\frak X}(S)$, there exists a smooth vector field $Y$ on a neighbourhood of $S$ in $M$ such that $X = Y|_S$. Additionally, every such vector fields extends to all of $M$ iff $S$ is properly embedded. 
+
+This is a result of the [[Smooth Maps on and Between Submanifolds#Extending Functions from Submanifolds|Extension Lemma for Functions on Manifolds]].
+

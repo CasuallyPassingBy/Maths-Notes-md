@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Local and Global Sections of Vector Bundles]], [[The Tangent Bundle]], [[Smooth Partitions of Unity for Manifolds]], [[Derivations]], [[Lie Algebra]], [[Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds]]
+Links: [[Local and Global Sections of Vector Bundles]], [[The Tangent Bundle]], [[Smooth Partitions of Unity for Manifolds]], [[Derivations]], [[Lie Algebras]], [[Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds]]
 
 **Def:** If $M$ is a smooth manifold with or without boundary, a *vector field on $M$* is a continuous section of the map $\pi: TM \to M$. More concretely, a vector field is a continuous map $X:M \to TM$, usually written $p\mapsto X_p$, with the property $$\pi \circ X = \text{id}_M,$$or equivalently, $X_p\in T_pM$ for each $p\in M$. 
 
@@ -26,6 +26,8 @@ If $M$ is a smooth manifold with or without boundary and $A \subseteq M$ is an a
 
 **Cor:** Suppose $(U, x^1, \dots, x^n)$ and $(V, \dots, y^1, \dots, y^n)$ are two charts on $M$ with nonempty overlap. Then a smooth vector field $X$ on $U\cap V$ has two different local expressions: $$X = X^i \frac{\partial}{\partial x^i} = \tilde X^i \frac{\partial}{\partial y^i}.$$Then we see that $$X^k = \tilde X^i \frac{\partial x^k}{\partial y^i}.$$
 **Def:** The set of all smooth vector fields on $M$ is denoted as $\Gamma(M) = \mathfrak X(M)$ or $\text{Vect}(M)$, is clearly a $\Bbb R$-vector space, and a $\mathcal C^\infty(M)$-module. 
+
+**Prop:** If $M$ is a smooth manifold, then ${\frak X}(M)$ is a infinite dimensional vector space. 
 
 # Local and Global Frames
 
@@ -72,6 +74,8 @@ Just as for derivations that the composition of two derivations it is usually no
 
 **Prop:** If $f$ and $g$ are smooth functions and $X$ and $Y$ are smooth vector fields on a manifold $M$, then $$[fX, gY] = fg[X, Y] + (fXg)Y - (gYf)X$$
 **Prop:** Let $X$ and $Y$ be two smooth vector fields on $M$, with coordinate expressions for $X$ and $Y$ being $$X =  X^i \frac{\partial}{\partial x ^i}, \qquad \text{and} \qquad Y =  Y^j \frac{\partial}{\partial x ^j}$$in terms of some smooth local coordinates $(x^i)$ for $M$. Then $$[X, Y] =  \left(X^i \frac{\partial Y^j}{\partial x^i} -Y^i \frac{\partial X^j}{\partial x^i}\right)  \frac{\partial}{\partial x^j}$$
+**Cor:** Let $M$ be a smooth manifold. If  $(U, (x^i))$ be a chart on that manifold, then $$\left[\frac{\partial}{\partial x^i}, \frac{\partial}{\partial x^j}\right] = 0$$
+**Prop:** Let $M$ and $N$ be smooth manifolds. Given a vector fields $X\in {\frak X}(M)$ and $Y\in {\frak X}(N)$, we can define a vector field $X \oplus Y$ on $M\times N$ by  $$(X\oplus Y)_{(p,q)} := (X_p, Y_q), $$where we think of the right hand side as an element of $T_p M \oplus T_q N$, which is naturally identified with $T_{p,q} (M \times N)$. Then $X \oplus Y$ is smooth, and $[X_1 \oplus Y_1, X_2\oplus Y_2] = [X_1\oplus X_2] \oplus [Y_1\oplus Y_2]$. 
 
 # Related Vector Fields
 
@@ -91,6 +95,12 @@ In this situation we denote the unique vector field that is $F$-related to $X$ b
 **Prop:** Let $F: N \to M$ be a smooth diffeomorphism of manifolds. If $X$ and $Y$ are smooth vector fields on $N$, then $$F_* [X, Y] = [F_* X, F_* Y]$$
 **Cor:** Let $F: N \to M$ be a smooth diffeomorphism of manifolds, then $F_*: \mathfrak X(M) \to \mathfrak X(N)$ is a Lie algebra isomorphism. 
 
-**Prop:** If $\pi: M \to N$ is a submersion and $X$ is a smooth vector field on $N$, then there is a smooth vector field on $M$, called a *lift of $X$*, that is $\pi$ to $X$.
+**Prop:** Let $M$ be a smooth manifold with or without boundary, and $N$ be a smooth manifold, and let $f:M \to N$ be a smooth map. If $F: M \to M \times N$ by $F(x) := (x, f(x)),$ then for every $X\in {\frak X}(M)$, there is a smooth vector fields on $M\times N$ that is $F$-related to $X$
 
-**Cor:** Suppose $\pi: M \to N$ is a surjective submersion. If $X$ is a vector field on $M$ such that $\pi_* X_p = \pi_* X_q$ whenever $\pi(p) = \pi(q)$, then there exists a unique smooth vector field on $N$ that is $\pi$-related to $X$.
+**Def:** Suppose $F: M \to N$ is a smooth submersion, where $M$ and $N$ are positive dimensional smooth manifolds. Given $X\in {\frak X}(M)$ and $Y\in {\frak}(N)$, we say that $X$ is the *lift of $Y$* if $X$ and $Y$ are $F$-related. A vector field $V\in {\frak X}(M)$ is said to be *vertical*, if $V$ is everywhere tangent to the fibres of $F$, or equivalently, if $V$ is $F$-related to the zero vector field on $N$. 
+
+**Properties of Lifts:** Let $F: M \to N$ be a smooth submersion between manifold, where $M$ and $N$ are positive dimensional manifolds.
+- If $\dim M = \dim N$, then every smooth vector field on $N$ has a unique lift. 
+- If $\dim M \neq \dim N$, then $\dim M >\dim N$, then every smooth vector field on $N$ has a lift, but that is not unique.
+- If $F$ is surjective, and given $X\in {\frak X}(M)$ is a lift of a smooth vector field on $N$ iff $dF_p (X_p) = dF_q(X_q)$ whenever $F(p)= F(q)$. Additionally, then $X$ is a lift of a *unique* smooth vector field.
+- If $F$ is a surjective and with connected fibres, then a vector field $X\in {\frak X}(M)$ is a lift of a smooth vector field on $N$ iff $[V, X]$ is vertical whenever $V\in {\frak X}(M)$ is vertical. 

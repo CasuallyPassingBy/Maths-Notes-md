@@ -3,7 +3,7 @@ tags:
   - OrdinaryDifferentialEquations
 ---
 Subjects: [[Ordinary Differential Equations]]
-Links: [[Existence of Solutions of First Order Differential Equations]], [[Second Order Linear Differential Equations]], [[nth Order Linear Differential Equations]]
+Links: [[Existence of Solutions of First Order Differential Equations]], [[Second Order Linear Differential Equations]], [[nth Order Linear Differential Equations]], [[Banach's Fixed Point Theorem]]
 ### Local Existence
 
 Let $f:D = [x_0-a, x_0+a] \times B_b(y_0) \subseteq \Bbb R\times \Bbb C ^n \to \Bbb C^n$, and satisfies a Lipschitz condition on $D$. If $M>0$, such that $\| f \| \le M$ on $D$. Then Picard iteratives $(\phi_k)$ on converge on ${I = [x_0-\alpha, x_0+\alpha]}$ with $\alpha = \min\{a, b/M\}$ to a solution of the initial value problem $$

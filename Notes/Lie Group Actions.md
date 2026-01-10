@@ -4,7 +4,7 @@ tags:
   - GroupTheory
 ---
 Subjects: [[Differential Geometry]], [[Group Theory]]
-Links: [[Group Actions]], [[Continuous Actions of Groups]], [[Lie Groups]], [[Representations of Groups]], [[General Linear Group]], [[Lie Algebra]], [[Lie Algebra of a Lie Group]], [[Continuous Actions of Groups#Proper Actions|Proper Actions]], [[Riemannian Metrics on Smooth Manifolds]]
+Links: [[Group Actions]], [[Continuous Actions of Groups]], [[Lie Groups]], [[Representations of Groups]], [[General Linear Group]], [[Lie Algebras]], [[Lie Algebra of a Lie Group]], [[Continuous Actions of Groups#Proper Actions|Proper Actions]], [[Riemannian Metrics on Smooth Manifolds]]
 
 **Def:** A smooth manifold $M$ endowed with an smooth action from a Lie group $G$ is called a *smooth $G$-space*. 
 
