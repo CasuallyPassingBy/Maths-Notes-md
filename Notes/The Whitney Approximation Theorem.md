@@ -43,7 +43,7 @@ A *tubular neighbourhood of $M$* is a neighbourhood $U$ of $M$ in $\Bbb R^n$ tha
 
 ## Smooth Approximation of Maps Between Manifolds
 
-**Whitney Approximation on Manifolds:** Let $N$ and $M$ be smooth manifolds, and let $F:N \to M$ be a continuous map. Then $F$ is homotopic to a smooth map $\tilde F: N \to M$. If $F$ is smooth on a closed subset $A\subseteq N$, then the homotopy can be taken relative to $A$. 
+**Whitney Approximation on Manifolds:** Suppose $N$ is a smooth manifold with or without boundary, $M$ is a smooth manifold without boundary, and $F: N \to M$ is a continuos map. Then $F$ is 
 
 **Cor:** Suppose $N$ is a smooth manifold with or without boundary, $M$ is a smooth manifold, $A\subseteq N$ is a closed subset, and $f: A \to M$ is a smooth map. Then $f$ has a smooth extension fo $N$ iff it has a continuous extension to $N$. 
 

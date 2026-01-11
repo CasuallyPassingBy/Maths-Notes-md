@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6666b1adba2f7a4a",
+        "id": "a2640ba8da31bb7d",
         "type": "tabs",
         "children": [
           {
-            "id": "ab3a404af916936b",
+            "id": "3607d051ebd74a8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Integral Curves.md",
+                "file": "The Whitney Approximation Theorem.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Integral Curves"
-            }
-          },
-          {
-            "id": "8d336c385a1c14d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Existence and Uniqueness of Solutions to Systems of Differential Equations.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Existence and Uniqueness of Solutions to Systems of Differential Equations"
+              "title": "The Whitney Approximation Theorem"
             }
           }
         ]
@@ -210,11 +195,17 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "ab3a404af916936b",
+  "active": "3607d051ebd74a8e",
   "lastOpenFiles": [
-    "Interesting Stuff I want continue Learning.md",
+    "Flows and Flowouts on Manifold with Boundary.md",
+    "Integral Curves, Flows and Flowouts on Smooth Manifolds.md",
+    "Tangent Space for Manifolds.md",
     "Existence and Uniqueness of Solutions to Systems of Differential Equations.md",
-    "Integral Curves.md",
+    "Group Homomorphisms and Isomorphisms.md",
+    "Smooth Partitions of Unity for Manifolds.md",
+    "Tangent s.md",
+    "Differential Geometry.md",
+    "Interesting Stuff I want continue Learning.md",
     "Journal/2026-01-06.md",
     "Vector Fields on Smooth Manifolds.md",
     "Lie Algebra of a Lie Group.md",
@@ -223,7 +214,6 @@
     "Tangent Spaces and Vector Fields on Submanifolds.md",
     "Fundamental Group of the Circle.md",
     "Smooth Maps on and Between Submanifolds.md",
-    "Differential Geometry.md",
     "Differential Forms on Rn.md",
     "The Exterior Derivative on Rn.md",
     "Bundle Maps for Vector Bundles.md",
@@ -233,11 +223,6 @@
     "Journal/2026-01-05.md",
     "Journal/2025-12-29.md",
     "Sets of Measure Zero in Smooth Manifolds and Sard's Theorem.md",
-    "Transversailty Theorems for Smooth Manifolds.md",
-    "Lie Subgroups.md",
-    "Unitary Group.md",
-    "Orthogonal Group.md",
-    "Lie Groups.md",
     "Pasted image 20251214203248.png",
     "Pasted image 20251214203014.png",
     "Pasted image 20251214200137.png",
