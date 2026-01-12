@@ -40,10 +40,13 @@ I am using mainly Boyce, Di Prima "Elementary Differential Equations and Boundar
 - [[Important Differential Equations]]
 	- [[Legendre Polynomials]]
 	- [[Calculating the Bessel Functions From the ODE]]
-- [[Integral Curves and Local Flows in Rn]]
+
+- [[Integral Curves, Flows and Flowouts on Smooth Manifolds]]
+	- [[Flows and Flowouts on Manifold with Boundary]]
 ### Existence
 - [[Peano Existence Theorem]]
 - [[Carathéodory's Existence Theorem]]
 - [[Picard–Lindelöf theorem]]
 - [[Existence of Solutions of First Order Differential Equations]]
 - [[Existence and Uniqueness of Solutions to Systems of Differential Equations]]
+

@@ -43,13 +43,13 @@ A *tubular neighbourhood of $M$* is a neighbourhood $U$ of $M$ in $\Bbb R^n$ tha
 
 ## Smooth Approximation of Maps Between Manifolds
 
-**Whitney Approximation on Manifolds:** Suppose $N$ is a smooth manifold with or without boundary, $M$ is a smooth manifold without boundary, and $F: N \to M$ is a continuos map. Then $F$ is 
+**Whitney Approximation on Manifolds:** Suppose $N$ is a smooth manifold with or without boundary, $M$ is a smooth manifold without boundary, and $F: N \to M$ is a continuos map. Then $F$ is homotopic to a smooth map. If $F$ is already smooth on a closed subset $A\subseteq N$, then the homotopy can be taken to be relative to $A$.
 
-**Cor:** Suppose $N$ is a smooth manifold with or without boundary, $M$ is a smooth manifold, $A\subseteq N$ is a closed subset, and $f: A \to M$ is a smooth map. Then $f$ has a smooth extension fo $N$ iff it has a continuous extension to $N$. 
+**Extension Lemma for Smooth Manifolds:** Suppose $N$ is a smooth manifold with or without boundary, $M$ is a smooth manifold, $A\subseteq N$ is a closed subset, and $f: A \to M$ is a smooth map. Then $f$ has a smooth extension fo $N$ iff it has a continuous extension to $N$. 
 
-**Def:** If $M$ and $N$ are smooth manifolds, two smooth maps $F, G: M \to N$ are said to be *smoothly homotopic* if there is a smooth map $H:M \times [0, 1] \to N$ that is a homotopy between $F$ and $G$. 
+**Def:** If $M$ and $N$ are smooth manifolds with or without boundary, a homotopy $H: N \times I \to M$ is called a *smooth homotopy* if it is also a smooth map, in the sense that it extends to a smooth map on some neighbourhood of $N \times I$ in $N\times \Bbb R$. Two maps are said to be *smoothly homotopic* if there is a smooth homotopy between them. 
 
-**Lemma:** If $N$ and $M$ are smooth manifolds with or without boundary, smooth homotopy is an equivalemce relation on the set of all smooth functions from $N$ to $M$.
+**Lemma:** If $N$ and $M$ are smooth manifolds with or without boundary, smooth homotopy is an equivalence relation on the set of all smooth functions from $N$ to $M$.
 
 **Th:** Suppose $N$ is a smooth manifold or without boundary, $M$ is a smooth manifold and $F, G:N \to M$ are smooth maps. If $F$ and $G$ are homotopic then they are smoothly homotopic. If $F$ and $G$ are homotopic relative to some closed subset $A\subseteq N$, then they are smoothly homotopic relative to $A$. 
 

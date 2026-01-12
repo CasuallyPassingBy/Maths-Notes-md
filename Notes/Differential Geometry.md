@@ -45,12 +45,12 @@ This notes uses Einstein's summation convention.
 	- [[The Whitney Embedding Theorem]]
 	- [[The Whitney Approximation Theorem
 	- [[Transversailty Theorems for Smooth Manifolds]]
-
 - [[The Tangent Bundle]]
 	- [[Vector Fields on Smooth Manifolds]]
 		- [[Tangent Spaces and Vector Fields on Submanifolds]]
 - [[Integral Curves, Flows and Flowouts on Smooth Manifolds]]
 	- [[Flows and Flowouts on Manifold with Boundary]]
+	- [[Lie Derivative]]
 - [[The Cotangent Bundle]]
 	- [[Differential 1-forms on Smooth Manifolds]]
 		- [[Line Integrals Using Differential 1-forms]]
@@ -68,7 +68,7 @@ This notes uses Einstein's summation convention.
 	- [[Lie Algebra of a Lie Group]]
 	- [[Lie Group Actions]]
 		- [[Homogeneous Spaces in the Case of Lie groups]]]]
-- [[Lie Derivative and Interior Multiplication]]
+- [[Lie Derivative]]
 - [[Orientations and Covectors]]
 
 - [[Riemannian Metrics on Smooth Manifolds]]

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Whitney Approximation Theorem.md",
+                "file": "Lie Derivative.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Whitney Approximation Theorem"
+              "title": "Lie Derivative"
             }
           }
         ]
@@ -197,14 +197,16 @@
   },
   "active": "3607d051ebd74a8e",
   "lastOpenFiles": [
-    "Flows and Flowouts on Manifold with Boundary.md",
+    "Differential Geometry.md",
     "Integral Curves, Flows and Flowouts on Smooth Manifolds.md",
+    "Ordinary Differential Equations.md",
+    "Flows and Flowouts on Manifold with Boundary.md",
+    "The Whitney Approximation Theorem.md",
     "Tangent Space for Manifolds.md",
     "Existence and Uniqueness of Solutions to Systems of Differential Equations.md",
     "Group Homomorphisms and Isomorphisms.md",
     "Smooth Partitions of Unity for Manifolds.md",
     "Tangent s.md",
-    "Differential Geometry.md",
     "Interesting Stuff I want continue Learning.md",
     "Journal/2026-01-06.md",
     "Vector Fields on Smooth Manifolds.md",
@@ -221,8 +223,6 @@
     "Real Projective Space.md",
     "Lie Group Actions.md",
     "Journal/2026-01-05.md",
-    "Journal/2025-12-29.md",
-    "Sets of Measure Zero in Smooth Manifolds and Sard's Theorem.md",
     "Pasted image 20251214203248.png",
     "Pasted image 20251214203014.png",
     "Pasted image 20251214200137.png",
