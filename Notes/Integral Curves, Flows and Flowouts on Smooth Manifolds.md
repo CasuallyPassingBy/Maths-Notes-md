@@ -4,7 +4,7 @@ tags:
   - OrdinaryDifferentialEquations
 ---
 Subjects: [[Differential Geometry]], [[Ordinary Differential Equations]]
-Links: [[Vector Fields on Smooth Manifolds]], [[Existence and Uniqueness of Solutions to Systems of Differential Equations]], [[Tangent Space for Manifolds]]
+Links: [[Vector Fields on Smooth Manifolds]], [[Existence and Uniqueness of Solutions to Systems of Differential Equations]], [[Tangent Space for Manifolds]]. [[Autonomous Differential Equations]]
 
 **Def:** If $V$ is a vector field on $M$, an *integral curve of $V$* is differentiable curve $\gamma: J \to M$ whose velocity at each point is equal to the value of $V$ at each point: $$ \gamma'(t) = V_{\gamma(t)} \qquad \text{for all }t\in J.$$If $0\in J$, the point $\gamma(0)$ is called the *starting point of $\gamma$*. 
 
@@ -19,9 +19,13 @@ We use a dot denote the ordinary derivative with respect to $t$ when there are s
 
 **Naturality of Integral Curves:** Suppose $M$ and $N$ are smooth manifolds and $F: M \to N$ is a smooth map. The $X\in {\frak X}(M)$ and $Y\in {\frak X}(N)$ are $F$-related iff $F$ takes integral curves of $X$ to integral curves of $Y$, meaning that for each integral curve $\gamma$ of $X$, $F \circ \gamma$ is an integral curve of $Y$.
 
+**Prop:** Suppose $M$ is a smooth manifold, $S\subseteq M$ is an immersed submanifold, and $V$ is a smooth vector field on $M$ that is tangent to $S$.
+- For any integral curve $\gamma$ of $V$ such that $\gamma(t_0)\in S$, there exists a neighbourhood $\varepsilon > 0$ such that $\gamma[(t_0-\varepsilon, t_0+\varepsilon)]\subseteq S$. 
+- If in addition $S$ is properly embedded, then every integral curve that intersects $S$ is contained in $S$. 
+
 # Flows
 
-**Def:** We define a *global flow* on $M$, also called a *one-parameter group action*, to be a continuous left $\Bbb R$-action on $M$; that is a continuous map $\theta: \Bbb R\times M\to M$ satistfying the following properteis for all $s, t\in \Bbb R$ and $p\in M$:$$\theta(t, \theta(s, p)) = \theta(t+s, p), \qquad \theta(0, p) = p.$$Given a global flow $\theta$ on $M$, we define two collections of maps:
+**Def:** We define a *global flow* on $M$, also called a *one-parameter group action*, to be a continuous left $\Bbb R$-action on $M$; that is a continuous map $\theta: \Bbb R\times M\to M$ satistfying the following properties for all $s, t\in \Bbb R$ and $p\in M$:$$\theta(t, \theta(s, p)) = \theta(t+s, p), \qquad \theta(0, p) = p.$$Given a global flow $\theta$ on $M$, we define two collections of maps:
 - For each $t\in \Bbb R$, we define $\theta_t: M \to M$ by $$\theta_t(p) = \theta(t, p).$$We see that that $\theta_t\circ \theta_s = \theta_{t+s}$ and $\theta_0 = \text{id}_M$. As in the case for continuous group actions, each $\theta_t : M\to M$ is a homeomorphism, and if the flow is smooth, $\theta_t$ is a diffeomorphism. 
 - For each $p\in M$, we define a curve $\theta^{(p)}: \Bbb R\to M$ by $$\theta^{(p)}(t) := \theta(t, p).$$The image of this curve is the orbit of $p$ under the group action.  
 
@@ -46,6 +50,8 @@ If $\theta$ is a flow, we define $\theta_t(p) = \theta^{(p)} (t) = \theta(t, p)$
 - For each $p\in M$, the curve $\theta^{(p)}: {\cal D}^{(p)} \to M$ is the unique maximal integral curve of $V$ starting at $p$.
 - If $s\in \mathcal D^{(p)}$, then $\mathcal D^{(\theta(s, p))}$ is the interval $\mathcal D^{(p)}-s$. 
 - For each $t\in\Bbb R$, the set $M_t$ is open in $M$, and $\theta_t: M_t \to M_{-t}$ is diffeomorphism with inverse $\theta_{-t}$. 
+
+**Prop:** Suppose $M$ is a smooth manifold, $X\in {\frak X}(M)$, and $\gamma$ is a maximal integral curve of $X$, then the image of $\gamma$ is an immersed submanifold of $M$, diffeomorphic to $\Bbb R$, $\Bbb S^1$, and $\Bbb R^0$.
 
 ### Complete Vector Fields
 

@@ -13,16 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Derivative.md",
+                "file": "Time-Dependent Vector Fields and Flows.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Lie Derivative"
+              "title": "Time-Dependent Vector Fields and Flows"
+            }
+          },
+          {
+            "id": "ce2ad239ac439439",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Integral Curves, Flows and Flowouts on Smooth Manifolds.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Integral Curves, Flows and Flowouts on Smooth Manifolds"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,10 +211,19 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "3607d051ebd74a8e",
+  "active": "ce2ad239ac439439",
   "lastOpenFiles": [
-    "Differential Geometry.md",
+    "Integral Curves and Local Flows in Rn.md",
     "Integral Curves, Flows and Flowouts on Smooth Manifolds.md",
+    "Solution of Linear and Quasilinear First Order PDEs using Vector Flows.md",
+    "Separable Differential Equations.md",
+    "Time-Dependent Vector Fields and Flows.md",
+    "Differential Geometry.md",
+    "Journal/2026-01-13.md",
+    "Transversailty Theorems for Smooth Manifolds.md",
+    "Vector Fields on Smooth Manifolds.md",
+    "Lie Derivative.md",
+    "Untitled.md",
     "Ordinary Differential Equations.md",
     "Flows and Flowouts on Manifold with Boundary.md",
     "The Whitney Approximation Theorem.md",
@@ -209,20 +234,11 @@
     "Tangent s.md",
     "Interesting Stuff I want continue Learning.md",
     "Journal/2026-01-06.md",
-    "Vector Fields on Smooth Manifolds.md",
     "Lie Algebra of a Lie Group.md",
     "General Linear Group.md",
     "Lie Algebras.md",
     "Tangent Spaces and Vector Fields on Submanifolds.md",
     "Fundamental Group of the Circle.md",
-    "Smooth Maps on and Between Submanifolds.md",
-    "Differential Forms on Rn.md",
-    "The Exterior Derivative on Rn.md",
-    "Bundle Maps for Vector Bundles.md",
-    "Vector Fields on Rn.md",
-    "Real Projective Space.md",
-    "Lie Group Actions.md",
-    "Journal/2026-01-05.md",
     "Pasted image 20251214203248.png",
     "Pasted image 20251214203014.png",
     "Pasted image 20251214200137.png",

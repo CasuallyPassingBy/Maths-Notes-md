@@ -25,7 +25,7 @@ If $F:N \to M$ is a smooth map and $S\subseteq M$ is an embedded submanifold, we
 - For each $p\in M$, the submanifolds $S$ and $\{p\}\times N$ intersect transversely in exactly one point.
 If these conditions hold, then $S$ is the graph of the map $f: M \to N$ defined by $f := \pi_N \circ (\pi_M|_S)^{-1}$. 
 
-**Local Characterisation of Graphs:** Suppose $M$ and $N$ are smooth manifolds, $S\subseteq M \times N$ is an immersed submanifold submanifold, and $(p, q)\in S$. If $S$ intersects the submanifold $\{p\}\times N$ transversely at $(p, q)$, then there exists a neighbourhood $U$ of $p$ in $M$ and a neighbourhood $V$ of $(p,q)$ in $S$ such that $V$ is the graph of a smooth map $f: U \to N$. 
+**Local Characterisation of Graphs:** Suppose $M$ and $N$ are smooth manifolds, $S\subseteq M \times N$ is an immersed submanifold submanifold, and $(p, q)\in S$. If $S$ intersects the submanifold $\{p\}\times N$ transversely at $(p, q)$, then there exists a neighbourhood $U$ of $p$ in $M$ and a neighbourhood $V$ of $(p,q)$ in $S$ such that $V$ is the graph of a smooth map $f: U \to N$.  ^dadb54
 
 **Def:** Suppose $N$, $M$ and $S$ are smooth manifolds, and for each $s\in S$ we are given a map $F_s:N \to M$. The collection $\{F_s: s\in S\}$ is called a *smooth family of maps* if the map $F: N \times S \to M$ defined by $F(x, s) = F_s(x)$ is smooth. This family is like a higher-dimensional analogue of homotopy. 
 
