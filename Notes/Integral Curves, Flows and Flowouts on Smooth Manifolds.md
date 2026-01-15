@@ -29,9 +29,11 @@ We use a dot denote the ordinary derivative with respect to $t$ when there are s
 - For each $t\in \Bbb R$, we define $\theta_t: M \to M$ by $$\theta_t(p) = \theta(t, p).$$We see that that $\theta_t\circ \theta_s = \theta_{t+s}$ and $\theta_0 = \text{id}_M$. As in the case for continuous group actions, each $\theta_t : M\to M$ is a homeomorphism, and if the flow is smooth, $\theta_t$ is a diffeomorphism. 
 - For each $p\in M$, we define a curve $\theta^{(p)}: \Bbb R\to M$ by $$\theta^{(p)}(t) := \theta(t, p).$$The image of this curve is the orbit of $p$ under the group action.  
 
-If $\theta: \Bbb R \times M \to M$ is a smooth global flow, for each $p\in M$ we define a tangent vector $V_p\in T_p M$ by $$V_p := {\theta^{(p)}}'(0).$$The assingment $p\mapsto V_p$ is a (rough) vector field on $M$, which is called the *infinitesimal generator of $\theta$*.
+If $\theta: \Bbb R \times M \to M$ is a smooth global flow, for each $p\in M$ we define a tangent vector $V_p\in T_p M$ by $$V_p := {\theta^{(p)}}'(0).$$The assignment $p\mapsto V_p$ is a (rough) vector field on $M$, which is called the *infinitesimal generator of $\theta$*.
 
-**Prop:** Let $\theta: \Bbb R \times M\to M$ be a smooth global flow on a smooth manifold $M$. The infinitesimal generator $V$ of $\theta$ is a smooth vector field on $M$, and each curve $\theta^{(p)}$ is an integral curve of $V$. 
+**Prop:** Let $\theta: \Bbb R \times M\to M$ be a smooth global flow on a smooth manifold $M$. The infinitesimal generator $V$ of $\theta$ is a smooth vector field on $M$, and each curve $\theta^{(p)}$ is an integral curve of $V$.  ^b2db44
+
+**Example:** For any integer $n \ge 1$, we define an odd-dimensional sphere $\Bbb S^{2n-1}\subseteq \Bbb C^n$ by $\theta(t, z) = e^{it}z$. We see that the infinitesimal generator if $\theta$ is a smooth nonvanishing vector field on $\Bbb S^{2n-1}$. 
 
 We have that every smooth global flow gives rise to a smooth vector field whose integral curves are precisely the curves defined by the flow. We would like to be able to say that every smooth vector field is an infinitesimal generator of a smooth global flow. However, we can see that this cannot be the case, because there are smooth vector fields whose integral curves are not defined for all $t\in \Bbb R$. 
 
@@ -77,6 +79,12 @@ M_t \arrow[r,"F"] \arrow[d, "\theta_t"'] & N_t \arrow[d, "\eta_t"] \\ M_{-t} \ar
 
 **Cor:** On a compact smooth manifold, every smooth vector field is complete.
 
+**Prop:** If $M$ is a smooth manifold that admits a nowhere vanishing complete smooth vector field, then there exists a smooth map $F: M \to M$ that is homotopic to the identity and has not fixed points. 
+
+**Cor:** If $M$ is a smooth, compact manifold that admits a nowhere vanishing smooth vector field, then there exists a smooth map $F: M \to M$ that is homotopic to the identity and has not fixed points. 
+
+**Prop:** If $M$ be a connected smooth manifold, then the group of diffeomorphisms of $M$, $\text{Diff}(M)$, acts transitively on $M$, i.e., for any $p,q\in M$, there is a diffeomorphism $\varphi: M \to M$ such that $F(p) =q$. 
+
 **Th:** Every left-invariant vector field on a Lie group is complete.
 
 **Escape Lemma:** Suppose $M$ is a smooth manifold and $V\in {\frak X}(M)$. If $\gamma: J \to M$ is a maximal integral curve of $V$ whose domain $J$ has a finite supremum $b$, then for any $t\in J$, $\gamma[[t_0, b)]$ is not contained in any compact subset of $M$. 
@@ -90,12 +98,17 @@ M_t \arrow[r,"F"] \arrow[d, "\theta_t"'] & N_t \arrow[d, "\eta_t"] \\ M_{-t} \ar
 **Flowout Theorem:** Suppose $M$ is a smooth manifold, $S\subseteq M$ is an embedded $k$-dimensional submanifold, and $V\in {\frak X}(M)$ is a smooth vector field that is nowhere tangent to $S$. Let $\theta: {\cal D}\to M$ be the flow of $V$, and let ${\cal O} := (\Bbb R \times S) \cap \cal D$ and let $\Phi = \theta|_\cal O$.
 - $\Phi: {\cal O}\to M$ is an immersion.
 - $\dfrac{\partial}{\partial t}\in {\frak X}({\cal O})$ is $\Phi$-related to $V$.
-- There is a smooth positive function $\delta: S \to \Bbb R$ such that the restriction of $\Phi$ to ${\cal O}_\delta$ is injective, where $\cal O_\delta \subseteq O$ is the flow domain, $${\cal O}_\delta := \{(t,p) \in |t| < \delta(p)\}. $$Thus, $\Phi[{\cal O}_\delta]$ is an immersed submanifold of $M$ containing $S$, and $V$ is tangent to this manifold.
-- If $S$ has codimension $1$, then $\Phi|_{{\cal O}_\delta}$ is a diffeomorphism onto an open submanifold of $M$. 
+- There is a smooth positive function $\delta: S \to \Bbb R$ such that the restriction of $\Phi$ to ${\cal O}_\delta$ is injective, where $\cal O_\delta \subseteq O$ is the flow domain, $${\cal O}_\delta := \{(t,p) \in {\cal O}\mid |t| < \delta(p)\}. $$Thus, $\Phi[{\cal O}_\delta]$ is an immersed submanifold of $M$ containing $S$, and $V$ is tangent to this manifold.
+- If $S$ has codimension $1$, then $\Phi|_{{\cal O}_\delta}$ is a diffeomorphism onto an open submanifold of $M$.
 
 **Def:** The submanifold $\Phi[{\cal O}_\delta]\subseteq M$ is called the *flowout from $S$ along $V$*. 
 
-### Regular and Singular Points
+**Cor:** Suppose $M$ is an smooth manifold and $S\subseteq M$ is an embedded hypersurface. Suppose further that there is a smooth vector field $V$ defined on a neighbourhood $S$ and nowhere tangent to $S$. There is a neighbourhood in $M$ diffeomorphic to $(-1, 1) \times S$, under a diffeomorphism that restricts to the obvious identification $\{0\}\times S \cong S$. 
+
+**Prop:** Let $M$ be a smooth manifold and let $S\subseteq M$ be a compact embedded submanifold. If $V\in {\frak X}(M)$ is a smooth vector field that is nowhere tangent to $S$, then there exists $\varepsilon > 0$ such that the flow of $V$ restricts to a smooth embedding $\Phi: (-\varepsilon, \varepsilon)\times S \to M$. 
+
+
+## Regular and Singular Points
 
 **Def:** If $V$ is a vector field on $M$, a point $p\in M$ is said to be a *singular point of $V$* if $V_p = 0$, and a *regular point* otherwise. 
 
@@ -104,3 +117,7 @@ M_t \arrow[r,"F"] \arrow[d, "\theta_t"'] & N_t \arrow[d, "\eta_t"] \\ M_{-t} \ar
 **Def:** If $\theta: \mathcal D \to M$ is a flow, a point $p\in M$ is called an *equilibrium point of $\theta$* if $\theta(t, p) = p$ for all $t\in {\cal D}^{(p)}$. We see that equilibrium points of a smooth flow are precisely the singular points of its infinitesimal generator.
 
 **Canonical Form Near a Regular Point:** Let $V$ be a smooth vector field on a smooth manifold $M$, and let $p\in M$ be a regular point of $V$. There exists smooth coordinates $(s^i)$ on some neighbourhood of $p$ in which $V$ has the coordinate representation $\dfrac{\partial}{\partial s^1}$. If $S\subseteq M$ is any embedded hypersurface with $p\in S$ and $V_p \notin T_pS$, then the coordinates can be also chosen so that $s^1$ is a local defining function for $S$. 
+
+The proof of the canonical theorem actually provides a technique for finding coordinates that put a given vector field $V$ in the canonical form, at least when the corresponding of ODEs can be explicitly solved: begin with a hypersurface $S$ to which $V$ is not tangent and a local parametrization $X: \Omega\to S$, and form the composite map $\Psi(t, s) = \theta_t(X(s))$, where $\theta$ is the flow of $V$. The desired coordinate map is then the inverse of $\Psi$.
+
+**Example:** Let $V = x\partial_y - y \partial_x$ on $\Bbb R^2$. We know the flow is $\theta_t(x, y) = (x \cos t - y\sin t, x\sin t + y\cos x)$. The point $(1, 0) \in \Bbb R^2$ is a regular point of $V.$ We can take $S$ to be the $x$-axis, parametrised by $X(s) = (s, 0)$. We now define $\Psi: \Bbb R^2\to \Bbb R^2$ by $$\Psi(t, s) = \theta_t(s, 0) = (s\cos t, s\sin t),$$and then solve locally for $(t, s)$ in terms of $(x, y)$ to obtain the following coordinate map in a neighbourhood of $(1,0)$: $$(t, s) =\Psi^{-1}(x, y) = (\tan^{-1}(y/x), \sqrt{x^2+y^2}). $$It is fairly easy to check that $V = \partial_t$ 

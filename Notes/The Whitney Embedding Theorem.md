@@ -8,7 +8,9 @@ Links: [[Sets of Measure Zero in Smooth Manifolds and Sard's Theorem]], [[Embedd
 
 **Th:** Let $F:M \to \Bbb R^m$ be any smooth map, where $M$ is a smooth $n$-manifold and $m \ge 2n$. For any $\varepsilon > 0$ there is a smooth immersion $\tilde F: M \to \Bbb R^m$ such that $\sup_M\|\tilde F - F\| \le \varepsilon$.
 
-**Whitney Immersion Theorem:** Every smooth $n$-manifold admits an immersion into $\Bbb R^{2n}$.
+**Whitney Immersion Theorem:** Every smooth $n$-manifold (with or without boundary) admits an immersion into $\Bbb R^{2n}$.
+
+For the case where the manifold is with boundary, we actually immerse the [[Flows and Flowouts on Manifold with Boundary#^fe4a85|double of the manifold]]. 
 
 **Th:** Let $M$ be a smooth $n$-manifold, and suppose $m \ge 2n+1$ and $F: M \to \Bbb R^m$ is an immersion. Then for any $\varepsilon > 0$ there is an injective immersion $\tilde F: M \to \Bbb R^m$ such that $\sup_M\|\tilde F - F\| \le \varepsilon$.
 
@@ -24,6 +26,6 @@ Links: [[Sets of Measure Zero in Smooth Manifolds and Sard's Theorem]], [[Embedd
 
 **Cor:** Suppose $M$ is a compact smooth $n$-manifold with or without boundary. If $N \ge 2n+1$, then every smooth map from $M$ to $\Bbb R^N$ can be uniformly approximated by embeddings.
 
-$(*)$ **Strong Whitney Immersion Theorem:** Every smooth $n$-manifold admits an immersion into $\Bbb R^{2n-1}$.
+$(*)$ **Strong Whitney Immersion Theorem:** Every smooth $n$-manifold admits (with or without boundary) an immersion into $\Bbb R^{2n-1}$.
 
 $(*)$ **Strong Whitney Embedding Theorem:** Every smooth $n$-manifold admits a proper smooth embedding into $\Bbb R^{2n}$.

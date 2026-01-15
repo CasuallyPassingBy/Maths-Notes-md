@@ -5,12 +5,15 @@ tags:
 Subjects: [[Differential Geometry]]
 Links: [[Smooth Manifolds]], [[Embedded Smooth Submanifolds]], [[Immersed Smooth Submanifolds]], [[Smooth Functions on Smooth Manifolds]], [[The Tangent Bundle]], [[The Cotangent Bundle]]
 
+**Restricting the Domain of a Smooth Map:** If $M$ and $N$ are smooth manifolds with or without a boundary, $F: M \to N$ is a smooth manifold, and $S\subseteq M$ is an immersed or embedded submanifold, then $F|_S : S \to N$ is smooth. 
 
-**Th:** If $M$ and $N$ are smooth manifolds with or without a boundary, $F: M \to N$ is a smooth ma, and $S\subseteq M$ is an immersed or embedded submanifold, then $F|_S : S \to N$ is smooth. 
+**Restricting the Codomain of a Smooth Map:** Suppose $M$ is a smooth manifold without boundary, $S\subseteq M$ is an immersed submanifold, and $F: N \to M$ is a smooth map whose image is contained in $S$. If $F$ is a continuous map from $N$ to $S$, then $F:N \to S$ is smooth.
 
-**Prop:** Suppose $M$ is a smooth manifold without boundary, $S\subseteq M$ is an immersed submanifold, and $F: N \to M$ is a smooth map whose image is contained in $S$. If $F$ is a continuous map from $N$ to $S$, then $F:N \to S$ is smooth.
+We can strengthen this result using [[Flows and Flowouts on Manifold with Boundary|flows]] to actually drop the requierement that $M$ must be a smooth manifold without a boundary. 
 
-**Cor:** Suppose $M$ is a smooth manifold without boundary, $S\subseteq M$ is an embedded submanifold. Then every smooth map $F:N \to M$ whose image is contained in $S$ is alsoe a smooth as a map from $N$ to $S$.
+**Restricting the Codomain of a Smooth Map:** Suppose $M$ is a smooth manifold with or without boundary, $S\subseteq M$ is an immersed submanifold, and $F: N \to M$ is a smooth map whose image is contained in $S$. If $F$ is a continuous map from $N$ to $S$, then $F:N \to S$ is smooth.
+
+**Cor:** Suppose $M$ is a smooth manifold without boundary, $S\subseteq M$ is an embedded submanifold. Then every smooth map $F:N \to M$ whose image is contained in $S$ is also a smooth as a map from $N$ to $S$.
 
 **Def:** If $M$ is a smooth manifold and $S\subseteq M$ is an immersed submanifold, then $S$ is said to be *weakly embedded in $M$* if every smooth map $F: N \to M$ whose image lies in $S$ is a smooth map from $N$ to $S$. Weakly embedded submanifolds are also called *initial submanifolds*. 
 

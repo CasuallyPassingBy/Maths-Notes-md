@@ -27,7 +27,7 @@ Links: [[Compactness]], [[Continuous Functions and Homeomorphims]], [[Convergenc
 
 **Cor:** If $X$ is a topological space and $Y$ is a compactly generated Hausdorff space, an embedding $f:X\to Y$ is proper iff it has closed image.
 
-**Cor:** Suppse $f$ is a proper continuous map from a topological space to a compactly generated $T_2$ space.
+**Cor:** Suppose $f$ is a proper continuous map from a topological space to a compactly generated $T_2$ space.
 - If $f$ is surjective, it is a quotient map.
 - If $f$ is injective, it is a topological embedding.
 - If $f$ is bijective, it is a homeomorphism.

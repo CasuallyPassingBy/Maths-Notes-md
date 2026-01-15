@@ -31,6 +31,10 @@ One particular type of submanifold with  boundary is particularl important. If $
 
 **Th:** Suppose $M$ and are smooth manifold with boundary and $S\subseteq M$ is an embedded submanifold with boundary.
 - If $F:M \to N$ is a smooth map, then $F|_S: S \to N$ is smooth.
-- If $\partial M= \varnothing$ and $F: N \to M$ is a smooth map whose image is contained in $S$, then $S$ is a smooth map from $N$ to $S$. 
+- If $\partial M= \varnothing$ and $F: N \to M$ is a smooth map whose image is contained in $S$, then $F$ is a smooth map from $N$ to $S$. 
+
+We can actually strengthen this theorem using [[Flows and Flowouts on Manifold with Boundary|flows]], since we can get the following: 
+
+**Th:** Suppose $M$ and are smooth manifold with boundary and $S\subseteq M$ is an embedded submanifold with boundary. If $F: N  \to M$ is a smooth map whose image is contained in $S$, then $F$ is a smooth map from $N$ to $S$. 
 
 **Prop:** Suppose $M$ is a smooth manifold with boundary, $N$ is a smooth manifold and $F: M \to N$ is a smooth map. Let $S := F^{-1}\{c\}$, where $c\in N$ is a regular value for both $F$ and $F|_{\partial M}$. Then $S$ is a smooth submanifold with boundary in $M$, with $\partial S = S \cap \partial M$.  
