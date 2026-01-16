@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Tangent Space for Manifolds]], [[Tangent Vectors in Rn]], [[Topological Manifolds]], [[Smooth Manifolds]], [[Vector Bundles on Smooth Manifolds]]
+Links: [[Tangent Space for Manifolds]], [[Topological Manifolds]], [[Smooth Manifolds]], [[Vector Bundles on Smooth Manifolds]]
 
 Let $M$ be a smooth manifold. The *tangent bundle* of $M$ is the union of all the tangent spaces of $M$: $$TM = \coprod_{p \in M} T_p M$$In the definition of the tangent bundle, the union $$\coprod_{p\in M} T_p M$$is the same as the disjoint union $TM = \coprod_{p \in M} T_p M$, since for distinct points $p$ and $q$ in $M$, the tangent spaces $T_p M$ and $T_q M$ are already disjoint.
 

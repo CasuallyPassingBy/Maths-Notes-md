@@ -5,55 +5,54 @@ tags:
 Subjects: [[Differential Geometry]]
 Links: [[Topological Vector Bundles]], [[Embedded Smooth Submanifolds]] [[The Tangent Bundle]], [[Smooth Partitions of Unity for Manifolds]], [[The Cotangent Bundle]], [[Dual Vector Spaces]]
 
-**Def:** For any two maps $\pi: E \to M$ and $\pi': E'\to M$ with the same target space $M$, a map $\phi: E \to E'$ is said to be *fibre-preserving* if $\phi[\pi^{-1}\{p\}] \subseteq \pi'^{-1}\{p\}$ for all $p\in M$.
+**Def:** Let $M$ be a topological space. A *real vector bundle of rank $k$ over $M$* is a topological space $E$ together with a surjective continuous map $\pi:E \to M$ satisfying the following conditions:
+- For each $p\in M$, the fiber $E_p := \pi^{-1}\{p\}$ over $p$ is endowed with the structure of a $k$-dimensional real vector space.
+- For each $p\in M$, there exists a neighbourhood of $U$ of $p\in M$ and homeomorphism $\Phi: \pi^{-1}[U] \to U\times\Bbb R^k$, called a *local trivialisation of $E$ over $U$*, satisfying the following conditions:
+	- $\pi_U \circ \Phi = \pi$, where $\pi_U: U \times \Bbb R^k \to U$ is the projections;
+	- for each $q\in U$, the restriction $\Phi$ to $E_q$ is a vector space isomorphism from $E_q$ to $\{q\}\times \Bbb R^k \cong \Bbb R^k$.
+If $M$ and $E$ are smooth manifolds with or without boundary, $\pi$ is a smooth map, and the local trivialisations can be chosen to be diffeomorphisms, then $E$ is called a *smooth vector bundle*. In this case, we calle any trivialisation that is a diffeomorphism onto its image a *smooth local trivialisation*. 
 
-**Prop:** Given two maps $\pi: E \to M$ and $\pi': E'\to M$ a map $\phi: E \to E'$ is fibre-preserving iff $\pi = \pi' \circ \phi$, or if the following diagram commutes: 
+A rank-$1$ vector bundle is often called a *real line bundle*. *Complex vecto bundles* are defined similarly, with 'real vector space' replaced by 'complex vector space' and $\Bbb R^k$ replaced by $\Bbb C^k$ in the definition. 
+
+The space $E$ is called the *total space of the bundle*, $M$, is called the *base*, and $\pi$ is its *projection*. 
+
+**Obs:** If $E$ is a smooth vector bundle over $M$, then the projection map $\pi: E \to M$ is a surjective smooth submersion. 
+
+**Def:** If there exists a local trivialisation of $E$ over all of $M$, called a *global trivialisation of $E$*, then $E$ is called to be the *trivial bundle*. In this case, $E$ is homeomorphic to the product space $M \times \Bbb R^k$. If $E \to M$ is a smooth bundle that admits a smooth global trivialisation, then we say that $E$ is *smoothly trivial*. In this case $E$ is *diffeomorphic* fo $M \times \Bbb R^k$, not just homeomorphic. 
+
+**Example:** the simplest example of a rank $k$ vector bundle over any space $M$ is the product space $E = M \times \Bbb R^k$ with $\pi = \pi_1: M \times \Bbb R^k \to M$ as its projection. Any such bundle is called a *product bundle*, is trivial. If $M$ is a smooth manifold with or without boundary, then $M\times\Bbb R^k$ is a smoothly trivial.
+
+**Example:** Define an equivalence relation on $\Bbb R^2$ by declaring that $(x, y) \sim (x', y')$ iff $(x', y')= (x+n, (-1)^n y)$ for some $n \Bbb Z$. Let $E := \Bbb R^2/\sim$ denote the quotient space, and let $q: \Bbb R^2\to E$ be the quotient map. 
+
+Let $S := [0, 1]\times \Bbb R\subseteq \Bbb R^2$. The restriction to $q$ to $S$ is surjective and closed, so it is a quotient map. The only nontrivial identifications made by $q|_S$ are on the boundary lines, seo we can think of $E$ to as the space obtained from $S$ by giving the right-hand edge a half-twist to turn it upside-down, and the pasting it to left-hand edge. For any $r> 0$, the image under the quotient map $q$ of the rectangle $[0, 1] \times  [-r, r]$ is a smooth compact manifold with boundary called a *Möbius band*. 
+
+If we consider the following commutative diagram:
 ```tikz
 \usepackage{tikz-cd}
+\usepackage{amsfonts}
 \begin{document}
 \begin{tikzcd}[row sep=2cm, column sep=2cm]
-E \arrow{rr}{\phi} \arrow{dr}{\pi}&& E'\arrow{dl}{\pi'} \\
-& M
+\Bbb R^2 \arrow[r, "q"]\arrow[d, "\pi_1"']& E\arrow[d, dashed, "\pi"]  \\
+\Bbb R \arrow[r, "\varepsilon"']& \Bbb S^1
 \end{tikzcd}
 \end{document}
 ```
+where $\pi_1$ is the projection is the projection onto the first factor and $\varepsilon: \Bbb R\to \Bbb S^1$ is the smooth covering map $\varepsilon(x) := \exp(2\pi i x)$, because $\varepsilon \circ \pi_1$ is constant on each equivalence class, it descents to a continuous map $\pi: E \to \Bbb S^1$. We know that $E$ has a unique smooth manifold structure such that $q$ is a smooth covering map and $\pi: E \to \Bbb S^1$ is a smooth real line bundle over $\Bbb S^1$, called the *Möbius bundle*. 
 
-**Def:** A surjective map $\pi: E \to M$ of manifolds is said to be *locally trivial of rank $r$* if:
-- each fibre $\pi^{-1}\{p\}$ has a structure of a vector space of dimension $r$. 
-- for each $p\in M$, there are an open neighbourhood $U$ of $p$ and a fibre-preserving diffeomorphism $\phi: \pi^{-1}[U] \to U \times \Bbb R^r$ such that for every $q\in U$ the restriction $$\phi|_{\pi^{-1}\{q\}}: \pi^{-1}\{q\} \to \{q\} \times \Bbb R^r$$is a vector space isomorphism. Such an open set $U$ is called a *trivialising open set* for $E$, and $\phi$ is called a *trivialisation* of $E$ over $U$. Meaning that the diagram: 
+**[[The Tangent Bundle]] as a Vector Bundle:** Let $M$ be a smooth $n$-manifold with or without boundary, and let $TM$ be its tangent bundle. With its standard projections map, its natural vector space structure on each fibre, and the topology and smooth structure, $TM$ is a smooth vector bundle or rank $n$ over $M$. 
 
-```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}[row sep=2cm, column sep=2cm]
-\pi^{-1}[U] \arrow{rr}{\phi} \arrow{dr}{\pi}&& U \times R^k\arrow{dl}{\pi_1} \\
-& M
-\end{tikzcd}
-\end{document}
-```
+**Lemma:** Let $\pi: E \to M$ be a a smooth vector bundle of rank $k$ over $M$. suppose $\Phi: \pi^{-1}[U] \to U\times\Bbb R^k$  and $\Psi: \pi^{-1}[V] \to V \times \Bbb R^k$ are smooth local trivialisations of $E$ with $U \cap V \neq\varnothing$. There exists a smooth map $\tau: U\cap V \to \text{GL}(k,\Bbb R)$ such that the composition $\Phi \circ \Psi^{-1} : (U \cap V)\times \Bbb R^k \to (U\cap V) \times \Bbb R^k$ has the form $$(\Phi\circ \Psi^{-1})(p, v) = (p, \tau(p)v) $$
 
-where $\pi_1$ is the projection of the first coordinate.
+The smooth map $\tau: U \cap V \to \text{GL}(k, \Bbb R)$ described in the lemma above is called the *transition function* between the local trivialisations $\Phi$ and $\Psi$. 
 
-The collection $\{(U_\alpha, \phi_\alpha) \mid \alpha < \kappa\}$, with $\{U_\alpha \mid \alpha < \kappa\}$ an open cover of $M$, is called a *local trivialisation* for $E$, and $\{U_\alpha \mid \alpha < \kappa\}$ is called the *trivialising open cover* of $M$ for $E$.
+**Vector Bundle Chart Lemma:** Let $M$ be a smooth manifold with or without boundary, and suppose that for each $p\in M$ we are given a real vector space $E_p$ of some fixed dimension $k$. Let $$E := \coprod_{p\in M} E_p,$$and let $\pi: E \to M$ be the mao that takes each element of $E_p$ to the point $p$. Suppose furthermore that we are given the following data:
+- an open cover $\{U_\alpha\}_{\alpha\in A}$ of $M$
+- for each $\alpha\in A$, a bijective map $\Phi_\alpha: \pi^{-1}[U_\alpha] \to U_\alpha\times \Bbb R^k$ whose restriction to each $E_p$ is a vector space isomorphism from $E_p$ to $\{p\}\times \Bbb R^k \cong \Bbb R^k$
+- For each $\alpha,\beta\in A$ with $U_\alpha\cap U_\beta \neq \varnothing$, a smooth map $\tau_{\alpha, \beta}: U_\alpha\cap U_\beta \to \text{GL}(k, \Bbb R)$ such that the map $\Phi_\alpha \circ \Phi_\beta$ from $(U_\alpha\cap U_\beta) \times \Bbb R^k$ to itself has the form $$(\Phi_\alpha \circ\Phi_\beta)(p, v) = (p, \tau_{\alpha, \beta}(p) v).$$
+Then $E$ has a unique topology and smooth structure making it into a smooth manifold with or without boundary and a smooth rank-$k$ vector bundle over $M$, with $\pi$ as a projection and $\{(U_\alpha, \Phi_\alpha) \mid \alpha\in A\}$ as smooth local trivialisations. 
 
-**Def:** A $\mathcal C^\infty$ *vector bundle of rank $r$* is a triple $(E, M, \pi)$ consisting of manifolds $E$ and $M$ and a surjective smooth map $\pi: E \to M$ that is locally trivial of rank $r$. The manifold $E$ is called the *total space* of the vector bundle and $M$ the *base space*. By abuse of language, we say that $E$ is a *vector bundle over $M$*. For any regular submanifold $S\subseteq M$, the triple $(\pi^{-1}[S], S, \pi|_{\pi^{-1}[S]})$ is a $\mathcal C^\infty$ vector bundle over $S$, called the *restriction* of $E$ to $S$. We will often write the restriction as $E|_S$ instead of $\pi^{-1}[S]$. Similarly, we denote the fibres as $E_p$ instead of $\pi^{-1}\{p\}$. 
+**Def:** Given a smooth manifold $M$ and smooth vector bundles $E' \to M$ and $E'' \to M$ of ranks $k'$ and $k''$, respectively, we will construct a new vector bundle over $M$ called the *Whitney sum of $E'$ and $E''$*. whose fiber at each $p\in M$ is the direct sum $E_p'\oplus E_p''$. The total space is defined as $$E' \oplus E'' := \coprod_{p\in M} (E_p' \oplus E_p''),$$with the obvious projection $\pi: E' \oplus E'' \to M$. For each $p\in M$, we choose a neighbourhood $U$ of $p$ small enough that there exists local trivialisations $(U, \Phi')$ of $E'$ and $(U, \Phi'')$ of $E''$. We now define $\Phi: \pi^{-1}[U] \to U \Bbb R^{k' + k''}$ by $$\Phi(v', v'')  = (\pi'(v'), (\pi_{\Bbb R^{k'}}\circ \Phi'(v'))) $$
 
-**Example:** Given a manifold $M$, let $\pi: M \times \Bbb R^r \to M$ be the projection to the first factor. Then $M \times \Bbb R^r \to M$ is a vector bundle of rank $r$, called the *product bundle* of rank $r$ over $M$. 
-
-**Def:** Let $\pi: E \to M$ be a $\mathcal C^\infty$ vector bundle. Suppose $(U, \psi) = (U, x^1, \dots, x^n)$ is a chart on $M$ and $$\phi: E|_U \stackrel{\sim}{\to} U \times \Bbb R^r,  \quad \phi(e) = (\pi(e), c^1(e), \dots, c ^r (e))$$is a trivialisation of $E$ over $U$. Then $$(\psi \times \text{id}_{\Bbb R^r}) \circ \phi = (x^1, \dots, x^n, c^1, \dots, c^r): E|_U \stackrel{\sim}{\to} U \times \Bbb R^r\stackrel{\sim}{\to} \psi[U] \times \Bbb R^r\subseteq \Bbb R^n \times \Bbb R^r $$
-is a diffeomorphism of $E|_U$ onto its image and so is a chart on $E$. We call $x^1, \dots, x^n$ the *base coordinates* and $c^1, \dots, c^r$ the *fiber coordinates* of the chart $(E|_U, (\psi \times \text{id}_{\Bbb R^r}) \circ \phi)$ on $E$. We see that the fiber coordinates $c^i$ depend only on the trivialisation $\phi$ of the bundle $E|_U$ and not the trivialisation $\psi$ of the base $U$. 
-
-**Lemma:** Let $\pi: E \to M$ be a smooth vector bundle, and suppose $\phi: \pi^{-1}[U] \to U \times \Bbb R^k$ and $\psi: \pi^{-1}[V] \to V \times \Bbb R^k$ are two smooth local trivialisations of $E$ such that $U \cap V \neq \varnothing$. There exists a smooth map $\tau: U \cap V \to \text{GL}(k , \Bbb R)$ such that the composition $\phi \circ \psi^{-1}: (U \cap V )\times \Bbb R^k \to (U \cap V )\times \Bbb R^k$ has the form $$\phi \circ \psi^{-1}(p, v) = (p, \tau(p) v) $$where $\tau(p)v$ denotes the usual action of the $k\times k$ matrix $\tau(p)$ on the vector $v \in \Bbb R^k$. 
-
-The smooth map $\tau: U \cap V \to \text{GL}(k, \Bbb R)$ described in the lemma above is called the *transition function* between the local trivialisations $\phi$ and $\psi$. 
-
-**Vector Bundle Construction Lemma:** Let $M$ be a smooth manifold, and suppose that we are given:
-- for each $p\in M$, a real vector space $E_p$ of some fixed dimension $k$. 
-Let $$E := \coprod_{p \in M} E_p,$$and let $\pi: E \to M$ be the map that takes each element of $E_p$ to the point $p$. Suppose furthermore that we are given
-- an open cover $\{U_\alpha \mid \alpha < \kappa\}$ of $M$
-- For each $\alpha < \kappa$, a bijective map $\phi_\alpha: \pi^{-1}[U_\alpha] \to U_\alpha \times \Bbb R^k$ whose restriction to each $E_p$ is a linear isomorphism from $E_p$ to $\{p\}\times \Bbb R^k \cong \Bbb R^k$.
-- For each $\alpha, \beta < \kappa$ such that $U_\alpha \cap U_\beta \neq \varnothing$, a smooth map $\tau_{\alpha \beta}: U_\alpha \cap U_\beta \to \text{GL}(k, \Bbb R)$ such that the composite map $\phi_\alpha \circ \phi_\beta^{-1}: (U_\alpha \cap U_\beta) \times \Bbb R^k \to U_\alpha \cap U_\beta) \times \Bbb R^k$ has the form: $$\phi_\alpha \circ \phi_\beta^{-1}(p, v) = (p, \tau_{\alpha\beta}(p) v) $$
-Then $E$ has a unique smooth manifold structure making it into a smooth vector bundle of rank $k$ over $M$, with $\pi$ as projection and $\phi_\alpha$ as smooth local trivialisations. 
 # Vector Subbundles
 
 **Def:** Given a smooth vector bundle $\pi: \to M$, a *smooth bundle* of $E$ is a subset $D \subseteq E$ with the following properties:
