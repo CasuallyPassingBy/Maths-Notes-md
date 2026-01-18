@@ -27,10 +27,9 @@ If these conditions hold, then $S$ is the graph of the map $f: M \to N$ defined 
 
 **Local Characterisation of Graphs:** Suppose $M$ and $N$ are smooth manifolds, $S\subseteq M \times N$ is an immersed submanifold submanifold, and $(p, q)\in S$. If $S$ intersects the submanifold $\{p\}\times N$ transversely at $(p, q)$, then there exists a neighbourhood $U$ of $p$ in $M$ and a neighbourhood $V$ of $(p,q)$ in $S$ such that $V$ is the graph of a smooth map $f: U \to N$.  ^dadb54
 
-**Def:** Suppose $N$, $M$ and $S$ are smooth manifolds, and for each $s\in S$ we are given a map $F_s:N \to M$. The collection $\{F_s: s\in S\}$ is called a *smooth family of maps* if the map $F: N \times S \to M$ defined by $F(x, s) = F_s(x)$ is smooth. This family is like a higher-dimensional analogue of homotopy. 
+**Def:** Suppose $N$, $M$ and $S$ are smooth manifolds, and for each $s\in S$ we are given a map $F_s:N \to M$. The collection $\{F_s: s\in S\}$ is called a *smooth family of maps* if the map $F: N \times S \to M$ defined by $F(x, s) = F_s(x)$ is smooth. This family is like a higher-dimensional analogue of smooth homotopy. 
 
 **Prop:** If $\{F_s\mid s\in S\}$ is a smooth family of maps from $N$ to $M$ and $S$ is connected, then for any $s_1, s_2\in S$, the maps $F_{s_1}, F_{s_2}: N \to M$ are homotopic. 
-
 
 **Def:** If $S$ is a smooth manifold and $B\subseteq S$ is a subset whose complement has measure zero in $S$, we say that $B$ contains *almost every element in $S$.*
 
@@ -47,7 +46,6 @@ If these conditions hold, then $S$ is the graph of the map $f: M \to N$ defined 
 - maps that are transverse to a given properly embedded submanifold $X\subseteq M$. 
 
 **Transversality Homotopy Theorem:** Suppose $M$ and $N$ are smooth manifolds and $X\subseteq M$ is an embedded submanifold. Every smooth map $f:N \to M$ is homotopic to a smooth map $g: N \to M$ that is transverse to $X$. 
-
 
 **Def:** Let $M$ be a smooth manifold. If $F:N \to M$ and $G: N' \to M$ are smooth maps into $M$, we say that $F$ and $F'$ are *transverse to each other* if every $x\in N$ and $x'\in N'$ such that $F(x) = G(x')$, the spaces $dF_x[T_x N]$ and $dG_{x'}[T_{x'}N']$ together span $T_{F(x)} M$. We denote this relationship as $F\pitchfork G$ .
 

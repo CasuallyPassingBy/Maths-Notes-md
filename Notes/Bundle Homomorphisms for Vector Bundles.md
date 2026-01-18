@@ -6,7 +6,7 @@ Subjects: [[Differential Geometry]]
 Links: [[Vector Bundles on Smooth Manifolds]], [[Smooth Functions on Smooth Manifolds]], 
 
 
-**Def:** If $\pi: E \to M$ and $\pi': E' \to M'$ are vector bundles, a continuous map $F: E \to E'$ is called a *bundle homomorphism* if there exists a map $f: M \to M'$ satistying $\pi' \circ F = f \circ \pi$, 
+**Def:** If $\pi: E \to M$ and $\pi': E' \to M'$ are vector bundles, a continuous map $F: E \to E'$ is called a *bundle homomorphism* if there exists a map $f: M \to M'$ satisfying $\pi' \circ F = f \circ \pi$, 
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
@@ -38,8 +38,6 @@ The collection of all vector bundles together with bundle maps between them form
 
 **Prop:** Suppose $E$ and $E'$ are smooth vector bundles over a smooth manifold with or without boundary, and $F: E \to E'$ is a bijective smooth bundle homomorphism over $M$. Then $F$ is a smooth bundle isomorphism. 
 
-**Prop:** There a covariant functor $T$ from the category of smooth manifolds and smooth maps to the category of smooth vector bundles and bundle homomorphism:
-- to each manifold $M$, we associate its tangent bundle $TM$
-- to each $\mathcal C^\infty$ map $f: N \to M$ of manifolds, we associate the bundle map $T(f) = df$, the global differential, that covers $f$.
-
 **Prop:** Let $\pi_E \to M$ and $\pi_F: F \to M$ be smooth vector bundles over a smooth manifold $M$, and let $\Gamma(M, E)$ and $\Gamma(M, F)$ denote their spaces of sections. A map $\mathcal F: \Gamma(M, E) \to \Gamma(M, F)$ is linear over $\mathcal C^\infty(M)$ iff there is a smooth bundle homomorphism $F: E \to F$ over $M$ such that $\mathcal F(\sigma) = F\circ \sigma$ for all $\sigma \in \Gamma(M, E)$. 
+
+**Prop:** Let $\sf VB$ denote the category whose objects are smooth vector bundles and whose morphisms are smooth bundle homomorphisms, and let $\sf Diff$ denote the category whose objects are smooth manifolds whose morphisms are smooth maps. The assignment $M \mapsto TM$ and $F\mapsto dF$ defines a covariant functor from $\sf Diff$ to $\sf VB$, called the *tangent functor*. 

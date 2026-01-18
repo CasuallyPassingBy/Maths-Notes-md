@@ -19,9 +19,18 @@ The *zero section of $E$* is the global section $\zeta: M \to E$ defined by $$\z
 - the sum $s+t: M \to E$ defined by $$(s+t)(p) = s(p) + t(p) \in E_p, \qquad p \in M$$is a smooth section of $E$. 
 - The product $fs: M \to E$ defined by $$(fs)(p) = f(p) s(p) \in E_p, \qquad p\in M$$is a smooth section of $E$.
 
+**Prop:** Suppose $M$ is a compact smooth manifold and $E\to M$ is a smooth vector bundle of rank $k$. $E$ admits a smooth section $\sigma$ with the following property:
+- If $k >\dim M$, then $\sigma$ is nowhere vanishing
+- If $k \le \dim M$, then the set of points where $\sigma$ vanishes is a smooth compact codimension-$k$ submanifold of $M$.
+The proof of this fact uses [[Transversailty Theorems for Smooth Manifolds|transversality]]. 
+
+**Cor:** If $M$ is a compact smooth manifold, then $M$ admits a smooth vector field with only finitely many singular points.
+
 **Def:** Denote the set of all smooth sections of $E$ by $\Gamma(E)$. We see that $\Gamma(E)$ is a module over the ring $\mathcal C^\infty(M)$ of $\mathcal C^\infty$ functions on $M$. For any open subset $U\subseteq M$, one can also consider the vector space over $\Bbb R$ $\Gamma(U, E)$ of smooth sections of $E$ over $U$. Then $\Gamma(U, E)$ is a both a vector space over $\Bbb R$ and a $\mathcal C^\infty(U)$-module. To contrast with sections over a proper subset $U$, a section over the entire manifold $M$ is called a *global section*. 
 
 **Extension Lemma for Vector Bundles:** Let $\pi: E \to M$ be a smooth vector bundle over a smooth manifold $M$ with or without boundary. Suppose $A$ is a closed subset of $M$, and $\sigma: A \to E$ is a section of $E|_A$ that is smooth in the sense that $\sigma$ extends to a smooth local section to $E$ in a neighbourhood of each point. For each open subset $U\subseteq M$ containing $A,$ there exists a global smooth section $\tilde\sigma\in \Gamma(E)$ such that $\tilde \sigma|_A = \sigma$ and $\text{supp }\tilde \sigma \subseteq U$. 
+
+**Extension Lemma for Sections of Restricted Bundles:** Suppose $M$ is a smooth manifold, $E\to M$ is a smooth vector bundle, and $S\subseteq M$ is an embedded submanifold with or without boundary. For any smooth section $\sigma$ of the restricted bundle $E|_S \to S$, there exists a neighbourhood $U$ of $S$ in $M$ and a smooth section $\tilde\sigma$ of $E|_U$ such that $\sigma = \tilde\sigma|_S$ If $E$ has a positive rank, then every smooth section of $E|_S$ extends smoothly to all of $M$ iff $S$ si properly embedded.
 
 ## Local and Global Frames
 

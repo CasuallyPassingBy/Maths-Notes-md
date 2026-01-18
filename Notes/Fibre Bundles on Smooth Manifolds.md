@@ -24,4 +24,11 @@ A *trivial fibre bundle* is one that admits a local trivliasiation over the enti
 **Examples:**
 - Every product space $M\times F$ is a fibre bundle with projection $\pi_1:M \times F \to M$, called the *product fibre bundle*. It has a global trivialisation given by the identity map $M \times F$ to itself, so every product bundle is trivial.
 - Every rank-$k$ vector bundle is a fibre bundle with the model fibre $\Bbb R^k$.
-- 
+- If $E \to \Bbb S^1$ is the Möbius bundle, then the image of $\Bbb R\times [-1, 1]$ under the quotient map $q: \Bbb R^2\to E$ is a fiber bundle over $\Bbb S^1$ with model fibre $[-1, 1]$. 
+- Every [[Covering Maps|covering map]] $\pi: E\to M$ is fibre bundle whose model fibre is discrete. 
+
+**Properties of Fibre Bundles:** Suppose $\pi: E \to M$ is a fibre bundle with fibre $F$.
+- $\pi$ is an open quotient map.
+- If the bundle is smooth, then $\pi$ is a smooth submersion.
+- $\pi$ is a proper map iff $F$ is compact.
+- $E$ is compact iff $M$ and $F$ are compact.
