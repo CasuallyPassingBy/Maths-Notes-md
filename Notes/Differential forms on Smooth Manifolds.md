@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[The Cotangent Bundle]], [[Differential 1-forms on Smooth Manifolds]], [[Local and Global Sections of Vector Bundles]], [[Exterior Algebra]], [[The Dual Functor and the Multicovector Functor]]
+Links: [[The Cotangent Bundle]], [[Covector Fields on Smooth Manifolds]], [[Local and Global Sections of Vector Bundles]], [[Exterior Algebra]], [[The Dual Functor and the Multicovector Functor]]
 
 We consider the vector space ${\textstyle\bigwedge}^{\!k} (T_p^*M)$, the space of all alternating $k$-covectors on each tangent space $T_p M$. 
 

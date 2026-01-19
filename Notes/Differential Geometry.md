@@ -58,7 +58,7 @@ This notes uses Einstein's summation convention.
 		- [[Vector Subbundles on Smooth Manifolds]]
 	- [[Fibre Bundles on Smooth Manifolds]]
 - [[The Cotangent Bundle]]
-	- [[Differential 1-forms on Smooth Manifolds]]
+	- [[Covector Fields on Smooth Manifolds]]
 		- [[Line Integrals Using Differential 1-forms]]
 	- [[Differential forms on Smooth Manifolds]]
 		- [[The Exterior Derivative on Manifolds]]

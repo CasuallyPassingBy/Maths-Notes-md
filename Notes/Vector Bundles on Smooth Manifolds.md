@@ -10,7 +10,7 @@ Links: [[Topological Vector Bundles]], [[Embedded Smooth Submanifolds]] [[The Ta
 - For each $p\in M$, there exists a neighbourhood of $U$ of $p\in M$ and homeomorphism $\Phi: \pi^{-1}[U] \to U\times\Bbb R^k$, called a *local trivialisation of $E$ over $U$*, satisfying the following conditions:
 	- $\pi_U \circ \Phi = \pi$, where $\pi_U: U \times \Bbb R^k \to U$ is the projections;
 	- for each $q\in U$, the restriction $\Phi$ to $E_q$ is a vector space isomorphism from $E_q$ to $\{q\}\times \Bbb R^k \cong \Bbb R^k$.
-If $M$ and $E$ are smooth manifolds with or without boundary, $\pi$ is a smooth map, and the local trivialisations can be chosen to be diffeomorphisms, then $E$ is called a *smooth vector bundle*. In this case, we calle any trivialisation that is a diffeomorphism onto its image a *smooth local trivialisation*. 
+If $M$ and $E$ are smooth manifolds with or without boundary, $\pi$ is a smooth map, and the local trivialisations can be chosen to be diffemorphisms, then $E$ is called a *smooth vector bundle*. In this case, we calle any trivialisation that is a diffeomorphism onto its image a *smooth local trivialisation*. 
 
 A rank-$1$ vector bundle is often called a *real line bundle*. *Complex vecto bundles* are defined similarly, with 'real vector space' replaced by 'complex vector space' and $\Bbb R^k$ replaced by $\Bbb C^k$ in the definition. 
 
@@ -63,9 +63,12 @@ for any $\alpha,\beta,\gamma\in A$ that satisfy $U_\alpha\cap U_\beta\cap U_\gam
 
 **Prop:** Let ${\sf Vec}_1$ be the category whose objects are finite-dimensional real vector spaces and whose morphisms are vector space isomorphisms. If $\cal F$ is a covariant functor from $\sf Vec_1$, for each finite-dimensional vector space $V$, we get a map ${\cal F}: \text{GL}(V)\to\text{GL}(\mathcal F(V))$ sending each isomorphism $A:  V\to V$ to the induced isomorphism $\mathcal F(A): \mathcal F(V) \to \mathcal F(V)$. We say that $\mathcal F$ is a *smooth functor* if this map is smooth for every $V$. Given a smooth vector bundle $E\to M$ and a smooth functor $\mathcal F: \sf Vec_1\to Vec_1$, there is a smooth vector bundle $\mathcal F(E) \to M$ whose fiber at each point $p\in M$ is $\mathcal F(E_p)$. 
 
+**Prop:** Let $\pi: E \to M$ be a smooth vector bundle of rank $k$, let $(V, \phi)$ be a smooth chart on $M$, and suppose there exists a smooth local frame $(s_1, \dots, s_n)$ for $E$ over $V$. If we define the map $\tilde \varphi: \pi^{-1}[V] \to \phi[V] \times \Bbb R^k$ given by $$\tilde \varphi(v^i \sigma_i(p) ) = (x^1(p), \dots, x^n(p), v^1, \dots, v^k),$$then $(\pi^{-1}[V],\tilde\varphi)$ 
+
+
 # Dual Bundles
 
-Let $\pi: E \to M$ be a smooth vector bundle over a smooth manifold $M$ of rank $r$. The *dual bundle* of $E$, denoted $E^*$, is the smooth vector bundle $$\pi^*: E^* \to M,$$where $E_p^*:= (E_p)'$ for every $p \in M$, $$E^* := \coprod_{p\in M}E_p^*,$$and $\pi^*(\lambda) =p$ for $\lambda \in E_p^*$. 
+Suppose $M$ is a smooth manifold and $E \to M$ is a smooth vector bundle over $M$. We define the *dual vector bundle to $E$* to be bundle $E^* \to M$ whose total space is the disjoint union $$E^* := \coprod_{p\in M} E_p ^*, $$where $E_p^*$ is the dual space of $E_p$, with the obvious projections. Then $E^* \to M$ is a smooth vector bundle whose transition functions are given by $\tau^*(p) := (\tau(p)^{-1})^*$ for any transition function $\tau: U \to \text{GL}(k,\Bbb R)$ of $E$, where $T^*$ represents the [[Dual Vector Spaces|dual linear transformation]]. 
 
 The reason why it is smooth it is because if $E$ is locally trivialised over $U\subseteq M$ by $\phi:\pi^{-1}[U] \to U \times \Bbb R^k$, then $E^*$ is locally trivialised by $\phi^*: (\pi^*)^{-1}[U] \to U \times (\Bbb R^k)'$. Lastly, we only need that the transitions function behave nicely.
 It is easy enough to check that if $\phi_\alpha: \pi^{-1}[U_\alpha] \to U_\alpha \times \Bbb R^k$ and $\phi_\beta: \pi^{-1}[U_\beta] \to U_\beta \times \Bbb R^k$ are local trivialisations with a transition function betweeen trivilisations $\tau_{\alpha\beta}$, then $$\phi_\alpha \circ (\phi_\beta^*)^{-1}(p, v) = (p, ((\tau_{\alpha \beta}(p)'))^{-1}(v)).$$

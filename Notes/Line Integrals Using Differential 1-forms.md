@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Line Integral over a Vector Field]], [[Differential 1-forms on Smooth Manifolds]], [[Conservative Fields]], [[The Cotangent Bundle]], [[Local and Global Sections of Vector Bundles]], [[Riemann Integral in R]]
+Links: [[Line Integral over a Vector Field]], [[Covector Fields on Smooth Manifolds]], [[Conservative Fields]], [[The Cotangent Bundle]], [[Local and Global Sections of Vector Bundles]], [[Riemann Integral in R]]
 
 Another important application of covector fields is to make coordinate independent sense of the notion of a [[Line Integral over a Vector Field|line integral]].
 

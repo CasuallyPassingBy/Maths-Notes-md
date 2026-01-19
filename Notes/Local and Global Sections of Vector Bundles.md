@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Vector Bundles on Smooth Manifolds]], [[Differential 1-forms on Smooth Manifolds]], [[Differential 1-forms on Smooth Manifolds]], [[Vector Fields on Smooth Manifolds]]
+Links: [[Vector Bundles on Smooth Manifolds]], [[Covector Fields on Smooth Manifolds]], [[Covector Fields on Smooth Manifolds]], [[Vector Fields on Smooth Manifolds]]
 
 **Def:** Let $\pi: E\to M$ be a vector bundle. A *section of $E$*, sometimes called a *cross section* is a section of the map $\pi$, namely, a continuous map $\sigma: M \to E$ satisfying $\pi \circ \sigma = \text{id}_M$. This means that $\sigma(p)$ is an element of the fibre $E_p$ for each $p\in M$.
 

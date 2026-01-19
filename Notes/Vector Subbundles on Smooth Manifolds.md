@@ -21,3 +21,9 @@ Links: [[Vector Bundles on Smooth Manifolds]], [[Embedded Smooth Submanifolds]],
 **Orthogonal Complement Bundles:** Let $M$ be an immersed submanifold with or without boundary in $\Bbb R^n$, and $D$ be a smooth rank-$k$ subbundle of $T\Bbb R^n|_M$. For each $p\in M$, let $D_p^\bot$ denote the orthogonal complemente of $D_p$ in $T_p\Bbb R^n$ with respect to the Euclidean dot product, and let $D^\bot \subseteq T\Bbb R^n|_M$ be the subset $$D^\bot := \{(p, v) \in T\Bbb R^n\mid p\in M, v\in D_p^\bot\}. $$Then $D^\bot$ is a smooth rank-$(n-k)$ subbundle $T\Bbb R_n|_M$. For each $p\in M$, there is a smooth orthogonal frame for $D^\bot$ on e neighbourhood of $p$.
 
 **The Normal Bundle to a Submanifold of $\Bbb R^n$:** If $M\subseteq \Bbb R^n$ is an immersed $m$-dimensional submanifold with or without boundary, its normal bundle $NM$ is a smooth rank $(n-m)$ subbundle of $T\Bbb R^n|_M$. For each $p\in M$, there exists a smooth orthonormal frame for $NM$ on a neighbourhood of $p$. 
+
+**Prop:** Suppose $M \subseteq\Bbb R^n$ is an immersed submanifold. The ambient tangent bundle $T\Bbb R^n|_M$ is isomorphic to the Whitney sum $TM\oplus NM$, where $NM \to M$ is the normal bundle.
+
+**Prop:** Suppose $S$ is a properly embedded codimension-$k$ submanifold of $\Bbb R^n$. The following are equivalent.
+- There exists a smooth defining function for $S$ on some neighbourhood $U$ of $S$ in $\Bbb R^n$, that is, a smooth function $\Phi:U \to\Bbb R^k$ such that $S$ is a regular level set of $\Phi$.
+- The normal bundle $NS$ is a trivial vector bundle. 
