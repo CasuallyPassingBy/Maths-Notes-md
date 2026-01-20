@@ -51,7 +51,7 @@ We call a chart $(U, \phi)$ in $N$ an *adapted chart* relative to $S$. On $U \ca
 
 **Cor (Submersion Level Set Theorem):** If $\Phi: M \to N$ is a submersion, then each level set of $\Phi$ is a closed embedded submanifold whose codimension is equal to the dimension of $N$. ^c2a3b8
 
-**Def:** Let us consider the smooth map $F:N \to M$. A point $p$ in $N$ is a *critical point* of $F$ if the differential $dF_p: T_pN \to T_{F(p)} M$ fails to be surjective. It is a *regular point* of $F$ if the differential $dF_p$ is surjective, i.e., $F$ is a submersion at $p$. A point $c \in M$ is a *critical value* if some point in the preimage $F^{-1}\{c\}$ is a critical point. A point $c$ in the image of $F$ is regular value iff *every* point in the preimage $F^{-1}\{c\}$ is a regular point. Additionally, 
+**Def:** Let us consider the smooth map $F:N \to M$. A point $p$ in $N$ is a *critical point* of $F$ if the differential $dF_p: T_pN \to T_{F(p)} M$ fails to be surjective. It is a *regular point* of $F$ if the differential $dF_p$ is slurjective, i.e., $F$ is a submersion at $p$. A point $c \in M$ is a *critical value* if some point in the preimage $F^{-1}\{c\}$ is a critical point. A point $c$ in the image of $F$ is regular value iff *every* point in the preimage $F^{-1}\{c\}$ is a regular point. Additionally, 
 The inverse image image $F^{-1}\{c\}$ of a regular value $c$ is called a *regular level set*. If the zero set $F^{-1}\{0\}$ is a regular set of $F:N \to \Bbb R^m$, it is called a *regular zero set*.
 
 **Lemma:** Let $F: N \to \Bbb R^m$ be a $\mathcal C^\infty$ map on a manifold $N$ of dimension $n$ and let $S$ be the level set $F^{-1}\{0\}$. If relative to some coordinate chart $(U, x^1, \dots, x^n)$ about $p\in S$, the Jacobian determinant $\dfrac{\partial (F^1, \dots, F^m)}{\partial(x^{j_1}, \dots, x^{j_m})}(p)$ is nonzero, then in some neighbourhood of $p$ one may replace $x^{j_1}, \dots, x^{j_m}$ by $F^1, \dots, F^m$ to obtain an adapted chart for $N$ relative to $S$. 
@@ -62,7 +62,3 @@ The inverse image image $F^{-1}\{c\}$ of a regular value $c$ is called a *regula
 **Prop:** Let $S$ be a subset of a smooth $n$ manifold $M$. Then $S$ is an embedded $k$-submanifold of $M$ iff every point $p\in S$ has a neighbourhood $U$ in $M$ such that $U \cap S$ is a level set of submersion $\Phi: U \to \Bbb R^{n-k}$. 
 
 **Th:** Suppose $M$ is a smooth manifold and $S\subseteq M$ is an embedded submanifold. The subspace topology on $S$ and the smooth structure given by the $k$-slice condition, for some $k$, are the only topology and smooth structure with respect to which $S$ is an embdedded or immersed submanifold. 
-
-
-# Submanifolds of Manfolds with Boundary
-

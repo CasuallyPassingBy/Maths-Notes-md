@@ -61,33 +61,17 @@ Then $E$ has a unique topology and smooth structure making it into a smooth mani
 **Vector Bundle Constriction Theorem:** Let $M$ be a smooth manifold with or without boundary, let $\{U_\alpha\}_{\alpha\in A}$ be an open cover of $M$. Suppose for each $\alpha, \beta\in A$ such that $U_\alpha \cap U_\beta\neq \varnothing$, we are given a smooth map $\tau_{\alpha,\beta}:U_\alpha\cap U_\beta\to \text{GL}(k,\Bbb R)$ such that 
 for any $\alpha,\beta,\gamma\in A$ that satisfy $U_\alpha\cap U_\beta\cap U_\gamma \neq \varnothing$, then $$\tau_{\alpha,\beta}(p)\tau_{\beta,\gamma}(p) = \tau_{\alpha, \gamma}(p), \qquad p\in U_\alpha\cap U_\beta\cap U_\gamma.  $$There is a smooth rank-$k$ vector bundle $E\to M$ with smooth local trivialisations $\Phi_\alpha: \pi^{-1}[U_\alpha] \to U_\alpha\times \Bbb R^k$ whose transition functions are the given maps $\tau_{\alpha,\beta}$. 
 
-**Prop:** Let ${\sf Vec}_1$ be the category whose objects are finite-dimensional real vector spaces and whose morphisms are vector space isomorphisms. If $\cal F$ is a covariant functor from $\sf Vec_1$, for each finite-dimensional vector space $V$, we get a map ${\cal F}: \text{GL}(V)\to\text{GL}(\mathcal F(V))$ sending each isomorphism $A:  V\to V$ to the induced isomorphism $\mathcal F(A): \mathcal F(V) \to \mathcal F(V)$. We say that $\mathcal F$ is a *smooth functor* if this map is smooth for every $V$. Given a smooth vector bundle $E\to M$ and a smooth functor $\mathcal F: \sf Vec_1\to Vec_1$, there is a smooth vector bundle $\mathcal F(E) \to M$ whose fiber at each point $p\in M$ is $\mathcal F(E_p)$. 
-
 **Prop:** Let $\pi: E \to M$ be a smooth vector bundle of rank $k$, let $(V, \phi)$ be a smooth chart on $M$, and suppose there exists a smooth local frame $(s_1, \dots, s_n)$ for $E$ over $V$. If we define the map $\tilde \varphi: \pi^{-1}[V] \to \phi[V] \times \Bbb R^k$ given by $$\tilde \varphi(v^i \sigma_i(p) ) = (x^1(p), \dots, x^n(p), v^1, \dots, v^k),$$then $(\pi^{-1}[V],\tilde\varphi)$ 
 
+
+**Prop:** Let ${\sf Vec}_1$ be the category whose objects are finite-dimensional real vector spaces and whose morphisms are vector space isomorphisms. If $\cal F$ is a covariant functor from $\sf Vec_1$, for each finite-dimensional vector space $V$, we get a map ${\cal F}: \text{GL}(V)\to\text{GL}(\mathcal F(V))$ sending each isomorphism $A:  V\to V$ to the induced isomorphism $\mathcal F(A): \mathcal F(V) \to \mathcal F(V)$. We say that $\mathcal F$ is a *smooth functor* if this map is smooth for every $V$. Given a smooth vector bundle $E\to M$ and a smooth functor $\mathcal F: \sf Vec_1\to Vec_1$, there is a smooth vector bundle $\mathcal F(E) \to M$ whose fiber at each point $p\in M$ is $\mathcal F(E_p)$. 
 
 # Dual Bundles
 
 Suppose $M$ is a smooth manifold and $E \to M$ is a smooth vector bundle over $M$. We define the *dual vector bundle to $E$* to be bundle $E^* \to M$ whose total space is the disjoint union $$E^* := \coprod_{p\in M} E_p ^*, $$where $E_p^*$ is the dual space of $E_p$, with the obvious projections. Then $E^* \to M$ is a smooth vector bundle whose transition functions are given by $\tau^*(p) := (\tau(p)^{-1})^*$ for any transition function $\tau: U \to \text{GL}(k,\Bbb R)$ of $E$, where $T^*$ represents the [[Dual Vector Spaces|dual linear transformation]]. 
 
-The reason why it is smooth it is because if $E$ is locally trivialised over $U\subseteq M$ by $\phi:\pi^{-1}[U] \to U \times \Bbb R^k$, then $E^*$ is locally trivialised by $\phi^*: (\pi^*)^{-1}[U] \to U \times (\Bbb R^k)'$. Lastly, we only need that the transitions function behave nicely.
-It is easy enough to check that if $\phi_\alpha: \pi^{-1}[U_\alpha] \to U_\alpha \times \Bbb R^k$ and $\phi_\beta: \pi^{-1}[U_\beta] \to U_\beta \times \Bbb R^k$ are local trivialisations with a transition function betweeen trivilisations $\tau_{\alpha\beta}$, then $$\phi_\alpha \circ (\phi_\beta^*)^{-1}(p, v) = (p, ((\tau_{\alpha \beta}(p)'))^{-1}(v)).$$
-Let $\pi_E: E \to M$, and $\pi_F: F \to M$ be vector bundles over $M$, with bundle function $(\text{id}_M, \tilde f)$ from $F$ to $e$, then we can define the *dual bundle function* from $E^*$ to $F^*$, by $(\text{id}_M, \tilde f^*)$ where $$\tilde f^*(p, \lambda) := (p, \lambda \circ \tilde f_p).$$ We can generalise this to a slight broader class of bundle maps. Let $\pi_E:E \to M$ and $\pi_F: F \to N$ be two vector bundles, with a bundle map $(f, \tilde f)$ from $F$ to $E$. If $f$ is a diffeomorphism, then we can define the dual bundle map as $(f^{-1}, \tilde f^*)$ such that the following diagram commutes
-
-```tikz
-\usepackage{tikz-cd} 
-\begin{document} 
-\begin{tikzcd}[row sep=2cm, column sep=2cm]
-F \arrow[d, two heads,"\pi_M"'] \arrow[r, "\tilde f^*"] & E \arrow[d, two heads,"\pi_N"]\\
-M \arrow[r, "f^{-1}"'] & N
-\end{tikzcd}
-\end{document}
-```
+Let $\sf Vec_1$ be the category of finite-dimensional vector spaces and linear isomorphisms. We We define the functor ${\cal F}(V) = V^*$ for a vector space $V$, and $F(A) = (A^{-1})^*$ for an isomorphism $A$. Then $\cal F$ is a smooth covariant functor, and that every $M$, ${\cal F}(TM)$ and $T^* M$ are canonically smoothly isomorphic vector bundles. 
 
 # Tensor Bundles
 
-Let $\pi: E \to M$ be a smooth vector bundle over a smooth manifold $M$ of rank $r$. We can construct the 
-
-Suppose that $E$ is a smooth vector bundle over a smooth manifold $M$, and $V\subseteq M$ is an open set with the property that for each $p\in M$, the intersection of $V$ with the fiber $E_p$ is convex and nonempty. By a 'section of $V$' we will mean a section of $E$ whose image lies in $V$. 
-- There exists a smooth global section of $V$.
-- Suppose $A\to V$ is a smooth section of $V$ defined on a closed subset $A\subseteq M$. There is a smooth global section $\widetilde \sigma$ of $V$ whose restriction to $A$ is equal to $\sigma$. If $V$ contains the image of the zero section of $E$, then $\widetilde \sigma$ can be chosen to be supported in any predetermined neighbourhood of $A$. 
+Let $\pi: E \to M$ be a smooth vector bundle over a smooth manifold $M$ of rank $r$. We can construct 

@@ -77,6 +77,8 @@ Just as for derivations that the composition of two derivations it is usually no
 **Cor:** Let $M$ be a smooth manifold. If  $(U, (x^i))$ be a chart on that manifold, then $$\left[\frac{\partial}{\partial x^i}, \frac{\partial}{\partial x^j}\right] = 0$$
 **Prop:** Let $M$ and $N$ be smooth manifolds. Given a vector fields $X\in {\frak X}(M)$ and $Y\in {\frak X}(N)$, we can define a vector field $X \oplus Y$ on $M\times N$ by  $$(X\oplus Y)_{(p,q)} := (X_p, Y_q), $$where we think of the right hand side as an element of $T_p M \oplus T_q N$, which is naturally identified with $T_{p,q} (M \times N)$. Then $X \oplus Y$ is smooth, and $[X_1 \oplus Y_1, X_2\oplus Y_2] = [X_1\oplus X_2] \oplus [Y_1\oplus Y_2]$. 
 
+**Prop:** Let $\sf Diff_1$ be the category of smooth manifolds and diffeomorphisms, and $\sf Vec_\Bbb R$ be the category of real vector spaces and linear maps. Let ${\frak X}: \sf Diff_1\to Vec_\Bbb R$ be the covariant given by $M \mapsto {\frak X}(M)$, and $F\mapsto F_*$, and ${\frak X\times X}: \sf Diff_1 \to Vec_\Bbb R$ be the covariant functor given by $M \mapsto \mathfrak X(M)\times \mathfrak X(M)$, $F\mapsto F_* \times F_*$. The Lie bracket is a natural transformation from $\mathfrak X\times \mathfrak X$ to $\mathfrak X$. 
+
 # Related Vector Fields
 
 **Def:** Suppose $F: M\to N$ is smooth and $X$ is a vector field on $M$, and suppose there happens to be a vector field $Y$ on $N$ with the property that for each $p\in M$ $dF_p (X_p) = Y_{F(p)}$. In this case, we say that the vector fields $X$ and $Y$ are $F$*-related*, 

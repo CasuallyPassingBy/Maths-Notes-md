@@ -3,7 +3,8 @@ tags:
   - VectorAnalysis
 ---
 Subjects: [[Vector Analysis]] 
-Links: [[Line Integral over a Vector Field]], [[Connected Sets in Rn]]
+Links: [[Line Integral over a Vector Field]], [[Connected Sets in Rn]], [[Potential Energy and Conservative Forces in Classical Mechanics]]
+
 **********Def:********** Let $F:U \subseteq\Bbb R^n \to \Bbb R^n$ a continuous function on $U$, an open and connected set. $F$ is called a _************conservative field or gradient on U************_ if there’s a function $\varphi :U\to \Bbb R$ such that ************************** ^ddeab3
 
 $$ F(x) = \nabla \varphi(x) \qquad \text{for all $x \in U$} $$

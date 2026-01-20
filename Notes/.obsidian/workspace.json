@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9f0a788a19e00e7c",
+        "id": "af4b7f929d25c161",
         "type": "tabs",
         "children": [
           {
-            "id": "aacf6d10e6ff1e54",
+            "id": "7830cc9213c40b72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Covector Fields on Smooth Manifolds.md",
+                "file": "Riemannian Metrics on Smooth Manifolds.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Covector Fields on Smooth Manifolds"
-            }
-          },
-          {
-            "id": "c50d99dc9a08d908",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Local and Global Sections of Vector Bundles.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Local and Global Sections of Vector Bundles"
+              "title": "Riemannian Metrics on Smooth Manifolds"
             }
           }
         ]
@@ -176,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Local and Global Sections of Vector Bundles.md",
+                "file": "The Tensor Bundles.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -186,7 +171,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Local and Global Sections of Vector Bundles"
+              "title": "Backlinks for The Tensor Bundles"
             }
           }
         ],
@@ -210,34 +195,34 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "aacf6d10e6ff1e54",
+  "active": "7830cc9213c40b72",
   "lastOpenFiles": [
-    "Local and Global Sections of Vector Bundles.md",
-    "Vector Bundles on Smooth Manifolds.md",
-    "The Cotangent Bundle.md",
-    "Dual Vector Spaces.md",
-    "The Tangent Bundle.md",
-    "Covector Fields on Smooth Manifolds.md",
-    "Differential Geometry.md",
-    "Fibre Bundles on Smooth Manifolds.md",
-    "Bundle Homomorphisms for Vector Bundles.md",
-    "Vector Subbundles on Smooth Manifolds.md",
-    "Transversailty Theorems for Smooth Manifolds.md",
+    "The Riemannian Distance Function.md",
     "Untitled.md",
-    "Homotopy Equivalence.md",
-    "Riccati Differential Equations.md",
-    "Smooth Partitions of Unity for Manifolds.md",
-    "Vector Fields on Smooth Manifolds.md",
-    "Tangent Vectors in Rn.md",
-    "Solution of Linear and Quasilinear First Order PDEs using Vector Flows.md",
-    "Integral Curves, Flows and Flowouts on Smooth Manifolds.md",
-    "Flows and Flowouts on Manifold with Boundary.md",
+    "Riemannian Metrics on Smooth Manifolds.md",
+    "The Whitney Approximation Theorem.md",
+    "Vector Bundles on Smooth Manifolds.md",
+    "Local and Global Sections of Vector Bundles.md",
+    "Vector Subbundles on Smooth Manifolds.md",
+    "The Tangent-Cotangent Bundle Isomorphism.md",
+    "Psuedo-Riemannian Metrics on Smooth Manifolds.md",
+    "Bilinear Forms.md",
+    "Differential Geometry.md",
+    "The Tensor Bundles.md",
+    "Tensor Product of Linear Functions.md",
     "Lie Derivative.md",
-    "Time-Dependent Vector Fields and Flows.md",
-    "Smooth Maps on and Between Submanifolds.md",
-    "The Whitney Embedding Theorem.md",
-    "Smooth Submanifold of Manifolds with a Boundary.md",
+    "Lie Algebras.md",
+    "Tensor Algebra.md",
+    "Vector Fields on Smooth Manifolds.md",
+    "Covector Fields on Smooth Manifolds.md",
+    "Tangent Spaces and Vector Fields on Submanifolds.md",
     "Embedded Smooth Submanifolds.md",
+    "Clifford Algebra.md",
+    "Correlations, Musical Isomorphisms.md",
+    "Vectors and Covectors.md",
+    "Bundle Homomorphisms for Vector Bundles.md",
+    "The Tangent Bundle.md",
+    "The Cotangent Bundle.md",
     "Pasted image 20251214203248.png",
     "Pasted image 20251214203014.png",
     "Pasted image 20251214200137.png",

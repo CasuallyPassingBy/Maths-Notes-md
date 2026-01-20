@@ -11,7 +11,14 @@ Links: [[The Tangent Bundle]], [[Dual Vector Spaces]], [[Vector Bundles on Smoot
 
 **The Cotangent Bundle as a Vector Bundle:** Let $M$ be a smooth $n$-manifold with or without boundary. With this standard projection map and the natural vector space structure on each fibre, the cotangent bundle $T^*M$ has a unique topology and smooth structure making it into a smooth rank-$n$ vector bundle over $M$ for which all coordinate covector fields are smooth local sections.
 
-If $(x^i)$ are smooth coordinates on an open subset $U\subseteq M$, we have that the map from $\pi^{-1}[U]$ to $\Bbb R^{2n}$ given by $$\xi_i dx^i|_p \mapsto (x^1(p),\dots, x^n(p),\xi_1,\dots, \xi_n) $$is a smooth coordinate chart for $T^*M$. We called $(x^i, dx^i)$ the *natural coorinates for $T^*M$* associated with $(x^i)$. 
+If $(x^i)$ are smooth coordinates on an open subset $U\subseteq M$, we have that the map from $\pi^{-1}[U]$ to $\Bbb R^{2n}$ given by $$\xi_i dx^i|_p \mapsto (x^1(p),\dots, x^n(p),\xi_1,\dots, \xi_n) $$is a smooth coordinate chart for $T^*M$. We called $(x^i, dx^i)$ the *natural coordinates for $T^*M$* associated with $(x^i)$. 
+
+**Prop:** For any smooth manifold $M$, then $T^*M$ is a trivial vector bundle iff $TM$ is trivial.
+
+**Prop:** Suppose $F: M \to N$ is a diffeomorphism, and let $dF^*: T^* N\to T^*M$ be the map whose restriction to each cotangent space $T_q^*N$ is equal to $dF_{F^{-1}(q)}^*$, then $dF^*$ is a smooth bundle homomorphism.
+
+**Prop:** Let $\sf Diff_1$ be the category whose objects are smooth manifolds, but whose only morphisms are diffeomorphism; and let $\sf VB$ be the category whose objects are smooth vector bundles and whose morphisms are smooth vector bundle homomorphisms. Then, the assignment $M \mapsto T^*M$, $F\mapsto dF^*$ defined a contravariant functor from $\sf Diff_1$ to $\sf VB$ called the *cotangent functor.*
+
 
 # Exterior Powers
 

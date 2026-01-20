@@ -13,9 +13,9 @@ Links: [[Sets of Measure Zero in Smooth Manifolds and Sard's Theorem]], [[The Wh
 
 If we let $(M, g)$ be a [[Riemannian Metrics on Smooth Manifolds|Riemannian manifold]], we can extend this theorems to work for vector fields.
 
-**Def:** If $\delta: M \to \Bbb R$ is a positive continuous function, we say that two vector fields $X, Y: M \to TM$, in the Riemannian manifold $(M, g)$, if $\|X_p-Y_p\|_g < \delta(p)$ for all $p\in M.$
+**Def:** If $\delta: M \to \Bbb R$ is a positive continuous function, we say that two vector fields $X, Y: M \to TM$, in the Riemannian manifold $(M, g)$, if $|X_p-Y_p|_g < \delta(p)$ for all $p\in M.$
 
-**Th:** Let $(M, g)$ be a Riemannian manifold and let $X: M \to TM$ be a continuous vector field. Given any positive continuous function $\delta: M \to \Bbb R$, there exists a smooth vector field $Y: M \to TM$ such that is $\delta$-close to $X$. If $X$ is smooth on a closed subset $A\subseteq M$, then $Y$ can be chosen to be equal to $F$ on $A$. 
+**Th:** Let $(M, g)$ be a Riemannian manifold and let $X: M \to TM$ be a continuous vector field. Given any positive continuous function $\delta: M \to \Bbb R$, there exists a smooth vector field $Y: M \to TM$ such that is $\delta$-close to $X$. If $X$ is smooth on a closed subset $A\subseteq M$, then $Y$ can be chosen to be equal to $X$ on $A$. 
 
 **Cor:** Let $M$ be a smooth manifold. 
 - If there exists a global non-vanishing vector field on $M$, then there exists a global *smooth* non-vanishing vector field. 

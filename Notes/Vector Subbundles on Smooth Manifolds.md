@@ -26,4 +26,9 @@ Links: [[Vector Bundles on Smooth Manifolds]], [[Embedded Smooth Submanifolds]],
 
 **Prop:** Suppose $S$ is a properly embedded codimension-$k$ submanifold of $\Bbb R^n$. The following are equivalent.
 - There exists a smooth defining function for $S$ on some neighbourhood $U$ of $S$ in $\Bbb R^n$, that is, a smooth function $\Phi:U \to\Bbb R^k$ such that $S$ is a regular level set of $\Phi$.
-- The normal bundle $NS$ is a trivial vector bundle. 
+- The normal bundle $NS$ is a trivial vector bundle.
+
+**The Normal Bundle to a Riemannian Submanifold:** Let $(M, g)$ be a Riemannian $n$-manifold with or without boundary. For any immersed $k$-dimensional submanifold $S\subseteq M$ with or without boundary, the normal bundle $NS$ is a smooth rank-$(n-k)$ subbundle of $TM|_S$. For each $p\in S$, there is a smooth frame for $NS$ on a neighbourhood of $p$ that is orthonormal with respect to $g$. 
+
+**Def:** If $S\subseteq M$ is a Riemannian submanifold, we define the *normal bundle* to $S$ as $$NS := \coprod_{p\in S} N_p S. $$
+**Prop:** Suppose $(M, g)$ is an Riemannian manifold and $S\subseteq M$ an immersed $k$-dimensional manifold. The ambient tangent bundle $TM|_S$ is isomorphic to the Whitney sum $TS\oplus NS,$ where $NS \to S$ is the normal bundle.  

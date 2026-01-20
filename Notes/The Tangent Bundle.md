@@ -70,3 +70,5 @@ By putting the differentials of $F$ at all pionts of $M$, we obtained a globally
 - $d(G\circ F) = dG \circ dF$. 
 - $d(\text{id}_M) = \text{id}_{TM}$.
 - If $F$ is a diffeomorphism, then $dF: TM \to TN$ is also a diffeomorphism, and smooth vector bundle isomorphism, and $(dF)^{-1} = d(F^{-1}).$
+
+**Prop:** Let $\sf VB$ denote the category whose objects are smooth vector bundles and whose morphisms are smooth bundle homomorphisms, and let $\sf Diff$ denote the category whose objects are smooth manifolds whose morphisms are smooth maps. The assignment $M \mapsto TM$ and $F\mapsto dF$ defines a covariant functor from $\sf Diff$ to $\sf VB$, called the *tangent functor*. 

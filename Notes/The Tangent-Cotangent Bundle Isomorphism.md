@@ -7,7 +7,7 @@ Links: [[Riemannian Metrics on Smooth Manifolds]], [[Correlations, Musical Isomo
 
 An inner product determines a canonical isomorphism between a vector space and its dual, by [[Orthogonal Bases#Riesz Representation Theorem|Riesz' Representation Theorem]]. Given a Riemannian metric $g$ on a manifold $M$, we define $\widetilde g: TM \to T^*M$ as follows. For each $p\in M$ and each $X_p\in T_pM$, we let $$\widetilde g(X_p)(Y_p) := g_p(X_p, Y_p)$$for all $Y_p\in T_pM$. 
 
-Since $\widetilde g(X)(Y)$ is linear over $\mathcal C^\infty(M)$ as a function of $Y$, we know that $\widetilde g(X)$ is a smooth covector field; and because $\widetilde g(X)$ is linear $\mathcal C^\infty(M)$ as a function of $X$, this define $\widetilde g$ as a smooth bundle map. We are going to use the same symbol to refer to the bundle map $\widetilde g:TM \to T^*M$ and the linear map on section $\widetilde g: \mathcal T(M) \to \mathcal T^*(M)$. 
+Since $\widetilde g(X)(Y)$ is linear over $\mathcal C^\infty(M)$ as a function of $Y$, we know that $\widetilde g(X)$ is a smooth covector field; and because $\widetilde g(X)$ is linear $\mathcal C^\infty(M)$ as a function of $X$, this define $\widetilde g$ as a smooth bundle map. We are going to use the same symbol to refer to the bundle map $\widetilde g:TM \to T^*M$ and the linear map on section $\widetilde g: \mathfrak X(M) \to \mathfrak X^*(M)$. 
 
 We see that $\widetilde g$ is injective at each point, because $\widetilde g(X_p) = 0$, implies that $\widetilde g(X_p)(X_p) = \langle X_p,X_p\rangle_p$, which implies that $X_p = 0$. Thus we see that $\widetilde g$ is bijective, so it is a bundle isomorphism.
 
@@ -15,7 +15,7 @@ If $X$ and $Y$ are smooth vector fields, in smooth coordinates we can write$$\wi
 In other words, $\widetilde g$ is the bundle map whose matrix with respect to the coordinate frames for $TM$ and $T^*M$ is the same as the matrix of $g$ itself. It is costumary to denote the components of the covector field $\widetilde g(X)$ by $$ X_j = g_{ij}X^j,$$so that $$\widetilde g(X) = X_j dy^j.$$
 Because of this, we say that $\widetilde g(X)$ is obtained from $X$ by *lowering an index*. The notation $X^\flat$ is frequently used for $\widetilde g(X)$, because $\flat$ typically is used in musical notation to indicate that a tone is lowered. 
 
-The matrix of the inverse $\widetilde g^{-1}: T_p*M \to T_p M$ is thus the inverse of $(g_{ij})$. We let $(g^{ij})$ denote the matrix-valued function whose value at $p\in M$ is the inverse of the matrix $(g_{ij}(p))$, so that$$g^{ij}g_{jk} = g_{jk}g^{ij} = \delta^i_k. $$
+The matrix of the inverse $\widetilde g^{-1}: T_p^*M \to T_p M$ is thus the inverse of $(g_{ij})$. We let $(g^{ij})$ denote the matrix-valued function whose value at $p\in M$ is the inverse of the matrix $(g_{ij}(p))$, so that$$g^{ij}g_{jk} = g_{jk}g^{ij} = \delta^i_k. $$
 Thus for a covector field $\omega\in \mathcal T^*M$, $\widetilde g^{-1}(\omega)$ has the coordinate representation$$\widetilde g^{-1}(\omega) = \omega^i \frac{\partial }{\partial x^i} = g^{ij}\omega_j \frac{\partial }{\partial x^i}.$$We use the notation $\omega^\sharp$ for $\widetilde g^{-1}(\omega)$, and say that $\omega^\sharp$ is obtained from $\omega$ is *raising an index*. 
 
 This is just the vector bundle versions of the [[Correlations, Musical Isomorphisms|musical isomorphisms]].
@@ -30,7 +30,7 @@ In smooth coordinates, $\text{grad }f$ has the expression $$\text{grad }f = g^{i
 
 The way we actually build the global frame is fairly simple. since $d\Phi_p: T_p M \to T_{\Phi(p)} \Bbb R^k$ is surjective then we know that the the differential of the component functions $d\Phi_1,\dots, d\Phi_k$ actually behaves as the basis for the annihilator of $T_pS$, and thus $\text{grad }\Phi_1|_p,\dots, \text{grad }\Phi_k|_p$ is a linearly independent that spans $N_pS$. We can turn this into a global frame $p\mapsto (\text{grad }\Phi_1|_p,\dots, \text{grad }\Phi_k|_p)$, which is what we wanted. 
 
-The proof highlights that [[Embedded Smooth Submanifolds#^f347ae|Lagrange multipliers for manifolds]] is equivalent to a regular level set of a smooth manifold has a trivial normal bundle. 
+The proof highlights that [[Tangent Spaces and Vector Fields on Submanifolds#^4260d8|Lagrange multipliers for manifolds]] is equivalent to a regular level set of a smooth manifold has a trivial normal bundle. 
 
 **Prop:** For any smooth manifold $TM$ and $T^*M$ are isomorphic as vector bundles. There doesn't exists a rule that assigns every smooth manifold to a bundle isomorphism $\lambda_M: TM \to T^*M$ in such a way that every diffeomorphism $F: M \to N$, the following diagram commute: 
 ```tikz

@@ -32,6 +32,12 @@ The proof of this fact uses [[Transversailty Theorems for Smooth Manifolds|trans
 
 **Extension Lemma for Sections of Restricted Bundles:** Suppose $M$ is a smooth manifold, $E\to M$ is a smooth vector bundle, and $S\subseteq M$ is an embedded submanifold with or without boundary. For any smooth section $\sigma$ of the restricted bundle $E|_S \to S$, there exists a neighbourhood $U$ of $S$ in $M$ and a smooth section $\tilde\sigma$ of $E|_U$ such that $\sigma = \tilde\sigma|_S$ If $E$ has a positive rank, then every smooth section of $E|_S$ extends smoothly to all of $M$ iff $S$ si properly embedded.
 
+Suppose $E$ is a smooth vector bundle over a manifold $M$ with or without boyndary, and $V\subseteq E$ is an open subset with the property that for each $p\in M$, the intersection of $V$ with the fiber $E_p$ is convex and nonempty. By a 'section of $V$', we mean a (local or global) section of $E$ whose image lies in $V$. 
+
+**Prop:** There exists a smooth global section of $V$.
+
+**Prop:** Suppose $\sigma:A \to V$ is a smooth section of $V$ defined on a closed subset $A\subseteq M$. There exists a smooth global section $\tilde\sigma$ of $V$ whose restriction to $A$ is equal to $\sigma$. If $V$ contained the image of the zero section of $E$, then $\tilde\sigma$ can be chosen to be supported in any predetermined neighbourhood of $A$
+
 ## Local and Global Frames
 
 **Def:** Let $E \to M$ be a vector bundle. If $U \subseteq M$ is an open set, a $k$-tuple of local sections $(\sigma_1, \dots, \sigma_k)$ of $E$ over $U$ are said to be *linearly independent* if their values $(\sigma_1(p), \dots, \sigma_k(p))$ are linearly independent elements of $E_p$ for each $p\in U$. Similarly, they are said to *span* $E$ if their values span $E_p$ for each $p \in U$. 

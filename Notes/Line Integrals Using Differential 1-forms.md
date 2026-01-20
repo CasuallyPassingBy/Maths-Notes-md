@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Line Integral over a Vector Field]], [[Covector Fields on Smooth Manifolds]], [[Conservative Fields]], [[The Cotangent Bundle]], [[Local and Global Sections of Vector Bundles]], [[Riemann Integral in R]]
+Links: [[Line Integral over a Vector Field]], [[Covector Fields on Smooth Manifolds]], [[Conservative Fields]], [[The Cotangent Bundle]], [[Local and Global Sections of Vector Bundles]], [[Riemann Integral in R]], [[Vector Fields on Smooth Manifolds]]
 
 Another important application of covector fields is to make coordinate independent sense of the notion of a [[Line Integral over a Vector Field|line integral]].
 
@@ -22,7 +22,7 @@ If $\gamma:[a,b] \to M$ is a smooth curve segment and $\omega$ is a smooth covec
 - It $\gamma$ is a constant map, then $\int_\gamma\omega = 0.$ 
 - If $a<c<b$, then$$\int_\gamma\omega = \int_{\gamma_1}\omega+ \int_{\gamma_2}\omega, $$where $\gamma_1 := \gamma|_{[a,c]}$ and $\gamma_2 := \gamma|_{[c,b]}$. 
 
-**Prop:** Suppose $F: M \to N$ is any smooth map, $\omega\in \Omega^1(N)$, and $\gamma$ is a piecewise smooth curve segment in $M$, then $$\int_\gamma F^*\omega = \int_{F \circ \gamma}\omega. $$
+**Prop:** Suppose $F: M \to N$ is any smooth map, $\omega\in {\frak X}^*(N)$, and $\gamma$ is a piecewise smooth curve segment in $M$, then $$\int_\gamma F^*\omega = \int_{F \circ \gamma}\omega. $$
 
 **Prop:** If $\gamma: [a,b] \to M$ is a piecewise smooth curve segment, the line integral of $\omega$ over $\gamma$ can also be expressed as the ordinary integral $$\int_\gamma \omega = \int_a^b \omega_{\gamma(t)}(\gamma'(t))\, dt. $$
 **Parameter Independence of Line Integrals:** Suppose $M$ is a smooth manifold, $\omega$ is a smooth covector field on $M$, and $\gamma$ is a piecewise smooth curve in $M$. For any reparametrization $\widetilde \gamma$ of $\gamma$ we have $$\int_{\widetilde\gamma} \omega = \begin{dcases}
@@ -37,24 +37,27 @@ We say that a smooth covector field $\omega$ on a manifold $M$ is *exact*, or an
 
 We say that $\gamma$ is a *closed* curve segment if $\gamma(a) = \gamma(b)$. 
 
-We say that a smooth covector field $\omega$ is *conservative* if the line integral of $\omega$ over any closed piecewise smooth curve segment is zero. 
+We say that a smooth covector field $\omega$ is *[[Potential Energy and Conservative Forces in Classical Mechanics|conservative]]* if the line integral of $\omega$ over any closed piecewise smooth curve segment is zero. 
 
-**Lemma:** A smooth covector field $\omega$ is conservative iff the line integral of $\omega$ depends only on the endpoints of the curve, i.e., $\omega_\gamma\omega = \int_{\widetilde\gamma}\omega$ whenever $\gamma$ and $\widetilde \gamma$ are piecewise smooth curve segments with the same starting and ending points. 
+**Lemma:** A smooth covector field $\omega$ is conservative iff the line integral of $\omega$ depends only on the endpoints of the curve, i.e., $\int_\gamma\omega = \int_{\widetilde\gamma}\omega$ whenever $\gamma$ and $\widetilde \gamma$ are piecewise smooth curve segments with the same starting and ending points. 
 
 **Prop:** If $M$ is a compact manifold,, then every exact covector field on $M$ vanishes at least at two points. 
 
-**Th:** A smooth covector field is conservative iff it is exact. 
+**Th:** Let $M$ be a smooth manifold with or without boundary. A smooth covector field on $M$ is conservative iff it is exact. 
 
 Let $f$ be any potential function for $\omega$, and let $(U, (x^i))$ be any smooth chart of $M$. Because $f$ is smooth, it satisfies the following identity on $U$:$$\frac{\partial^2 f}{\partial x^i\partial x^j} = \frac{\partial^2 f}{\partial x^j\partial x^i}.$$Writing $\omega = \omega_i \,dx^i$ in coordinates, the fact that $\omega = df$, is equivalent to $\omega_i = \frac{\partial f}{\partial x_i}$. Substituting this, we get that$$\frac{\partial \omega_i}{\partial x^j} = \frac{\partial \omega_j}{\partial x^i}.$$We say that a smooth covector field $\omega$ is *closed* if its components in every smooth chart satisfy the equality above. 
 
 **Lemma:** Every exact covector field is closed. 
 
-**Prop:** Let $\omega$ be a smooth covector field. If $\omega$ satisfy $\frac{\partial \omega_i}{\partial x^j} = \frac{\partial \omega_j}{\partial x^i}.$ in some smooth chart around every point, then it is closed. 
+**Prop:** Let $\omega$ be a smooth covector field on a smooth manifold $M$ with or without boundary. The following are equivalent:
+- $\omega$ is closed.
+- $\omega$ satisfies $\frac{\partial \omega_i}{\partial x^j} = \frac{\partial \omega_j}{\partial x^i}$ in some smooth chart around every point. 
+- For any open subset $U\subseteq M$ and smooth vector fields $X, Y\in {\frak X}(U)$, $$X(\omega(Y)) - Y(\omega(X)) = \omega[X, Y]. $$
 
-**Cor:** If $G: M \to N$ is a local diffeomorphism, then the pullback $G^* : \Omega^1(N) \to \Omega^1(M)$ takes closed covector fields to closed covector fields, and exact one to exact ones. 
+**Cor:** If $G: M \to N$ is a local diffeomorphism, then the pullback $G^* : {\frak X}^*(N) \to {\frak X}^*(M)$ takes closed covector fields to closed covector fields, and exact one to exact ones. 
 
 The question of whether a particular closed covector field is exact is a global one, depending on the shape of the domain in question. This observation is the starting point for *[[de Rham Cohomology]]*, which expresses a deep relationship between smooth structures and topology. 
 
-**Prop:** If $U$ is a star-shaped open subset of $\Bbb R^n$, then every closed covector field on $U$ is exact. 
+**Prop:** If $U$ is a star-shaped open subset of $\Bbb R^n$ or $\Bbb H^n$, then every closed covector field on $U$ is exact. 
 
-**Local Exactness of Closed Covector Fieds:** Let $\omega$ be a closed covector field on a smooth manifold $M$. Then every $p\in M$ has a neighbourhood on which $\omega$ is exact. 
+**Local Exactness of Closed Covector Fields:** Let $\omega$ be a closed covector field on a smooth manifold $M$ with or without boundary. Then every $p\in M$ has a neighbourhood on which $\omega$ is exact. 

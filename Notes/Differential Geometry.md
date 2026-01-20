@@ -74,4 +74,6 @@ This notes uses Einstein's summation convention.
 - [[Orientations and Covectors]]
 
 - [[Riemannian Metrics on Smooth Manifolds]]
+	- [[The Riemannian Distance Function]]
 	- [[The Tangent-Cotangent Bundle Isomorphism]]
+	- [[Psuedo-Riemannian Metrics on Smooth Manifolds]]
