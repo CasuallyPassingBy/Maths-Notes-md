@@ -44,9 +44,15 @@ T^*M  & T^*N\arrow[l, "F^*"']
 ```
 This actually telling us that there is no *natural* or *canonical* vector bundle isomorphism between them, and we can use [[Natural Transformations]] to be a little bit more precise in that statement. 
 
-Let $\sf SM$ and $\sf VB$ denote the categories of smooth manifolds and smooth vector bundles, respectively, and let $\mathcal {T, T^*} ; \sf SM \to VB$ be the functors defined by
+Let $\sf Diff_1$ and $\sf VB$ denote the categories of smooth manifolds with diffeomorphisms and smooth vector bundles with smooth bundle homomorphisms, respectively, and let $\mathcal {T, T^*} : \sf SM \to VB$ be the functors defined by
 - $\mathcal T(M) = TM$ and $\mathcal T(f) = f_*$.
 - $\mathcal T^*(M) = T^*$ and $\mathcal T^*(f) = f^*$.
 Then there is no natural transformation from $\cal T$ to $\cal T^*$. 
 
 This is a a consequence that given the [[Dual Vector Spaces|dual functor]] from $\mathsf {Vect}_K$ to itself there's no natural transformation to $\text{id}_{\mathsf{Vect}_K}$. 
+
+**Prop:** Let $M$ be a compact smooth $n$-manifold, and suppose $f$ is a smooth real-valued function on $M$ that has only finitely many critical points $\{p_1,\dots, p_k\}$, with corresponding critical values $\{c_1,\dots, c_k\}$ labelled so that $c_1 \le \dots \le c_k$. For any $a< b\in \Bbb R$, we define $M_a := f^{-1}\{a\}$, $M_{[a,b]} := f^{-1}[[a, b]]$, and $M_{(a, b)} := f^{-1}[(a,b)]$. If $a$ and $b$ are regular values, then $M_a$ and $M_b$ are embedded hypersurfaces in $M$, $M_{(a,b)}$ is an open submanifold, and $M_{[a,b]}$ is a regular domain. 
+- If we choose a Riemannian metric on $M$, let $X$ be the vector field $X := \text{grad }f/|\text{grad }f|^2_g$ on $M\setminus\{p_1,\dots, p_k\}$, and let $\theta$ be the flow of $X$. Then $f(\theta_t(p)) = f(p)+t$ whenever $\theta_t(p)$ is defined. 
+- Let $[a,b] \subseteq \Bbb R$ be a compact interval containing no critical values of $f$. Then $\theta$ restricts to a diffeomorphism from $[0, b-a]\times M_a$ to $M_{[a, b]}$. 
+
+**Cor:** Suppose $M$ is a smooth manifold that admits a proper smooth function $f: M \to \Bbb R$ with no critical points. Then $M$ is diffeomorphic to $N \times \Bbb R$ for some compact smooth manifold $N$. 

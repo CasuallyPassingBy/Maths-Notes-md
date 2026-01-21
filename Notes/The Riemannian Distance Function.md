@@ -33,3 +33,12 @@ If $\gamma:[a,b] \to M$ is a piecewise smooth curve segment, the *length of $\ga
 As a consequence of this theorem, all of the terminology of metric spaces can be carried over to connected Riemannian manifolds. Thus, a connected Riemannain manifold $(M, g)$ is said to be *complete*, and $g$ is said to be a *complete Riemannian metric*, if $(M, d_g)$ is a [[Complete Metric Spaces|complete metric space]]; and a subset $B\subseteq M$ is said to be *bounded* if there exists a constant $K$ such that $d_g(x, y)\le K$ for all $x, y\in B$. 
 
 **Cor:** Every smooth manifold with or without boundary is metrizable, 
+
+**Prop:** Suppose $g = f(t) dt^2$ is a Riemannian metric on $\Bbb R$. Then $g$ is complete iff both of the following improper integrals diverge: $$\int_0^\infty \sqrt{f(t)}\, dt, \qquad \int_{-\infty}^0\sqrt{f(t)}\, dt.$$
+**Prop:** Let $M$ be a connected noncompact smooth manifold and let $g$ be a Riemannian metric on $M$. There exists a positive function $h\in\mathcal C^\infty(M)$ such that the Riemannian metric $\widetilde g = hg$ is complete. 
+
+**Prop:** Suppose $(M, g)$ is connected Riemannian manifold $S\subseteq M$ is a connected embedded submanifold, and $\widetilde g$ is the induce Riemannian metric on $S$.
+- $d_{\widetilde g}(p,q) \ge d_g(p, q)$ for $p, q\in S$.
+- If $(M, g)$ is complete and $S$ is properly [[Embedded Smooth Submanifolds|embedded]], then $(S, \widetilde g)$ is complete.
+
+**Cor:** Every connected smooth manifold admits a complete Riemannian metric.

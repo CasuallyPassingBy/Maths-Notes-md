@@ -75,5 +75,5 @@ This notes uses Einstein's summation convention.
 
 - [[Riemannian Metrics on Smooth Manifolds]]
 	- [[The Riemannian Distance Function]]
-	- [[The Tangent-Cotangent Bundle Isomorphism]]
+	- [[The Tangent-Cotangent Bundle Isomorphism for Riemannian Manifolds]]
 	- [[Psuedo-Riemannian Metrics on Smooth Manifolds]]

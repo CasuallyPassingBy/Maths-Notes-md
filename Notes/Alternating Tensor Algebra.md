@@ -21,7 +21,7 @@ Remember that $V^{\otimes k}$ is the space of homogeneous tensors of degree $k$.
 **Def:** For $p\in \Bbb N$, we can define a left action and a right action from $S_p$ on ${\textstyle \bigwedge}_p(V)$. 
 Let $\sigma\in S_p$, and $A_{[p]} \in {\textstyle \bigwedge}_p(V)$:
 - $\sigma(v_1 \otimes \dots \otimes v_p) = \text{sgn}(\sigma) v_{\sigma^{-1}(1)} \otimes \dots v_{\sigma^{-1}(p)}.$
-- $v_1 \otimes \dots \otimes v_p)^\sigma = \text{sgn}(\sigma) v_{\sigma(1)} \otimes \dots \otimes v_{\sigma(n)}.$ 
+- $(v_1 \otimes \dots \otimes v_p)^\sigma = \text{sgn}(\sigma) v_{\sigma(1)} \otimes \dots \otimes v_{\sigma(n)}.$ 
 
 **Obs:** We get another characterisation of ${\textstyle \bigwedge}_p(V)$, it is a subspace of $V^{\otimes p}$ such that for all $A_{[p]}$ either $\sigma(A_{[p]}) = A_{[p]}$ or $(A_{[p]})^\sigma = A_{[p]}$ for all $\sigma \in S_p$.
 

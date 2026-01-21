@@ -54,7 +54,16 @@ A Riemannian $n$-manifold $(M, g)$ is said to be a *flat Riemannian manifold*, a
 
 **Lemma:** Suppose $U, V\subseteq \Bbb R^n$ are connected open sets, $\varphi, \psi: U \to V$ are Riemannian isometries, and for some $p\in U$ they satisfy $\varphi(p) = \psi(p)$ and $d\varphi_p = d\psi_p$, then $\varphi = \psi$.
 
-**Prop:** 
+**Prop:** The set of maps from $\Bbb R^n$ to itself given by the action of $\text E(n)$, the [[Euclidean Group]], on $\Bbb R^n$ is the full group of Riemannian isometries of $(\Bbb R^n, \bar g)$. 
+
+**Def:** Let $(M, g)$ be a Riemannian manifold. A smooth vector field $V$ on $M$ is called a *Killing vector field for $g$*, named after the late nineteenth/early twentieth-century German mathematician Wilhelm Killing, if the flow of $V$ acts by isometries of $g$.
+
+**Obs:** We see that a smooth vector field is a Killing vector field iff $\mathcal L_v g = 0$. 
+
+**Prop:** The set of all Killing vectors on $M$ constitutes a Lie subalgebra of ${\frak X}(M)$. 
+
+**Prop:** Let $(M, g)$ be a Riemannian manifold, and $V$ is a smooth vector field on $M$. $V$ is a Killing vector field iff it satisfies the following equation in each smooth local coordinate chart$$V^k \frac{\partial g_{ij}}{\partial x^k} + g_{jk} \frac{\partial V^k}{\partial x^i} + g_{ik} \frac{\partial V^k}{\partial x^j} = 0$$
+**Prop:** Let $K\subseteq \mathfrak X(\Bbb R^n)$ denote the Lie algebra of Killing vector fields with respect to the Euclidean metric. Then we see that a vector field is a Killing vector field iff $$\frac{\partial V^i}{\partial x^ j}+ \frac{\partial V^j}{\partial x^i} = 0.$$This means that the following vector fields form a basis for $K$: $$\frac{\partial}{\partial x^i}, \quad 1 \le i \le n; \qquad x^i\frac{\partial}{\partial x^j}- x^j\frac{\partial}{\partial x^i}, \quad 1\le i < j \le n. $$These vector fields represent translation, and rotations. If we consider $K_0\subseteq K$ denote the subspace consisting of fields that vanish at the origin. Then the map $$V \mapsto \left(\frac{\partial V^i}{\partial x^j}(0)\right) $$is an injective linear map from $K_0$ to $\mathfrak{so}(n)$. 
 
 # Submanifolds
 
