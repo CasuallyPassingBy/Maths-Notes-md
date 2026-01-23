@@ -93,12 +93,10 @@ Suppose $(M, g)$ is an $n$-dimensional Riemannian manifold with or without bound
 **The Normal Bundle to a Riemannian Submanifold:** Let $(M, g)$ be a Riemannian $n$-manifold with or without boundary. For any immersed $k$-dimensional submanifold $S\subseteq M$ with or without boundary, the normal bundle $NS$ is a smooth rank-$(n-k)$ subbundle of $TM|_S$. For each $p\in S$, there is a smooth frame for $NS$ on a neighbourhood of $p$ that is orthonormal with respect to $g$. 
 
 **Def:** If $S\subseteq M$ is a Riemannian submanifold, we define the *normal bundle* to $S$ as $$NS := \coprod_{p\in S} N_p S. $$
-**Obs:** Let $(M, g)$ be a Riemannian manifold. If $S\subseteq M$ is an immersed $k$-dimensional submanifold, then $TS \oplus NS = TM|_S$. 
-
 **Existence of Adapated Orthonormal Frames:** Let $S\subseteq M$ be an embedded Riemannian submanifold of a Riemannian manifold $(M, g)$. For each $p\in  S$, there is a smooth adapted orthonormal frame on a neighbourhood $p$ in $M$. 
 
 **Prop:** Suppose $(M, g)$ is an Riemannian manifold and $S\subseteq M$ an immersed $k$-dimensional manifold. The ambient tangent bundle $TM|_S$ is isomorphic to the Whitney sum $TS\oplus NS,$ where $NS \to S$ is the normal bundle.  
 
-**Def:** Suppose $\pi: N \to M$ is a smooth covering map. A *covering transformation*, or *[[Automorphism Group of a Covering|deck transformation]]* is a smooth map $\varphi: N \to N$ such that $\pi \circ \varphi = \pi$. If $g$ is Riemannian metric on $M$, then $h := \pi^* g$ is a Riemannian metric on $N$ that is invariant under all covering transformations. In this case $h$ is called a *covering metric*, and $\pi$ is called *Riemannian covering*. 
+**Def:** Suppose $\pi: N \to M$ is a smooth covering map. A *covering transformation*, or *[[Automorphism Group of a Covering Map|deck transformation]]* is a smooth map $\varphi: N \to N$ such that $\pi \circ \varphi = \pi$. If $g$ is Riemannian metric on $M$, then $h := \pi^* g$ is a Riemannian metric on $N$ that is invariant under all covering transformations. In this case $h$ is called a *covering metric*, and $\pi$ is called *Riemannian covering*. 
 
 **Prop:** If $(M, g)$ is a Riemannian $n$-manifold with or without boundary, let $UM \subseteq TM$ be the subset $\{(x, v) \in TM \mid |v|_g = 1\}$, called the *unit tangent bundle of $M$*. Then  $UM$ is a smooth [[Fibre Bundles on Smooth Manifolds|fibre bundle]] over $M$ with model fibre $\Bbb S^{n-1}$. 

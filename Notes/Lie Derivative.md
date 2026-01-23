@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Vector Fields on Smooth Manifolds]], [[Integral Curves, Flows and Flowouts on Smooth Manifolds]], [[Flows and Flowouts on Manifold with Boundary]], [[The Tensor Bundles]]
+Links: [[Vector Fields on Smooth Manifolds]], [[Integral Curves, Flows and Flowouts on Smooth Manifolds]], [[Flows and Flowouts on Manifold with Boundary]], [[The Tensor Bundles]], [[Differential Forms on Smooth Manifolds]], [[The Exterior Derivative on Smooth Manifolds]]
 
 **Def:** Suppose $M$ is a smooth manifold, $V$ is a smooth vector field on $M$, and $\theta$ is the flow of $V$. For any a smooth vector field $W$ on $M$, define a rough vector field on $M$, denoted by $\mathcal L_VW$ and called the *Lie derivative of $W$ with respect to $V$,* by $$
 \begin{align*}
@@ -79,3 +79,7 @@ Given a smooth covariant tensor field $A$ on $M$, we define the *Lie derivative 
 We can extend the definition of the Lie derivative to manifolds with boundary, where the flow of $V$ might not be defined.
 
 We can extend the Lie derivative to also mixed tensors, but we must be a little careful. Let $M$ be a smooth manifold with or without boundary, and $V\in {\frak X}(M)$. If $\partial M \neq \varnothing$ assume that $V$ is tangent to $\partial M$. Let $\theta$ be the flow of $V$. For any tensor field $A\in \Gamma(T^{(k, l) }TM)$ we can define its *Lie derivative* as $$(\mathcal L_V A)_p := \left.\frac{d}{dt}\right\rvert_{t = 0} ((\theta_t)^* A)_p·$$
+## Differential Forms
+
+**Prop:** Suppose $M$ is a smooth manifold, $V\in {\frak X}(M)$, and $\omega, \eta\in \Omega^*(M)$. Then $$\mathcal L_V(\omega\wedge \eta) = (\mathcal L_V \omega) \wedge \eta + \omega\wedge (\mathcal L_V \eta). $$
+**Cartan's Magic Formula:** On a smooth manifold, for any vector field $V$ and any smooth differential form $\omega$,  $$\mathcal L_V \omega = V \;\lrcorner\; (d\omega) + d(V\; \lrcorner\; \omega). $$**The Lie Derivative Commutes with $d$:** If $V$ is a smooth vector field and $\omega$ is a differential form, then $$\mathcal L_V(d\omega) = d(\mathcal L_V\omega) = d(V \; \lrcorner \; d\omega). $$

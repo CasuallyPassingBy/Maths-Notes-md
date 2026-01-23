@@ -4,7 +4,7 @@ tags:
   - GroupTheory
 ---
 Subjects: [[Differential Geometry]], [[Group Theory]]
-Links: [[Group Actions]], [[Continuous Actions of Groups]], [[Lie Groups]], [[Representations of Groups]], [[General Linear Group]], [[Lie Algebras]], [[Lie Algebra of a Lie Group]], [[Continuous Actions of Groups#Proper Actions|Proper Actions]], [[Riemannian Metrics on Smooth Manifolds]]
+Links: [[Group Actions]], [[Continuous Actions of Groups]], [[Lie Groups]], [[Representations of Groups]], [[General Linear Group]], [[Lie Algebras]], [[Lie Algebra of a Lie Group]], [[Continuous Actions of Groups#Proper Actions|Proper Actions]], [[Riemannian Metrics on Smooth Manifolds]], [[Orientations of Smooth Manifolds]]
 
 **Def:** A smooth manifold $M$ endowed with an smooth action from a Lie group $G$ is called a *smooth $G$-space*. 
 
@@ -19,6 +19,7 @@ Suppose $G$ is a Lie group, $M$ is a smooth manifold, and $\theta: G\times M \to
 
 **Properties of the Orbit Map:** Suppose $\theta$ is a smooth left action of a Lie group $G$ on A smooth manifold $M$. For each $p\in M$, the orbit map $\theta^{(p)}: G\to M$ is smooth and has constant rank, so the stabiliser group $G_p$ is a properly embedded Lie subgroup of $G$. If $G_p = \{e\}$, then $\theta^{(p)}$ is an injective smooth immersion, so that $G \cdot p$ is an immersed submanifold of $M$. 
 
+**Def:** If $G$ is a Lie group smoothly on a smooth manifold $E$, we say that the action is an *orientation presering action* if for each $g\in G$, the diffeomorphism $x\mapsto g\cdot x$ is orientation preserving. 
 
 ## Semidirect Products
 

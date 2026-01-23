@@ -4,71 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "af4b7f929d25c161",
+        "id": "dc087221b6470697",
         "type": "tabs",
         "children": [
           {
-            "id": "7830cc9213c40b72",
+            "id": "cf05069613263a64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Riemannian Metrics on Smooth Manifolds.md",
+                "file": "Orientations and Covering Maps for Smooth Manifolds.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Riemannian Metrics on Smooth Manifolds"
+              "title": "Orientations and Covering Maps for Smooth Manifolds"
             }
           },
           {
-            "id": "d4c94ce791008ff3",
+            "id": "46b9f329b46b0c5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Riemannian Distance Function.md",
+                "file": "Riemannian Volume Form on Smooth Manifolds.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Riemannian Distance Function"
-            }
-          },
-          {
-            "id": "032a152c6de672e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Tangent-Cotangent Bundle Isomorphism for Riemannian Manifolds.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "The Tangent-Cotangent Bundle Isomorphism for Riemannian Manifolds"
-            }
-          },
-          {
-            "id": "7d6213c54b8f27cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Exterior Algebra of Multicovectors.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Exterior Algebra of Multicovectors"
+              "title": "Riemannian Volume Form on Smooth Manifolds"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Tensor Bundles.md",
+                "file": "Riemannian Volume Form on Smooth Manifolds.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -217,7 +187,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for The Tensor Bundles"
+              "title": "Backlinks for Riemannian Volume Form on Smooth Manifolds"
             }
           }
         ],
@@ -241,34 +211,34 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "7d6213c54b8f27cc",
+  "active": "46b9f329b46b0c5d",
   "lastOpenFiles": [
-    "Tensor Product of Linear Functions.md",
-    "Riemannian Metrics on Smooth Manifolds.md",
-    "Exterior Algebra of Multicovectors.md",
-    "Alternating Tensor Algebra.md",
-    "The Tangent-Cotangent Bundle Isomorphism for Riemannian Manifolds.md",
-    "The Riemannian Distance Function.md",
+    "Orientations and Covering Maps for Smooth Manifolds.md",
     "Lie Derivative.md",
-    "Vector Fields on Smooth Manifolds.md",
-    "Lie Group Actions.md",
-    "Lie Algebra of a Lie Group.md",
-    "Smooth Partitions of Unity for Manifolds.md",
-    "Orthogonal Group.md",
-    "Complete Metric Spaces.md",
-    "Embedded Smooth Submanifolds.md",
-    "Untitled.md",
     "Integral Curves, Flows and Flowouts on Smooth Manifolds.md",
-    "The Whitney Approximation Theorem.md",
-    "Vector Bundles on Smooth Manifolds.md",
-    "Local and Global Sections of Vector Bundles.md",
-    "Vector Subbundles on Smooth Manifolds.md",
-    "Psuedo-Riemannian Metrics on Smooth Manifolds.md",
-    "Bilinear Forms.md",
+    "The Tangent Bundle.md",
+    "Symplectic Forms on Smooth Manifolds.md",
+    "Orientations of Smooth Manifolds.md",
+    "Automorphism Group of a Covering Map.md",
+    "Smooth Covering Maps.md",
+    "Real Projective Space.md",
+    "Covering Maps.md",
+    "Lie Group Actions.md",
     "Differential Geometry.md",
-    "The Tensor Bundles.md",
-    "Lie Algebras.md",
-    "Tensor Algebra.md",
+    "The Whitney Embedding Theorem.md",
+    "Linear Algebra.md",
+    "Vector Subbundles on Smooth Manifolds.md",
+    "The Tangent-Cotangent Bundle Isomorphism for Riemannian Manifolds.md",
+    "Riemannian Metrics on Smooth Manifolds.md",
+    "Riemannian Volume Form on Smooth Manifolds.md",
+    "Vector Fields on Smooth Manifolds.md",
+    "Orientations of Vector Spaces.md",
+    "Differential Forms on Smooth Manifolds.md",
+    "The Exterior Derivative on Smooth Manifolds.md",
+    "Exterior Algebra of Multicovectors.md",
+    "Fundamental Group of the Circle.md",
+    "The Exterior Derivative on Rn.md",
+    "The Cotangent Bundle.md",
     "Pasted image 20251214203248.png",
     "Pasted image 20251214203014.png",
     "Pasted image 20251214200137.png",

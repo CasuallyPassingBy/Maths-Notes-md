@@ -37,3 +37,9 @@ The two-element group $\{\pm 1\}$ acts on $\Bbb S^n$ by multiplication. This act
 # Real Projective Varieties
 
 On the projective space $\Bbb {RP}^n$ a homogeneous polynomial $F(x_0, \dots,x_n)$ of degree $k$ is not a function, since its value at a point $[a_0, \dots, a_n]$ is not unique. However, the zero set in $\Bbb {RP}^n$ of a homogeneous polynomial $F(x_0, \dots, x_n)$ is well defined, since $F(a_0, \dots, a_n) = 0$ if $$F(ta_0, \dots, ta_n) = t^kF(a_0, \dots, a_n) = 0, \qquad \forall t\in \Bbb R ^\times$$The zero set of finitely many homogeneous polynomials in % is called a *real projective variety*. A projective variety defined by a single homogeneous polynomial of degree $k$ is called a *hypersurface* of degree $k$. 
+
+# Covering Spaces
+
+Since $p: \Bbb S^n\to \Bbb{RP}^n$ be the smooth covering map by restricting the canonical projection $\Bbb R^{n+1}\setminus \{0\}\to \Bbb{RP}^n$ to the sphere. We see that $\Bbb S^n$ to be the universal covering space for $\Bbb{RP}^n$ for $n \ge 2$. In the case of $n=1$, we know that $\Bbb S^1\cong \Bbb{RP}^1$, which has a universal covering space of $\Bbb R$. 
+
+For $n \ge 1$, consider the smooth covering map $q: \Bbb S^n\to \Bbb {RP}^n$. The only nontrivial covering automorphism of $q$ is the antipodal map $\alpha(x) :=-x$. We see that $\alpha$ is orientation-preserving iff $n$ is odd, so it follows that $\Bbb {RP}^n$ is orientable iff $n$ is odd. 

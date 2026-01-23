@@ -99,10 +99,10 @@ In this situation we denote the unique vector field that is $F$-related to $X$ b
 
 **Prop:** Let $M$ be a smooth manifold with or without boundary, and $N$ be a smooth manifold, and let $f:M \to N$ be a smooth map. If $F: M \to M \times N$ by $F(x) := (x, f(x)),$ then for every $X\in {\frak X}(M)$, there is a smooth vector fields on $M\times N$ that is $F$-related to $X$
 
-**Def:** Suppose $F: M \to N$ is a smooth submersion, where $M$ and $N$ are positive dimensional smooth manifolds. Given $X\in {\frak X}(M)$ and $Y\in {\frak}(N)$, we say that $X$ is the *lift of $Y$* if $X$ and $Y$ are $F$-related. A vector field $V\in {\frak X}(M)$ is said to be *vertical*, if $V$ is everywhere tangent to the fibres of $F$, or equivalently, if $V$ is $F$-related to the zero vector field on $N$. 
+**Def:** Suppose $F: M \to N$ is a smooth submersion, where $M$ and $N$ are positive dimensional smooth manifolds. Given $X\in {\frak X}(M)$ and $Y\in {\frak}(N)$, we say that $X$ is the *lift of $Y$* if $X$ and $Y$ are $F$-related. A vector field $V\in {\frak X}(M)$ is said to be *vertical*, if $V$ is everywhere tangent to the fibres of $F$, or equivalently, if $V$ is $F$-related to the zero vector field on $N$.  ^3c9489
 
 **Properties of Lifts:** Let $F: M \to N$ be a smooth submersion between manifold, where $M$ and $N$ are positive dimensional manifolds.
 - If $\dim M = \dim N$, then every smooth vector field on $N$ has a unique lift. 
 - If $\dim M \neq \dim N$, then $\dim M >\dim N$, then every smooth vector field on $N$ has a lift, but that is not unique.
 - If $F$ is surjective, and given $X\in {\frak X}(M)$ is a lift of a smooth vector field on $N$ iff $dF_p (X_p) = dF_q(X_q)$ whenever $F(p)= F(q)$. Additionally, then $X$ is a lift of a *unique* smooth vector field.
-- If $F$ is a surjective and with connected fibres, then a vector field $X\in {\frak X}(M)$ is a lift of a smooth vector field on $N$ iff $[V, X]$ is vertical whenever $V\in {\frak X}(M)$ is vertical. 
+- If $F$ is a surjective and with connected fibres, then a vector field $X\in {\frak X}(M)$ is a lift of a smooth vector field on $N$ iff $[V, X]$ is vertical whenever $V\in {\frak X}(M)$ is vertical.  ^77f3c3

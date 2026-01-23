@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Differential forms on Smooth Manifolds]], [[Symplectic Vector Spaces]], [[The Exterior Derivative on Manifolds]], [[Embedded Smooth Submanifolds]], 
+Links: [[Differential Forms on Smooth Manifolds]], [[Symplectic Vector Spaces]], [[The Exterior Derivative on Smooth Manifolds]], [[Embedded Smooth Submanifolds]], 
 
 **Def:** A *symplectic form* on a smooth manifold $M$ is a smooth, closed, nondegenerate $2$-form. In other words, a smooth $2$-form is symplectic iff it is closed and $\omega_p$ is a symplectic tensor. A smooth manifold endowed with a specific choice a symplectic form is called a *symplectic manifold*. A choice of symplectic form is also sometimes called a *symplectic structure* on $M$. 
 

@@ -16,6 +16,7 @@ Mainly used to study Friedberg's Linear algebra and Axler's Linear Algebra Done 
 	- [[Product of Vector Spaces]]
 	- [[Dual Vector Spaces]]
 		- [[Vectors and Covectors]]
+		- [[The Dual Functor and the Multicovector Functor]]
 - [[Space of Linear Transformations]]
 	- [[Null Space and Range]]
 		- [[Quotient of Vector Spaces]]
@@ -65,3 +66,4 @@ Mainly used to study Friedberg's Linear algebra and Axler's Linear Algebra Done 
 			- [[Exterior Algebra of Multicovectors]]
 			- [[Alternating Tensor Algebra]]
 	- [[Tensor Product of Linear Functions]]
+- [[Orientations of Vector Spaces]]
