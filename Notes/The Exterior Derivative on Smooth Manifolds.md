@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Differential Forms on Smooth Manifolds]], [[Derivations]], [[Stokes Theorem and Curl in R3]], [[Green's Theorem and Curl in R2]], [[Divergence Theorem in R2]], [[Gauss's Theorem and Divergence in R3]]
+Links: [[Differential Forms on Smooth Manifolds]], [[Derivations]], [[Stokes's Theorem and Curl in R3]], [[Green's Theorem and Curl in R2]], [[Divergence Theorem in R2]], [[Gauss's Theorem and Divergence in R3]]
 
 We first define the exterior derivative for Euclidean space.
 
@@ -48,7 +48,7 @@ The relationships among all these operators are summarised in the following diag
 
 \mathcal C^\infty(\mathbb R^3) \arrow[r, "\text{grad}"] \arrow[d, "\text{Id}"] & 
 {\frak X}(\mathbb R^3) \arrow[r, "\text{curl}"] \arrow[d, "\flat"] & 
-{\frak X}(\mathbb R^3 \arrow[r, "\text{div}"]\arrow[d, "\beta"]  & 
+{\frak X}(\mathbb R^3) \arrow[r, "\text{div}"]\arrow[d, "\beta"]  & 
 \mathcal C^\infty(\mathbb R^3)\arrow[d, "*"]  \\
 
 \Omega^0(\mathbb R^3) \arrow[r, "d"']& \Omega^1(\mathbb R^3)\arrow[r, "d"'] & \Omega^2(\mathbb R^3) \arrow[r, "d"']& \Omega^3(\mathbb R^3) 

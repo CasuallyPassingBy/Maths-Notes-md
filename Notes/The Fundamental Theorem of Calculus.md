@@ -3,7 +3,7 @@ tags:
   - RealAnalysis
 ---
 Subjects: [[Real Analysis]]
-Links: [[Riemann Integral in R]], [[Riemann Integrals in R Properties]], [[The Derivative on R]]
+Links: [[Riemann Integral in R]], [[Riemann Integral in R]], [[The Derivative on R]]
 ## Part 1:
 
 If $f:[a,b]\to\mathbb{R},$ and $f\in\mathcal{R}_{[a,b]}$. Let $F:[a,b]\to\mathbb{R}$ be differentiable and for any $x\in [a,b]$, then $F'(x) = f(x)$, then:

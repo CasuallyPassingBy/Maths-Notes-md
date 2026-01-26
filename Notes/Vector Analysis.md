@@ -57,7 +57,6 @@ Vector
 	- [[Rectifiable Surfaces]]
 	- [[Scalar Surface Integral]]
 	- [[Vector Surface Integral]]
-		- [[Stokes Theorem and Curl in R3]]
+		- [[Stokes's Theorem and Curl in R3]]
 		- [[Solenoidal Fields]]
 		- [[Gauss's Theorem and Divergence in R3]]
-		- [[Green's Identities]]

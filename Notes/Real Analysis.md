@@ -25,7 +25,7 @@ Real Analysis is the study of real numbers and real-valued functions. I am mainl
 	- [[L'Hôpital's Rules]]
 - [[Riemann Integral in R]]
 	- [[Riemann and Darboux Sums in R]]
-	- [[Riemann Integrals in R Properties]]
+	- [[Riemann Integral in R]]
 	- [[The Fundamental Theorem of Calculus]]
 	- [[Differentiation under the integral sign]]
 	- [[Sets of Measure Zero in Rn]]

@@ -64,6 +64,7 @@ Mainly used to study Friedberg's Linear algebra and Axler's Linear Algebra Done 
 	- [[Tensor Algebra]]
 		- [[Exterior Algebra]]
 			- [[Exterior Algebra of Multicovectors]]
+				- [[Densities on Vector Spaces]]
 			- [[Alternating Tensor Algebra]]
 	- [[Tensor Product of Linear Functions]]
 - [[Orientations of Vector Spaces]]

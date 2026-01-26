@@ -54,7 +54,14 @@ If $M$ is a zero-dimensional, this definitions just means that an orientation of
 
 **Prop:** Let $\theta$ be a [[Integral Curves, Flows and Flowouts on Smooth Manifolds|smooth flow]] on an oriented smooth manifold with or without boundary. For each $t\in \Bbb R$, $\theta_t$ is orientation-preserving wherever it is defined. 
 
+**Lemma:** Every orientation-reversing diffeomorphism of $\Bbb R$ has a fixed point.
 
+**Classification of Smooth $1$-Manifolds:** Let $M$ be a connected smooth manifold. 
+- $M$ admits a nowhere vanishing vector field on $M$, thus it is $M$ orientable.
+- Now let $M$ be arbitrary, its universal covering manifold is diffeomorphic to $\Bbb R$.
+The smooth structures on both $\Bbb R$ and $\Bbb S^1$ are unique up to diffeomorphism.
+
+**Classification of Smooth $1$-Manifolds with Boundary:** Every connected smooth $1$-manifold with nonempty boundary is diffeomorphic to either $[0, 1]$ or $[0,\infty)$. 
 
 ## Orientations on Hypersurfaces
 
@@ -75,3 +82,8 @@ When $n = 1$, since $S$ is a $0$-manifold, this proposition should be interprete
 **Example:** We can determine the induced orientation on $\partial \Bbb H^n$ when $\Bbb H^n$ itself has the standard coordinate orientation from $\Bbb R^n$. We can identify $\partial \Bbb H^n$ with $\Bbb R^n$ under the correspondence $(x^1,\dots, x^{n-1}, 0) \leftrightarrow(x^1,\dots, x^{n-1})$. Since the vector field $-\partial/\partial x^n$ is outward pointing along $\partial \Bbb H^n$, the standard coordinate frame for $\Bbb R^n$ is positively oriented of $\partial \Bbb H^n$ iff $[-\partial/\partial x^n, \partial/\partial x^1,\dots, \partial/\partial x^{n-1}]$ is the standard orientation for $\Bbb R^n$. This orientation satisfies $$[-\partial/\partial x^n, \partial/\partial x^1,\dots, \partial/\partial x^{n-1}] = (-1)^n[\partial/\partial x^1,\dots, \partial/\partial x^{n-1}, \partial/\partial x^n]  .$$Thus the induced orientation on $\partial \Bbb H^n$ is equal to the standard orientation of $\Bbb R^{n-1}$ when $n$ is even, but it is *opposite* to the standard orientation when $n$ is odd. In particular, the standard coordinates on $\partial\Bbb H^n \cong \Bbb R^n$ are positively oriented iff $n$ is even. 
 
 **Lemma:** Let $M$ be an oriented smooth $n$-manifold with boundary. Suppose $U \subseteq\Bbb R^{n-1}$ is open, $a, b$ are real numbers with $a< b$, and $F:(a,b] \times U \to M$ is a smooth embedding that restricts to an embedding of $\{b\}\times U$ into $\partial M$. Then the parametrization $f: U \to \partial M$ given by $f(x) := F(b, x)$ is orientation preserving iff $F$ is orientation preserving for $M$. 
+
+**Example:** Spherical coordinates yield a smooth local paramterization of $\Bbb S^2$ as follows. Let $U$ be the open rectangle $(0, \pi) \times (0, 2\pi) \subseteq\Bbb R^2$, and let $X: U\to\Bbb R^3$ be the following map $$X(\varphi, \theta) := (\sin\varphi \cos\theta, \sin\varphi\sin\theta,\cos\varphi).  $$
+We can check whether $X$ preserves or reverses orientatio by using the fact that is is the restriction of the $3$-dimensional spherical coordinate parametrization $F: (0, 1] \times U \to \bar{\Bbb B}^3$ defined by$$F(\rho,\varphi,\theta) =(\rho\sin \varphi\cos\theta,\rho\sin \varphi\sin\theta, \rho\cos\varphi).   $$Because $F(1,\varphi,\theta) = X(\varphi, \theta)$, then the lemma above can be used. By direct computation, the Jacobian determinant of $F$ is $\rho^2\sin\varphi$, which is positive on $(0, 1]\times U$. Then, $X$ is orientation-preserving.
+
+This actually explains why physicists have the notations they have. It is still like dumb that they don't simply change the place of the variables, and rather change what the variables represent.

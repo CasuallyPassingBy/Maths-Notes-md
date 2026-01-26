@@ -118,7 +118,7 @@ which is only $0$ at $\rho = 0$ and $\phi = 0, \pi$, which is a set of $0$ Jorda
 
 ### Sphere in $n$ dimensions
 
-It is a generalization of spherical coordinates with one radial coordinate $r$, and $n-1$ angular coordinates $\phi_1, \dots, \phi_{n-1}$, where $\phi_1, \dots, \phi_{n-2}$ over $[0, \pi]$ and $\phi_{n-1}$ over $[0, 2\pi]$ with the following transformation ${g: \Bbb R^{\ge 0} \times [0, \pi]^{n-2}\times [0, 2\pi] \to\Bbb R^n}$ with ${g(r, \phi_1, \dots, \phi_{n-1}) = (x_1,\dots, x_n)}$ and it is called the canonical $n-1$ spherical transformation,
+It is a generalisation of spherical coordinates with one radial coordinate $r$, and $n-1$ angular coordinates $\phi_1, \dots, \phi_{n-1}$, where $\phi_1, \dots, \phi_{n-2}$ over $[0, \pi]$ and $\phi_{n-1}$ over $[0, 2\pi]$ with the following transformation ${g: \Bbb R^{\ge 0} \times [0, \pi]^{n-2}\times [0, 2\pi] \to\Bbb R^n}$ with ${g(r, \phi_1, \dots, \phi_{n-1}) = (x_1,\dots, x_n)}$ and it is called the canonical $n-1$ spherical transformation,
 
 $$ \begin{align*} x_1 &= r \cos(\phi_1) \\ x_2 &= r \sin(\phi_1) \cos(\phi_2) \\ x_3 &= r \sin(\phi_1) \sin(\phi_2) \cos(\phi_3) \\ &\,\,\,\vdots\\  
 x_{n-1} &= r \sin(\phi_1) \cdots \sin(\phi_{n-2}) \cos(\phi_{n-1}) \\  
@@ -131,7 +131,6 @@ While talking about the Jacobian we can get several results, first of we can def
 $$ |J_n| =| J_{n-1}|r\prod_{k = 1}^{n-2} \sin(\phi_k) $$
 
 using induction, we can get the close form of
-
 $$ |J_n| = r^{n-1}\prod_{k = 1}^{n-2}\sin^{n-1-k}(\phi_k) $$
 
 Since $J_n =0$ only happens when $r = 0$, or when $\phi_k = 0, \pi$ for $k < n-1$. It is a set of $0$ Jordan measure thus we can use the Change of Variable Theorem.

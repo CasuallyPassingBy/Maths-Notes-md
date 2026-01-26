@@ -4,41 +4,116 @@
     "type": "split",
     "children": [
       {
-        "id": "dc087221b6470697",
+        "id": "1768a1769f8ac967",
         "type": "tabs",
         "children": [
           {
-            "id": "cf05069613263a64",
+            "id": "4573d007c0b02e66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Orientations and Covering Maps for Smooth Manifolds.md",
+                "file": "Densities on Smooth Manifolds.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Orientations and Covering Maps for Smooth Manifolds"
+              "title": "Densities on Smooth Manifolds"
             }
           },
           {
-            "id": "46b9f329b46b0c5d",
+            "id": "601e8ab52b79a0f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Riemannian Volume Form on Smooth Manifolds.md",
+                "file": "Integration of Differential Forms on Smooth Manifolds.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Riemannian Volume Form on Smooth Manifolds"
+              "title": "Integration of Differential Forms on Smooth Manifolds"
+            }
+          },
+          {
+            "id": "247ba8a47ce5db03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Orientations of Smooth Manifolds.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Orientations of Smooth Manifolds"
+            }
+          },
+          {
+            "id": "91663c5e34a41ffa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Change of Variable Theorem in Rn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Change of Variable Theorem in Rn"
+            }
+          },
+          {
+            "id": "924016eeaf1e59c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stokes's Theorem and Smooth Manifolds with Corners.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Stokes's Theorem and Smooth Manifolds with Corners"
+            }
+          },
+          {
+            "id": "738d53f24e05532b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Integral Curves, Flows and Flowouts on Smooth Manifolds.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Integral Curves, Flows and Flowouts on Smooth Manifolds"
+            }
+          },
+          {
+            "id": "d77b21f3004a0838",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Whitney Approximation Theorem.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "The Whitney Approximation Theorem"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -133,12 +208,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OIST/OIST Application.md",
+                "file": "Change of Variable Theorem in Rn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from OIST Application"
+              "title": "Outgoing links from Change of Variable Theorem in Rn"
             }
           },
           {
@@ -177,7 +252,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Riemannian Volume Form on Smooth Manifolds.md",
+                "file": "Change of Variable Theorem in Rn.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -187,11 +262,10 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Riemannian Volume Form on Smooth Manifolds"
+              "title": "Backlinks for Change of Variable Theorem in Rn"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -211,34 +285,34 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "46b9f329b46b0c5d",
+  "active": "91663c5e34a41ffa",
   "lastOpenFiles": [
-    "Orientations and Covering Maps for Smooth Manifolds.md",
-    "Lie Derivative.md",
-    "Integral Curves, Flows and Flowouts on Smooth Manifolds.md",
-    "The Tangent Bundle.md",
-    "Symplectic Forms on Smooth Manifolds.md",
     "Orientations of Smooth Manifolds.md",
-    "Automorphism Group of a Covering Map.md",
-    "Smooth Covering Maps.md",
-    "Real Projective Space.md",
-    "Covering Maps.md",
-    "Lie Group Actions.md",
-    "Differential Geometry.md",
-    "The Whitney Embedding Theorem.md",
-    "Linear Algebra.md",
-    "Vector Subbundles on Smooth Manifolds.md",
-    "The Tangent-Cotangent Bundle Isomorphism for Riemannian Manifolds.md",
-    "Riemannian Metrics on Smooth Manifolds.md",
-    "Riemannian Volume Form on Smooth Manifolds.md",
-    "Vector Fields on Smooth Manifolds.md",
-    "Orientations of Vector Spaces.md",
+    "Stokes's Theorem and Smooth Manifolds with Corners.md",
+    "Integration of Differential Forms on Smooth Manifolds.md",
+    "Integral Curves, Flows and Flowouts on Smooth Manifolds.md",
+    "Flows and Flowouts on Manifold with Boundary.md",
+    "The Whitney Approximation Theorem.md",
+    "Topological Subspaces.md",
+    "Vector Analysis.md",
+    "Green's Identities.md",
+    "Homotopy Equivalence.md",
+    "Densities on Smooth Manifolds.md",
+    "Densities on Vector Spaces.md",
+    "Beta Function.md",
+    "Content.md",
     "Differential Forms on Smooth Manifolds.md",
+    "Linear Algebra.md",
+    "Differential Geometry.md",
+    "Integration on Riemannian Manifolds.md",
     "The Exterior Derivative on Smooth Manifolds.md",
-    "Exterior Algebra of Multicovectors.md",
-    "Fundamental Group of the Circle.md",
-    "The Exterior Derivative on Rn.md",
-    "The Cotangent Bundle.md",
+    "Differentiation under the integral sign.md",
+    "Fubini's Theorem.md",
+    "Conservative Fields.md",
+    "Line Integrals of Differential 1-forms.md",
+    "Line Integral over a Vector Field.md",
+    "Smooth Submanifold of Manifolds with a Boundary.md",
+    "Smooth Manifolds.md",
     "Pasted image 20251214203248.png",
     "Pasted image 20251214203014.png",
     "Pasted image 20251214200137.png",

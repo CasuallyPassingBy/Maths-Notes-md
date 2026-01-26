@@ -18,6 +18,12 @@ Links: [[Orientations of Smooth Manifolds]], [[Riemannian Metrics on Smooth Mani
 Let $(M, g)$ be an oriented Riemannian manifold with or without boundary, and suppose $S\subseteq M$ is an immersed hypersurface with or without boundary. Any unit normal vector along $S$ is nowhere tangent to $S$, so it determines an orientation of $S$.
 
 **Prop:** Let $(M, g)$ be an oriented Riemannian manifold with or without boundary, let $S\subseteq M$ be an immersed hyperspace with or without boundary, and let $\widetilde g$ denote the induced metric on $S$. Suppose $N$ is a smooth unit normal vector field along $S$. With respect to the orientation of $S$ determined by $N$, the volume form of $(S, \widetilde g)$ is given by $$\omega_{\widetilde g} = \iota_S^*(N \; \lrcorner \; \omega _g). $$
+**Prop:** Suppose $M$ is an oriented Riemannian manifold with or without boundary, and $S\subseteq M$ is an oriented smooth hypersurface with or without boundary. There is a unique unit normal vector space along $S$ that determines the orientation of $S$. 
+
 **Prop:** Suppose $M$ is a Riemannian manifold with boundary. There is a unique smooth outward-pointing unit vector field $N$ along $\partial M$. 
 
 **Cor:** If $(M, g)$ is an oriented Riemannian manifold with boundary, and $\widetilde g$ is the induced Riemannian metric on $\partial M$, then the volume form of $\widetilde g$ is $$\omega_{\widetilde g} = \iota_S^*(N \; \lrcorner \; \omega _g), $$where $N$ is the outward unit normal vector field along $\partial M$. 
+
+**Prop:** Suppose $M$ is an orientable Riemannian manifold, and $S\subseteq M$ is an immersed or embedded submanifold with or without boundary.
+- If $S$ has trivial normal bundle, then $S$ is orientable.
+- If $S$ is an orientable hypersurface, then $S$ has trivial normal bundle. 

@@ -5,18 +5,14 @@ tags:
 Subjects: [[Vector Analysis]] 
 Links: [[Line Integral over a Vector Field]], [[Connected Sets in Rn]], [[Potential Energy and Conservative Forces in Classical Mechanics]]
 
-**********Def:********** Let $F:U \subseteq\Bbb R^n \to \Bbb R^n$ a continuous function on $U$, an open and connected set. $F$ is called a _************conservative field or gradient on U************_ if there’s a function $\varphi :U\to \Bbb R$ such that ************************** ^ddeab3
-
+**Def:** Let $F:U \subseteq\Bbb R^n \to \Bbb R^n$ a continuous function on $U$, an open and connected set. $F$ is called a *conservative field or gradient on $U$* if there’s a function $\varphi :U\to \Bbb R$ such that ************************** ^ddeab3
 $$ F(x) = \nabla \varphi(x) \qquad \text{for all $x \in U$} $$
 
 In this case we say that $\varphi$ is a _gradient or a potential_ for $F$.
 
 ********Th:******** Let $F =(F_k)_{k = 1}^n :U \to \Bbb R^n$ is continuous over a region (open and connected set) $U$. Then the following are equivalent: ^13cae7
 - $F$ is a conservative field on $U$
-- the line integral of $F$over any closed curve $\Gamma \subseteq U$ parametrized by a piecewise smooth and closed function $\gamma$, then
-    
-    $$ \oint_\Gamma F \cdot\, d\gamma = 0 $$
-    
+- the line integral of $F$over any closed curve $\Gamma \subseteq U$ parametrized by a piecewise smooth and closed function $\gamma$, then   $$ \oint_\Gamma F \cdot\, d\gamma = 0 $$
 - the line integral of $F$ over any curve $\Gamma \subseteq U$ parametrized by a piecewise smooth function $\gamma$ only depends of the extreme points of $\gamma$. In other words, if $\gamma:[a,b] \to\Bbb R^n$ and ${\delta:[c, d]\to \Bbb R^n}$ be piecewise smooth functions, parametrizing $\Gamma \subseteq U$ and $\Delta \subseteq U$ respectively, such that $\gamma(a) = \delta (c)$ and $\gamma(b) = \delta(d)$, then
     $$ \int_\Gamma F\cdot\, d\gamma = \int_\Delta F\cdot \, d\delta $$
 
@@ -46,13 +42,11 @@ for all $x \in U$ iff $F$ is a conservative field on $U$.
 
 Still lacks the theory of integration on continuous curves, to get this result. The proof is equivalent to the one to prove [[Homotopy in C#Smooth Deformation Theorem|Smooth Deformation Theorem]] of complex analysis.
 
-$(*)$Th: Let $F =(F_k)_{k = 1}^n :U \to \Bbb R^n$ be a $\cal C^1$ function on $U$. If $F$ is conservative field on $U$, with $U$ simply connected region.
-
+**Th:** Let $F =(F_k)_{k = 1}^n :U \to \Bbb R^n$ be a $\cal C^1$ function on $U$. If $F$ is conservative field on $U$, with $U$ simply connected region.
 $$ J_F(x) =(J_F (x))^\top $$
-
 for all $x \in U$, iff $F$ is a conservative field on $U$.
 
 From this result we can get a couple of corollaries
 - in $\Bbb R^2$ we get [[Green's Theorem and Curl in R2#^b541fe|conservative iff irrotational]] in a simply connected domain
-- in $\Bbb R^3$ we get [[Stokes Theorem and Curl in R3#^c0e398|conservative iff irrotational]] in a simply connected domain
+- in $\Bbb R^3$ we get [[Stokes's Theorem and Curl in R3#^c0e398|conservative iff irrotational]] in a simply connected domain
 

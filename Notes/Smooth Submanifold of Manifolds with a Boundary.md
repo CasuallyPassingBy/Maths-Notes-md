@@ -7,7 +7,9 @@ Links: [[Smooth Manifolds]], [[Embedded Smooth Submanifolds]], [[Immersed Smooth
 
 **Def:** If $M$ is a smooth manifold with or without boundary, a *smooth submanifold with boundary in $M$* is a subset $\subseteq M$ endowed with a topology and smooth structure making it into a smooth manifold with boundary such that the inclusion map is a smooth immersion. If the inclusion map is an embedding it is called an *embedded submanifold with boundary*; in the general case, it is an *immersed submanifold with boundary*. The terms *codimension* and *properly embedded* are defined just as in the submanifold case.
 
-One particular type of submanifold with  boundary is particularl important. If $M$ is a smooth manifold with or without boundary, a *regular domain in $M$* is a properly embedded codimension $0$-submanifold with boundary. 
+One particular type of submanifold with  boundary is particularly important. 
+
+**Def:** If $M$ is a smooth manifold with or without boundary, a *regular domain in $M$* is a properly embedded codimension $0$-submanifold with boundary. 
 
 **Prop:** Suppose $M$ is a smooth manifold without boundary and $D\subseteq M$ is a regular domain. The topological interior and boundary of $D$ are equal to its manifold interior and boundary, respectively. 
 

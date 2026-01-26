@@ -36,6 +36,22 @@ For each $r>0$, the image under $q$ of the rectangle $[0, 1] \times [-r, r]$ is 
 
 The orientation covering is sometimes called the *oriented double covering of $M$*.
 
+**Characteristic Property of the Orientation Covering:** Let $M$ be a connected nonorientable smooth manifold with or without boundary, and $\widehat\pi: \widehat M \to M$ be its orientation covering. If $X$ is any oriented smooth manifold with or without boundary, and $F: X \to M$ is any local diffeomorphism, then there exists a unique orientation-preserving local diffeomorphism $\widehat F: X \to\widehat M$ such that $\widehat \pi \circ \widehat F= F$: 
+```tikz
+\usepackage{tikz-cd}
+\usepackage{amsfonts, amsmath, amssymb}
+
+\begin{document}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
+     & \widehat M\arrow[d,"\widehat\pi"] \\
+     X \arrow[ur,dashed, "\widehat F"]\arrow[r,"F"'] & M.
+   \end{tikzcd}
+\end{document}
+```
+
+
 **Uniqueness of the Orientation Covering:** Let $M$ be a nonorientable connected smooth manifold with or without boundary, and let $\widehat\pi: \widehat M \to M$ be its orientation covering. If $\widetilde M$ is an oriented smooth manifold with or without boundary that admits a two-sheeted smooth covering map $\widetilde\pi: \widetilde M \to M$, then there exists a unique orientation-preserving diffeomorphism $\varphi: \widetilde M \to \widehat M$ such that $\widehat \pi \circ\varphi = \widetilde \pi$. 
 
 **Th:** Let $M$ be a connected smooth manifold with or without boundary, and suppose the [[Fundamental Group of a Topological Space|fundamental group]] of $M$ has no subgroup of index $2$. Then $M$ is orientable. In particular, if $M$ is simply connected then it is orientable. 
+
+**Prop:** Let $M$ be a nonorientable embedded hypersurface in $\Bbb R^n$, and let $NM$ its normal bundle with projection $\pi_{NM}:NM \to M$. The set $$W := \{(x, v) \mid NM \mid |v| = 1\} $$is an embedded submanifold of $NM$, and the restriction of $\pi_{NM}$ to $W$ is a smooth covering map isomorphic to the orientation of $M$. 
