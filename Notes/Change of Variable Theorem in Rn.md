@@ -127,7 +127,6 @@ x_n &= r \sin(\phi_1) \cdots \sin(\phi_{n-2}) \sin(\phi_{n-1}) .\end{align*} $$
 which is injective except when $\rho =0$, $\phi_k = 0, \pi$ for $k <n-1$, and $\phi_{n-1} = 0, 2\pi$. Since it a set of Jordan-measure $0$, we can still apply the theorem.
 
 While talking about the Jacobian we can get several results, first of we can define $J_n$ to be the sequence of Jacobian of the canonical $n-1$ spherical transformation, then by using Laplace expansion in the final column. We get the recurrence relation
-
 $$ |J_n| =| J_{n-1}|r\prod_{k = 1}^{n-2} \sin(\phi_k) $$
 
 using induction, we can get the close form of

@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[The Cotangent Bundle]], [[Covector Fields on Smooth Manifolds]], [[Local and Global Sections of Vector Bundles]], [[Exterior Algebra]], [[The Dual Functor and the Multicovector Functor]], [[The Tensor Bundles]], [[Derivations]]
+Links: [[The Cotangent Bundle]], [[Covector Fields on Smooth Manifolds]], [[Local and Global Sections of Vector Bundles]], [[Exterior Algebra of Vector Spaces]], [[The Dual Functor and the Multicovector Functor]], [[The Tensor Bundles]], [[Derivations]]
 
 **Def:** A section of ${\textstyle \bigwedge}^{ \!k} (T^* M)$ is called a *differential $k$-form*, or just a $k$-form; this is a continuous tensor field whose value at each point is an alternating tensor. The integer $k$ is called the *degree* of the form. We denote the space of Smooth $k$-forms by $$\Omega^k(M) := \Gamma\left({\textstyle \bigwedge}^{\! k}( T^* M)\right). $$
 The wedge product of two differential forms is defined pointwise: $(\omega\wedge \eta)_p := \omega_p\wedge \eta_p$. Thus, the wedge product of a $k$-form with an $l$-form is a $(k+l)$-form. If $f$ is a $0$-form and $\eta$ is a $k$-form, we interpret the wedge product $f\wedge \eta$ to mean the ordinary product $f\eta$. If we define $$\Omega^*(M) := \bigoplus_{k = 0}^n\Omega^k(M),$$then the wedge product turns $\Omega^*(M)$ into an associative, anticommutative graded algebra. 
@@ -35,3 +35,19 @@ An important operation to differential forms is the [[The Exterior Derivative on
 **Cartan's Lemma:** Let $M$ be a smooth $n$-manifold with or without boundary, and let $(\omega^1,\dots, \omega^k)$ be an ordered $k$-tuple of smooth $1$-forms on an open subset $U\subseteq M$ such that $(\omega^1|_p,\dots, \omega^k|_p)$ is linearly independent for each $p\in U$. Given smooth $1$-forms $\alpha^1,\dots, \alpha^k$ on $U$ such that $$\sum_{i = 1}^j \alpha^i \wedge \omega^i = 0,$$then each $\alpha^i$ can be written as a linear combination of $\omega^1,\dots, \omega^k$ with smooth coefficients. 
 
 **Prop:** For each nonnegative integer $k$, there is a contravariant functor $\Omega^k: \sf Diff \to Vec_\Bbb R$, which to each smooth manifold $M$ assigns the vector space $\Omega^k(M)$ and to each smooth $F$ the pullback $F^*$. We see that the exterior derivative is a natural transformation from $\Omega^k$ to $\Omega^{k+1}$.
+
+# On Riemannian Manifolds
+
+Let $(M, g)$ be an oriented Riemannian $n$-manifold. 
+
+For each $k = 1,\dotsm n$, $g$ determines a unique inner product on ${\textstyle\bigwedge}^{\!k} (T^*_pM)$, denoted by $\langle \cdot , \cdot \rangle_g$ just like the inner product $T_p M$ satisfying $$\langle\omega^1\wedge \dots \wedge \omega^k,\eta\wedge\dots \wedge\eta^k \rangle_k := \det(\langle(\omega^i)^\sharp, (\eta^j)^\sharp\rangle_g)  $$whenever $\omega^1,\dots,\omega^k, \eta^1,\dots, \eta^k$ are covectors at $k$. We are using [[The Tangent-Cotangent Bundle Isomorphism for Riemannian Manifolds]]. 
+
+We see that the Riemannian volume form $dV_g$ is the unique positively oriented $n$-form that has unit norm with respect this inner product.
+
+**Prop:** For each $k = 0,\dots, n$ there is a unique smooth bundle homomorphism $\star: {\textstyle\bigwedge}^{\!k} (T^*M) \to {\textstyle\bigwedge}^{\!n-k} (T^*M)$ satisfying $$\omega\wedge (\star\eta) =\langle \omega, \eta\rangle_g \; dV_g $$for all smooth $k$-forms $\omega$, $\eta$. 
+
+**Def:** The map from the above proposition is called the *Hodge star operator.*
+
+**Prop:** 
+- We see that $\star: {\textstyle\bigwedge}^{\!0} (T^*M) \to {\textstyle\bigwedge}^{\!n} (T^*M)$ is given by $\star f = f \; dV_g$.
+- We see that $\star \star \omega = (-1)^{k(n-k)}\omega$ if $\omega$ is a $k$-form. 

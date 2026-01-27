@@ -18,7 +18,18 @@ Because of these definitions, the Riemannian volume form is often denoted by $dV
 **Def:** Let $(M, g)$ be an oriented Riemannian $n$-manifold with or without boundary. Multiplication by the Riemannian volume form defines a smooth bundle isomorphism $*:\mathcal C^\infty(M) \to \Omega^n(M)$: $$*f := f\; dV_g.$$In addition, we define a smooth bundle isomorphism $\beta: {\frak X}(M) \to \Omega^{n-1}(M)$ as follows$$\beta (X) := X\; \lrcorner \; dV_g. $$
 **Lemma:** Let $(M, g)$ be an oriented Riemannian manifold with or without boundary. Suppose $S\subseteq M$ is an immersed hypersurface with the orientation determined by a unit normal vector field $N$, and $\widetilde g$ is the induced metric on $S$. If $X$ is any vector field along $S$, then $$\iota_S^*(\beta(X)) = \langle X, N\rangle_g \; dV_{\tilde g}. $$
 **Def:** The *divergence operator* $\text{div}: {\frak X}(M) \to \mathcal C^\infty (M)$ by $$\text{div }X := *^{-1}d(\beta(X)),  $$or equivalently, $$d(X\; \lrcorner\; dV_g) = (\text{div }X)\;dV_g.$$
+**Prop:** Let $(M,g )$ be a Riemannian manifold with or without boundary. In any smooth local coordinates $(x^i)$, then $$\text{div}\left(X^i\frac{\partial}{\partial x^i}\right) = \frac1{\sqrt{\det g}} \frac{\partial}{\partial x^i} \left(X^i \sqrt{\det g}\right),$$where $\det g= \det(g_{kl})$ is the determinant of the component matrix of $g$ in these coordinates.
+
+**Prop:** We can write the the divergence using the Hodge star operator to be $$\begin{align*}
+X \; \lrcorner \; dV_g &= \star X^\flat, \\
+\text{div }X &=\star d \star X^\flat. 
+\end{align*}
+$$
+
+**Prop:** Let $(M,g )$ be a Riemannian manifold with or without boundary. The divergence operator satisfies the following product rule for $f\in \mathcal C^\infty(M)$, $X\in {\frak X}(M)$:$$\text{div}(fX) = f \text{ div }X+\langle \text{grad }f, X\rangle_g. $$
 **The Divergence Theorem:** Let $(M, g)$ be an oriented Riemannian manifold with boundary, for any compactly supported smooth vector field $X$ on $M$, $$\int_M (\text{div }X)\; dV_g = \int_{\partial M} \langle X, N\rangle_g \; dV_{\widetilde g},$$where $N$ is the outward-pointing unit normal vector field along $\partial M$ and $\widetilde g$ is the induced Riemannian metric on $\partial M$. 
+
+**The Integration by Parts:** Let $(M, g)$ be a compact oriented Riemannian manifold with boundary, for any $f\in \mathcal C^\infty(M)$, $X\in {\frak X}(M)$  $$\int_M \langle \text{grad }f, X\rangle_g\; dV_g = \int_{\partial M} f\langle X, N \rangle \;dV_{\widetilde g} -\int_M (f \text{ div }X)\; dV_g.   $$where $N$ is the outward-pointing unit normal vector field along $\partial M$ and $\widetilde g$ is the induced Riemannian metric on $\partial M$. 
 
 **Def:** A [[Integral Curves, Flows and Flowouts on Smooth Manifolds|smooth flow]] $\theta$ on $M$ is said to be *volume-preserving* if for every compact regular domain $D$, we have $\text{Vol}(\theta_t[D]) = \text{Vol}(D)$ whenever the domain $\theta_t$ contains $D$. It is called *volume-increasing, volume-decreasing, volume-nonincreasing* or *volume-nondecreasing* if for every such $D$, $\text{Vol}(\theta_t[D])$ is strictly increasing, strictly decreasing, nonincreasing, nondecreasing, respectively, as a function of $t$. 
 
@@ -33,7 +44,28 @@ Note that the properties of flow domains ensure that if $D$ is contained in the 
 
 The proof needs [[Differentiation under the integral sign]], which needs to be slightly adapted. 
 
-### Surface Integrals
+**Def:** Let $(M,g)$ be a Riemannian manifold with or without boundary. The linear operator $\Delta: \mathcal C^\infty(M) \to \mathcal C^\infty(M)$ defined by $$\Delta u := -\text{div}(\text{grad }u)$$is called the *geometric Laplacian*. There is no general agreement about the sign convention for the Laplacian on a Riemannian manifold, and many authors define $\Delta$ to be the negative of the operator we have defined. Although the geometric Laplacian defined is the opposite of the traditional Laplacian on $\Bbb R^n$, it has two distinct advantages: our Laplacian has nonnegative eigenvalues, and it agrees with the Laplace-Beltrami operator on differential forms. When reading anything that mentions the Laplacian, we have to be careful to determine which sign convention the author is using. 
+
+**Prop:** Let $(M,g )$ be a Riemannian manifold with or without boundary. In any smooth local coordinates $(x^i)$, then $$\Delta u = \frac1{\sqrt{\det g}} \frac{\partial}{\partial x^i} \left(g^{ij} \sqrt{\det g} \frac{\partial u}{\partial u^i}\right),$$where $\det g= \det(g_{kl})$ is the determinant of the component matrix of $g$ in these coordinates.
+
+**Def:** Let $(M, g)$ be a Riemannian manifold with or without boundary. A function $u\in\mathcal C^\infty(M)$ is said to be *[[Harmonic Functions|harmonic]]* if $\Delta u = 0$. 
+
+**Green's Identities:** Suppose $(M, g)$ is a compact oriented Riemannian manifold.$$\begin{align*}
+\int_M u \Delta v \; dV_g &= \int_M \langle \text{grad }u, \text{grad }v\rangle_g\; dV_g- \int_{\partial M} u N v\; dV_g \\
+\int_M (u \Delta v - v \Delta u) \; dV_g &= \int_{\partial M} (vNu- u Nv)\; dV_{\widetilde g},
+\end{align*}   $$where $N$ is the outward-pointing unit normal vector field along $\partial M$ and $\widetilde g$ is the induced Riemannian metric on $\partial M$. 
+
+**Prop:** Suppose $(M, g)$ is a compact, connected, oriented Riemannian manifold.
+- If $\partial M = \varnothing$, the only harmonic functions on $M$ are the constants.
+- If $\partial M \neq \varnothing$, and $u, v$ are harmonic functions on $M$ whose restriction to $\partial M$ agree, then $u = v$.
+
+**Def:** Let $(M, g)$ be a compact connected Riemannian manifold without boundary, and let $\Delta$ be the geometric Laplacian. A real number $\lambda$ is called an *eigenvalue of $\Delta$* if there exists a smooth real-valued function $u$ on $M$, not identically zero, such that $\Delta u = \lambda u$. In this case, $u$ is called an *eigenfunction* corresponding to $\lambda$.
+
+**Prop:** Let $(M, g)$ be a compact connected Riemannian manifold without boundary.
+- $0$ is an eigenvalue of $\Delta$, and all other eigenvalues are strictly positive.
+- If $u$ and $v$ eigenfunctions corresponding to distinct eigenvalues, then $\int_M uv \; dV_g = 0$. 
+
+### Surface Integral
 
 **Def:** Let $(M, g)$ be an oriented Riemannian $3$-manifold. Define the *curl operator* denoted by $\text{curl}: \mathfrak X(M)\to \mathfrak X(M)$, by $$\text{curl }X := \beta^{-1} d(X^\flat),$$where $\beta: \mathfrak X(M)\to \Omega^2(M)$ is the already defined smooth bundle isomorphism. Unwinding the definitions, we see that this is equivalent to  $$(\text{curl }X)\; \lrcorner \; dV_g = d(X^\flat).$$
 The operators $\text{div}$, $\text{grad}$ and $\text{curl}$ on an oriented Riemannian $3$-manifold $M$ are related by the following commutative diagram: 

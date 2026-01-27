@@ -57,6 +57,8 @@ Every smooth manifold with or without boundary is also a smooth manifold with co
 
 **Prop:** If $M_1,\dots, M_k$ are smooth manifolds with corners, then $M_1\times \dots\times M_k$ is also a smooth manifold with corners. This is not true for manifold with boundaries.
 
+**Prop:** Suppose $M$ is a smooth manifold with corners, and let $\cal C$ denote the set of corners points of $M$. Then $M\setminus \cal C$ is a smooth manifold with boundary. 
+
 **Def:** Let $M$ be an oriented smooth $n$-manifold with corners, and suppose $\omega$ is an $(n-1)$-form on $\partial M$ that is compactly supported in the domain of a single oriented smooth chart with corners $(U, \varphi)$. We define the integral of $\omega$ over $\partial M$ by  $$\int_{\partial M}\omega = \int_{i = 1}^n (\varphi^{-1})^*\omega, $$where $$H_i := \{(x^1,\dots, x^n) \in \bar{\Bbb R}^n_+ \mid x^i = 0\}  $$is given the induced orientation as part of the boundary of the set where $x^i\ge 0$. In other words, we simply integrate $\omega$ in coordinates over the codimension-$1$ portion of the boundary. Finally, if $\omega$ is an arbitrary compactly supported $(n-1)$-form on $M$, we define the integral of $\omega$ over $\partial M$ by piecing together with a partition of unity just as in the case of a manifold with boundary. 
 
 **Integrations Over Parametrizations of the Boundary:** Let $M$ be a compact, oriented, smooth $n$-manifold with corners, and let $\partial M$ denotes its boundary, equipped with the induced orientation. Let $\omega$ be a compactly supported $(n-1)$-form on $\partial M$.  Suppose $D_1, \dots, D_k$ are open domains of integration in $\Bbb R^{n-1}$, and for $i = 1,\dots, k$, we are given smooth maps $F_i: \overline D_i \to M$ satisfying:

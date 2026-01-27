@@ -5,7 +5,7 @@ tags:
   - CliffordAlgebra
 ---
 Subjects: [[Differential Geometry]], [[Linear Algebra]], [[Clifford Algebra]]
-Links: [[Dual Vector Spaces]], [[Exterior Algebra]], [[Multilinear Transformations]], [[Tensor Product of Modules]],  [[Graded Ring]], [[Tensor Product of Linear Functions]], [[Symmetric Group]]
+Links: [[Dual Vector Spaces]], [[Exterior Algebra of Vector Spaces]], [[Multilinear Transformations]], [[Tensor Product of Modules]],  [[Graded Ring]], [[Tensor Product of Linear Functions]], [[Symmetric Group]]
 
 Let $K$ be characteristic $0$ field. We are going to drop, the fact that the codomain is $K$ for the rest of the note, since this notation is a bit cumbersome. 
 
@@ -66,7 +66,7 @@ In order to streamline the computations with the elementary $k$-covectors, we ca
 - For any covectors $\omega^1,\dots, \omega^k$ and vectors $v_1,\dots, v_k$, $$\omega^1\wedge\dots \wedge \omega^k(v_1,\dots, v_k) = \det(\omega^j(v_i)), $$under the determinant convention. We also have $$\omega^1\wedge\dots \wedge \omega^k(v_1,\dots, v_k) =\frac{1}{k!} \det(\omega^j(v_i)). $$
 **Def:** A $k$-covector is *decomposable* if it can be expressed in the form $\eta = \omega^1\wedge\dots\wedge\omega^k$, where $\omega^1,\dots, \omega^k$ are covectors. 
 
-**Def:** For any $n$-dimensional $K$-vector space $V$, define a vector space $\bigwedge (V^*)$ by  $$\bigwedge(V^*) := \bigoplus_{k = 0}^n {\bigwedge}^{\!k} (V).$$We see that $\bigwedge (V)$ is a $K$-vector space with dimension $2^n$. 
+**Def:** For any $n$-dimensional $K$-vector space $V$, define a vector space $\bigwedge (V^*)$ by  $$\bigwedge(V^*) := \bigoplus_{k = 0}^n {\textstyle \bigwedge}^{\!k} (V).$$We see that $\bigwedge (V)$ is a $K$-vector space with dimension $2^n$. 
 
 **Obs:** We see that $(\bigwedge (V),\wedge)$ is an anticommutative graded algebra, and it is called the *exterior algebra* or *Grassmann algebra of $V$*. 
 
@@ -78,4 +78,11 @@ In order to streamline the computations with the elementary $k$-covectors, we ca
 - $i_v \circ i_v = 0$.
 - If $\omega\in \bigwedge^k(V^*)$ and $\eta\in \bigwedge^l(V^*)$, $$i_v(\omega\wedge\eta) = (i_v \omega)\wedge \eta + (-1)^k\omega\wedge(i_v \eta). $$
 
-when the wedge product is defined using the Alt conventio, interior multiplication of a vector with a $k$-form has to be defined with an extra $k$: $$\bar i_v \omega(w_1,\dots, w_{k-1}) = k\omega(v, w_1,\dots, w_{k-1}). $$This definition ensures that the interior multiplication $\bar i_v$ still satisfies $$\bar i_v(\omega\wedge\eta) = (\bar i_v \omega)\wedge \eta + (-1)^k\omega\wedge(\bar i_v \eta). $$
+when the wedge product is defined using the Alt convention, interior multiplication of a vector with a $k$-form has to be defined with an extra $k$: $$\bar i_v \omega(w_1,\dots, w_{k-1}) = k\omega(v, w_1,\dots, w_{k-1}). $$This definition ensures that the interior multiplication $\bar i_v$ still satisfies $$\bar i_v(\omega\wedge\eta) = (\bar i_v \omega)\wedge \eta + (-1)^k\omega\wedge(\bar i_v \eta). $$
+
+# Duality
+
+Let $V$ be a space with inner product.
+
+For each natural $k$, we can define an interior product on ${\textstyle \bigwedge}^{\!k} (V)$. Let $\omega^1\wedge\dots \omega^k, \eta^1\wedge\dots\eta^k \in {\textstyle \bigwedge}^{\!k} (V)$, then $$\langle \omega^1\wedge\dots \wedge\omega^k,\eta^1\wedge\dots\wedge\eta^k\rangle := \det(\langle(\omega^i)^\sharp, (\eta^j)^\sharp\rangle). $$So basically, we are calculating pulling the covectors in the original vector space using the [[Correlations, Musical Isomorphisms|musical isomorphisms]], and then calculating the inner product there.
+

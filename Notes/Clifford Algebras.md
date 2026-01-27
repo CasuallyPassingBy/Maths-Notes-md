@@ -3,7 +3,7 @@ tags:
   - GeometricAlgebra
 ---
 Subjects: [[Geometric Algebra]]
-Links: [[Tensor Algebra]], [[Quadratic Forms]], [[Exterior Algebra]], [[Bilinear Forms]]
+Links: [[Tensor Algebra]], [[Quadratic Forms]], [[Exterior Algebra of Vector Spaces]], [[Bilinear Forms]]
 
 **Def:** Let $K$ be a field with , $V$ be a vector space over $K$, and $Q$ be a quadratic form. We consider the *Clifford algebra of $V$ over $Q$* is defined as $$\text{Cl}(V, Q) := T(V)/I_Q,$$where $T(V)$ is tensor algebra, and $I_Q := \langle v\otimes v - Q(v)1 \mid v\in V\rangle$.
 

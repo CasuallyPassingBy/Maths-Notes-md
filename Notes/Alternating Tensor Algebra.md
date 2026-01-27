@@ -5,7 +5,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Linear Algebra]], [[Clifford Algebra]], [[Differential Geometry]]
-Links: [[Exterior Algebra]], [[Symmetric Group]], [[Alternating Groups]]
+Links: [[Exterior Algebra of Vector Spaces]], [[Symmetric Group]], [[Alternating Groups]]
 
 We ask for $K$ not to have characteristic $2$, for this section.
 
@@ -72,7 +72,7 @@ When $K$ has characteristic $0$, there is a canonical isomorphism $$A(V) \cong {
 
 Let $A_{[p]}$ be a $p$-vector and let $\alpha$ be a covector. 
 
-**Def:** The *left contraction* of a $p$-vector $A_{[p]}$ by a covector $\alpha$, denoted from this point on by $\alpha \rfloor$, is defined as $$(\alpha \rfloor A_{[p]})(\alpha_1, \dots, \alpha_{p-1}) := p A_{[p]}(\alpha, \alpha_1, \alpha_2, \dots, \alpha_{p-1}).$$where $\alpha_1, \dots, \alpha_{p-1}$ are arbitrary covectors. Taking $A_{[p]} = v_1 \wedge \dots v_p$ on the right hand side of the definition  means that $$(v_1\wedge \dots \wedge v_p)(\alpha, \alpha_1, \dots, \alpha_{p-1}) := \frac1{p!} \sum_{\sigma \in S_p} \text{sgn}(\sigma) \alpha(v_{\sigma(1)}) \alpha_1(v_{\sigma(2)})\dots \alpha_{p-1}(v_{\sigma(p)}).$$
+**Def:** The *left contraction* of a $p$-vector $A_{[p]}$ by a covector $\alpha$, denoted from this point on by $\alpha \rfloor$, is defined as $$(\alpha \rfloor A_{[p]})(\alpha_1, \dots, \alpha_{p-1}) := p A_{[p]}(\alpha, \alpha_1, \alpha_2, \dots, \alpha_{p-1}).$$where $\alpha_1, \dots, \alpha_{p-1}$ are arbitrary covectors. Taking $A_{[p]} = v_1 \wedge \dots \wedge v_p$ on the right hand side of the definition  means that $$(v_1\wedge \dots \wedge v_p)(\alpha, \alpha_1, \dots, \alpha_{p-1}) := \frac1{p!} \sum_{\sigma \in S_p} \text{sgn}(\sigma) \alpha(v_{\sigma(1)}) \alpha_1(v_{\sigma(2)})\dots \alpha_{p-1}(v_{\sigma(p)}).$$
 This definition shows that $\alpha \rfloor A_{[p]}$ is a $(p-1)$-vector. 
 
 **Lemma:** Let $u, v\in V$ and $\alpha \in V'$, then $$\alpha \rfloor (v \wedge u) = (\alpha \rfloor v)u - v(\alpha \rfloor u) = \alpha(v) u - v \alpha (u).$$

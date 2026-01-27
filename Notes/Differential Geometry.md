@@ -12,7 +12,7 @@ This notes uses Einstein's summation convention.
 - [[Intro to Surfaces]]
 	- [[Rectifiable Surfaces]]
 
-- [[Exterior Algebra]]
+- [[Exterior Algebra of Vector Spaces]]
 	- [[Exterior Algebra of Multicovectors]]
 		- [[The Dual Functor and the Multicovector Functor]]
 		- [[Alternating Tensor Algebra]]
@@ -77,4 +77,5 @@ This notes uses Einstein's summation convention.
 - [[Integration of Differential Forms on Smooth Manifolds]]
 	- [[Stokes's Theorem and Smooth Manifolds with Corners]]
 	- [[Integration on Riemannian Manifolds]]
+		- [[Laplacian Operator on Smooth Manifolds]]
 	- [[Densities on Smooth Manifolds]]

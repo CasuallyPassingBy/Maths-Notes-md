@@ -3,7 +3,7 @@ tags:
   - LinearAlgebra
 ---
 Subjects: [[Linear Algebra]]
-Links: [[Bases and Dimension]],  [[Differential Geometry]], [[Exterior Algebra]]
+Links: [[Bases and Dimension]],  [[Differential Geometry]], [[Exterior Algebra of Vector Spaces]]
 
 **Def:** Let $V$ be a a real vector space of dimension $n \ge 1$. We say that two ordered bases $(E_1,\dots, E_n)$ and $(\widetilde E_1,\dots, \widetilde E_n)$ for $V$ are *consistently oriented* if the transition matrix $(B_ i^j)$, defined by $$E_i = B_i^j \widetilde E_j, $$has positive determinant.
 

@@ -51,9 +51,6 @@ Similarly, if $U$ is an open subset of $\Bbb R^n$ or $\Bbb H^n$ and $\mu$ is com
 
 In this text, we work exclusively at the level of densities and their integrals, and do not require this extension.
 
-
-
-
 **Integrations Over Parametrizations:** Let $M$ be an smooth $n$-manifold with or without boundary, and let $\mu$ be a compactly supported density on $M$. Suppose $D_1, \dots, D_k$ are open domains of integration in $\Bbb R^n$, and for $i = 1,\dots, k$, we are given smooth maps $F_i: \overline D_i \to M$ satisfying:
 - $F_i$ restricts to a diffeomorphism from $D_i$ onto an open subset $W_i \subseteq M$;
 - $W_i \cap W_j = \varnothing$ when $i \neq  j$;
@@ -71,5 +68,6 @@ Then  $$\int_M \mu = \sum_{i = 1}^k \int_{D_i} F^*_i \mu. $$
 **Prop:** Suppose $(M, g)$ and $(\widetilde M, \widetilde g)$ are Riemannian manifolds with or without boundary, and $F: M \to \widetilde M$ is a local symmetry. Then $F^*\mu_{\widetilde g} = \mu_g$.
 
 **Obs:** It is customary to denote the Riemannian density simply by $dV_g$, and to specify when necessary whether the notation refers to a density or a form. If $f: M \to \Bbb R$ is a compactly supported continuous function, the *integral of $f$ over $M$* is defined to be $$\int_M f\; dV_g.$$
-
 **The Divergence Theorem in The Nonorientable Case:** Suppose $(M, g)$ is a nonorientable Riemannian manifold with boundary. For any compactly supported smooth vector field $X$ on $M$,  $$\int_M (\text{div }X)\; \mu_g = \int_{\partial M} \langle X, N \rangle_g \mu_{\widetilde g}, $$where $N$ is the outward-pointing unit normal vector field along $\partial M$, $\widetilde g$ is the induced Riemannian metric on $\partial M$, and $\mu_g$, $\mu_{\widetilde g}$ are the Riemannian densities of $g$ and $\widetilde g$, respectively.
+
+**The Integration by Parts:** Let $(M, g)$ be a compact nonorientable Riemannian manifold with boundary, for any $f\in \mathcal C^\infty(M)$, $X\in {\frak X}(M)$  $$\int_M \langle \text{grad }f, X\rangle_g\; dV_g = \int_{\partial M} f\langle X, N \rangle \;dV_{\widetilde g} -\int_M (f \text{ div }X)\; dV_g.   $$where $N$ is the outward-pointing unit normal vector field along $\partial M$ and $\widetilde g$ is the induced Riemannian metric on $\partial M$. 

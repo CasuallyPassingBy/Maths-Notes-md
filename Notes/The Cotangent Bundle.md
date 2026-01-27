@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[The Tangent Bundle]], [[Dual Vector Spaces]], [[Vector Bundles on Smooth Manifolds]], [[Tangent Space for Manifolds]], [[Exterior Algebra]], [[Vector Bundles on Smooth Manifolds]]. [[Exterior Algebra of Multicovectors]]
+Links: [[The Tangent Bundle]], [[Dual Vector Spaces]], [[Vector Bundles on Smooth Manifolds]], [[Tangent Space for Manifolds]], [[Exterior Algebra of Vector Spaces]], [[Vector Bundles on Smooth Manifolds]]. [[Exterior Algebra of Multicovectors]]
 
 **Def:** Let $M$ be a smooth manifold and a $p$ a point in $M$. The *cotangent space* of $M$ at $p$, denoted by $T_p^* M$ or $T_*(M)$, is defined to be the dual space of the tangent space $T_p M$. $$ T_p ^*M := (T_p M)' = \text{Hom}(T_p M, \Bbb R) = \mathcal L(T_p M, \Bbb R).$$An element of the cotangent space $T_p^*M$ is called a *covector at $p$*. Thus a covector $\omega_p$ at $p$ is a linear function $\omega_p: T_p M \to \Bbb R$. 
 

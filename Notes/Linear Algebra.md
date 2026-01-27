@@ -62,7 +62,7 @@ Mainly used to study Friedberg's Linear algebra and Axler's Linear Algebra Done 
 		- [[Symplectic Vector Spaces]]
 - [[Tensor Product of Modules]]
 	- [[Tensor Algebra]]
-		- [[Exterior Algebra]]
+		- [[Exterior Algebra of Vector Spaces]]
 			- [[Exterior Algebra of Multicovectors]]
 				- [[Densities on Vector Spaces]]
 			- [[Alternating Tensor Algebra]]

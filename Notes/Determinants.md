@@ -3,7 +3,7 @@ tags:
   - LinearAlgebra
 ---
 Subjects: [[Linear Algebra]]
-Links: [[Space of Linear Transformations]], [[Matrix Representation of Linear Transformations]], [[Multilinear Transformations]], [[Elementary Matrix Operations and Elementary Matrices]], [[Eigenvalues]], [[Multilinear Transformations]], [[Exterior Algebra]]
+Links: [[Space of Linear Transformations]], [[Matrix Representation of Linear Transformations]], [[Multilinear Transformations]], [[Elementary Matrix Operations and Elementary Matrices]], [[Eigenvalues]], [[Multilinear Transformations]], [[Exterior Algebra of Vector Spaces]]
 
 # Determinants on $2\times 2$ matrix
 

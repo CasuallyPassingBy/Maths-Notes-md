@@ -26,7 +26,6 @@ in the context of physics, inner product is defined as $\langle u| v\rangle = \l
     $\langle u,\lambda v \rangle = \overline \lambda \langle u, v\rangle$ for all $\lambda \in \mathbb F$ and $u, v \in V$
     
 **Def**: For $v \in V$, the *******_norm of $v$,_ is denoted as $\|v\|$, and defined as:
-
 $$ \|v\| = \sqrt{\langle v, v\rangle} $$
 - Basic Properties of the Norm
     $\|v\| =0$ iff $v = 0$
