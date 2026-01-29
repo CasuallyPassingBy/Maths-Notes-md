@@ -25,7 +25,6 @@ X \; \lrcorner \; dV_g &= \star X^\flat, \\
 \text{div }X &=\star d \star X^\flat. 
 \end{align*}
 $$
-
 **Prop:** Let $(M,g )$ be a Riemannian manifold with or without boundary. The divergence operator satisfies the following product rule for $f\in \mathcal C^\infty(M)$, $X\in {\frak X}(M)$:$$\text{div}(fX) = f \text{ div }X+\langle \text{grad }f, X\rangle_g. $$
 **The Divergence Theorem:** Let $(M, g)$ be an oriented Riemannian manifold with boundary, for any compactly supported smooth vector field $X$ on $M$, $$\int_M (\text{div }X)\; dV_g = \int_{\partial M} \langle X, N\rangle_g \; dV_{\widetilde g},$$where $N$ is the outward-pointing unit normal vector field along $\partial M$ and $\widetilde g$ is the induced Riemannian metric on $\partial M$. 
 
@@ -44,30 +43,14 @@ Note that the properties of flow domains ensure that if $D$ is contained in the 
 
 The proof needs [[Differentiation under the integral sign]], which needs to be slightly adapted. 
 
-**Def:** Let $(M,g)$ be a Riemannian manifold with or without boundary. The linear operator $\Delta: \mathcal C^\infty(M) \to \mathcal C^\infty(M)$ defined by $$\Delta u := -\text{div}(\text{grad }u)$$is called the *geometric Laplacian*. There is no general agreement about the sign convention for the Laplacian on a Riemannian manifold, and many authors define $\Delta$ to be the negative of the operator we have defined. Although the geometric Laplacian defined is the opposite of the traditional Laplacian on $\Bbb R^n$, it has two distinct advantages: our Laplacian has nonnegative eigenvalues, and it agrees with the Laplace-Beltrami operator on differential forms. When reading anything that mentions the Laplacian, we have to be careful to determine which sign convention the author is using. 
+**Def:** We can define an inner product on $k$-forms for compact oriented Riemannian manifolds. For any $\omega, \eta\in \Omega^k(M)$ the inner product is defined as $$\langle\!\langle \omega,\eta \rangle\!\rangle_g := \int_M \langle \omega,\eta\rangle_g\; dV_g.$$
 
-**Prop:** Let $(M,g )$ be a Riemannian manifold with or without boundary. In any smooth local coordinates $(x^i)$, then $$\Delta u = \frac1{\sqrt{\det g}} \frac{\partial}{\partial x^i} \left(g^{ij} \sqrt{\det g} \frac{\partial u}{\partial u^i}\right),$$where $\det g= \det(g_{kl})$ is the determinant of the component matrix of $g$ in these coordinates.
-
-**Def:** Let $(M, g)$ be a Riemannian manifold with or without boundary. A function $u\in\mathcal C^\infty(M)$ is said to be *[[Harmonic Functions|harmonic]]* if $\Delta u = 0$. 
-
-**Green's Identities:** Suppose $(M, g)$ is a compact oriented Riemannian manifold.$$\begin{align*}
-\int_M u \Delta v \; dV_g &= \int_M \langle \text{grad }u, \text{grad }v\rangle_g\; dV_g- \int_{\partial M} u N v\; dV_g \\
-\int_M (u \Delta v - v \Delta u) \; dV_g &= \int_{\partial M} (vNu- u Nv)\; dV_{\widetilde g},
-\end{align*}   $$where $N$ is the outward-pointing unit normal vector field along $\partial M$ and $\widetilde g$ is the induced Riemannian metric on $\partial M$. 
-
-**Prop:** Suppose $(M, g)$ is a compact, connected, oriented Riemannian manifold.
-- If $\partial M = \varnothing$, the only harmonic functions on $M$ are the constants.
-- If $\partial M \neq \varnothing$, and $u, v$ are harmonic functions on $M$ whose restriction to $\partial M$ agree, then $u = v$.
-
-**Def:** Let $(M, g)$ be a compact connected Riemannian manifold without boundary, and let $\Delta$ be the geometric Laplacian. A real number $\lambda$ is called an *eigenvalue of $\Delta$* if there exists a smooth real-valued function $u$ on $M$, not identically zero, such that $\Delta u = \lambda u$. In this case, $u$ is called an *eigenfunction* corresponding to $\lambda$.
-
-**Prop:** Let $(M, g)$ be a compact connected Riemannian manifold without boundary.
-- $0$ is an eigenvalue of $\Delta$, and all other eigenvalues are strictly positive.
-- If $u$ and $v$ eigenfunctions corresponding to distinct eigenvalues, then $\int_M uv \; dV_g = 0$. 
+**Prop:** Let $\omega\in \Omega^k(M)$ and $\eta\in \Omega^{k+1}$, then $$\langle\!\langle d\omega,\eta \rangle\!\rangle  = \langle\!\langle \omega,  d^*\eta\rangle\!\rangle.$$Meaning that the codifferential is the adjoint of the differential with respect to this inner product. 
 
 ### Surface Integral
 
 **Def:** Let $(M, g)$ be an oriented Riemannian $3$-manifold. Define the *curl operator* denoted by $\text{curl}: \mathfrak X(M)\to \mathfrak X(M)$, by $$\text{curl }X := \beta^{-1} d(X^\flat),$$where $\beta: \mathfrak X(M)\to \Omega^2(M)$ is the already defined smooth bundle isomorphism. Unwinding the definitions, we see that this is equivalent to  $$(\text{curl }X)\; \lrcorner \; dV_g = d(X^\flat).$$
+**Prop:** We can write the the curl using the Hodge star operator to be $$\text{curl }X = (\star dX^\flat)^\sharp.$$
 The operators $\text{div}$, $\text{grad}$ and $\text{curl}$ on an oriented Riemannian $3$-manifold $M$ are related by the following commutative diagram: 
 ```tikz
 \usepackage{tikz-cd}
@@ -93,5 +76,5 @@ The identities $\text{curl} \circ \text{grad} = 0$ and $\text{div}\circ\text{cur
 Note that the if the orientation of $M$ changes, then also $\text{curl }X$ changes, by gaining a minus sign.
 
 **Def:** Now suppose $S\subseteq M$ is a compact $2$-dimensional submanifold with or without boundary, and $N$ is a smooth unit normal vector along $S$. Let $dA$ be denote the Riemannian volume form on $S$ with respect to the induced metric $\iota_S^*g$ and the orientation determined by $N$, so that $dA := \iota_S^*(N\; \lrcorner \; dV_g)$. For any smooth vector field $X$ define on $M$, the *surface integral of $X$ over $S$* is defined as $$\int_S \langle X, N\rangle_g\; dA. $$
-**Stokes's Theorem for Surface Integrals:** Suppose $M$ is an oriented Riemannian $3$-manifold with or without boundary, and $S$ is a compact oriented $2$-dimensional smooth manifold with boundary in $M$. For any smooth vector field $X$ on $M$, $$\int_S \langle \text{curl }X, N\rangle_g\, dA = \int_{\partial S} \langle X, T\rangle \, ds,  $$where $N$ is the smooth unit normal vector field along $S$ that determines its orientation, $ds$ is the Riemannian volume form for $\partial S$, with respect to the metric and orientation induced from $S$, and $T$ is the unique positively oriented unit tangent vector field on $\partial S$. 
+**Stokes's Theorem for Surface Integrals:** Suppose $M$ is an oriented Riemannian $3$-manifold with or without boundary, and $S$ is a compact oriented $2$-dimensional smooth manifold with boundary in $M$. For any smooth vector field $X$ on $M$, $$\int_S \langle \text{curl }X, N\rangle_g\, dA = \int_{\partial S} \langle X, T\rangle_g \, ds,  $$where $N$ is the smooth unit normal vector field along $S$ that determines its orientation, $ds$ is the Riemannian volume form for $\partial S$, with respect to the metric and orientation induced from $S$, and $T$ is the unique positively oriented unit tangent vector field on $\partial S$. 
 

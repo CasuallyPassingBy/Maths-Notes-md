@@ -77,3 +77,14 @@ The need to generalise this operations of vector calculus from $\Bbb R^3$ to hig
 **Prop:** For each nonnegative integer $k$, there is a contravariant functor $\Omega^k: \sf Diff \to Vec_\Bbb R$, which to each smooth manifold $M$ assigns the vector space $\Omega^k(M)$ and to each smooth $F$ the pullback $F^*$. We see that the exterior derivative is a natural transformation from $\Omega^k$ to $\Omega^{k+1}$.
 
 **Prop:** Let $M$, $N$ be smooth manifolds, and suppose $\pi:M \to N$ is a surjective smooth submersion with connected fibres. Suppose $\omega\in \Omega^k(M)$. There exists $\eta\in \Omega^k(N)$ such that $\omega = \pi^*\eta$ iff $v\; \lrcorner\;\omega_p = 0$ and $v \; \lrcorner\; d\omega_p = 0$ for every $p\in M$ and every [[Vector Fields on Smooth Manifolds#^3c9489|vertical vector]] $T_p M$. 
+
+# Codifferential
+
+Let $(M ,g)$ be an oriented Riemannian manifold. 
+
+**Def:** For $1\le k \le n$, define a map $d^*: \Omega^k(M) \to \Omega^{k-1}(M)$ by $$d^*\omega:= (-1)^{n(k+1)+1}\star d \star \omega,  $$where $\star$ si the Hodge star operator. We extend this definition to $0$-forms by defining $d^*\omega = 0$ for $\omega\in \Omega^0(M)$.
+
+**Def:** Just as we have exact forms, we call differential forms such that $d^*\omega = 0$ *co-closed.* Similarly, if $\omega$ is and $k$-form, and there is an $k+1$-form $\eta$, such that $d^*\eta = \omega$, then $\omega$ is called *co-exact.*
+
+**Properties of the codifferential:** 
+- $d^* \circ d^* = 0$. 

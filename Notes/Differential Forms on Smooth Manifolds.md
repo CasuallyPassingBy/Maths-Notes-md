@@ -40,7 +40,7 @@ An important operation to differential forms is the [[The Exterior Derivative on
 
 Let $(M, g)$ be an oriented Riemannian $n$-manifold. 
 
-For each $k = 1,\dotsm n$, $g$ determines a unique inner product on ${\textstyle\bigwedge}^{\!k} (T^*_pM)$, denoted by $\langle \cdot , \cdot \rangle_g$ just like the inner product $T_p M$ satisfying $$\langle\omega^1\wedge \dots \wedge \omega^k,\eta\wedge\dots \wedge\eta^k \rangle_k := \det(\langle(\omega^i)^\sharp, (\eta^j)^\sharp\rangle_g)  $$whenever $\omega^1,\dots,\omega^k, \eta^1,\dots, \eta^k$ are covectors at $k$. We are using [[The Tangent-Cotangent Bundle Isomorphism for Riemannian Manifolds]]. 
+For each $k = 1,\dotsm n$, $g$ determines a unique inner product on ${\textstyle\bigwedge}^{\!k} (T^*_pM)$, denoted by $\langle \cdot , \cdot \rangle_g$ just like the inner product $T_p M$ satisfying $$\langle\omega^1\wedge \dots \wedge \omega^k,\eta\wedge\dots \wedge\eta^k \rangle_k := \det(\langle\omega^i, \eta^j\rangle_g)  $$whenever $\omega^1,\dots,\omega^k, \eta^1,\dots, \eta^k$ are covectors at $k$. We are using [[The Tangent-Cotangent Bundle Isomorphism for Riemannian Manifolds]]. 
 
 We see that the Riemannian volume form $dV_g$ is the unique positively oriented $n$-form that has unit norm with respect this inner product.
 
@@ -48,6 +48,8 @@ We see that the Riemannian volume form $dV_g$ is the unique positively oriented 
 
 **Def:** The map from the above proposition is called the *Hodge star operator.*
 
+In any smooth local coordinates $(x^i)$, we can calculate the Hodge dual of a basic $k$-form $$\star(dx^{i_1}\wedge\dots \wedge dx^{i_k}) = \sqrt{\det g} \;g^{i_1 j_1}\cdots g^{i_k j_k} \varepsilon_{j_1,\dots, j_k} \; dx^{j_{k+1}}\wedge \dots\wedge dx^{j_n},$$where $\varepsilon_{j_1,\dots, j_n}$ is the [[Levi-Civita Symbol]] with $\varepsilon_{1,\dots, n} = 1$. This we can extend this to general differential forms. Let $\alpha = \alpha_{i_1,\dots, i_k} \; dx^{i_1}\wedge \dots \wedge dx^{i_k}$, $$\star\alpha = \sqrt{\det g} \;g^{i_1 j_1}\cdots g^{i_k j_k} \varepsilon_{j_1,\dots, j_k}\; \alpha_{i_1,\dots, i_k} \; dx^{j_{k+1}}\wedge \dots\wedge dx^{j_n}. $$
+
 **Prop:** 
 - We see that $\star: {\textstyle\bigwedge}^{\!0} (T^*M) \to {\textstyle\bigwedge}^{\!n} (T^*M)$ is given by $\star f = f \; dV_g$.
-- We see that $\star \star \omega = (-1)^{k(n-k)}\omega$ if $\omega$ is a $k$-form. 
+- We see that $\star( \star \;\omega )= (-1)^{k(n-k)}\omega$ if $\omega$ is a $k$-form. 

@@ -18,7 +18,6 @@ In any smooth local coordinates $(x^i)$, a Riemannian metric can be written as  
 (g_1)_{ij} & 0 \\ 
 0 & (g_2)_{ij} 
 \end{pmatrix}$$
-
 **Existence of Riemannian Metrics:** Every smooth manifold with or without boundary admits a Riemannian metric.
 
 We have a few of the geometric constructions that can be defined on a Riemannian manifold $(M, g)$ with or without boundary.

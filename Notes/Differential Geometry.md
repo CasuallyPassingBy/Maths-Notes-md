@@ -79,3 +79,5 @@ This notes uses Einstein's summation convention.
 	- [[Integration on Riemannian Manifolds]]
 		- [[Laplacian Operator on Smooth Manifolds]]
 	- [[Densities on Smooth Manifolds]]
+- [[The de Rham Cohomology Groups]]
+	- [[Mayer-Vietoris Theorem for de Rham Cohomology]]
