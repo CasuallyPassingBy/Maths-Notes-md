@@ -4,7 +4,7 @@ tags:
   - Topology/AlgebraicTopology
 ---
 Subjects: [[Differential Geometry]], [[Algebraic Topology]]
-Links: [[The de Rham Cohomology Groups]], [[Mayer-Vietoris Theorem for Singular Homology]], [[Orientations of Smooth Manifolds]]
+Links: [[The de Rham Cohomology Groups]], [[Mayer-Vietoris Theorem for Singular Homology]], [[Orientations of Smooth Manifolds]], [[Orientations and Covering Maps for Smooth Manifolds]]
 
 # Mayer-Vietoris Theorem
 
@@ -55,4 +55,16 @@ We see that a smooth map doesn't pull back compactly supported forms to compactl
 
 **Top Cohomology, Orientable Compact Support Case:** If $M$ is a connected oriented smooth $n$-manifold, then the integration map $I: H_c^n(M) \to \Bbb R$ is an isomorphism, so $H_c^n(M)$ is $1$-dimensional.
 
-**Top Cohomology, Orientable Compact Case:** If $M$ is a compact connected orientable smooth $n$-manifold, then $H_\te
+**Top Cohomology, Orientable Compact Case:** If $M$ is a compact connected orientable smooth $n$-manifold, then $H_\text{dR}^n(M)$ is $1$-dimensional, and is spanned by the cohomology class of any smooth orientation form.
+
+**Top Cohomology, Orientable Noncompact Case:** If $M$ is a noncompact connected orientable smooth $n$-manifold, then $H_\text{dR}^n(M)=0$. 
+
+**Lemma:** Suppose $M$ is a connected nonorientable smooth manifold and $\widehat\pi: \widehat  M \to M$ is its orientation covering. For each $p$, the induced cohomology maps $\widehat\pi^*: H_\text{dR}^p(M) \to H_\text{dR}^p(\widehat M),$ and  $\widehat\pi^*: H_c^p(M)\to H_c^p(\widehat M)$ are injective.
+
+**Top Cohomology, Nonorientable Case:** If $M$ is a connected nonorientable smooth $n$-manifold, then $H_c^n (M) = 0$ and $H_\text{dR}^n(M)=0$. 
+
+## Degree Theory
+
+**Degree of a Smooth Map:** Suppose $M$ and $N$ are compact, connected, oriented, smooth manifolds of dimension $n$, and $F: M \to N$ is a smooth map. There exists a unique integer $k$, called the *degree of $F$*, that satisfies both of the following conditions.
+- Every smooth $n$-form $\omega$ on $N$, $$\int_M F^*\omega = k\int_N\omega.$$
+- If $q\in N$ is a regular value of $F$, then $$k = \sum_{x\in F^{-1}\{q\}} \text{sgn}(x),  $$where $\text{sgn}(x) = +1$ if $dF_x$ is orientation-preserving. and $-1$ if its orientation reversing. 
