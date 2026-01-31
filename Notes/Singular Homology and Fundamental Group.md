@@ -25,7 +25,7 @@ H_1(X) \arrow[r, "f_*"'] & H_1(Y)
 
 **Th:** Let $X$ be a path-connected space, and let $p\in X$. Then $\gamma: \pi_1(X, p) \to H_1(X)$ is a surjective homomorphism whose kernel is the commutator of $\pi_1(X, p)$. Consequently, $H_1(X)$ is isomorphic to the abelianization of $\pi_1(X, p)$. 
 
-**Cor:** The followinf spaces have the indicated first homology groups: $$\begin{align*}
+**Cor:** The following spaces have the indicated first homology groups: $$\begin{align*}
 H_1(\Bbb S^1) &\cong \Bbb Z \\
 H_1(\Bbb S^n) &\cong 0, \ \text{if }n \ge 2 \\
 H_1(\Bbb T^2\#\cdots \#\Bbb T^2) &\cong \Bbb Z^{2n} \\

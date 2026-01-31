@@ -4,7 +4,7 @@ tags:
   - Topology/AlgebraicTopology
 ---
 Subjects: [[Differential Geometry]], [[Algebraic Topology]]
-Links: [[The de Rham Cohomology Groups]], [[Mayer-Vietoris Theorem for Singular Homology]], [[Orientations of Smooth Manifolds]], [[Orientations and Covering Maps for Smooth Manifolds]]
+Links: [[The de Rham Cohomology Groups]], [[Mayer-Vietoris Theorem for Singular Homology]], [[Orientations of Smooth Manifolds]], [[Orientations and Covering Maps for Smooth Manifolds]], [[The Zigzag Lemma]]
 
 # Mayer-Vietoris Theorem
 
@@ -24,7 +24,6 @@ U \cap V\arrow[ur, "i"]\arrow[dr, "j"] && M \\
 ```
 
 **Mayer-Vietoris Theorem:** Let $M$  be a smooth manifold with or without boundary, and let $U, V$ be open subsets of  whose union is $M$. Then for each $p$ there is a linear map $\delta: H_\text{dR}^p(U \cap V) \to H_\text{dR}^{p+1}(M)$ such that the following sequence is exact:  $$\cdots 
-
 \stackrel{\delta}{\longrightarrow} H_p(M) \stackrel{k^* \oplus \;l^*}{\longrightarrow} H_p(U) \oplus H_p(V)\stackrel{i^*- j^*}{\longrightarrow}H_p(X)\stackrel{\delta}{\longrightarrow} H_{p-1}(M) \stackrel{k^* \oplus \;l^*}{\longrightarrow}\cdots.$$
 # Computations Using Mayer-Vietoris
 
@@ -43,7 +42,7 @@ U \cap V\arrow[ur, "i"]\arrow[dr, "j"] && M \\
 
 ### Compactly Supported de Rham Cohomology
 
-**Poincaré Lemma with Compact Support:** Let $n \ge p \ge 1$, and suppose $\omega$ is a compactly supported closed $p$-form on $\Bbb R^n$. If $p =  n$, suppose in addition that $$\int_{\Bbb R^n}\omega = 0.$$Then there exists a compactly supported smooth $(p-1)$-form $\eta$ on $\Bbb R^n$ such that $d\eta = \omega$.
+**Poincaré Lemma with Compact Support:** Let $1 \le p \le n$, and suppose $\omega$ is a compactly supported closed $p$-form on $\Bbb R^n$. If $p =  n$, suppose in addition that $$\int_{\Bbb R^n}\omega = 0.$$Then there exists a compactly supported smooth $(p-1)$-form $\eta$ on $\Bbb R^n$ such that $d\eta = \omega$.
 
 **Def:** Let $M$ be a smooth manifold with or without boundary and let $\Omega_c^p(M)$ denote the vector space of compactly supported smooth $p$-forms on $M$. The *$p$th compactly supported de Rham cohomology group of $M$* is the quotient space $$H_c^p(M) := \frac{\ker (d : \Omega^p_c(M) \to \Omega^{p+1}_c(M))}{\text{Im}(d: \Omega^{p-1}_c (M) \to \Omega^p_c(M))}.  $$Of course, when $M$ is compact, this just reduces to ordinary de Rham cohomology. 
 
@@ -68,3 +67,15 @@ We see that a smooth map doesn't pull back compactly supported forms to compactl
 **Degree of a Smooth Map:** Suppose $M$ and $N$ are compact, connected, oriented, smooth manifolds of dimension $n$, and $F: M \to N$ is a smooth map. There exists a unique integer $k$, called the *degree of $F$*, that satisfies both of the following conditions.
 - Every smooth $n$-form $\omega$ on $N$, $$\int_M F^*\omega = k\int_N\omega.$$
 - If $q\in N$ is a regular value of $F$, then $$k = \sum_{x\in F^{-1}\{q\}} \text{sgn}(x),  $$where $\text{sgn}(x) = +1$ if $dF_x$ is orientation-preserving. and $-1$ if its orientation reversing. 
+
+**Properties of the Degree:** Suppose $M$, $N$, and $P$ are compact, connected, smooth $n$-manifolds.
+- If $F: M \to N$ and $G: N \to P$ are both smooth maps, then $\deg(G\circ F)= (\deg G)(\deg F)$.
+- If $F: M\to N$ is a diffeomorphism, then $\deg F = +1$ if $F$ is orientation-preserving and $-1$ if its orientation-reversing.
+- If two maps $F_0, F_1: M \to N$ are homotopic, then they have the same degree.
+
+**Def:** The proposition above allows us to define the *degree of a continuous map* $F:M \to N$ between compact, connected, oriented, smooth $n$-manifolds, by letting $\deg F$ be the degree of any smooth map that is homotopic to $F$. 
+
+**Th:** Suppose $N$ is a compact, connected, oriented smooth $n$-manifold and $X$ is a compact, oriented, smooth $(n+1)$-manifold with connected boundary. If $f: \partial X \to N$ is a continuous map that has a continuous extension to $X$, then $\deg f = 0$. 
+
+**Brouwer Fixed-Point Theorem:** Every continuous map from $\overline{\Bbb B}^n$ to itself has a fixed point.
+
