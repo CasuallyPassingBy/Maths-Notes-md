@@ -58,6 +58,8 @@ Where $\Phi: \pi_1(U, p) \ast \pi_1(V, p) \to\pi_1(X, p)$ is a surjective homomo
 \end{document}
 ```
 
+The proof of this monster actually needs the [[Compactness in Metric Spaces#Lebesgue Number Lemma|Lebesgue Number Lemma]]. 
+
 **Cor:** Let $X$ be a topological space. Suppose that $U, V \subseteq X$ are open subsets whose union is $X$, with $U, V$, and $U \cap V$ path-connected, and $p\in U \cap V$. If $U \cap V$ is simply connected. Then $\pi_1(U, p) \ast \pi_1(V, p) \cong \pi_1(X, p)$. 
 
 **Cor:** Let $X$ be a topological space. Suppose that $U, V \subseteq X$ are open subsets whose union is $X$, with $U, V$, and $U \cap V$ path-connected, and $p\in U \cap V$. If $U$ is simply connected, then $\ell: V \hookrightarrow X$ induces an isomorphism $$\pi_1(X, p) \cong \pi_1(V,p) /\overline{(j_*[\pi_1(U \cap V, p)])},$$where $\overline{(j_*[\pi_1(U \cap V, p)])}$ is the normal closure of ${(j_*[\pi_1(U \cap V, p)])}$ in $\pi_1(V, p)$. If the fundamental groups of $V$ and $U\cap V$ have finite representation $$\begin{align*}

@@ -2,7 +2,7 @@
 tags:
 ---
 Subjects: [[Algebraic Topology]]
-Links: [[Simplicial Complexes]], [[Affine Maps]], [[Free Abelian Groups]], [[Exact Sequences and Chain Complexes]], [[Homotopy Equivalence]]
+Links: [[Simplicial Complexes]], [[Affine Maps]], [[Free Abelian Groups]], [[Chain Complexes and Cochain Complexes]], [[Homotopy Equivalence]]
 
 **Def:** For any integer $p \ge 0$, let $\Delta_p \subseteq \Bbb R^p$ denote the *standard $p$-simplex* $[e_0, e_1,\dots, e_p]$, where $e_0 =0$ and, for $1\le i \le p$. $e_i$ is the $i$the element of the standard basis. If $X$ is a topological space, a *singular $p$-simplex in $X$* is a continuous map $\sigma: \Delta_p \to X$. 
 

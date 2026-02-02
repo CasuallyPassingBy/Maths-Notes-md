@@ -10,6 +10,7 @@
 
 ### Algebraic Topology 
 - [x] Introduction to Topological Manifolds by Lee 
+	- [ ] 
 - [ ] Algebraic Topology by Hatcher 
 
 ## Algebra
@@ -80,23 +81,26 @@
 		- [x] Smooth Manifolds
 		- [x] Smooth Maps
 		- [x] Tangent Vectors
-		- [x] Vector Fields
-		- [x] Vector Bundles
-		- [x] The Cotangent Bundle
 		- [x] Submersion, Immersions and Embeddings
 		- [x] Submanifolds
-		- [x] Lie Group Actions
-		- [x] Embedding and Approximation Theorems
+		- [x] The Cotangent Bundle
+		- [x] Sard's Theorem
+		- [x] Lie Groups
+		- [x] Vector Fields
+		- [x] Integral Curves and Flow
+		- [x] Vector Bundles
+		- [x] The Cotangent Bundle
 		- [x] Tensors
-		- [ ] Differential Forms
-		- [ ] Orientations
-		- [ ] Integration on Manifolds
+		- [x] Riemannian Manifolds
+		- [x] Differential Forms
+		- [x] Orientations
+		- [x] Integration on Manifolds
 		- [ ] De Rham Cohomology
 		- [ ] The de Rham Theorem
-		- [ ] Integral Curves and Flow
-		- [ ] Lie Derivatives
-		- [ ] Integral Manifolds and Foliations
-		- [ ] Lie Groups and Their Lie Algebras
+		- [ ] Distributions and Foliations
+		- [ ] The Exponential Map
+		- [ ] Quotient Manifolds
+		- [ ] Symplectic Manifolds
 - Riemannian Geometry
 	- [ ] Lee
 -  Functional Analysis

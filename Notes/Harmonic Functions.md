@@ -3,7 +3,7 @@ tags:
   - SpecialFunctions
 ---
 Subjects: [[Partial Differential Equations]]
-Links: [[Laplacian Operator on Smooth Manifolds]]
+Links: [[Laplacian Operator on Riemannian Manifolds]]
 
 **Def:** A function $u: A\subseteq \Bbb R^n \to \Bbb R$ where $A$ is an open subset of $\Bbb R^n$ is called *harmonic on $A$* if $\Delta u  =0$ in $A$.
 

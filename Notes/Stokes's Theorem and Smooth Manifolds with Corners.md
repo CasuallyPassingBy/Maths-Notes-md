@@ -32,7 +32,7 @@ $$\int_\gamma df = \int_{[a, b]} \gamma^*df = \int_S df = \int_{\partial S} f = 
 - The antipodal map $\alpha: \Bbb S^n\to\Bbb S^n$ is orientation-preserving.
 - $n$ is odd.
 
-**The Hairy Ball Theorem:** There exists a nowhere-vanishing vector field on $\Bbb S^n$ iff $n$ is odd. 
+**The Hairy Ball Theorem:** There exists a nowhere-vanishing vector field on $\Bbb S^n$ iff $n$ is odd.  ^ed5f49
 
 ## Manifolds with Corners
 

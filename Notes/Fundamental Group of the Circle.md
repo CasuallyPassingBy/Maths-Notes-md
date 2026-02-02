@@ -56,7 +56,7 @@ Let $\omega: I \to\Bbb S^1$ be the loop $\omega(s) = e^{2\pi i s}$ based at $1$,
 
 # Degree Theory for the Circle
 
-**Def:** If $\varphi: \Bbb S^1 \to \Bbb S^1$ is a continuous ma, we define the *degree of $\varphi$* to be the winding number of the loop $\varphi \circ \omega$. This integer is denoted by $\deg \varphi$. 
+**Def:** If $\varphi: \Bbb S^1 \to \Bbb S^1$ is a continuous map, we define the *degree of $\varphi$* to be the winding number of the loop $\varphi \circ \omega$. This integer is denoted by $\deg \varphi$. 
 
 For any continuous map $\varphi: \Bbb S^1 \to \Bbb S^1$, let $\rho_\varphi: \Bbb S^1 \to \Bbb S^1$ be the rotation that takes $\varphi(1) \mapsto 1$, namely $\rho_\varphi(z) = z/\varphi(1)$. 
 

@@ -4,15 +4,15 @@ tags:
   - Topology/AlgebraicTopology
 ---
 Subjects: [[Differential Geometry]], [[Algebraic Topology]]
-Links: [[Differential Forms on Smooth Manifolds]], [[The Exterior Derivative on Smooth Manifolds]], [[Quotient of Vector Spaces]], [[Homotopy]], [[Stokes's Theorem and Smooth Manifolds with Corners]], [[Fundamental Group of a Topological Space]]
+Links: [[Differential Forms on Smooth Manifolds]], [[The Exterior Derivative on Smooth Manifolds]], [[Quotient of Vector Spaces]], [[Homotopy]], [[Stokes's Theorem and Smooth Manifolds with Corners]], [[Fundamental Group of a Topological Space]], [[Chain Complexes and Cochain Complexes]]
 
+**Def:** Let $M$ be a smooth manifold with or without boundary or corners. The *de Rham cochain complex* of a $M$ is $$0 \to \Omega^0(M) \stackrel{d}{\to} \dots \stackrel{d}{\to} \Omega^p(M) \stackrel{d}{\to} \Omega^{p+1}(M) \stackrel{d}{\to}\cdots \stackrel{d}{\to}\Omega^n(M) \stackrel{d}{\to} 0 $$
 **Def:** Let $M$ be a smooth manifold with or without boundary or corners, and let $p$ be a nonnegative integer. Because $d: \Omega^p(M) \to \Omega^{p+1}(M)$ is linear, its kernel and image are vector spaces. We define $$\begin{align*}
 \mathcal Z^p(M) & := \ker(d: \Omega^p(M) \to \Omega^{p+1}(M)) = \{\text{closed }k\text{-form on }M\}, \\
 \mathcal B^p(M) & := \text{Im }(d: \Omega^p(M) \to \Omega^{p+1}(M)) = \{\text{exact }k\text{-form on }M\}.
 \end{align*}$$By convention, we consider $\Omega^p(M)$ to be the zero vector space when $p <0$ or $p > n = \dim M$, so that $\mathcal B^0(M) = 0$ and $\mathcal Z^n(M) = \Omega^n(M)$.
 
 The fact that every exact form implies that $\mathcal B^p(M) \le \mathcal Z^p(M)$. Thus, it makes sense to define the *de Rham cohomology group in degree $p$ of $M$*, or the *$p$th de Rham group of $M$* to be the quotient vector space$$H_\text{dR}^p (M) = \frac{\mathcal Z^p(M)}{\mathcal B^p(M)}. $$
-
 **Obs:** It is clear that $H_\text{dR}^p (M) = 0$ for $p <0$ or $p > \dim M$, because $\Omega^p(M) = 0$ in those cases. For $0\le p\le n$, the definition that $H_\text{dR}^p (M) = 0$ iff every closed $p$-form on $M$ is exact.
 
 **Def:** For any closed $p$-form $\omega$ on $M$, we let $[\omega]$ denote the equivalence class of $\omega$ in $H_\text{dR}^p (M)$, called the *cohomology class of $\omega$*. If $[\omega] = [\omega']$, we say that $\omega$ and $\omega'$ are *cohomologous.*
@@ -24,7 +24,13 @@ The fact that every exact form implies that $\mathcal B^p(M) \le \mathcal Z^p(M)
 **Functoriality:** For any integer $p$, the assignment $M \mapsto H_\text{dR}^p (M)$, $F\mapsto F^*$ is a contravariant functor from the category of smooth manifolds with or without boundary to the category of real vector spaces.
 
 **Diffeomorphism Invariance of de Rham Cohomology:** Diffeomorphic smooth manifolds with or without boundary have isomorphic de Rham cohomology groups. 
-#### Elementary Computations
+
+**Prop:** Let $M$ be a smooth manifold with or without boundary, and let $\omega\in \Omega^p(M)$, $\eta\in \Omega^q(M)$ be closed forms. Then the de Rham cohomology class of $\omega\wedge\eta$ depends only on the cohomology classes of $\omega$ and $\eta$.
+
+**Def:** We can define a bilinear map $\smile: H_\text{dR}^p(M) \times H_\text{dR}^q(M) \to H_\text{dR}^{p+q}(M)$, called the *cup product*, given by $[\omega]\smile[\eta] := [\omega\wedge \eta]$. 
+
+### Elementary Computations
+
 **Cohomology of Disjoint Unions:** Let $\{M_j\}$ be a countable collection of smooth $n$-manifolds with or without boundary, and let $M := \coprod_j M_j$. For each $p$, the inclusion map $\iota_j: M_j \hookrightarrow M$ induce an isomorphism from $H_\text{dR}^p (M)$ to the direct product space $\prod_j H_\text{dR}^p (M_j)$. Meaning that,  $$H_\text{dR}^p (M) \cong \prod_j H_\text{dR}^p (M_j).$$
 **Cohomology in Degree Zero:** If $M$ is a connected smooth manifold with or without boundary, then $H_\text{dR}^0 (M)$ is equal to the space of constant functions and its therefore $1$-dimensional. 
 
@@ -40,8 +46,6 @@ Instead of defining $h\omega$ only when $\omega$ is closed, it turns out to be f
 **Prop:** Suppose $M$ and $N$ are smooth manifolds with or without boundary. If $F, G:M \to N$ are smooth maps and there exists a homotopy operator between the pullback $F^*$ and $G^*$, then the induced cohomology maps $F^*, G^*: H_\text{dR}^p (N) \to H_\text{dR}^p (M)$ are the same.
 
 Let $M$ be a smooth manifold with or without boundary, and for each $t\in I$, let $i_t: M \to M\times I$ be the map $$i_t(x) :=(x, t). $$
-
-
 **Existence of a Homotopy Operator:** For any smooth manifold $M$ with or without boundary, there exists a homotopy operator between the two maps $i_0^*, i_1^*: \Omega^*(M \times I) \to \Omega^*(M)$. 
 
 **Prop:** Suppose $M$ and $N$ are smooth manifolds with or without boundary, and $F, G: M \to N$ are homotopic smooth maps. For every $p$, the induced cohomology maps $F^*, G^*: H_\text{dR}^p (N) \to H_\text{dR}^p (M)$ are equal. 

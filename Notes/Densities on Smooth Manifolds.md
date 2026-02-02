@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Integration on Riemannian Manifolds]], [[Densities on Vector Spaces]], [[Local and Global Sections of Vector Bundles]], [[Orientations of Smooth Manifolds]], [[Integration on Riemannian Manifolds]], [[Riemannian Volume Form on Smooth Manifolds]], [[Divergence Theorem in R2]], [[Gauss's Theorem and Divergence in R3]]
+Links: [[Integration on Riemannian Manifolds]], [[Densities on Vector Spaces]], [[Local and Global Sections of Vector Bundles]], [[Orientations of Smooth Manifolds]], [[Integration on Riemannian Manifolds]], [[Riemannian Volume Form on Smooth Manifolds]], [[Divergence Theorem in R2]], [[Gauss's Theorem and Divergence in R3]], [[Scalar Line Integral]], [[Scalar Surface Integral]]
 
 **Def:** Let $M$ be a smooth manifold with or without boundary. The set $$\mathcal DM := \coprod_{p\in M} \mathcal D(T_p M) $$is called the *density bundle of $M$*. Let $\pi: \mathcal D M \to M$ be the natural projection map taking each element fo ${\cal D}(T_p M)$ to $p$, $\mathcal D(T_p M)$ represents the vector spaces of densities of $T_p M.$
 

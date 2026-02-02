@@ -98,3 +98,7 @@ Let us that a surface presentation $\cal P$ is *oriented* if it has no twisted e
 **Prop:** A compact surface is orientable iff it is homeomorphic to the sphere or a connected sum one or more tori.
 
 **Def:** The connected sum of $n$ tori is also known as the *orientable surface of genus $n$*, and the connected sum of $n$ projective planes is called the *nonorientable surface of genus $n$*. By convention, the sphere is the *unique orientable surface of genus $0$*. 
+
+**[[Singular Homology of CW complexes|Singular Homology]], Orientable Case:** Let $M$ be a compact orientable surface of genus $n$. Then $M$ has a CW complex decomposition of $2n$ circles, and has a $1$-skeleton homeomorphic to a wedge sum of $2n$ circles. $H_1(M)$ is isomorphic to the free abelian group $\Bbb Z\{\alpha_1,\beta_1,\dots, \dots,\alpha_n,\beta_n\}$. We also see that $H_2(M) \cong \Bbb Z$. 
+
+**[[Singular Homology of CW complexes|Singular Homology]], Nonorientable case:** Let $M$ be a compact nonorientable surface of genus $n$. In this case $M$ has a CW decomposition with one $2$-cell, and with the wedge sum of $n$ circles for the $1$-skeleton. so $H_2(M) = 0$. 

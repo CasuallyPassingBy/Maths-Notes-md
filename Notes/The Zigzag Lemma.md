@@ -3,7 +3,7 @@ tags:
   - HomologicalAlgebra
 ---
 Subjects: [[Homological Algebra]]
-Links: [[Exact Sequences and Chain Complexes]]
+Links: [[Chain Complexes and Cochain Complexes]], [[Exact Sequences]]
 
 **Def:** Suppose $C_\bullet$, $D_\bullet$, and $E_\bullet$ are chain complexes. A sequence of chain maps $$\cdots \stackrel{}{\longrightarrow} C_\bullet \stackrel{F}{\longrightarrow}  D_\bullet\stackrel{G}{\longrightarrow}  E_\bullet \stackrel{}{\longrightarrow} \cdots$$is said to be *exact* if each of the sequences $$\cdots \stackrel{}{\longrightarrow} C_p \stackrel{F}{\longrightarrow}  D_p\stackrel{G}{\longrightarrow}  E_p \stackrel{}{\longrightarrow} \cdots  $$is exact.
 
@@ -29,3 +29,5 @@ H_p(E_\bullet') \arrow[r,"\partial_*"]& H_{p-1}(C_\bullet')
 \end{tikzcd}
 \end{document}
 ```
+
+**The Zigzag Lemma:** Given a short exact sequence of cochain complexes$$0 \longrightarrow A^\bullet \stackrel{F}{\longrightarrow} B^\bullet \stackrel{G}{\longrightarrow}  C^\bullet \stackrel{}{\longrightarrow} 0$$ for each $p$ there is a a linear map $$\delta: H^p(C^\bullet) \to H^{p+1}(A^\bullet),  $$called the *connecting homomorphism,* such that the following sequence is exact: $$\cdots \stackrel{\delta}{\longrightarrow}  H^p(A^\bullet) \stackrel{F^*}{\longrightarrow} H^p(B^\bullet) \stackrel{G^*}{\longrightarrow} H^p(C^\bullet) \stackrel{\delta}{\longrightarrow} H^{p+1}(A^\bullet) \stackrel{F^*}{\longrightarrow} \cdots.$$

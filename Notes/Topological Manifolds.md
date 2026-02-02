@@ -18,9 +18,11 @@ A manifold is said to have dimension $n$ if all of its connected components have
 
 **Prop:** Every open subset of an $n$-manifold is an $n$-manifold.
 
-$(*)$ **Invariance of Dimension:** If $m \neq n$, a nonempty topological space cannot be both an $m$-manifold and an $n$-manifold. ^ca2c82
+**Invariance of Dimension:** If $m \neq n$, a nonempty topological space cannot be both an $m$-manifold and an $n$-manifold. ^ca2c82
 
-We haven't proved that the dimension is indeed well defined. For that, we would need to know that for $n \neq m$ an open subset of $\Bbb R^n$ is not homeomorphic to an open subset of $\Bbb R^m$. This fact, called the invariance of dimension, is indeed true, but not in the scope right now.
+We need some machinery needed to prove this fact that is related to algebraic topology:
+- [[Singular Homology of Spheres]]
+- [[Mayer-Vietoris Theorem for de Rham Cohomology]]
 
 **Prop:** A separable metric space that is locally euclidean of dimension $n$ is an $n$-manifold.
 
@@ -74,7 +76,11 @@ Let us consider the closed $n$-dimensional *upper half-space* $\Bbb H^n \subsete
 \end{align*}$$
 **Def:** An $n$-dimension *topological manifold with boundary* is a second countable Hausdorff space $M$ in which every point has a neighbourhood homeomorphic to an open subset of $\Bbb H^n$. An open subset $U \subseteq M$ together with a homeomorphism $\varphi$ from $U$ to an open subset of $\Bbb H^n$ will be called a chart, just as in the case of manifolds. When it is necessary to make the distinction, we will call $(U, \varphi)$ an *interior chart* if $\varphi[U] \subseteq \text{Int}(\Bbb H^n)$, and *boundary chart* if $\varphi[U] \cap \partial \Bbb H^n \neq \varnothing$.
 
-$(*)$ **Invariance of Boundary:** If $M$ is a manifold without boundary, then a point of $M$ cannot be a boundary point and an interior point. Thus $\partial M$ and $\text{Int}(M)$ are disjoint whose union is $M$ ^cd5f36
+**Invariance of Boundary:** If $M$ is a manifold without boundary, then a point of $M$ cannot be a boundary point and an interior point. Thus $\partial M$ and $\text{Int}(M)$ are disjoint whose union is $M$ ^cd5f36
+
+We need some machinery needed to prove this fact that is related to algebraic topology:
+- [[Singular Homology of Spheres]]
+- [[Mayer-Vietoris Theorem for de Rham Cohomology]]
 
 **Prop:** Let $M$ be a topological $n$-manifold with boundary.
 - $\text{Int }M$ is an open subset of $M$ and a topological $n$-manifold without boundary.

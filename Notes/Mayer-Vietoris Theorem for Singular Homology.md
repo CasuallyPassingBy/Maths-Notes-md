@@ -9,9 +9,9 @@ Links: [[Singular Homology]], [[The Seifert-Van Kampen Theorem]], [[The Zigzag L
 
 **Def:** If $\alpha = A(v_0,\dots, v_p)$ is an affine singular $p$-simplex in some convex set $K \subseteq \Bbb R^m$ and $w$ is any point in $K$, we define an affine singular $(p+1)$-simplex $w*\alpha$ called the *cone on $\alpha$ from $w$* by $$w* \alpha := w* A(v_0,\dots, v_p) = A(w, v_0,\dots, v_p). $$In other words, $w*\alpha: \Delta_{p+1}\to K$ is the unique affine simplex that sends $e_0$ to $w$ and whose $0$th dace map is equal $\alpha$. We extend this operator to affine chains by linearity  $$w* \left(\sum_i n_i\alpha_i\right) := \sum_i n_i (w *\alpha_i).$$It is not defined for arbitrary singular chains.
 
-**Lemma:** If $c$ is an affine chain. then $$\partial(w*c) + w*\partial c= c. $$
+**Lemma:** If $c$ is an affine chain. then $$\partial(w*c) + w*\partial c= c,$$or equivalently, $$\partial(w*c) = c-w*\partial c.$$
 **Def:** For any $k$-simplex $\sigma = [v_0,\dots, v_k]\in \Bbb R^n$, we define the *barycentre of $\sigma$* to be the points $b_\sigma\in \text{Int }\sigma$ whose barycentric coordinates are all equal:  $$b_\sigma := \sum_{i = 0}^k \frac1{k+1} v_i. $$
-Noe we define an operator $s$ taking affine $p$-chains to affine $p$-chains, called the *singular subdivision operator*. For $p = 0$, simply set $s = \text{id}$. For $p>0$, assuming that $s$ has been defined for chains of dimensions less than $p$, for any affine $p$-simplex $\alpha: \Delta_p \to \Bbb R^n$ we set $$s\alpha := \alpha(b_p)* s (\partial \alpha),   $$where $b_p$ is the barycentre of $\Delta_p$, and extend linearly to affine chains. 
+Now we define an operator $s$ taking affine $p$-chains to affine $p$-chains, called the *singular subdivision operator*. For $p = 0$, simply set $s = \text{id}$. For $p>0$, assuming that $s$ has been defined for chains of dimensions less than $p$, for any affine $p$-simplex $\alpha: \Delta_p \to \Bbb R^n$ we set $$s\alpha := \alpha(b_p)* s (\partial \alpha),   $$where $b_p$ is the barycentre of $\Delta_p$, and extend linearly to affine chains. 
 
 **Lemma:** Suppose $\alpha: \Delta_p \to \Bbb R^n$ is an affine simplex that is a homeomorphism onto a $p$-simplex $\sigma\subseteq\Bbb R^n$. Let $\beta: \Delta_p \to\Bbb R^n$ be any one of the affine singular $p$-simplices that appear in the chains $s\alpha$. 
 - $\beta$ is an affine homeomorphism onto a $p$-simplex of the form $[b_p, \dots, b_0]$, where each $b_i$ is the barycentre of an $i$-dimensional face of $\sigma$.
@@ -23,6 +23,8 @@ Now we need to extend the singular subdivision operator to arbitrary, not necess
 - $s \circ f_\# = f_\#\circ s$ for any continuous map $f$.
 - $\partial \circ s = s\circ \partial$.
 - Given an open cover $\cal U$ of $X$ and any $c\in C_p(X)$, there exists $m$ such that $s^m c\in C^\mathcal U_p(X)$. 
+
+The proof of the third fact, actually needs the [[Compactness in Metric Spaces#Lebesgue Number Lemma|Lebesgue Number Lemma]]
 
 **Prop:** Suppose $\cal U$ is any open cover of $X$. The inclusion map $C^\mathcal U_\bullet (X)\to C_\bullet (X)$ induces a homology isomorphism $H^\mathcal U_p(X) \cong H_p(X)$ for all $p$. 
 
@@ -40,4 +42,5 @@ U \cap V\arrow[ur, "i"]\arrow[dr, "j"] && X \\
 \end{document}
 ```
 
-**Mayer-Vietoris Theorem:** Let  be a topological space, and let $U, V$ be open subsets of  whose union is $X$. Then for each $p$ there is a homomorphism $\partial_*: H_p(X) \to H_{o-1}(U \cap V)$ such that the following sequence is exact:  $$\cdots \stackrel{\partial_*}{\longrightarrow}H_p(U \cap V) \stackrel{i_* \oplus j_*}{\longrightarrow} H_p(U) \oplus H_p(V)\stackrel{k_*- l_*}{\longrightarrow}H_p(X)\stackrel{\partial_*}{\longrightarrow} H_{p-1}(U\cap V)\stackrel{i_* \oplus j_*}{\longrightarrow}\cdots$$
+**Mayer-Vietoris Theorem:** Let $X$ be a topological space, and let $U, V$ be open subsets of  whose union is $X$. Then for each $p$ there is a homomorphism $\partial_*: H_p(X) \to H_{p-1}(U \cap V)$ such that the following sequence is exact:  $$\cdots \stackrel{\partial_*}{\longrightarrow}H_p(U \cap V) \stackrel{i_* \oplus j_*}{\longrightarrow} H_p(U) \oplus H_p(V)\stackrel{k_*- l_*}{\longrightarrow}H_p(X)\stackrel{\partial_*}{\longrightarrow} H_{p-1}(U\cap V)\stackrel{i_* \oplus j_*}{\longrightarrow}\cdots$$
+**Prop:** Let $X_1,\dots, X_k$ be spaces with nondegenerate base points. For every $p > 0$, then $$H_p(X_1\vee \dots \vee X_k) = H_p(X_1) \oplus \dots \oplus H_p(X_k)$$
