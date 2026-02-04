@@ -46,7 +46,7 @@ We can actually give the element that generates the nontrivial homology group of
 
 **[[Topological Manifolds#^cd5f36|Invariance of the Topological Boundary]]:** Suppose $M$ is an $n$-manifold with boundary. A point of $M$ cannot be a boundary point and an interior point. 
 
-An analogous proofs exists using [[Singular Homology of Spheres|singular homology, and degree theory for spheres]]
+An analogous proofs exists using [[Singular Homology of Spheres|singular homology, and degree theory for spheres]].
 
 ### Compactly Supported de Rham Cohomology
 
@@ -70,6 +70,14 @@ We see that a smooth map doesn't pull back compactly supported forms to compactl
 
 **Top Cohomology, Nonorientable Case:** If $M$ is a connected nonorientable smooth $n$-manifold, then $H_c^n (M) = 0$ and $H_\text{dR}^n(M)=0$. 
 
+**Prop:** Let $M$ be a connected smooth manifold of dimension $n \ge 3$. For any $x\in M$ and $0\le p\le n-2$, the map $H_\text{dR}^p(M) \to H_\text{dR}^p(M\setminus\{x\})$ induced by the inclusion $M \setminus\{x\}\hookrightarrow M$ is an isomorphism. If in addition, $M$ is compact and orientable then it is true when $p = n-1$. 
+
+**Cor:** Let $M_1, M_2$ be connected smooth manifolds of dimension $n\ge 3$, and let $M_1\#M_2$ denote their smooth connected sum. Then $H_\text{dR}^p(M_1\#M_2) \cong H_\text{dR}^p(M_1) \oplus H_\text{dR}^p(M_2)$ for $0 < p <n-1$. If in addition, $M_1$ and $M_2$ are compact and orientable, then it is also true for $p = n-1$. 
+
+**Prop:** Suppose $M$ is a compact, connected, orientable, smooth $n$-manifolds.
+- There is a one-to-one correspondence between orientations of $M$ and orientations of the vector space $H_\text{dR}^n(M)$, under which the cohomology class of a smooth orientation form is an oriented basis for $H_\text{dR}^n(M)$.
+- Suppose $M$ and $N$ are smooth $n$-manifolds with given orientations. A diffeomorphism $F: M \to N$ is orientation preserving iff $F^*: H_\text{dR}^n(N) \to H_\text{dR}^n(M)$.
+
 ## Degree Theory
 
 **Degree of a Smooth Map:** Suppose $M$ and $N$ are compact, connected, oriented, smooth manifolds of dimension $n$, and $F: M \to N$ is a smooth map. There exists a unique integer $k$, called the *degree of $F$*, that satisfies both of the following conditions.
@@ -84,8 +92,12 @@ This type of degree is called the *Brouwer degree.*
 
 **Def:** The proposition above allows us to define the *degree of a continuous map* $F:M \to N$ between compact, connected, oriented, smooth $n$-manifolds, by letting $\deg F$ be the degree of any smooth map that is homotopic to $F$. 
 
+**Prop:** Suppose $M$ and $N$ are compact, connected, oriented, smooth $n$-manifolds and $F: M \to N$ is a smooth map. If $\int_M F^*\eta \ne 0$ for some $\eta\in\Omega^n(N)$, then $F$ is surjective. The converse is true, it is possible for $F$ to be surjective and $\int_M F^*\eta = 0$ for every $\eta\in \Omega^n(N)$. 
+
 **Th:** Suppose $N$ is a compact, connected, oriented smooth $n$-manifold and $X$ is a compact, oriented, smooth $(n+1)$-manifold with connected boundary. If $f: \partial X \to N$ is a continuous map that has a continuous extension to $X$, then $\deg f = 0$. 
 
 **Brouwer Fixed-Point Theorem:** Every continuous map from $\bar{\Bbb B}^n$ to itself has a fixed point.
 
 There's also a proof available using [[Singular Homology of Spheres#^374dde|singular homology of spheres]]. 
+
+**Th:** Suppose $M$ and $N$ are noncompact, connected, oriented smooth $n$-manifolds. Suppose $F: M \to N$ is a proper smooth map. There is a unique integer $k$ called the *degree of $F$* such that each smooth compactly supported $n$-form on $N$, $$\int_M F^*\omega = k\int_N \omega,  $$and for each regular value of $q$ of $F$, $$k = \sum_{x\in F^{-1}\{q\}} \text{sgn}(x),  $$where $\text{sgn}(x) = +1$ if $dF_x$ is orientation-preserving. and $-1$ if its orientation-reversing. 

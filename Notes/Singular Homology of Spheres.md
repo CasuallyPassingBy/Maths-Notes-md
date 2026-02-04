@@ -56,6 +56,6 @@ $(*)$ **Th:** Two continuous maps from $\Bbb S^n$ to itself are homotopic iff th
 
 **Prop:** If $f: \Bbb S^n \to \Bbb S^n$ is a continuous map that has a continuous extension $F: \bar{\Bbb B}^{n+1}\to \Bbb S^n$, then $f$ has degree $0$. 
 
-**Brouwer Fixed Point Theorem:** For each integer $n \ge 0$, every continuous ma $f: \bar{\Bbb B}^{n}\to \bar{\Bbb B}^{n}$ has a fixed point.  ^374dde
+**Brouwer Fixed Point Theorem:** For each integer $n \ge 0$, every continuous map $f: \bar{\Bbb B}^{n}\to \bar{\Bbb B}^{n}$ has a fixed point.  ^374dde
 
 **Prop:** If $n$ is even, then $\Bbb Z/2\Bbb Z$ is the only nontrivial group that can act freely on $\Bbb S^n$ by homeomorphism. 
