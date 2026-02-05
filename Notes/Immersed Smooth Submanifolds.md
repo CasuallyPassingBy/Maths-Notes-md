@@ -30,4 +30,4 @@ There are also various notions of submanifold in the topological category. If $M
 
 **Th:** Suppose $M$ is a smooth manifold and $S\subseteq M$ is an immersed submanifold. For the given topology on $S$, there is only one smooth structure making $S$ into an immersed submanifold. 
 
-**Th:** Suppose $M$ is a smooth manifold and $S\subseteq M$ is a weakly embedded submanifold. For the given topology on $S$, there is only one smooth structure making $S$ into a weakly embedded submanifold. 
+**Th:** Suppose $M$ is a smooth manifold and $S\subseteq M$ is a [[Smooth Maps on and Between Submanifolds#^089be9|weakly embedded]] submanifold. For the given topology on $S$, there is only one smooth structure making $S$ into a weakly embedded submanifold. 

@@ -4,5 +4,53 @@ tags:
   - Topology/AlgebraicTopology
 ---
 Subjects: [[Differential Geometry]], [[Algebraic Topology]]
-Links: [[The de Rham Cohomology Groups]], [[Mayer-Vietoris Theorem for de Rham Cohomology]], [[Smooth Singular Homology]], [[Singular Cohomology]], [[Stokes's Theorem and Smooth Manifolds with Corners]]
+Links: [[The de Rham Cohomology Groups]], [[Mayer-Vietoris Theorem for de Rham Cohomology]], [[Smooth Singular Homology]], [[Singular Cohomology]], [[Stokes's Theorem and Smooth Manifolds with Corners]], [[Integration of Differential Forms on Smooth Manifolds]], [[Singular Homology of CW complexes]]
 
+**Def:** Suppose $M$ is a smooth manifold, $\omega$ is a $p$-form on $M$, and $\sigma$ is a $p$-simplex in $M$. We define the *integral of $\omega$ over $\sigma$* to be$$\int_\sigma\omega = \int_{\Delta_p}\sigma^*\omega.  $$This makes sense because $\Delta_p$ is a smooth $p$-submanifold with corners embedded in $\Bbb R^p$, and it inherits the orientation of $\Bbb R^p$. If $c = \sum_{i = 1}^k c_i \sigma_i$is a smooth $p$-chain, the integral of $\omega$ over $c$ is defined as $$\int_c\omega = \sum_{i = 1}^k c_i\int_{\sigma_i}\omega. $$
+**Stokes's Theorem for Chains:** If $c$ is a smooth $p$-chain in a smooth manifold $M$, and $\omega$ is a smooth $(p-1)$-form on $M$, then $$\int_{\partial c}\omega = \int_cd\omega. $$
+
+**Def:** We can define a linear map $\ell: H_\text{dR}^p(M) \to H^p(M; \Bbb R)$, called the *de Rham isomorphism*. For any $[\omega]\in H_\text{dR}^p(M)$ and $[c]\in H_p(M) \cong H^\infty_p(M)$, we define$$\ell[\omega][c] := \int_{\widetilde c}\omega,  $$where $\widetilde c$ is any smooth $p$-cycle representing the homology class $[c]$. Clearly, $\ell[\omega][c+c'] = \ell[\omega][c]+ \ell[\omega][c']$, and the resulting homomorphism $\ell[\omega]: H_p(M) \to \Bbb R$ depends linearly on $\omega$. Thus $\ell[\omega]$ is a well-defined element of $\text{Hom}(H_p(M), \Bbb R) \cong H^p(M, \Bbb R)$. 
+
+**Naturality of the de Rham Homomorphism:** For a smooth manifold $M$ and a nonnegative integer $p$, let $\ell: H_\text{dR}^p(M) \to H^p(M:\Bbb R)$ denote the de Rham homomorphism.
+- If $F: M \to N$ is a smooth map, then the following diagram commutes. 
+```tikz
+\usepackage{tikz-cd}
+\usepackage{amsfonts, amsmath, amssymb}
+
+\begin{document}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
+H_\text{dR}^p(N)\arrow[r, "F^*"]\arrow[d, "\ell"'] & H_\text{dR}^p(M) \arrow[d, "\ell"]\\
+H^p(N; \Bbb R)\arrow[r, "F^*"'] & H^p(M; \Bbb R)
+\end{tikzcd}
+\end{document}
+```
+- If $M$ is a smooth manifold and $U, V$ are open subsets whose union is $M$ the the following diagram commutes, where $\delta$ and $\partial^*$ are the connecting homomorphisms of the Mayer-Vietoris sequences for de Rham and singular cohomology respectively, : 
+```tikz
+\usepackage{tikz-cd}
+\usepackage{amsfonts, amsmath, amssymb}
+
+\begin{document}
+\begin{tikzcd}[row sep=2cm, column sep=2cm]
+H_\text{dR}^{p-1}(U\cap V)\arrow[r, "\delta"]\arrow[d, "\ell"'] & H_\text{dR}^p(M) \arrow[d, "\ell"]\\
+H^{p-1}(U\cap V; \Bbb R)\arrow[r, "\partial^*"'] & H^p(M; \Bbb R)
+\end{tikzcd}
+\end{document}
+```
+
+**Def:** We say that $M$ is a *de Rham manifold* if the homomorphism $\ell: H_\text{dR}^p(M) \to H^p(M; \Bbb R)$ is an isomorphism for each $p$. 
+
+**Obs:** Since $\ell$ commutes with the cohomology maps induced by smooth maps, any manifold that is diffeomorphic to a de Rham manifold is also de Rham. 
+
+**Def:** If $M$ is a smooth manifold, let us calle an open cover $\{U_i\}$ of $M$ a *de Rham cover* if each subset $U_i$ is a de Rham manifold, and every finite intersection is de Rham. A de Rham cover that is also a basis for a topology of $M$ is called a *de Rham basis* for $M$. 
+
+**de Rham's Theorem:** For every smooth $M$ and nonnegative $p$, the de Rham homomorphism $\ell: H_\text{dR}^p(M) \to H^p(M; \Bbb R)$ is an isomorphism,i.e., every smooth manifold is a de Rham manifold. 
+
+This result expresses a deep connection between the topological and analytical properties of a manifold. If one has information about the topology of a manifold, the de Rham theorem can be used to draw conclusions about the solutions to differential equations such as $d\eta = \omega$ on $M$. Conversely, if one can prove that such solutions do or do not exists, then one can draw conclusions about the topology. 
+
+**Prop:** Let $M$ be a smooth $n$-manifold all of whose de Rham groups are finite dimensional. The *Euler characteristic of $M$* is the number $$\chi(M) = \sum_{p = 0}^n (-1)^p \dim  H_\text{dR}^p(M). $$We know that this number is homotopy invariant.
+
+**de Rham First Cohomology and the Fundamental Group:** Suppose $M$ is a connected smooth manifold. For each $q\in M$, the linear map $\Phi: H_\text{dR}^1 (M)\to \text{Hom}(\pi_1(M, q),\Bbb R)$ is an isomorphism. 
+
+**Prop:** Suppose $M$ is an oriented smooth manifold and $\omega$ is a closed $p$-form on $M$.
+- $\omega$ is exact iff the integral of $\omega$ over every smooth $p$-cycle is zero.
+- Suppose $H_p(M)$ is generated by the homology classes of finitely smooth $p$-cycles $\{c_1,\dots, c_m\}$. We define the real numbers called the *periods of $\omega$* with respect to the generators, by $$P_i(\omega) := \int_{c_i}\omega.  $$Then $\omega$ is exact iff all of its periods are zero. 

@@ -47,8 +47,6 @@ $(*)$ **Triangulation Theorem for $2$-Manifolds:** Every $2$-manifold is homeomo
 
 $(*)$ **Triangulation Theorem for $3$-Manifolds:** Every $3$-manifold is triangulable. 
 
-$(*)$ 
-
 $(*)$ **Manolescu's Theorem:** There exists non-triangulable $n$-dimensional topological manifolds for every $n \ge 5$.
 
 **Def:** Suppose $\sigma = [v_0, \dots, v_k]$ is a simplex in $\Bbb R^n$ and $w\in \Bbb R^n$. If $\{w, v_0, \dots, v_k\}$ is affinely independent set, we say that $w$ is *affinely independent of $\sigma$*. In this case the simplex $[w, v_0, \dots, v_k]$ is denoted by $w*\sigma$ and is called the *cone on $\sigma$*. More generally, suppose $K$ is finite Euclidean simplicial complex and $w$ is a point in $\Bbb R^n$ that is affinely independent of every simplex in $K$. We define the *cone on $K$* to be the following collection of simplices in $\Bbb R^n$:  $$w*K := K \cup\{w*\sigma\mid \sigma \in K\}. $$

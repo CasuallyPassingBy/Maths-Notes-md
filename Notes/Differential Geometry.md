@@ -82,3 +82,8 @@ This notes uses Einstein's summation convention.
 	- [[Densities on Smooth Manifolds]]
 - [[The de Rham Cohomology Groups]]
 	- [[Mayer-Vietoris Theorem for de Rham Cohomology]]
+		- [[Compactly Supported de Rham Cohomology]]
+	- [[Smooth Singular Homology]]
+		- [[The de Rham Theorem and Stokes's Theorem on Chains]]
+- [[Tangent Distributions and Involutivity on Smooth Manifolds]]
+	- [[Foliations on Smooth Manifolds]]

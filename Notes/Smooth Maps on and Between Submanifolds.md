@@ -15,7 +15,7 @@ We can strengthen this result using [[Flows and Flowouts on Manifold with Bounda
 
 **Cor:** Suppose $M$ is a smooth manifold without boundary, $S\subseteq M$ is an embedded submanifold. Then every smooth map $F:N \to M$ whose image is contained in $S$ is also a smooth as a map from $N$ to $S$.
 
-**Def:** If $M$ is a smooth manifold and $S\subseteq M$ is an immersed submanifold, then $S$ is said to be *weakly embedded in $M$* if every smooth map $F: N \to M$ whose image lies in $S$ is a smooth map from $N$ to $S$. Weakly embedded submanifolds are also called *initial submanifolds*. 
+**Def:** If $M$ is a smooth manifold and $S\subseteq M$ is an immersed submanifold, then $S$ is said to be *weakly embedded in $M$* if every smooth map $F: N \to M$ whose image lies in $S$ is a smooth map from $N$ to $S$. Weakly embedded submanifolds are also called *initial submanifolds*.  ^089be9
 
 **Obs:** We see that every embedded submanifold is weakly embedded. 
 

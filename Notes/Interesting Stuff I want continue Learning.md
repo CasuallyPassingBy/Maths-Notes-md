@@ -10,7 +10,6 @@
 
 ### Algebraic Topology 
 - [x] Introduction to Topological Manifolds by Lee 
-	- [ ] 
 - [ ] Algebraic Topology by Hatcher 
 
 ## Algebra
@@ -38,7 +37,7 @@
 		- [ ] Characters of finite groups
 		- [ ] Applications of Character Theory
 		- [ ] Algebraic Integers
-	- [ ] Rotman 
+	- [ ] Rotman Group Theory
 - Field Theory
 	- [x] Dummit & Foote
 	- [x] Zaldivar
@@ -53,7 +52,7 @@
 		- [ ] Some Diophantine Equations
 		- [ ] Farey Fractions
 		- [ ] Continued Fractions
-		- [ ] Observations about Primes distrubution
+		- [ ] Observations about Primes distribution
 		- [ ] Algebraic numbers
 		- [ ] Partition function
 		- [ ] Density of integers sequences
@@ -61,6 +60,7 @@
 -  Category Theory
 ## Analysis
 - Measure Theory
+	- [ ] Cohn
 	- [ ] Halmos
 		- [x] Sets and Classes
 		- [x] Measures and Outer Measures
@@ -95,8 +95,8 @@
 		- [x] Differential Forms
 		- [x] Orientations
 		- [x] Integration on Manifolds
-		- [ ] De Rham Cohomology
-		- [ ] The de Rham Theorem
+		- [x] De Rham Cohomology
+		- [x] The de Rham Theorem
 		- [ ] Distributions and Foliations
 		- [ ] The Exponential Map
 		- [ ] Quotient Manifolds
@@ -112,6 +112,7 @@
 # Differential Equations
 - Ordinary Differential Equations
 	- [ ] Birkhoff and Rota
+	- [ ] Boyce Di Prima
 
 ## Probability
 -  Stochastic Process 
@@ -222,3 +223,4 @@
 - [ ] Black Hole Simulation
 - [ ] Neural Networks with Nielsen
 - [ ] Upbringing of a Mage
+- [ ] Lennard–Jones liquid–vapor model

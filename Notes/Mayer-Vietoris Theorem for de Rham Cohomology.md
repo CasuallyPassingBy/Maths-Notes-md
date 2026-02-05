@@ -48,36 +48,6 @@ We can actually give the element that generates the nontrivial homology group of
 
 An analogous proofs exists using [[Singular Homology of Spheres|singular homology, and degree theory for spheres]].
 
-### Compactly Supported de Rham Cohomology
-
-**Poincaré Lemma with Compact Support:** Let $1 \le p \le n$, and suppose $\omega$ is a compactly supported closed $p$-form on $\Bbb R^n$. If $p =  n$, suppose in addition that $$\int_{\Bbb R^n}\omega = 0.$$Then there exists a compactly supported smooth $(p-1)$-form $\eta$ on $\Bbb R^n$ such that $d\eta = \omega$.
-
-**Def:** Let $M$ be a smooth manifold with or without boundary and let $\Omega_c^p(M)$ denote the vector space of compactly supported smooth $p$-forms on $M$. The *$p$th compactly supported de Rham cohomology group of $M$* is the quotient space $$H_c^p(M) := \frac{\ker (d : \Omega^p_c(M) \to \Omega^{p+1}_c(M))}{\text{Im}(d: \Omega^{p-1}_c (M) \to \Omega^p_c(M))}.  $$Of course, when $M$ is compact, this just reduces to ordinary de Rham cohomology. 
-
-**Compactly Supported Cohomology of $\Bbb R^n$:** For $n \ge 1$, the compactly supported de Rham cohomology groups of $\Bbb R^n$ are $$H_c^p(\Bbb R^n) \cong \begin{dcases}
-0 & 0\le p < n, \\
-\Bbb R  & p = n.
-\end{dcases}$$
-We see that a smooth map doesn't pull back compactly supported forms to compactly supported smooth ones. so it doesn't induce a map on compactly supported cohomology. A [[Proper Maps|proper map]] does pull back compactly supported forms to compactly supported ones, so for a proper smooth map $F: M \to N$ there is an induced cohomology map $F^*: H_c^p(N) \to H_c^p(M)$ for each $p$. 
-
-**Top Cohomology, Orientable Compact Support Case:** If $M$ is a connected oriented smooth $n$-manifold, then the integration map $I: H_c^n(M) \to \Bbb R$ is an isomorphism, so $H_c^n(M)$ is $1$-dimensional.
-
-**Top Cohomology, Orientable Compact Case:** If $M$ is a compact connected orientable smooth $n$-manifold, then $H_\text{dR}^n(M)$ is $1$-dimensional, and is spanned by the cohomology class of any smooth orientation form.
-
-**Top Cohomology, Orientable Noncompact Case:** If $M$ is a noncompact connected orientable smooth $n$-manifold, then $H_\text{dR}^n(M)=0$. 
-
-**Lemma:** Suppose $M$ is a connected nonorientable smooth manifold and $\widehat\pi: \widehat  M \to M$ is its orientation covering. For each $p$, the induced cohomology maps $\widehat\pi^*: H_\text{dR}^p(M) \to H_\text{dR}^p(\widehat M),$ and  $\widehat\pi^*: H_c^p(M)\to H_c^p(\widehat M)$ are injective.
-
-**Top Cohomology, Nonorientable Case:** If $M$ is a connected nonorientable smooth $n$-manifold, then $H_c^n (M) = 0$ and $H_\text{dR}^n(M)=0$. 
-
-**Prop:** Let $M$ be a connected smooth manifold of dimension $n \ge 3$. For any $x\in M$ and $0\le p\le n-2$, the map $H_\text{dR}^p(M) \to H_\text{dR}^p(M\setminus\{x\})$ induced by the inclusion $M \setminus\{x\}\hookrightarrow M$ is an isomorphism. If in addition, $M$ is compact and orientable then it is true when $p = n-1$. 
-
-**Cor:** Let $M_1, M_2$ be connected smooth manifolds of dimension $n\ge 3$, and let $M_1\#M_2$ denote their smooth connected sum. Then $H_\text{dR}^p(M_1\#M_2) \cong H_\text{dR}^p(M_1) \oplus H_\text{dR}^p(M_2)$ for $0 < p <n-1$. If in addition, $M_1$ and $M_2$ are compact and orientable, then it is also true for $p = n-1$. 
-
-**Prop:** Suppose $M$ is a compact, connected, orientable, smooth $n$-manifolds.
-- There is a one-to-one correspondence between orientations of $M$ and orientations of the vector space $H_\text{dR}^n(M)$, under which the cohomology class of a smooth orientation form is an oriented basis for $H_\text{dR}^n(M)$.
-- Suppose $M$ and $N$ are smooth $n$-manifolds with given orientations. A diffeomorphism $F: M \to N$ is orientation preserving iff $F^*: H_\text{dR}^n(N) \to H_\text{dR}^n(M)$.
-
 ## Degree Theory
 
 **Degree of a Smooth Map:** Suppose $M$ and $N$ are compact, connected, oriented, smooth manifolds of dimension $n$, and $F: M \to N$ is a smooth map. There exists a unique integer $k$, called the *degree of $F$*, that satisfies both of the following conditions.
