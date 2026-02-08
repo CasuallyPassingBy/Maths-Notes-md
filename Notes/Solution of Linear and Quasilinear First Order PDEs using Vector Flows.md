@@ -4,7 +4,7 @@ tags:
   - PartialDifferentialEquations
 ---
 Subjects: [[Differential Geometry]], [[Ordinary Differential Equations]], [[Partial Differential Equations]]
-Links: [[Integral Curves, Flows and Flowouts on Smooth Manifolds]]
+Links: [[Integral Curves, Flows and Flowouts on Smooth Manifolds]], [[First Order Partial Differential Equations]]
 
 One of the most powerful applications of the theory of flows is to [[partial differential equations]]. 
 
@@ -25,7 +25,7 @@ The first type of equation we will treat is a first-order *linear PDE*, which is
 We can represent the first $n$ terms on the left-hand side represent the action on $u$ of a smooth vector field $A\in {\frak X}(\Omega)$: $$A_x := \left.a^1\frac{\partial}{\partial x^1}\right\rvert_x +\dots + \left.a^n\frac{\partial}{\partial x^n}\right\rvert_x.$$In terms of $A$, we can write the linear PDE in the simple form $Au + bu = f$. In this form, it makes sense on any smooth manifold, and is no more difficult to solve in that generality, so we state our first theorem in that context. The Cauchy problem for $Au + bu =f$ with initial hypersurface $S$ is said to be *noncharacteristic* if $A$ is nowhere tangent to $S$.
 
 **The Linear First-Order Cauchy Problem:** Let $M$ be a smooth manifold. Suppose we are given an embedded hypersurface $S\subseteq M$, a smooth vector field $A\in {\frak X}(M)$ that is nowhere tangent to $S$, and functions $b, f\in {\cal C}^\infty(M)$ and $\varphi \in {\cal C}^\infty (S)$. Then for some neighbourhood $U$ of $S$ in $M$, there exists a unique solution $u\in \mathcal C^\infty(U)$ to the noncharacteristic Cauchy problem $$\begin{align*} Au + bu &= f, \\ u|_S &= \varphi. \end{align*}$$
-In this case the proof of the statement is actually the procedure to solving a linear PDE.
+In this case the proof of the statement is actually the procedure to solving a linear PDE. ^e5452a
 
 The [[Integral Curves, Flows and Flowouts on Smooth Manifolds#Flowout|flowout theorem]] gives us a neighbourhood $\cal O_\delta$ of $\{0\}\times S$ in $\Bbb R\times S$, a neighbourhood $U$ of $S$ in $M$, and a diffeomorphism $\Phi: {\cal O}_\delta \to U$ that satisfies $\Phi(0, p) = p$ for $p\in S$ and $\Phi_*(\partial/\partial t) = A$. Let us write $\hat u = u \circ \Phi$, $\hat f = f \circ \Phi$, and $\hat b = b \circ \Phi$. We see that $\partial \hat u/\partial t = (Au) \circ \Phi$. Thus $u\in \mathcal C^\infty(U)$ satisfies the original Cauchy problem iff $\hat u$ satisfies $$\begin{align*} \frac{\partial \hat u}{\partial t}(t, p) &= \hat f(t, p) - \hat b(t, p)\hat u(t, p), \qquad (t, p) \in \mathcal O_\delta, \\ \hat u(0, p) &= \varphi(p), \qquad p\in S.\end{align*}$$
 For each fixed $p\in S$, this is a linear first-order ODE initial value problem for $\hat u$ on the interval $-\delta (p) < t <\delta(p)$. We can solve it using [[Exact Differential Equations and Integrating Factors|integrating factors]], and get that if $$B (\tau, p ) := \int_0^\tau \hat b(\sigma, p)\, d\sigma,$$then $$\hat u(t, p) = e^{-B(t, p)} \left(\varphi(p) + \int_0^t \hat f(\tau,p) e^{B(\tau, p)}\,d\tau\right).$$This is a smooth function of $(t, p)$. Therefore $u = \hat u \circ \Phi^{-1}$ is the unique solution on $U$ to the original Cauchy problem. 

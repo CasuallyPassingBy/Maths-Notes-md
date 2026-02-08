@@ -4,7 +4,7 @@ tags:
   - LinearAlgebra
 ---
 Subjects: [[Differential Geometry]], [[Group Theory]]
-Links: [[Lie Groups]], [[Subgroups]], [[Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds]], [[Immersed Smooth Submanifolds]], [[Embedded Smooth Submanifolds]]
+Links: [[Lie Groups]], [[Subgroups]], [[Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds]], [[Immersed Smooth Submanifolds]], [[Embedded Smooth Submanifolds]], 
 
 **Def:** A *Lie subgroup* of Lie group $G$ is:
 - an abstract subgroup $H$
@@ -38,3 +38,14 @@ If $G$ is a Lie group and $H \le G$ is a Lie subgroup, we would like that the Li
 
 **Prop:** Suppose $H \le G$ is a Lie subgroup. The subset $\tilde{\mathfrak h} \subseteq \text{Lie}(G)$ define by $$\tilde{\frak h} := \{X \in \text{Lie}(G) \mid X_e \in T_e H\}$$is a Lie subalgebra of $\text{Lie}(G)$ canonically isomorphic to $\text{Lie}(H)$. 
 
+# Lie Subalgebras
+
+**Def:** A [[Tangent Distributions and Involutivity on Smooth Manifolds|distribution]] $D$ on a Lie group $G$ is said to be *left-invariant* if it is invariant under every left translation. Meaning that $dL_g[D] = D$ for each $g\in G$.
+
+**Lemma:** Let $G$ be a Lie group, if $\frak h$ is a Lie subalgebra of $\text{Lie}(G)$, then the subset $D = \bigcup_{g\in G}D_g \subseteq TG$, where  $$D_g := \{X_g\mid X \in \mathfrak h\}\subseteq T_g G, $$is a left invariant involutive distribution on $G$.
+
+**Lie Subgroups Are Weakly Embedded:** Every Lie subgroup is an integral manifold of an involutive distribution, and therefore is a weakly embedded submanifold.
+
+**The Lie Subgroup Associated with a Lie Subalgebra:** Suppose $G$ is a Lie group and $\frak g$ is its Lie algebra. If $\frak h$ is any Lie subalgebra of $\frak g$, then there is a unique connected Lie subgroup of $G$ whose Lie algebra is $\frak h$.
+
+The proof uses [[Foliations on Smooth Manifolds|foliations]]. 
