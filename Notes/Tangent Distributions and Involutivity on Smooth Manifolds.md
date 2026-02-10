@@ -50,6 +50,13 @@ Often a rank-$k$ distribution is described by specifying for each $p\in M$ a lin
 
 **Differential Ideal Criterion for Involutivity:** Let $M$ be a smooth manifold. A smooth distribution $D\subseteq TM$ is involutive off $\mathscr I(D)$ is a differential ideal in $\Omega^*(M)$. 
 
+**Prop:** Let $D$ be a smooth distribution of rank $k$ on a smooth $n$-manifold $M$, and suppose $\omega^1,\dots, \omega^{n-k}$ are smooth local defining forms for $D$ on an open subset $U\subseteq M$. Then $D$ is involutive on  $U$ iff the following holds for each $i = 1,\dots, k$:  $$d\omega^i \wedge \omega^1\wedge \dots \wedge \omega^k = 0. $$
+**Def:** Let $\omega$ be a smooth $1$-form on a smooth manifold $M$. A smooth positive function $\mu$ on an open subset $U\subseteq M$ is called an *integrating factor* for $\omega$ if $\mu\omega$ is exact on $U$.
+
+**Prop:** If $\omega$ is nowhere-vanishing, then $\omega$ admits an integrating factor in a neighbourhood of each point ff $d\omega \wedge\omega = 0$.
+
+**Cor:** If $\dim M = 2$, then every nonvanishing smooth $1$-form admits an integrating factor in a neighbourhood of each point. 
+
 # The Frobenius Theorem
 
 **Def:** Given a rank-$k$ distribution $D\subseteq TM$, let us say that a smooth coordinate chart $(U, \varphi)$ on $M$ is *flat fo $D$* if $\varphi[U]$ is a cube in $\Bbb R^n$, and at points of $U$, $D$ is spanned by the first $k$ coordinate vector fields $\partial/\partial x^1,\dots, \partial/\partial x^k$. In any such chart, each slice $x^{k+1} = c^{k+1},\dots, x^n = c^n$ for constants $c^{k+1},\dots, c^n$ is integral manifold of $D$. This is the nicest possible local situation of integral manifolds. We say that a distribution $D\subseteq TM$ is *completely integrable* if there exists a flat chart for $D$ in a neighbourhood of each point of $M$.

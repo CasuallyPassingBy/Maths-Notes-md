@@ -22,7 +22,6 @@ $$ \frac{\partial^2f}{\partial x_i \partial x_j}(x_0) = \frac{\partial^2f}{\part
 ### Stronger **Schwarz's theorem or Stronger Clairaut's theorem on equality of mixed partials**
 
 Let $f:D\subseteq\Bbb R^n\to\Bbb R$ a function such that:
-
 - $\partial_if, \partial_jf$ and $\partial_j\partial_if$ exists throughout $D$
 - $\partial_j\partial_if$ is continuous at $x_0\in D$
 
