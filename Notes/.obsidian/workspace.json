@@ -38,6 +38,21 @@
             }
           },
           {
+            "id": "a4b18411c9bb135a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Foliations on Smooth Manifolds.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Foliations on Smooth Manifolds"
+            }
+          },
+          {
             "id": "b1fdbb0e5e48dff2",
             "type": "leaf",
             "state": {
@@ -63,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -236,15 +251,15 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "7ca0e3fdc3e9399c",
+  "active": "a4b18411c9bb135a",
   "lastOpenFiles": [
-    "The Exterior Derivative on Smooth Manifolds.md",
     "Tangent Distributions and Involutivity on Smooth Manifolds.md",
+    "Foliations on Smooth Manifolds.md",
     "Overdetermined Systems of First Order Partial Differential Equations.md",
+    "The Exterior Derivative on Smooth Manifolds.md",
     "Higher Order Derivatives and Taylor's Theorem for Real valued functions of Rn.md",
     "Solution of Linear and Quasilinear First Order PDEs using Vector Flows.md",
     "Lie Subgroups.md",
-    "Foliations on Smooth Manifolds.md",
     "Differential Geometry.md",
     "Smooth Maps on and Between Submanifolds.md",
     "Immersed Smooth Submanifolds.md",

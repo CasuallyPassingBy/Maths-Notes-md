@@ -15,3 +15,13 @@ Links: [[Tangent Distributions and Involutivity on Smooth Manifolds]]
 **Def:** Suppose $M$ is a smooth manifold and $\Phi: M \to M$ is a diffeomorphism. A distribution $\Phi$ on $M$ is said to be *$\Phi$-invariant* if $d\Phi[D] = D$; or more precisely, if for each $x\in M$, $d\Phi_x[D_x] = D_{\Phi(x)}$. Similarly, a foliation $\cal F$ on $M$ is said to be *$\Phi$-invariant* if for each leaf $L$ of $\cal F$, the submanifold $\Phi[L]$ is also a lead on $\cal F$.
 
 **Prop:** Let $M$ be a smooth manifold and $\Phi: M \to M$ be a diffeomorphism. Suppose $D$ is an involutive distribution on $M$ and $\cal F$ is the foliation it determines. Then $D$ is $\Phi$-invariant iff $\cal F$ is $\Phi$-invariant. 
+
+**Prop:** Let $D$ be an involutive distribution on a smooth manifold $M$, and let $\gamma: J \to M$ be a smooth curve. Then the following statements are true.
+- If $H$ is an integral manifold of $D$, and the image of $\gamma$ is contained in $H$, then $\gamma'(t)$ is in $T_{\gamma(t)} H \subseteq T_{\gamma(t)} M$ for all $t\in J$.
+- Conversely, if $\gamma'(t)$ lies in $D$ for all $t$, then the image of $\gamma$ is contained in a single leaf of the foliation determined by $D$. 
+
+**Prop:** Suppose $M$ and $N$ are smooth manifolds and $F: M \to N$ is a smooth submersion. Then the connected components of the nonempty level sets of $F$ form a foliation of $M$. 
+
+**Prop:** Let $D$ be an involutive distribution on a smooth manifold $M$, and let $N$ be a connected integral manifold of $D$. If $N$ is a closed subset of $M$, then it is a maximal connected integral manifold and is therefore a leaf of the foliation determined by $D$. 
+
+**Prop:** Let $M$ and $N$ be smooth manifolds. Suppose $\cal F$ is a foliation on $M$ of codimension $k,$ and $\varphi: N \to M$ is a smooth map. If $\varphi$ is [[Transversailty Theorems for Smooth Manifolds|transverse]] to each leaf of $\cal F$, then there is a unique codimension-$k$ foliation $\varphi^* \cal F$ on $N$, called the *pullback foliation of $\cal F$*, such that $\varphi$ maps each leaf of $\varphi^* \cal F$ into a single lead of $\cal F$. 
