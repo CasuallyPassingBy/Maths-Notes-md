@@ -87,3 +87,5 @@ This notes uses Einstein's summation convention.
 		- [[The de Rham Theorem and Stokes's Theorem on Chains]]
 - [[Tangent Distributions and Involutivity on Smooth Manifolds]]
 	- [[Foliations on Smooth Manifolds]]
+- [[The Exponential Map on Lie Groups]]
+	- [[Infinitesimal Generators of Lie Group Actions]]

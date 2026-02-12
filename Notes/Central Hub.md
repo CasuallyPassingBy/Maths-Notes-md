@@ -54,7 +54,7 @@ We have all the subjects:
 - [[Electrodynamics]]
 - [[Quantum Mechanics]]
 ## Computer Science
-- [[Theory of computation]]
+- [[Theory of Computation]]
 - [[Algorithms and Data Structures]]
 - [[Artificial Intelligence]]
 	- [[Neural Networks]]

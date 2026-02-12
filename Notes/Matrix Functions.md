@@ -14,6 +14,12 @@ $$ f(x) = \sum_{k = 0}^\infty c_k x^k $$
 
 then we can define a matrix function $A \mapsto f(A)$ can be defined by substitting $x$ by a square matrix: powers become matrix powers, addition be additions become matrix sums and multiplications by coefficients become scalar multiplications. If the series converges for $|x| <r$, then the corresponding matrix series converges for matrices such that $\|A \| <r$ for some matrix norm that satisfies $\|AB\| \le \|A \|\|B\|$
 
+An example of such a metric is the *Frobenius norm on matrices*:
+
+**Def:** the vector space $\mathcal M_{m\times n}(\Bbb R)$ of $m\times n$ real matrices has a natural inner product, obtained by identifying with a point in $\Bbb R^{mn}$:  $$A \cdot B := \sum_{i, j} A^i_j B^i_j.$$This yields a norm on matrices, called the *Frobenius norm:* $$|A| := \sqrt{\sum_{i, j} (A^i_j)^2}. $$
+
+**Obs:** We see that for any matrices $A \in \mathcal M_{m\times n}(\Bbb R)$ and $B\in \mathcal M_{n\times k}(\Bbb R)$ it is true that $$|A B| \le |A| |B| $$
+
 We can see that the function evaluated on a Jordan block we get that
 $$ f \left( \begin{bmatrix}\lambda & 1       & 0      & \cdots & 0 \\0       & \lambda & 1      & \vdots & \vdots \\0       & 0       & \ddots & \ddots & \vdots \\\vdots  & \cdots  & \ddots & \lambda & 1 \\0       & \cdots  & \cdots & 0 & \lambda\end{bmatrix} \right) = \begin{bmatrix}\frac{f(\lambda)}{0!} & \frac{f'(\lambda)}{1!} & \frac{f''(\lambda)}{2!} & \cdots                & \frac{f^{(n)}(\lambda)}{n!} \\0                     & \frac{f(\lambda)}{0!}  & \frac{f'(\lambda)}{1!}  & \vdots                & \frac{f^{(n-1)}(\lambda)}{(n-1)!} \\0                     & 0                      & \ddots                  & \ddots                & \vdots \\\vdots                & \cdots                 & \ddots                  & \frac{f(\lambda)}{0!} & \frac{f'(\lambda)}{1!} \\0                     & \cdots                 & \cdots                  & 0                     & \frac{f(\lambda)}{0!}\end{bmatrix} $$
 Where the derivative is with respect to $\lambda$, and if there were a multiple, like $t$ multiplying the block, then successive powers of $t$ would accompany it
