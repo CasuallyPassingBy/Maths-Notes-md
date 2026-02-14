@@ -7,3 +7,5 @@ I am mainly relying on Sipser's book of 'Introduction to the Theory of Computati
 
 # Topics
 - [[Strings and Languages]]
+	- [[Finite Automaton]]
+	- [[Regular Expressions]]

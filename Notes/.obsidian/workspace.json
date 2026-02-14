@@ -4,97 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "b238fb927c20add4",
+        "id": "beba349978ef4863",
         "type": "tabs",
         "children": [
           {
-            "id": "7724dfe1ede9aac1",
+            "id": "7fdce0e9e2710642",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Strings and Languages.md",
+                "file": "Regular Expressions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Strings and Languages"
+              "title": "Regular Expressions"
             }
           },
           {
-            "id": "c7f9a28471f4ae60",
+            "id": "d24b80b41d8ea785",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Strings and Grammars.md",
+                "file": "Finite Automaton.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Strings and Grammars"
-            }
-          },
-          {
-            "id": "e9e28e1d78b0896b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Subgroups.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Lie Subgroups"
-            }
-          },
-          {
-            "id": "44a21b6470e0eee4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fundamental Group of the Circle.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Fundamental Group of the Circle"
-            }
-          },
-          {
-            "id": "40b7d6ee5d29e38a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matrix Functions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Matrix Functions"
-            }
-          },
-          {
-            "id": "9bfd4ad8fc3b1ccf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matrix Functions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Matrix Functions"
+              "title": "Finite Automaton"
             }
           }
         ]
@@ -270,18 +210,21 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "7724dfe1ede9aac1",
+  "active": "7fdce0e9e2710642",
   "lastOpenFiles": [
-    "Strings and Grammars.md",
-    "Strings and Languages.md",
+    "Regular Expressions.md",
+    "Finite Automaton.md",
+    "thingy.md",
     "Theory of Computation.md",
+    "Strings and Languages.md",
+    "Matrix Functions.md",
+    "Fundamental Group of the Circle.md",
+    "Lie Subgroups.md",
+    "Strings and Grammars.md",
     "Infinitesimal Generators of Lie Group Actions.md",
     "Differential Geometry.md",
     "The Exponential Map on Lie Groups.md",
-    "Lie Subgroups.md",
     "Pasted image 20260211174214.png",
-    "Fundamental Group of the Circle.md",
-    "Matrix Functions.md",
     "General Linear Group.md",
     "Overdetermined Systems of First Order Partial Differential Equations.md",
     "Tangent Distributions and Involutivity on Smooth Manifolds.md",
@@ -296,9 +239,6 @@
     "Lie Derivative.md",
     "Embeddings for Smooth Manifolds.md",
     "Embedded Smooth Submanifolds.md",
-    "Filters and Ideals.md",
-    "Rings and Algebras of Sets.md",
-    "Smooth Singular Homology.md",
     "Pasted image 20260128171751.png",
     "Pasted image 20251214203248.png",
     "Pasted image 20251214203014.png",
