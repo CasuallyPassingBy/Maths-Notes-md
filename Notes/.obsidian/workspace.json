@@ -23,21 +23,52 @@
             }
           },
           {
-            "id": "d24b80b41d8ea785",
+            "id": "11ee9903a3dd8cca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Finite Automaton.md",
+                "file": "Probability Theory.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Finite Automaton"
+              "title": "Probability Theory"
+            }
+          },
+          {
+            "id": "36ee72917e4a05cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Change of Variable Theorem for Random Variables.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Change of Variable Theorem for Random Variables"
+            }
+          },
+          {
+            "id": "d24b80b41d8ea785",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Strings and Languages.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Strings and Languages"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -210,13 +241,16 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "7fdce0e9e2710642",
+  "active": "d24b80b41d8ea785",
   "lastOpenFiles": [
-    "Regular Expressions.md",
-    "Finite Automaton.md",
-    "thingy.md",
     "Theory of Computation.md",
     "Strings and Languages.md",
+    "Regular Expressions.md",
+    "Finite Automaton.md",
+    "Beta Function.md",
+    "Change of Variable Theorem for Random Variables.md",
+    "Probability Theory.md",
+    "thingy.md",
     "Matrix Functions.md",
     "Fundamental Group of the Circle.md",
     "Lie Subgroups.md",
@@ -236,9 +270,6 @@
     "Immersed Smooth Submanifolds.md",
     "Interesting Stuff I want continue Learning.md",
     "Vector Fields on Smooth Manifolds.md",
-    "Lie Derivative.md",
-    "Embeddings for Smooth Manifolds.md",
-    "Embedded Smooth Submanifolds.md",
     "Pasted image 20260128171751.png",
     "Pasted image 20251214203248.png",
     "Pasted image 20251214203014.png",
