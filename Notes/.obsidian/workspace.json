@@ -8,67 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7fdce0e9e2710642",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Regular Expressions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Regular Expressions"
-            }
-          },
-          {
-            "id": "11ee9903a3dd8cca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability Theory.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Probability Theory"
-            }
-          },
-          {
-            "id": "36ee72917e4a05cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Change of Variable Theorem for Random Variables.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Change of Variable Theorem for Random Variables"
-            }
-          },
-          {
             "id": "d24b80b41d8ea785",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Strings and Languages.md",
+                "file": "DFA State Minimization.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Strings and Languages"
+              "title": "DFA State Minimization"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,13 +197,18 @@
   },
   "active": "d24b80b41d8ea785",
   "lastOpenFiles": [
+    "Journal/2026-02-15.md",
+    "DFA State Minimization.md",
     "Theory of Computation.md",
-    "Strings and Languages.md",
-    "Regular Expressions.md",
     "Finite Automaton.md",
-    "Beta Function.md",
-    "Change of Variable Theorem for Random Variables.md",
+    "Strings and Languages.md",
+    "Patterns and Regular Expressions.md",
+    "Untitled.md",
+    "Kleene Algebras.md",
+    "Operations and Structures.md",
     "Probability Theory.md",
+    "Change of Variable Theorem for Random Variables.md",
+    "Beta Function.md",
     "thingy.md",
     "Matrix Functions.md",
     "Fundamental Group of the Circle.md",
@@ -265,11 +224,6 @@
     "The Exterior Derivative on Smooth Manifolds.md",
     "Foliations on Smooth Manifolds.md",
     "Higher Order Derivatives and Taylor's Theorem for Real valued functions of Rn.md",
-    "Solution of Linear and Quasilinear First Order PDEs using Vector Flows.md",
-    "Smooth Maps on and Between Submanifolds.md",
-    "Immersed Smooth Submanifolds.md",
-    "Interesting Stuff I want continue Learning.md",
-    "Vector Fields on Smooth Manifolds.md",
     "Pasted image 20260128171751.png",
     "Pasted image 20251214203248.png",
     "Pasted image 20251214203014.png",
