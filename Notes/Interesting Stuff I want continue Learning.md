@@ -173,6 +173,64 @@
 	- [ ] Cormen
 -  Theory of Computation
 	- [ ] Sipser
+		- [x] Regular Languages
+		- [ ] Context Free Grammars
+		- [ ] The Church-Turing Thesis
+		- [ ] Decidability
+		- [ ] Reducibility
+		- [ ] Advanced Topics in Computability Theory
+		- [ ] Time Complexity
+		- [ ] Space Complexity
+		- [ ] Intractability
+		- [ ] Advanced topics in Complexity Theory
+	- [ ] Kozen
+		- [x] Finite Automata and Regular Sets
+		- [x] More on Regular Sets
+		- [x] Nondeterministic Finite Automata
+		- [x] The Subset Construction
+		- [x] Pattern Matching
+		- [x] Pattern Matching and Regular Expressions
+		- [x] Regular Expressions and Finite Automata
+		- [x] Kleen Algebra and Regular Expression
+		- [x] String Homomorphisms
+		- [x] Limitations of Finite Automata
+		- [x] Using the Pumping Lemma
+		- [x] DFA State Minimisation
+		- [x] A Minimisation Algorithm
+		- [x] Myhill-Nerode Relations
+		- [x] The Myhill-Nerode Theorem
+		- [x] Collapsing Nondeterministic Autoamata
+		- [x] Automata on Terms
+		- [x] The Myhill-Nerode Theorem for Term Automata
+		- [x] Two-Way Finite Automata
+		- [x] 2DFAs and Regular Sets
+		- [x] Context-Free Grammars and Languages
+		- [ ] Balanced Parantheses
+		- [x] Normal Forms
+		- [x] The Pumping Lemma for CFLs
+		- [ ] Pushdown Automata
+		- [ ] Final State Versus Empty Stack
+		- [ ] PDA and CFGs
+		- [ ] Simulating NPDAS by CFGs
+		- [ ] Deterministic Pushdown Automata
+		- [ ] Parsing
+		- [ ] The Cocke-Kasami-Younger Algorithm
+		- [ ] The Chomsky-Schützanberger Theorem
+		- [ ] Parikh's Theorem
+		- [ ] Turing Machines and Effective Computability
+		- [ ] More on Turing Machines
+		- [ ] Equivalent Models
+		- [ ] Universal Machines and Diagonalisation
+		- [ ] Reduction
+		- [ ] Rice's Theorem
+		- [ ] Undecidable Problems About CFLs
+		- [ ] Other Formalisms
+		- [ ] The $\lambda$-Calculus
+		- [ ] While Programs
+		- [ ] Beyond Undecidability
+		- [ ] Gödel Incompleteness Theorem
+		- [ ] Proof of the Incompleteness Theorem
+		- [ ] Gödel's Proof
 - Digital Circuits
 	- [ ] _Digital Design and Computer Architecture_ — Harris & Harris
 		- [ ] Chapter 1

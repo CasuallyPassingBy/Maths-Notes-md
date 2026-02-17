@@ -36,7 +36,6 @@ An $n$-ary relation $R$ in $A$ is a subset of $A^n$. We then write $R(a_0, \dots
 $$ \{\langle a_0, \dots, a_{n-1}\rangle\mid \forall i \in n[a_i \in A_i] \land P(a_0, a_1, \dots, a_{n-1}\} $$
 
 to denote the set
-
 $$ \left\{a \in \left.\prod_{i \in n}A_i \;\right|\; \text{for some }a_0, a_1, \dots, a_{n-1}, a = \langle a_0, \dots, a_{n-1}\rangle \land P(a_0, \dots, a_{n-1})\right\} $$
 
 A special case is the $0$-ary operation, since it is of the form $\{(\langle\rangle, a)\}$ where $a\in A$. We call them _********constants,********_ and we don’t distinguish them with elements of $A$.
@@ -46,14 +45,12 @@ $$
 since we need a [[Ordinal Numbers#The Transfinite Recursion Theorem, Parametric Version|stronger recursion Theorem]]
 ## Structure types
 
-A type $\tau$ is an ordered pair $(\langle r_0, \dots, r_{m-1}\rangle, \langle f_0, \dots, f_{n-1}\rangle)$ of finite sequences of natural numbers, where $r_i >0$ for all $i \in m$. A *****************_structure of type $\tau$_ is a triple
-
+A type $\tau$ is an ordered pair $(\langle r_0, \dots, r_{m-1}\rangle, \langle f_0, \dots, f_{n-1}\rangle)$ of finite sequences of natural numbers, where $r_i >0$ for all $i \in m$. A *structure of type $\tau$* is a triple
 $$ \frak{U} = (A, \langle R_0, \dots, R_{m-1}\rangle, \langle F_0, \dots, F_{n-1}\rangle) $$
 
-where $R_i$ is an $r_i$-ary relation on $A$ for each $i \in m$ and $F_j$ is an $f_j$-ary operation on $A$ for each $j \in n$, in addition we require $F_j \ne \varnothing$ if $f_j = 0$. We call $A$ the ********universe******** of the structure $\frak U$.
+where $R_i$ is an $r_i$-ary relation on $A$ for each $i \in m$ and $F_j$ is an $f_j$-ary operation on $A$ for each $j \in n$, in addition we require $F_j \ne \varnothing$ if $f_j = 0$. We call $A$ the *universe* of the structure $\frak U$.
 
 **Def:** An *isomorphism* between structures $\frak U$ and $\frak U' = (A', \langle R'_0, \dots, R'_{m-1}\rangle, \langle F'_0, \dots, F'_{n-1}\rangle)$ of the same type $\tau$ is a bijection from $A$ into $A'$ such that
-
 - $R_i(a_0, \dots a_{r_i -1})$ iff $R'_i(h(a_0), \dots, h(a_{r_i-1}))$ holds for all $a_0, \dots, a_{r_i-1}\in A$ and ${i \in m}$
 - $h(F_j(a_0, \dots, a_{f_j-1})) = F_j(h(a_0), \dots, h(a_{f_j-1}))$ for all $a_0, \dots, a_{f_j-1}\in A$ and ${j \in n}$, provided that either side is defined.
 
@@ -66,14 +63,12 @@ Given a structure $\frak U$, we can consider the [[automorphism group]].
 $$ \overline C = \bigcap \{ B \subseteq A \mid C \subseteq B \text{ and } B \text{ is closed}\} $$
 
 **Th:** Let $\mathfrak{U} = (A, \langle R_0, \dots, R_{m-1}\rangle, \langle F_0, \dots, F_{n-1}\rangle)$ be a structure and $C \subseteq A$. If the sequence $\langle C_i \mid i \in \Bbb N\rangle$ is defined recursively
-
 $$ 
 \begin{align*}C_0 &= C \\ C_{i+1} &= C_i \cup \left(\bigcup_{j \in n}F_j [C_i^{f_j}]\right) \end{align*}$$
 
 then $\overline C = \bigcup_{i \in\Bbb N} C_i$.
 
 ********Th:******** Let $P(x)$ be a property. Assume that
-
 - $P(a)$ holds for all $a \in C$
 - For each $j \in n$ if $P(a_0), \dots P(a_{f_j-1})$ hold and $F(a_0, \dots, a_{f_j-1})$ is well defined then ${P(F(a_0, \dots, a_{f_j-1}) )}$ holds
 
