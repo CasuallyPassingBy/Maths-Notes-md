@@ -11,7 +11,7 @@ A *string* over $\Sigma$ is any finite-length sequence of elements if $\Sigma$. 
 
 There is a unique string of length $0$ over $\Sigma$ called the *null string* or *empty string* and denoted $\varepsilon$. Thus $|\varepsilon| = 0$.
 
-We write $a^n $ for a string of $a$'s of length $n$. Formally, $a^n$ is defined inductively: $$\begin{align*}a^0 &:= \varepsilon\\ a^{n+1} &:= a^n a, \qquad n <\omega.\end{align*}$$
+We write $a^n$ for a string of $a$'s of length $n$. Formally, $a^n$ is defined inductively: $$\begin{align*}a^0 &:= \varepsilon\\ a^{n+1} &:= a^n a, \qquad n <\omega.\end{align*}$$
 The set of all string over the alphabet $\Sigma$ is denoted by $\Sigma^*$.
 
 By convention, we take $\varnothing^* = \{\varepsilon\}$. 
@@ -64,6 +64,7 @@ We can extend the definition of the reverse of a word, to languages, to get that
 
 **Prop:** Let $L$ be any language. Then $\equiv_L$ is an equivalence relation. 
 
+**Prop:** The class of [[Context-Free Grammars|context-free languages]] is closed under the regular operations, union, concatenation, star and reversal. Note that the class of context-free languages are neither closed under intersection nor complementation. 
 
 # Homomorphism
 

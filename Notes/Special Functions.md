@@ -15,3 +15,4 @@ tags:
 - [[Airy Functions]]
 - [[Elliptic Integrals]]
 - [[Hermite-Gaussian Functions]]
+- [[Thue-Morton Sequence]]

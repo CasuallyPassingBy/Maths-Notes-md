@@ -146,6 +146,13 @@
         "a": 1,
         "rgb": 16746496
       }
+    },
+    {
+      "query": "tag:#ComputationTheory  ",
+      "color": {
+        "a": 1,
+        "rgb": 4598286
+      }
     }
   ],
   "collapse-display": true,
@@ -158,6 +165,6 @@
   "repelStrength": 15.1041666666667,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.04834273743440877,
-  "close": false
+  "scale": 0.0500384537273166,
+  "close": true
 }

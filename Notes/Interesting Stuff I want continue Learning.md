@@ -102,7 +102,7 @@
 		- [ ] Quotient Manifolds
 		- [ ] Symplectic Manifolds
 - Riemannian Geometry
-	- [ ] Lee
+	- [ ] Introduction to Riemannian Manifolds by Lee
 -  Functional Analysis
 	- [ ] Megginson
 -  Kurzweil-Henstock Integral
@@ -174,7 +174,7 @@
 -  Theory of Computation
 	- [ ] Sipser
 		- [x] Regular Languages
-		- [ ] Context Free Grammars
+		- [x] Context Free Grammars
 		- [ ] The Church-Turing Thesis
 		- [ ] Decidability
 		- [ ] Reducibility
@@ -205,11 +205,11 @@
 		- [x] Two-Way Finite Automata
 		- [x] 2DFAs and Regular Sets
 		- [x] Context-Free Grammars and Languages
-		- [ ] Balanced Parantheses
+		- [x] Balanced Parantheses
 		- [x] Normal Forms
 		- [x] The Pumping Lemma for CFLs
-		- [ ] Pushdown Automata
-		- [ ] Final State Versus Empty Stack
+		- [x] Pushdown Automata
+		- [x] Final State Versus Empty Stack
 		- [ ] PDA and CFGs
 		- [ ] Simulating NPDAS by CFGs
 		- [ ] Deterministic Pushdown Automata

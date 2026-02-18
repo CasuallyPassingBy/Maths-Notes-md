@@ -14,6 +14,6 @@ I am mainly relying on Kozen's book of 'Automata and Computability'
 	- [[Automaton State Minimisation]]
 	- [[Myhill-Nerode Theorem]]
 	- [[Two-Way Finite Automata]]
-- [[Context-Free Grammars and Parsing]]
+- [[Context-Free Grammars]]
 	- [[Pushdown Automata]]
 	- 

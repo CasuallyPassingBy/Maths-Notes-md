@@ -23,18 +23,43 @@
             }
           },
           {
+            "id": "992f10fb925e0996",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Context-Free Grammars.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Context-Free Grammars"
+            }
+          },
+          {
             "id": "4436406a9d6c183f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Interesting Stuff I want continue Learning.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Interesting Stuff I want continue Learning"
+            }
+          },
+          {
+            "id": "c426b4203b08332f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -176,7 +201,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Singular Homology of Spheres.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -186,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Singular Homology of Spheres"
+              "title": "Backlinks"
             }
           }
         ],
@@ -212,32 +236,32 @@
   },
   "active": "d24b80b41d8ea785",
   "lastOpenFiles": [
-    "Interesting Stuff I want continue Learning.md",
+    "Context-Free Grammars.md",
     "Pushdown Automata.md",
-    "Context-Free Grammars and Parsing.md",
-    "Strings and Grammars.md",
+    "Interesting Stuff I want continue Learning.md",
+    "Strings and Languages.md",
     "Theory of Computation.md",
     "Two-Way Finite Automata.md",
+    "Almost finished projects.md",
+    "Automaton State Minimisation.md",
+    "context-free languages.md",
+    "Special Functions.md",
+    "Topological Manifolds.md",
+    "Paracompacteness.md",
+    "Topological Developability.md",
+    "Metrization Theorems.md",
+    "Strings and Grammars.md",
     "Automatas on Terms.md",
     "Untitled.md",
     "Operations and Structures.md",
     "Myhill-Nerode Theorem.md",
-    "Automaton State Minimisation.md",
     "Journal/2026-02-15.md",
     "Finite Automaton.md",
-    "Strings and Languages.md",
     "Patterns and Regular Expressions.md",
     "Kleene Algebras.md",
     "Probability Theory.md",
     "Change of Variable Theorem for Random Variables.md",
     "Beta Function.md",
-    "thingy.md",
-    "Matrix Functions.md",
-    "Fundamental Group of the Circle.md",
-    "Lie Subgroups.md",
-    "Infinitesimal Generators of Lie Group Actions.md",
-    "Differential Geometry.md",
-    "The Exponential Map on Lie Groups.md",
     "Pasted image 20260211174214.png",
     "Pasted image 20260128171751.png",
     "Pasted image 20251214203248.png",
