@@ -15,5 +15,6 @@ I am mainly relying on Kozen's book of 'Automata and Computability'
 	- [[Myhill-Nerode Theorem]]
 	- [[Two-Way Finite Automata]]
 - [[Context-Free Grammars]]
-	- [[Pushdown Automata]]
-	- 
+	- [[Nondeterministic Pushdown Automata]]
+		- [[Deterministic Pushdown Automata]]
+	- [[Parsing with Context-Free Grammars]]

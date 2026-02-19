@@ -3,17 +3,17 @@ tags:
   - ComputationTheory
 ---
 Subjects: [[Theory of Computation]]
-Links: [[Strings and Languages]], [[Pushdown Automata]]
+Links: [[Strings and Languages]], [[Nondeterministic Pushdown Automata]], [[Deterministic Pushdown Automata]]
 
 **Def:** A *context-free grammar* ($\sf CFG$) is $4$-tuple $(V, \Sigma, R, S)$ where
 - $V$ is a finite set called the *variables*,
 - $\Sigma$ is a finite set, disjoint from $V$, called the *terminals*,
-- $R\subseteq N \times (N \times \Sigma)^*$ is a finite set of *rules* or *productions*, with each rule being a variable and a string of variables and terminals, and
+- $R\subseteq N \times (N \cup \Sigma)^*$ is a finite set of *rules* or *productions*, with each rule being a variable and a string of variables and terminals, and
 - $S\in V$ is the start variable. 
 
 We use capital letters for nonterminals and lowercase letters for terminals. Strings $(N \cup \Sigma)^*$ are denoted using Greek letters. Instead of writing productions as $(A,\alpha)$, we write $A→ \alpha$. We often use the vertical bar $|$ to abbreviate a set of productions with the same left-hand side. 
 
-If $\alpha,\beta\in (N\cup\Sigma)^*$, we say that $\beta$ is *derivable from $\alpha$ in one step* and write $$\alpha \xrightarrow[\,G\,]{\,1\,} \beta  $$if $\beta$ can be obtained from $\alpha$ by replacing some occurrences of a nonterminal $A$ in $\alpha$ with $\gamma,$ where $A→\gamma$ is in $R$; that is if there exists $\alpha_1, \alpha_2\in (N\cup\Sigma)^*$ and production $A→\gamma$ such that $$\alpha = \alpha_1 A \alpha  \qquad \text{and} \qquad \beta = \alpha_1\gamma\alpha_2.  $$Let $\xrightarrow[\,G\,]{\,*\,}$ be the reflexive transitive closure of the relation $\xrightarrow[\, G\,]{1}$; that is define
+If $\alpha,\beta\in (N\cup\Sigma)^*$, we say that $\beta$ is *derivable from $\alpha$ in one step* and write $$\alpha \xrightarrow[\,G\,]{\,1\,} \beta  $$if $\beta$ can be obtained from $\alpha$ by replacing some occurrences of a nonterminal $A$ in $\alpha$ with $\gamma,$ where $A→\gamma$ is in $R$; that is if there exists $\alpha_1, \alpha_2\in (N\cup\Sigma)^*$ and production $A→\gamma$ such that $$\alpha = \alpha_1 A \alpha_2  \qquad \text{and} \qquad \beta = \alpha_1\gamma\alpha_2.  $$Let $\xrightarrow[\,G\,]{\,*\,}$ be the reflexive transitive closure of the relation $\xrightarrow[\, G\,]{1}$; that is define
 - $\alpha \xrightarrow[\, G\, ]{\,0\,}\alpha$  for any $\alpha$,
 - $\alpha \xrightarrow[\, G\, ]{\,n+1\,} \beta$ if there exists $\gamma$ such that $\alpha \xrightarrow[\, G\, ]{\,n\,} \gamma$ and $\gamma \xrightarrow[\, G\, ]{\,1\,} \beta$, and
 - $\alpha \xrightarrow[\, G\, ]{\,*\,}\beta$ if there is some $n \ge 0$ such that $\alpha \xrightarrow[\, G\, ]{\,n\,}\beta$. 
@@ -27,15 +27,19 @@ A derivation of a string $w$ in a grammar $G$ is a *leftmost derivation* if at e
 
 Sometimes when we have ambiguous grammar we can find an unambiguous grammar that generates the same language. Some context-free languages, however, can be generated only by ambiguous grammars. Such languages are called *inherently ambiguous*. 
 
+**Example:** 
+- An example of an ambiguous grammar: $$E→ E+E \mid E*E \mid (E) \mid \text{id}.$$
+- An example of a inherently ambiguous language: $$\{a^i b^j c^k \mid i = j \lor j = k\}. $$
+
 # Normal Forms
 
-**Def:** A context-free grammar is in *Chomsky normal form*, $\sf CNF$, if every rule is of the form $$\begin{align*} A &\to BC \\ A &\to a\end{align*}    $$where $a$ is any terminal and $A, B$ and $C$ are any variables, except that $B$ and $C$ may not be the start variable. A *Greiback normal form*, $\sf GNF$, if all productions are of the form $$A \to aB_1B_2\cdots B_k  $$for some $k \ge 0$, where $A, B_1,\dots, B_k\in N$ and $a\in\Sigma$. 
+**Def:** A context-free grammar is in *Chomsky normal form*, $\sf CNF$, if every rule is of the form $$\begin{align*} A &\to BC \\ A &\to a\end{align*}    $$where $a$ is any terminal and $A, B$ and $C$ are any variables. No $\varepsilon$-rules except possibly $S\to \varepsilon$.  A *Greiback normal form*, $\sf GNF$, if all productions are of the form $$A \to aB_1B_2\cdots B_k  $$for some $k \ge 0$, where $A, B_1,\dots, B_k\in N$ and $a\in\Sigma$. No $\varepsilon$-rules except possibly $S\to \varepsilon$
 
 **Def:** We call an $\varepsilon$-production to be of the form $A \to \varepsilon$, and a *unit production* if $A\to B$. 
 
-**Lemma:** For any $\sf CFG$ $G = (V, \Sigma, R, S)$, there is a $\sf CFG$ $G'$ with no $\varepsilon$- or unit productions such that $L(G') = L(G)\setminus\{\varepsilon\}$.
+**Lemma:** For any $\sf CFG$ $G = (V, \Sigma, R, S)$, there is a $\sf CFG$ $G'$ with no $\varepsilon$- or unit productions such that $L(G') = L(G)$.
 
-**Th:** For any $\sf CFG$ $G$, there is a $\sf CFG$ G'$ in Chomsky normal form and a $\sf CFG$ $G''$ in Greibach normal form such that$$L(G'') =L(G') = L(G)\setminus\{\varepsilon\}. $$
+**Th:** For any $\sf CFG$ $G$, there is a $\sf CFG$ G'$ in Chomsky normal form and a $\sf CFG$ $G''$ in Greibach normal form such that$$L(G'') =L(G') = L(G). $$
 Just as is the case in many proofs in theoretical computer science, the proof gives us an algorithm.
 
 **Algorithm:** 
@@ -48,12 +52,20 @@ Just as is the case in many proofs in theoretical computer science, the proof gi
 
 **Prop:** If $G$ is a $\sf CFG$ in $\sf CNF$, then for any string $w\in L(G)$ of length $n\ge 1$, exactly $2n-1$ are required for any derivation of $w$. 
 
+**Def:** A *parse tree* or *derivation tree* for $G$ is a finite ordered rooted tree such that
+- The root is labelled $S$.
+- Every internal node $A\in V$ has children labelled $X_1,\dots, X_k$ such that $A → X_1\cdots X_k\in R$.
+- Leaves are labelled by terminals or possible $\varepsilon$.
+- Reading the leaves left-to-right yields the string $w$. 
+
+A $\sf CFG$ defines a set of parse trees $T(G)$ and a yield function $$\text{yield}: T(G) \to \Sigma^*  $$such that $$L(G) = \{\text{yield}(t) \mid t\in T(G)\}.  $$
+
 **Pumping Lemma for $\sf CFL$s:** If $A$ is a context-free language, then there is a number $p$, then pumping length, where, if $s$ is any string in $A$ of length at least $p$, then $s$ may be divided into five pieces $s = uvxyz$ satisfying the conditions
 - for each $i \ge 0$, $uv^ixy^iz\in A$,
 - $|vy| > 0$, and
 - $|vxy| \le p$. 
 
-**Prop:** The class of context-free languages is closed under the regular operations, union, concatenation, star and reversal. Note that the class of context-free languages are neither closed under intersection nor complementation. 
+**Prop:** The class of context-free languages is closed under the regular operations, union, concatenation, star and reversal. Note that the class of context-free languages are neither closed under intersection nor complements. 
 
 **Prop:** Let $C$ be a context-free language and $R$ be a regular language. Then $C\cap R$ is context-free. 
 
@@ -62,3 +74,54 @@ Just as is the case in many proofs in theoretical computer science, the proof gi
 **Def:** If $A$ and $B$ are languages, define $A \diamond B:= \{xy \mid x\in A\land \in B\land |x| = |y|\}.$
 
 **Prop:** If $A$ and $B$ are context-free languages then so is $A\diamond B$. 
+
+**Th:** A language is context-free iff some pushdown automaton recognises it.
+
+# Balanced Parentheses and the Chomsky-Schützanberger Theorem
+
+Intuitively, a string of parentheses is *balanced* if each left parenthesis has a matching right parenthesis and the matched pairs are well nested. The set $\text{PAREN}$ of balanced strings of parentheses $[ \;]$ is the prototypical $\sf CFL$ and plays a pivotal role in the theory of $\sf CFL$s.
+
+**Def:** To avoid confusing notation, we'll use 
+- $L(x) := \#[(x)$, the number of left parentheses in $x$,
+- $R(x) := \#](x)$, the number of right parentheses in $x$.
+
+**Def:** We will define a string $x$ of parentheses to be *balanced* iff
+- $L(x) = R(x)$, and
+- for all prefixes $y$ of $x$, $L(y) \ge R(y)$.
+
+**Th:** Let $G$ be the $\sf CFG$ $$S \to [S] \mid SS\mid \varepsilon, $$then $$L(G) = \{x\in \{[,\; ]\}^* \mid L(x) = R(x)\land \text{for all prefixes $y$ of }x, L(y) \ge R(y)\}.$$
+
+Let $\text{PAREN}_n$ denote the language consisting of all balanced strings of parenthesis of $n$ distinct types. This language is generated by the grammar $$S\to [_1 S]_1 \mid [_2 S]_2 \mid \cdots \mid [_n S ]_n \mid SS \mid \varepsilon. $$The languages $\text{PAREN}_n$ are sometimes called *Dyck languages* in the literature.
+
+**Chomsky-Schützanberger Theorem:** Every context-free language is a homomorphic image of the intersection of a parenthesis language and a regular set. In other words, for every $\sf CFL$ $A$, there is an $n \ge 0$, a regular set and a homomorphism $h$ such that $$A = h[\text{PAREN}_n \cap R].$$
+Let $G = (V, \Sigma, R, S)$ be an arbitrary $\sf CFG$ in Chomsky normal form. Denote productions in $R$ by $\pi,\rho,\sigma,\dots$,  For $\pi\in R$, we define$$\pi':= \begin{cases} 
+A \to [^1_\pi B]^1_\pi [^2_\pi C]^2_\pi & \text{if } \pi = A \to BC,\\
+A \to [^1_\pi\;\; ]^1_\pi [^2_\pi\;\; ]^2_\pi & \text{if }A \to a.
+\end{cases}$$and define the grammar $G' = (N, \Gamma, R', S)$ with
+- $\Gamma := \{[^1_\pi\;\; ]^1_\pi, [^2_\pi\;\; ]^2_\pi\mid \pi\in R\}$,
+- $R' := \{\pi' \mid \pi\in R\}$. 
+
+The idea here is that a balanced string of parentheses generated by $G'$ encodes a corresponding string generated by $G$ along with its parse tree.
+
+Let $\text{PAREN}_\Gamma$ be the parenthesis language over parentheses $\Gamma$. Surely $L(G') \subseteq\text{PAREN}_\Gamma.$ However, not all strings in $\text{PAREN}_\Gamma$ are generated by $G'$. Here are some properties satisfied by strings in $L(G')$ that are not satisfied by strings in $\text{PAREN}_\Gamma$ in general: 
+1. Every $]_\pi^1$ is immediately followed by a $[_\pi^2$.
+2. No $]_\pi^2$ is immediately followed by a left parenthesis.
+3. if $\pi = A \to BC$, then every $[_\pi^1$ is immediately followed by $[_\rho^1$ for some $\rho\in R$ with left-hand side $V$, and every $[_\pi^2$ is immediately followed by a $[_\sigma^1$ for some $\sigma\in R$ with left-hand side $C$.
+4. If $\pi = A \to a$, then every $[_\pi^1$ is immediately followed by $]_\pi^2$ and every $[_\pi^2$ is immediately followed by $]_\pi^2$.
+5. If $A \xrightarrow[\,G'\,]{*} x$, then the strings begin with $[_\pi^x$ for some $\pi\in P$ with left-hand side $A$.
+
+Each of the properties $1.$ to $5.$ can be described by a regular expression; thus the sets $$R_A := \{x\in \Gamma^* \mid x \text{satisfies 1. through 5.}\}$$are regular. 
+
+**Claim:** $A \xrightarrow[\,G'\,]{*} x$ iff $x\in \text{PAREN}_\Gamma\cap R_A$. 
+
+# Decision Problems for $\sf CFG$s
+
+Let $G$ be a $\sf CFG$.
+**Decidable Problems:**
+- *Membership.* Given $w\in \Sigma^*$, decide whether $w\in L(G)$. 
+- *Emptiness.* Decide whether $L(G) = \varnothing$. 
+- *Finiteness.* Decide whether $L(G)$ is finite.
+**Unecidable Problems:**
+- *Equivalence.* Given $\sf CFG$s $G_1$, $G_2$, decide whether $$L(G_1) = L(G_2).$$
+- *Inclusion.* Given $\sf CFG$s $G_1$, $G_2$, decide whether $$L(G_1) \subseteq L(G_2).$$
+- *Ambiguity.* Decide whether $G$ is ambiguous. 

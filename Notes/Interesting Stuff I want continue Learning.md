@@ -161,7 +161,6 @@
 ## Computer Science
 - Machine Learning
 	- [ ] **_Understanding Machine Learning: From Theory to Algorithms_** by Shai Shalev-Shwartz and Shai Ben-David
-	- [ ] The Welch Labs Illustrated Guide to AI
 	- [ ] Nielsen
 		- [x] Using neural nets to recognize handwritten digits
 		- [x] How the backpropagation algorithm works
@@ -210,12 +209,12 @@
 		- [x] The Pumping Lemma for CFLs
 		- [x] Pushdown Automata
 		- [x] Final State Versus Empty Stack
-		- [ ] PDA and CFGs
-		- [ ] Simulating NPDAS by CFGs
-		- [ ] Deterministic Pushdown Automata
-		- [ ] Parsing
-		- [ ] The Cocke-Kasami-Younger Algorithm
-		- [ ] The Chomsky-Schützanberger Theorem
+		- [x] PDA and CFGs
+		- [x] Simulating NPDAS by CFGs
+		- [x] Deterministic Pushdown Automata
+		- [x] Parsing
+		- [x] The Cocke-Kasami-Younger Algorithm
+		- [x] The Chomsky-Schützanberger Theorem
 		- [ ] Parikh's Theorem
 		- [ ] Turing Machines and Effective Computability
 		- [ ] More on Turing Machines
@@ -231,6 +230,7 @@
 		- [ ] Gödel Incompleteness Theorem
 		- [ ] Proof of the Incompleteness Theorem
 		- [ ] Gödel's Proof
+	- [ ] [Lillian Lee's aritcle](https://arxiv.org/pdf/cs/0112018)
 - Digital Circuits
 	- [ ] _Digital Design and Computer Architecture_ — Harris & Harris
 		- [ ] Chapter 1
