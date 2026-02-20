@@ -2,7 +2,7 @@
 tags:
   - Topology
 ---
-Subjects: [[Topology]], [[Set Theory]]
+Subjects: [[Topology]]
 Links: [[Filters and Ideals]], [[Convergence of Sequences]], [[Hausdorff Spaces]], [[Convergence of Nets]]
 
 **Def:** Let $X$ be a topological space.

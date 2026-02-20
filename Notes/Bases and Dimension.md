@@ -3,8 +3,8 @@ tags:
   - LinearAlgebra
 ---
 Subjects: [[Linear Algebra]]
-
 Links: [[Linear Independence]], [[Linear Combinations]]
+
 ## Definition Basis
 A basis $\beta$ for a vector space $V$ is a linearly independent subset of $V$ that generates V. If $\beta$ is a basis for V, we also say that the vectors of $\beta$ form a basis for V.
 
@@ -26,7 +26,6 @@ _**Definition:**_ A vector space is called _**finite-dimensional**_ if it has a 
 ## Theorems Dimension
 
 _**Corollary:**_ Let V be a vector space with dimension n:
-
 1. Any finite generating set for $V$ contains at least $n$ vectors, and a generating set for $V$ that contains exactly $n$ vectors is a basis for $V$.
 2. Any linearly independent subset of $V$ that contains exactly $n$ vectors is a basis for $V.$
 3. Every linearly independent subset of $V$ can be extended to a basis for $V$, that is, if $L$ is a linearly independent subset of $V$, then there is a basis $\beta$ of $V$ such that $L \sube \beta.$

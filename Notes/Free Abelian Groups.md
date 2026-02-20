@@ -14,6 +14,8 @@ Given a nonempty set $S$. A *formal linear combination of elements of $S$* is a 
 
 **Characteristic Property:** Given any abelian group $H$ and any map $\varphi: S \to H$, there exists a unique homomorphism $\Phi: \Bbb Z\langle S\rangle \to H$ extending $\varphi$.
 
+This means that free groups are [[Free Object in Categories|free objects]] in the category of abelian groups. 
+
 **Prop:** The free abelian group $\Bbb Z\langle\sigma_1, \dots,\sigma_n\rangle$ on a finite set is isomorphic to $\Bbb Z^n$. 
 
 **Def:** Let $G$ be an abelian group. A nonempty subset $S\subseteq G$ is said to be *linearly independent* if the only linear combination of elements of $S$ that equals zero is the one for which all the coefficients are zero. A *basis for $G$* is a linearly independent subset that generates $G$.

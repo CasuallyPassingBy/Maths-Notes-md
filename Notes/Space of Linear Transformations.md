@@ -3,8 +3,8 @@ tags:
   - LinearAlgebra
 ---
 Subjects: [[Linear Algebra]]
-
 Links: [[Vector Spaces]]
+
 Let $V$ and $W$ be vector space over the same $\mathbb{F}$. We call a function $T: V \to W$ a _**linear transformation from $V$ to $W$,**_ if for all $x, y \in V$ and $a \in\mathbb{F}$:
 
 1. $T(x+_Vy) = T(x) +_W T(y)$
@@ -37,3 +37,5 @@ _**Associativity:**_ given the linear transformation and the correct domain, and
 _**Identity:**_ $TI = IT = T$, given the correct domain and range.
 
 _**Distributivity:**_ $(S_1 + S_2)T=S_1T+S_2T$, given the correct domain and range.
+
+**Obs:** That for a given field $K$, we can define a [[Categories and Functors|category]] of $K$-vector spaces with linear maps as their morphisms. This category is denoted by ${\sf Vect}_K$. 

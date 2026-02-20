@@ -23,10 +23,10 @@ S \arrow[u, hook,"\iota_\alpha"] \arrow[r, "\varphi"'] & H
 \end{tikzcd}
 \end{document}
 ```
+This means that free groups are [[Free Object in Categories|free objects]] in the category of groups. 
 
-**Cor:** the Free group on $S$ is the unique group (up to isomorphism) satisfying the characteristic property
+**Cor:** the Free group on $S$ is the unique group (up to isomorphism) satisfying the characteristic property. 
 
 Any group $G$ is said to be a *free group* if there is some subset $S\subseteq G$ such that the homomorphism $F(S) \to G$ induced by the inclusion $S \hookrightarrow G$ is an isomorphism.
 
 **Prop:** A group $G$ is free iff it has a generating set $S\subseteq G$ such that every element $g\in G$ other than the identity has a unique expression asa product of the form $$g = \sigma_1^{n_1}\dots, \sigma_k^{n_k},$$ where $\sigma_i \in S$, $n_i \in \Bbb N$, and $\sigma_i \neq \sigma_{i+1}$ for each $i = 1, \dots, k-1$. 
-

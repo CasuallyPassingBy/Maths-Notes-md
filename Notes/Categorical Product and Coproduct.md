@@ -51,7 +51,7 @@ X_\alpha \arrow[u, "\iota_\alpha"] \arrow[r, "f_\alpha"'] & Y
 
 **Examples:**
 - The product of a family of sets in $\sf Set$ is just their disjoint union. 
-- In the category $\sf Top$, the product of family of spaces $(X_\alpha)$ is the space $\coprod_\alpha X_\alpha$ with the [[sum topology]]. 
+- In the category $\sf Top$, the product of family of spaces $(X_\alpha)$ is the space $\coprod_\alpha X_\alpha$ with the [[Sum Topology|sum topology]]. 
 - In the category $\sf Top_*$, the product of family of pointed spaces $(X_\alpha, x_\alpha)$ is the pointed space $\left(\bigvee_\alpha X_\alpha, x\right)$ with the [[wedge sum topology]], and $x(\alpha) := x_\alpha$ for each $\alpha$.
 - The product of groups $(G_\alpha)_{\alpha\in A}$ in $\sf Grp$ is their [[Free Product of Groups|free product of groups]]  $*_\alpha G_\alpha$. 
 - The product of rings $(R_\alpha)_{\alpha\in A}$ in $\sf Rng$ is their [[Sum of Rings]] $\bigoplus_\alpha R_\alpha$, where the operations are componentwise. 

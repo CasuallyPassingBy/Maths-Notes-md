@@ -13,13 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Context-Free Grammars.md",
+                "file": "Turing Machines.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Context-Free Grammars"
+              "title": "Turing Machines"
+            }
+          },
+          {
+            "id": "176eca49509e9123",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Two-Stack Pushdown Automata.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Two-Stack Pushdown Automata"
+            }
+          },
+          {
+            "id": "7cf9cc4aa3916fd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nondeterministic Pushdown Automata.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Nondeterministic Pushdown Automata"
             }
           },
           {
@@ -47,8 +77,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,34 +249,34 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "4436406a9d6c183f",
+  "active": "d24b80b41d8ea785",
   "lastOpenFiles": [
-    "Context-Free Grammars.md",
-    "Parsing with Context-Free Grammars.md",
+    "Two-Stack Pushdown Automata.md",
+    "Turing Machines.md",
     "Nondeterministic Pushdown Automata.md",
-    "Interesting Stuff I want continue Learning.md",
-    "Untitled.md",
     "Theory of Computation.md",
     "Deterministic Pushdown Automata.md",
+    "Interesting Stuff I want continue Learning.md",
+    "Context-Free Languages.md",
+    "Generation of Modules, Direct Sum, and Free Modules.md",
+    "Free Groups.md",
+    "Topology.md",
+    "Convergence of Filters.md",
+    "Categorical Product and Coproduct.md",
+    "Ultranormal Spaces.md",
+    "Category Theory.md",
+    "Free Abelian Groups.md",
+    "Space of Linear Transformations.md",
+    "Maximal Linearly Independent Subsets.md",
+    "Linear Algebra.md",
+    "Bases and Dimension.md",
+    "Vector Spaces.md",
+    "Context-Free Grammars.md",
     "Strings and Languages.md",
+    "Parsing with Context-Free Grammars.md",
+    "Untitled.md",
     "Two-Way Finite Automata.md",
     "Almost finished projects.md",
-    "Automaton State Minimisation.md",
-    "context-free languages.md",
-    "Special Functions.md",
-    "Topological Manifolds.md",
-    "Paracompacteness.md",
-    "Topological Developability.md",
-    "Metrization Theorems.md",
-    "Strings and Grammars.md",
-    "Automatas on Terms.md",
-    "Operations and Structures.md",
-    "Myhill-Nerode Theorem.md",
-    "Journal/2026-02-15.md",
-    "Finite Automaton.md",
-    "Patterns and Regular Expressions.md",
-    "Kleene Algebras.md",
-    "Probability Theory.md",
     "Pasted image 20260211174214.png",
     "Pasted image 20260128171751.png",
     "Pasted image 20251214203248.png",

@@ -3,7 +3,7 @@ tags:
   - Subject
 ---
 # Overview
-I am mainly relying on Kozen's book of 'Automata and Computability'
+I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's book 'Introduction to the Theory of Computation'.  
 
 # Topics
 - [[Strings and Languages]]
@@ -14,7 +14,10 @@ I am mainly relying on Kozen's book of 'Automata and Computability'
 	- [[Automaton State Minimisation]]
 	- [[Myhill-Nerode Theorem]]
 	- [[Two-Way Finite Automata]]
-- [[Context-Free Grammars]]
-	- [[Nondeterministic Pushdown Automata]]
-		- [[Deterministic Pushdown Automata]]
-	- [[Parsing with Context-Free Grammars]]
+- [[Context-Free Languages]]
+	- [[Context-Free Grammars]]
+		- [[Nondeterministic Pushdown Automata]]
+			- [[Deterministic Pushdown Automata]]
+		- [[Parsing with Context-Free Grammars]]
+- [[Turing Machines]]
+	- [[Two-Stack Pushdown Automata]]

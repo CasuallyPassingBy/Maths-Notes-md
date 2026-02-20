@@ -46,7 +46,8 @@ A \arrow[dr, "\phi"] \arrow[r, hook]& R\langle A\rangle \arrow[d, dashed, "\Phi"
 \end{tikzcd}
 \end{document}
 ```
-Then $$R\langle A\rangle = \bigoplus_{a \in A} Ra.$$
+Then $$R\langle A\rangle = \bigoplus_{a \in A} Ra.$$This means that free $R$-modules are [[Free Object in Categories|free objects]] in the category of $R$-modules. 
+
 **Cor:**
 - If $F_1$ and $F_2$ are free modules on the same set $A$, there is a unique isomorphism between $F_1$ and $F_2$ which is the identity map on $A$.
 - If $F$ is any free $R$-module with basis $A$, then $F \cong R\langle A\rangle$. In particular, $F$ enjoys the same universal property with respect to $A$ and $R\langle A \rangle$ does in the theorem above. 

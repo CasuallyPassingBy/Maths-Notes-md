@@ -215,7 +215,7 @@
 		- [x] Parsing
 		- [x] The Cocke-Kasami-Younger Algorithm
 		- [x] The Chomsky-Schützanberger Theorem
-		- [ ] Parikh's Theorem
+		- [x] Parikh's Theorem
 		- [ ] Turing Machines and Effective Computability
 		- [ ] More on Turing Machines
 		- [ ] Equivalent Models
@@ -231,6 +231,7 @@
 		- [ ] Proof of the Incompleteness Theorem
 		- [ ] Gödel's Proof
 	- [ ] [Lillian Lee's aritcle](https://arxiv.org/pdf/cs/0112018)
+	- [ ] [Prat Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)
 - Digital Circuits
 	- [ ] _Digital Design and Computer Architecture_ — Harris & Harris
 		- [ ] Chapter 1
@@ -277,6 +278,9 @@
 	- [ ] Github
 		- [ ] README
 		- [ ] Organisation
+- [ ] Article on Surface Area
+	- [x] Exterior Algebra
+	- [ ] Integrals and calculus
 - [ ] NumAlgoJulia
 - [ ] Black Hole Simulation
 - [ ] Neural Networks with Nielsen
