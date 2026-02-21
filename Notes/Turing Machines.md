@@ -42,6 +42,21 @@ We call a set of strings
 - *co-r.e.* or *co-Turing-recognisable* if its complement is r.e., and
 - *recursive*, *Turing-decidable*, or *decidable* if it is $L(M)$ for some *total* Turing machine $M$.
 
+**Prop:** The collection of decidable languages are closed under the operation of 
+- union
+- concatenation
+- star
+- complements
+- intersection
+
+**Prop:** The collection of Turing-recognisable languages is closed under the operations
+- union
+- concatenation
+- star 
+- intersection
+
+**Prop:** A single-tape Turing machine that cannot write on the portion of the tape containing the input string recognise only regular languages.
+
 # Variants of Turing Machines
 
 ### Multitape Turing Machines
@@ -72,7 +87,7 @@ The modification is that instead of just going to infinity to the right, now we 
 
 **Cor:** A language is Turing-recognisable iff some two-way infinite Turing machines recognises it.
 
-# [[Two-Stack Pushdown Automata]]
+### [[Two-Stack Pushdown Automata]]
 
 A two stack $\sf NPDA$, $\sf 2PDA$, is defined as a $9$-tuple: $M = (Q, \Sigma,\Gamma, \Gamma', \delta, s, \bot, \bot', F)$
 - $Q$ is the set of states.
@@ -93,3 +108,43 @@ A two stack $\sf NPDA$, $\sf 2PDA$, is defined as a $9$-tuple: $M = (Q, \Sigma,\
 
 **Cor:** A language is Turing-recognisable iff some $n\sf PDA$ recognises it, with $n \ge 2$.
 
+### Enumerators
+
+**Def:** A *Turing machine* is $8$-tuple $E =(Q, \Sigma, \Gamma,\textvisiblespace, \vdash, \#, \delta, q_0)$, where $Q$, $\Sigma$ and $\Gamma$ are finite sets and
+- $Q$ is the set of states,
+- $\Sigma$ is the input alphabet no containing the *blank symbol* $\textvisiblespace$,
+- $\Gamma$ is the tape alphabet,
+- $\textvisiblespace\in \Gamma\setminus\Sigma$, the *blank symbol*,
+- $\vdash\in \Gamma\setminus \Sigma$, the *left endmarker*,
+- $\#\in \Gamma\setminus \Sigma$ a separator separator, 
+- $\delta: Q \times \Gamma \to Q \times \Gamma \times \{L, R\}$ is the transition function,
+- $q_0\in Q$ is a start state,
+together with a disntiguished output tape.
+Whenever $E$ write a string $w\in\Sigma^*$ on the output tape, followed by the separator symbol $\#$, we say that $E$ *outputs* $w$.
+
+The language enumerated by $E$ is $$L(E) = \{w\in \Sigma\mid E\text{ outputs $w$ at some finite stage}\}. $$
+**Th:** A language is Turing-recognisable iff some enumerator enumerates it.
+
+This is the reason why Turing-recognisable languages are called recursively enumerable.
+
+**Prop:** A language is decidable iff some enumerator enumerates the language in lexicorgraphical order. 
+
+### Queue Automaton
+
+A *queue automaton* is like a push-down automaton except that the stack is replaced by a queue. A *queue* is a tape allowing symbols to be written only on the left-hand end and real only at the right-hand end. Each write operation, called *push*, adds a symbol to the left-hand end of the queue and each read operation, called *pull*, reads and removes a symbol at the right-hand end. As with a $\sf PDA$, the input is placed on a separate read-only input tape, and the head on the input tap can ove only from from left to right. The input tape contains with a cell with a blank symbol following the input, so that the end of the input can be detected. A queue automaton accepts its input by entering a special accept state at any time. 
+
+**Th:** A language can be recognised by a deterministic queue automaton iff the language is Turing-recognisable. 
+
+### Other Variants
+
+Say a *write-once Turing machine* is a single tape Turing machine that can alter each square at most once, including the input portion of the tape. 
+
+**Th:** Every write-once Turing machines has an equivalent deterministic Turing machine.
+
+**Cor:** A language is Turing-recognisable iff some write-once Turing machine recognises it.
+
+A *Turing machine with left reset* is similar to an ordinary machine but the transition function has the form  $$\delta: Q \times \Gamma\to Q \times \Gamma\{R, \text{RESET}\}. $$If $\delta(q, a) = (r, b, \text{RESET})$, when the machine is in state $q$ reading in $a$, the machines's head jumps to the left-hand end of the tape after it writes $b$ on the tape and enters state $r$.
+
+**Th:** Every left-reset Turing machines has an equivalent deterministic Turing machine.
+
+**Cor:** A language is Turing-recognisable iff some left-reset Turing machine recognises it.
