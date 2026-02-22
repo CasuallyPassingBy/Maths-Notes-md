@@ -20,4 +20,8 @@ I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's
 			- [[Deterministic Pushdown Automata]]
 		- [[Parsing with Context-Free Grammars]]
 - [[Turing Machines]]
+	- [[Models Equivalent to Turing Machines]]
 	- [[Two-Stack Pushdown Automata]]
+	- [[Decidable and Undecidable Problems]]
+	- [[Computation Reducibility]]
+	- [[Linear Bounded Automaton]]

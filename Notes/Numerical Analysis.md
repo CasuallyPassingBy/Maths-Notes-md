@@ -30,6 +30,6 @@ tags:
 - [[Newton's Divided Difference]]
 - [[Cubic Spline Interpolation]]
 
-## Integration
+## Numerical Differentiation and Integration
 - [[Numerical Integration]]
 	- [[Monte Carlo Integration]]

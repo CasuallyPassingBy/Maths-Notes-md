@@ -8,52 +8,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d24b80b41d8ea785",
+            "id": "bf6a98c0c052d4c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Turing Machines.md",
+                "file": "Linear Bounded Automaton.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Turing Machines"
+              "title": "Linear Bounded Automaton"
             }
           },
           {
-            "id": "176eca49509e9123",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Two-Stack Pushdown Automata.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Two-Stack Pushdown Automata"
-            }
-          },
-          {
-            "id": "7cf9cc4aa3916fd3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nondeterministic Pushdown Automata.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Nondeterministic Pushdown Automata"
-            }
-          },
-          {
-            "id": "4436406a9d6c183f",
+            "id": "b502ffd3918936f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -249,15 +219,23 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "d24b80b41d8ea785",
+  "active": "bf6a98c0c052d4c1",
   "lastOpenFiles": [
+    "Linear Bounded Automaton.md",
     "Theory of Computation.md",
-    "Turing Machines.md",
+    "Computation Reducibility.md",
     "Interesting Stuff I want continue Learning.md",
+    "Decidable and Undecidable Problems.md",
+    "Numerical Analysis.md",
+    "Strings and Grammars.md",
+    "Turing Machines.md",
+    "Strings and Languages.md",
+    "Context-Free Grammars.md",
+    "Context-Free Languages.md",
+    "Models Equivalent to Turing Machines.md",
     "Two-Stack Pushdown Automata.md",
     "Nondeterministic Pushdown Automata.md",
     "Deterministic Pushdown Automata.md",
-    "Context-Free Languages.md",
     "Generation of Modules, Direct Sum, and Free Modules.md",
     "Free Groups.md",
     "Topology.md",
@@ -269,14 +247,6 @@
     "Space of Linear Transformations.md",
     "Maximal Linearly Independent Subsets.md",
     "Linear Algebra.md",
-    "Bases and Dimension.md",
-    "Vector Spaces.md",
-    "Context-Free Grammars.md",
-    "Strings and Languages.md",
-    "Parsing with Context-Free Grammars.md",
-    "Untitled.md",
-    "Two-Way Finite Automata.md",
-    "Almost finished projects.md",
     "Pasted image 20260211174214.png",
     "Pasted image 20260128171751.png",
     "Pasted image 20251214203248.png",

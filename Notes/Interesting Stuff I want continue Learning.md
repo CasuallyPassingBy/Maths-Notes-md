@@ -97,7 +97,7 @@
 		- [x] Integration on Manifolds
 		- [x] De Rham Cohomology
 		- [x] The de Rham Theorem
-		- [ ] Distributions and Foliations
+		- [x] Distributions and Foliations
 		- [ ] The Exponential Map
 		- [ ] Quotient Manifolds
 		- [ ] Symplectic Manifolds
@@ -174,8 +174,8 @@
 	- [ ] Sipser
 		- [x] Regular Languages
 		- [x] Context Free Grammars
-		- [ ] The Church-Turing Thesis
-		- [ ] Decidability
+		- [x] The Church-Turing Thesis
+		- [x] Decidability
 		- [ ] Reducibility
 		- [ ] Advanced Topics in Computability Theory
 		- [ ] Time Complexity
@@ -216,10 +216,11 @@
 		- [x] The Cocke-Kasami-Younger Algorithm
 		- [x] The Chomsky-Schützanberger Theorem
 		- [x] Parikh's Theorem
-		- [ ] Turing Machines and Effective Computability
-		- [ ] More on Turing Machines
-		- [ ] Equivalent Models
-		- [ ] Universal Machines and Diagonalisation
+		- [x] Turing Machines and Effective Computability
+		- [x] More on Turing Machines
+		- [x] Equivalent Models
+		- [x] Universal Machines and Diagonalisation
+		- [x] Decidiable and Undecidable Problems
 		- [ ] Reduction
 		- [ ] Rice's Theorem
 		- [ ] Undecidable Problems About CFLs
@@ -232,6 +233,7 @@
 		- [ ] Gödel's Proof
 	- [ ] [Lillian Lee's aritcle](https://arxiv.org/pdf/cs/0112018)
 	- [ ] [Prat Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)
+	- [ ] [Junferno's references](https://junferno.com/references/#list-4)
 - Digital Circuits
 	- [ ] _Digital Design and Computer Architecture_ — Harris & Harris
 		- [ ] Chapter 1
@@ -247,7 +249,8 @@
 	- [ ] Burden
 		- [x] Error Analysis
 		- [x] Solutions of Equations in One Variable
-		- [x] Interpolation and Polynomial Approximations
+		- [ ] Interpolation and Polynomial Approximations
+			- [ ] Parametric Curves
 		- [ ] Numerical Differentiation and Integration
 		- [ ] Initial Value Problems for ODE
 		- [ ] Direct Methods for Solving Linear Systems

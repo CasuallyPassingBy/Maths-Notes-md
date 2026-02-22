@@ -3,7 +3,7 @@ tags:
   - ComputationTheory
 ---
 Subjects: [[Theory of Computation]]
-Links: [[Strings and Languages]], [[Nondeterministic Pushdown Automata]], [[Deterministic Pushdown Automata]], [[Context-Free Languages]]
+Links: [[Strings and Languages]], [[Nondeterministic Pushdown Automata]], [[Deterministic Pushdown Automata]], [[Context-Free Languages]], [[Decidable and Undecidable Problems]]
 
 **Def:** A *context-free grammar* ($\sf CFG$) is $4$-tuple $(V, \Sigma, R, S)$ where
 - $V$ is a finite set called the *variables*,

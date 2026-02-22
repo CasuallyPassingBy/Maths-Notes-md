@@ -3,7 +3,7 @@ tags:
   - ComputationTheory
 ---
 Subjects: [[Theory of Computation]]
-Links: [[Finite Automaton]], [[Nondeterministic Pushdown Automata]], [[Deterministic Pushdown Automata]], [[Two-Way Finite Automata]]
+Links: [[Finite Automaton]], [[Nondeterministic Pushdown Automata]], [[Deterministic Pushdown Automata]], [[Two-Way Finite Automata]], [[Decidable and Undecidable Problems]]
 
 **Def:** A *Turing machine* is $9$-tuple $(Q, \Sigma, \Gamma,\textvisiblespace, \vdash, \delta, s, q_\text{accept}, q_\text{reject})$, where $Q$, $\Sigma$ and $\Gamma$ are finite sets and
 - $Q$ is the set of states,
@@ -42,6 +42,8 @@ We call a set of strings
 - *co-r.e.* or *co-Turing-recognisable* if its complement is r.e., and
 - *recursive*, *Turing-decidable*, or *decidable* if it is $L(M)$ for some *total* Turing machine $M$.
 
+**Obs:** If $A$ is a Turing-recognisable language and $\Sigma^*\setminus A$ is also a Turing-recognisable, then both $A$ and $\Sigma^*\setminus A$ is Turing-decidable. 
+
 **Prop:** The collection of decidable languages are closed under the operation of 
 - union
 - concatenation
@@ -55,96 +57,67 @@ We call a set of strings
 - star 
 - intersection
 
-**Prop:** A single-tape Turing machine that cannot write on the portion of the tape containing the input string recognise only regular languages.
+**Prop:** Every infinite Turing recognisable language has an infinite decidable subset. 
 
-# Variants of Turing Machines
+**Prop:** A single-tape Turing machine that cannot write is computationally equivalent to [[Two-Way Finite Automata]], and thus can only recognise regular languages. 
 
-### Multitape Turing Machines
+**Def:** A property $P$ of strings is said to be *decidable* if the set $\{x\in \Sigma^* \mid x\text{ satisfies }P \}$ is Turing-decidable. A property $P$ is said to be *semidecidable* if the set $\{x\in \Sigma^* \mid x\text{ satisfies }P \}$ is Turing-recognisable. 
 
-A *multitape Turing machine* is like an ordinary Turing machine with several tapes. Each tape has its own head for reading and writing. Initially the input appears on tape $1$ and the other start out blank. The transition function is changed to allow for reading, writing and moving the heads on some or all of the tapes simultateously. Formally, it is$$\delta: Q\times \Gamma^k \to  Q \times \Gamma^k\times \{L, R, S\}^k  $$where $k$ is the number of tapes. The expression $$\delta(q_i, a_1, \dots a_k) = (q_j, b_1,\dots, b_k, d_1, \dots, d_k)$$ means that, if the machine is in state $q_i$ and heads $1$ through $k$ are reading symbols $a_1$ through $a_k$, the machine goes to state $q_j$, writes $b_1$ through $b_k$, and directs each head to move left or right, or stay put, as specified.
+We see that there's a nice relationship between the terms
+- $P$ is decidable iff $\{x\mid P(x)\}$ is recursive or decidable. 
+- $A$ is recursive or decidable iff $\text “x\in A\text"$ is decidable.
+- $P$ is semidecidable iff $\{x\mid P(x)\}$ is Turing-recognisable.
+- $A$ is Turing-recognisable iff $\text “x\in A\text"$ is semidecidable. 
 
-**Th:** Every multitape Turing machine has an equivalent single-tape Turing machine.
+There are other [[Models Equivalent to Turing Machines]]. 
 
-**Cor:** A language is Turing-recognisable iff some multitape Turing machine recognises.
+# Universal Turing Machine
 
-### Nondeterministic Turing Machines
+A crucial observation about the power of Turing machines: there exist Turing machines that can simulate other Turing machines whose descriptions are presented as part of the input.
 
-A nondeterministic Turing machine is defined in the expected way. The transition function for a nondeterministic Turing machine has the form $$\delta:Q \times \Gamma \to \mathcal P(Q\times \Gamma\times \{L, R\}).  $$The computation of a nondeterministic Turing machine is a tree whose branches to different possibilities for the machine. If some branch of the computation leads to the accept state, the machine accepts the input. 
+First we need to fix a reasonable encoding scheme for Turing machines over the alphabet $\{0, 1\}$. This encoding scheme should be simple enough that all the data associated with the machine $M$ can be interpreted easily by another machine reading the encoded description of $M$. For example, if the string begins with the prefix $$0^n10^m10^k10^s10^t10^r10^u10^v1$$this might indicate that the machine has $n$ states represented by the numbers $0$ to $n-1$; it has $m$ tape symbolds represented by the numbers $0$ to $m-1$, of which the first $k$ represent input symbols; the start, accept, and reject state are $s$, $t$ and $r$, respectively; and the endmerker and blank symbol are $u$ and $v$ respectively, The remainder of the string can consist of a sequence of substrings specifying the transitions in $\delta$. For example, the substring $$0^p10^a10^q10^b10$$might indicate that $\delta$ contains the transition $$(p, a) \to (q, b,L),$$the direction to move the head encoded by the final digit. 
 
-**Th:** Every nondeterministic Turing machines has an equivalent deterministic Turing machine.
+The exact details of the encoding scheme are not important. The only requirements are that it should be easy to interpret and able to encode all Turing machines up to isomorphism. 
 
-**Cor:** A language is Turing-recognisable iff some nondeterminisctic Turing machines recognises it.
+Once have a suitable encoding for Turing machines, we can construct a *universal Turing machine* $U$ such that$$L(U) := \{M \# x\mid x\in L(M)\}.  $$In other words, presented with an encoding over $\{0, 1\}$ of a Turing machines $M$ and and encoding over $\{0, 1\}$ of a string $x$ over $M$'s input alphabet, the machines $U$ *accepts* $M\# x$ iff $M$ accepts $x$. The symbol $\#$ is just a symbol in $U$'s input alphabet other than $0$ and $1$ used to delimit $M$ and $x$. 
 
-We call a nondeterministic Turing machine a *decider* if all branches halt on all inpts.
+The machine $U$ first checks its input $M\#x$ to make sure that $M$ is a valid encoding of a Turing machine and $x$ is a valid encoding of a string over $M$'s input alphabet. If not, it rejects.
 
-**Cor:** A language is decidable iff some determinisctic Turing machines decides it. 
+If the encodings of $M$ and $x$ are valid, the machine $U$ does a step-by-step simulation of $M.$ This might work as follows. The tape $U$ is partitioned into $3$ tracks. The description of $M$ is copied to the top track and the string $x$ to the middle track. the middle track will be used to hold the simulated contents of $M$'s tape. The bottome track will be used to remember the current state of $M$ and the current position of $M$'s read/write head. The machine $U$ then simulates $M$ on input $x$ one step at a time, shuttling back and forth beween the description on its top track and the simulated contents of $M$'s tape on the middle track. In each step, it updates $M$'s state and simulated tape contents as dictated as dictated by $M$'s transititons function, which $U$ can read from the description of $M$. If $M$ halts and accepts or halts and rejects, then $U$ does the same. Note that if $M$ loops on $x$, then $U$ does the same.
 
-### Two-Way Infinte Turing Machines
+In general, each step of $M$ may requiere many steps of $U$ to simulate. 
 
-The modification is that instead of just going to infinity to the right, now we have that it is unbouded in both directions. We see that they don't really add much power since they can be trivially simulated by a $2$-tape Turing Machine pretty easily.
+## Undecidability of the Halting Problem
 
-**Th:** Every two-way infinite Turing machines has an equivalent deterministic Turing machine.
+Since the universal machine $U$ doesn't do any fancy analysis on the machine $M$ to try to determine whether or not it will halt. It just blindly simulates $M$ step by step. If $M$ doesn't halt on $x$, then $U$ will just go on happily simulating $M$ forever. 
 
-**Cor:** A language is Turing-recognisable iff some two-way infinite Turing machines recognises it.
+It is natural ask whether we can do better than just blind simulation. Might there be a way to analyse $M$ to determine in advance, before doing the simulation, whether $M$ to determine in advance, before the simulation, whether $M$ would eventually halt on $x$. If $U$ could say for sure in advance that $M$ would not halt on $x$, then it could skip the simulation and save itself a lot of useless work. On the other hand, if $U$ could ascertain that $M$ *would* eventually halt on $x$, then it could go ahead with the simulation to determine whether $M$ accepts or rejects. We could then build then a machine $U'$ that takes as input an encoding of a Turing machines and a string $x$, and
+- halts and accepts if $M$ halts and accepts $x$,
+- halts and rejects if $M$ halts and rejects $x$, and
+- halts and rejects if $M$ loops on $x$.
 
-### [[Two-Stack Pushdown Automata]]
+This would say that $L(U') = L(U) = {\sf MP} := \{M \#x \mid x\in L(M)\}$ is a recursive set.
 
-A two stack $\sf NPDA$, $\sf 2PDA$, is defined as a $9$-tuple: $M = (Q, \Sigma,\Gamma, \Gamma', \delta, s, \bot, \bot', F)$
-- $Q$ is the set of states.
-- $\Sigma$ is the input alphabet.
-- $\Gamma$ the alphabet of the first stack.
-- $\Gamma'$ the alphabet of the second stack.
-- $\delta: (Q\times \Sigma_\varepsilon\times \Gamma\times \Gamma') \to (Q\times \Gamma^*\times \Gamma'^*)$, $\delta$ is finite and is the *transition relation*,
-- $s$ the start state.
-- $\bot$ the bottom symbol for the first stack.
-- $\bot'$ the bottom symbol for the second stack.
-- $F\subseteq Q$ the set of final or accepting states.
+Unfortunately, this is not possible in general. There are certain machines for which it is possible to determine halting by some heuristic or other. However is no general method that gives the right answer for all machines.
 
-**Th:** Any language accepted by a $\sf 2PDA$ can be accepted by some Turing machine and any accepted by a Turing machine can be accepted by a $\sf 2PDA$. 
+We can prove this Cantor's diagonalisation technique. For $x\in\{0, 1\}^*$, let $M_x$ be the Turing machine with input alphabet $\{0, 1\}$ whose encoding over $\{0, 1\}^*$ is $x$. In this way we get a list $$M_\varepsilon, M_0, M_1, M_{00}, M_{01}, M_{10}, M_{11}, M_{000}, M_{001},\cdots$$containing all possible Turing machines with input alphabet $\{0, 1\}$ indexed by strings in $\{0, 1\}^*$. We make sure that the encoding scheme is simple enough that a universal machine can determine $M_x$ from $x$ for the purpose of simulation.
 
-**Def:** $n\sf PDA$ refers a deterministic pushdown automaton with $n$ stacks
+Now we consider an infinite two-dimensional matrix indexed along the top by strings in $\{0, 1\}^*$ and down by the left by Turing machines in the list above. The matrix contains $\sf H$ in position $x, y$ if $M_x$ halts on input $y$ and $\sf L$ if $M_x$ loops on input $y$. 
 
-**Cor:** Any language accepted by a $\sf PDA$ with $n$ stacks, with $n\ge 2$, called an $n\sf PDA$, can also be accepted by some Turing machine. We see that every $n\sf PDA$ can be simulated by some Turing machine. 
+The $x$th row of the matrix describes for each input string whether or not $M_x$ halts on $y$. 
 
-**Cor:** A language is Turing-recognisable iff some $n\sf PDA$ recognises it, with $n \ge 2$.
+Suppose, for the sake of a contradiction, that there existed a *total* machine $K$ accepting the set $\sf HP := \{M \# x\mid M \text{ halts on }x\}$; that is, a machine for a given $x$ and $y$ could determine the $x, y$th entry of the table described in finite time. Thus on input $M\# x$,
+- $K$ halts and accepts if $M$ halts on $x$, and 
+- $K$ halts and rejects if $M$ loops on $x$. 
 
-### Enumerators
+Now we consider a machine $N$ that on input $x\in \{0, 1\}^*$
+- constructs $M_x$ from $x$ and write $M_x\# x$ on its tape;
+- runs $K$ on input $M_x\# x$, accepting if $K$ rejects and going into a trivial loop if $K$ accepts. 
+Note that $N$ is essentially complementing the diagonal of the matrix described. Then for any $x\in\{0, 1\}^*$,
+$$N \text{ halts on $x$} \iff K \text{rejects }M_x \#x \iff M_x \text{loops on $x$.}$$
+This says that $N$'s behaviour is different from every $M_x$ on at least one string, namely $X$. But the list was supposed to contain all Turing machines over the input alphabet $\{0, 1\}$, including $N$. Which means $N$ is different from itself, which is a contradiction. 
 
-**Def:** A *Turing machine* is $8$-tuple $E =(Q, \Sigma, \Gamma,\textvisiblespace, \vdash, \#, \delta, q_0)$, where $Q$, $\Sigma$ and $\Gamma$ are finite sets and
-- $Q$ is the set of states,
-- $\Sigma$ is the input alphabet no containing the *blank symbol* $\textvisiblespace$,
-- $\Gamma$ is the tape alphabet,
-- $\textvisiblespace\in \Gamma\setminus\Sigma$, the *blank symbol*,
-- $\vdash\in \Gamma\setminus \Sigma$, the *left endmarker*,
-- $\#\in \Gamma\setminus \Sigma$ a separator separator, 
-- $\delta: Q \times \Gamma \to Q \times \Gamma \times \{L, R\}$ is the transition function,
-- $q_0\in Q$ is a start state,
-together with a disntiguished output tape.
-Whenever $E$ write a string $w\in\Sigma^*$ on the output tape, followed by the separator symbol $\#$, we say that $E$ *outputs* $w$.
+This means that ${\sf HP}$ must not be decidable. 
+## Undecidability of the Halting Problem
 
-The language enumerated by $E$ is $$L(E) = \{w\in \Sigma\mid E\text{ outputs $w$ at some finite stage}\}. $$
-**Th:** A language is Turing-recognisable iff some enumerator enumerates it.
-
-This is the reason why Turing-recognisable languages are called recursively enumerable.
-
-**Prop:** A language is decidable iff some enumerator enumerates the language in lexicorgraphical order. 
-
-### Queue Automaton
-
-A *queue automaton* is like a push-down automaton except that the stack is replaced by a queue. A *queue* is a tape allowing symbols to be written only on the left-hand end and real only at the right-hand end. Each write operation, called *push*, adds a symbol to the left-hand end of the queue and each read operation, called *pull*, reads and removes a symbol at the right-hand end. As with a $\sf PDA$, the input is placed on a separate read-only input tape, and the head on the input tap can ove only from from left to right. The input tape contains with a cell with a blank symbol following the input, so that the end of the input can be detected. A queue automaton accepts its input by entering a special accept state at any time. 
-
-**Th:** A language can be recognised by a deterministic queue automaton iff the language is Turing-recognisable. 
-
-### Other Variants
-
-Say a *write-once Turing machine* is a single tape Turing machine that can alter each square at most once, including the input portion of the tape. 
-
-**Th:** Every write-once Turing machines has an equivalent deterministic Turing machine.
-
-**Cor:** A language is Turing-recognisable iff some write-once Turing machine recognises it.
-
-A *Turing machine with left reset* is similar to an ordinary machine but the transition function has the form  $$\delta: Q \times \Gamma\to Q \times \Gamma\{R, \text{RESET}\}. $$If $\delta(q, a) = (r, b, \text{RESET})$, when the machine is in state $q$ reading in $a$, the machines's head jumps to the left-hand end of the tape after it writes $b$ on the tape and enters state $r$.
-
-**Th:** Every left-reset Turing machines has an equivalent deterministic Turing machine.
-
-**Cor:** A language is Turing-recognisable iff some left-reset Turing machine recognises it.
+The membership problem is also undecidable. We can show this by reducing the halting problem to it. In other words, we show that if there a way to decide the member ship in general, we could use this as a subroutine to decide the halting problem in general. This means that the membership is equivalent to the halting problem, so it must be undecidable. 
