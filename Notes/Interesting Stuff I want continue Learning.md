@@ -161,7 +161,8 @@
 ## Computer Science
 - Machine Learning
 	- [ ] **_Understanding Machine Learning: From Theory to Algorithms_** by Shai Shalev-Shwartz and Shai Ben-David
-	- [ ] Nielsen
+	- [ ] Deep Learning with Pytorch
+	- [ ] [Nielsen](https://neuralnetworksanddeeplearning.com/chap1.html)
 		- [x] Using neural nets to recognize handwritten digits
 		- [x] How the backpropagation algorithm works
 		- [ ] Improving the way neural networks learn
@@ -260,6 +261,7 @@
 		- [ ] Numerical Solutions of Nonlinear systems of Equations
 		- [ ] Boundary-Value Problems for ODE
 		- [ ] Numerical Solutions to PDE
+	- [ ] [CORDIC Algorithm](https://www.youtube.com/watch?v=bre7MVlxq7o)
 ## Other
 - [ ] Finite Operator Calculus (Finite Operator Calculus.pdf)
 - [ ] Umbral Calculus (Pure and Applied Mathematics 111)

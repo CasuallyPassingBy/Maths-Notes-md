@@ -47,15 +47,14 @@ Let's turn now to the emptiness testing problem for the language of a $\sf CFG$.
 **Th:** $E_\mathsf{CFG}$ is a decidable language. 
 
 Let  $$EQ_\mathsf{CFG} :=\{\langle G, H\rangle \mid \text{ $G$ and $H$ are $\sf CFG$s and $L(G) = L(H)$}\}. $$
-$(*)$ **Th:** $EQ_\mathsf{CFG}$ is not a decidable language.
+**Th:** $EQ_\mathsf{CFG}$ is not a decidable language.
 
 **Th:** Every context-free language is decidable. 
 
 Let $$C_\mathsf{REX} := \{\langle R, S\rangle \mid \text{$R$ and $S$ are regular expressions and }L(R) \subseteq  L(S)\}.  $$
 **Prop:** $C_\mathsf{REX}$ is a decidable language.
 
-Let $$\text{Inf}_\sf{PDA} := \{\langle A\rangle \mid \text{$A$ is a $\sf PDA$ and $L(A)$ in an infinite language}\}.  $$
-**Prop:** $\text{Inf}_{\sf PDA}$ is a decidable language.
+Let $$\text{Inf}_\sf{PDA} := \{\langle A\rangle \mid \text{$A$ is a $\sf PDA$ and $L(A)$ in an infinite language}\}.  $$**Prop:** $\text{Inf}_{\sf PDA}$ is a decidable language.
 
 # The Halting Problem
 

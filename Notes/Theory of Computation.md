@@ -23,5 +23,6 @@ I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's
 	- [[Models Equivalent to Turing Machines]]
 	- [[Two-Stack Pushdown Automata]]
 	- [[Decidable and Undecidable Problems]]
-	- [[Computation Reducibility]]
+		- [[Computation Reducibility]]
+		- [[Post Correspondence Problem]]
 	- [[Linear Bounded Automaton]]

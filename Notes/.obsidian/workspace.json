@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Bounded Automaton.md",
+                "file": "Computation Reducibility.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Linear Bounded Automaton"
+              "title": "Computation Reducibility"
             }
           },
           {
@@ -221,16 +221,17 @@
   },
   "active": "bf6a98c0c052d4c1",
   "lastOpenFiles": [
-    "Linear Bounded Automaton.md",
-    "Theory of Computation.md",
-    "Computation Reducibility.md",
-    "Interesting Stuff I want continue Learning.md",
     "Decidable and Undecidable Problems.md",
+    "Computation Reducibility.md",
+    "Context-Free Grammars.md",
+    "Theory of Computation.md",
+    "Post Correspondence Problem.md",
+    "Interesting Stuff I want continue Learning.md",
+    "Linear Bounded Automaton.md",
     "Numerical Analysis.md",
     "Strings and Grammars.md",
     "Turing Machines.md",
     "Strings and Languages.md",
-    "Context-Free Grammars.md",
     "Context-Free Languages.md",
     "Models Equivalent to Turing Machines.md",
     "Two-Stack Pushdown Automata.md",
@@ -246,7 +247,6 @@
     "Free Abelian Groups.md",
     "Space of Linear Transformations.md",
     "Maximal Linearly Independent Subsets.md",
-    "Linear Algebra.md",
     "Pasted image 20260211174214.png",
     "Pasted image 20260128171751.png",
     "Pasted image 20251214203248.png",
