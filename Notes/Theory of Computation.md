@@ -24,5 +24,6 @@ I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's
 	- [[Two-Stack Pushdown Automata]]
 	- [[Decidable and Undecidable Problems]]
 		- [[Computation Reducibility]]
+			- [[Busy Beaver Function]]
 		- [[Post Correspondence Problem]]
 	- [[Linear Bounded Automaton]]

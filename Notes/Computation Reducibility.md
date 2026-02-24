@@ -29,9 +29,6 @@ A mapping of $A$ to $B$ provides a way to convert questions about membership tes
 
 **Prop:** If $A\le_\text m B$ and $B\le_\text m C$, then $A\le_m C$, meaning that $\le_\text{m}$ is transitive.
 
-We used a reduction from $A_\mathsf{TM}$ to prove that $H_\mathsf{TM}$ is undecidable, This reduction showed how a decider for $H_\mathsf{TM}$ could be used to give a decider for $A_\mathsf{TM}$. To fo so we must present a computable function $f$ that takes input of the form $\langle M, w\rangle$ and returns output of the form $$\langle M, w\rangle \in A_\mathsf{TM} \iff \langle M', w\rangle\in H_\mathsf{TM}.$$
-The halting problem had a decider iff the membership problem has decider.
-
 **Th:** If $A\le_ \text m B$ and $B$ is Turing-recognisable, then $A$ is Turing-recognisable.
 
 **Cor:** If $A \le_\text m B$ and $A$ is not Turing-recognisable, then $B$ is not Turing-recognisable.
@@ -43,6 +40,9 @@ The halting problem had a decider iff the membership problem has decider.
 Let $$H_\mathsf{TM} := \{\langle M, w\rangle \mid \text{$M$ is a Turing machine and $M$ halts on $w$}\}.$$Note that $A_\mathsf{TM}\subseteq H_\mathsf{TM}$.
 
 **Th:** The language $H_\mathsf{TM}$ is not Turing-decidable. 
+
+We used a reduction from $A_\mathsf{TM}$ to prove that $H_\mathsf{TM}$ is undecidable, This reduction showed how a decider for $H_\mathsf{TM}$ could be used to give a decider for $A_\mathsf{TM}$. To fo so we must present a computable function $f$ that takes input of the form $\langle M, w\rangle$ and returns output of the form $$\langle M, w\rangle \in A_\mathsf{TM} \iff \langle M', w\rangle\in H_\mathsf{TM}.$$
+The halting problem had a decider iff the membership problem has decider.
 
 The theorem illustrates our strategy for proving that a problem is undecidable, This strategy is common to most proofs of undecidability, except for the undecidability of $A_\mathsf{TM}$ itself.
 
@@ -66,3 +66,7 @@ Let $$\text{All}_\mathsf{CFG} := \{\langle G\rangle \mid \text{$G$ is a $\sf CFG
 **Prop:** $EQ_\mathsf{CFG}$ is undecidable. 
 
 **Prop:** $EQ_\mathsf{CFG}$ is co-Turing-recognisable.
+
+**Def:** Let $\Gamma:= \{\vdash, 0, 1, \textvisiblespace\}$ be the tape alphabet for all Turing machines considered. Define the *busy beaver function* $\text{BB}:\Bbb N\to\Bbb N$ as follows. For each value of $k$, consider the $k$-sate Turing machine that halt when started with a blank tape. Let $\text{BB}(k)$ be the maximum number of $1$'s that remain on the tape among all the machines. 
+
+**Prop:** $\text{BB}$ is not computable function. 
