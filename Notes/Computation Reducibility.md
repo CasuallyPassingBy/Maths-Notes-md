@@ -70,3 +70,15 @@ Let $$\text{All}_\mathsf{CFG} := \{\langle G\rangle \mid \text{$G$ is a $\sf CFG
 **Def:** Let $\Gamma:= \{\vdash, 0, 1, \textvisiblespace\}$ be the tape alphabet for all Turing machines considered. Define the *busy beaver function* $\text{BB}:\Bbb N\to\Bbb N$ as follows. For each value of $k$, consider the $k$-sate Turing machine that halt when started with a blank tape. Let $\text{BB}(k)$ be the maximum number of $1$'s that remain on the tape among all the machines. 
 
 **Prop:** $\text{BB}$ is not computable function. 
+
+# Rice's Theorem
+
+**Def:** A *property of Turing-recognisable sets* is a map $$P : \{\text{Turing-recognisable subsets of $\Sigma^*$}\} \to \{\top, \bot\},  $$where $\top$ and $\bot$ represents truth and falsity, respectively. To ask whether such a property $P$ is decidable, the set has to be presented in a finite form suitable for input to a Turing machine. We assume that Turing-recognisable sets are presented by Turing machines that accept them. The property is a property of *sets*, not of the Turing machines; thus it must be true or false independent of the particular Turing machines chosen to present the set. 
+
+We mean that a property is *nontrivial* if it just neither universally true not universally false.
+
+**Rice's Theorem:** Every nontrivial property of the Turing-recognisable is undecidable.
+
+A property $P: \{\text{Turing-recognisable subsets of }\Sigma^*\} \to \{\top, \bot\}$ of the Turing-recognisable sets is called *monotone* for all Turing-recognisable set $A$ and $B$, if $A\subseteq B$, then $P(A) \le P(B)$. 
+
+**Rice's Theorem, part II:** No nonmonotone property of the Turing-recognisable sets is semidicidable. In other words, if $P$ is a nonmontone property of the Turing-recognisable sets, then the set $T_P = \{M \mid P(L(M)) = \top\}$ is not Turing-recognisable,

@@ -1,6 +1,5 @@
 ---
 tags:
-  - AlgorithmsAndDataStructures
 ---
 Subjects: [[Algorithms and Data Structures]]
 Links: [[limsup and liminf]]
@@ -31,8 +30,6 @@ $O$-notation is not necessarily a tight bound.
 We might be interested in what happens when $g(n) = O(f(n))$ and $f(n) = O(g(n))$. When this happens we see that we are bounding $f$ by below and above by $g$, getting that $f(n) = \Theta(g(n))$
 
 Doing some algebra, we see that $f(n) = O(f(n))$. We got that if $f(n) = O(g(n))$ and $g(n) = O(h(n))$, then $f(n) = O(h(n))$. Adding the last point, we see that $O$ is an order relation on the space of asymptotically nonnegative functions modulo $\Theta$
-
-
 
 # $\Omega$-notation
 
