@@ -19,12 +19,20 @@ I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's
 		- [[Nondeterministic Pushdown Automata]]
 			- [[Deterministic Pushdown Automata]]
 		- [[Parsing with Context-Free Grammars]]
+		- [[Right-Linear Grammars]]
 - [[Turing Machines]]
 	- [[Models Equivalent to Turing Machines]]
 	- [[Two-Stack Pushdown Automata]]
 	- [[Other Formalisms Equivalent to General Computation]]
+		- [[Post Systems|Post systems]],
+		- [[Type 0 Grammars]],
+		- [[Gödel Recursive Functions]],
+		- [[Lambda Calculus]],
+		- [[Combinatory Logic]],
+		- [[While Programs]]
 	- [[Decidable and Undecidable Problems]]
 		- [[Computation Reducibility]]
 			- [[Busy Beaver Function]]
-		- [[Post Correspondence Problem]]
+		- [[Post Systems]]
 	- [[Linear Bounded Automaton]]
+- [[Gödel's Incompleteness Theorems]]

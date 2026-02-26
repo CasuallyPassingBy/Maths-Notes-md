@@ -177,7 +177,7 @@
 		- [x] Context Free Grammars
 		- [x] The Church-Turing Thesis
 		- [x] Decidability
-		- [ ] Reducibility
+		- [x] Reducibility
 		- [ ] Advanced Topics in Computability Theory
 		- [ ] Time Complexity
 		- [ ] Space Complexity
@@ -222,12 +222,12 @@
 		- [x] Equivalent Models
 		- [x] Universal Machines and Diagonalisation
 		- [x] Decidiable and Undecidable Problems
-		- [ ] Reduction
-		- [ ] Rice's Theorem
-		- [ ] Undecidable Problems About CFLs
-		- [ ] Other Formalisms
-		- [ ] The $\lambda$-Calculus
-		- [ ] While Programs
+		- [x] Reduction
+		- [x] Rice's Theorem
+		- [x] Undecidable Problems About CFLs
+		- [x] Other Formalisms
+		- [x] The $\lambda$-Calculus
+		- [x] While Programs
 		- [ ] Beyond Undecidability
 		- [ ] Gödel Incompleteness Theorem
 		- [ ] Proof of the Incompleteness Theorem

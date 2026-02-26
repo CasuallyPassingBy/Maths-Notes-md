@@ -24,9 +24,7 @@ This can be written in the usual way as
 
 ### Exponentiation
 
-We can uniquely define exponentiation of natural numbers as
-
-$$ m ^0 = 1\quad \text{ for all } m\in \Bbb N $$$$ m^{n+1} = m^n \cdot m \quad \text{for all }m, n \in \Bbb N $$
+We can uniquely define exponentiation of natural numbers as$$ m ^0 = 1\quad \text{ for all } m\in \Bbb N $$$$ m^{n+1} = m^n \cdot m \quad \text{for all }m, n \in \Bbb N $$
 
 ### Difference or Subtraction
 
@@ -44,24 +42,20 @@ Let $n, m \in \Bbb N$ such that $m \le n$. The unique natural $r$ that satisfies
 
 ### Peano’s Axioms for Arithmetic
 1. If $S(n) = S(m)$ , then $n=m$
-2. $S(n) \Bbb Ne0$
+2. $S(n) \ne 0$
 3. $n+0 = n$
 4. $n + S(m) = S(n+m)$
 5. $n\cdot 0 = 0$
 6. $n \cdot S(m) =n\cdot m +n$
-7. If $n \Bbb Ne 0$, then $n = S(k)$ for some $k$
+7. If $n \ne 0$, then $n = S(k)$ for some $k$
 8. The Induction Schema. Let $A$ be an arithmetic property (a property expresible in terms of $+, \cdot, S, 0$). If $0$ has the property $A$ and if $A(k)$ implies $A(S(k))$ for every $k$, then has the property $A$.
 
 Given what we have we can check that the natural numbers constructed satisify Peano’s Axioms for arithmetic.
 
 ### $\Sigma$ and $\Pi$ notation
 
-We can define for each finite sequence $\langle k_i \mid i \in n\rangle$ of natural numbers, define $\sum \langle k_i \mid i \in n\rangle$ so that
-
-$$ \sum \langle \rangle =0 $$$$ \sum \langle k_0\rangle =k_0 $$$$
+We can define for each finite sequence $\langle k_i \mid i \in n\rangle$ of natural numbers, define $\sum \langle k_i \mid i \in n\rangle$ so that $$ \sum \langle \rangle =0 $$$$ \sum \langle k_0\rangle =k_0 $$$$
 \sum \langle k_0, \dots, k_n\rangle = \sum \langle k_0, \dots, k_{n-1}\rangle+k_n $$
 
-and $\prod \langle k_i \mid i \in n\rangle$ so that
-
-$$ \prod \langle\rangle =1 $$$$ \prod \langle k_0\rangle =k_0 $$$$ \prod \langle k_0, \dots, k_n\rangle = \prod \langle k_0, \dots, k_{n-1}\rangle \cdot k_n \qquad  
+and $\prod \langle k_i \mid i \in n\rangle$ so that $$ \prod \langle\rangle =1 $$$$ \prod \langle k_0\rangle =k_0 $$$$ \prod \langle k_0, \dots, k_n\rangle = \prod \langle k_0, \dots, k_{n-1}\rangle \cdot k_n \qquad  
 $$
