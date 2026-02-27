@@ -49,7 +49,7 @@ Using this representation of the natural numbers, the successor function is defi
 to see that this is correct, try applying it to any $\overline n$: $$
  \begin{align*}
  s\overline n &= (\lambda m.\lambda f. \lambda x. f(mfx) )(\lambda  f. \lambda x. f^n x) \\
- &\xrightarrow{\,\alpha\,} (\lambda  m. \lambda g. \lambda y. g(mgy)) (\lambda . \lambda x. f^n x) \\
+ &\xrightarrow{\,\alpha\,} (\lambda  m. \lambda g. \lambda y. g(mgy)) (\lambda f. \lambda x. f^n x) \\
  &\xrightarrow{\,\beta\,} \lambda g. \lambda y.g((\lambda f.\lambda x.f^nx)gy) \\
   &\xrightarrow{\,\beta\,} \lambda g. \lambda y.g((\lambda x.g^nx)y)
  \\
@@ -59,7 +59,7 @@ to see that this is correct, try applying it to any $\overline n$: $$
  &= \overline{n+1}.
  \end{align*}  $$
 We can define addition as$$ \text{add} := \lambda x.\lambda y. (x s) y.$$
-We can also define multiplication as follows $$\text{mult} := (\lambda x.\lambda y. \lambda z.  x(yz)).$$
+We can also define multiplication as follows $$\text{mult} := \lambda m.\lambda n. \lambda f.  m(nf).$$
 ## Conditionals
 
 We introduce the following two functions we call this values 'true' $$\mathsf T:= \lambda x.\lambda y. x $$and 'false' $$\mathsf  F:= \lambda x. \lambda y.y$$

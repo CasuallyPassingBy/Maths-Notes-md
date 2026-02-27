@@ -35,4 +35,5 @@ I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's
 			- [[Busy Beaver Function]]
 		- [[Post Systems]]
 	- [[Linear Bounded Automaton]]
+	- [[The Recursion Theorem in Computability Theory]]
 - [[Gödel's Incompleteness Theorems]]

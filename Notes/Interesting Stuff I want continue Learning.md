@@ -233,6 +233,7 @@
 		- [ ] Proof of the Incompleteness Theorem
 		- [ ] Gödel's Proof
 	- [ ] [Lillian Lee's aritcle](https://arxiv.org/pdf/cs/0112018)
+	- [ ] Lecture Notes on the Lambda Calculus
 	- [ ] [Prat Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)
 	- [ ] [Junferno's references](https://junferno.com/references/#list-4)
 - Digital Circuits
