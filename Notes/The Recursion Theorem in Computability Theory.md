@@ -42,3 +42,8 @@ $B =$ "on input $w$:
 2. Run $H$ on input $\langle B, w\rangle$.
 3. Do the opposite of what $H$ says. That is, *accept* if $H$ rejects and *reject* if $H$ accepts"
 Running $B$ on input $w$ does the opposite of what $H$ declares. Therefore $H$ cannot be deciding $A_\mathsf{TM}$.
+
+**Def:** If $M$ is a Turing machine, then we say that the *length* of the description $\langle M\rangle$ of $M$ is the number of symbols in the string describing $M$. Say that $M$ is *minimal* if there is no Turing machine equivalent to $M$ that has a shorter description. Let $$\text{Min}_{\sf TM} := \{\langle M\rangle \mid M \text{is a minimal Turing machine}\}. $$
+**Th:** $\text{Min}_{\sf TM}$ is not Turing-recognisable.
+
+**Fixed-Point Version of the Recursion Theorem:** Let $t:\Sigma^*\to \Sigma^*$ be a computable function. Then there is a Turing machine $F$ for which $t(\langle F\rangle)$ describes a Turing machine equivalent to $F$. 

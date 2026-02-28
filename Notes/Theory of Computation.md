@@ -33,7 +33,9 @@ I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's
 	- [[Decidable and Undecidable Problems]]
 		- [[Computation Reducibility]]
 			- [[Busy Beaver Function]]
+			- [[The Recursion Theorem in Computability Theory]]
+			- [[Turing Reducibility]]
 		- [[Post Systems]]
 	- [[Linear Bounded Automaton]]
-	- [[The Recursion Theorem in Computability Theory]]
+
 - [[Gödel's Incompleteness Theorems]]

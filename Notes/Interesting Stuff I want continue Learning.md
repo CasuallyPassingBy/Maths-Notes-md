@@ -1,9 +1,9 @@
 [[Almost finished projects]]
 ## Topology
 - [x] Fully Normal Spaces
-- [ ] Vietoris Hyperspace 
+- Vietoris Hyperspace 
 	- [ ] Illanes & Nadler
-- [ ] Topology
+- Topology
 	- [ ] Engelking
 		- [ ] Stone-Čech compactification
 	- [ ] Prieto
