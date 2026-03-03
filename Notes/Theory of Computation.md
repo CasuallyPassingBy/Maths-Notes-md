@@ -34,7 +34,7 @@ I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's
 		- [[Computation Reducibility]]
 			- [[Busy Beaver Function]]
 			- [[The Recursion Theorem in Computability Theory]]
-			- [[Turing Reducibility]]
+			- [[Oracle Machines and Relative Computation]]
 		- [[Post Systems]]
 	- [[Linear Bounded Automaton]]
 
