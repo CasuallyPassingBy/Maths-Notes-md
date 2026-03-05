@@ -101,7 +101,7 @@ This actually gives us the the most verifies that the third expansion matches wi
 Let $\{p_n\}_{n \in \Bbb N}$ be the increasing sequence of prime numbers. 
 
 Then we can consider $f_n(z) = 1-p_n^{-z}$, we see that $f_n$ are entire functions. Let $U = \{z \in \Bbb C\mid \Re (z) >1\}$. Then we can check that $$\prod_{n = 1}^\infty f_n \in \mathcal H(U)$$
-Similarly, we can check that $f_n(z) = 0$, then this implies that $\Re(z)=0$, meaning that $z \notin U$. Thus $1/f_n \in \mathcal H(U)$, and we get that $$\prod_{n = 1}^\infty \frac1{f_n} \in \mathcal H(U)$$.
+Similarly, we can check that $f_n(z) = 0$, then this implies that $\Re(z)=0$, meaning that $z \notin U$. Thus $1/f_n \in \mathcal H(U)$, and we get that $$\prod_{n = 1}^\infty \frac1{f_n} \in \mathcal H(U).$$
 ### Euler's Theorem
 
 If $Re(z) >1$, then $$\zeta(z) = \sum_{n = 1}^\infty \frac1{n^z} = \prod_{n = 0}^\infty \frac1{1-p_n^{-z}}$$
@@ -115,7 +115,7 @@ If $Re(z) >1$, then $$\zeta(z) = \sum_{n = 1}^\infty \frac1{n^z} = \prod_{n = 0}
 We see that the zeros of $\zeta$ is symmetric with respect to the line $\Re(z) = 1/2$, when $0\le \Re(z) \le 1$. 
 
 We also see that $\zeta[\Bbb R\setminus \{1\}]\subseteq \Bbb R$, then by [[Basic Analytic Extension#Schwarz Reflection Principle|Schwarz Reflection Principle]], we have that $$\overline{\zeta({\overline z})} = \zeta(z)$$
-Meaning that if $z\in Z(\zeta)$, the n $\overline z \in Z(\zeta)$.
+Meaning that if $z\in Z(\zeta)$, then $\overline z \in Z(\zeta)$.
 
 We see that $$\log \zeta (s) = \sum_p \frac1{p^s} + O(1)$$for $\Re(s) >1$
 
@@ -130,6 +130,10 @@ With this form we can get that $$\ln|\zeta(z)| = - \sum_p \sum_{n = 1}^\infty  \
 This a big result, so we now know that by symmetry of the zeros, then if $\Re(z) = 0$, then $\zeta(z) \ne 0$.
 
 **Def:** The set $$B= \{z \in \Bbb C \mid 0 < \Re(z) < 1\}$$is called the *critical band*, the line $\Re(z) = 1/2$ is the *critical line*
+
+# Known Values
+
+There a couple of known values of the Riemann zeta function. Mainly, then positive even integers, and the non positive integers. In both of these cases, the known values are related to the [[Bernoulli numbers]]. If $n \in \Bbb N^+$, then $$\zeta(2n) = (-1)^{n+1}\frac{(2\pi)^{2n}B_{2n}}{2(2n)!},$$where $B_{2n}$ represents the $(2n)$th Bernoulli number. If $n \in\Bbb N$, and then $$\zeta(-n) := -\frac{B_{n+1}}{n+1}. $$This also explains the trivial zeros of the Riemann zeta function. We can calculate these last values using [[fractional sums]]. 
 
 # Riemann Hypothesis
 If $z \in Z(\zeta) \cap B$, then $$\Re(z) = \frac1{2}$$

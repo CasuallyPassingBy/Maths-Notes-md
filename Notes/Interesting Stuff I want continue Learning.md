@@ -117,7 +117,7 @@
 ## Probability
 -  Stochastic Process 
 	- [ ] Ross
-	- [ ] Rincon
+	- [ ] Rincón
 		- [x] Caminatas Aleatorias
 		- [ ] Cadenas de Markov
 		- [ ] Proceso de Poisson
