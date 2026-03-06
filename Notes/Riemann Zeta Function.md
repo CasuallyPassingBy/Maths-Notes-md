@@ -119,7 +119,7 @@ Meaning that if $z\in Z(\zeta)$, then $\overline z \in Z(\zeta)$.
 
 We see that $$\log \zeta (s) = \sum_p \frac1{p^s} + O(1)$$for $\Re(s) >1$
 
-We see that $$\zeta(s) = \frac1{s-1} +O(1) \qquad \text{as } s\to 1^+$$and $$\sum_p \frac1{p^s} = \log\left(\frac1{s-1}\right) + O(1) \text{as } s\to 1^+$$giving us the result that $$\sum_p \frac1p = \infty$$giving us a cute proof that there are infinitely many primes, but also that are not that sparse as they increase
+We see that $$\zeta(s) = \frac1{s-1} +O(1) \qquad \text{as } s\to 1^+$$and $$\sum_p \frac1{p^s} = \log\left(\frac1{s-1}\right) + O(1) \qquad \text{as } s\to 1^+$$giving us the result that $$\sum_p \frac1p = \infty$$giving us a cute proof that there are infinitely many primes, but also that are not that sparse as they increase
 
 We look at the innocent observation that for all $\theta\in \Bbb R$, then $$4\cos\theta+\cos(2\theta) = 2(1+\cos\theta)^2$$
 For $z = a+bi$ and $a>0$, then $$\ln|\zeta(z)| = \ln \left|\prod_p \frac1{1-p^{-z}}\right| = - \sum_p \ln|1-p^{-z}| = -\sum_p \Re(\log(1-p^{-z})$$

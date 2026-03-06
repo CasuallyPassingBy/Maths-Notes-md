@@ -3,7 +3,7 @@ tags:
   - ComputationTheory
 ---
 Subjects: [[Theory of Computation]]
-Links: [[Other Formalisms Equivalent to General Computation]], [[Turing Machines]], [[Gödel Recursive Functions]]
+Links: [[Formalisms Equivalent to General Computation]], [[Turing Machines]], [[Gödel Recursive Functions]]
 
 We can relate the primitive and $\mu$-recursive and functions of Gödel to more modern concepts. Consider a simple programming language with variables $\text{Var} := \{x, y,\dots\}$ ranging over $\Bbb N$ containing the following constructs:
 1. *simple assignments*: $x := 0\quad x := y+1 \quad x:= y$

@@ -7,6 +7,7 @@
 	- [ ] Engelking
 		- [ ] Stone-Čech compactification
 	- [ ] Prieto
+	- [ ] Tamaríz
 
 ### Algebraic Topology 
 - [x] Introduction to Topological Manifolds by Lee 
@@ -20,7 +21,7 @@
 	- [x] Dummit & Foote
 -  Group Theory
 	- [ ] Dummit & Foote
-	- [ ] Zaldivar (65%)
+	- [ ] Zaldivar
 		- [x] Symmetries and binary operations
 		- [x] Groups and subgroups
 		- [x] Cyclic Groups
@@ -58,6 +59,13 @@
 		- [ ] Density of integers sequences
 	- [ ] Rosen
 -  Category Theory
+- Commutative algebra
+	- [ ] Atiyah & Macdonald
+- Homological Algebra
+	- [ ] Dummit & Foote
+- Linear Algebra
+	- [x] Axler
+	- [x] Friedberg
 ## Analysis
 - Measure Theory
 	- [ ] Cohn
@@ -76,6 +84,7 @@
 		- [ ] Measure and topology in groups
 	- [ ] Bogachev I
 	- [ ] Bogachev II
+	- [x] Nelson
 -  Differential Geometry
 	- [ ]  Introduction to Smooth Manifolds by Lee 
 		- [x] Smooth Manifolds
@@ -109,12 +118,40 @@
 	- [ ] Bartle 'A Modern Theory of Integration'
 -  Analysis on Metric Spaces
 	- [ ] 'Lectures on  Analysis on Metric Spaces' by Heinonen
+- Fourier Analiysis
+	- [x] _Fourier Analysis: An Introduction_ by Stein & Shakarchi
+- Complex Analysis
+	- [x] Paez
+	- [x] Shabat
+	- [ ] Marsden
+		- [x] Analytic Functions
+		- [x] Cauchy's Theorem
+		- [x] Series Representation of Analytic Functions
+		- [ ] Calculus of Residues
+		- [ ] Conformal Maps
+		- [ ] Further Development of the Theory
+		- [ ] Asymptotic Methods
+		- [ ] Laplace Transform and Applications
+	- [ ] Stein & Shakarchi
+	- [ ] Alfohrs
+	- [ ] Conway
+- Real analysis
+	- [x] Abbot
+	- [x] Bartle
+- Vector Analysis
+	- [x] '*Cálculo diferencial de varias variables*' Paez
+	- [x] '*Cálculo integral de varias variables*' Paez
 # Differential Equations
 - Ordinary Differential Equations
 	- [ ] Birkhoff and Rota
 	- [ ] Boyce Di Prima
-
+- Partial Differential Equations
+	- [ ] Evans
+	- [ ] Folland
 ## Probability
+- Probability Theory
+	- [x]  *Introducción a la probabilidad* Rincón
+	- [x]  *Curso Intermedio de probabilidad* Rincón
 -  Stochastic Process 
 	- [ ] Ross
 	- [ ] Rincón
@@ -158,9 +195,12 @@
 -  Statistical Mechanics 
 	- [ ] States of Matter Goodstein
 -  Fluid Mechanics
+- General Relativity
+	- [ ] _Spacetime and Geometry_ by Sean Carroll.
 ## Computer Science
 - Machine Learning
 	- [ ] **_Understanding Machine Learning: From Theory to Algorithms_** by Shai Shalev-Shwartz and Shai Ben-David
+	- [ ] *Ariticial Inteligence: A modern Approach* by Russel and Norvig
 	- [ ] Deep Learning with Pytorch
 	- [ ] [Nielsen](https://neuralnetworksanddeeplearning.com/chap1.html)
 		- [x] Using neural nets to recognize handwritten digits
@@ -263,6 +303,8 @@
 		- [ ] Boundary-Value Problems for ODE
 		- [ ] Numerical Solutions to PDE
 	- [ ] [CORDIC Algorithm](https://www.youtube.com/watch?v=bre7MVlxq7o)
+- Information theory
+	- [ ] Cover & Thomas
 ## Other
 - [ ] Finite Operator Calculus (Finite Operator Calculus.pdf)
 - [ ] Umbral Calculus (Pure and Applied Mathematics 111)

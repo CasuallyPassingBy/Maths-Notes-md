@@ -3,7 +3,7 @@ tags:
   - ComputationTheory
 ---
 Subjects: [[Theory of Computation]]
-Links: [[Turing Machines]], [[Natural Numbers]], [[Lambda Calculus]], [[Arithmetic of Natural Numbers]], [[Other Formalisms Equivalent to General Computation]]
+Links: [[Turing Machines]], [[Natural Numbers]], [[Lambda Calculus]], [[Arithmetic of Natural Numbers]], [[Formalisms Equivalent to General Computation]]
 
 Gödel defined a collection of number-theoretic functions $\Bbb N^k \to \Bbb N$ that, according to his intuition, represented all the computable functions. His definition was as follows:
 - *Successor*. The function $\text s: \Bbb N \to\Bbb N$ given by $\text s(x) = x +1$ is computable.

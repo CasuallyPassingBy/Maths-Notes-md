@@ -3,7 +3,7 @@ tags:
   - ComputationTheory
 ---
 Subjects: [[Theory of Computation]]
-Links: [[Lambda Calculus]], [[Other Formalisms Equivalent to General Computation]], [[Turing Machines]]
+Links: [[Lambda Calculus]], [[Formalisms Equivalent to General Computation]], [[Turing Machines]]
 
 Combinatory logic is a form of a variable-free $\lambda$-calculus. It was first invented to study the mathematics of symbol manipulation, especially substitution. The systems consists of terms called *combinators* that are manipulated using *reduction rules*.
 

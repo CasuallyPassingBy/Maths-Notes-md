@@ -23,7 +23,7 @@ I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's
 - [[Turing Machines]]
 	- [[Models Equivalent to Turing Machines]]
 	- [[Two-Stack Pushdown Automata]]
-	- [[Other Formalisms Equivalent to General Computation]]
+	- [[Formalisms Equivalent to General Computation]]
 		- [[Post Systems|Post systems]],
 		- [[Type 0 Grammars]],
 		- [[Gödel Recursive Functions]],
@@ -37,5 +37,4 @@ I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's
 			- [[Oracle Machines and Relative Computation]]
 		- [[Post Systems]]
 	- [[Linear Bounded Automaton]]
-
 - [[Gödel's Incompleteness Theorems]]

@@ -3,7 +3,7 @@ tags:
   - ComputationTheory
 ---
 Subjects: [[Theory of Computation]]
-Links: [[Computation Reducibility]], [[Turing Machines]], [[Decidable and Undecidable Problems]], [[Other Formalisms Equivalent to General Computation]]
+Links: [[Computation Reducibility]], [[Turing Machines]], [[Decidable and Undecidable Problems]], [[Formalisms Equivalent to General Computation]]
 
 # The Post Correspondence Problem
 

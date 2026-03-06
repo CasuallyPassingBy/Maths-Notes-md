@@ -3,7 +3,7 @@ tags:
   - ComputationTheory
 ---
 Subjects: [[Theory of Computation]]
-Links: [[Turing Machines]], [[Other Formalisms Equivalent to General Computation]], [[Arithmetic of Natural Numbers]]
+Links: [[Turing Machines]], [[Formalisms Equivalent to General Computation]], [[Arithmetic of Natural Numbers]]
 
 The $\lambda$-calculus consists of a set of objects called $\lambda$-terms and some rules of manipulating them. It was originally designed to capture formally the notions of *functional abstraction* and *functional application* and their interactions.
 

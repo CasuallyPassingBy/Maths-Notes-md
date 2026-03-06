@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Oracle Machines and Relative Computation.md",
+                "file": "Gödel's Incompleteness Theorems.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Oracle Machines and Relative Computation"
+              "title": "Gödel's Incompleteness Theorems"
             }
           },
           {
@@ -243,16 +243,17 @@
   "active": "bf6a98c0c052d4c1",
   "lastOpenFiles": [
     "Interesting Stuff I want continue Learning.md",
-    "Bernoulli numbers.md",
-    "Oracle Machines and Relative Computation.md",
+    "Gödel's Incompleteness Theorems.md",
     "Riemann Zeta Function.md",
-    "Fractional Sums.md",
     "Theory of Computation.md",
+    "Formalisms Equivalent to General Computation.md",
+    "Oracle Machines and Relative Computation.md",
+    "Bernoulli numbers.md",
+    "Fractional Sums.md",
     "The Recursion Theorem in Computability Theory.md",
     "Lambda Calculus.md",
     "While Programs.md",
     "Combinatory Logic.md",
-    "Other Formalisms Equivalent to General Computation.md",
     "Arithmetic of Natural Numbers.md",
     "Strings and Grammars.md",
     "Asymptotic notation.md",
@@ -267,7 +268,6 @@
     "Bili.md",
     "Busy Beaver Function.md",
     "Decidable and Undecidable Problems.md",
-    "Context-Free Grammars.md",
     "Pasted image 20260211174214.png",
     "Pasted image 20260128171751.png",
     "Pasted image 20251214203248.png",

@@ -3,7 +3,7 @@ tags:
   - ComputationTheory
 ---
 Subjects: [[Theory of Computation]]
-Links: [[Context-Free Grammars]], [[Right-Linear Grammars]], [[Turing Machines]], [[Other Formalisms Equivalent to General Computation]]
+Links: [[Context-Free Grammars]], [[Right-Linear Grammars]], [[Turing Machines]], [[Formalisms Equivalent to General Computation]]
 
 *Grammars* are restricted class of Post systems that arose in formal language theory. There is a natural hierarchy of grammars, called the *Chomsky hierarchy*, which classifies grammars into four types named $0, 1, 2$, and $3$. The type $2$ and $3$ are just the context-free and right-linear grammars, respectively. A more general class of grammars, called the *type $0$,* or *unrestricted* grammars, are much like context-free grammars, except that productions may be of the more general form $$\alpha →\beta,$$where $\alpha$ and $\beta$ are any strings of terminals and nonterminals whatsoever.
 

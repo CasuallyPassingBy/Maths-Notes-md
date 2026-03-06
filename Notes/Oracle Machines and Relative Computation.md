@@ -38,7 +38,7 @@ Thus $\Pi_1^0$ is the class of co-recursively enumerable sets. The classes $\Sig
 - $\Delta_n^0 = \Sigma_n^0\cap \Pi_n^0$. 
 
 **Examples:**
-- The set $\text{Empty} := \{ M \mid L(M ) = \varnothing\}$ is in $\Pi_1^0$, since we can write it as $\text{Empty} = \{M \mid \forall x\forall t\; M \text{ does not accept }x \text{ in }t \text{ steps.}\}$, and since the strings and natural numbers are countable then we can just condense it into a single for all that enumerates all of them.
+- The set $\text{Empty} := \{ M \mid L(M ) = \varnothing\}$ is in $\Pi_1^0$, since we can write it as $$\text{Empty} = \{M \mid \forall x\forall t\; M \text{ does not accept }x \text{ in }t \text{ steps.}\}$$, and since the strings and natural numbers are countable then we can just condense it into a single for all that enumerates all of them.
 - The set $\text{Total} := \{M \mid M \text{ is total}\}$ is in $\Pi_2^0$, since we can write it as $$\text{Total} = \{M \mid \forall x \exists t \; M\text{ halts on $x$ in $t$ steps}\}. $$
 - The set $\text{Fin} := \{M \mid L(M) \text{ is finite}\}$ is in $\Sigma_2^0$, since $$\text{Fin} = \{M \mid \exists n \forall x\forall t  \text{ $|x|\le n$ or $M$ doesn't accept $x$ in $t$ steps}\}. $$
 - The set is *cofinite* if its complement is finite. The set $\text{Cofinite} := \{M \mid L(M) \text{ is cofinite}\}$ is in $\Sigma_3^0$, since $$\text{Cofinite} := \{M \mid \exists n \forall x \exists t \; \text{$|x|\le n$ or $M$ accepts $x$ in $t$ steps}\}.  $$
@@ -50,4 +50,23 @@ Thus $\Pi_1^0$ is the class of co-recursively enumerable sets. The classes $\Sig
 
 ### Completeness
 
-We say that a set is recursively enumerable-hard if every recursively enumerable set $\le_\text m$-reduces to it. In other words, the set $B$ is recursively enumerable-hard
+**Def:** We say that a set is recursively enumerable-hard if every recursively enumerable set $\le_\text m$-reduces to it. In other words, the set $B$ is recursively enumerable-hard if all recursively enumerable sets $A\le_\text m B$. 
+
+A set $B$ is said to be recursively enumerable-complete if it is both an recursively enumerable set and recursively enumerable-hard.
+
+**Def:** If $\cal C$ is a class of sets, we say that a set is $\le_\text m$-hard for $\cal C$, or just $\cal C$-hard, if $A\le_\text m B$ for all $A\in \cal C$. We say that $B$ is $\le_\text m$-complete for $\cal C$, or just $\cal C$-complete, if $B$ is $\le_\text m$-hard for $\cal C$ and $B\in\cal C$. 
+
+**Th:** If $A\le_\text m B$ and $B\in \Sigma_n^0$, then $A\in \Sigma_n^0$. 
+
+**Th:** If $A\le_\text m B$ and $B\in \Delta_n^0$, then $A\in \Delta_n^0$. 
+
+If $B$ is $\le_\text m$-complete of $\Sigma_n^0$,  then $B\notin \Pi_n^0, \Delta_n^0, \Sigma_{n-1}^0$. 
+
+**Examples:**
+- $\sf HP$ is $\le_\text m$-complete for $\Sigma_1^0$,
+- $\sf MP$ is $\le_\text m$-complete for $\Sigma_1^0$,
+- $\text{Empty}$ is $\le_\text m$-complete for $\Pi_1^0$,
+- $\text{Total}$ is $\le_\text m$-complete for $\Pi_2^0$,
+- $\text{Fin}$ is $\le_\text m$-complete for $\Sigma_2^0$,
+- $\text{Cofinte}$ is $\le_\text m$-complete for $\Sigma_3^0$.
+
