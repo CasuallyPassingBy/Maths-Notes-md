@@ -6,4 +6,4 @@ tags:
 
 - [[Falling and Rising Factorials and Pochhamer Symbols]]
 	- [[Multifactorials]]
-- [[Asymptotic notation]]
+- [[Asymptotic Notation]]

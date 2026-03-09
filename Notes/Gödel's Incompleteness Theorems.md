@@ -4,7 +4,7 @@ tags:
   - Logic
 ---
 Subjects: [[Theory of Computation]], [[Logic]]
-Links: [[Arithmetic of Natural Numbers]], [[Turing Machines]], [[Computation Reducibility]], [[Decidable and Undecidable Problems]], [[Oracle Machines and Relative Computation]]
+Links: [[Arithmetic of Natural Numbers]], [[Turing Machines]], [[Computation Reducibility]], [[Decidable and Undecidable Problems]], [[Oracle Machines and Relative Computation]], [[Natural Numbers]], [[ZF Axioms]]
 
 The first-order language of number theory $L$ is a forma language for expressing properties of the natural numbers $\Bbb N$. The language is built from the following symbols:
 - variables $x, y, z, \dots$ ranging over $\Bbb N$;
@@ -59,6 +59,10 @@ A proof system is said to be *complete* if all true statements are theorems of t
 
 # Turing's Proof
 
+Let us consider a modified version the Peano axioms where we exclude the product. We can denote this model by $(\Bbb N,  +)$. 
+
+**Th:** The set $\text{Th}(\Bbb N, +)$ is decidable.
+
 The set of theorems of Peano Arithmetic is certainly recursively enumerable. We can enumerate the theorems by enumerating all the axioms and systematically applying the rules of inference in all possible ways, emitting every sentence that is ever derived. 
 
 **Th:** $\text{Th}(\Bbb N)$ is not recursively enumerable.
@@ -109,3 +113,23 @@ To say that Peano arithmetic is *sound* says that every theorem of Peano arithme
 Let formulas of number theory be coded as natural numbers in some reasonable way. Fix this coding and let $\ulcorner \varphi\urcorner$ denote the code of the formula $\varphi$. 
 
 **Gödel's Fixpoint Lemma:** For any formula $\psi(x)$ with one free variable $x$, there exists a sentence $\tau$ such that  $$ \vdash \quad \tau \leftrightarrow \psi(\ulcorner \tau\urcorner);$$that is, the sentences $\tau$ and $\psi(\ulcorner \tau\urcorner)$ are provably equivalent in Peano arithmetic. 
+
+Now we see that the language of number theory is also strong enough to talk about provability in Peano arithmetic. In particular, it is possible to code sequences of formulas as numbers and write down a formula $\text{PROOF}(x, y)$ that asserts that the sequence of formulas whose code is given by $x$ is legal proof in Peano arithmetic and constitues a proof of the formula whose code is given by $y$. That is, for any sequence $\pi$ of formulas and formula $\varphi$,  $$\vdash \text{PROOF}(\ulcorner\pi\urcorner,\ulcorner\varphi\urcorner )\iff \text{$\pi$ is a proof in PA of }\varphi.  $$Provability in Peano arithmetic is then encoded by the formula $$\text{PROVABLE}(y) := \exists x \text{PROOF}(x, y). $$Then for any sentence $\varphi$ of $L$ $$\vdash \varphi  \iff \models \text{PROVABLE}(\ulcorner\varphi\urcorner).$$Moreover,$$\vdash \varphi \iff \vdash \text{PROVABLE}(\ulcorner\varphi\urcorner).$$
+Applying the fixpoint lemma to the predicate $¬\text{PROVABLE}(x)$, we obtain a sentence $\rho$ that asserts its own unprovability $$\vdash \rho \leftrightarrow ¬\text{PROVABLE}(\ulcorner\rho\urcorner); $$in other words, $\rho$ is true iff it is not provable in Peano arithmetic. By soundness of Peano arithmetic, we have $$\models \rho \leftrightarrow ¬\text{PROVABLE}(\ulcorner\rho\urcorner). $$Then the sentence $\rho$ must be true, since if not, then $$\begin{align*}\models ¬\rho &\implies \models \text{PROVABLE}(\ulcorner\rho\urcorner) \\ &\implies \vdash \rho \\ &\implies \models \rho\end{align*}$$a contradiction. Therefore $\models \rho$. But again, $$\begin{align*}\models \rho &\implies \models ¬\text{PROVABLE}(\ulcorner\rho\urcorner) \\ &\implies \not\vdash \rho \\ &\implies \not\models \rho\end{align*}$$Thus $\rho$ is true but not provable. 
+
+## The Second Incompleteness Theorem
+
+Observe that there is logic going on at two levels here. The object of out study os a logical system, namely the language of number theory $L$ and its deductive system Peano arithmetic; but we are reasoning about it using another logical system, which we will call the *metasystem*. The symbols $\vdash$, $\models$, $\implies$ and $\iff$ that we used in the previous section are not symbols of $L$, but *metasymbols*, or symbols of the metasystem. The statements we made about truth and provability of sentences of $L$ are *metastatements*.
+
+Certain metastatements about $L$ and Peano arithmetic can be encoded in $L$ using the coding scheme $\ulcorner \varphi\urcorner$ and reasoned about in Peano arithmetic. The metastatement $$\vdash \varphi  \iff \models \text{PROVABLE}(\ulcorner\varphi\urcorner)$$expresses the correctness of this encoding.
+
+The metastatement '$\varphi$ is true' cannot be expressed in $L$. If  there was a formula $\text{TRUE}(x)$ of L$ such that for all sentences of $L$, $$\models \varphi \iff \text{TRUE}(\ulcorner\varphi\urcorner).  $$But it follows from the fixpoint lemma that no such formula can exists. If it did, then there would exist a sentence $\sigma$ such that  $$\models\sigma \iff ¬\text{TRUE}(\ulcorner\sigma\urcorner); $$but $$\models \sigma \iff \text{TRUE}(\ulcorner\sigma\urcorner),  $$which is a contradiction.
+
+The language $L$ is not powerful enough to express the *truth* of sentences of $L$ or the *soundness* of Peano arithmetic. These are external concepts, and we must deal with them in the metasystem. However, $L$ and Peano arithmetic are powerful enough to express and reason about *provability* and *consistency*, which are internal analogues of truth and soundness, respectively. *Consitency* just means that no contradictions can be derived; in other words, $\bot$ (falsity) is not a theorem. The consistency of Peano arithmetic is expressed in $L$ as follows: $$\text{CONSIS} := ¬\text{PROVABLE}(\ulcorner \bot\urcorner).$$
+Meta-arguments involving only the concepts of provability and consitency can typically be mapped down into Peano arithmetic. 
+
+**Gödel's Second Incompleteness Theorem:** No suficiently powerful deductive system can prove its own consistency, unless it is inconsistent.
+
+We prove the second incompleteness theorem for Peano arithmetic. But it actually holds for any sufficiently powerful deductive system, where 'sufficiently powerful' just means strong enough to encode and reason about certain metastatements involing provability and consistency such as those discussed above.
+
+**Cor:** $\sf ZF$ set theory cannot be proven to be consisten, unless it is inconsistent.

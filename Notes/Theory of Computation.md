@@ -38,3 +38,7 @@ I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's
 		- [[Post Systems]]
 	- [[Linear Bounded Automaton]]
 - [[Gödel's Incompleteness Theorems]]
+- [[Time Complexity]]
+	- [[The Complexity Class P]]
+	- [[The Complexity Class NP]]
+		- [[NP-Completeness]]

@@ -8,7 +8,7 @@ Links: [[Integral Curves, Flows and Flowouts on Smooth Manifolds]], [[First Orde
 
 One of the most powerful applications of the theory of flows is to [[partial differential equations]]. 
 
-The number of specialised techniques that have been developed to solve PDEs is staggering (for example [[Fourier Analysis]]). However, it is remarkable fact that real-valued *first odder* PDEs can be reduced to *ordinary differential equations* by means of the theory of flows, and thus can be solved using only ODEs and a little differential-geometric insight but no specialised PDE theory. 
+The number of specialised techniques that have been developed to solve PDEs is staggering (for example Fourier Analysis). However, it is remarkable fact that real-valued *first odder* PDEs can be reduced to *ordinary differential equations* by means of the theory of flows, and thus can be solved using only ODEs and a little differential-geometric insight but no specialised PDE theory. 
 
 We will only see this technique applied two special cases of first-order equations:
 - linear equations;

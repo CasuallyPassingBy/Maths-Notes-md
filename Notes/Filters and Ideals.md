@@ -3,7 +3,7 @@ tags:
   - SetTheory
 ---
 Subjects: [[Set Theory]]
-Links: [[Pi-System]], [[Convergence of Filters]]
+Links: [[Pi-System]], [[Convergence of Filters]], [[Ring Ideals and Quotient Rings]]
 
 Let $S$ be a nonempty set. A *filter* on $S$ is a collection $F$ of subsets of $S$ that satisfies the following conditions:
 - $S \in F$, $\varnothing \notin F$

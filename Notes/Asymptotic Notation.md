@@ -2,7 +2,7 @@
 tags:
   - SpecialNotations
 ---
-Subjects: [[Algorithms and Data Structures]], [[Special Notations]]
+Subjects: [[Special Notations]]
 Links: [[limsup and liminf]]
 
 There are a lot of asymptotic notation, telling us how a function grows in the long run

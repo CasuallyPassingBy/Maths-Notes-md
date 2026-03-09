@@ -1,4 +1,22 @@
 [[Almost finished projects]]
+
+# Set Theory
+- [ ] Introduction to Set theory by Jech and Hrbacek
+	- [x] Sets
+	- [x] Relations, Functions, and Orderings
+	- [x] Natural numbers
+	- [x] Finite, Countable, and Uncountable sets
+	- [x] Cardinal Numbers
+	- [x] Ordinal Numbers
+	- [x] Alephs
+	- [x] The Axiom of Choice
+	- [x] Sets of Real Numbers
+	- [ ] Filters and Ultrafilters
+	- [ ] Combinatorial Set Theory
+	- [ ] Large Cardinals
+	- [ ] The Axiom of Foundation
+	- [ ] The Axiomatic Set Theory
+
 ## Topology
 - [x] Fully Normal Spaces
 - Vietoris Hyperspace 
@@ -218,60 +236,12 @@
 		- [x] The Church-Turing Thesis
 		- [x] Decidability
 		- [x] Reducibility
-		- [ ] Advanced Topics in Computability Theory
+		- [x] Advanced Topics in Computability Theory
 		- [ ] Time Complexity
 		- [ ] Space Complexity
 		- [ ] Intractability
 		- [ ] Advanced topics in Complexity Theory
-	- [ ] Kozen
-		- [x] Finite Automata and Regular Sets
-		- [x] More on Regular Sets
-		- [x] Nondeterministic Finite Automata
-		- [x] The Subset Construction
-		- [x] Pattern Matching
-		- [x] Pattern Matching and Regular Expressions
-		- [x] Regular Expressions and Finite Automata
-		- [x] Kleen Algebra and Regular Expression
-		- [x] String Homomorphisms
-		- [x] Limitations of Finite Automata
-		- [x] Using the Pumping Lemma
-		- [x] DFA State Minimisation
-		- [x] A Minimisation Algorithm
-		- [x] Myhill-Nerode Relations
-		- [x] The Myhill-Nerode Theorem
-		- [x] Collapsing Nondeterministic Autoamata
-		- [x] Automata on Terms
-		- [x] The Myhill-Nerode Theorem for Term Automata
-		- [x] Two-Way Finite Automata
-		- [x] 2DFAs and Regular Sets
-		- [x] Context-Free Grammars and Languages
-		- [x] Balanced Parantheses
-		- [x] Normal Forms
-		- [x] The Pumping Lemma for CFLs
-		- [x] Pushdown Automata
-		- [x] Final State Versus Empty Stack
-		- [x] PDA and CFGs
-		- [x] Simulating NPDAS by CFGs
-		- [x] Deterministic Pushdown Automata
-		- [x] Parsing
-		- [x] The Cocke-Kasami-Younger Algorithm
-		- [x] The Chomsky-Schützanberger Theorem
-		- [x] Parikh's Theorem
-		- [x] Turing Machines and Effective Computability
-		- [x] More on Turing Machines
-		- [x] Equivalent Models
-		- [x] Universal Machines and Diagonalisation
-		- [x] Decidiable and Undecidable Problems
-		- [x] Reduction
-		- [x] Rice's Theorem
-		- [x] Undecidable Problems About CFLs
-		- [x] Other Formalisms
-		- [x] The $\lambda$-Calculus
-		- [x] While Programs
-		- [ ] Beyond Undecidability
-		- [ ] Gödel Incompleteness Theorem
-		- [ ] Proof of the Incompleteness Theorem
-		- [ ] Gödel's Proof
+	- [x] Kozen
 	- [ ] [Lillian Lee's aritcle](https://arxiv.org/pdf/cs/0112018)
 	- [ ] Lecture Notes on the Lambda Calculus
 	- [ ] [Prat Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)

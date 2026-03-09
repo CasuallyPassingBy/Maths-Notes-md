@@ -12,6 +12,7 @@ We have all the subjects:
 	- [[Algebraic Number Theory]]
 	- [[Analytic Number Theory]]
 - [[Category Theory]]
+- [[Logic]]
 ## Analysis
 - [[Real Analysis]]
 	- [[Kurzweil-Henstock Integral]]
@@ -25,6 +26,7 @@ We have all the subjects:
 - [[Linear Algebra]]
 	- [[Affine Geometry]]
 - [[Group Theory]]
+	- [[Homological Algebra]]
 - [[Ring Theory]]
 - [[Field Theory]]
 - [[Module Theory]]

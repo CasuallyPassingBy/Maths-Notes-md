@@ -13,43 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gödel's Incompleteness Theorems.md",
+                "file": "NP-Completeness.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Gödel's Incompleteness Theorems"
+              "title": "NP-Completeness"
             }
           },
           {
-            "id": "4f9ec04f891b88a8",
+            "id": "50934e6025009659",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Riemann Zeta Function.md",
+                "file": "Filters and Ideals.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Riemann Zeta Function"
-            }
-          },
-          {
-            "id": "a580b9be137b5962",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bernoulli numbers.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Bernoulli numbers"
+              "title": "Filters and Ideals"
             }
           },
           {
@@ -242,32 +227,33 @@
   },
   "active": "bf6a98c0c052d4c1",
   "lastOpenFiles": [
+    "Filters and Ideals.md",
+    "Pi-System.md",
+    "Set Theory.md",
+    "NP-Completeness.md",
     "Interesting Stuff I want continue Learning.md",
-    "Gödel's Incompleteness Theorems.md",
-    "Riemann Zeta Function.md",
-    "Theory of Computation.md",
-    "Formalisms Equivalent to General Computation.md",
     "Oracle Machines and Relative Computation.md",
-    "Bernoulli numbers.md",
-    "Fractional Sums.md",
-    "The Recursion Theorem in Computability Theory.md",
-    "Lambda Calculus.md",
-    "While Programs.md",
-    "Combinatory Logic.md",
-    "Arithmetic of Natural Numbers.md",
-    "Strings and Grammars.md",
-    "Asymptotic notation.md",
-    "Central Hub.md",
-    "Gödel Recursive Functions.md",
-    "Type 0 Grammars.md",
-    "Post Systems.md",
-    "Natural Numbers.md",
+    "The Complexity Class NP.md",
+    "Boolean Equations for Digital Circuits.md",
+    "Time Complexity.md",
+    "Theory of Computation.md",
+    "The Complexity Class P.md",
+    "Metric Outer Measures.md",
     "Turing Machines.md",
-    "Special Notations.md",
-    "Computation Reducibility.md",
-    "Bili.md",
-    "Busy Beaver Function.md",
-    "Decidable and Undecidable Problems.md",
+    "Parsing with Context-Free Grammars.md",
+    "Riemann Zeta Function.md",
+    "Asymptotic Notation.md",
+    "Solution of Linear and Quasilinear First Order PDEs using Vector Flows.md",
+    "Solving Recurrence Relations with Asymptotic notation.md",
+    "Algorithms and Data Structures.md",
+    "Central Hub.md",
+    "Logic Gates.md",
+    "Fourier Analysis on finite abelian groups.md",
+    "Fourier Analysis on Zn.md",
+    "Gödel's Incompleteness Theorems.md",
+    "Bernoulli numbers.md",
+    "ZF Axioms.md",
+    "Pasted image 20260306011155.png",
     "Pasted image 20260211174214.png",
     "Pasted image 20260128171751.png",
     "Pasted image 20251214203248.png",
@@ -278,7 +264,6 @@
     "Pasted image 20251212005526.png",
     "Pasted image 20251212004720.png",
     "Jobs",
-    "Pasted image 20251204143947.png",
     "backgrounds",
     "snippets",
     "Untitled 2.base",

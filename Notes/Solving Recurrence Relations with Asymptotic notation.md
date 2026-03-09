@@ -3,7 +3,7 @@ tags:
   - AlgorithmsAndDataStructures
 ---
 Subjects: [[Algorithms and Data Structures]]
-Links: [[Asymptotic notation]], [[Divide and Conquer]]
+Links: [[Asymptotic Notation]], [[Divide and Conquer]]
 
 ## Substitution method for solving recurrence
 

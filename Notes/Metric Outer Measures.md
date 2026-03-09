@@ -3,7 +3,7 @@ tags:
   - MeasureTheory
 ---
 Subjects: [[Measure Theory]], [[Metric and Normed Spaces]]
-Links: [[Outer Measures]], [[Metric Spaces]], [[Topology on Metric Spaces]], [[Borel Sets]]
+Links: [[Outer Measures]], [[Topology on Metric Spaces]], [[Borel Sets]]
 
 **Def:** An outer measure on the family of $\cal H$ of all subsets of a metric space $(X, d)$ is a *metric outer measure* if $$\mu^*(E \cup F) = \mu^*(E) + \mu^*(F)$$whenever $d(E, F)>0$. 
 

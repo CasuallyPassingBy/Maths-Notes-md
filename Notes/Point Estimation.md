@@ -14,5 +14,5 @@ The objective in *point estimation* is to give a value of $\theta$, denoted $\ha
 There are different estimations methods:
 - [[Method of Moments]]
 - [[Maximum Likelihood estimators]]
-	- [[Asymptotic notation]]
+	- [[Asymptotic Notation]]
 - [[Bayesian Approach to Point Estimators]]

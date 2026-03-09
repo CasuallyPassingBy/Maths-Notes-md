@@ -2,7 +2,7 @@
 tags:
   - DigitalCircuits
 ---
-Subjects: [[Digital Circuits]]
+Subjects: [[Digital Circuits]], [[Logic]]
 
 *Logic gates* are simple digital circuits that take one or more binary inputs and produce a binary output. Logic gates are down with a symbol showing the input(s) and the output. Inputs are usually drawn on the left, or top, and outputs on the right (or bottom). Digital Designers typically use letters near the beginning of the alphabet for gate inputs and the output can be described with a truth table or Boolean equation.
 ### $\text{NOT}$ Gate
