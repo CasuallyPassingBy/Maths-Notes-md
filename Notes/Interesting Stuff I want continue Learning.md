@@ -1,31 +1,57 @@
 [[Almost finished projects]]
 
-# Set Theory
-- [ ] Introduction to Set theory by Jech and Hrbacek
-	- [x] Sets
-	- [x] Relations, Functions, and Orderings
-	- [x] Natural numbers
-	- [x] Finite, Countable, and Uncountable sets
-	- [x] Cardinal Numbers
-	- [x] Ordinal Numbers
-	- [x] Alephs
-	- [x] The Axiom of Choice
-	- [x] Sets of Real Numbers
-	- [ ] Filters and Ultrafilters
-	- [ ] Combinatorial Set Theory
-	- [ ] Large Cardinals
-	- [ ] The Axiom of Foundation
-	- [ ] The Axiomatic Set Theory
-
+# Set Theory and Category Theory
+- Set Theory
+	- [ ] Introduction to Set theory by Jech and Hrbacek
+		- [x] Sets
+		- [x] Relations, Functions, and Orderings
+		- [x] Natural numbers
+		- [x] Finite, Countable, and Uncountable sets
+		- [x] Cardinal Numbers
+		- [x] Ordinal Numbers
+		- [x] Alephs
+		- [x] The Axiom of Choice
+		- [x] Sets of Real Numbers
+		- [ ] Filters and Ultrafilters
+		- [ ] Combinatorial Set Theory
+		- [ ] Large Cardinals
+		- [ ] The Axiom of Foundation
+		- [ ] The Axiomatic Set Theory
+	- [ ] 'Sets of Mathematics' by Lawvere
+		- [ ] Abstract Sets and Mappings
+		- [ ] Sums, monomorphisms and parts
+		- [ ] Finite Inverse Limits
+		- [ ] Colimits, epimorphisms and Axiom of choice
+		- [ ] Mapping sets and exponentials
+		- [ ] Summary of the Axioms and an example of Variable sets
+		- [ ] Consquences and uses of exponentials
+		- [ ] More on Power sets
+		- [ ] Introduction to Variable sets
+		- [ ] Models of additional variation
+- Category Theory
 ## Topology
 - [x] Fully Normal Spaces
 - Vietoris Hyperspace 
 	- [ ] Illanes & Nadler
 - Topology
 	- [ ] Engelking
-		- [ ] Stone-Čech compactification
+		- [x] Topological Spaces
+		- [ ] Operations on Topological Spaces
+		- [ ] Compact spaces
+		- [ ] Metric and metrizable spaces 
+		- [ ] Connected spaces
+		- [ ] Dimensions of topological spaces
+		- [ ] Uniform spaces and proximity spaces
 	- [ ] Prieto
 	- [ ] Tamaríz
+		- [x] Espacios topológicos
+		- [x] La cerradura, el interior, y otros operadores
+		- [x] Funciones continua y propiedades ligadas a la numberabilidad
+		- [ ] Construcción de espacios topológicos a partir de espacios dados
+		- [x] Axioms de separación
+		- [ ] Espacios normales y completamente regulares
+		- [ ] Espacios compactos
+		- [ ] Espacios conexos y disconexos
 
 ### Algebraic Topology 
 - [x] Introduction to Topological Manifolds by Lee 
@@ -58,7 +84,8 @@
 		- [ ] Algebraic Integers
 	- [ ] Rotman Group Theory
 - Field Theory
-	- [x] Dummit & Foote
+	- [ ] Dummit & Foote
+		- [ ] Computation of Galois Groups over $\Bbb Q$.
 	- [x] Zaldivar
 	- [ ] Origami Constructible Numbers
 	- [ ] Marked Ruler and Compass Constructible Numbers
@@ -76,7 +103,6 @@
 		- [ ] Partition function
 		- [ ] Density of integers sequences
 	- [ ] Rosen
--  Category Theory
 - Commutative algebra
 	- [ ] Atiyah & Macdonald
 - Homological Algebra
@@ -163,6 +189,17 @@
 - Ordinary Differential Equations
 	- [ ] Birkhoff and Rota
 	- [ ] Boyce Di Prima
+		- [x] Introduction
+		- [x] First order DE
+		- [x] Second order DE
+		- [x] Higher order DE
+		- [x] Series Solutions to Second Order Linear Equations
+		- [ ] The Laplace Transform
+		- [x] Systems of First Order Linear Equations
+		- [ ] Numerical Methods
+		- [ ] Nonlinear Differential Equations
+		- [ ] Partial Differential Equations and Fourier Series
+		- [ ] Boundary Value Problems
 - Partial Differential Equations
 	- [ ] Evans
 	- [ ] Folland

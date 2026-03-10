@@ -3,8 +3,7 @@ tags:
   - SpecialFunctions
 ---
 Subjects: [[Special Functions]]
-
-Links: 
+Links: [[Important Differential Equations]]
 
 The Bessel functions are canonical solutions $y(x)$ of [[Important Differential Equations#ODE|Bessel's differential equation]]: $$x^2 y'' + xy' (x^2-\alpha^2)y = 0$$
 for arbitrary complex number $\alpha$, which represents the order of the Bessel function. We see that $\alpha$ and $-\alpha$ produce the same differential equation, it is conventional to define different Bessel functions for these two values.

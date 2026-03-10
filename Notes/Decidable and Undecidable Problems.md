@@ -30,7 +30,6 @@ Now we turn to a different kind of problem concerning finite automata: *emptines
 **Th:** $E_\mathsf{DFA}$ is a decidable language. 
 
 The next theorem states that determining whether two $\sf DFA$s recognise the same language is decidable. Let $$EQ_\mathsf{DFA} := \{\langle A,B \rangle\mid \text{$A$ and $B$ $\sf DFA$s and }L(A) = L(B)\}.  $$
-
 **Th:** $EQ_\mathsf{DFA}$ is a decidable language.
 
 Let $$\text{Inf}_\sf{DFA} := \{\langle A\rangle \mid \text{$A$ is a $\sf DFA$ and $L(A)$ in an infinite language}\}.  $$

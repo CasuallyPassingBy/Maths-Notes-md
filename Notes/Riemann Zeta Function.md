@@ -133,7 +133,7 @@ This a big result, so we now know that by symmetry of the zeros, then if $\Re(z)
 
 # Known Values
 
-There a couple of known values of the Riemann zeta function. Mainly, then positive even integers, and the non positive integers. In both of these cases, the known values are related to the [[Bernoulli numbers]]. If $n \in \Bbb N^+$, then $$\zeta(2n) = (-1)^{n+1}\frac{(2\pi)^{2n}B_{2n}}{2(2n)!},$$where $B_{2n}$ represents the $(2n)$th Bernoulli number. If $n \in\Bbb N$, and then $$\zeta(-n) := -\frac{B_{n+1}}{n+1}. $$This also explains the trivial zeros of the Riemann zeta function. We can calculate these last values using [[fractional sums]]. 
+There a couple of known values of the Riemann zeta function. Mainly, then positive even integers, and the non positive integers. In both of these cases, the known values are related to the [[Bernoulli numbers]]. If $n \in \Bbb N^+$, then $$\zeta(2n) = (-1)^{n+1}\frac{(2\pi)^{2n}B_{2n}}{2(2n)!},$$where $B_{2n}$ represents the $(2n)$th Bernoulli number. If $n \in\Bbb N$, and then $$\zeta(-n) := -\frac{B_{n+1}}{n+1}. $$This also explains the trivial zeros of the Riemann zeta function. We can calculate these last values using [[Müller-Schleicher Summation]]. 
 
 # Riemann Hypothesis
 If $z \in Z(\zeta) \cap B$, then $$\Re(z) = \frac1{2}$$

@@ -23,33 +23,33 @@
             }
           },
           {
-            "id": "50934e6025009659",
+            "id": "6393d967b107d1e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Filters and Ideals.md",
+                "file": "The Complexity Class P.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Filters and Ideals"
+              "title": "The Complexity Class P"
             }
           },
           {
-            "id": "b502ffd3918936f5",
+            "id": "0e5228ba70fba25e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interesting Stuff I want continue Learning.md",
+                "file": "The Complexity Class NP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Interesting Stuff I want continue Learning"
+              "title": "The Complexity Class NP"
             }
           }
         ]
@@ -227,32 +227,32 @@
   },
   "active": "bf6a98c0c052d4c1",
   "lastOpenFiles": [
+    "The Complexity Class P.md",
+    "NP-Completeness.md",
+    "Müller-Schleicher Summation.md",
+    "The Complexity Class NP.md",
+    "Decidable and Undecidable Problems.md",
+    "Almost finished projects.md",
+    "Interesting Stuff I want continue Learning.md",
+    "Theory of Computation.md",
+    "Asymptotic Notation.md",
+    "Legendre Polynomials.md",
+    "Ordinary Differential Equations.md",
+    "Calculating the Bessel Functions From the ODE.md",
+    "Bessel Functions.md",
+    "Topology.md",
+    "Separation Axioms.md",
+    "Tychonoff spaces.md",
     "Filters and Ideals.md",
+    "Normal Hausdorff Spaces.md",
+    "Kolmogorov Spaces.md",
     "Pi-System.md",
     "Set Theory.md",
-    "NP-Completeness.md",
-    "Interesting Stuff I want continue Learning.md",
     "Oracle Machines and Relative Computation.md",
-    "The Complexity Class NP.md",
     "Boolean Equations for Digital Circuits.md",
     "Time Complexity.md",
-    "Theory of Computation.md",
-    "The Complexity Class P.md",
     "Metric Outer Measures.md",
     "Turing Machines.md",
-    "Parsing with Context-Free Grammars.md",
-    "Riemann Zeta Function.md",
-    "Asymptotic Notation.md",
-    "Solution of Linear and Quasilinear First Order PDEs using Vector Flows.md",
-    "Solving Recurrence Relations with Asymptotic notation.md",
-    "Algorithms and Data Structures.md",
-    "Central Hub.md",
-    "Logic Gates.md",
-    "Fourier Analysis on finite abelian groups.md",
-    "Fourier Analysis on Zn.md",
-    "Gödel's Incompleteness Theorems.md",
-    "Bernoulli numbers.md",
-    "ZF Axioms.md",
     "Pasted image 20260306011155.png",
     "Pasted image 20260211174214.png",
     "Pasted image 20260128171751.png",

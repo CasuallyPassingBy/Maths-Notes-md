@@ -1,28 +1,72 @@
 [[Interesting Stuff I want continue Learning]]
 
-
- - Differential Geometry
-    - [ ]  Introduction to Smooth Manifolds by Lee
-        - [x] Smooth Manifolds
-        - [x] Smooth Maps
-        - [x] Tangent Vectors
-        - [x] Submersion, Immersions and Embeddings
-        - [x] Submanifolds
-        - [x] The Cotangent Bundle
-        - [x] Sard's Theorem
-        - [x] Lie Groups
-        - [x] Vector Fields
-        - [x] Integral Curves and Flow
-        - [x] Vector Bundles
-        - [x] The Cotangent Bundle
-        - [x] Tensors
-        - [x] Riemannian Manifolds
-        - [x] Differential Forms
-        - [x] Orientations
-        - [x] Integration on Manifolds
-        - [x] De Rham Cohomology
-        - [x] The de Rham Theorem
-        - [ ] Distributions and Foliations
-        - [ ] The Exponential Map
-        - [ ] Quotient Manifolds
-        - [ ] Symplectic Manifolds
+- [ ] Sipser
+	- [x] Regular Languages
+	- [x] Context Free Grammars
+	- [x] The Church-Turing Thesis
+	- [x] Decidability
+	- [x] Reducibility
+	- [x] Advanced Topics in Computability Theory
+	- [ ] Time Complexity
+	- [ ] Space Complexity
+	- [ ] Intractability
+	- [ ] Advanced topics in Complexity Theory
+- [ ]  Introduction to Smooth Manifolds by Lee
+	- [x] Smooth Manifolds
+	- [x] Smooth Maps
+	- [x] Tangent Vectors
+	- [x] Submersion, Immersions and Embeddings
+	- [x] Submanifolds
+	- [x] The Cotangent Bundle
+	- [x] Sard's Theorem
+	- [x] Lie Groups
+	- [x] Vector Fields
+	- [x] Integral Curves and Flow
+	- [x] Vector Bundles
+	- [x] The Cotangent Bundle
+	- [x] Tensors
+	- [x] Riemannian Manifolds
+	- [x] Differential Forms
+	- [x] Orientations
+	- [x] Integration on Manifolds
+	- [x] De Rham Cohomology
+	- [x] The de Rham Theorem
+	- [x] Distributions and Foliations
+	- [ ] The Exponential Map
+	- [ ] Quotient Manifolds
+	- [ ] Symplectic Manifolds
+- [ ] Dummit and Foote 
+	- [ ] Galois Theory
+		- [ ] Computation of Galois Fields over $\Bbb Q$
+- [ ] Introduction to Set theory by Jech and Hrbacek
+	- [x] Sets
+	- [x] Relations, Functions, and Orderings
+	- [x] Natural numbers
+	- [x] Finite, Countable, and Uncountable sets
+	- [x] Cardinal Numbers
+	- [x] Ordinal Numbers
+	- [x] Alephs
+	- [x] The Axiom of Choice
+	- [x] Sets of Real Numbers
+	- [ ] Filters and Ultrafilters
+	- [ ] Combinatorial Set Theory
+	- [ ] Large Cardinals
+	- [ ] The Axiom of Foundation
+	- [ ] The Axiomatic Set Theory
+- [ ] Zaldivar
+	- [x] Symmetries and binary operations
+	- [x] Groups and subgroups
+	- [x] Cyclic Groups
+	- [x] Permutation groups
+	- [x] Cosets and Quotient Groups
+	- [x] Homomorphisms and Isomorphisms
+	- [x] Direct Products and Finite Abelian Groups
+	- [x] Group Actions and Frobenius Theorem
+	- [x] Cauchy and Sylow Theorems
+	- [x] Simple Groups
+	- [ ] Solvable Groups
+	- [ ] Matrix Groups
+	- [ ] Linear Representations of Finite groups
+	- [ ] Characters of finite groups
+	- [ ] Applications of Character Theory
+	- [ ] Algebraic Integers
