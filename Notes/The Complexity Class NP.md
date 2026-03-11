@@ -21,6 +21,7 @@ Verifying that something is *not* present seems to be difficult than verifying t
 
 **Prop:** $\sf NP$ is closed under union, concatenation, and the star operation. 
 
+
 ## Examples of $\sf NP$-problems
 
 A *Hamiltonian path* in a directed graph $G$ is a directed path that goes through each node exactly once. We consider the problem of testing whether a directed graph contains a Hamiltonian path connecting two specified nodes. Let $$\text{HamPath} := \{\langle G, s, t\rangle \mid \text{$G$ is a directed graph with a Hamiltonian path from $s$ to $t$}\}.  $$
@@ -49,3 +50,13 @@ The question of whether $\sf P = NP$ is one of the greatest unsolved problems in
 The best method known for solving languages in $\sf NP$ deterministically uses exponential time. In other words can prove that  $$\mathsf{NP} \subseteq \mathsf{EXPTIME} := \bigcup_{k \in\Bbb N}\text{TIME}\left(2^{n^k}\right),$$where we don't know whether $\sf NP$ is contained in a smaller deterministic time complexity class. 
 
 **Prop:** If $\sf P = NP$, then every language $A\in \sf P$, except $A = \varnothing$ and $A = \Sigma^*$, is $\sf NP$-complete.
+
+**Prop:** If $\sf P = NP$. then we can factor integers in polynomial time.
+
+**Prop:** If $\sf P = NP$, then there's a polynomial time algorithm that takes an unidirected graph as input and finds the largest clique contained in that graph. 
+
+**Prop:** If $\sf P = NP$, then there's a polynomial time algorithm that takes an unidirected graph as input and finds its chromatic number. 
+
+**Prop:** Say that two Boolean formulas are *equivalent* if they have the same set of variables and are true on the same set of assignments to those variables. A Boolean formula is *minimal* if no shorter Boolean formula is equivalent to it. Let $\text{Min-Formula}$ be the collection of minimal Boolean formulas. If $\sf P = NP$, then $\sf \text{Min-Formula}\in \sf P$. 
+
+An important idea that comes from studying $\sf NP$ problems are the notion of 'the hardest problems in $\sf NP$'. This problems are called $\sf NP$-complete problems and are studied more in depth [[NP-Completeness|here]].

@@ -38,6 +38,7 @@ We have all the subjects:
 ## Applied
 - [[Numerical Analysis]]
 - [[Combinatorics]]
+	- [[Graph Theory]]
 - [[Probability Theory]]
 - [[Statistics]]
 - [[Stochastic Processes]]
@@ -58,6 +59,7 @@ We have all the subjects:
 ## Computer Science
 - [[Theory of Computation]]
 - [[Algorithms and Data Structures]]
+- [[Information Theory]]
 - [[Artificial Intelligence]]
 	- [[Machine Learning]]
 		- [[Neural Networks]]

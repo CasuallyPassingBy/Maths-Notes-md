@@ -13,46 +13,77 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NP-Completeness.md",
+                "file": "The Complexity Classes L and NL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "NP-Completeness"
+              "title": "The Complexity Classes L and NL"
             }
           },
           {
-            "id": "6393d967b107d1e9",
+            "id": "1e2611a982cf5b6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Complexity Class P.md",
+                "file": "Central Hub.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Complexity Class P"
+              "title": "Central Hub"
             }
           },
           {
-            "id": "0e5228ba70fba25e",
+            "id": "6152468bd361abc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Complexity Class NP.md",
+                "file": "Theory of Computation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Complexity Class NP"
+              "title": "Theory of Computation"
+            }
+          },
+          {
+            "id": "ac85861c90c70f0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interesting Stuff I want continue Learning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Interesting Stuff I want continue Learning"
+            }
+          },
+          {
+            "id": "66a3626c6a777460",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Almost finished projects.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Almost finished projects"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -225,34 +256,34 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "bf6a98c0c052d4c1",
+  "active": "ac85861c90c70f0f",
   "lastOpenFiles": [
-    "The Complexity Class P.md",
-    "NP-Completeness.md",
-    "Müller-Schleicher Summation.md",
-    "The Complexity Class NP.md",
-    "Decidable and Undecidable Problems.md",
-    "Almost finished projects.md",
-    "Interesting Stuff I want continue Learning.md",
     "Theory of Computation.md",
-    "Asymptotic Notation.md",
-    "Legendre Polynomials.md",
-    "Ordinary Differential Equations.md",
-    "Calculating the Bessel Functions From the ODE.md",
-    "Bessel Functions.md",
-    "Topology.md",
-    "Separation Axioms.md",
-    "Tychonoff spaces.md",
-    "Filters and Ideals.md",
-    "Normal Hausdorff Spaces.md",
-    "Kolmogorov Spaces.md",
-    "Pi-System.md",
-    "Set Theory.md",
-    "Oracle Machines and Relative Computation.md",
-    "Boolean Equations for Digital Circuits.md",
+    "Interesting Stuff I want continue Learning.md",
+    "Almost finished projects.md",
+    "The Complexity Classes L and NL.md",
+    "Central Hub.md",
+    "NP-Completeness.md",
+    "Space Complexity.md",
+    "The Complexity Class PSPACE.md",
+    "The Complexity Class P.md",
+    "The Complexity Class NP.md",
     "Time Complexity.md",
-    "Metric Outer Measures.md",
-    "Turing Machines.md",
+    "Special Functions.md",
+    "Filters and Ideals.md",
+    "Abstract Simplicial Complexes.md",
+    "Outer Measures.md",
+    "Smooth Partitions of Unity for Manifolds.md",
+    "Limits of Sets.md",
+    "Topology.md",
+    "Umbral calculus.md",
+    "Discrete Calculus.md",
+    "Nonlinear Programming.md",
+    "Set Theory.md",
+    "Müller-Schleicher Summation.md",
+    "Homotopy in C.md",
+    "The Complexity Class coNP.md",
+    "Untitled.md",
     "Pasted image 20260306011155.png",
     "Pasted image 20260211174214.png",
     "Pasted image 20260128171751.png",

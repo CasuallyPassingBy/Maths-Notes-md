@@ -2,7 +2,7 @@
 tags:
   - DifferentialGeometry
 ---
-Subjects: [[Topology]], [[Differential Geometry]]
+Subjects: [[Differential Geometry]]
 Links: [[Partitions of Unity]], [[Topological Manifolds]], [[Smooth Manifolds]], [[Special Types of Collections in Topology]], [[Smooth Functions on Smooth Manifolds]]
 
 # Bump Functions

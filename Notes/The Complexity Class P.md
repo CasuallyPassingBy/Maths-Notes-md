@@ -26,6 +26,8 @@ when a problem is in $\sf P$, we have a method of solving in that runs in time $
 
 **Prop:** $\sf P$ is closed under union, concatenation, and complement. 
 
+**Prop:** Let $f:\Bbb N \to \Bbb N$ be any function where $f(n) = o(n\log n)$. Then $\text{TIME}(f(n))$ contains only regular languages. 
+
 # Examples of Problems in $\sf P$
 
 The first problem concerns directed graphs. A directed graph $G$ contains nodes $s$ and $t$. the $\text{Path}$ problem is to determine whether a directed path exists from $s$ to $t$. Let $$\text{Path}:= \{\langle G, s, t\rangle\mid \text{$G$ is directed graph that has directed path from $s$ to $t$}\}.$$
@@ -51,3 +53,6 @@ Let $\text{RelPrime}$ be the problem of testing whether two numbers are relative
 Let $\text{CNF}_k := \{\langle \phi \rangle \mid \phi \text{ is a satisfiable cnf-formula where each variable appears in at most }k \text{ places}\}.$
 **Prop:** $\text{CNF}_2 \in \sf P$.
 
+A *$2$cnf-formula* is an $\text{AND}$ of clauses, where each clause is an $\text{OR}$ of at most two literals. Let $2\text{SAT} := \{\langle \phi\rangle \mid \phi \text{ is a satisfisable 2cnf-formula}\}$. 
+
+**Prop:** $2\text{SAT}\in \sf P$. 

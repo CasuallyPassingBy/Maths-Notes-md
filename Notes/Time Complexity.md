@@ -24,3 +24,5 @@ The number of steps that an algorithm uses on a particular input may depend on s
 There are a lot classes important classes of problems
 - [[The Complexity Class P]]
 - [[The Complexity Class NP]]
+	- [[The Difference Hierarchy]]
+	- [[The Complexity Class coNP]]

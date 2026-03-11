@@ -8,6 +8,7 @@ tags:
 	- [[Related Functions to the Gamma Function]]
 - [[Digamma function]]
 - [[Riemann Zeta Function]]
+	- [[Dirichlet Eta Function]]
 - [[Polylogarithms]]
 - [[Beta Function]]
 - [[Bessel Functions]]

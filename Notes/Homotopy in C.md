@@ -1,7 +1,6 @@
 ---
 tags:
   - ComplexAnalysis
-  - Topology/AlgebraicTopology
 ---
 Subjects: [[Complex Analysis]], [[Algebraic Topology]]
 Links: [[Contour Integrals in C]], [[Homotopy]]

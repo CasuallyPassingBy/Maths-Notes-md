@@ -103,6 +103,19 @@
 		- [ ] Partition function
 		- [ ] Density of integers sequences
 	- [ ] Rosen
+	- [ ] Burton
+		- [x] Divisibility theory in the integers
+		- [x] Primes and their distribution
+		- [x] The theory of Congruences
+		- [x] Fermat's theorem
+		- [x] number-theoretic functions
+		- [x] Euler's generalisation of Fermat's theorem
+		- [x] Primitive roots and indices
+		- [x] Quadratic reciprocity law
+		- [x] Introduction to cryptography
+		- [ ] Numbers of special forms
+		- [ ] Fibonacci numbers
+		- [ ] Some Modern Developments
 - Commutative algebra
 	- [ ] Atiyah & Macdonald
 - Homological Algebra
@@ -203,6 +216,11 @@
 - Partial Differential Equations
 	- [ ] Evans
 	- [ ] Folland
+## Combinatorics
+- [ ] Concrete Mathematics by Knuth
+- Graph Theory
+	- [ ] 'Graph Theory with Algorithms and its Applications' by Saha Ray
+	- [ ] Diestel
 ## Probability
 - Probability Theory
 	- [x]  *Introducción a la probabilidad* Rincón
@@ -274,7 +292,7 @@
 		- [x] Decidability
 		- [x] Reducibility
 		- [x] Advanced Topics in Computability Theory
-		- [ ] Time Complexity
+		- [x] Time Complexity
 		- [ ] Space Complexity
 		- [ ] Intractability
 		- [ ] Advanced topics in Complexity Theory

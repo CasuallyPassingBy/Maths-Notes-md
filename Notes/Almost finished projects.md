@@ -7,7 +7,7 @@
 	- [x] Decidability
 	- [x] Reducibility
 	- [x] Advanced Topics in Computability Theory
-	- [ ] Time Complexity
+	- [x] Time Complexity
 	- [ ] Space Complexity
 	- [ ] Intractability
 	- [ ] Advanced topics in Complexity Theory

@@ -26,6 +26,10 @@ We also care about an important variation of the $\text{SAT}$ problem called $3\
 
 **Th:** $3\text{SAT}$ is polynomial time reducible to $\text{Clique}$, see [[The Complexity Class NP#Examples of $ sf NP$-problems|here]] for definition of $\text{Clique}$. 
 
+A *$2$cnf-formula* is an $\text{AND}$ of clauses, where each clause is an $\text{OR}$ of at most two literals. Let $2\text{SAT} := \{\langle \phi\rangle \mid \phi \text{ is a satisfisable 2cnf-formula}\}$. 
+
+**Prop:** $2\text{SAT}\in \sf P$. 
+
 Using the notion of completeness that naturally arose when studying the [[Oracle Machines and Relative Computation#Arithmetic Hierarchy|Arithmetic hierarchy]], we can study similar problems whose individual complexity is related to that of the entire class. If a polynomial time algorithm exists for any of these problems, all problems in $\sf NP$ would be polynomial time solvable. These problems are *$\sf NP$-complete.*
 
 **Cook-Levin Theorem:** $\text{SAT}$ is an $\sf NP$-complete problem.
@@ -92,4 +96,12 @@ A *cut* in an undirected graph is a separation of vertices $V$ into two disjoint
 \text{Set-Splitting} := &\{\langle S, C\rangle \mid S \text{ is a fintie set and } C := \{C_1,\dots, C_k\}\subseteq \mathcal P(S), \\&\text{ for some }k> 0, \text{ such that elements of $S$ can be colored red or blue }\\& \text{so that no $C_i$ has all its elements colored with the same colors} \}.\end{align*}$$
 Then $\text{Set-Splitting}$ is $\sf NP$-complete. 
 
-**Prop:** Let $U := \{\langle M, x, \#^t\rangle \mid \mathsf{TM} M \ŧex}
+Consider the following scheduling problem. You are given a list of final exams $F_1,\dots, F_k$ to be scheduled, and a list of students $S_1,\dots, S_l$. Each student is taking some specified subset of these exams. You must schedule these exams into slots so that no student is required to take two exams in the same slot. The problem is to determine if such a schedule exists that uses only $h$ slots. Formulate this problem as a language and show that this language is $\sf NP$-complete. 
+
+**Prop:** Let $k-\text{Color} := \{\langle G\rangle \mid G \text{ is an undirected graph that can be coloured with only }k\text{ colours}\}.$If $k\ge 3$, then $k-\text{Color}$ is $\sf NP$-complete.
+
+**Cor:** $\text{Sudoku}$ is $\sf NP$-complete. 
+
+**Prop:** Let $U := \{\langle M, x, \#^t\rangle \mid \mathsf{NTM}\; M \text{ accepts input } x \text{ within }t \text{ steps on at least one branch}\}$. Then $U$ is $\sf NP$-complete. 
+
+**Prop:** A subset of nodes of a graph $G$ is a *dominating set* 
