@@ -53,9 +53,9 @@
 		- [ ] Espacios compactos
 		- [ ] Espacios conexos y disconexos
 
-### Algebraic Topology 
-- [x] Introduction to Topological Manifolds by Lee 
-- [ ] Algebraic Topology by Hatcher 
+- Algebraic Topology
+	- [x] Introduction to Topological Manifolds by Lee 
+	- [ ] Algebraic Topology by Hatcher 
 
 ## Algebra
 -  Clifford Algebra 

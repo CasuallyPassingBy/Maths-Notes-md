@@ -15,14 +15,21 @@ For $f(n)\ge n$, a Turing machine that uses $f(n)$ space can have at most $f(n) 
 
 We don't know whether any of these containments is actually an equality. Someone may discover a simulation like the one in Savitch's theorem that merges some of these classes into the same class. 
 
+**Prop:** $\sf PSPACE$ is closed under the operations, union, complementations, and star. 
+
+**Prop:** Let $$EQ_\mathsf{REX} := \{\langle R, S \rangle\mid \text{$R$ and $S$ $\sf REX$s and }L(A) = L(B)\}.$$Then $EQ_\mathsf{REX}\in \sf PSPACE$. 
 
 # $\sf PSPACE$-completeness
 
 **Def:** A language $B$ is $\sf PSPACE$-hard if every $A\in \sf PSPACE$ is polynomial time reducible to $B$. Additionally, We say that $B$ is $\sf PSPACE$-complete if it is both $\sf PSCPACE$-hard, and in $\sf PSPACE$. 
 
+**Obs:** Any $\sf PSPACE$-hard language is also $\sf NP$-hard. 
+
 Complete problems are important because they are examples of the most difficult problems in a complexity class. A complete problem is most difficult because any other problem in the class is easily reduced into it, so if we find an easy way to solve the complete problem, we can easily solve all other problems in the class. The reduction must be *easy*, relative to the complexity of typical problems in the class, for this reasoning to apply. If the reduction itself were difficult to compute, an easy solution to the complete problem wouldn't necessarily yield an easy solution to the problem reducing to it.
 
 Whenever we define complete problems for a complexity class, the reduction model must be more limited than the model used for defining the class itself.
+
+**Obs:** If Every $\sf NP$-hard language is also $\sf PSPACE$-hard, then $\sf PSPACE = NP$.
 
 ## The $\text{TQBF}$ Problem
 
@@ -36,6 +43,8 @@ When each variable of a formula appears withing the scope of some quantifier, th
 
 The $\text{TQBF}$ problem is to determine whether a fully quantified Boolean formula is true or false. We define the language $$\text{TQBF} :=  \{\langle\phi\rangle \mid \text{$\phi$ is a true fully quantified Boolean formula}\}. $$
 **Th:** $\text{TQBF}$ is $\sf PSPACE$-complete.
+
+**Prop:** $\text{TQBF}$ restricted to formulas where the part following quantifiers is in conjunctive normal form is still $\sf PSPACE$-complete. 
 
 ## Winning Strategies for Games
 
