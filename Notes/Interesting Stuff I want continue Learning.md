@@ -293,7 +293,7 @@
 		- [x] Reducibility
 		- [x] Advanced Topics in Computability Theory
 		- [x] Time Complexity
-		- [ ] Space Complexity
+		- [x] Space Complexity
 		- [ ] Intractability
 		- [ ] Advanced topics in Complexity Theory
 	- [x] Kozen
@@ -301,6 +301,7 @@
 	- [ ] Lecture Notes on the Lambda Calculus
 	- [ ] [Prat Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)
 	- [ ] [Junferno's references](https://junferno.com/references/#list-4)
+	- [ ] [ZigZag Product](https://www.math.purdue.edu/~sahay5/2020-02-27_UR_combinatorics.pdf)
 - Digital Circuits
 	- [ ] _Digital Design and Computer Architecture_ — Harris & Harris
 		- [ ] Chapter 1

@@ -8,7 +8,7 @@
 	- [x] Reducibility
 	- [x] Advanced Topics in Computability Theory
 	- [x] Time Complexity
-	- [ ] Space Complexity
+	- [x] Space Complexity
 	- [ ] Intractability
 	- [ ] Advanced topics in Complexity Theory
 - [ ]  Introduction to Smooth Manifolds by Lee

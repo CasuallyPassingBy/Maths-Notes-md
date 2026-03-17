@@ -75,6 +75,8 @@ $(*)$ **Th:** $\text{UPath}\in \sf L$.
 
 **Prop:** Let $\text{Both}_\mathsf{NFA} := \{\langle M_1, M_2\rangle \mid M_1 \text{ and } M_2\text{ are NFAs where } L(M_1) \cap L(M_2) \neq \varnothing\}$, Then $\text{Both}_\mathsf{NFA}$ is $\sf NL$-complete.
 
+**Prop:** We know $A_\mathsf{NFA}$ is $\sf NL$-complete. 
+
 **Prop:** We know $E_{\sf DFA}$ is $\sf NL$-complete.
 
 **Prop:** We know that $2\text{SAT}$ is $\sf NL$-complete.
