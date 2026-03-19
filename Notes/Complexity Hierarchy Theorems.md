@@ -24,3 +24,8 @@ When showing functions $f(n)$ that are $o(n)$ to be space constructible, we use 
 **Def:** A function $t: \Bbb N\to \Bbb N$, where $t(n)$ is at least $O(n\log n)$, is called *time constructible* if the function that maps the string $1^n$ to the binary representation of $t(n)$ is computable in time $O(t(n))$. 
 
 **Time Hierarchy Theorem:** For any time constructible function $t: \Bbb N \to \Bbb N$, a language $A$ exists that is decidable in $O(t(n))$ time but not decidable in time $o(t(n)/\log t(n))$. 
+
+**Cor:** For any two functions $t_1, t_2:\Bbb N \to \Bbb N$, where $t_1(n)$ is $o(t_2(n)/\log t_2)$ and $t_2$ is a time constructible, $\text{TIME}(t_1(n))\subset \text{TIME}(t_2(n))$. 
+
+**Cor:** For any two real numbers $1 \le \varepsilon_1 < \varepsilon_2$. $$\text{TIME}(n^{\varepsilon_1})\subset \text{TIME}(n^{\varepsilon_2}).$$
+**Cor:** $\sf P \subset \text{TIME}(2^n) \subseteq \sf EXPTIME$. 

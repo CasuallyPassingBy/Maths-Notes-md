@@ -36,6 +36,7 @@ I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's
 			- [[Busy Beaver Function]]
 			- [[The Recursion Theorem in Computability Theory]]
 			- [[Oracle Machines and Relative Computation]]
+				- [[Arithmetic Hierarchy]]
 		- [[Post Systems]]
 	- [[Linear Bounded Automaton]]
 - [[Gödel's Incompleteness Theorems]]

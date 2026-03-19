@@ -19,3 +19,4 @@ We can also define if $$\text{coSPACE}(f(n)) := \{ \Sigma^*\setminus A \mid A\in
 There are important classes to study regarding space complexity
 - [[The Complexity Class PSPACE]]
 - [[The Complexity Classes L and NL]]
+- [[The Complexity Class EXPSPACE]]

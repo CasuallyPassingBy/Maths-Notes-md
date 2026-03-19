@@ -139,8 +139,9 @@
 		- [ ] Locally compact spaces
 		- [ ] Haar Measure
 		- [ ] Measure and topology in groups
-	- [ ] Bogachev I
-	- [ ] Bogachev II
+	- [ ] Bogachev 
+		- [ ] I
+		- [ ] II
 	- [x] Nelson
 -  Differential Geometry
 	- [ ]  Introduction to Smooth Manifolds by Lee 
