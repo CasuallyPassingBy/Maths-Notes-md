@@ -60,3 +60,17 @@ The best method known for solving languages in $\sf NP$ deterministically uses e
 **Prop:** Say that two Boolean formulas are *equivalent* if they have the same set of variables and are true on the same set of assignments to those variables. A Boolean formula is *minimal* if no shorter Boolean formula is equivalent to it. Let $\text{Min-Formula}$ be the collection of minimal Boolean formulas. If $\sf P = NP$, then $\sf \text{Min-Formula}\in \sf P$. 
 
 An important idea that comes from studying $\sf NP$ problems are the notion of 'the hardest problems in $\sf NP$'. This problems are called $\sf NP$-complete problems and are studied more in depth [[NP-Completeness|here]].
+
+Let ${\sf P}^A$ be the class of languages decidable with polynomial time oracle machine that uses oracle $A$. Define ${\sf NP}^A$ similarly.
+
+We see that $\sf NP \subseteq P^\text{SAT}$. Furthermore $\sf coNP \subseteq P^\text{SAT}$, being a deterministic complexity class, is closed under complementation. 
+
+The diagonalisation method is a simulation of one Turing machine by another. The simulation is done so that the simulating machine can determine the behavior of the other machine and then behave differently. Suppose that both of these Turing machines were given identical oracles. Then, whenever the simulated machine queries the oracle, so can the simulator, and therefore the simulation can proceed as before. Consequently, any theorem proved about Turing machines by using only the diagonalisation method would still hold if both machines were given the same oracle. 
+
+**Th:**
+- An oracle $A$ exists whereby ${\sf P}^A \neq {\sf NP}^A$.
+- An oracle $B$ exists whereby ${\sf P}^B = {\sf NP}^B$.
+
+This means that if we could prove $\sf P$ and $\sf NP$ were different by diagonalising, we could conclude that they are different relative to any oracle as well. But ${\sf P}^B$ and ${\sf NP}^B$ are equal, so that conclusion is false. Hence diagonalisation isn't sufficient to separate two classes. Similarly, no proof that relies on a simple simulation could show that the two classes are the same because that would show that they are the same relative to any oracle, but in fact ${\sf  P}^A$ and ${\sf NP}^ A$ are different.
+
+In summary, the relativisation method tells us that to solve the $\sf P$ vs $\sf NP$ question we must *analyse* computations, not just simulate them. Hence we use [[Circuit Complexity]] to just that. 

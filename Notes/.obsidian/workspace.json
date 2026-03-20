@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Complexity Class EXPSPACE.md",
+                "file": "Theory of Computation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Complexity Class EXPSPACE"
+              "title": "Theory of Computation"
             }
           },
           {
@@ -227,13 +227,14 @@
   },
   "active": "416ab7da1b17772d",
   "lastOpenFiles": [
-    "Complexity Hierarchy Theorems.md",
     "The Complexity Class EXPSPACE.md",
+    "The Complexity Class NP.md",
+    "Oracle Machines and Relative Computation.md",
+    "Interesting Stuff I want continue Learning.md",
+    "Complexity Hierarchy Theorems.md",
     "Almost finished projects.md",
     "Theory of Computation.md",
-    "Oracle Machines and Relative Computation.md",
     "Arithmetic Hierarchy.md",
-    "Interesting Stuff I want continue Learning.md",
     "Space Complexity.md",
     "The Complexity Class PSPACE.md",
     "Psuedocompactness.md",
@@ -243,7 +244,6 @@
     "Central Hub.md",
     "NP-Completeness.md",
     "The Complexity Class P.md",
-    "The Complexity Class NP.md",
     "Time Complexity.md",
     "Special Functions.md",
     "Filters and Ideals.md",
