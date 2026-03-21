@@ -23,6 +23,8 @@ Let ${\sf P}^A$ be the class of languages decidable with polynomial time oracle 
 
 We see that $\sf NP \subseteq P^\text{SAT}$. Furthermore $\sf coNP \subseteq P^\text{SAT}$, being a deterministic complexity class, is closed under complementation. 
 
+**Prop:** If $A\in \sf P$, then ${\sf P}^ A = \sf P$. 
+
 The diagonalisation method is a simulation of one Turing machine by another. The simulation is done so that the simulating machine can determine the behavior of the other machine and then behave differently. Suppose that both of these Turing machines were given identical oracles. Then, whenever the simulated machine queries the oracle, so can the simulator, and therefore the simulation can proceed as before. Consequently, any theorem proved about Turing machines by using only the diagonalisation method would still hold if both machines were given the same oracle. 
 
 **Th:**
@@ -32,3 +34,11 @@ The diagonalisation method is a simulation of one Turing machine by another. The
 This means that if we could prove $\sf P$ and $\sf NP$ were different by diagonalising, we could conclude that they are different relative to any oracle as well. But ${\sf P}^B$ and ${\sf NP}^B$ are equal, so that conclusion is false. Hence diagonalisation isn't sufficient to separate two classes. Similarly, no proof that relies on a simple simulation could show that the two classes are the same because that would show that they are the same relative to any oracle, but in fact ${\sf  P}^A$ and ${\sf NP}^ A$ are different.
 
 In summary, the relativisation method tells us that to solve the $\sf P$ vs $\sf NP$ question we must *analyse* computations, not just simulate them. Hence we use [[Circuit Complexity]] to just that. 
+
+**Prop:** If $\sf NP = P^\text{SAT}$, then $\sf NP = coNP$.
+
+**Prop:** $\text{MAX-CLIQUE}$ is in $\sf P^\text{SAT}$, where $\text{MAX-CLIQUE}$ is $\sf DP$-complete in [[the difference hierarchy]]
+
+**Prop:** Define the *unique-sat* problem to be  $$\text{USAT} := \{\langle \phi \rangle \mid \text{$\phi$ is a Boolean formula that has a single satisfying assignment}\}. $$Then $\text{USAT} \in \sf P^\text{SAT}$. 
+
+**Th:** There exists an oracle $C$ such that ${\sf NP}^C \ne {\sf coNP}^C$. 

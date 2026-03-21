@@ -77,3 +77,11 @@ Say that Player $1$ is the one who moves first and Player $2$ second. The proble
 **Th:** $\text{GG}$ is $\sf PSPACE$-complete.
 
 We showed that no polynomial time algorithm exists for optimal play in generalised geography unless $\sf P = PSPACE$. We'd like to prove a similar theorem regarding the difficulty of computing optimal play in a board games such as chess, but an obstacle arises. Only a finite number of different games positions may occur on the standard $8\times 8$ board. In principle, all these positions may be placed in a table, along with the best move in each position. The table would be too large to fit inside our galaxy, but being finite, could be stored in the control of a Turing machine, or even that of a finite automaton. Thus the machine would be able to play optimally in linear time, using table lookup. Nevertheless, we can give some evidence for the difficulty of computing optimal play for many boards by generalising to an $n \times n$ board. Such generalisations of chess, checkers, and GO have been shown to be $\sf PSPACE$-hard or hard for even larger complexity classes, depending on the details of the generalisation.
+
+The Japanese game *go-moku* is played by two players $\text{``X"}$ and $\text{``O"}$, on a $19\times19$ grid. Players take turns placing markers, and the first player to achieve $5$ of his markers consecutively in a row, column, or diagonal, is the winner. Consider this game generalised to an $n\times n$ board. Let  $$\text{GM} := \{\langle B \rangle \mid \text{$B$ is a poistion in generalised go-moku where player ``X" has a winning strategy}\}.$$
+By a *position* we mean a board with markers placed on it, such as may occur in the middle of a play of the game, together with an indication of which player moves next. 
+
+**Prop:** $\text{GM}\in \sf PSPACE$.
+
+**Prop:** $A_\mathsf{LBA} = \{\langle M, w\rangle \mid M \text{ is an }{\sf LBA} \text{ that accepts input }w\}$. Then $A_\mathsf{LBA}$ is $\sf PSPACE$-complete.
+

@@ -49,3 +49,5 @@ I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's
 	- [[The Complexity Class PSPACE]]
 	- [[The Complexity Classes L and NL]]
 - [[Complexity Hierarchy Theorems]]
+- [[Circuit Complexity]]
+- [[Approximating Algorithms in Complexity Theory]]

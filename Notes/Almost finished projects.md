@@ -9,7 +9,7 @@
 	- [x] Advanced Topics in Computability Theory
 	- [x] Time Complexity
 	- [x] Space Complexity
-	- [ ] Intractability
+	- [x] Intractability
 	- [ ] Advanced topics in Complexity Theory
 - [ ]  Introduction to Smooth Manifolds by Lee
 	- [x] Smooth Manifolds

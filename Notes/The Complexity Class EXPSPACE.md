@@ -13,3 +13,5 @@ To show $\text{EQ}_{\mathsf{REX}\uparrow}$ is intractable we demonstrate tat is 
 **Def:** A language $B$ is $\sf EXPSPACE$-hard if every $A$ in $\sf EXPSPACE$ is polynomial time reducible to $B$. A language $B$ is $\sf EXPSPACE$-complete if it is both in $\sf EXPSPACE$ and $\sf EXPSPACE$-hard.
 
 **Th:** $\text{EQ}_{\mathsf{REX}\uparrow}$ is $\sf EXPSPACE$-complete.
+
+**Prop:** $E_\mathsf{REX \uparrow}$ is in $\sf P$. 

@@ -25,7 +25,11 @@ When showing functions $f(n)$ that are $o(n)$ to be space constructible, we use 
 
 **Time Hierarchy Theorem:** For any time constructible function $t: \Bbb N \to \Bbb N$, a language $A$ exists that is decidable in $O(t(n))$ time but not decidable in time $o(t(n)/\log t(n))$. 
 
-**Cor:** For any two functions $t_1, t_2:\Bbb N \to \Bbb N$, where $t_1(n)$ is $o(t_2(n)/\log t_2)$ and $t_2$ is a time constructible, $\text{TIME}(t_1(n))\subset \text{TIME}(t_2(n))$. 
+**Cor:** For any two functions $t_1, t_2:\Bbb N \to \Bbb N$, where $t_1(n)$ is $o(t_2(n)/\log t_2(n))$ and $t_2$ is a time constructible, $\text{TIME}(t_1(n))\subset \text{TIME}(t_2(n))$. 
 
 **Cor:** For any two real numbers $1 \le \varepsilon_1 < \varepsilon_2$. $$\text{TIME}(n^{\varepsilon_1})\subset \text{TIME}(n^{\varepsilon_2}).$$
 **Cor:** $\sf P \subset \text{TIME}(2^n) \subseteq \sf EXPTIME$. 
+
+**Cor:** $\text{TIME}(2^n) = \text{TIME}(2^{n+1})$, but $\text{TIME}(2^{n}) \subset \text{TIME}(2^{2n})$. 
+
+**Cor:** $\text{NTIME}(n) \subset\sf PSPACE$. 
