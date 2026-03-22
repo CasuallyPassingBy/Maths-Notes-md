@@ -29,7 +29,7 @@ Links: [[Normal Hausdorff Spaces]], [[Paracompacteness]], [[Special Types of Col
 
 **Prop:** Every fully normal space is collectionwise normal.
 
-**Prop:** If $X$ is a psuedometrizable space, then $X$ is fully normal.
+**Prop:** If $X$ is a pseudometrizable space, then $X$ is fully normal.
 
 **Stone's coincidence theorem:** A $T_2$ space $X$ is paracompact iff it is fully $T_4$.
 

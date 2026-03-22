@@ -10,7 +10,7 @@ Links: [[Metric Spaces]], [[Ultraparacompactness]], [[Zero Dimensional Spaces]],
 - $d(x, y) = 0$ iff $x = y$.
 - $d(x, y) = d(y, x)$
 - $d(x, z) \le \max\{d(x, y), d(y,z )\}$ (the *strong triangle inequality* or *ultrametric inequality).*
-An *ultrametric space*is a pair $(M, d)$ consisting of set $M$ and an ultrametric $d$ on $M$. We can weaken the first condition, to $d(x, x) = 0$, then $d$ is called a *psuedoultrametric* on $M$. An *pseudoultrametric space* is a pair $(M, d)$ consisting of set $M$ and an psuedoultrametric $d$ on $M$.
+An *ultrametric space*is a pair $(M, d)$ consisting of set $M$ and an ultrametric $d$ on $M$. We can weaken the first condition, to $d(x, x) = 0$, then $d$ is called a *pseuoultrametric* on $M$. An *pseudoultrametric space* is a pair $(M, d)$ consisting of set $M$ and an pseudoultrametric $d$ on $M$.
 
 **Prop:** For $x, y, z\in M$, at least one of the three equalities:
 - $d(x, y) = d(y, z)$

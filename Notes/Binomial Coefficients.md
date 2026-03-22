@@ -1,8 +1,9 @@
 ---
 tags:
   - SpecialNumbers
+  - Combinatorics
 ---
-Subjects: [[Special Numbers]]
+Subjects: [[Special Numbers]], [[Combinatorics]]
 Links: [[Falling and Rising Factorials and Pochhamer Symbols]], [[Multi-index notation]]
 
 We define the binomial coefficient of $r$ choose $k$ as $$ {r\choose k} := \begin{cases}\dfrac{r^\underline k}{k!} & k \in \Bbb N \\

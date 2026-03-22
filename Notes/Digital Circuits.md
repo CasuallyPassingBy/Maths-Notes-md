@@ -5,7 +5,7 @@ tags:
 # Overview
 
 # Topics
-
+- [[Boolean Circuit Complexity]]
 - [[CMOS]]
 - [[Logic Gates]]
 	- [[Boolean Equations for Digital Circuits]]

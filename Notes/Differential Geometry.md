@@ -70,7 +70,7 @@ This notes uses Einstein's summation convention.
 - [[Riemannian Metrics on Smooth Manifolds]]
 	- [[The Riemannian Distance Function]]
 	- [[The Tangent-Cotangent Bundle Isomorphism for Riemannian Manifolds]]
-	- [[Psuedo-Riemannian Metrics on Smooth Manifolds]]
+	- [[Pseudo-Riemannian Metrics on Smooth Manifolds]]
 - [[Orientations of Smooth Manifolds]]
 	- [[Riemannian Volume Form on Smooth Manifolds]]
 	- [[Orientations and Covering Maps for Smooth Manifolds]]

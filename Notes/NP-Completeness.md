@@ -58,7 +58,7 @@ Finally, formula $\phi_\text{move}$ guarantees that each row of the table corres
 Now we return to the construction of $\phi_\text{move}$. It stipulates that all the windows in the tableau are legal. Each window contains six cells, which may be set in a fixed number of ways to yield a legal window.  $$\phi_\text{move}:= \bigwedge_{\substack{1\le i < n^k \\ 1< j<n^k}} \bigvee_{\substack{a_1,\dots, a_6 \\ \text{is a legal window}}} (x_{i, j-1, a_1}\land x_{i, j, a_2}\land x_{i, j+1, a_3}\land x_{i, j-1, a_4}\land x_{i, j, a_5}\land x_{i, j+1, a_6}). $$Our final formula is $$\phi:= \phi_\text{cell}\land \phi_\text{start} \land \phi_\text{accept} \land \phi_\text{move}.$$The reduction made is in the order of $O(n^{2k} \log n)$ so it is still a polynomial reduction, since we can consider it a $O(n^{2k+1})$. 
 # Additional $\sf NP$-complete Problems
 
-We say that [[Circuit Complexity|Boolean circuit]] is *satisfiable* if some setting of the inputs causes the circuit to output $1$. The *circuit-satisfiability* problem tests whether a circuit is satisfiable. Let $$\text{Circuit-SAT} := \{\langle C \rangle \mid \text{$C$ is a satisfiable Boolean circuit}\}. $$
+We say that [[Boolean Circuit Complexity|Boolean circuit]] is *satisfiable* if some setting of the inputs causes the circuit to output $1$. The *circuit-satisfiability* problem tests whether a circuit is satisfiable. Let $$\text{Circuit-SAT} := \{\langle C \rangle \mid \text{$C$ is a satisfiable Boolean circuit}\}. $$
 **Th:** $\text{Circuit-SAT}$ is $\sf NP$-complete.
 
 **Cor:** $\text{Clique}$ is $\sf NP$-complete.

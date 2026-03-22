@@ -1,8 +1,9 @@
 ---
 tags:
+  - ComputationTheory
 ---
-Subjects: 
-Links:
+Subjects: [[Theory of Computation]]
+Links: [[Strings and Languages]]
 
 **Def:** A *Kleene algebra* $\cal K$ consists of a nonempty set with two distinguished constants $0$, and $1$, two binary operations $+$ and $\cdot$, and a unary operation $^*$ satisfying the following axioms.
 1. $a+(b+c) = (a+b) +c$.

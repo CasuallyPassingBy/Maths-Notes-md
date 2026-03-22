@@ -23,8 +23,8 @@ $$ a^{pq} \equiv a \pmod p $$
 
 ********Th:******** If $n$ is an odd pseudoprime, then $M_n = 2^n-1$ is a larger one.
 
-**Def:** Expanding the definition of pseudoprimes, a composite number $n$ for which ${a^n \equiv a \pmod n}$ is called a *pseudoprime to the base $a$*, when $a = 2$, it is just called a pseudoprime.
+**Def:** Expanding the definition of pseudoprimes, a composite number $n$ for which ${a^n \equiv a \pmod n}$ is called a *pseudoprime to the base $a$*, when $a = 2$, it is just called a pseudoprime. ^e7327a
 
-**Def:** If $n$ is a pseudoprime for all to every base $a$, meaning $a^n \equiv a\pmod n$, are called an *absolute pseudoprime* or a *Carmichael number.*
+**Def:** If $n$ is a pseudoprime for all to every base $a$, meaning $a^n \equiv a\pmod n$, are called an *absolute pseudoprime* or a *Carmichael number.* ^6e0492
 
 ********Th:******** Let $n$ be a composite square-free integer, say $n = p_1p_2 \cdots p_r$, where $p_i$ distinct primes. If $p_i-1 \mid n-1$, for $i =1, 2, \dots, r$, then $n$ is an absolute pseudoprime.

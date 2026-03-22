@@ -15,7 +15,7 @@ There are various methods of generating pseudo-random numbers:
 
 # Linear Congruential Generator
 
-The linear congruential generators are the simplest and most commonly used methods of generating psuedorandom numbers. They are defined recursively: $$X_{n+1} = (a X_n + b) \pmod m,$$where $X$ is the sequence of pseudo-random values, and
+The linear congruential generators are the simplest and most commonly used methods of generating pseudorandom numbers. They are defined recursively: $$X_{n+1} = (a X_n + b) \pmod m,$$where $X$ is the sequence of pseudo-random values, and
 - $m$, $0 <m$ is the *modulus*
 - $a$, $0 < a <m$ is the *multiplier*
 - $b$, $0 \le b < m$ is the *increment*

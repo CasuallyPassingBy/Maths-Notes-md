@@ -36,9 +36,9 @@ Links: [[Topological Spaces]], [[Arithmetic of Cardinal Numbers]], [[Regular and
 
 **Cor:** very infinite first countable $T_2$ compact space $X$ satisfies $|X| \le \frak c$.
 
-# Psuedocharacter
+# Pseudocharacter
 
-**Def:** Let $X$ be a $T_1$ space. The *psuedocharacter of a point $x\in X$* is defined as the smallest cardinal of the form $|\mathcal U|$, where $\mathcal U \subseteq \tau_X$ and $\bigcap \mathcal U = \{x\}$; this cardinal is denoted by $\psi(x, X)$. Additionally, the *psuedocharacter of $X$* is defined as $$
+**Def:** Let $X$ be a $T_1$ space. The *pseudocharacter of a point $x\in X$* is defined as the smallest cardinal of the form $|\mathcal U|$, where $\mathcal U \subseteq \tau_X$ and $\bigcap \mathcal U = \{x\}$; this cardinal is denoted by $\psi(x, X)$. Additionally, the *pseudocharacter of $X$* is defined as $$
 \psi(X) := \sup\{\psi(x, X) \mid x\in X\}.
 $$
 **Obs:** Let $X$ be $T_1$ space. Note that for every $x\in X$, then it is satisfied that $\psi(x, X) \le \chi(x, X)$, and $\psi(X) \le \chi(X)$.

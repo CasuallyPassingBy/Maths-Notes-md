@@ -59,3 +59,4 @@ We have seen that $\Bbb F_{p^n}/ \Bbb F_{p^m}$ is a field extension iff $m \mid 
 
 **Prop:** The splitting field of the polynomial $x^p-x-a$ over $\Bbb F_p$ where $a \neq 0$, $a\in \Bbb F_p$, 
 
+**Lemma:** Let $\cal F$ be a finite field with $f$ elements and let $p$ be a nonzero polynomial on the variables $x_1$ through $x_m$, where each variable has degree at most $d$. If $a_1$ through $a_m$ are selected randomly in $\cal F$, then $P(p(a_1,\dots, a_m) = 0) \le md/f.$

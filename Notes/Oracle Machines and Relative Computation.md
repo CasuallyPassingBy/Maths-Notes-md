@@ -33,7 +33,7 @@ The diagonalisation method is a simulation of one Turing machine by another. The
 
 This means that if we could prove $\sf P$ and $\sf NP$ were different by diagonalising, we could conclude that they are different relative to any oracle as well. But ${\sf P}^B$ and ${\sf NP}^B$ are equal, so that conclusion is false. Hence diagonalisation isn't sufficient to separate two classes. Similarly, no proof that relies on a simple simulation could show that the two classes are the same because that would show that they are the same relative to any oracle, but in fact ${\sf  P}^A$ and ${\sf NP}^ A$ are different.
 
-In summary, the relativisation method tells us that to solve the $\sf P$ vs $\sf NP$ question we must *analyse* computations, not just simulate them. Hence we use [[Circuit Complexity]] to just that. 
+In summary, the relativisation method tells us that to solve the $\sf P$ vs $\sf NP$ question we must *analyse* computations, not just simulate them. Hence we use [[Boolean Circuit Complexity]] to just that. 
 
 **Prop:** If $\sf NP = P^\text{SAT}$, then $\sf NP = coNP$.
 

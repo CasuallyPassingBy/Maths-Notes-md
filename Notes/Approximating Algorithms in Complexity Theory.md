@@ -20,6 +20,16 @@ $A =$"On input $\langle G\rangle$, where $G$ is undirected graph:
 
 **Th:** $A$ is a polynomial time algorithm that produces a vertex cover of $G$ that is no more than twice as large as smallest vertex cover. 
 
-$\text{Min-Vertex-Cover}$ is an example of a *minimisation problem* because we aim to find the *smallest* among the collection of possible solutions. In a *maximisation problems* we seek the *largest* solution. An approximation algorithm for a minimisation problem is *$k$-optimal* if it always finds a solution that is not more than $k$ times optimal. For a maximisation problem a $k$-optimal approximation al
+$\text{Min-Vertex-Cover}$ is an example of a *minimisation problem* because we aim to find the *smallest* among the collection of possible solutions. In a *maximisation problems* we seek the *largest* solution. An approximation algorithm for a minimisation problem is *$k$-optimal* if it always finds a solution that is not more than $k$ times optimal. For a maximisation problem a $k$-optimal approximation algorithm always finds a solution that is at least $\frac{1}{k}$ times the size of the optimal.
 
 We see that $A$ is $2$-optimal for vertex cover problem. 
+
+The following is an approximation algorithm for a maximisation problem called $\text{Max-Cut}$. A *cut* in an undirected graph is a separation of the vertices $V$ into two disjoint subsets $S$ and $T$. A *cut edge* is an edge that goes between the node in $S$ and node in $T$. An *uncut edge* is an edge that is not a cut edge. The size of a cut is the number of cut edges. The $\text{Max-Cut}$ problem asks for a largest cut in a graph $G$. The following algorithm approximates $\text{Max-Cut}$ within a factor of $2$.
+
+$B =$ "On input $\langle G\rangle$ where $G$ is an undirected graph with nodes $V$:
+1. Let $S = \varnothing$ and $T= V$.
+2. If moving a single node, either from $S$ to $T$ or from $T$ to $S$, increases the size of the cute, make that move and repeat this stage.
+3. If no such node exists, output the current cut and halt."
+
+**Th:** $B$ is a polynomial time, $2$-optimal approximation algorithm for $\text{Max-Cut}$.
+

@@ -6,15 +6,15 @@ tags:
 Subjects: [[Topology]], [[Metric and Normed Spaces]]
 Links: [[Metrizable Spaces]], [[Paracompacteness]], [[Special Types of Collections in Topology]], [[Topological Developability]], [[Point-Regular and Regular Bases]]
 
-**Th:** Every open cover of a psuedometrizable space has an open refinement which is both locally finite and $\sigma$-discrete; in particular, every psuedometrizable space is paracompact.
+**Th:** Every open cover of a pseudometrizable space has an open refinement which is both locally finite and $\sigma$-discrete; in particular, every pseudometrizable space is paracompact.
 
-**Prop:** Every psuedometrizable space has a $\sigma$-discrete base.
+**Prop:** Every pseudometrizable space has a $\sigma$-discrete base.
 
-**Cor:** Every psuedometrizable space has a $\sigma$-locally finite base.
+**Cor:** Every pseudometrizable space has a $\sigma$-locally finite base.
 
 **Lemma:** Every regular space which has a $\sigma$-locally finite base is perfectly normal.
 
-**Lemma:** Let $X$ be a $T_0$ space and $\{d_n \mid n < \omega\}$ a countable family of psuedometrics on the set which are all bounded by $1$ and satisfy the following two conditions:
+**Lemma:** Let $X$ be a $T_0$ space and $\{d_n \mid n < \omega\}$ a countable family of pseudometrics on the set which are all bounded by $1$ and satisfy the following two conditions:
 - $d_n: X \times X \to \Bbb R$ is a continuous function for all $n < \omega$.
 - For every $x\in X$ and every nonempty closed set $A\subseteq X$ such that $x\notin X$ there exists $n <\omega$ such that $d(x, A) := \inf\{d_n(x, a) \mid a \in A\} > 0$
 Then the space $X$ is metrizable and the function $d$ defined by $$

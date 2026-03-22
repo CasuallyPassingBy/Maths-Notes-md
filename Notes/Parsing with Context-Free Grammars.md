@@ -39,7 +39,7 @@ The standard version of $\sf CYK$ operates only on context-free grammars given i
 
 Let $n$ be the length of the string. Draw $n+1$ vertical lines separating the letters and number them form $0$ to $n$. For $0\le i < j \le n$, let $x_{ij}$ denote the substring of $x$ between the lines $i$ and $j$. We build a table $T$ with $n\choose 2$ entries, one for each $i, j$ such that $0\le i < j\le n$. The $i, j$th entry of $T$, denoted $T_{ij}$ refers to the substring $x_{ij}$. 
 
-### Algorithm in Psuedocode
+### Algorithm in Pseudocode
 
 **for** $i:= 0$ **to** $n-1$ **do**
 	**begin**

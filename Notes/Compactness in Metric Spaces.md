@@ -66,4 +66,4 @@ $(M, d)$ be a metric space, then the following are equivalent:
 - $(M, d)$ is [[Complete Metric Spaces|complete]] and [[Total Boundedness|totally bounded]]
 - $(M, d)$ is [[Countable compactness|countably compact]]
 - $(M, d)$ is [[Limit Point Compactness|limit point compact]]
-- $(M, d)$ is [[Psuedocompactness|pseudocompact]]
+- $(M, d)$ is [[Pseudocompactness|pseudocompact]]

@@ -26,3 +26,4 @@ There are a lot classes important classes of problems
 - [[The Complexity Class NP]]
 	- [[The Difference Hierarchy]]
 	- [[The Complexity Class coNP]]
+- [[Polynomial Time Hierarchy]]

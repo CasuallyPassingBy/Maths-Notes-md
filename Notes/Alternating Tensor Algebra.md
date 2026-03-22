@@ -55,7 +55,7 @@ We see that $I_{\sigma\tau} = (I_ \sigma)_\tau$ for $\sigma,\tau\in S_k$. We can
 
 The significance of this that they provide a more convenient basis for $\bigwedge_p(V)$. We see that the set of $e_I$ is not linearly independent, because some of them are zero and the ones corresponding to different permutations of the same multi-index are constant multiples of each other. A multi-index $I = (i_1,\dots, i_k)$ is said to be *increasing* if $i_1 <\dots <i_k$. This means that using Einstein summation convention we can write a $p$-vector as $$A^I e_I := \sum_{I}' A_I e_I = \sum_{\{I: 1 \le \mu_1 <\dots < \mu_p \le n\}} A^{\mu_1, \dots, \mu_p} e_{\mu_1} \wedge \dots \wedge e_{\mu_p}$$and the set $\{e_I\mid I \text{ is an increasing }p \text{multi-index}\}$ is a basis for $\bigwedge_p(V)$. 
 
-**Def:** Since ${\textstyle \bigwedge}_n(V)$ is a one dimensional $K$-vector space, then we call the elements of ${\textstyle \bigwedge}_n(V)$ are called $n$-vectors, and another usual denomination for $n$-vectors is *psuedoscalars*. 
+**Def:** Since ${\textstyle \bigwedge}_n(V)$ is a one dimensional $K$-vector space, then we call the elements of ${\textstyle \bigwedge}_n(V)$ are called $n$-vectors, and another usual denomination for $n$-vectors is *pseudoscalars*. 
 
 **Def:** The image $\text{Alt}[T(V)]$ is always the *alternating tensor graded subspace*, it is not algebra yet since we don't have a product, denoted as $A(V)$. 
 

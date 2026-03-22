@@ -287,6 +287,16 @@
 	- [ ] Cormen
 -  Theory of Computation
 	- [ ] Sipser
+		- [x] Regular Languages
+		- [x] Context Free Grammars
+		- [x] The Church-Turing Thesis
+		- [x] Decidability
+		- [x] Reducibility
+		- [x] Advanced Topics in Computability Theory
+		- [x] Time Complexity
+		- [x] Space Complexity
+		- [x] Intractability
+		- [ ] Advanced topics in Complexity Theory
 	- [x] Kozen
 	- [ ] [Lillian Lee's aritcle](https://arxiv.org/pdf/cs/0112018)
 	- [ ] Lecture Notes on the Lambda Calculus

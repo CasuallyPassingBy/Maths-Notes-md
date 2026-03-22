@@ -6,15 +6,15 @@ tags:
 Subjects: [[Topology]]
 Links: [[Paracompacteness]], [[Collectionwise Normal Spaces]], [[Topological Developability]], [[Metric Spaces]], [[Total Boundedness]], [[Complete Metric Spaces]]
 
-**Def:** A topological space is *metrizable* if there's a metric that induces the same as the original topology. Similarly, a topological space is *pseudometrizable* if there's a psuedometric that induces the original topology.
+**Def:** A topological space is *metrizable* if there's a metric that induces the same as the original topology. Similarly, a topological space is *pseudometrizable* if there's a pseudometric that induces the original topology.
 
 **Def:** Let $(X, d)$ be a metric space and $A \subseteq X$; we say that $A$ is $\varepsilon$-dense in $(X,d)$ if for every $x\in X$ there's a $y\in A$ such that $d(x,y) < \varepsilon$. A metric space is *totally bounded* if for every $\varepsilon>0$ there exists a finite set $A\subseteq X$ which is $\varepsilon$-dense in $(X, d)$; a metric on a set $X$ is *totally bounded* if the space $(X, d)$ is totally bounded. Lastly, a topological space $X$ is *metrizable by a totally bounded metric* if there exists a totally bounded metric on $X$.
 
 **Def:** A topological space is completely metrizable if there is a complete metric on the space $X$.
 
-**Obs:** Metric spaces are metrizables, and psuedometric spaces are pseudometrizables. Note that discrete space are metrizable with the discrete metric. 
+**Obs:** Metric spaces are metrizables, and pseudometric spaces are pseudometrizables. Note that discrete space are metrizable with the discrete metric. 
 
-We can bound the metric by $1$, and still generates the same metric/psuedometric.
+We can bound the metric by $1$, and still generates the same metric/pseudometric.
 
 **Obs:** Every (pseudo)metric space is first countable; in fact, they are developable.
 
