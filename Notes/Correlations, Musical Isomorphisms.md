@@ -2,7 +2,7 @@
 tags:
   - CliffordAlgebra
 ---
-Subjects: [[Clifford Algebra]]
+Subjects: [[Clifford Algebra (Subject)]]
 Links: [[Bilinear Forms]], [[Quadratic Forms]], [[Vectors and Covectors]]
 
 **Def:** Let $V$ be a finite dimensional $K$-vector space, and $V'$ represents its dual. If $\tau: V \to V'$ is a linear function, then we call $\tau$ a *correlation*. A correlation $\tau$ naturally defines a bilinear functional $B: V \times V \to K$ by the equation $$B(v, u) := \tau(v) u \qquad \forall u, v\in V.$$If $\ker \tau = \{0\}$, the correlation is said to be *non-degenerate*. In this case the vector space $V$ and the bilinear form associated with $\tau$ are also said to be non-degenerate. 

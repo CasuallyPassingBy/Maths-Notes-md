@@ -4,7 +4,7 @@ tags:
   - LinearAlgebra
   - CliffordAlgebra
 ---
-Subjects: [[Differential Geometry]], [[Linear Algebra]], [[Clifford Algebra]]
+Subjects: [[Differential Geometry]], [[Linear Algebra]], [[Clifford Algebra (Subject)]]
 Links: [[Dual Vector Spaces]], [[Exterior Algebra of Vector Spaces]], [[Multilinear Transformations]], [[Tensor Product of Modules]],  [[Graded Ring]], [[Tensor Product of Linear Functions]], [[Symmetric Group]]
 
 Let $K$ be characteristic $0$ field. We are going to drop, the fact that the codomain is $K$ for the rest of the note, since this notation is a bit cumbersome. 

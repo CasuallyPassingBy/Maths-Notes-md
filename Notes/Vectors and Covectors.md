@@ -3,7 +3,7 @@ tags:
   - LinearAlgebra
   - CliffordAlgebra
 ---
-Subjects: [[Clifford Algebra]], [[Linear Algebra]]
+Subjects: [[Clifford Algebra (Subject)]], [[Linear Algebra]]
 Links: [[Vector Spaces]], [[Dual Vector Spaces]]
 
 We are going to revisit of [[Dual Vector Spaces]], but through the a lens closer to tensors.

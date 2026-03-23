@@ -3,7 +3,7 @@ tags:
   - ComputationTheory
 ---
 Subjects: [[Theory of Computation]]
-Links: [[Alternating Turing Machines]], [[The Complexity Class P]], [[The Complexity Class NP]], [[The Complexity Class coNP]], [[Time Complexity]]
+Links: [[Alternating Turing Machines]], [[The Complexity Class P]], [[The Complexity Class NP]], [[The Complexity Class coNP]], [[Time Complexity]], [[Oracle Machines and Relative Computation]]
 
 Alternating machines provide a way to define a natural hierarchy of problems within the class $\sf PSPACE$.
 
@@ -17,5 +17,9 @@ Define ${\sf PH }:= \bigcup_{k \ge 0}\Sigma_k \mathsf P = \bigcup_{k \ge 0}\Pi_k
 Clearly, ${\sf NP} = \Sigma_1 \sf P$, and ${\sf coNP} = \Pi_1 \sf P$. Additionally, $\text{Min-Formula}\in \Pi_2 \sf P$. 
 
 **Prop:** If $\sf P = NP$, then $\sf P = PH$.
+
+**Prop:** If $\sf PH = PSPACE$, then the polynomial time hierarchy has only finitely many distinct levels.
+
+**Prop:** We know that ${\sf NP}^\text{SAT} = \Sigma_2 \sf P$. 
 
 There are a lot of open questions about the polynomial time hierarchy. The most important is that is the hierarchy infinite? Apparently, it is known that if two levels are the same then the entire hierarchy collapses to where those levels are the same. This brings a generalisation of the question of $\sf P$ vs $\sf NP$. 

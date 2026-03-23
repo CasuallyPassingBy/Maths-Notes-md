@@ -4,7 +4,7 @@ tags:
   - DifferentialGeometry
   - LinearAlgebra
 ---
-Subjects: [[Clifford Algebra]], [[Differential Geometry]], [[Linear Algebra]]
+Subjects: [[Clifford Algebra (Subject)]], [[Differential Geometry]], [[Linear Algebra]]
 Links: [[Tensor Algebra]], [[Tensor Product of Modules]], [[Vectors and Covectors]], [[Dual Vector Spaces]], [[Correlations, Musical Isomorphisms]]
 # Linear Functions
 

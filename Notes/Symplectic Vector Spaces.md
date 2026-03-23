@@ -3,7 +3,7 @@ tags:
   - LinearAlgebra
   - CliffordAlgebra
 ---
-Subjects: [[Linear Algebra]], [[Clifford Algebra]]
+Subjects: [[Linear Algebra]], [[Clifford Algebra (Subject)]]
 Links: [[Bilinear Forms]], [[Correlations, Musical Isomorphisms]]
 
 These are special $2$-forms that play a role in many applications of smooth manifolds to analysis and physics.

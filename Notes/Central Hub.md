@@ -30,7 +30,7 @@ We have all the subjects:
 - [[Ring Theory]]
 - [[Field Theory]]
 - [[Module Theory]]
-- [[Clifford Algebra]]
+- [[Clifford Algebra (Subject)]]
 
 ## Differential Equations
 - [[Ordinary Differential Equations]]

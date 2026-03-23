@@ -3,7 +3,7 @@ tags:
   - ComputationTheory
 ---
 Subjects: [[Theory of Computation]]
-Links: [[Probabilistic Algorithms in Complexity Theory]], [[The Complexity Class P]], [[The Complexity Class PSPACE]]
+Links: [[Probabilistic Algorithms in Complexity Theory]], [[The Complexity Class P]], [[The Complexity Class PSPACE]], [[Branching Programs in Complexity Theory]]
 
 **Def:** A *probabilistic Turing machine* $M$ is a type of nondeterministic Turing machine in which each nondeterministic step is called *coin-flip step* and has two legal moves. We assign a probabilisty to each branch $b$ of $M$'s computation on input $w$ as follows. Define the probability of branch $b$ to be  $$P(b) := 2^{-k},$$where $k$ is the number of coin-flips steps that occur on branch $b$. Define the probability that $M$ accepts $w$ to be $$P(M \text{ accepts }w) = \sum_{\substack{b \text{ is an } \\ \text{accepting branch}}} P(b). $$
 In other words, the probability that $M$ accepts $w$ is the probability that we would reach an accepting configuration if we simulated $M$ on $w$ by flipping a coin to determine which move to follow at each coin-flip step. We let   $$P(M \text{ rejects }w) = 1-P(M \text{ accepts }w).$$
@@ -24,6 +24,10 @@ We define this class with an error probability of $\frac13$, but any constant er
 In our analyses, we assume that these algorithms are implemented using true randomness. True randomness may be difficult/impossible to obtain, so it is usually simulated with *pseudorandom generators*, which are deterministic algorithms whose output appears random. Algorithms that are designed to use randomness may work equally work will with these pseudorandom generators, but proving that they do is generally more difficult. Indeed, sometimes probabilistic algorithms may not work well with certain pseudorandom generators. Sophisticated pseudorandom generators have been devised that produce results indistinguishable from truly random results by any test that operates in polynomial time, under the assumption that a [[one-way function]] exists. 
 
 **Prop:** $\sf BPP \subseteq PSPACE$. 
+
+**Def:** Let $\sf BPL$ be the collection of languages that are decided by probabilistic log space Turing machine with error probability $\frac13$. 
+
+**Prop:** $\sf BPL \subseteq P$.
 
 ## Primality
 
@@ -71,6 +75,8 @@ Note that the probabilistic primality algorithm has *one-sided error.* When the 
 **Def:** $\sf RP$ is the class of languages that are recognised by probabilistic time Turing machines where inputs in the language are accepted with a probability of at least $\frac12$ and inputs not in the language are rejected with a probability of $1$. 
 
 **Th:** Let $\text{Composites} := \{n \mid n \text{ is a composite number in binary}\}$. We know that $\text{Composite} \in \sf RP$. 
+
+**Prop:** If $\sf NP \subseteq BPP$, then $\sf NP = RP$. 
 
 # Other Problems in BPP
 

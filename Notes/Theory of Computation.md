@@ -56,3 +56,4 @@ I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's
 - [[Branching Programs in Complexity Theory]]
 - [[Alternating Turing Machines]]
 	- [[Polynomial Time Hierarchy]]
+- [[Interactive Proof Systems]]

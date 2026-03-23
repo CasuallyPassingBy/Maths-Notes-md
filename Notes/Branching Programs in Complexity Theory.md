@@ -15,6 +15,8 @@ Branching programs are related to the [[The Complexity Classes L and NL|class L]
 
 **Prop:** If $A$ is a language in $\sf L$, a family of branching programs $(B_1,B_2,\dots )$ exists wherein each $B_n$ accepts exactly the strings in $A$ of length $n$ and is bounded in sise by a polynomial in $n$. 
 
+**Prop:** If $A$ is a regular language, a family of branching programs $(B_1,B_2,\dots )$ exists wherein each $B_n$ accepts the strings in $A$ of length $n$ and is bounded in size by a constant times $n$. 
+
 Two branching programs are equivalent if they determine equal functions. 
 
 **Prop:** Let $\text{EQ}_\mathsf{BP} := \{\langle B_1,B_2\rangle \mid B_1 \text{ and } B_2\text{ are equivalent branching programs}\}.$ Then $\text{EQ}_\mathsf{BP}$ is $\sf coNP$-complete. 
