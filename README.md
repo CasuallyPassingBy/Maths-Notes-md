@@ -21,7 +21,7 @@ The notes in this repository encompass various branches and topics within mathem
 - Metric and Normed Spaces
 - Complex Analysis
 - Fourier Analysis
-- Functional Analysis
+- Functional Analysis (Pending)
 
 ### Algebra
 - Linear Algebra
@@ -30,17 +30,18 @@ The notes in this repository encompass various branches and topics within mathem
 
 ### Differential Equations
 - Ordinary Differential Equations
-- Partial Differential Equations
+- Partial Differential Equations (Pending)
 
 ### Applied Mathematics
 - Numerical Analysis
-- Combinatorics
+- Combinatorics (Pending)
+- Graph Thoery (Pending)
 - Probability Theory
 - Statistics
-- Stochastic Processes
+- Stochastic Processes (Pending)
 
 ### Advanced Topics
-- Measure Theory
+- Measure Theory 
 - Algebraic Topology
 
 ### Special Objects
@@ -54,13 +55,13 @@ The notes in this repository encompass various branches and topics within mathem
 
 ### Computer Science
 - Theory of Computation
-- Algorithms and Data Structures
-- Artificial Intelligence
+- Algorithms and Data Structures (Pending)
+- Artificial Intelligence (Pending)
 
 ### Miscellaneous
-- Fractional Calculus
-- Umbral Calculus
-- Finite Operator Calculus
+- Fractional Calculus (Pending)
+- Umbral Calculus (Pending)
+- Finite Operator Calculus (Pending)
 - Useful Identities
 - Macroeconomics
 
