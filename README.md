@@ -27,6 +27,7 @@ The notes in this repository encompass various branches and topics within mathem
 - Linear Algebra
 - Group Theory
 - Ring Theory
+- Field Theory
 
 ### Differential Equations
 - Ordinary Differential Equations
