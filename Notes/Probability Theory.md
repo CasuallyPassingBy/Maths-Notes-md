@@ -4,6 +4,7 @@ tags:
 ---
 [[Central Hub]]
 # Overview
+The main references for this book are 'Introducción a la Probabilidad' and 'Curso Intermedio de Probabilidad' by Luis Rincón. 
 
 # Topics
 - [[Probability Measure]]

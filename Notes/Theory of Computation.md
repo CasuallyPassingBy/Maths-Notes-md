@@ -57,3 +57,5 @@ I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's
 - [[Alternating Turing Machines]]
 	- [[Polynomial Time Hierarchy]]
 - [[Interactive Proof Systems]]
+- [[Parallel Computing in Complexity Theory]]
+- [[Cryptography in Complexity Theory]]
