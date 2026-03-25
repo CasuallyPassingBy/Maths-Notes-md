@@ -43,3 +43,13 @@ We see that $\sf NP$ and $\sf BPP$ are both contained in $\sf IP$.
 
 **Def:** The *counting problem* for satisfiability to be the language $$\#\text{SAT} := \{\langle \phi, k\rangle \mid \text{$\phi$ is a cnf-formula with exactly $k$ satistying asssignments}\}.$$
 **Th:** $\#\text{SAT}\in \sf IP$. 
+
+We need to consider a technique called *arithmetisation*, we associate with a cnf-formula $\phi$ with variables $x_1$ through $x_m$ a polynomial $p(x_1,\dots, x_n)$ where $p$ mimics $\phi$ by simulating the Boolean $\land, \lor,$ and $\neg$ operations with the arithmetic operations $+$ and $\cdot$. If $\alpha$ and $\beta$ are subformulas we replace expressions
+- $\alpha\land\beta$ by $\alpha\beta$,
+- $\neg\alpha$ by $1-\alpha$, and
+- $\alpha\lor\beta$ by $\alpha*\beta:= 1-(1-\alpha)(1-\beta)$.
+The operations $\alpha\beta$ and $\alpha*\beta$ each produce a polynomial whose degree is at most the sim of the degrees of the polynomials for $\alpha$ and $\beta$. Thus the degree of any variables is at most $n$, the length of $\phi$.
+
+If $p$'s variable are assigned Boolean values, it agrees with $\phi$ on the assignment. There is no obvious interpretation when $p$ is assigned non-Boolean variables. In order to prove that $\#\text{SAT}$ is in $\sf IP$, we do need to consider non-Boolean assignments, and the variables range over a [[Finite Fields|finite field]] $\cal F$ with $q$ elements where $q\ge 2^n$. 
+
+**Th:** $\sf IP = PSPACE$. 

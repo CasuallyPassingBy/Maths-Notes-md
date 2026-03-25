@@ -7,6 +7,7 @@ tags:
 I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's book 'Introduction to the Theory of Computation'.  
 
 # Topics
+## Computability Theory
 - [[Strings and Languages]]
 	- [[Finite Automaton]]
 		-  [[Automatas on Terms]]
@@ -40,6 +41,8 @@ I am mainly relying on Kozen's book of 'Automata and Computability' and Sipser's
 		- [[Post Systems]]
 	- [[Linear Bounded Automaton]]
 - [[Gödel's Incompleteness Theorems]]
+
+## Complexity Theory
 - [[Time Complexity]]
 	- [[The Complexity Class P]]
 	- [[The Complexity Class NP]]
