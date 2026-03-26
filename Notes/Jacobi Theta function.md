@@ -1,7 +1,6 @@
 ---
 tags:
   - SpecialFunctions
-  - ComplexAnalysis
 ---
 Subjects: [[Complex Analysis]], [[Special Functions]]
 Links: [[Poisson Summation Formula]], 

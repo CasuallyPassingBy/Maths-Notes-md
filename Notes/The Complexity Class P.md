@@ -3,7 +3,7 @@ tags:
   - ComputationTheory
 ---
 Subjects: [[Theory of Computation]]
-Links: [[Time Complexity]], [[Asymptotic Notation]], [[Turing Machines]], [[The Complexity Class NP]], [[Graph Colouring]]
+Links: [[Time Complexity]], [[Asymptotic Notation]], [[Turing Machines]], [[The Complexity Class NP]], [[Graph Colouring]], [[Parallel Computing in Complexity Theory]]
 
 For a lot of purposes, polynomial differences in running time are considered to be small, whereas exponential differences are considered to be large. Let's look at why we chose to make this separation between polynomials and exponentials rather than between some other classes of functions. 
 
@@ -56,3 +56,16 @@ Let $\text{CNF}_k := \{\langle \phi \rangle \mid \phi \text{ is a satisfiable cn
 A *$2$cnf-formula* is an $\text{AND}$ of clauses, where each clause is an $\text{OR}$ of at most two literals. Let $2\text{SAT} := \{\langle \phi\rangle \mid \phi \text{ is a satisfisable 2cnf-formula}\}$. 
 
 **Prop:** $2\text{SAT}\in \sf P$. 
+
+**Th:** $\sf AL = P$. 
+
+**Prop:** A $k$-head pushdown autom
+
+# $\sf P$-completeness
+
+**Def:** If every $A$ in $P$ is[[The Complexity Classes L and NL| log space reducible]] to $B$, then we say that $B$ is *$\sf P$-hard.* If $B$ is both in $\sf P$ and $\sf P$-hard, then $B$ is $\sf P$-complete.
+
+**Prop:** If $A \le_\text L B$ and $B$ is in $\sf NC$, then $A$ is in $\sf NC$. 
+
+For a [[Boolean Circuit Complexity|circuit]] $C$ and input $x$ we write $C(x)$ to be the value of $C$ on $x$. Let $$\text{Circuit-Value} := \{\langle C, x\rangle\mid C \text{ is a Boolean circuit and }C(x) = 1\}.$$
+**Th:** $\text{Circuit-Complete}$ is $\sf P$-complete.

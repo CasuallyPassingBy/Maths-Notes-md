@@ -1,16 +1,5 @@
 [[Interesting Stuff I want continue Learning]]
 
-- [ ] Sipser
-	- [x] Regular Languages
-	- [x] Context Free Grammars
-	- [x] The Church-Turing Thesis
-	- [x] Decidability
-	- [x] Reducibility
-	- [x] Advanced Topics in Computability Theory
-	- [x] Time Complexity
-	- [x] Space Complexity
-	- [x] Intractability
-	- [ ] Advanced topics in Complexity Theory
 - [ ]  Introduction to Smooth Manifolds by Lee
 	- [x] Smooth Manifolds
 	- [x] Smooth Maps

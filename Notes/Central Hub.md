@@ -9,24 +9,24 @@ We have all the subjects:
 - [[Topology]]
 	- [[Algebraic Topology]]
 - [[Elementary Number Theory]]
-	- [[Algebraic Number Theory]]
-	- [[Analytic Number Theory]]
-- [[Category Theory]]
-- [[Logic]]
+	- [[Algebraic Number Theory]] (Pending)
+	- [[Analytic Number Theory]] (Pending)
+- [[Category Theory]] (Pending)
+- [[Logic]] (Pending)
 ## Analysis
 - [[Real Analysis]]
-	- [[Kurzweil-Henstock Integral]]
+	- [[Kurzweil-Henstock Integral]] (Pending)
 - [[Vector Analysis]]
 - [[Metric and Normed Spaces]]
 - [[Complex Analysis]]
 - [[Fourier Analysis]]
 - [[Measure Theory]]
-- [[Functional Analysis]]
+- [[Functional Analysis]] (Pending)
 ## Algebra
 - [[Linear Algebra]]
 	- [[Affine Geometry]]
 - [[Group Theory]]
-	- [[Homological Algebra]]
+	- [[Homological Algebra]] (Pending)
 - [[Ring Theory]]
 - [[Field Theory]]
 - [[Module Theory]]
@@ -34,19 +34,19 @@ We have all the subjects:
 
 ## Differential Equations
 - [[Ordinary Differential Equations]]
-- [[Partial Differential Equations]]
+- [[Partial Differential Equations]] (Pending)
 ## Applied
 - [[Numerical Analysis]]
-- [[Combinatorics]]
-	- [[Graph Theory]]
+- [[Combinatorics]] (Pending)
+	- [[Graph Theory]] (Pending)
 - [[Probability Theory]]
 - [[Statistics]]
-- [[Stochastic Processes]]
-- [[Stochastic Simulation]]
-- [[Nonlinear Programming]]
+- [[Stochastic Processes]] (Pending)
+- [[Stochastic Simulation]] (Pending)
+- [[Nonlinear Programming]] (Pending)
 ## Advanced Topics
 - [[Differential Geometry]]
-- [[Variational Calculus]]
+- [[Variational Calculus]] (Pending)
 ## Special objects
 - [[Special Functions]]
 - [[Special Polynomials]]
@@ -54,14 +54,14 @@ We have all the subjects:
 - [[Special Notations]]
 ## Physics
 - [[Classical Mechanics]]
-- [[Electrodynamics]]
-- [[Quantum Mechanics]]
+- [[Electrodynamics]] (Pending)
+- [[Quantum Mechanics]] (Pending)
 ## Computer Science
 - [[Theory of Computation]]
-- [[Algorithms and Data Structures]]
-- [[Information Theory]]
-- [[Artificial Intelligence]]
-	- [[Machine Learning]]
+- [[Algorithms and Data Structures]] (Pending)
+- [[Information Theory]] (Pending)
+- [[Artificial Intelligence]] (Pending)
+	- [[Machine Learning]] (Pending)
 		- [[Neural Networks]]
 - [[Digital Circuits]]
 ## Miscellaneous
