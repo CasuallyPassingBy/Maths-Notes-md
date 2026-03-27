@@ -78,6 +78,10 @@ Note that the probabilistic primality algorithm has *one-sided error.* When the 
 
 **Prop:** If $\sf NP \subseteq BPP$, then $\sf NP = RP$. 
 
+**Def:** A $\sf ZPP$-machine to be a probabilistic Turing machine which is permitted three types of output on each of its branches: accept, reject, and $?$. A $\sf ZPP$-machine $M$ decides a language $A$ if $M$ outputs the correct answer on every input string $w$, accept if $w\in A$ and reject if $w\notin A$, with probability $\frac 23$, and $M$ never outputs the wrong answer. On every input, $M$ may output $?$ with probability at most $\frac 13$. Furthermore, the average running time over all branches of $M$ on $w$ most be bounded by a polynomial in the length of $w$.
+
+**Prop:** $\sf RP \cap coRP = ZPP.$
+
 # Other Problems in BPP
 
 Let $$\text{EQ}_\mathsf{ROBP} := \{\langle B_1, B_2\rangle \mid \text{$B_1$ and $B_2$ are equivalent read-once branching program}\}.$$

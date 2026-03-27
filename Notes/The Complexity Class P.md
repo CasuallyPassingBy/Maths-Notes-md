@@ -3,7 +3,7 @@ tags:
   - ComputationTheory
 ---
 Subjects: [[Theory of Computation]]
-Links: [[Time Complexity]], [[Asymptotic Notation]], [[Turing Machines]], [[The Complexity Class NP]], [[Graph Colouring]], [[Parallel Computing in Complexity Theory]]
+Links: [[Time Complexity]], [[Asymptotic Notation]], [[Turing Machines]], [[The Complexity Class NP]], [[Graph Colouring]], [[Parallel Computing in Complexity Theory]], [[Deterministic Pushdown Automata]]
 
 For a lot of purposes, polynomial differences in running time are considered to be small, whereas exponential differences are considered to be large. Let's look at why we chose to make this separation between polynomials and exponentials rather than between some other classes of functions. 
 
@@ -59,7 +59,7 @@ A *$2$cnf-formula* is an $\text{AND}$ of clauses, where each clause is an $\text
 
 **Th:** $\sf AL = P$. 
 
-**Prop:** A $k$-head pushdown autom
+**Prop:** A $k$-head pushdown automaton ($k-\sf PDA$) is a deterministic pushdown automaton with $k$ read-only, two-way input heads and a read/write stack. We define the class ${\sf PDA}_k := \{A \mid A \text{ recognised by a } k-{\sf PDA}\}.$ We see that ${\sf P} = \bigcup_{k \ge 0} {\sf PDA}_k$. 
 
 # $\sf P$-completeness
 
