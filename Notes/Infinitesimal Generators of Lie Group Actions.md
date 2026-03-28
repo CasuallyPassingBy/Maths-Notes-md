@@ -4,7 +4,7 @@ tags:
   - GroupTheory
 ---
 Subjects: [[Differential Geometry]], [[Group Theory]]
-Links: [[Lie Groups]], [[Lie Group Actions]], [[Tangent Distributions and Involutivity on Smooth Manifolds]], [[The Exponential Map on Lie Groups]]
+Links: [[Lie Groups]], [[Lie Group Actions]], [[Tangent Distributions and Involutivity on Smooth Manifolds]], [[The Exponential Map on Lie Groups]], [[Lie Algebra of a Lie Group]]
 
 ## Right Actions
 
@@ -28,3 +28,5 @@ Let $G$ be a Lie group and $M$ be a smooth manifold. If $\theta: G\times M \to M
 **Th:** Suppose $G$ is a Lie group and $\theta$ is a smooth left action of $G$ on a smooth manifold $M$. Then the map $\hat\theta: \text{Lie}(G) \to {\frak X}(M)$ defined above is a Lie algebra antihomomorphism.
 
 **Fundamental Theorem on Left Lie Algebra Actions:** Let $G$ is a Lie group and $M$ is a smooth manifold. If $G$ is simply connected, every antihomomorphism $\hat\theta: \text{Lie}(G) \to {\frak X}(M)$ such that $\hat\theta(X)$ is complete for each $X\in\text{Lie}(G)$ is the infinitesimal generator for a unique left $G$-action. 
+
+Because of this theorem, for finite-dimensional Lie algebra $\frak g$ and a smooth manifold $M$, a left $\frak g$-action on $M$ is defined as an antihomomorphims from $\frak g$ to ${\frak X}(M)$.

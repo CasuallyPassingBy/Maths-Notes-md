@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
   - GroupTheory
 ---
-Subjects: [[Differential Geometry]]
+Subjects: [[Differential Geometry]], [[Group Theory]]
 Links: [[Lie Groups]], [[Lie Subgroups]], [[Lie Algebra of a Lie Group]], [[General Linear Group]]
 
 # One-Parameter Subgroups
@@ -56,6 +56,8 @@ G\arrow[r, "\Phi"'] & H
 # The Closed Subgroup Theorem
 
 **Prop:** Let $G$ be a Lie group and let $\frak g$ be its Lie algebra. For any $X, Y\in \frak g$, there is a smooth function $Z: (-\varepsilon, \varepsilon) \to G$ for some $\varepsilon> 0$ such that the following identity holds for all $t\in (-\varepsilon, \varepsilon)$: $$(\exp(tX))(\exp(tY)) = \exp(t(X+Y)+ t^2Z(t)). $$
+We can get an explicit form for $Z(t)$ in the [[Baker-Campbell-Hausdorff Formula]].
+
 **Cor:** Let $G$ be a Lie group and let $\frak g$ be its Lie algebra. For any $X, Y\in \frak g$ the following equality is satisfied:$$\lim_{n \to\infty}\left(\left(\exp \frac tn X\right)\left(\exp \frac tn Y\right)\right) = \exp(t (X+Y)). $$
 
 **Closed Subgroup Theorem:** Suppose $G$ is a Lie group and $H\subseteq G$ is a subgroup that is also a closed subset of $G$. Then $H$ is an embedded Lie subgroup. 

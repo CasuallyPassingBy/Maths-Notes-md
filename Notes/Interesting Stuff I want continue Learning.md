@@ -126,17 +126,8 @@
 ## Analysis
 - Measure Theory
 	- [ ] Cohn
-	- [ ] Halmos
-		- [ ] General Set Functions
-		- [ ] Product Spaces
-		- [ ] Transformations and functions
-		- [ ] Probability
-		- [ ] Locally compact spaces
-		- [ ] Haar Measure
-		- [ ] Measure and topology in groups
-	- [ ] Bogachev 
-		- [ ] I
-		- [ ] II
+	- [x] Halmos (Dropped)
+	- [ ] Bogachev I/II
 	- [x] Nelson
 -  Differential Geometry
 	- [ ]  Introduction to Smooth Manifolds by Lee 
@@ -188,6 +179,8 @@
 	- [ ] Stein & Shakarchi
 	- [ ] Alfohrs
 	- [ ] Conway
+- Metric and Normed Spaces
+	- [x] Monica Clapp
 - Real analysis
 	- [x] Abbot
 	- [x] Bartle

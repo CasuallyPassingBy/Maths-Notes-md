@@ -89,3 +89,5 @@ This notes uses Einstein's summation convention.
 	- [[Foliations on Smooth Manifolds]]
 - [[The Exponential Map on Lie Groups]]
 	- [[Infinitesimal Generators of Lie Group Actions]]
+	- [[The Lie Correspondence]]
+	- [[Normal Lie Subgroups]]
