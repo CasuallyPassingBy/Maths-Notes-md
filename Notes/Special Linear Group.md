@@ -19,6 +19,8 @@ Links: [[General Linear Group]], [[Lie Groups]], [[Commutative Ring]], [[Normal 
 We can calculate the Lie algebra of $\text{SL}(n,\Bbb R)$ and it is $$\mathfrak {sl}(n, \Bbb R) = \{A \in {\frak gl}(n,\Bbb R) \mid \text{tr}(A) = 0\}. $$
 **Prop:** We can get $\text{SL}(n, \Bbb R)$ is diffeomorphic to $\text{SO}(n) \times \Bbb R^{(n(n+1)/2)-1}$. 
 
+**Prop:** Suppose $A\in \text{SL}(n, \Bbb R)$ is of the form $e^B$ for some $\mathfrak{sl}(n, \Bbb R)$. Then $A$ has a square root in $\text{SL}(n ,\Bbb R)$, meaning there is a matrix $C\in \text{SL}(n, \Bbb R)$ such that $C^2 =A$. 
+
 # Special Linear Group over $\Bbb C$
 
 **Prop:** The complex special linear group $\text{SL}(n,\Bbb C)$ is an embedded $(2n^2-2)$-dimensional Lie subgroup of $\text{GL}(n, \Bbb C)$. 

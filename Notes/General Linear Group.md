@@ -60,3 +60,7 @@ b_n^1& a_n^1 & \dots & b_n^n & a^n_n \\
 **Prop:** We can ge that $\text{GL}(n,\Bbb R)$ is diffeomorphic to $\text O(n) \times \text T^+(n, \Bbb R)$, where $\text T^+(n, \Bbb R)$ is the Lie group of $n\times n$ upper triangular real matrices with positive diagonal entries. In particular, we get the diffeomorphism $\text{GL}(n,\Bbb R) \cong \text{SO}(n) \times \text T^+(n, \Bbb R)$. 
 
 **Prop:** $\text{GL}(n, \Bbb C) \cong \text{SL}(n,\Bbb C)\rtimes \Bbb C^\times$, we can think of this as the [[Lie Group Actions#Semidirect Products|Semidirect Product of Lie Groups]]. 
+
+**Prop:** Let $A\in {\frak gl}(\Bbb R, n)$, then we have $$\det e^A = e^{\text{tr }A}.$$This is immediate from the properties of the [[The Exponential Map on Lie Groups|exponential map]]. This implies that the image of $\exp : \mathfrak{gl}(n,\Bbb R) \to \text{GL}(n, \Bbb R)$ is contained in $\text{GL}^+(n, \Bbb R)$.
+
+**Prop:** Suppose $A\in \text{GL}(n, \Bbb R)$ is of the form $e^B$ for some $\mathfrak{gl}(n, \Bbb R)$. Then $A$ has a square root in $\text{GL}(n ,\Bbb R)$, meaning there is a matrix $C\in \text{GL}(n, \Bbb R)$ such that $C^2 =A$. 

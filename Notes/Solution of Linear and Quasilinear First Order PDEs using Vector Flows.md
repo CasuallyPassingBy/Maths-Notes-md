@@ -6,7 +6,7 @@ tags:
 Subjects: [[Differential Geometry]], [[Ordinary Differential Equations]], [[Partial Differential Equations]]
 Links: [[Integral Curves, Flows and Flowouts on Smooth Manifolds]], [[First Order Partial Differential Equations]]
 
-One of the most powerful applications of the theory of flows is to [[partial differential equations]]. 
+One of the most powerful applications of the theory of flows is to partial differential equations. 
 
 The number of specialised techniques that have been developed to solve PDEs is staggering (for example Fourier Analysis). However, it is remarkable fact that real-valued *first odder* PDEs can be reduced to *ordinary differential equations* by means of the theory of flows, and thus can be solved using only ODEs and a little differential-geometric insight but no specialised PDE theory. 
 
