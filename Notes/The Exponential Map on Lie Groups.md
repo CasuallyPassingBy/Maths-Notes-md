@@ -48,7 +48,7 @@ We see that the exponential map of $\text{GL}(n,\Bbb R)$ is given by $\exp A = e
 \begin{document}
 \begin{tikzcd}[row sep=2cm, column sep=2cm]
 \mathfrak g\arrow[d, "\exp"']\arrow[r, "\Phi_*"] & \mathfrak h\arrow[d, "\exp"] \\
-G\arrow[r, "\Phi"'] & H
+G\arrow[r, "\Phi"'] & H.
 \end{tikzcd}
 \end{document}
 ```
@@ -63,7 +63,6 @@ G\arrow[r, "\Phi"'] & H
 We can get an explicit form for $Z(t)$ in the [[Baker-Campbell-Hausdorff Formula]].
 
 **Cor:** Let $G$ be a Lie group and let $\frak g$ be its Lie algebra. For any $X, Y\in \frak g$ the following equality is satisfied:$$\lim_{n \to\infty}\left(\left(\exp \frac tn X\right)\left(\exp \frac tn Y\right)\right) = \exp(t (X+Y)). $$
-
 **Closed Subgroup Theorem:** Suppose $G$ is a Lie group and $H\subseteq G$ is a subgroup that is also a closed subset of $G$. Then $H$ is an embedded Lie subgroup. 
 
 **Cor:** If $G$ is a Lie group and $H$ is any subgroup of $G$, then the following statements are equivalent.

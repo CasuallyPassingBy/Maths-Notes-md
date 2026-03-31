@@ -20,6 +20,8 @@ Given a finite-dimensional Lie algebra $\frak g$, for each $X\in \frak g$, defin
 
 **Th:** Let $G$ be a Lie group, let $\frak g$ be its Lie algebra, and let $\text{Ad}: G \to \text{GL}({\frak g})$ be the adjoint representation of $G$. The induced Lie algebra representation $\text{Ad}_*: {\frak g}\to {\frak gl}({\frak g})$ is given by $\text{Ad}_* = \text{ad}$. 
 
+
+
 ## Ideals and Normal Subgroups
 
 **Ideals and Normal Subgroups:** Let $G$ be a connected Lie group, and suppose $H \subseteq G$ is a connected Lie subgroup. Then $H$ is a normal subgroup of $G$ iff $\text{Lie}(H)$ is an ideal in $\text{Lie}(G).$

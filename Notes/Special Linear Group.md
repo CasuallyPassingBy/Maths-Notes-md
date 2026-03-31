@@ -21,6 +21,8 @@ We can calculate the Lie algebra of $\text{SL}(n,\Bbb R)$ and it is $$\mathfrak 
 
 **Prop:** Suppose $A\in \text{SL}(n, \Bbb R)$ is of the form $e^B$ for some $\mathfrak{sl}(n, \Bbb R)$. Then $A$ has a square root in $\text{SL}(n ,\Bbb R)$, meaning there is a matrix $C\in \text{SL}(n, \Bbb R)$ such that $C^2 =A$. 
 
+**Obs:** We know that the map $\exp: \mathfrak{sl}(2, \Bbb R) \to \text{SL}(2, \Bbb R)$ is not surjective.
+
 # Special Linear Group over $\Bbb C$
 
 **Prop:** The complex special linear group $\text{SL}(n,\Bbb C)$ is an embedded $(2n^2-2)$-dimensional Lie subgroup of $\text{GL}(n, \Bbb C)$. 
