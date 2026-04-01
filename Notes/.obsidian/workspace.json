@@ -37,8 +37,7 @@
               "title": "The Exponential Map on Lie Groups"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,10 +209,10 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "b357da4e46c7ae0a",
+  "active": "416ab7da1b17772d",
   "lastOpenFiles": [
-    "Normal Lie Subgroups.md",
     "The Exponential Map on Lie Groups.md",
+    "Normal Lie Subgroups.md",
     "General Linear Group.md",
     "Special Linear Group.md",
     "Singular Value Decomposition.md",

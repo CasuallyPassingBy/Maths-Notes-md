@@ -20,7 +20,11 @@ Given a finite-dimensional Lie algebra $\frak g$, for each $X\in \frak g$, defin
 
 **Th:** Let $G$ be a Lie group, let $\frak g$ be its Lie algebra, and let $\text{Ad}: G \to \text{GL}({\frak g})$ be the adjoint representation of $G$. The induced Lie algebra representation $\text{Ad}_*: {\frak g}\to {\frak gl}({\frak g})$ is given by $\text{Ad}_* = \text{ad}$. 
 
+**Prop:** Let $G$ be a connected Lie group and let $\frak g$ be its Lie algebra.
+- For any $X, Y \in \frak g$, then $[X, Y] = 0$ iff for all $s, t\in \Bbb R$ $$(\exp tX )( \exp sY) = (\exp sY)( \exp tX). $$
+- $G$ is abelian iff $\frak g$ is abelian.
 
+**Prop:** Suppose $G$ is a Lie group. We have that $\exp(X+ Y) = (\exp X)(\exp Y)$ for all $X, Y\in \text{Lie}(G)$ iff the identity component of $G$ is abelian. 
 
 ## Ideals and Normal Subgroups
 

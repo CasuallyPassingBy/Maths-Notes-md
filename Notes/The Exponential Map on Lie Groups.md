@@ -59,7 +59,7 @@ G\arrow[r, "\Phi"'] & H.
 
 # The Closed Subgroup Theorem
 
-**Prop:** Let $G$ be a Lie group and let $\frak g$ be its Lie algebra. For any $X, Y\in \frak g$, there is a smooth function $Z: (-\varepsilon, \varepsilon) \to G$ for some $\varepsilon> 0$ such that the following identity holds for all $t\in (-\varepsilon, \varepsilon)$: $$(\exp(tX))(\exp(tY)) = \exp(t(X+Y)+ t^2Z(t)). $$
+**Prop:** Let $G$ be a Lie group and let $\frak g$ be its Lie algebra. For any $X, Y\in \frak g$, there is a smooth function $Z: (-\varepsilon, \varepsilon) \to \frak g$ for some $\varepsilon> 0$ such that the following identity holds for all $t\in (-\varepsilon, \varepsilon)$: $$(\exp(tX))(\exp(tY)) = \exp\left(t(X+Y)+ \frac12t^2[X, Y] +t^3 Z(t)\right). $$
 We can get an explicit form for $Z(t)$ in the [[Baker-Campbell-Hausdorff Formula]].
 
 **Cor:** Let $G$ be a Lie group and let $\frak g$ be its Lie algebra. For any $X, Y\in \frak g$ the following equality is satisfied:$$\lim_{n \to\infty}\left(\left(\exp \frac tn X\right)\left(\exp \frac tn Y\right)\right) = \exp(t (X+Y)). $$
@@ -70,3 +70,6 @@ We can get an explicit form for $Z(t)$ in the [[Baker-Campbell-Hausdorff Formula
 - $H$ is an embedded submanifold of $G$.
 - $H$ is an embedded Lie subgroup of $G$. 
 
+**Cor:** Suppose $G$ is a Lie group and $S$ is a Lie subgroup of $G$. The closure of $S$ is also a Lie subgroup. 
+
+This means that every Lie subgroup of $G$ is either a properly embedded submanifold of $G$, or a dense subset of a properly embedded submanifold.
