@@ -57,12 +57,14 @@ G\arrow[r, "\Phi"'] & H.
 **Prop:** Let $G$ be a Lie group, and let $H \subseteq G$ be a Lie subgroup. With $\text{Lie}(H)$ considered as a subalgebra of $\text{Lie}(G)$ in the usual way, then exponential map of $H$ is the restriction to $\text{Lie}(H)$ of the exponential map of $G$, and  $$\text{Lie}(H) =\{X\in \text{Lie}(G) \mid \exp(t X) \in H \text{ for all }t\in \Bbb R\}. $$
 **Prop:** Let $G$ be a Lie group, ans suppose $A, B\subseteq \frak g$ are complementary subspaces of $\text{Lie}(G)$. Then the map $A \oplus B \to G$ given by $(X, Y) \mapsto \exp X\exp Y$ is a diffeomorphism from some neighbourhood of $(0, 0)$ in $A\oplus B$ to a neighbourhood of $e$ in $G$. 
 
+**Prop:** Let $G$ be a Lie group. Every continuous homomorphism $\gamma: \Bbb R \to G$ is smooth.
+
 # The Closed Subgroup Theorem
 
 **Prop:** Let $G$ be a Lie group and let $\frak g$ be its Lie algebra. For any $X, Y\in \frak g$, there is a smooth function $Z: (-\varepsilon, \varepsilon) \to \frak g$ for some $\varepsilon> 0$ such that the following identity holds for all $t\in (-\varepsilon, \varepsilon)$: $$(\exp(tX))(\exp(tY)) = \exp\left(t(X+Y)+ \frac12t^2[X, Y] +t^3 Z(t)\right). $$
 We can get an explicit form for $Z(t)$ in the [[Baker-Campbell-Hausdorff Formula]].
 
-**Cor:** Let $G$ be a Lie group and let $\frak g$ be its Lie algebra. For any $X, Y\in \frak g$ the following equality is satisfied:$$\lim_{n \to\infty}\left(\left(\exp \frac tn X\right)\left(\exp \frac tn Y\right)\right) = \exp(t (X+Y)). $$
+**Cor:** Let $G$ be a Lie group and let $\frak g$ be its Lie algebra. For any $X, Y\in \frak g$ the following equality is satisfied:$$\lim_{n \to\infty}\left(\left(\exp \frac tn X\right)\left(\exp \frac tn Y\right)\right)^n = \exp(t (X+Y)). $$
 **Closed Subgroup Theorem:** Suppose $G$ is a Lie group and $H\subseteq G$ is a subgroup that is also a closed subset of $G$. Then $H$ is an embedded Lie subgroup. 
 
 **Cor:** If $G$ is a Lie group and $H$ is any subgroup of $G$, then the following statements are equivalent.
@@ -73,3 +75,7 @@ We can get an explicit form for $Z(t)$ in the [[Baker-Campbell-Hausdorff Formula
 **Cor:** Suppose $G$ is a Lie group and $S$ is a Lie subgroup of $G$. The closure of $S$ is also a Lie subgroup. 
 
 This means that every Lie subgroup of $G$ is either a properly embedded submanifold of $G$, or a dense subset of a properly embedded submanifold.
+
+**Prop:** Let $G$ and $H$ be Lie groups. Every continuous homomorphisms $F: G \to H$ is smooth. 
+
+**Cor:** Let $G$ be a topological group, then there is only one smooth structure that makes $G$ into a Lie group. 

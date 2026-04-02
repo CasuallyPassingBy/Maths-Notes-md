@@ -7,7 +7,6 @@ Subjects: [[Differential Geometry]], [[Group Theory]]
 Links: [[Lie Groups]], [[Lie Subgroups]], [[Lie Algebras]], [[Lie Algebra of a Lie Group]], [[The Exponential Map on Lie Groups]], [[Normal Subgroups and Quotient Groups]], [[Representations of Groups]], [[Lie Derivative]]
 
 **Lemma:** Let $G$ be a connected Lie group, and let $H \subseteq G$ be a connected Lie subgroup. Let $\frak g$ and $\frak h$ denote the Lie algebras of $G$ and $H$, respectively. Then $H$ is normal in $G$ iff $$(\exp X)(\exp Y)(\exp(-X)) \in H \qquad \text{for all } X\in {\frak g} \text{ and }Y\in {\frak h} .$$
-
 ## The Adjoint Representation
 
 Let $G$ be a Lie group and $\frak g$ be its Lie algebra. For any $g\in G$, the conjugation map $C_g: G \to G$ given by $C_g(h) := ghg^{-1}$ is a Lie group homomorphism. We let $\text{Ad}(g) := (C_g)_*: \frak g \to g$ denote its induced Lie algebra homomorphism.
