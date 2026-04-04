@@ -27,3 +27,5 @@ Links: [[Derivations]], [[Module and Algebra]]
 - A subspace $\frak h \le g$ is an ideal iff it is the kernel of a Lie algebra homomorphism. 
 
 This is directly analogous to idea of an [[Ring Ideals and Quotient Rings|ideal in rings]]. 
+
+**Def:** If $\frak g$ is a Lie algebra, the *centre of $\frak g$* is the set of all $X\in {\frak g}$ such that $[X, Y] = 0$ for all $Y\in \frak g$. 

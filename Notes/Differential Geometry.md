@@ -91,3 +91,4 @@ This notes uses Einstein's summation convention.
 	- [[Infinitesimal Generators of Lie Group Actions]]
 		- [[The Lie Correspondence]]
 	- [[Normal Lie Subgroups]]
+- [[Quotients of Manifolds by Group Actions]]

@@ -13,28 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Normal Lie Subgroups.md",
+                "file": "Quotients of Manifolds by Group Actions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Normal Lie Subgroups"
+              "title": "Quotients of Manifolds by Group Actions"
             }
           },
           {
-            "id": "b357da4e46c7ae0a",
+            "id": "b930b4da468bb767",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Exponential Map on Lie Groups.md",
+                "file": "Proper Actions of Groups.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Exponential Map on Lie Groups"
+              "title": "Proper Actions of Groups"
             }
           }
         ]
@@ -211,32 +211,32 @@
   },
   "active": "416ab7da1b17772d",
   "lastOpenFiles": [
-    "The Exponential Map on Lie Groups.md",
+    "Proper Actions of Groups.md",
+    "Quotients of Manifolds by Group Actions.md",
+    "Smooth Functions on Smooth Manifolds.md",
+    "Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds.md",
+    "Homogeneous Spaces in the Case of Lie groups.md",
+    "Homogeneous Spaces.md",
+    "Complex Projective Space.md",
+    "Group Homomorphisms and Isomorphisms.md",
+    "Differential Geometry.md",
+    "Homogeneous Smooth Manifolds.md",
+    "Group Actions.md",
+    "Lie Group Actions.md",
+    "Continuous Actions of Groups.md",
     "Normal Lie Subgroups.md",
+    "Infinitesimal Generators of Lie Group Actions.md",
+    "The Lie Correspondence.md",
+    "Lie Algebra of a Lie Group.md",
+    "The Complexity Class BPP.md",
+    "Lie Algebras.md",
+    "Subgroups.md",
+    "The Exponential Map on Lie Groups.md",
     "General Linear Group.md",
     "Special Linear Group.md",
     "Singular Value Decomposition.md",
     "Lie Derivative.md",
-    "Lie Algebra of a Lie Group.md",
-    "Lie Algebras.md",
     "Solution of Linear and Quasilinear First Order PDEs using Vector Flows.md",
-    "Differential Geometry.md",
-    "The Lie Correspondence.md",
-    "Interesting Stuff I want continue Learning.md",
-    "Untitled.md",
-    "Infinitesimal Generators of Lie Group Actions.md",
-    "Real Analysis.md",
-    "Borel Sets.md",
-    "Almost finished projects.md",
-    "Simple Groups.md",
-    "Group Theory.md",
-    "Derivations.md",
-    "Lie Subgroups.md",
-    "The Complexity Class BPP.md",
-    "The Complexity Class P.md",
-    "Central Hub.md",
-    "Theory of Computation.md",
-    "Cryptography in Complexity Theory.md",
     "Pasted image 20260306011155.png",
     "Pasted image 20260211174214.png",
     "Pasted image 20260128171751.png",

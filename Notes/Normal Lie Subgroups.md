@@ -13,6 +13,8 @@ Let $G$ be a Lie group and $\frak g$ be its Lie algebra. For any $g\in G$, the c
 
 **The Adjoint Representation:** If $G$ is a Lie group with Lie algebra $\frak g$, the map $\text{Ad}: G \to \text{GL}({\frak g})$ is a Lie group representation, called the *adjoint representation of $G$.*
 
+**Prop:** Let $G$ be a connected Lie group and let $\frak g$ be its Lie algebra. The kernel of $\text{Ad}: G \to \text{GL}({\frak g})$ is the [[Subgroups#^0fafab|centre]] of $G$. 
+
 Given a finite-dimensional Lie algebra $\frak g$, for each $X\in \frak g$, define a map $\text{ad}(X): \frak g \to g$ by $\text{ad}(X)Y := [X, Y]$. 
 
 **Prop:** For any Lie algebra $\frak g$, the map $\text{ad}: {\frak g}\to {\frak gl}({\frak g})$ is a Lie algebra representation, called the *adjoint representation of $\frak g$.*
@@ -24,6 +26,8 @@ Given a finite-dimensional Lie algebra $\frak g$, for each $X\in \frak g$, defin
 - $G$ is abelian iff $\frak g$ is abelian.
 
 **Prop:** Suppose $G$ is a Lie group. We have that $\exp(X+ Y) = (\exp X)(\exp Y)$ for all $X, Y\in \text{Lie}(G)$ iff the identity component of $G$ is abelian. 
+
+**Prop:** Suppose $G$ is a connected Lie group. The centre of $\text{Lie}(G)$ is the Lie algebra of the centre of $G$.
 
 ## Ideals and Normal Subgroups
 

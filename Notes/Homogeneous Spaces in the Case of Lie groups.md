@@ -4,7 +4,7 @@ tags:
   - GroupTheory
 ---
 Subjects: [[Differential Geometry]], [[Group Theory]]
-Links: [[Homogeneous Spaces]], [[Lie Group Actions]], [[Lie Groups]]
+Links: [[Homogeneous Spaces]], [[Lie Group Actions]], [[Lie Groups]], [[The Lie Correspondence]], [[Quotients of Manifolds by Group Actions]]
 
 **Def:** A smooth manifold endowed with a transitive smooth action by a group $G$ is called a a *homogeneous $G$ space*, *homogeneous space* or *homogeneous manifold.*
 
@@ -30,9 +30,16 @@ This theorem shows that the study of homogeneous spaces can be reduced to the pr
 - We consider the transitive action of $\text{SL}(2, \Bbb R)$ on the upper plane by Möbius transformations. If we calculate the stabiliser of $i$, we get that it is $\text{SO}(2)$. We get the following diffeomorphism $\Bbb H \cong \text{SL}(2, \Bbb R)/\text{SO}(2)$. 
 - Lastly, we get that $\Bbb S^{2n-1} \cong \text{U}(n)/\text{U}(n-1) \cong \text{SU}(n)/\text{SU}(n-1)$. 
 
-**Obs:** Any discrete subgroup of a Lie groups is a closed zero-dimensional Lie subgroup.
+**Th:** Suppose $X$ is a set, and we are given a transitive action of a Lie group $G$ on $X$ such that for some point $p\in X$, the isotropy group $G_p$ is closed in $G$. Then $X$ has a unique smooth manifold structure to which the given action is smooth. With this structure, $\dim X = \dim G-\dim G_p$.
 
-**Prop:** If $G$ is a connected Lie group and $\Gamma \le G$ is a discrete subgroup, then the quotient map $\pi: G \to G/\Gamma$ is a smooth covering map.
+**Examples:**
+- **Flag Manifolds:** Let $V$ be a real vector space of dimension $n > 1$, and let $K = (k_1,\dots, k_m)$ be a finite sequence of integers satisfying $0 < k_1 < \cdots < k_m < n$. A *flag in $V$ of type $K$* is a nested sequence of linear subspaces $S_1\subseteq S_2\subseteq \cdots \subseteq S_m \subseteq V$, with $\dim S_i = k_i$ for each $i$. The set of all flags of type $K$ in $V$ is denoted by $\text F_K(V)$. We see that $\text{GL}(V)$ acts transitively $\text F_K(V)$ with a closed subgroup as isotropy group, so $\text F_K(V)$ has a unique smooth manifold structure making it into a homogeneous $\text{GL}(V)$-space. With this structure, $\text F_K(V)$ is called a *flag manifold.*
+
+# Applications to Lie Theory
+
+## Quotient Groups
+
+**Quotient Theorem for Lie Groups:** Suppose $G$ is a Lie group and $K \subseteq G$ is a closed normal subgroup. Then $G/K$ is a Lie group, and the quotient map $\pi: G\to G/K$ is a surjective Lie group homomorphism whose kernel is $K$.
 
 **Prop:** Suppose $G$ is a Lie group.
 - If $K\subseteq G$ is a closed normal Lie group, then $G/K$ is a Lie group and the quotient map $\pi: G \to G/K$ is a Lie group homomorphism.
@@ -40,18 +47,28 @@ This theorem shows that the study of homogeneous spaces can be reduced to the pr
 
 Meaning that we get that the true analogue of a normal subgroup for Lie groups is actually just closed normal Lie subgroups, and now we get an analogue of [[Group Homomorphisms and Isomorphisms#^ff5e58|Noether's First Isomorphism Theorem]] but for Lie groups.
 
-**Prop:** Let $G$ and $H$ be connected Lie groups with Lie algebras $\frak g$ and $\frak h$, respectively. For any Lie group homomorphism $F: G \to H$ the following are equivalent.
+**First Isomorphism Theorem for Lie Groups:** If $F: G\to H$ is a Lie group homomorphism, then the kernel of $F$ is a closed normal Lie subgroup of $G$, the image of $F$ has a unique smooth manifold structure making it into a Lie subgroup of $H$, and $F$ descends to a Lie group isomorphism $\widetilde F: G/\ker F \to \text{Im } F$. If $F$ is surjective, then $G/\ker F$ is smoothly isomorphic to $H$.
+
+**Prop:** Every discrete subgroup of a Lie group is a closed Lie subgroup of dimension zero.
+
+**Quotients of Lie Groups by Discrete Subgroups:** If $G$ is a connected Lie group and $\Gamma\subseteq G$ is a discrete subgroup, then $G/\Gamma$ is a smooth manifold and the quotient map $\pi: G \to G/\Gamma$ is a smooth normal covering map.
+
+**Homomorphisms with Discrete Kernel:** Let $G$ and $H$ be connected Lie groups with Lie algebras $\frak g$ and $\frak h$, respectively. For any Lie group homomorphism $F: G \to H$ the following are equivalent.
 - $F$ is surjective and has a discrete kernel.
 - $F$ is a smooth covering map.
 - The induced Lie algebra homomorphism $F_*: \frak g \to h$ is an isomorphism.
 - $F$ is a local diffeomorphism.
 
-**Prop:** Suppose $X$ is a set, and we are given a transitive action of a Lie group $G$ on $X$ such that the stabiliser group of a point $p\in X$ is a closed Lie subgroup of $G$. Then $X$ has a unique smooth manifold structure such that the given action is smooth.
-
 Meaning that we can give a set a smooth structure if there's a nice enough action from a Lie group. 
 
 **Prop:** The image of a Lie group homomorphism is a Lie group.
 
-**Cor:** Suppose $G$ and $H$ are Lie groups. If $F: G \to H$ is a Lie group homomorphism, then $F$ descends to a Lie group isomorphism $\tilde F: G/\ker F \to \text{Im} (F)$. 
+**Th:** Let $\frak g$ be a finite-dimensional Lie algebra. The connected Lie groups whose Lie algebra are isomorphic to $\frak g$ are. up to isomorphism, precisely those of the form $G/\Gamma$, where $G$ is the simply connected Lie group with Lie algebra $\frak g$, and $\Gamma$ is a discrete normal subgroup of $G$.
 
-**Prop:** Suppose a  Lie group $G$ acts smoothly, freely, and properly on a manifold $M$. If $G$ and $M/G$ are connected, then $M$ is connected.
+## Connectivity of Lie Groups
+
+**Prop:** Suppose a  Lie group $G$ acts smoothly, freely, and properly on a topological space $M.$ If $G$ and $M/G$ are connected, then $M$ is connected.
+
+**Prop:** For each $n \ge 1$, the Lie groups $\text{SO}(n)$, $\text{U}(n)$, and $\text{SU}(n)$ are connected. The group $\text{O}(n)$ has exactly two components, one of which is $\text{SO}(n)$.
+
+**Prop:** The connected components of $\text{GL}(n, \Bbb R)$ are $\text{GL}^+(n, \Bbb R)$ and $\text{GL}^-(n, \Bbb R)$.

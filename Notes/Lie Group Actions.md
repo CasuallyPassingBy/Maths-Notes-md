@@ -11,8 +11,6 @@ Links: [[Group Actions]], [[Continuous Actions of Groups]], [[Lie Groups]], [[Re
 **Prop:** Suppose $E$ and $M$ are smooth manifolds with or without boundary, and  $\pi:N \to M$ is a smooth covering map. With the discrete topology, the [[Covering Maps#^78c0a4|covering group]] $\text{Aut}_\pi(N)$ is a zero dimensional Lie group acting smoothly, freely and properly on $N$. 
 
 Suppose $G$ is a Lie group, and $M$ and $N$ are both smooth manifolds endowed with a left or right $G$-actions. A map $F:M \to N$ is said to be *equivariant* with respect to the given $G$-actions if for each $g\in G$,  $$\begin{align*} F(g \cdot p) &= g\cdot F(p) \quad \text{for left actions}  \\  F(p \cdot g) &= F(p)\cdot g \quad \text{for right actions}   \end{align*}$$
-
-
 **Equivaraint Rank Theorem:** Let $M$ and $N$ be smooth manifolds and let $G$ be a Lie group. Suppose $F: M \to N$ is a smooth map that is equivariant with respect to a transitive smooth $G$-action on $M$ and any smooth action on $N$. Then $F$ has [[Rank and Local Normal Forms of Smooth Manifolds|constant rank]]. Thus, if $F$ is surjective, it is a smooth submersion, if it is injective it is a smooth immersion; and if it is bijective it is a diffeomorphism. 
 
 Suppose $G$ is a Lie group, $M$ is a smooth manifold, and $\theta: G\times M \to M$ is a smooth left action. For each $p\in M$, we define a map $\theta^{(p)}: G\to M$ by $$\theta^{(p)}(g) = g\cdot p. $$This is often called the *orbit map*, because its image is the orbit $G \cdot p$. We see that $\theta^{(p)}\{p\}$ is just the stabiliser group $G_p$. 
@@ -41,7 +39,6 @@ We see that this is just the natural extension of the [[Semidirect Product of Gr
 
 **Prop:** Suppose $G$, $N$, and $H$ are Lie groups. Then $G$ is isomorphic to a semidirect product $N \rtimes H$ iff there are Lie group homomorphism $\varphi: G \to H$ and $\psi: H \to G$ such that $\varphi \circ\psi = \text{id}_H$ and $\ker \varphi \cong N$. 
 
-
 ## Representations
 
 **Def:** If $G$ is a Lie group, a *(finite-dimensional) representation of $G$* is a Lie group homomorphism $\rho: G \to \text{GL}(V)$ for some finite dimensional real or complex vector space $V$. 
@@ -64,35 +61,6 @@ Let $G$ be a Lie group. For any $g \in G$, the conjugation map $C_g: G \to G$ gi
 **Obs:** If $\rho: G \to \text{GL}(V)$ is any representation of the Lie group $G$, then $\rho_*: \mathfrak g \to \mathfrak{gl}(V)$ is easily seen to be a representation of $\frak g$. 
 
 $(*)$ **Ado's Theorem:** Every finite-dimensional Lie algebra admits a faithful finite-dimensional representation.
-
-## Quotients of Manifolds by Group Actions
-
-**Prop:** Any continuous action by a compact Lie group on manifold is proper.
-
-**Quotient Manifold Theorem:** Suppose a Lie group $G$ acts smoothly, freely, and properly on a smooth manifold $M$. Then the *orbit space* $M/G$ is a topological manifold of dimension equal to $\dim M - \dim G$, and has a unique smooth structure with the property that the quotient map $\pi: M \to M/G$ is a smooth submersion. ^d7ed22
-
-**Prop:** Suppose a Lie group acts smoothly on a manifold $M$. Each orbit is an immersed submanifold of $M$.
-
-**Prop:** Suppose a connected Lie group $G$ acts smoothly on a discrete space $K$. Then this action is trivial. 
-
-**Cor:** If $G$ is a connected Lie group, then every discrete normal subgroup of $G$ is central. 
-
-**Prop:** Given that $\pi: \tilde G\to G$ is a universal covering map, then the covering group $\mathcal C_\pi(\tilde G)$ is isomorphic to $\pi_1(G, e)$. Then we can prove that the fundamental group of a connected Lie group is abelian.
-
-**Th:** Suppose $M$ is a connected smooth manifold, and $\Gamma$ is a discrete group acting smoothly, freely and properly on $M$. Then the quotient space $M/\Gamma$ is a topological manifold and has a unique smooth structure such that $\pi: M \to M/\Gamma$ is a [[Smooth Covering Maps|smooth]] [[Covering Maps#^06bb5b|normal]] covering map. ^2c0355
-
-**Cor:** Let $\pi: N \to M$ be a smooth normal covering map, then $M$ is diffeomorphic to the quotient manifold $N/\mathcal C_\pi(N)$. 
-
-**Prop:** Let $M$ be a smooth manifold, and let $\pi: E \to M$ be a smooth vector bundle over $M.$ Suppose $\Gamma$ is a discrete group acting smoothly, freely and properly on both $E$ and $M$. Suppose further that $\pi$ is $\Gamma$-equivariant, and each $p\in M$ and each $g\in \Gamma$, the map $E_p$ to $E_{g\cdot p}$ is given by $v \mapsto g \cdot v$ is linear. Then $E/\Gamma$ can be given the structure of a smooth vector bundle over $M/\Gamma$ un such a way that the following diagram commutes:
-```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}[row sep=2cm, column sep=2cm]
-E \arrow{r}\arrow{d}& E/\Gamma \arrow{d} \\
-M \arrow{r}& M/\Gamma
-\end{tikzcd}
-\end{document}
-```
 
 # Actions on Riemannian Manifolds
 

@@ -21,6 +21,12 @@ There is useful alternative characeterisation of $\widehat X$ in terms of the or
 
 The proofs relies heavily on [[Foliations on Smooth Manifolds]]. 
 
+**Example:** Let $G$ be a Lie group. The infinitesimal generator of the action of $G$ on itself by left translation is the inclusion map $\text{Lie}(G)\hookrightarrow\mathfrak X(G)$. 
+
+**Def:** Let $\frak g$ be a finite-dimensional Lie algebra and let $M$ be a smooth manifold. A Lie algebra action $\hat\theta; {\frak g} \to {\frak X}(M)$ is said to be *transitive* if for every $p\in M$, the vectors of the form $\widehat X_p$ for $\widehat X\in \hat\theta({\frak g})$ span $T_p M$.
+
+**Prop:** A smooth right action of a Lie group $G$ on a connected smooth manifold $M$ is transitive iff if its infinitesimal generator is transitive, 
+
 ## Left Actions
 
 Let $G$ be a Lie group and $M$ be a smooth manifold. If $\theta: G\times M \to M$ is a smooth left action of $G$ on $M$, define the *infinitesimal generator of $\theta$* as the map $\hat \theta: \text{Lie}(G) \to {\frak X}(M)$ given by $\hat\theta(X) = \widehat X$, where $$\widehat X_p := \left.\frac{d}{dt}\right\rvert_{t= 0} (\exp(tX) \cdot p) = d\left(\theta^{(p)}\right)_e (X_e),$$and $\theta^{(p)}: G \to M$ is the orbit mat $\theta^{(p)} (g) = g\cdot p$.

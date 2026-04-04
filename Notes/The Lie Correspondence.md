@@ -6,13 +6,17 @@ tags:
 Subjects: [[Differential Geometry]], [[Group Theory]]
 Links: [[Lie Groups]], [[Lie Algebra of a Lie Group]], [[Infinitesimal Generators of Lie Group Actions]], [[The Exponential Map on Lie Groups]]
 
-**Prop:** Suppose $G$ is a connected Lie group, $H$ is any Lie group, and $\Phi, \Psi: G \to H$ are Lue group homomorphisms such that $\Phi_* = \Psi_*: \text{Lie}(G) \to \text{Lie}(H)$. Then $\Phi = \Psi$. 
+**Prop:** Suppose $G$ is a connected Lie group, $H$ is any Lie group, and $\Phi, \Psi: G \to H$ are Lie group homomorphisms such that $\Phi_* = \Psi_*: \text{Lie}(G) \to \text{Lie}(H)$. Then $\Phi = \Psi$. 
 
 **Th:** Suppose $G$ and $H$ are Lie groups with $G$ simply connected, then let $\frak g$ and $\frak h$ be their Lie algebras. For any Lie algebra homomorphism $\varphi: \frak g \to h$, there is a unique Lie group homomorphism $\Phi: G\to H$ such that $\Phi_* = \varphi$. 
 
 **Cor:** If $G$ and $H$ are simply connected Lie groups with isomorphic Lie algebras, then $G$ and $H$ are isomorphic. 
 
+**Prop:** Let $G$ be a simply connected Lie group and let $\frak g$ be its Lie algebra. Every representation of $\frak g$ is of the form $\rho_*: {\frak g} \to {\frak gl}(V)$ for some representation $\rho: G \to \text{GL}(V)$ of $G$. 
+
 **The Lie Correspondence:** There is a a one-to-one correspondence between isomorphism classes of finite-dimensional Lie algebras and isomorphisms classes of simply connected Lie groups, given by associating each simply connected Lie group with its Lie algebra. 
+
+**Prop:** The assignment $G \mapsto \text{Lie}(G)$, $\varphi \mapsto \varphi_*$ is an [[Equivalence of Categories|equivalence of categories]] between the category $\sf SLie$ of simply connected Lie groups and the category $\sf lie$ of finite dimensional Lie algebras. 
 
 # Lie's Fundamental Theorems
 
