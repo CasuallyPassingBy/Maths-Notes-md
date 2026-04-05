@@ -4,7 +4,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Group Theory]], [[Differential Geometry]]
-Links: [[General Linear Group]], [[Lie Groups]], [[Commutative Ring]], [[Normal Subgroups and Quotient Groups]], [[Lie Subgroups]]
+Links: [[General Linear Group]], [[Lie Groups]], [[Commutative Ring]], [[Normal Subgroups and Quotient Groups]], [[Lie Subgroups]], [[Unitary Group]]
 
 **Def:** We call the special linear group $\text{SL}(n, R)$ of degree $n$ over the commutative ring $R$ is the set of $n\times n$ matrices with determinant $1$, with the group operations of ordinary matrix multiplication and matrix inversion. This is the normal subgroup of the [[General Linear Group]] given by the kernel of the determinant. 
 
@@ -23,8 +23,12 @@ We can calculate the Lie algebra of $\text{SL}(n,\Bbb R)$ and it is $$\mathfrak 
 
 **Obs:** We know that the map $\exp: \mathfrak{sl}(2, \Bbb R) \to \text{SL}(2, \Bbb R)$ is not surjective.
 
+**Prop:** $\text{SL}(n, \Bbb R)$ is diffeomorphic to $\text{SO}(n) \times \Bbb R^{n(n+1)/2 -1 }$. We see that $\text{SL}(n ,\Bbb R)$ is connected.
+
+**Prop:** Let $G$ be the fundamental covering group of $\text{SL}(2, \Bbb R)$. Then $G$ does not admit a faithful representation.
+
 # Special Linear Group over $\Bbb C$
 
 **Prop:** The complex special linear group $\text{SL}(n,\Bbb C)$ is an embedded $(2n^2-2)$-dimensional Lie subgroup of $\text{GL}(n, \Bbb C)$. 
 
-**Prop:** We can get $\text{SL}(n, \Bbb C)$ is diffeomorphic to $\text{SU}(n) \times \Bbb R^{n^2}$. 
+**Prop:** $\text{SL}(n, \Bbb C)$ is diffeomorphic to $\text{SU}(n) \times \Bbb R^{n^2 -1 }$. We see that $\text{SL}(n ,\Bbb C)$ is connected, and $\text{SL}(2, \Bbb C)$ is simply connected.

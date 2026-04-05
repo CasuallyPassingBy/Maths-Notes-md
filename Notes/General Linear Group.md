@@ -41,6 +41,16 @@ We would like to consider the Lie algebra of $\text{GL}(n, \Bbb R)$. Since $T_{I
 
 **Prop:** Since $\det: \text{GL}(n,\Bbb R) \to \Bbb R^\times$ is a Lie group homomorphism, then its induced Lie algebra homomorphism is $\text{tr}: {\frak gl}(n.\Bbb R) \to \Bbb R$. 
 
+**Prop:** Let $A\in {\frak gl}(\Bbb R, n)$, then we have $$\det e^A = e^{\text{tr }A}.$$This is immediate from the properties of the [[The Exponential Map on Lie Groups|exponential map]]. This implies that the image of $\exp : \mathfrak{gl}(n,\Bbb R) \to \text{GL}(n, \Bbb R)$ is contained in $\text{GL}^+(n, \Bbb R)$.
+
+**Prop:** Suppose $A\in \text{GL}(n, \Bbb R)$ is of the form $e^B$ for some $\mathfrak{gl}(n, \Bbb R)$. Then $A$ has a square root in $\text{GL}(n ,\Bbb R)$, meaning there is a matrix $C\in \text{GL}(n, \Bbb R)$ such that $C^2 =A$. 
+
+**Prop:** The connected components of $\text{GL}(n,\Bbb R)$ are $\text{GL}^+(n, \Bbb R)$ and $\text{GL}^-(n, \Bbb R)$.
+
+**Prop:** $\text{GL}^+(n,\Bbb R)$ is diffeomorphic to $\text{SO}(n) \times \Bbb R^{n(n+1)/2}$ and to $\text{SO}(n) \times \text{T}^+(n,\Bbb R)$. 
+
+# General Linear Group over $\Bbb C$
+
 Define a map $\beta: \text{GL}(n, \Bbb C) \to \text{GL}(2n, \Bbb R)$ by replacing each complex matrix entry $a+bi$ with the $2\times 2$ block $\begin{pmatrix} a & -b \\ b & a\end{pmatrix}$:  $$\beta \begin{pmatrix}
 a_1^1+ ib_1^1 & \dots &a_1^n +ib^n_1 \\
 \vdots &&\vdots \\
@@ -55,12 +65,8 @@ b_n^1& a_n^1 & \dots & b_n^n & a^n_n \\
 
 **Prop:** Let us consider the evaluation map $\varepsilon: \text{Lie}(\text{GL}(n, \Bbb C)) \to T_{I_n} \text{GL}(n, \Bbb C)$, and the usual identification between tangent spaces to an open subset of a vector space and the vector space itself $\varphi: T_{I_n} \text{GL}(n, \Bbb C) \to {\frak gl}(n, \Bbb C)$. The composition of these maps yield a Lie algebra isomorphism between $\text{Lie}(\text{GL}(n, \Bbb C))$ and the matrix algebra ${\frak gl}(n, \Bbb C)$, i.e., $\varphi \circ \varepsilon: \text{Lie}(\text{GL}(n, \Bbb C)) \to {\frak gl}(n, \Bbb C)$ is a Lie algebra isomorphism. 
 
-**Prop:** The connected components of $\text{GL}(n,\Bbb R)$ are $\text{GL}^+(n, \Bbb R)$ and $\text{GL}^-(n, \Bbb R)$.
-
 **Prop:** We can ge that $\text{GL}(n,\Bbb R)$ is diffeomorphic to $\text O(n) \times \text T^+(n, \Bbb R)$, where $\text T^+(n, \Bbb R)$ is the Lie group of $n\times n$ upper triangular real matrices with positive diagonal entries. In particular, we get the diffeomorphism $\text{GL}(n,\Bbb R) \cong \text{SO}(n) \times \text T^+(n, \Bbb R)$. 
 
 **Prop:** $\text{GL}(n, \Bbb C) \cong \text{SL}(n,\Bbb C)\rtimes \Bbb C^\times$, we can think of this as the [[Lie Group Actions#Semidirect Products|Semidirect Product of Lie Groups]]. 
 
-**Prop:** Let $A\in {\frak gl}(\Bbb R, n)$, then we have $$\det e^A = e^{\text{tr }A}.$$This is immediate from the properties of the [[The Exponential Map on Lie Groups|exponential map]]. This implies that the image of $\exp : \mathfrak{gl}(n,\Bbb R) \to \text{GL}(n, \Bbb R)$ is contained in $\text{GL}^+(n, \Bbb R)$.
-
-**Prop:** Suppose $A\in \text{GL}(n, \Bbb R)$ is of the form $e^B$ for some $\mathfrak{gl}(n, \Bbb R)$. Then $A$ has a square root in $\text{GL}(n ,\Bbb R)$, meaning there is a matrix $C\in \text{GL}(n, \Bbb R)$ such that $C^2 =A$. 
+**Prop:** $\text{GL}(n,\Bbb C)$ is diffeomorphic to $\text U(n) \times \Bbb R^{n^2}$.

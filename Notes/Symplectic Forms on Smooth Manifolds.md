@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Differential Forms on Smooth Manifolds]], [[Symplectic Vector Spaces]], [[The Exterior Derivative on Smooth Manifolds]], [[Embedded Smooth Submanifolds]], 
+Links: [[Differential Forms on Smooth Manifolds]], [[Symplectic Vector Spaces]], [[The Exterior Derivative on Smooth Manifolds]], [[Embedded Smooth Submanifolds]], [[Time-Dependent Vector Fields and Flows]]
 
 **Def:** A *symplectic form* on a smooth manifold $M$ is a smooth, closed, nondegenerate $2$-form. In other words, a smooth $2$-form is symplectic iff it is closed and $\omega_p$ is a symplectic tensor. A smooth manifold endowed with a specific choice a symplectic form is called a *symplectic manifold*. A choice of symplectic form is also sometimes called a *symplectic structure* on $M$. 
 
@@ -42,3 +42,8 @@ This proof gives us coordinate representations of $\tau$ and $\omega$. Let $(x^i
 Let us note that in the proof we get the result that $\sigma^*\omega = - d\sigma$. And we see that $\sigma$ is a Lagrangian embedding iff $d\sigma = 0$. 
 
 **Prop:** Let $Q$ be a smooth manifold, and let $S$ be an embedded submanifold of the total space of $T^*Q$. $S$ is the image of smooth closed $1$-form on $Q$ iff $S$ is Lagrangian, transverse to the fibres, and intersects each fiber in exactly one point. 
+
+# The Darboux Theorem
+
+**The Darboux Theorem:** Let $(M, \omega)$ be an $2n$-dimensional symplectic manifold. For any $p\in M$, there are smooth coordinates $(x^1,\dots, x^n, y^1,\dots, y^n)$ centred at $p$ in which $\omega$ has the coordinate representation $$\omega = \sum_{i = 1}^n dx^i\wedge dy^i. $$
+Any coordinates satisfying the theorem above are called *Darboux coordinates, symplectic coordinates* or *canonical coordinates*. 

@@ -19,4 +19,3 @@ With the proof above, we see that for any $V$ an $n$-dimensional real vector spa
 
 **Prop:** 
 - We see that $\text{Sp}(2n, \Bbb R)$ acts transitively in $\Lambda_{2n}$.
-- 

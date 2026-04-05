@@ -4,7 +4,7 @@ tags:
   - OrdinaryDifferentialEquations
 ---
 Subjects: [[Differential Geometry]], [[Ordinary Differential Equations]]
-Links: [[Integral Curves, Flows and Flowouts on Smooth Manifolds]], [[Existence and Uniqueness of Solutions to Systems of Differential Equations]]
+Links: [[Integral Curves, Flows and Flowouts on Smooth Manifolds]], [[Existence and Uniqueness of Solutions to Systems of Differential Equations]], [[Lie Derivative]], [[The Tensor Bundles]]
 
 Let $M$ be a smooth manifold. A *time-dependent vector field on $M$* is a continuous map $V: J \times M \to TM$, where $J \subseteq \Bbb R$ is an interval, such that $V(t, p) \in T_p M$ for each $(t, p)\in J \times M$. This means that for each $t\in J$, the map $V_t: M \to TM$ is defined by $V_t(p) = V(t, p)$ is a vector field on $M$. If $V$ is a time-dependent vector field on $M$, an *integral curve of $V$* is a differentiable curve $\gamma: J_0 \to M$, where $J_0$ is an interval contained in $J$, such that  $$\gamma'(t) = V(t, \gamma(t)), \quad \text{for all }t\in J_0.$$
 Every ordinary vector field $X\in {\frak X}(M)$ determines a time-dependent vector field defined on $\Bbb R\times M$, just by setting $V(t, p) = X_p$. 
@@ -27,3 +27,8 @@ This came to me as the analogous idea of a [[Integral Curves, Flows and Flowouts
 **Prop:** Suppose $J$ is an open interval and $V: J \times M \to M$ is a smooth time-dependent vector field on $M$ whose time-dependent flow is defined on $J \times J \times M$. For any $t_0\in J$, the map $H: M\times J \to M$ defined $H(t, p) := \psi(t,t_0, p)$ is smooth isotopy of $M$, 
 
 This again feels like the analogous [[Integral Curves, Flows and Flowouts on Smooth Manifolds#^b2db44|theorem for global flows]]. 
+
+**Prop:** Let $M$ be a smooth manifold. Suppose $V: J \times M \to TM$ is a smooth time-dependent vector field and $\psi: {\cal E} \to M$ is its time dependent flow. For any smooth covariant tensor field $A\in \mathcal T^k(M)$ and any $(t_1, t_0, p)\in \cal E$, $$\left.\frac{d}{dt}\right\rvert_{t = t_1}(\psi^*_{t, t_0} A)_p = (\psi^*_{t_1, t_0}(\mathcal L_{V_{t_1}} A))_p.$$
+**Def:** A *smooth time-dependent tensor flow* on a smooth manifold $M$ is a smooth map $A: J \to M \to T^kT^* M$, where $J\subseteq \Bbb R$ is an interval, satisfying $A(t, p)\in T^k(T^*_p M)$ for each $(t, p)\in J \times M$. 
+
+**Prop:** Let $M$ be a smooth manifold and $J\subseteq \Bbb R$ be an open interval. Suppose $V: J \times M\to TM$ is a smooth time-dependent vector field on $M$, $\psi: \mathcal E\to M$ is its time-dependent flow, and $A: J\times M \to T^kT^* M$ is a smooth time-dependent tensor field on $M$. Then for any $(t_1, t_0, p) \in \cal E$, $$\left.\frac{d}{dt}\right\rvert_{t =t_1} \left(\psi^*_{t, t_0} A_t\right)_p = \left(\psi^*_{t_1, t_0}\left(\mathcal L_{V_{t_1}} A_{t_1} + \left.\frac{d}{dt}\right\rvert_{t = t_1} A_t\right)\right)_p.$$

@@ -4,7 +4,7 @@ tags:
   - GroupTheory
 ---
 Subjects: [[Differential Geometry]], [[Group Theory]]
-Links: [[Homogeneous Spaces]], [[Lie Group Actions]], [[Lie Groups]], [[The Lie Correspondence]], [[Quotients of Manifolds by Group Actions]]
+Links: [[Homogeneous Spaces]], [[Lie Group Actions]], [[Lie Groups]], [[The Lie Correspondence]], [[Quotients of Manifolds by Group Actions]], [[Grassmannian Spaces]], [[Flag Manifolds]]
 
 **Def:** A smooth manifold endowed with a transitive smooth action by a group $G$ is called a a *homogeneous $G$ space*, *homogeneous space* or *homogeneous manifold.*
 
@@ -13,6 +13,10 @@ Links: [[Homogeneous Spaces]], [[Lie Group Actions]], [[Lie Groups]], [[The Lie 
 - The natural action of $\text E(n)$ on $\Bbb R^n$ is transitive. So is this natural action $\text{SE}(n)$ on $\Bbb R^n$, thus $\Bbb R^n$ is a a homogeneous space of either $\text{E}(n)$ or $\text{SE}(n)$.
 - The group $\text{SL}(2, \Bbb R)$ acts smoothly and transitively on the upper half plane $\Bbb H = \{z\in \Bbb C \mid \Im z > 0\}$, by the formula $$\begin{pmatrix} a & b \\ c & d\end{pmatrix} \cdot z := \frac{az +b}{cz+d}.$$The resulting complex-analytic transformations of $\Bbb H$ are called *Möbius transformations.*
 - The natural action $\text{U}(n)$ on $\Bbb S^{2n-1}$ is transitive. So is this natural action $\text{SU}(n)$ on $\Bbb S^{n-1}$ when $n \ge 2$. Thus $n \ge 2$, $\Bbb S^{2n-1}$ is a homogeneous space of either $\text{U}(n)$ or $\text{SU}(n)$.
+
+**Prop:**
+- Suppose $M$ is a homogeneous $G$-space. Then all of its components are diffeomorphic to one another, and there is an open subgroup  $G_0\subseteq G$ such that each component is a homogeneous $G_0$-space.
+- Conversely, suppose $M$ is a smooth manifold all of whose components are diffeomorphic to each other, and there is a Lie group $G_0$ that acts smoothly and transitively on one of its components $M_0$. The direct product $G_0 \times \Bbb Z$ acts smoothly and transitively on $M$.
 
 **Homogeneous Space Construction Theorem:** Let $G$ be a Lie group and let $H$ be closed Lie subgroup of $G$. The left coset space $G/H$ has a unique smooth manifold structure such that the quotient map $\pi: G \to G/H$ is a smooth submersion. The left action of $G$ on $G/H$ given by $$g_1 \cdot (g_2 H) =(g_1g_2)H$$ turns $G/H$ into a homogeneous $G$-space.
 
@@ -33,8 +37,8 @@ This theorem shows that the study of homogeneous spaces can be reduced to the pr
 **Th:** Suppose $X$ is a set, and we are given a transitive action of a Lie group $G$ on $X$ such that for some point $p\in X$, the isotropy group $G_p$ is closed in $G$. Then $X$ has a unique smooth manifold structure to which the given action is smooth. With this structure, $\dim X = \dim G-\dim G_p$.
 
 **Examples:**
-- **Flag Manifolds:** Let $V$ be a real vector space of dimension $n > 1$, and let $K = (k_1,\dots, k_m)$ be a finite sequence of integers satisfying $0 < k_1 < \cdots < k_m < n$. A *flag in $V$ of type $K$* is a nested sequence of linear subspaces $S_1\subseteq S_2\subseteq \cdots \subseteq S_m \subseteq V$, with $\dim S_i = k_i$ for each $i$. The set of all flags of type $K$ in $V$ is denoted by $\text F_K(V)$. We see that $\text{GL}(V)$ acts transitively $\text F_K(V)$ with a closed subgroup as isotropy group, so $\text F_K(V)$ has a unique smooth manifold structure making it into a homogeneous $\text{GL}(V)$-space. With this structure, $\text F_K(V)$ is called a *flag manifold.*
-
+- [[Grassmannian Spaces]]
+- [[Flag Manifolds]]
 # Applications to Lie Theory
 
 ## Quotient Groups
@@ -69,6 +73,18 @@ Meaning that we can give a set a smooth structure if there's a nice enough actio
 
 **Prop:** Suppose a  Lie group $G$ acts smoothly, freely, and properly on a topological space $M.$ If $G$ and $M/G$ are connected, then $M$ is connected.
 
+**Def:** If $G$ and $H$ are Lie groups, and there exists a surjective Lie group homomorphism from $G$ to $H$ with kernel $G_0$, we say that $G$ is an *extension of $G_0$ by $H$*.
+
+**Prop:** Let $\frak g$ be any finite-dimensional Lie algebra, then the disconnected Lie groups whose Lie algebras are isomorphic to $\frak g$ are precisely the extensions of the connected ones by discrete Lie groups. 
+
 **Prop:** For each $n \ge 1$, the Lie groups $\text{SO}(n)$, $\text{U}(n)$, and $\text{SU}(n)$ are connected. The group $\text{O}(n)$ has exactly two components, one of which is $\text{SO}(n)$.
 
 **Prop:** The connected components of $\text{GL}(n, \Bbb R)$ are $\text{GL}^+(n, \Bbb R)$ and $\text{GL}^-(n, \Bbb R)$.
+
+**Prop:** $\text{GL}^+(n,\Bbb R)$ is diffeomorphic to $\text{SO}(n) \times \Bbb R^{n(n+1)/2}$ and to $\text{SO}(n) \times \text{T}^+(n,\Bbb R)$. 
+
+**Prop:** $\text{GL}(n,\Bbb C)$ is diffeomorphic to $\text U(n) \times \Bbb R^{n^2}$.
+
+**Prop:** $\text{SL}(n, \Bbb R)$ is diffeomorphic to $\text{SO}(n) \times \Bbb R^{n(n+1)/2 -1 }$. We see that $\text{SL}(n ,\Bbb R)$ is connected.
+
+**Prop:** $\text{SL}(n, \Bbb C)$ is diffeomorphic to $\text{SU}(n) \times \Bbb R^{n^2 -1 }$. We see that $\text{SL}(n ,\Bbb C)$ is connected, and $\text{SL}(2, \Bbb C)$ is simply connected.

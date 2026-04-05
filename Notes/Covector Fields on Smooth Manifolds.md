@@ -75,7 +75,7 @@ We see that the assignments $(M, p)\mapsto T_p^*M$ and $F\mapsto dF_p^*$ yield a
 
 **Def:** Given a smooth map $F: M\to N$ and a covector field $\omega$ on $N$, we define the a rough covector field $F^*\omega$ on $M$, called the *pullback of $\omega$ by $F$*, by $$(F^*\omega)_p := dF^*_p(\omega_{F(p)}). $$It acts on a vector $v\in T_p M$ by $$(F^*\omega)_p(v) := \omega_{F(p)} (dF_p(v)). $$
 **Prop:** Let $F: M\to N$ be a smooth map between smooth manifold with or without boundary. Suppose $u$ is a continuous real-valued function on $N$, and $\omega$ is a covector field on $N$. Then $$F^*(u\omega) = (u\circ F)(F^*\omega). $$If in addition $u$ is smooth, then $$F^*du= d(u\circ F). $$
-**Cor:** Let $p\in M$, and choose smooth coordinates $(y^j)$ for $N$ in a nieghbourhood $V$ of $F(p).$ Let $U:= F^{-1}[V]$, which is a neighbourhood of $p$. We can write a covector field $\omega$ in coordinates as $\omega = \omega_j dy^j$, then $$F^*\omega =F^*(\omega_j dy^j) = (\omega_j \circ F) F^*dy^j = (\omega_j\circ F) d(y^j \circ F) = (\omega_j\circ F)dF^j.$$
+**Cor:** Let $p\in M$, and choose smooth coordinates $(y^j)$ for $N$ in a neighbourhood $V$ of $F(p).$ Let $U:= F^{-1}[V]$, which is a neighbourhood of $p$. We can write a covector field $\omega$ in coordinates as $\omega = \omega_j dy^j$, then $$F^*\omega =F^*(\omega_j dy^j) = (\omega_j \circ F) F^*dy^j = (\omega_j\circ F) d(y^j \circ F) = (\omega_j\circ F)dF^j.$$
 
 **Prop:** Suppose $F: M \to N$ is a smooth map between manifold with or boundary, and let $\omega$ be a covector field on $N$. Then $F^*\omega$ is a (continuous) covector field on $M$. If $\omega$ is smooth, then so is $F^*\omega$. 
 

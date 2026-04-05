@@ -31,15 +31,21 @@ Links: [[Lie Group Actions]], [[Group Actions]], [[Continuous Actions of Groups]
 
 **Prop:** If a Lie group $G$ acts smoothly and freely on a smooth manifold $M$, and the orbit space $M/G$ has a smooth manifold structure such that the quotient map $\pi: M \to M/G$ is a smooth submersion, then $G$ acts properly. 
 
+**Prop:** Suppose a Lie group $G$ acts smoothly, freely, and properly on a smooth manifold $M$. Then $M$ is the total space of a [[Fibre Bundles on Smooth Manifolds|smooth fibre bundle]] with base $M/G$, model fibre $G$, and projection equal to the quotient map $\pi: M \to M/G$. In particular, $M$ is compact iff both $G$ and $M/G$ are compact.
+
+**Def:** Any fibre bundle obtained in this way is called a *principal $G$-bundle*
+
 **Prop:** Suppose a Lie group $G$ acts smoothly, freely, and properly 
 
-**Prop:** Given that $\pi: \tilde G\to G$ is a universal covering map, then the covering group $\mathcal C_\pi(\tilde G)$ is isomorphic to $\pi_1(G, e)$. Then we can prove that the fundamental group of a connected Lie group is abelian.
-
 **Th:** Suppose $M$ is a connected smooth manifold, and $\Gamma$ is a discrete group acting smoothly, freely and properly on $M$. Then the quotient space $M/\Gamma$ is a topological manifold and has a unique smooth structure such that $\pi: M \to M/\Gamma$ is a [[Smooth Covering Maps|smooth]] [[Covering Maps#^06bb5b|normal]] covering map. ^2c0355
+
+**Prop:** Let $\Gamma$ be a discrete group acting smoothly, freely, and properly on a connected smooth manifold $M$. If a [[Riemannian Metrics on Smooth Manifolds|Riemannian metric]] $g$ on $M$ is a pullback of a metric on $M$ by the quotient map $\pi: M\to M/\Gamma$ iff $\Gamma$ acts by isometry. 
 
 **Prop:** Let $M$ be a smooth manifold, and let $\pi: E\to M$ be a smooth covering map. With the the discrete topology, the automorphism group $\text{Aut}_\pi(E)$ acts smoothly, freely, and properly on $E$.
 
 **Cor:** Let $\pi: N \to M$ be a smooth normal covering map, then $M$ is diffeomorphic to the quotient manifold $N/\text{Aut}_\pi(N)$. 
+
+**Prop:** Given that $\pi: \tilde G\to G$ is a universal covering map, then the covering group $\text{Aut}_\pi(\tilde G)$ is isomorphic to $\pi_1(G, e)$. Then we can prove that the fundamental group of a connected Lie group is abelian.
 
 **Prop:** Let $M$ be a smooth manifold, and let $\pi: E \to M$ be a smooth vector bundle over $M.$ Suppose $\Gamma$ is a discrete group acting smoothly, freely and properly on both $E$ and $M$. Suppose further that $\pi$ is $\Gamma$-equivariant, and each $p\in M$ and each $g\in \Gamma$, the map $E_p$ to $E_{g\cdot p}$ is given by $v \mapsto g \cdot v$ is linear. Then $E/\Gamma$ can be given the structure of a smooth vector bundle over $M/\Gamma$ un such a way that the following diagram commutes:
 ```tikz

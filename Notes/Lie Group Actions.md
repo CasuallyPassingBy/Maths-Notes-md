@@ -17,7 +17,9 @@ Suppose $G$ is a Lie group, $M$ is a smooth manifold, and $\theta: G\times M \to
 
 **Properties of the Orbit Map:** Suppose $\theta$ is a smooth left action of a Lie group $G$ on A smooth manifold $M$. For each $p\in M$, the orbit map $\theta^{(p)}: G\to M$ is smooth and has constant rank, so the stabiliser group $G_p$ is a properly embedded Lie subgroup of $G$. If $G_p = \{e\}$, then $\theta^{(p)}$ is an injective smooth immersion, so that $G \cdot p$ is an immersed submanifold of $M$. 
 
-**Def:** If $G$ is a Lie group smoothly on a smooth manifold $E$, we say that the action is an *orientation presering action* if for each $g\in G$, the diffeomorphism $x\mapsto g\cdot x$ is orientation preserving. 
+**Def:** If $G$ is a Lie group smoothly on a smooth manifold $E$, we say that the action is an *orientation preserving action* if for each $g\in G$, the diffeomorphism $x\mapsto g\cdot x$ is orientation preserving. 
+
+**Prop:** Every discrete normal subgroup of a connected Lie group is central, i.e., contained in the centre of the Lie group. 
 
 ## Semidirect Products
 
@@ -69,5 +71,3 @@ Let $(M, g)$ be a connected Riemannian manifold, and let $\Gamma$ be a Lie group
 Acting by isometry can be also be understood as there being an group homomorphism $\theta: \Gamma\to \text{Iso}(M)$, The action being free and acting by isometry would imply that the group homomorphism is injective. 
 
 **Prop:** If $\Gamma$ acts, freely, smoothly, and discontinuously on $M$ by isometries, then the quotient map $M \to M/\Gamma$ is a smooth covering map. 
-
-**Prop:** Let $\Gamma$ be a discrete group acting smoothly, freely, and properly on a connected smooth manifold $\widetilde M$, and let $M = \widetilde M/\Gamma$. If a Riemannian metric $\widetilde g$ on $\widetilde M$ is a pullback of a metric on $M$ by the quotient map $\pi: \widetilde M\to M$ iff $\Gamma$ acts by isometry. 

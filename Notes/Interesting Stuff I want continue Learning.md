@@ -151,8 +151,8 @@
 		- [x] De Rham Cohomology
 		- [x] The de Rham Theorem
 		- [x] Distributions and Foliations
-		- [ ] The Exponential Map
-		- [ ] Quotient Manifolds
+		- [x] The Exponential Map
+		- [x] Quotient Manifolds
 		- [ ] Symplectic Manifolds
 - Riemannian Geometry
 	- [ ] Introduction to Riemannian Manifolds by Lee

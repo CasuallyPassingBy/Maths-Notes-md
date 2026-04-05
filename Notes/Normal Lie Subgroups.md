@@ -33,3 +33,4 @@ Given a finite-dimensional Lie algebra $\frak g$, for each $X\in \frak g$, defin
 
 **Ideals and Normal Subgroups:** Let $G$ be a connected Lie group, and suppose $H \subseteq G$ is a connected Lie subgroup. Then $H$ is a normal subgroup of $G$ iff $\text{Lie}(H)$ is an ideal in $\text{Lie}(G).$
 
+**Prop:** Every discrete normal subgroup of a connected Lie group is central, i.e., contained in the centre of the Lie group. 

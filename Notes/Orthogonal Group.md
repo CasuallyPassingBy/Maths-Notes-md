@@ -33,4 +33,6 @@ Using the argument above, we get that $T_{I_n} \text{O}(n) = \ker f_*$, and by t
 
 **Prop:** We know that ${\frak o}(3)$ is isomorphic to $(\Bbb R^3, \times)$ as Lie algebras, and ${\frak o}(3)$ is isomorphic to ${\frak su}(2)$. 
 
+**Prop:** We can show that $\text{SO}(3)$ is isomorphic to $\text{SU}(2)/\{\pm I_2\}$, and diffeomorphic to $\Bbb{RP}^3$.
+
 **Prop:** $\text O(n) \cong \text{SO}(n) \rtimes \text O(1)$, we can think of this as the [[Lie Group Actions#Semidirect Products|Semidirect Product of Lie Groups]]

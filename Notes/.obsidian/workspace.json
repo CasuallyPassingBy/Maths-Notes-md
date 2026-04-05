@@ -8,33 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "416ab7da1b17772d",
+            "id": "38094ab8d59401cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quotients of Manifolds by Group Actions.md",
+                "file": "Symplectic Forms on Smooth Manifolds.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Quotients of Manifolds by Group Actions"
+              "title": "Symplectic Forms on Smooth Manifolds"
             }
           },
           {
-            "id": "b930b4da468bb767",
+            "id": "a4c03969daae2cdc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proper Actions of Groups.md",
+                "file": "Time-Dependent Vector Fields and Flows.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Proper Actions of Groups"
+              "title": "Time-Dependent Vector Fields and Flows"
             }
           }
         ]
@@ -209,34 +209,34 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "416ab7da1b17772d",
+  "active": "38094ab8d59401cb",
   "lastOpenFiles": [
-    "Proper Actions of Groups.md",
-    "Quotients of Manifolds by Group Actions.md",
-    "Smooth Functions on Smooth Manifolds.md",
-    "Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds.md",
-    "Homogeneous Spaces in the Case of Lie groups.md",
-    "Homogeneous Spaces.md",
-    "Complex Projective Space.md",
-    "Group Homomorphisms and Isomorphisms.md",
+    "Time-Dependent Vector Fields and Flows.md",
+    "Symplectic Forms on Smooth Manifolds.md",
     "Differential Geometry.md",
-    "Homogeneous Smooth Manifolds.md",
-    "Group Actions.md",
+    "Existence and Uniqueness of Solutions to Systems of Differential Equations.md",
+    "Almost finished projects.md",
+    "Interesting Stuff I want continue Learning.md",
     "Lie Group Actions.md",
-    "Continuous Actions of Groups.md",
-    "Normal Lie Subgroups.md",
-    "Infinitesimal Generators of Lie Group Actions.md",
-    "The Lie Correspondence.md",
-    "Lie Algebra of a Lie Group.md",
-    "The Complexity Class BPP.md",
-    "Lie Algebras.md",
-    "Subgroups.md",
-    "The Exponential Map on Lie Groups.md",
-    "General Linear Group.md",
+    "Quotients of Manifolds by Group Actions.md",
     "Special Linear Group.md",
-    "Singular Value Decomposition.md",
-    "Lie Derivative.md",
-    "Solution of Linear and Quasilinear First Order PDEs using Vector Flows.md",
+    "Homogeneous Spaces in the Case of Lie groups.md",
+    "Unitary Group.md",
+    "General Linear Group.md",
+    "Orthogonal Group.md",
+    "Smooth Covering Maps.md",
+    "Flag Manifolds.md",
+    "Automorphism Group of a Covering Map.md",
+    "Algebraic Topology.md",
+    "The Monodromy Action of Covering Maps.md",
+    "Universal Covering of Compact Surfaces.md",
+    "Normal Lie Subgroups.md",
+    "Grassmannian Spaces.md",
+    "Complex Projective Space.md",
+    "Riemannian Metrics on Smooth Manifolds.md",
+    "Covector Fields on Smooth Manifolds.md",
+    "Fibre Bundles on Smooth Manifolds.md",
+    "Proper Actions of Groups.md",
     "Pasted image 20260306011155.png",
     "Pasted image 20260211174214.png",
     "Pasted image 20260128171751.png",
