@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links: [[Integral Curves, Flows and Flowouts on Smooth Manifolds]], [[Integral Curves, Flows and Flowouts on Smooth Manifolds]], [[The Tangent Bundle]], [[Vector Subbundles on Smooth Manifolds]], [[Differential Forms on Smooth Manifolds]], [[Covector Fields on Smooth Manifolds]], [[Lie Derivative]], [[Immersed Smooth Submanifolds]]
+Links: [[Integral Curves, Flows and Flowouts on Smooth Manifolds]], [[Integral Curves, Flows and Flowouts on Smooth Manifolds]], [[The Tangent Bundle]], [[Vector Subbundles on Smooth Manifolds]], [[Differential Forms on Smooth Manifolds]], [[Covector Fields on Smooth Manifolds]], [[The Lie Derivative]], [[Immersed Smooth Submanifolds]]
 
 **Def:** Let $M$ be a smooth manifold. A *distribution on $M$ of rank $k$* is a rank-$k$ subbundle of $TM$. It is called a *smooth distribution* if it is a smooth subbundle. Distributions are also sometimes called *tangent distributions*, especially if there is any opportunity for confusion with the use of the term 'distribution' for generalised functions in analysis, *$k$-plane fields*, or *tangent subbundles.*
 
@@ -26,7 +26,7 @@ Often a rank-$k$ distribution is described by specifying for each $p\in M$ a lin
 ### Relationship with Differential Forms
 
 **$1$-Form Criterion for Smooth Distribution:** Suppose $M$ is a smooth $n$-manifold and $D\subseteq TM$ is a distribution of rank $k$. Then $D$ is a smooth iff each point $p\in M$ has a neighbourhood $U$ on which there are smooth $1$-forms $\omega^1,\dots, \omega^{n-k}$ such that for each $q\in U$, $$D_q = \bigcap_{i = 1}^{n-k} \ker(\omega^i|_q). $$
-**Def:** If $D$ is a rank-$k$ distribution on a smooth $n$-manifold $M$, any $n-k$ linearly independent $1$-forms $\omega^1,\dots, \omega^{n-k}$ defined on an open subset $U\subseteq M$ and satisfying for each $q\in U$ are called *local defining forms for $D$*. More generally, if $0\le p \le n$, we say that a $p$-form $\omega\in \Omega^p(M)$ *annihilates $D$* if $\omega(X_1,\dots, X_p) = 0$ whenever $X_1,\dots, X_p$ are local sections of $D$.
+**Def:** If $D$ is a rank-$k$ distribution on a smooth $n$-manifold $M$, any $n-k$ linearly independent $1$-forms $\omega^1,\dots, \omega^{n-k}$ defined on an open subset $U\subseteq M$ and satisfying $$D_q = \bigcap_{i = 1}^{n-k} \ker(\omega^i|_q)$$for each $q\in U$ are called *local defining forms for $D$*. More generally, if $0\le p \le n$, we say that a $p$-form $\omega\in \Omega^p(M)$ *annihilates $D$* if $\omega(X_1,\dots, X_p) = 0$ whenever $X_1,\dots, X_p$ are local sections of $D$.
 
 **Lemma:** Suppose $M$ is a smooth $n$-manifold and $D$ is a smooth rank-$k$ distribution on $M$. Let $\omega^1,\dots, \omega^{n-k}$ be smooth local defining forms for $D$ over an open subset $U\subseteq M$. A smooth $p$-form $\eta$ on $U$ annihilates $D$ iff it can be expressed in the form $$\eta = \sum_{i = 1}^{n-k}\omega^i\wedge\beta^i  $$for some smooth $(p-1)$-forms $\beta^1,\dots, \beta^{n-k}$ on $U$.
 
@@ -65,7 +65,7 @@ Often a rank-$k$ distribution is described by specifying for each $p\in M$ a lin
 
 **Frobenius Theorem:** Every involutive distribution is completely integrable,
 
-Embedded in the proof of the Frobenius theorem is a technique for finding integral manifolds. The idea is to use the coordinate projection to find commuting vector fields spanning the same distribution, and then use the technique in to find [[Lie Derivative#^afb34f|Canonical Form for Commuting Vector Field]]. 
+Embedded in the proof of the Frobenius theorem is a technique for finding integral manifolds. The idea is to use the coordinate projection to find commuting vector fields spanning the same distribution, and then use the technique in to find [[The Lie Derivative#^afb34f|Canonical Form for Commuting Vector Field]]. 
 
 **Example:** Let $D\subseteq T\Bbb R^3$ be the distribution spanned by the vector fields$$\begin{align*}X &= x\frac{\partial}{\partial x} + \frac{\partial}{\partial y}+ x(y+1) \frac{\partial}{\partial z} \\
 Y&= \frac{\partial}{\partial x}+ y \frac{\partial}{\partial z}.\end{align*} $$We see that $[X, Y] = -Y$. So $D$ is involutive. Let us try to find a flat chart in a neighbourhood of the origin. Since $D$ is complementary to the span of $\partial/\partial z$, the coordinate projection $\pi: \Bbb R^3 \to\Bbb R^2$ given by $\pi(x, y, z) := (x,y)$ induces an isomorphism $D_(x, y,z) \to T_{(x, y)}\Bbb R^2$ for each $(x, y,z)\in\Bbb R^3$. If we can find smooth local sections $V$, $W$ of $D$ that are $\pi$-related to $\partial/\partial x$ and $\partial/\partial y$, respectively, they will be commuting vector fields spanning $D$. It is easy to check that $V, W$ have this property iff they take their values in $D$ and are of the form$$\begin{align*} V&=  \frac{\partial}{\partial x}+  u(x, y, z) \frac{\partial}{\partial z}, \\

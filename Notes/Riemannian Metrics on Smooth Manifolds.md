@@ -49,7 +49,7 @@ A Riemannian $n$-manifold $(M, g)$ is said to be a *flat Riemannian manifold*, a
 - $g$ is flat. 
 - Each point of $M$ is contained in the domain of a smooth coordinate chart in which $g$ has the coordinate representation $g = \delta_{ij} dx^i dx^j$. 
 - Each point of $M$ is contained in the domain of a smooth coordinate chart in which the coordinate frame is orthonormal.
-- Each point of $M$ is contained in the domain of a [[Lie Derivative#Commuting Frames|commuting orthonormal frame]].
+- Each point of $M$ is contained in the domain of a [[The Lie Derivative#Commuting Frames|commuting orthonormal frame]].
 
 **Lemma:** Suppose $U, V\subseteq \Bbb R^n$ are connected open sets, $\varphi, \psi: U \to V$ are Riemannian isometries, and for some $p\in U$ they satisfy $\varphi(p) = \psi(p)$ and $d\varphi_p = d\psi_p$, then $\varphi = \psi$.
 

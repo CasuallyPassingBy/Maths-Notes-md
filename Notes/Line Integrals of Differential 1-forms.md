@@ -58,6 +58,6 @@ Let $f$ be any potential function for $\omega$, and let $(U, (x^i))$ be any smoo
 
 The question of whether a particular closed covector field is exact is a global one, depending on the shape of the domain in question. This observation is the starting point for *[[de Rham Cohomology]]*, which expresses a deep relationship between smooth structures and topology. 
 
-**Prop:** If $U$ is a star-shaped open subset of $\Bbb R^n$ or $\Bbb H^n$, then every closed covector field on $U$ is exact. 
+**Poincaré Lemma for Covector Fields:** If $U$ is a star-shaped open subset of $\Bbb R^n$ or $\Bbb H^n$, then every closed covector field on $U$ is exact. 
 
 **Local Exactness of Closed Covector Fields:** Let $\omega$ be a closed covector field on a smooth manifold $M$ with or without boundary. Then every $p\in M$ has a neighbourhood on which $\omega$ is exact. 

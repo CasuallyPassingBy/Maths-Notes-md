@@ -7,6 +7,8 @@ Links: [[Paracompacteness]], [[Metacompactness]], [[Collectionwise Normal Spaces
 
 **Def:** A topological space $X$ is called *subparacompact* if every open cover $\cal U$ of $X$ has a $\sigma$-discrete closed refinement. 
 
+**Prop:** Let $X$ be a topological space. If $X$ is $T_1$ and countable, then $X$ must be subparacompact.
+
 **Def:** $X$ is called *$\theta$-refinable* or *submetacompact* if for every open cover $\cal U$ of $X$ there is a sequence $\{\mathcal V_n \mid n <\omega\}$ of open covers such that $\cal V_n$ is a refinement of $\cal U$ for each $n <\omega$ and such that for each $x\in X$ there's an $n<\omega$ with $\text{ord}_x(\mathcal V_n) <\omega$. 
 
 **Obs:** Every paracompact space is metacompact. Every paracompact $T_2$ space is subparacompact. 

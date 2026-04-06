@@ -4,7 +4,7 @@ tags:
   - GroupTheory
 ---
 Subjects: [[Differential Geometry]], [[Group Theory]]
-Links: [[Lie Groups]], [[Lie Subgroups]], [[Lie Algebras]], [[Lie Algebra of a Lie Group]], [[The Exponential Map on Lie Groups]], [[Normal Subgroups and Quotient Groups]], [[Representations of Groups]], [[Lie Derivative]]
+Links: [[Lie Groups]], [[Lie Subgroups]], [[Lie Algebras]], [[Lie Algebra of a Lie Group]], [[The Exponential Map on Lie Groups]], [[Normal Subgroups and Quotient Groups]], [[Representations of Groups]], [[The Lie Derivative]]
 
 **Lemma:** Let $G$ be a connected Lie group, and let $H \subseteq G$ be a connected Lie subgroup. Let $\frak g$ and $\frak h$ denote the Lie algebras of $G$ and $H$, respectively. Then $H$ is normal in $G$ iff $$(\exp X)(\exp Y)(\exp(-X)) \in H \qquad \text{for all } X\in {\frak g} \text{ and }Y\in {\frak h} .$$
 ## The Adjoint Representation
