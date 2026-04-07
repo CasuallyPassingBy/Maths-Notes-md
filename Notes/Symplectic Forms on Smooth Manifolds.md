@@ -29,7 +29,7 @@ The study of properties of symplectic manifold that are invariant under symplect
 
 # The Canonical Symplectic Form on the Cotangent Bundle
 
-The most important example of a symplectic manifold is the total space of the cotangent bundel of any smooth manifold $Q$, which carries a canonical symplectic structure. 
+The most important example of a symplectic manifold is the total space of the cotangent bundle of any smooth manifold $Q$, which carries a canonical symplectic structure. 
 
 There is a natural $1$-form $\tau$ on $M = T^*Q$, called the *tautological $1$-form*, A point in $T^*Q$ is a covector $\varphi\in T_q^*Q$ for some $q\in Q$; we will denote such a point by the notation $(q, \varphi)$. The natural projection $\pi: T^*Q \to Q$ is then just $\pi(q, \varphi) = q$, and its pullback is a linear map $\pi^*: T_q^*Q \to T_{(q, \varphi)} )(T^*Q)$. We define $\tau\in \bigwedge^1(T^*Q)$ by $$ \tau_{(q, \varphi)}(X) := \varphi(\pi_*X). $$
 **Prop:** Let $M$ be a smooth manifold of dimension at least $1$. There is no $1$-form on $M$ such that the tautological form $\tau\in \bigwedge^1(T^*M)$ is equal to the pullback $\pi^*\sigma$. 
@@ -43,7 +43,9 @@ The symplectic form defined in this proposition is called the *canonical symplec
 This proof gives us coordinate representations of $\tau$ and $\omega$. Let $(x^i)$ be any smooth coordinates on $Q$, and let $(x^i, \xi_i)$ denote the corresponding standard coordinates on $T^*Q.$We see that $$\tau_{(x, \xi)} = \xi_i \, dx^i$$and $$\omega = -d\tau =\sum_{i } dx^i\wedge d\xi_i.$$
 Let us note that in the proof we get the result that $\sigma^*\omega = - d\sigma$. And we see that $\sigma$ is a Lagrangian embedding iff $d\sigma = 0$. 
 
-**Prop:** Let $Q$ be a smooth manifold, and let $S$ be an embedded submanifold of the total space of $T^*Q$. $S$ is the image of smooth closed $1$-form on $Q$ iff $S$ is Lagrangian, transverse to the fibres, and intersects each fiber in exactly one point. 
+**Prop:** Let $Q$ be a smooth manifold, and let $S$ be an embedded Lagrangian submanifold of the total space of $T^*Q$.
+- If $S$ is [[Transversailty Theorems for Smooth Manifolds|transverse]] to the fibre of $T^*Q$ at a point $q\in T^*Q$, then there exists a neighbourhood $V$ of $q$ in $S$ and a neighbourhood $U$ of $\pi(q)$ in $Q$ such that $V$ is the image of a smooth closed $1$-form defined on $U$.
+- $S$ is the image of a globally defined closed $1$-form on $Q$ iff $S$ intersects each fibre transversly in exactly one point.
 
 # The Darboux Theorem
 

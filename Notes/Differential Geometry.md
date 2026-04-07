@@ -95,3 +95,4 @@ This notes uses Einstein's summation convention.
 	-  [[Hamiltonian Vector Fields]]
 	- [[Contact Structures on Smooth Manifolds]]
 	- [[Nonlinear First-Order PDEs in Differential Geometry]]
+- [[Jet Bundles on Smooth Manifolds]]

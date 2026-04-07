@@ -154,6 +154,7 @@
 		- [x] The Exponential Map
 		- [x] Quotient Manifolds
 		- [ ] Symplectic Manifolds
+	- [ ] The Geometry of Jet Bundles by D.J. Saunders
 - Riemannian Geometry
 	- [ ] Introduction to Riemannian Manifolds by Lee
 -  Functional Analysis
