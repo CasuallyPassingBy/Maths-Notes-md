@@ -39,6 +39,7 @@ This theorem shows that the study of homogeneous spaces can be reduced to the pr
 **Examples:**
 - [[Grassmannian Spaces]]
 - [[Flag Manifolds]]
+- [[Lagrangian Grassmanian]]
 # Applications to Lie Theory
 
 ## Quotient Groups

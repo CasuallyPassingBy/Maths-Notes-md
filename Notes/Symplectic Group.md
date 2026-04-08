@@ -4,7 +4,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Group Theory]],  [[Differential Geometry]]
-Links: [[Symplectic Vector Spaces]], [[Symplectic Forms on Smooth Manifolds]]
+Links: [[Symplectic Vector Spaces]], [[Symplectic Forms on Smooth Manifolds]], [[General Linear Group]]
 
 # Real Symplectic Group
 

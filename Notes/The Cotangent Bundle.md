@@ -19,6 +19,8 @@ If $(x^i)$ are smooth coordinates on an open subset $U\subseteq M$, we have that
 
 **Prop:** Let $\sf Diff_1$ be the category whose objects are smooth manifolds, but whose only morphisms are diffeomorphism; and let $\sf VB$ be the category whose objects are smooth vector bundles and whose morphisms are smooth vector bundle homomorphisms. Then, the assignment $M \mapsto T^*M$, $F\mapsto dF^*$ defined a contravariant functor from $\sf Diff_1$ to $\sf VB$ called the *cotangent functor.*
 
+**Def:** Let $M$ be a smooth manifold and let $S\subseteq M$ be an embedded submanifold. We define the *conormal bundle of $S$* to be the subset $N^*S \subseteq T^*M$ defined by$$N^*S = \{(q, \eta) \in T^*M \mid q\in S, \eta|_{T_qS} = 0\}. $$
+**Prop:** We see that $N^*S$ is a smooth subbundle of $T^*M|_S$, and an embedded [[Symplectic Forms on Smooth Manifolds|Lagrangian]] submanifold of $T^*M$. 
 
 # Exterior Powers
 

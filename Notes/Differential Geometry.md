@@ -24,6 +24,7 @@ This notes uses Einstein's summation convention.
 		- [[Spheres in Rn]]
 		- [[Real Projective Space]]
 			- [[Grassmannian Spaces]]
+				- [[Lagrangian Grassmanian]]
 			- [[Complex Projective Space]]
 - [[Smooth Partitions of Unity for Manifolds]]
 - [[Tangent Space for Manifolds]]

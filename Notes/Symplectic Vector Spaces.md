@@ -4,7 +4,7 @@ tags:
   - CliffordAlgebra
 ---
 Subjects: [[Linear Algebra]], [[Clifford Algebra (Subject)]]
-Links: [[Bilinear Forms]], [[Correlations, Musical Isomorphisms]]
+Links: [[Bilinear Forms]], [[Correlations, Musical Isomorphisms]], [[Symplectic Group]]
 
 These are special $2$-forms that play a role in many applications of smooth manifolds to analysis and physics.
 

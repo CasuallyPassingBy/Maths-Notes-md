@@ -45,4 +45,17 @@ The proof gives us a way how to solve the this type of PDEs.
 
 **Prop:** Let $M$ be a smooth manifold. A smooth local section of $J^1M$ is the $1$-jet of smooth function iff it is Legendrian.
 
-The $1$-jet 
+The $1$-jet bundle provides the most general setting in which to consider first-order partial differential equations. If $M$ is a smooth manifold, a first-order PDE for a function $u: M \to \Bbb R$ can be viewed as a real-valued function $F$ on the $1$-jet bundle of $M$, and a solution is a function whose $1$-jet takes its vales in the zero set of $F$.
+
+Let $M$ be a smooth manifold, and suppose we are given a function $F: \mathcal C^\infty(M)$ on some open subset $W\subseteq J^1M$, a smooth hypersurface $S\subseteq M$, and a smooth function $\varphi: S \to \Bbb R$. We wish to solve the following Cauchy problem for $u$, $$\begin{align*}
+F(x,u(x), du(x)) &= 0  \\
+u|_S &= \varphi.
+\end{align*} $$This problem is said to be *noncharacterisitc* if there exists a smooth section $\sigma \in \Gamma(T^*M|_S)$ taking its values in $W$ and satisfying  $$ \begin{align*}
+\sigma(x)|_{T_xS} &= d\varphi(x) \qquad \forall x\in S, \\
+F(x, \varphi(x), \sigma(x)) &= 0  \qquad\qquad \forall x\in S,
+\end{align*}$$and such that the following vector field along $S$ is nowhere tangent to $S$: $$A^{\varphi, \sigma}|_x =  \frac{\partial F}{\partial\xi_1}(x,\varphi(x),  \sigma(x)) \frac{\partial}{\partial x^1} +\cdots +  \frac{\partial F}{\partial\xi_n}(x, \varphi(x), \sigma(x)) \frac{\partial}{\partial x^n}.$$
+
+**The General First-Order Cauchy Problem:** Suppose $M$ is a smooth manifold, $W\subseteq J^1M$ is an open subset, $F: W \to \Bbb R$ is a smooth function, $S\subseteq M$ is an embedded hypersurface, and $\varphi: S \to \Bbb R$ is a smooth function. If the Cauchy problem $$\begin{align*}
+F(x,u(x), du(x)) &= 0  \\
+u|_S &= \varphi
+\end{align*} $$is noncharacterisitc, then for each $p\in S$ there is a smooth solution on some neighbourhood of $p$ in $M$. 

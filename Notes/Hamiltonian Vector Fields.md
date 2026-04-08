@@ -18,6 +18,12 @@ In Darboux coordinates, $X_f$ can be computed explicitly. Writing $$X_f = \sum_{
 
 **Hamiltonian and Symplectic Vector Fields:** Let $(M, \omega)$ be a symplectic manifold. A smooth vector field on $M$ is symplectic iff it is locally Hamiltonian. Every locally Hamiltonian vector field on $M$ is globally Hamiltonian iff $H_\text{dR}^1(M) = 0$. 
 
+**Def:** Let $(M,\omega)$ be a symplectic manifold. Let $\mathcal S(M)\subseteq {\frak X}(M)$ denote the set of symplectic vector fields on $M$, and $\mathcal H(M) \subseteq {\frak X}(M)$ the set of Hamiltonian vector fields.
+
+**Prop:** Let $(M,\omega)$ be a symplectic manifold. The following statements are true.
+- ${\cal S}(M)$ is a Lie subalgebra of ${\frak X}(M)$, and ${\cal H}(M)$ is a Lie subalgebra of ${\cal S}(M)$.
+- The map from ${\cal S}(M)$ to $\Omega^1(M)$ given by $X \mapsto X \;\lrcorner \;\omega$ descends to a vector space isomorphism between ${\cal S}(M)/{\cal H}(M)$ and $H_\text{dR}^1(M)$.
+
 **Def:** A symplectic manifold $(M, \omega)$ together with a smooth function $H\in \mathcal C^\infty(M)$ is called a *Hamiltonian system*. The function $H$ is called the *Hamiltonian* of the system; the flow of the Hamiltonian vector field $X_H$ is called its *Hamiltonian flow*, and the integral curves of $X_H$ are called the *trajectories* or the *orbits* of the system. In Darboux coordinates, the formula of the Hamiltonian vector field implies that the orbits of those curves $\gamma(t) = (x^i(t), y^i(t))$ that satisfy  $$\begin{align*}
 \dot x^i(t) &= \frac{\partial H}{\partial y^i}(x(t), y(t)), \\
 \dot y^i(t) &=- \frac{\partial H}{\partial x^i}(x(t), y(t))
@@ -35,6 +41,8 @@ We can readily compute the Poisson bracket of two function $f,g$ in Darboux coor
 - $X_{\{f, g\}} = - [X_f, X_g]$.
 
 **Cor:** If $(M, \omega)$ is a symplectic manifold, the vector space $\mathcal C^\infty(M)$ is a Lie algebra under the Poisson bracket.
+
+**Cor:** Let $(M, \omega)$ be a $2n$-dimensional symplectic manifold. Smooth coordinates $(x^1,\dots, x^n,y^1, \dots,y^n)$ on an open subset $U\subseteq M$ are Darboux coordinates iff their Poisson brackets satisfy $$\{x^i, y^j\}= \delta^{ij}; \qquad \{x^i. x^j\} = \{y^i, y^j\} = 0. $$
 
 **Def:** If $(M, \omega, H)$ is a Hamiltonian system, and function $f\in \mathcal C^\infty(M)$ that is constant on every integral curve of $X_H$ is called a *conserved quantity* of the system.
 
