@@ -26,17 +26,26 @@ Analogously, $\mu^*$ is *countably additive* if for every if for every $F \in [\
 
 **Prop:** If $\{\mu_n^* \mid n < \omega\}$ is a sequence of outer measures on a hereditary $\sigma$-ring $\cal H$ and $\{a_n \mid n < \omega\}$ is a sequence of positive numbers, then the set function $\mu^*$ defined by $$\mu^*(E) = \sum_{n < \omega} a_n\mu_n^*(E)$$is an outer measure on $\cal H$. 
 
-****
+**Def:** *The Lebesgue outer measure on $\Bbb R$:* For each subset $A$ of $\Bbb R$, let ${\cal C}_A$ be the set of all infinite sequences $\{(a_i, b_i)\}_{i <\omega}$ of bounded intervals such that $A \subseteq \bigcup_{i <\omega} (a_i, b_i)$. Then $\lambda^*: \mathcal P(\Bbb R) \to [0, \infty]$ is defined by setting $$\lambda^*(A) := \inf \left\{\left.\sum_{i< \omega} (b_i-a_i) \;\right\rvert\; \{(a_i, b_i)\}_{i <\omega}\in {\cal C}_A\right\}. $$
+**Prop:** The Lebesgue outer measure on $\Bbb R$ is an outer measure, and it assigns to each subinterval of $\Bbb R$ its length. 
+
+**Def:** *The Lebesgue outer measure on $\Bbb R^d$:* A *$d$-dimensional interval* is a subset of $\Bbb R^d$ of the form $I_1\times \cdots I_d$, where $I_1,\dots, I_d$ are subintervals of $\Bbb R$. Note that the intervals $I_1,\dots, I_d$, and hence the $d$-dimensional interval $I_1 \times \dots \times I_d$, can be open, closed or neither open or closed. The *volume of the $d$-dimensional interval* $I_1 \times \dots \times I_d$ is the $\text{vol}(I_1 \times \dots \times I_d) := \prod_{i = 1}^d \lambda^*(I_i)$. For each $A\subseteq \Bbb R^d$ let ${\cal C}_A$ be the set of all sequences $\{R_i\}_{i<\omega}$ of bounded and open $d$-dimensional intervals for which $A\subseteq \bigcup_{i <\omega} R_i$. Then  the outer measure of $A$ is  $$\lambda^*(A) := \inf \left\{\left.\sum_{i <\omega} \text{vol}(R_i) \; \right\rvert\; \{R_i\}_{i <\omega} \in {\cal C}_A\right\}.$$
+**Prop:** The Lebesgue outer measure on $\Bbb R^d$ is an outer measure, and it assigns to each $d$-dimensional interval its volume. 
+
 # Measurable Sets
 
 **Def:** Let $\mu^*$ be an outer measure on a hereditary $\sigma$-ring $\cal H$. A set $E$ in $\cal H$ is $\mu^*$*-measurable* if for every set $A$ in $\cal H$, $$\mu^*(A) = \mu^*(A \cap E) + \mu^*(A \setminus E).$$
 The intuition is that we single out those sets which split every other set additively. 
 
+**Def:** A *Lebsegue measurable* subset of $\Bbb R$ or of $\Bbb R^d$ is of course one that is measurable with respect to the Lebesgue outer measure.
+
 **Th:** If $\mu^*$ is an outer measure on a hereditary $\sigma$-ring $\cal H$ is the family of all $\mu^*$-measurable sets, then $\overline {\cal S}$ is a ring.
 
 **Obs:** If $\mu^*$ is an outer measure on a hereditary $\sigma$-ring $\cal H$ and if a set $E \in \cal H$ is such that, for every $A \in\cal H$, $$\mu^*(A) \ge \mu^*(A \cap E) + \mu^*(A \setminus E),$$ then $E$ is $\mu^*$-measurable. 
 
-**Prop:** Let $\mu^*$ be an outer measure on a hereditary $\sigma$-ring $\cal H$ and if $E\cap F$ are two sets in $\cal H$ of which one is measurable, then $\mu^*(E) + \ mu^*(F) = \mu^*(E\cup F) + \mu^*(E \cap F)$. 
+**Prop:** Let $X$ be a set, and let $\mu^*$ be an outer measure on $\mathcal P(X)$. Then each subset $B\subseteq X$ that satisfies $\mu^*(B) =0$ or that $\mu(X\setminus B) = 0$ is $\mu^*$-measurable. 
+
+**Prop:** Let $\mu^*$ be an outer measure on a hereditary $\sigma$-ring $\cal H$ and if $E\cap F$ are two sets in $\cal H$ of which one is measurable, then $\mu^*(E) + \mu^*(F) = \mu^*(E\cup F) + \mu^*(E \cap F)$. 
 
 **Th:** If $\mu^*$ is an outer measure on a hereditary $\sigma$-ring $\cal H$ and if $\overline{\cal S}$ is the family of $\mu^*$-measurable sets, then $\overline{\cal S}$ is a $\sigma$-ring. If $A \in \cal H$ and if $\{E_n \mid n  < \omega\}$ is a disjoint sequence of sets in $\overline{\cal S}$ with $\bigcup_{n  < \omega} E_n = E$, then $$\mu^*(A \cap E) = \sum_{n <\omega} \mu^*(A \cap E_n).$$
 This result, where $\overline{\cal S}$ is a $\sigma$-ring, can be proven two ways: one that $\overline{\cal S}$ is a ring and prove it directly, and using partitions just as we did for proving a [[Measures#^29437f|similar result for semirings]]. 
@@ -57,3 +66,14 @@ The measure $\overline \mu$ is called the measure *induced* by the outer measure
 
 **Prop:** Suppose that $\mu^*$ is an outer measure on a hereditary $\sigma$-ring $\cal H$ and that $\overline{\cal S}$ is the family of $\mu^*$-measurable sets. If $A \in \cal H$ and $\{E_n\mid n <\omega\}$ is an increasing sequence of sets in $\overline{\cal S}$, then $\mu(\lim_{n \to \infty} A \cap E_n ) = \lim_{n \to \infty} \mu(A \cap E_n)$. Similarly, if $\{E_n\mid n <\omega\}$ is a decreasing sequence of sets in $\overline{\cal S}$, and if a set $A\in \cal H$ is such that $\mu^*(A \cap E_m) < \infty$ for at least one value of $m$, then $\mu(\lim_{n \to \infty} A \cap E_n ) = \lim_{n \to \infty} \mu(A \cap E_n)$.
 
+**Prop:** Every Borel subset of $\Bbb R$ is Lebesgue measurable.
+
+**Prop:** Every Borel subset of $\Bbb R^d$ is Lebesgue measurable.
+
+**Def:** The restriction of Lebesgue outer measure on $\Bbb R^d$ to the collection ${\cal M}_\lambda$ of Lebesgue measurable sets of $\Bbb R^d$ is called the *Lebsegue measure*, and will be denoted by $\lambda$ or $\lambda_d$. The restriction of Lebesgue outer measure to ${\cal B}(\Bbb R^d)$ is also called the *Lebesgue measure*, and it too will be denoted by $\lambda$ or $\lambda_d$, since the set of all Lebesgue measurable sets is just the [[Extension of Measures#Extension, Completion and Approximation|completion]] of the Borel $\sigma$-algebra.
+
+**Prop:** Let $\mu$ be a finite measure on $(\Bbb R, {\cal B}(\Bbb R))$, and let $F_\mu: \Bbb R\to \Bbb R$ be defined by $F_\mu(x) := \mu((-\infty, x])$. Then $F_\mu$ is bounded, non decreasing, and right-continuous and satisfies $\lim_{x\to -\infty} F_\mu(x) = 0$.
+
+Let $\mu$ and $F_\mu$ be as in the proposition above. The interval $(a, b]$ is the difference of the intervals $(-\infty, b]$ and $(-\infty, a]$, and so $\mu((a, b]) = F_\mu(b)-  F_\mu(a)$. Since $F_\mu$ is bounded and non-decreasing, the limit of $F_\mu(t)$ as $t$ approaches $x$ from the left exists for each $x\in \Bbb R$; this limit is equal to $\sup\{F_\mu(t) \mid t <x\}$ and will be denoted by $F_\mu(x-)$. This will give us that $$\mu(\{b\}) = F_\mu(b)- F_\mu(b-).$$Consequently $F_\mu$ is continuous at $b$ if $\mu(\{b\}) = 0$, and discontinuous there, with a jump of size $\mu(\{b\})$ in its graph, if $\mu(\{b\}) \ne 0$.  Thus $\mu$ is [[Measure Spaces and Measurable Spaces|continuous]] iff $F_\mu$ is continuous. 
+
+**Prop:** For each bounded, non-decreasing, and right-continuous function $F: \Bbb R\to \Bbb R$ that satisfies $\lim_{x\to -\infty}F(x) = 0$ there is a unique finite measure $\mu$ on $(\Bbb R, {\cal B}(\Bbb R))$ such that $F(x) = \mu((-\infty, x])$ holds for each $x\in \Bbb R$.

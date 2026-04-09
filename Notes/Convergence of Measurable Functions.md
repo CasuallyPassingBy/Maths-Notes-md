@@ -27,6 +27,7 @@ If $f$ is bounded, then the sequence $\{f_n\mid n <\omega\}$ can be made to conv
 # Convergence
 
 **Def:** If a certain proposition concerning points of a measure space is true for every point, with exception at most of a set of measure zero, it is customary to say that the proposition is true *almost everywhere* or *a.e.*
+
 **Def:** A function $f$ is called *essentially bounded* if it is bounded a.e., i.e., if there exists a $M >0$ such that $\mu(\{x\in X \mid |f(x)| > c\}) = 0$. The infimum of the of the valued of $M$ for which the statement is true is called the *essential supremum* of $|f|$, abbreviated to $\text{ess sup}(|f|)$.
 
 **Def:** Let $\{f_n \mid n <\omega\}$ be a sequence of extended real valued functions which converges a.e. on the measure space $X$ to the limit function $f$. This means, of course, that there exists a set $E_0$ of measure zero such that, if $x\notin E_0$ and $\varepsilon>0$, then there exists $N \in \omega$, such that

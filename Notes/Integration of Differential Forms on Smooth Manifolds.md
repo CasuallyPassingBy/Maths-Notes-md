@@ -46,6 +46,9 @@ Just we have for orientations, we have a special definition in the zero-dimensio
 - $\text{supp }\omega \subseteq \bigcup_{i = 1}^k \overline W_i$. 
 Then  $$\int_M \omega = \sum_{i = 1}^k \int_{D_i} F^*_i \omega. $$
 
+**Prop:** If $M$ is an oriented compact smooth $n$-manifold, $n \ge 1$, and $\omega_0, \omega_1$ are smooth orientations forms on $M$ such that $\int_M \omega_0 = \int_M \omega_1$, then there is a diffeomorphism $F: M \to M$ such that $F^*\omega_1 = \omega_0$. 
+
+The techniques used to prove this are reliant on [[Time-Dependent Vector Fields and Flows]]. 
 
 ## Integration on [[Lie Groups]]
 

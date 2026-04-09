@@ -24,8 +24,27 @@ We note that $\mathcal B(\Bbb R)$ and $\overline{\mathcal B(\Bbb R)}$ are $\sigm
 
 **Th:** If $\xi$ is an irrational number, then the set $A$ of all numbers of the form $n + m \xi$, where $n, m \in \Bbb Z$, is everywhere dense on the line; the same is true of the subset $B$ of all numbers of the form $n + m \xi$ with $n$ even, and the subset $C$ of numbers of the form $n+m\xi$ with $n$ odd. 
 
+**Prop:** The Cantor set is a compact set that has cardinality of the continuum, but has Lebesgue measure zero.
+
 **Th:** There exists at least one set $E_0$ which is not Lebesgue measurable. This needs the [[axiom of choice]]
 
-**Th:** There exists a subset $M$ of the real line such that, for every Lebesgue measurable set $E,$ $$\mu_*(M \cap E) = 0, \qquad \mu^*(M \cap E) = \overline\mu(E).$$
+**Prop:** Let $A$ be a Lebesuge measurable subset of $\Bbb R$ such that $\mu(A)> 0$. Then $\{x-y\mid x, y\in A\}$ includes an interval that contains $0$. 
 
+**Th:** There exists a subset $M$ of the real line such that, for every Lebesgue measurable set $E,$ $$\mu_*(M \cap E) = 0, \qquad \mu^*(M \cap E) = \overline\mu(E).$$
 A generalisation of the Lebesgue measure is the [[Lebesgue-Stieltjes Measures]]
+
+# In $\Bbb R^d$
+
+**Prop:** Let $A$ be a Lebesgue measurable subset of $\Bbb R^d$. Then
+- $\lambda(A) = \inf\{\lambda(U) \mid U \in \tau \land A\subseteq U\}$, and 
+- $\lambda(A) = \sup\{\lambda(K) \mid K \text{ is compact }\land K\subseteq A\}$. 
+
+**Lemma:** Each open subset of $\Bbb R^d$ is the union of a countable disjoint collection of half-open cubes, each of which is th form given by $$\{(x_1, \dots, x_d) \mid j_i 2^{-k} \le x_i < (j_i+1)2^{-k} \text{ for }i = 1,\dots, d\}$$for some integers $j_1,\dots, j_d$ and some positive integer $k$.
+
+**Prop:** Lebesgue measure is the only measure on $(\Bbb R^d, {\cal B}(\Bbb R^d))$ that assigns to each $d$-dimensional interval, or even to each half-open cube of the form given $$\{(x_1, \dots, x_d) \mid j_i 2^{-k} \le x_i < (j_i+1)2^{-k} \text{ for }i = 1,\dots, d\}$$for some integers $j_1,\dots, j_d$ and some positive integer $k$, its volume.
+
+**Prop:** Lebesgue outer measure $\lambda^*$ on $\Bbb R^d$ is translation-invariant, in the sense that if $x\in \Bbb R^d$ and if $A\subseteq \Bbb R^d$, then $\lambda^*(A) = \lambda^*(A+x)$. Furthermore, a subset $B$ of $\Bbb R^d$ is Lebesgue measurable iff $B+x$ is Lebesgue measurable.
+
+**Prop:** Let $\mu$ be a non-zero measure on $(\Bbb R^d, {\cal B}(\Bbb R^d))$ that is translation invariant and that is finite on the bounded Borel subsets of $\Bbb R^d$. Then there is a positive number $c$ such that $\mu(A) = c\lambda(A)$ holds for each $A\in {\cal B}(\Bbb R^d)$.
+
+Lebesgue measure on $(\Bbb R^d, {\cal M}_\lambda)$ is the [[Extension of Measures#Extension, Completion and Approximation|completion]] of the Lebesgue measure on $(\Bbb R^d, {\cal B}(\Bbb R^d))$. 

@@ -5,12 +5,12 @@ tags:
 Subjects: [[Measure Theory]]
 Links: [[Rings and Algebras of Sets]]
 
-**Def:** A *set function* is a function whose domain is a family of sets. An extended eral values set $\mu$ defined on a family $\cal E$ of sets is *additive* if, whenever $E, F, E\cup F \in \cal E$ and $E\cap F = \varnothing$, then $$\mu(E \cup F) = \mu(E) + \mu(F).$$An extended real valued set function $\mu$  defined on a set $\cal E$ is *finitely additive*, if for every disjoint family $\{E_1, \dots, E_n\}$ of sets in $\cal E$ whose union is also in $\cal E$, we have $$\mu\left(\bigcup_{i = 1}^n E_i\right) = \sum_{i = 1}^n\mu(E_i).$$An extended real valued set function $\mu$ defined on a class $\cal E$ is $\sigma$*-additive* if, for every disjoint sequence $\{E_n: n < \omega\}$ of sets in $\cal E$ whose union is also $\cal E$, we have $$\mu\left(\bigcup_{n < \omega} E_n\right) = \sum_{n = 1}^\infty\mu(E_n).$$
+**Def:** A *set function* is a function whose domain is a family of sets. An extended real values set $\mu$ defined on a family $\cal E$ of sets is *additive* if, whenever $E, F, E\cup F \in \cal E$ and $E\cap F = \varnothing$, then $$\mu(E \cup F) = \mu(E) + \mu(F).$$An extended real valued set function $\mu$  defined on a set $\cal E$ is *finitely additive*, if for every disjoint family $\{E_1, \dots, E_n\}$ of sets in $\cal E$ whose union is also in $\cal E$, we have $$\mu\left(\bigcup_{i = 1}^n E_i\right) = \sum_{i = 1}^n\mu(E_i).$$An extended real valued set function $\mu$ defined on a class $\cal E$ is $\sigma$*-additive* if, for every disjoint sequence $\{E_n: n < \omega\}$ of sets in $\cal E$ whose union is also $\cal E$, we have $$\mu\left(\bigcup_{n < \omega} E_n\right) = \sum_{n = 1}^\infty\mu(E_n).$$
 **Def:** A *measure* is an extended real valued, non negative, and $\sigma$-additive set function $\mu$, defined on a ring $\cal R$, and such that $\mu(\varnothing) = 0$. 
 
 **Prop:** If $\mu$ is an extended real valued, non negative, and additive set function defined on a ring $\cal R$, and such that exists a $E \in \cal R$ such that $\mu(E) < \infty$, then $\mu(\varnothing) = 0$. 
 
-**Def:** If $\mu$ is a measure on a ring $\cal R$, a set $E \in \cal R$ is said to have *finite measure* if $\mu(E) < \infty$; the measure of $E$ is $\sigma$-finite if there exists a sequence $\{E_n: n < \omega\}$ of sets in $R$ such that $E \subseteq \bigcup_{n < \omega} E_n$ and $\mu(E_n) < \infty$ for all $n < \omega$. 
+**Def:** If $\mu$ is a measure on a ring $\cal R$, a set $E \in \cal R$ is said to have *finite measure* if $\mu(E) < \infty;$ the measure of $E$ is $\sigma$-finite if there exists a sequence $\{E_n: n < \omega\}$ of sets in $R$ such that $E \subseteq \bigcup_{n < \omega} E_n$ and $\mu(E_n) < \infty$ for all $n < \omega$. 
 
 **Prop:** If $\cal E$ is a non empty family of sets and $\mu$ a measure on $\cal R(E)$ such that if $E \in \cal E$, then $\mu(E) < \infty$, then $\mu$ is finite on $\cal R(E)$.
 
