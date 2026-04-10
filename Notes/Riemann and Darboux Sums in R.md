@@ -17,37 +17,26 @@ A _tagged partition_ is just a partition where at each $I_i$ you can pick a _tag
 
 ## Definition of Riemann Sums
 
-A _**Reimann Sum**_ of a function $f:I \to \mathbb{R},$ is just:
-
-$$ R(f, \dot{P})=\sum_{i=1}^nf(t_i)\Delta x_i $$
+A _**Reimann Sum**_ of a function $f:I \to \mathbb{R},$ is just: $$ R(f, \dot{P})=\sum_{i=1}^nf(t_i)\Delta x_i $$
 ## Definitions of Darboux Sums
 
-A lower or upper sum of a function $f:I \to \mathbb{R}$, is dependant on a partition $\mathcal{P}$, and on each subinterval of $\mathcal{P}$:
+A lower or upper sum of a function $f:I \to \mathbb{R}$, is dependant on a partition $\mathcal{P}$, and on each subinterval of $\mathcal{P}$: $$ m_k = \inf_{x\in I_k} f(x) \text{ and, } M_k = \sup_{x\in I_k} f(x) $$
 
-$$ m_k = \inf_{x\in I_k} f(x) \text{ and, } M_k = \sup_{x\in I_k} f(x) $$
-
-The lower and upper sums are defined as follows:
-
-$$ L(f,\mathcal{P}) := \sum_{k=1}^nm_k\Delta x_k \text{ and, } U(f;\mathcal{P}) :=\sum_{k=1}^nM_k\Delta x_k $$
+The lower and upper sums are defined as follows: $$ L(f,\mathcal{P}) := \sum_{k=1}^nm_k\Delta x_k \text{ and, } U(f;\mathcal{P}) :=\sum_{k=1}^nM_k\Delta x_k $$
 
 In general it’s obvious that $L(f;\mathcal{P}) \leq U(f; \mathcal{P})$
 
 _**Definition:**_ A _refinement_ of a partition $\mathcal{P}$, is a partition $\mathcal{Q}$, such that $\mathcal{P} \subseteq \mathcal{Q}$.
 
-_**Lemma:**_ If $\mathcal{P}'$ is a refinement of a partition $\mathcal{P}$, and has the corresponding relation with the lower and upper sums:
-
-$$ L(f,\mathcal{P}) \leq L(f,\mathcal{P}')\leq U(f,\mathcal{P}') \leq U(f, \mathcal{P}) $$
+_**Lemma:**_ If $\mathcal{P}'$ is a refinement of a partition $\mathcal{P}$, and has the corresponding relation with the lower and upper sums: $$ L(f,\mathcal{P}) \leq L(f,\mathcal{P}')\leq U(f,\mathcal{P}') \leq U(f, \mathcal{P}) $$
 
 _**Lemma:**_ For any two partitions $\mathcal{P}_1$ and $\mathcal{P}_2$, then: $L(f, \mathcal{P}_1) \leq U(f, \mathcal{P}_2)$
 
 Since the sets $\{L(f,\mathcal{P}) : \mathcal{P}\in\wp_I \}$ and $\{U(f,\mathcal{P}) : \mathcal{P}\in\wp_I \}$ are bounded thus, there exists their supremum and infimum.
 
-The lower integral of $f$ is:
+The lower integral of $f$ is: $$ L(f) =\underline{\int_I}f= \sup\{L(f;\mathcal{P}) : \mathcal{P}\in\wp_I \} $$
 
-$$ L(f) =\underline{\int_I}f= \sup\{L(f;\mathcal{P}) : \mathcal{P}\in\wp_I \} $$
-
-The upper integral of $f$ is:
-
-$$ U(f) =\overline{\int_I}f= \inf\{U(f;\mathcal{P}) : \mathcal{P}\in\wp_I \} $$
-
+The upper integral of $f$ is: $$ U(f) =\overline{\int_I}f= \inf\{U(f;\mathcal{P}) : \mathcal{P}\in\wp_I \} $$
 In general, $L(f) \leq U(f)$
+
+The existence of $L(f)$ and $U(f)$ are easy to be seen since the set of all partitions of the interval $I$ is a directed set, and the nets of $L(f, P)$ and $U(f, P)$ are monotone, and $\Bbb R$ is complete, hence their [[Convergence of Nets|limits]] must exist. 
