@@ -3,7 +3,7 @@ tags:
   - MeasureTheory
 ---
 Subjects: [[Measure Theory]]
-Links: [[Measure Spaces and Measurable Spaces]], [[Measurable Functions]]
+Links: [[Measure Spaces and Measurable Spaces]], [[Measurable Functions]], [[Lebesgue Measure]]
 
 **Def:** Let $(X, {\scr A})$ be a measurable space. We will denote by $\cal S$ the collection of all simple real-valued $\scr A$-measurable functions on $X$ and by $\cal S_+$ the collection of nonnegative functions in $\cal S$.
 
@@ -87,3 +87,15 @@ Moreover, we know that  $$\int f(y)\,\nu(dy) = \int\left(\int f(y)K(x, dy)\right
 **Prop:** Suppose that $K$ is a kernel form $(X, {\scr A})$  to $(Y, {\scr B})$, that $\mu$ is a finte measure on $(X, {\scr A})$, that $\sup\{K(x, Y) \mid x\in X\}$ is finte, and that $f: Y \to \overline{\Bbb R}$ is bounded and $\scr B$-measurable. We define the measure $\nu: {\scr B}\to [0,\infty]$ to be $\nu(B) := \int K(x, B)\,\mu(dx)$. Then
 - $x\mapsto \int  f(y)K(x, dy)$ is a bounded $\scr A$-measurable function on $X$, and
 $$\int f(y)\,\nu(dy) = \int\left(\int f(y)K(x, dy)\right)\,\mu(dx).$$
+
+# Complex Valued Functions
+
+**Def:** Let $(X, {\scr A}, \mu)$ be a measure space. A complex-valued function $f$ on $X$ is *integrable* if its real and imaginary parts, $\Re(f)$ and $\Im(f)$, are integrable; if $f$ is integrable, then its *integral* is defined by $$\int f\, d\mu := \int \Re(f)\, d\mu + i\int \Im(f)\, d¸mu. $$
+**Prop:** Let $(X, {\scr A},\mu)$ be a measure space, and let $f$ and $g$ be complex-valued integrable functions on $X$, and let $\alpha\in\Bbb C$. Then
+- $\alpha f$ and $f+g$ are integrable,
+- $\int \alpha f\, d\mu = \alpha \int f\, d\mu$,
+- $\int (f+g)\, d\mu = \int f\, d\mu + \int g\, d\mu$, and
+
+**Prop:** Let $(X, {\scr A}, \mu)$ be a measure space, and let $f: X\to \Bbb C$ be $\scr A$-measurable function. Then $f$ is integrable iff $|f|$ is integrable. If these functions are integrable, then $$\left|\int f\, d\mu\right| \le \int |f|\, d\mu.$$
+**Lebesgue's Dominated Convergence Theorem:** Let $(X, {\scr A},  \mu)$ be a measure space. let $g:X \to [0,\infty]$ be an integrable function on $X$, and let $f$ and $f_n: X \to \Bbb C$ be a sequence of $\scr A$-measurable functions on $X$ such that $$f(x) = \lim_{n\to\infty}f_n(x),\quad \text{and} \quad |f_n(x)| \le g(x) $$holds at $\mu$-almost every $x$ in $X$. Then for each $n< \omega$, $f_n$ is integrable, $f$ is also integrable, and $$\int f\, d\mu = \lim_{n\to \infty}\int f_n\, d\mu. $$
+**Lebesgue's Dominated Convergence Theorem V.2.:** Let $(X, {\scr A},  \mu)$ be a measure space. let $g:X \to [0,\infty]$ be an integrable function on $X$, and let $f$ and $f_n: X \to \Bbb C$ be a family of functions with $t\in[0,\infty)$ of $\scr A$-measurable functions on $X$ such that $$f(x) = \lim_{t\to\infty}f_t(x),\quad \text{and} \quad |f_t(x)| \le g(x) $$for $t\in [0, \infty)$ hold at $\mu$-almost every $x$ in $X$. Then for each $n< \omega$, $f_n$ is integrable, $f$ is also integrable, and $$\int f\, d\mu = \lim_{t\to \infty}\int f_t\, d\mu. $$

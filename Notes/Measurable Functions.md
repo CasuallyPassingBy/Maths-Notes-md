@@ -69,5 +69,26 @@ are equivalent.
 
 # General Measurable Functions
 
-**Def:** Let $(X, {\scr A})$ and $(Y, {\scr B})$ be measurable spaces. A function $f:X \to Y$ is *measurable with respect to $\scr A$ and $\scr B$* if for each $B\in \scr B$ the set $f^{-1}[B]$ belongs to $\scr A$. Instead of saying that $f$ is measurable with respect to $\scr A$ and $\scr B$, we will say that $f$ is a *measurable function* from $(X, {\scr A})$ to $(Y, {\scr B})$, that $f: (X, {\scr A})\to (Y, {\scr B})$ is *measurable*, or simply that $f$ is a $({\scr A,\scr B})$-measurable. 
+**Def:** Let $(X, {\scr A})$ and $(Y, {\scr B})$ be measurable spaces. A function $f:X \to Y$ is *measurable with respect to $\scr A$ and $\scr B$* if for each $B\in \scr B$ the set $f^{-1}[B]$ belongs to $\scr A$. Instead of saying that $f$ is measurable with respect to $\scr A$ and $\scr B$, we will say that $f$ is a *measurable function* from $(X, {\scr A})$ to $(Y, {\scr B})$, that $f: (X, {\scr A})\to (Y, {\scr B})$ is *measurable*, or simply that $f$ is a $({\scr A,\scr B})$-measurable. Note that if the $\sigma$-algebra in the codomain is obvious we are gonna denote it as $\scr A$-measurable, or simply measurable when it is understood. 
 
+This definition is completely analogous to [[Continuous Functions and Homeomorphims|continuous functions in topological spaces]]. 
+
+**Prop:** Let $(X, {\scr A})$, $(Y, {\scr B})$, and $(Z, {\scr C})$ be measurable spaces, and let $f: (X, {\scr A}) \to (Y, {\scr B})$ and $g: (Y, {\scr B}) \to (Z, {\scr C})$ be measurable. Then $g\circ f: (X, {\scr A}) \to (Z, {\scr C})$ is measurable.
+
+**Prop:** Let $(X, {\scr A})$ and $(Y, {\scr B})$ be measurable spaces, and let ${\scr B}_0\subseteq {\cal P}(Y)$ such that $\sigma({\scr B}_0)= \scr B$. Then a function $f:X \to Y$ is $({\scr A}, {\scr B})$-measurable iff $f^{-1}[B] \in \scr A$ holds for each $B\in {\scr B}_0$.
+
+**Def:** Let ${\cal B}(\overline{\Bbb R})$ be the collection of all subsets of $\overline{\Bbb R}$ of the form $B\cup C$, where $B\in {\cal B}(\Bbb R)$ and $C\subseteq\{\pm\infty\}$. 
+
+**Prop:** Let $(X, {\scr A})$ be a measurable space, and let $f: X \to \overline{\Bbb R}$ be a function. Then $f$ is ${\scr A}$-measurable in the usual sense iff it is $({\scr A}, {\cal B}(\overline{\Bbb R}))$-measurable.
+
+**Example:** Let $(X, {\scr A})$ be a measurable space, and let $f: X \to \Bbb R^d$. If $f= (f_1,\dots, f_d)$, then $f$ is $({\scr A}, {\cal B}(\Bbb R^d))$-measurable iff $f_1, \dots, f_d$ are $\scr A$-measurable. We see that the class of measurable function from $(X, {\scr A})$ to $(\Bbb R^d, {\cal B}(\Bbb R^d ))$ is a vector space that is closed under limits.
+
+**Obs:** If we consider the space $\Bbb R^2$, and identify it with the set $\Bbb C$ of complex numbers. We see that a function $f:X \to \Bbb C$ is $({\scr A}, {\cal B}(\Bbb C))$-measurable iff its real and imaginary parts are ${\scr A}$-measurable, and that collection of measurable functions from $(X, {\scr A})$ to $(\Bbb C,{\cal B}(\Bbb C))$ is a real vector space closed under limits. We can show that the product of two measurable complex-valued function on $X$ is measurable; thus we can extend that the space of measurable functions from $(X, {\scr A})$ to $(\Bbb C,{\cal B}(\Bbb C))$ is a complex vector space closed under limits.
+
+**Prop:** Let $(X, {\scr A})$ be a measurable space, and let $f, g:X \to \Bbb C$ be measurable. If $g$ does not vanish, then $f/g$ is measurable. 
+
+## Image Measures
+
+**Def:** Let $(X, {\scr A},\mu)$ be a measure space, let $(Y, {\scr B})$ be a measurable space and let $f: X\to Y$ be measurable. We define a a function $\mu f^{-1}: {\scr B}\to [0,\infty]$ by letting $\mu f^{-1}(B) = \mu(f^{-1}[B])$ for each $B\in \scr B$. We see that $\mu f^{-1}$ is a measure on $(Y, {\scr B})$. The measure $\mu f^{-1}$ is sometimes called the *image of $\mu$ under $f$.* Another notation for $\mu f^{-1}$ is $\mu \circ f^{-1}$.
+
+**Prop:** Let $(X, {\scr A},\mu)$ be a measure space, let $(Y, {\scr B})$ be a measurable space and let $f: X\to Y$ be measurable. Let $g: Y\to \overline{\Bbb R}$ be a $\scr B$-measurable function. Then $g$ is $\mu f^{-1}$ integrable iff $g\circ f$ is $\mu$-integrable. If these functions are integrable, then $$\int_Y g \ d(\mu f^{-1}) = \int_X (g\circ f)\, d\mu. $$
