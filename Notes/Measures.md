@@ -10,7 +10,7 @@ Links: [[Rings and Algebras of Sets]]
 
 **Prop:** If $\mu$ is an extended real valued, non negative, and additive set function defined on a ring $\cal R$, and such that exists a $E \in \cal R$ such that $\mu(E) < \infty$, then $\mu(\varnothing) = 0$. 
 
-**Def:** If $\mu$ is a measure on a ring $\cal R$, a set $E \in \cal R$ is said to have *finite measure* if $\mu(E) < \infty;$ the measure of $E$ is $\sigma$-finite if there exists a sequence $\{E_n: n < \omega\}$ of sets in $R$ such that $E \subseteq \bigcup_{n < \omega} E_n$ and $\mu(E_n) < \infty$ for all $n < \omega$. 
+**Def:** If $\mu$ is a measure on a ring $\cal R$, a set $E \in \cal R$ is said to have *finite measure* if $\mu(E) < \infty;$ the measure of $E$ is $\sigma$-finite if there exists a sequence $\{E_n: n < \omega\}$ of sets in $R$ such that $E \subseteq \bigcup_{n < \omega} E_n$ and $\mu(E_n) < \infty$ for all $n < \omega$. If for each $E\in \cal R$ with $\mu(E) =\infty$ there exists $F\in \cal R$ with $F\subseteq E$ and $0<\mu(F)<\infty$, $\mu$ is called *semifinite.*
 
 **Prop:** If $\cal E$ is a non empty family of sets and $\mu$ a measure on $\cal R(E)$ such that if $E \in \cal E$, then $\mu(E) < \infty$, then $\mu$ is finite on $\cal R(E)$.
 

@@ -25,8 +25,6 @@ Links: [[Measure Spaces and Measurable Spaces]], [[Measurable Functions]], [[Mea
 
 **Prop:** Let $(X, {\scr A}, \mu)$ be a measure space, and let $f$ and $f_0,f_1,f_2, \dots$ be extended real-valued $\scr A$-measurable functions on $X$. If $(f_n)_{n<\omega}$ converges to $f$ in measure, then there is subsequence of $(f_n)_{n<\omega}$ that converges to $f$ almost everywhere.
 
-**Prop:** Let $(X, {\scr A}, \mu)$ be a finite measure space, $f, f_0, f_1, f_2,\dots$ and a$g,g_0, g_1, g_2,\dots$ be real-valued $\scr A$-measurable function on $X$. If $\mu$ is finite, if $(f_n)_{n<\omega}$ converges to $f$ in measure, and if $(g_n)_{n<\omega}$ converges to $g$ in measure, then $(fg)_{n<\omega}$ converges to $fg$ in measure. 
-
 **Prop:** Let $(X, {\scr A}, \mu)$ be a finite measure space, and let $f$ and $f_0,f_1,f_2, \dots$ be extended real-valued $\scr A$-measurable functions on $X$. The sequence $(f_n)_{n<\omega}$ converges to $f$ in measure iff if each subsequence of $(f_n)_{n<\omega}$ has a subsequence that converges to $f$ almost everywhere. 
 
 **Def:** Let $(X, {\scr A}, \mu)$ be a measure space, and let $f$ and $f_0,f_1,f_2, \dots$ be extended real-valued $\scr A$-measurable functions on $X$. The sequence $(f_n)_{n<\omega}$ *converges to $f$ almost uniformly* if for each $\varepsilon >0$ there is a $B\in {\scr A}$ such that $\mu(X\setminus B) < \varepsilon$, and $f_n\to f$ uniformly (a.e.) on $B$. 
@@ -39,10 +37,14 @@ Links: [[Measure Spaces and Measurable Spaces]], [[Measurable Functions]], [[Mea
 
 **Obs:** In the proof of Egoroff's Theorem we prove a related fact that convergence in measure implies, in finite measure sets, almost uniform convergence.
 
+**Prop:** Let $(X, {\scr A}, \mu)$ be a finite measure space, $f, f_0, f_1, f_2,\dots$ and a$g,g_0, g_1, g_2,\dots$ be real-valued $\scr A$-measurable function on $X$. If $\mu$ is finite, if $(f_n)_{n<\omega}$ converges to $f$ in measure, and if $(g_n)_{n<\omega}$ converges to $g$ in measure, then $(fg)_{n<\omega}$ converges to $fg$ in measure. 
+
 **Def:** Let $(X, {\scr A}, \mu)$ be a measure space, and let $f$ and $f_0,f_1,f_2, \dots$ belong to ${\scr L}^1(X, {\scr A},\mu, \Bbb R)$. Then $(f_n)_{n<\omega}$ *converges to $f$ in mean* if $$\lim_{n\to \infty}\int |f_n-f|\, d\mu = 0.$$
 **Prop:** Let $(X, {\scr A}, \mu)$ be a measure space, and let $f$ and $f_0,f_1,f_2, \dots$ belong to ${\scr L}^1(X, {\scr A}, \mu, \Bbb R)$. If $(f_n)_{n<\omega}$ converges to $f$ in mean, then $(f_n)_{n<\omega}$ converges to $f$ in measure. 
 
-**Prop:** Let $(X, {\scr A}, \mu)$ be a measure space, and let $f$ and $f_0,f_1,f_2, \dots$ belong to ${\scr L}^1(X, {\scr A}, \mu, \Bbb R)$. If $(f_n)$ converges to $f$ almost everywhere or in measure, and if there is a nonnegative extended real-valued integrable function $g$ such that $$|f_n| \le g \text{ (for }n <\omega),\quad |f| \le g$$ hold almost everywhere, then $(f_n)_{n<\omega}$ converges to $f$ in mean.
+**Prop:** Let $(X, {\scr A}, \mu)$ be a measure space, and let $f$ and $f_0,f_1,f_2, \dots$ belong to ${\scr L}^1(X, {\scr A}, \mu, \Bbb R)$. If $(f_n)_{n<\omega}$ converges to $f$ almost everywhere or in measure, and if there is a nonnegative extended real-valued integrable function $g$ such that $$|f_n| \le g \text{ (for }n <\omega),\quad |f| \le g$$ hold almost everywhere, then $(f_n)_{n<\omega}$ converges to $f$ in mean.
 
 **Prop:** Let $(X, {\scr A}, \mu)$ be a measure space, and let $f$ and $f_0,f_1,f_2, \dots$ belong to ${\scr L}^1(X, {\scr A}, \mu, \Bbb R)$. If $(f_n)_{n<\omega}$ converges to $f$ in mean so fast that $$\sum_{n = 0}^\infty \int |f_n-f|\, d\mu <\infty, $$then $(f_n)_{n<\omega}$ converges to $f$ almost everywhere. 
+
+**Prop:** Suppose $(X, {\scr A}, \mu)$ is a finite measure space. Let $T := [t_0,\infty)$, $\{f_t: X \to \Bbb R\mid t \in T\}$ is a collection of $\scr A$-measurable function, and $f:X \to \Bbb R$ is a $\scr A$-measurable function such that $\lim f_t(x) = f(x)$ almost everywhere. If for each $n<\omega$, defined $g_n(x) := \sup_{t\in [n,\infty)}|f_t(x)-f(x)|$ is measurable, then $(f_t)_{t\in T}$ converges to $f$ almost uniformly. 
 

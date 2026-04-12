@@ -4,22 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "95c61b819f1b485e",
+        "id": "f6b9125415f09a07",
         "type": "tabs",
         "children": [
           {
-            "id": "f3e23e7b1b0a4ac9",
+            "id": "f0d0ccd09f0f3747",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modes of Convergence using Measure.md",
+                "file": "Lp spaces.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Modes of Convergence using Measure"
+              "title": "Lp spaces"
+            }
+          },
+          {
+            "id": "2b88c84baafe2e76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Central Hub.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Central Hub"
+            }
+          },
+          {
+            "id": "cd0105600f4e0664",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bounded Linear Operators.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Bounded Linear Operators"
             }
           }
         ]
@@ -193,13 +223,25 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "f3e23e7b1b0a4ac9",
+  "active": "f0d0ccd09f0f3747",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Central Hub.md",
+    "Lp spaces.md",
+    "Bounded Linear Operators.md",
+    "Dual Vector Spaces.md",
+    "Bounded Function Spaces.md",
+    "ellp spaces.md",
+    "Convergence of Random Variables.md",
+    "Normed Vector Spaces.md",
+    "Metric Spaces.md",
+    "Metric and Normed Spaces.md",
+    "Series In Banach Spaces.md",
+    "Measures.md",
+    "Measure Theory.md",
     "Modes of Convergence using Measure.md",
+    "Untitled.md",
     "Untitled 1.md",
     "Limits of Sets.md",
-    "Measure Theory.md",
     "Scalar Integral on Measure Spaces.md",
     "Measurable Functions.md",
     "Real Analysis.md",
@@ -208,19 +250,7 @@
     "Riemann Integral in R.md",
     "Riemann and Darboux Sums in R.md",
     "Interesting Stuff I want continue Learning.md",
-    "Measures.md",
     "Hamiltonian Vector Fields.md",
-    "Integrable Functions on Measure Spaces.md",
-    "Convergence of Measurable Functions.md",
-    "Dynkin Classes.md",
-    "Set Theory.md",
-    "Pi-System.md",
-    "Extension of Measures.md",
-    "Inner Measures.md",
-    "Lebesgue Measure.md",
-    "Outer Measures.md",
-    "Rings and Algebras of Sets.md",
-    "Borel Sets.md",
     "Pasted image 20260306011155.png",
     "Pasted image 20260211174214.png",
     "Pasted image 20260128171751.png",

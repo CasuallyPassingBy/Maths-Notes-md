@@ -3,7 +3,7 @@ tags:
   - ProbabilityTheory
 ---
 Subjects: [[Probability Theory]]
-Links: [[Random Variables]], [[Lp spaces]], [[Convergence of Measurable Functions]]
+Links: [[Random Variables]], [[Lp spaces]], [[Convergence of Measurable Functions]], [[Lp spaces]]
 
 Let $X_1, \dots, X_n, \dots$ be a sequence of random variables. There are a lot of types of convergence
 
@@ -34,7 +34,7 @@ This type of convergence is also called $L^1$ *convergence* and it's denoted as 
 ## Convergence in Mean Squared
 
 The sequence of random variables $X_n$ converges to $X$ in *mean squared* if $$\lim_{n \to \infty} E|X_n - X|^2 = 0$$
-This type of convergence is also called $L^1$ *convergence* and it's denoted as $X_n \stackrel{L^2}{\longrightarrow}X$
+This type of convergence is also called $L^2$ *convergence* and it's denoted as $X_n \stackrel{L^2}{\longrightarrow}X$
 
 
 ## Convergence in $L^p$

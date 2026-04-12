@@ -7,9 +7,7 @@ Subjects: [[Metric and Normed Spaces]], [[Topology on Metric Spaces]]
 **Def:** A metric over the non-empty set $X$ is a function $d:X\times X \to \Bbb R$ that satisfies for any ${x, y,z \in X}$:
 
 M1) for any $d(x,y) = 0$ iff $x= y$
-
 M2) $d(x,y) = d(y,x)$
-
 M3) $d(x,z) \le d(x, y)+d(y,z)$
 
 The pair $(X, d)$ is called a _metric space_
@@ -17,7 +15,6 @@ The pair $(X, d)$ is called a _metric space_
 Having that $d(x, x) =0$, is a requirement for any of the generalized notions of metric
 
 If we have that a function $d: X \times X \to \Bbb R$, that fails to any of the requirments it is called with another name:
-
 - If M1) fails we call $d$ a pseudo-metric
 - If M2) fails we call $d$ a quasi-metric
 - If M3) fails we call $d$ a semi-metric

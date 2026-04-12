@@ -4,7 +4,7 @@ tags:
   - FunctionalAnalysis
 ---
 Subjects: [[Metric and Normed Spaces]], [[Functional Analysis]]
-Links: [[Normed Vector Spaces]], [[Complete Metric Spaces]], [[Continuity on Metric Spaces]], [[Norm of Linear Operators for finite dimensions]], [[Space of Linear Transformations]], [[Compactness in Metric Spaces]]
+Links: [[Normed Vector Spaces]], [[Complete Metric Spaces]], [[Continuity on Metric Spaces]], [[Norm of Linear Operators for finite dimensions]], [[Space of Linear Transformations]], [[Compactness in Metric Spaces]], [[Dual Vector Spaces]]
 
 If $V=(V, \|\cdot\|_V)$ and $W= (W, \|\cdot\|_W)$ be normed spaces and $T:V\to W$a linear transformation. Then all the following are equivalents:
 - $T$ is continuous
@@ -23,7 +23,7 @@ and we define
 $$
 \|T\|_{{\cal B}(V, W)} := \sup_{\substack{v \in V \\ v \ne 0}} \frac{\|Tw\|_W}{\|v\|_V}
 $$
-We can see that ${\cal B}(V, W)$ is a vector space, and $\| \cdot \|_{{\cal B}(V, W)}$ is a norm, thus, $({\cal B}(V, W), \|\cdot \|_{{\cal B}(V, W)})$ is a normed space. In the case where $W = V$, then it is denoted as $\mathcal B(V)$. If $W$ is the field, then it is denoted as $V^*$ and it is called the *dual space of $V$*, and we call the elements of $V^*$ linear functionals. 
+We can see that ${\cal B}(V, W)$ is a vector space, and $\| \cdot \|_{{\cal B}(V, W)}$ is a norm, thus, $({\cal B}(V, W), \|\cdot \|_{{\cal B}(V, W)})$ is a normed space. In the case where $W = V$, then it is denoted as $\mathcal B(V)$. If $W$ is the field, then it is denoted as $V^*$ and it is called the *dual space of $V$* or *topological dual of $V$,* and we call the elements of $V^*$ continuous linear functionals. 
 
 We can see that, that since every $T$ is linear then we can divide by the norm of the vector and we get that $v/\|v\|_V \in S_V$
 $$

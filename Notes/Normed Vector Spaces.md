@@ -13,7 +13,8 @@ N3) $\|v+w\| \le \|v\| +\|w\|$ for any $v,w\in V$
 
 A **normed space** is vector space $V$ with a norm $\|\cdot \|$, usually denoted as $(V, \|\cdot\|)$, or simply $V$ where we don’t need to specify the norm.
 
-
+If we have a function $\|\cdot \|: V \to \Bbb R$ that fails any of the requirements is called with another name:
+- If N1) fails we call $\|\cdot \|$ a seminorm.
 
 **Prop:** Every normed space $(V, \|\cdot\| )$ is a metric space with a metric given by$$ d(v,w) = \|v-w\| $$
 We can see that every norm induces a metric, but a metric is not always induced by a metric, namely, the discrete metric. This metric is translation invariant, and absolutely homogenuous.

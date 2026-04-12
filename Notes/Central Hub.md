@@ -20,7 +20,7 @@ We have all the subjects:
 - [[Metric and Normed Spaces]]
 - [[Complex Analysis]]
 - [[Fourier Analysis]]
-- [[Measure Theory]]
+- [[Measure Theory]] (In progress)
 - [[Functional Analysis]] (Pending)
 ## Algebra
 - [[Linear Algebra]]
@@ -30,10 +30,10 @@ We have all the subjects:
 - [[Ring Theory]]
 - [[Field Theory]]
 - [[Module Theory]]
-- [[Clifford Algebra (Subject)]]
+- [[Clifford Algebra (Subject)]] (On Hold)
 
 ## Differential Equations
-- [[Ordinary Differential Equations]]
+- [[Ordinary Differential Equations]] (On Hold)
 - [[Partial Differential Equations]] (Pending)
 ## Applied
 - [[Numerical Analysis]]
@@ -43,6 +43,7 @@ We have all the subjects:
 - [[Statistics]]
 - [[Stochastic Processes]] (Pending)
 - [[Stochastic Simulation]] (Pending)
+- [[Linear Programming]] (Pending)
 - [[Nonlinear Programming]] (Pending)
 ## Advanced Topics
 - [[Differential Geometry]]
@@ -53,7 +54,7 @@ We have all the subjects:
 - [[Special Numbers]]
 - [[Special Notations]]
 ## Physics
-- [[Classical Mechanics]]
+- [[Classical Mechanics]] (On Hold)
 - [[Electrodynamics]] (Pending)
 - [[Quantum Mechanics]] (Pending)
 ## Computer Science
@@ -62,12 +63,12 @@ We have all the subjects:
 - [[Information Theory]] (Pending)
 - [[Artificial Intelligence]] (Pending)
 	- [[Machine Learning]] (Pending)
-		- [[Neural Networks]]
-- [[Digital Circuits]]
+		- [[Neural Networks]] (In progress)
+- [[Digital Circuits]] (In progress)
 ## Miscellaneous
 - [[Fractional Calculus]]
 - [[Umbral calculus]]
 	- [[Discrete Calculus]]
 - [[Finite Operator Calculus]]
 - [[Useful Identities]]
-- [[Macroeconomics]]
+- [[Macroeconomics]] (On Hold)
