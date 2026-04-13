@@ -48,4 +48,6 @@ The space $L^p(X, {\scr A},\mu )$ is defined to be the quotient of ${\scr L}^\in
 **Prop:** Let $(X, {\scr A}, \mu)$ be a finite measure space, and let $f$ be an ${\scr A}$-measurable function on $X$. Then the $f\in {\scr L}^\infty(X, {\scr A}, \mu)$ iff
 - $f$ belongs to ${\scr L}^p(X, {\scr A}, \mu)$ for each $1\le p<\infty$, and
 - $\sup\{\|f|\|_p \mid 1\le p<\infty\}$ is finite.
-Additionally, we see that $\|f\|_{\infty} := \lim\limits_{p\to\infty} \|f\|_p$. 
+Additionally, we know that $\lim\limits_{p\to\infty} \|f\|_p = \|f\|_\infty$. 
+
+**Jensen's Inequality:** Let $(X, {\scr A}, \mu)$ be a probability space. Suppose $\varphi:\Bbb R\to\Bbb R$ is a convex. If $f\in{\scr L}^1(X. {\scr A},\mu,\Bbb R)$, then $$\varphi\left(\int f\, d\mu\right ) \le \int \varphi \circ f\, d\mu.$$

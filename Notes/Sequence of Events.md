@@ -3,7 +3,7 @@ tags:
   - ProbabilityTheory
 ---
 Subjects: [[Probability Theory]]
-Links: [[Probability Measure]]
+Links: [[Probability Measure]], [[Limits of Sets]]
 
 ********Def:******** Let a sequence of events $(A_n ) _{n \in \Bbb N}$, is defined the limit superior and the limit inferior as
 $$ \limsup_{n \to \infty} A_n :=\bigcap_{n = 1}^\infty \bigcup_{k =n }^\infty A_k $$

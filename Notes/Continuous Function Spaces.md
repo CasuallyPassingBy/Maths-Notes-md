@@ -41,21 +41,18 @@ $$ \|f\|_\infty = \max_{a\le x\le b} |f(x)| $$
 depending on what we are working on we might even work on $L^p$ spaces which depend on Measure Theory and stuff
 
 ### Hölder’s Inequality for Integrals
-
 Let $p, q$ be harmonic conjugates. Let $f, g \in {\cal C}^0[a,b]$, then we get that
 
 $$ \|fg\|_1 \le \|f\|_p \|g\|_q $$
 
 ### Minkowski’s Inequalities for Integrals
-
-For $p \in [1,\infty]$, and $f,g \in \cal C^0[a,b]$, then
+For $p \in [1,\infty]$, and $f,g \in {\cal C}^0[a,b]$, then
 
 $$ \|f+g\|_p \le \|f\|_p +\|g\|_p $$
 
-Then for $p\in [1, \infty]$, then $(\cal C^0[a,b], \|\cdot\|_p)$ is a normed space. We can compact the notation to ${\cal C^0_p[a,b]}$ to represent $(\cal C^0[a,b], \|\cdot\|_p)$, and if we write $\cal C^0[a,b]$ referers to $(\cal C^0[a,b], \|\cdot\|_\infty)$
+Then for $p\in [1, \infty]$, then $({\cal C}^0[a,b], \|\cdot\|_p)$ is a normed space. We can compact the notation to ${\cal C}^0_p[a,b]$ to represent $(\cal C^0[a,b], \|\cdot\|_p)$, and if we write $\cal C^0[a,b]$ refers to $({\cal C}^0[a,b], \|\cdot\|_\infty)$
 
 We can see some properties of these $p$-norms
-
 - $\|f\|_s \le (b-a)^{\frac{r-s}{sr}}\|f\|_r$ for $1 \le s <r <\infty$
 - $\|f\|_s \le (b-a)^{\frac{1}{s}}\|f\|_\infty$ for $1 \le s < \infty$
 

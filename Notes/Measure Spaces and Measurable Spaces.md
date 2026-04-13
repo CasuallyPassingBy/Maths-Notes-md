@@ -7,7 +7,7 @@ Links: [[Rings and Algebras of Sets]], [[Lebesgue Measure]], [[Borel Sets]], [[R
 
 **Def:** A *measurable space* is a set and a $\sigma$-ring $\cal S$ of subsets of $X$ with the property that $\bigcup \cal S$. We shall write $(X, \mathcal S)$ for a measurable space when the $\sigma$-ring $\cal S$ is not clear. It is customary to call a $E\subseteq X$ *measurable* iff $E \in \cal S$. 
 
-**Def:** A *measure space* is a measurable space $(X, \mathcal S)$ and a measure $\mu$ on $\cal S$; just as for measurable spaces we shall ordinarily allow ourselves to confuse a measure space whose underlying set is $X$ with the set $X$. On the occasions when it is desirable to call attention to the particular $\sigma$-ring and measure under consideration, we shall write $(X, \mathcal S, \mu)$ for $X$. The measure space $X$ is called (totally) finite, $\sigma$-finite, or complete, according as the measure $\mu$ is (totally) finite, $\sigma$-finite, or complete.
+**Def:** A *measure space* is a measurable space $(X, \mathcal S)$ and a measure $\mu$ on $\cal S$; just as for measurable spaces we shall ordinarily allow ourselves to confuse a measure space whose underlying set is $X$ with the set $X$. On the occasions when it is desirable to call attention to the particular $\sigma$-ring and measure under consideration, we shall write $(X, \mathcal S, \mu)$ for $X$. The measure space $X$ is called (totally) finite, $\sigma$-finite, or complete, according as the measure $\mu$ is (totally) finite, $\sigma$-finite, or complete. In the special case, where $\mu$ is a finte measure and $\mu(X) = 1$, then call $(X, {\cal S}, \mu)$ a *[[Probability Measure|probability space]].*
 
 We continue with the notation that $\mu^*$ for the outer measure and $\mu_*$ for the inner measure.
 
