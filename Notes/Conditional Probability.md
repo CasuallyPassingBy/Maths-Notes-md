@@ -67,4 +67,4 @@ $$ \Bbb P(A_1 \cup \dots \cup A_n) = 1-\Bbb P(\Omega\setminus A_1)\Bbb P(\Omega\
 
 Let $\mathscr G$ be sub-$\sigma$-algebra, and $E$ and event. Then we can define the the conditional probability with respect to $\mathscr G$. Then the random variable $\Bbb P(E \mid \mathscr G)$. has the following properties:
 - it is $\mathscr G$ measurable
--  For any event $G \in \mathscr G$ $$E[1_G \cdot \Bbb P(E \mid \mathscr G)] = \Bbb P(E \cap G)$$
+-  For any event $G \in \mathscr G$ $$\Bbb E[1_G \cdot \Bbb P(E \mid \mathscr G)] = \Bbb P(E \cap G)$$

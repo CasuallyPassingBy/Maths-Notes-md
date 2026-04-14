@@ -15,7 +15,7 @@ $$ F(x;p) = \begin{cases} 0 & x <0 \\ 1 -(1-p)^{k+1} & k \le x < k+1; \quad k\in
 
 We have that
 
-- $E[X] = \dfrac{1-p}{p}$
+- $\Bbb E[X] = \dfrac{1-p}{p}$
 - $\operatorname{Var}[X]= \dfrac{1-p}{p^2}$
 
 We can calculate the probability generating function of $X \sim \operatorname{geo}(p)$, that is

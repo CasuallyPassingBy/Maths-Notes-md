@@ -7,19 +7,18 @@ Links: [[Random Vectors]], [[Expected Value of Random Variables]], [[Variance of
 
 We define the expected value of a random vector $(X, Y)$ composed of two random variable with finite expected values, as the vector of the expected values as 
 $$
-E[(X, Y)] = (E[X], E[Y])
+\Bbb E[(X, Y)] = (\Bbb E[X], \Bbb E[Y])
 $$
 Similarly for $n$ dimensional random vector.
 
 We can define the covariance of two vectors, where how much the each change with respect to the other and it is defined as 
 $$
-\text{Cov}(X, Y) = E[(X-E[X])(Y-E[Y])]
+\text{Cov}(X, Y) = \Bbb E[(X-\Bbb E[X])(Y-\Bbb E[Y])]
 $$
 doing some algebra we can see that 
 $$
-\text{Cov}(X, Y) = E[XY]-E[X]E[Y]
+\text{Cov}(X, Y) = \Bbb E[XY]-\Bbb E[X]\Bbb E[Y]
 $$
-
 and that 
 $$
 \text{Cov}(X, Y) = \text{Cov}(Y, X)
@@ -45,15 +44,15 @@ $$
 this matrix is symmetric. 
 We can get the identity, let $X = (X_1, \dots, X_n)$:
 $$
-\text{Var}(X) := E[(X-E(X))(X-E(X))^\top]
+\text{Var}(X) := \Bbb E[(X-E(X))(X-E(X))^\top]
 $$
 The matrix $\text{Var}(X)$ is symmetric and positive definite
 
 # Expected Value of functions of a Random Vector
 
-Let $(X, Y)$ be a random vector and $\varphi:\Bbb R^2 \to \Bbb R$ be Borel measurable function such that the random variable $\varphi(X, Y)$ has a finite expected value. Then $$E[\varphi(X, Y) ] = \int_{\Bbb R^2} \varphi(x, y) dF_{X, Y}(x, y)$$
+Let $(X, Y)$ be a random vector and $\varphi:\Bbb R^2 \to \Bbb R$ be Borel measurable function such that the random variable $\varphi(X, Y)$ has a finite expected value. Then $$\Bbb E[\varphi(X, Y) ] = \int_{\Bbb R^2} \varphi(x, y) dF_{X, Y}(x, y)$$
 From this we can actually get that:
 
-Let $X$ and $Y$ have finite expected value, then $$E[X + Y] = E[X] + E[Y]$$
+Let $X$ and $Y$ have finite expected value, then $$\Bbb E[X + Y] = \Bbb E[X] + \Bbb E[Y]$$
 Let $X$ and $Y$ be independent random variables, and let $g, h$ be Borel measurable functions such that $g(X)$ and $h(Y)$ have finite expected values:
-$$E[g(X) \cdot h(Y) ]  = E[g(X)] \cdot E[h(Y)]$$
+$$\Bbb E[g(X) \cdot h(Y) ]  = \Bbb E[g(X)] \cdot \Bbb E[h(Y)]$$

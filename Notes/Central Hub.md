@@ -1,7 +1,9 @@
-We have all the subjects:
+
 
 [[Interesting Stuff I want continue Learning]]
 [[Almost finished projects]]
+
+All the subjects we have
 # Subjects
 
 ## Foundational

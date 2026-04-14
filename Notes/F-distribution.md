@@ -17,7 +17,7 @@ where again the $I$ represents the [[Beta Function#Incomplete Beta Function|regu
 
 We have that
 
-- $E[X] =\dfrac{b}{b-2}$, for $b>2$
+- $\Bbb E[X] =\dfrac{b}{b-2}$, for $b>2$
 - $\operatorname{Var}[X] = \dfrac{2b^2(a+b-2)}{a(b-2)^2(b-4)}$, for $b>4$
 - The mode is $\dfrac{a-2}{a} \dfrac{b}{b+2}$, for $a>2$
 
@@ -27,7 +27,7 @@ $$ \frac{X/a}{Y/b} \sim F(a,b) $$
 
 We can calculate the $n$th moment of $X$, as
 
-$$ E[X^n] = \left(\frac{b}{a}\right)^n\frac{\Gamma(a/2+n)}{\Gamma(a/2)}\frac{\Gamma(b/2-n)}{\Gamma(b/2)} $$
+$$ \Bbb E[X^n] = \left(\frac{b}{a}\right)^n\frac{\Gamma(a/2+n)}{\Gamma(a/2)}\frac{\Gamma(b/2-n)}{\Gamma(b/2)} $$
 
 there’s no moment generating function.
 

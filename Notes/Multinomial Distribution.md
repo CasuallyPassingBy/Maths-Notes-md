@@ -26,6 +26,6 @@ f(x; n,k, p) =
 $$
 We are using actually the [[Multi-index notation]] for $x$ and $p$ is a probability vector.
 
-- $E[X_i] = np_i$
+- $\Bbb E[X_i] = np_i$
 - $\text{Var}[X_i] = np_i(1-p_i)$
 - $\text{Cov}(X_i, X_j) = -n p_i p_j$

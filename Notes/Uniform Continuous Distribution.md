@@ -15,14 +15,14 @@ $$ F(x) = \begin{dcases} 0 & x \le a \\ \frac{x-a}{b-a} & x \in[a,b] \\ 1 & x \g
 
 We have that
 
-- $E[X] = (b+a)/2$
+- $\Bbb E[X] = (b+a)/2$
 - $\operatorname{Var}[X] = (b-a)^2/12$
 - The mode is the interval $(a,b)$
 - The median is $\dfrac{b+a}{2}$
 
 We can actually calculate the $n$th moment
 
-$$ E[X^n] = \frac{b^{n+1}-a^{n+1}}{(n+1)(b-a)} $$
+$$ \Bbb E[X^n] = \frac{b^{n+1}-a^{n+1}}{(n+1)(b-a)} $$
 
 and the moment generating function we get that
 

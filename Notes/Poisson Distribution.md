@@ -11,11 +11,11 @@ $$ f(x; \lambda) = \begin{dcases} e^{-\lambda}\frac{\lambda^x}{x!} & x \in \Bbb 
 
 we can calculate the cdf as
 
-$$ F(x; \lambda) = P(X\le s) = Q(s, \lambda) $$
+$$ F(x; \lambda) = \Bbb P(X\le s) = Q(s, \lambda) $$
 where $Q(s, \lambda)$ is the [[Gamma Function#Regularized Incomplete Gamma functions|regularized upper incomplete gamma function]]. 
 We have that
 
-- $E[X] = \lambda$
+- $\Bbb E[X] = \lambda$
 - $\operatorname{Var}[X] = \lambda$
 
 **Prop:** Let $X$ and $Y$ be independent random variables with distribution $\operatorname{Poisson}({\lambda_1})$ and $\operatorname{Poisson}({\lambda_2})$ respectively then
@@ -26,7 +26,7 @@ $$ X + Y \sim \operatorname{Poisson}({\lambda_1}+{\lambda_2}) $$
 
 Let $X$ be a random variable with distribution $\operatorname{bin}(n,p)$ such that $p = \lambda/n$ for sufficiently large $n$, and $\lambda>0$ constant. We can see that for $k \in \Bbb N$,
 
-$$ \lim_{n \to \infty} P(X = k) = e^{-\lambda }\frac{\lambda^k}{k!} $$
+$$ \lim_{n \to \infty} \Bbb P(X = k) = e^{-\lambda }\frac{\lambda^k}{k!} $$
 
 meaning we if we have a good approximation of the binomial distribution for large $n$, and small $p$. Namely, we can expect a good approximation when $n \ge 20$ and $p \le 0.05$, or if $n \ge100$ and $np \le 10$. Since the binomial distribution is more expensive to calculate than the Poisson one.
 
@@ -39,6 +39,6 @@ $$ M(t) = \exp(\lambda(e^t-1)) $$
 
 and the $n$th moment is
 
-$$ E[X^n] = \lambda\sum_{k = 0}^{n-1} {{n-1}\choose k} E[X^k] $$
+$$ \Bbb E[X^n] = \lambda\sum_{k = 0}^{n-1} {{n-1}\choose k} \Bbb E[X^k] $$
 The characteristic function is $$\phi(t) =  \exp(\lambda(e^{it}-1))$$
-**Prop:** Let $X \sim \text{Poisson}(\lambda)$, then for $i \in \Bbb N$, then: $$P(X = i+1) = \frac{\lambda}{i+1} P(X = i)$$
+**Prop:** Let $X \sim \text{Poisson}(\lambda)$, then for $i \in \Bbb N$, then: $$\Bbb P(X = i+1) = \frac{\lambda}{i+1} \Bbb P(X = i)$$

@@ -15,7 +15,7 @@ $$ F(x; \mu, \sigma^2) =\int_{-\infty}^x \frac{1}{\sqrt{2\pi \sigma^2}}e^{-(t-\m
 
 We have that
 
-- $E[X] = \mu$
+- $\Bbb E[X] = \mu$
 - $\operatorname{Var}[X] = \sigma^2$
 - The mode is $\mu$
 - The median is $\mu$
@@ -30,7 +30,7 @@ $$ X = \mu +\sigma Z\sim N(\mu, \sigma^2) $$
 
 We can look at the special case of $Z \sim N(0,1)$, ,this is called the standard normal distribiution, then we get that
 
-$$ \Phi(x)=P(Z \le x) = \frac{1}{\sqrt{2\pi}}\int_{-\infty}^x e^{-u^2/2}\, du = \frac{1}{2}+\frac{1}{2}\operatorname{erf}\left(\frac{x}{\sqrt{2}}\right) $$
+$$ \Phi(x)=\Bbb P(Z \le x) = \frac{1}{\sqrt{2\pi}}\int_{-\infty}^x e^{-u^2/2}\, du = \frac{1}{2}+\frac{1}{2}\operatorname{erf}\left(\frac{x}{\sqrt{2}}\right) $$
 
 and we have can see that
 
@@ -50,7 +50,7 @@ $$ M(t) = \exp\left(\mu t+\frac{1}{2}\sigma^2t^2\right) $$
 
 and we get that the $n$th moment is of the form for $X \sim N(0,\sigma^2)$
 
-$$ E[X^n] = \begin{dcases} \frac{n!}{(n/2)!}\left(\frac{\sigma^2}{2}\right)^{n/2} & n \text{ even} \\ 0 & n \text{ odd} \end{dcases} $$
+$$ \Bbb E[X^n] = \begin{dcases} \frac{n!}{(n/2)!}\left(\frac{\sigma^2}{2}\right)^{n/2} & n \text{ even} \\ 0 & n \text{ odd} \end{dcases} $$
 
 The characteristic function is $$ \phi(t) = \exp\left(\mu it-\frac{1}{2}\sigma^2t^2\right) $$
 

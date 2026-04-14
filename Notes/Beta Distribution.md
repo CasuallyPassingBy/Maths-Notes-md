@@ -23,7 +23,7 @@ where $I$ is the regularised incomplete beta function
 
 We can get that
 
-- $E[X] = \dfrac{a}{a+b}$
+- $\Bbb E[X] = \dfrac{a}{a+b}$
     
 - $\operatorname{Var}[X] = \dfrac{ab}{(a+b+1)(a+b)^2}$
     
@@ -33,6 +33,6 @@ We can get that
 Let $X$ and $Y$ be independent random variables with distribution $\Gamma(a,\lambda)$ and $\Gamma(b,\lambda)$, respectively. Then$$ \frac{X}{X+Y} \sim \text{B}(a,b) $$ 
 We can calculate the $n$th moment of $X$ as
 
-$$ E[X^n] = \frac{\text{B}(a+n, b)}{\text{B}(a,b)} = \frac{a^{\overline n}}{(a+b)^{\overline n}} $$
+$$ \Bbb E[X^n] = \frac{\text{B}(a+n, b)}{\text{B}(a,b)} = \frac{a^{\overline n}}{(a+b)^{\overline n}} $$
 
 where $a^{\overline n}$ represents the rising factorial of $a$

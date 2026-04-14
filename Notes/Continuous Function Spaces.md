@@ -30,27 +30,21 @@ $$
 Since it is so common to send them to $\Bbb R$
 
 # Continuous Functions from $[a, b]$ to $\Bbb R$
-We will look at ${\cal C}^0[a,b]$ be the set of continuous functions $f:[a,b] \to \Bbb R$. Then we can see that ${\cal C}^0[a,b]$ is a vector space. Similarly, that in the case of the $\ell^p$ spaces we will define a ${\|\cdot\|_p:\cal C^0[a,b] \to \Bbb R}$ with $p \in [1, \infty)$ having
-
+We will look at ${\cal C}^0[a,b]$ be the set of continuous functions $f:[a,b] \to \Bbb R$. Then we can see that ${\cal C}^0[a,b]$ is a vector space. Similarly, that in the case of the $\ell^p$ spaces we will define a ${\|\cdot\|_p:{\cal C}^0[a,b] \to \Bbb R}$ with $p \in [1, \infty)$ having
 $$ \|f\|_p = \left(\int_a^b |f(x)|^p\, dx\right)^{1/p} $$
 
 and in the case that $p = \infty$ we get that
-
-$$ \|f\|_\infty = \max_{a\le x\le b} |f(x)| $$
-
-depending on what we are working on we might even work on $L^p$ spaces which depend on Measure Theory and stuff
+$$ \|f\|_\infty = \max_{a\le x\le b} |f(x)|.$$
 
 ### Hölder’s Inequality for Integrals
 Let $p, q$ be harmonic conjugates. Let $f, g \in {\cal C}^0[a,b]$, then we get that
-
 $$ \|fg\|_1 \le \|f\|_p \|g\|_q $$
 
 ### Minkowski’s Inequalities for Integrals
 For $p \in [1,\infty]$, and $f,g \in {\cal C}^0[a,b]$, then
-
 $$ \|f+g\|_p \le \|f\|_p +\|g\|_p $$
 
-Then for $p\in [1, \infty]$, then $({\cal C}^0[a,b], \|\cdot\|_p)$ is a normed space. We can compact the notation to ${\cal C}^0_p[a,b]$ to represent $(\cal C^0[a,b], \|\cdot\|_p)$, and if we write $\cal C^0[a,b]$ refers to $({\cal C}^0[a,b], \|\cdot\|_\infty)$
+Then for $p\in [1, \infty]$, then $({\cal C}^0[a,b], \|\cdot\|_p)$ is a normed space. We can compact the notation to ${\cal C}^0_p[a,b]$ to represent $({\cal C}^0[a,b], \|\cdot\|_p)$, and if we write ${\cal C}^0[a,b]$ refers to $({\cal C}^0[a,b], \|\cdot\|_\infty)$
 
 We can see some properties of these $p$-norms
 - $\|f\|_s \le (b-a)^{\frac{r-s}{sr}}\|f\|_r$ for $1 \le s <r <\infty$

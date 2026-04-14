@@ -13,7 +13,6 @@ In the case where $p = \infty$, the space $\ell^\infty$ is the set of all bounde
 
 Since they are norms, we have that
 ### Hölder’s Inequalities for Series
-
 We have that for $p,q$ harmonic conjuagtes. Then if $x_\bullet \in \ell^p$ and $y_\bullet \in \ell^q$. Then
 $$ \|x_\bullet y_\bullet \|_1 \le \|x_\bullet\|_p\|y_\bullet\|_q $$
 
@@ -23,6 +22,8 @@ $$ \|x_\bullet +y_\bullet \|_p \le \|x_\bullet\|_p +\|y_\bullet\|_p $$
 We can compare how does the $\ell^p$ spaces when varying $p$. We get that
 - Let $1 \le s<r\le \infty$, then $\ell^s \subset \ell ^r$ , and for any $x_\bullet \in \ell^s$, we get that $\| x_\bullet\|_r \le \| x_\bullet\|_s$
 - For any $1 \le p < \infty$ and $x_\bullet\in \ell^p$, we have that    $$ \|x_\bullet\|_\infty = \lim_{r\to \infty}\|x_\bullet\|_r $$
+**Th:** For $1\le p <\infty$, $\ell^p$ is separable.
+
 # $\ell^p(\Bbb Z)$ 
 This are the two sided sequences
 

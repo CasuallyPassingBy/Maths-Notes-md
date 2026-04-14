@@ -12,13 +12,13 @@ $$ f(x) = \begin{dcases} \frac{1}{n} & x \in\{ x_1, \dots, x_n\} \\ \\ 0 &\text{
 
 We have that
 
-- $E[X] = \frac{1}{n}\sum_{i =1}^n x_i = \mu$
+- $\Bbb E[X] = \frac{1}{n}\sum_{i =1}^n x_i = \mu$
 - $\operatorname{Var}[X]= \frac{1}{n}\sum_{i =1}^n (x_i -\mu)^2$
 
 If we have that $X \sim \operatorname{unif}\{1, \dots,n\}$, then
 
-- $E[X] = (n+1)/2$
-- $E[X^2] = (n+1)(2n+6)/6$
+- $\Bbb E[X] = (n+1)/2$
+- $\Bbb E[X^2] = (n+1)(2n+6)/6$
 - $\operatorname{Var}[X]= (n^2-1)/12$
 
 We have the the Probability Generating function of $X \sim \operatorname{unif}\{1, \dots,n\}$ is

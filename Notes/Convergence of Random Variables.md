@@ -3,7 +3,7 @@ tags:
   - ProbabilityTheory
 ---
 Subjects: [[Probability Theory]]
-Links: [[Random Variables]], [[Lp spaces]], [[Convergence of Measurable Functions]], [[Lp spaces]]
+Links: [[Random Variables]], [[Lp spaces]], [[Convergence of Measurable Functions]], [[Lp spaces]], [[Scalar Integral on Measure Spaces]]
 
 Let $X_1, \dots, X_n, \dots$ be a sequence of random variables. There are a lot of types of convergence
 
@@ -19,12 +19,12 @@ By some results in measure theory, i think that $X$ will always be a random vari
 We can denote it as $X_n \to X$, or if we want to specify, $X_n \stackrel{p}{\longrightarrow}X$ 
 ## Almost Everywhere Convergence
 
-The sequence of random variables $X_n$, converges *converges almost surely* to $X$ if $$P(\{\omega \in \Omega \mid \lim_{n \to \infty} X_n(\omega) = X(\omega)\} = 1$$or $$P(\lim_{n\to \infty} X_n = X) = 1$$We can denote is as $X_n \stackrel{a.s.} {\longrightarrow} X$, or $\lim\limits_{n \to \infty} X_n = X\; a.s.$ 
+The sequence of random variables $X_n$, converges *converges almost surely* to $X$ if $$\Bbb P(\{\omega \in \Omega \mid \lim_{n \to \infty} X_n(\omega) = X(\omega)\} = 1$$or $$\Bbb P(\lim_{n\to \infty} X_n = X) = 1$$We can denote is as $X_n \stackrel{a.s.} {\longrightarrow} X$, or $\lim\limits_{n \to \infty} X_n = X\; a.s.$ 
 
 ## Convergence in Probability
  
-The sequence of random variables $X_n$ converges to $X$ in *probability* if for every $\varepsilon> 0$, $$P(\{\omega\in \Omega \mid |X_n(\omega) - X(\omega)|>\varepsilon\})=0 $$
-We can denote this kind of convergence by $X_n \stackrel{P}{\longrightarrow}X$, omitting $\omega$. The condition is $$P(\lim_{n \to \infty} |X_n-X| > \varepsilon) = 0 $$
+The sequence of random variables $X_n$ converges to $X$ in *probability* if for every $\varepsilon> 0$, $$\Bbb P(\{\omega\in \Omega \mid |X_n(\omega) - X(\omega)|>\varepsilon\})=0 $$
+We can denote this kind of convergence by $X_n \stackrel{P}{\longrightarrow}X$, omitting $\omega$. The condition is $$\Bbb P(\lim_{n \to \infty} |X_n-X| > \varepsilon) = 0 $$
 
 ## Convergence in Mean
 
@@ -59,8 +59,6 @@ Where $F_{X_n}$ is the cdf of $X_n$, and $F_X$ being the cdf $X$. We denote deno
 # Important Theorems
 
 ### Monotone Convergence Theorem
-
-Let $0 \le X_1 \le X_2 \le \cdots$ be an increasing sequence of random variables that converges almost surely to $X$. Then $$\lim_{n \to \infty} E[X_n] = E[X] $$
+Let $0 \le X_1 \le X_2 \le \cdots$ be an increasing sequence of random variables that converges almost surely to $X$. Then $$\lim_{n \to \infty} \Bbb E[X_n] = \Bbb E[X] $$
 ### Dominated Convergence Theorem
-
-Let $X_1, X_2, \dots$ be a sequence of random variables, and a random variable $Y$, that $|X_n| \le Y$ , for all $n \in \Bbb N^+$. If $\lim\limits_{n \to \infty} X_n = X\; a.s.$ then $X$ and $X_n$ are integrable and $$\lim_{n \to \infty} E[X_n] = E[X] $$
+Let $X_1, X_2, \dots$ be a sequence of random variables, and a random variable $Y$, that $|X_n| \le Y$ , for all $n \in \Bbb N^+$. If $\lim\limits_{n \to \infty} X_n = X\; a.s.$ then $X$ and $X_n$ are integrable and $$\lim_{n \to \infty} \Bbb E[X_n] = \Bbb E[X] $$

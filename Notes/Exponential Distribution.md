@@ -15,18 +15,18 @@ We can calculate the cdf as
 
 $$ F(x;\lambda) = \begin{cases} 1-e^{-\lambda x} & x >0 \\ 0 &\text{otherwise} \end{cases} $$
 
-and that $P(X >x ) = e^{-\lambda x}$
+and that $\Bbb P(X >x ) = e^{-\lambda x}$
 
 We have that
 
-- $E[X] = 1/\lambda$
+- $\Bbb E[X] = 1/\lambda$
 - $\operatorname{Var}[X] = 1/\lambda^2$
 - The mode is $0$
 - The median is $\dfrac{\ln 2}{\lambda}$
 
 and the $n$th moment of $X$, we have that
 
-$$ E[X^n] = \frac{n!}{\lambda^n} $$
+$$ \Bbb E[X^n] = \frac{n!}{\lambda^n} $$
 
 Let $c>0$ be constant and $X$ be a random variable with distribution $\exp(\lambda)$, we get that
 
@@ -42,7 +42,7 @@ The characteristic is $$ \phi(t) = \frac{\lambda}{\lambda-it} \qquad t < \lambda
 
 Let $X$ be a random variable with exponential distribution with parameter $\lambda>0$. We get that for any $x, y\ge0$,
 
-$$ P(X>x+y\mid X>y) =P(X>x) $$
+$$ \Bbb P(X>x+y\mid X>y) =\Bbb P(X>x) $$
 
 Let $U$ be a random variable with distribution $\operatorname{unif}(0,1)$ and let $\lambda>0$ be a constant. Then the random variable $X$, defined as
 

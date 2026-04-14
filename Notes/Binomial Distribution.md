@@ -12,12 +12,12 @@ We say that $X$ is a random variable has a binomial distribution with parameters
 $$ f(x;n, p) = \begin{dcases} {n \choose x}p^x (1-p)^{n-x} & x=0,1,2, \dots, n \\ \\ 0 & \text{otherwise} \end{dcases} $$
 
 We have that there’s a simplified form for $F$ being the cdf
-$$ F(k; n,p) = P(X \le k) = I_{1-p}(n-k,k+1) = 1-I_p(k+1,n-k) $$
+$$ F(k; n,p) = \Bbb P(X \le k) = I_{1-p}(n-k,k+1) = 1-I_p(k+1,n-k) $$
 
 but in simple cases we can just sum over the integers $i \le k$. Where $I_x(a,b)$ represents the regularized incomplete beta function.
 
 We have that
-- $E[X] = np$
+- $\Bbb E[X] = np$
 - $\operatorname{Var}[X]= np(1-p)$
 
 **Prop:** Let $X_1, \dots, X_n$ be independent random variables each one with a distribution $\operatorname{Ber}(p)$. Then
@@ -36,4 +36,4 @@ The characteristic function $$\phi(t) =(1-p+pe^{it})^n$$
 
 **Prop:** Let $X$ be a random variable distributed by $\operatorname{bin}(n,p)$, then $n-X \sim \operatorname{bin}(n,1-p)$
 
-**Prop:** Let $X \sim \text{bin}(n, p)$, then we have the following recurrent relation: $$P(X = i+1) = \frac{n-i}{i+1} \frac{p}{1-p} P(X = i)$$for $0 \le i \le n$. 
+**Prop:** Let $X \sim \text{bin}(n, p)$, then we have the following recurrent relation: $$\Bbb P(X = i+1) = \frac{n-i}{i+1} \frac{p}{1-p} \Bbb P(X = i)$$for $0 \le i \le n$. 

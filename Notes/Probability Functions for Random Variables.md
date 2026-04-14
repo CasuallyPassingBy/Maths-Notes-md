@@ -8,31 +8,30 @@ Links: [[Random Variables]]
 
 Let $X$ be a discrete random variable with values $x_0, x_1, x_2, \dots$. The function of probability of $X$, denoted as $f_X : \Bbb R \to \Bbb R$ and defined as
 
-$$ f_X(x) = \begin{cases} P(X = x) & \text{if }x =x_0, x_1, x_2,\dots \\ 0 & \text{otherwise} \end{cases} $$
+$$ f_X(x) = \begin{cases} \Bbb P(X = x) & \text{if }x =x_0, x_1, x_2,\dots \\ 0 & \text{otherwise} \end{cases} $$
 
 With this definition we can get that
 
-$$ P(X \in A) = \sum_{x \in A} f(x) $$
+$$ \Bbb P(X \in A) = \sum_{x \in A} f(x) $$
 
 We call $f_X$ the probability mass function of $X$
 
 ### Continuous Random Variable
 Let $X$ be a continuous random variable. We say that nonnegative integrable function $f: \Bbb R \to \Bbb R$ is the density function of $X$ if for any $[a,b]$ of $\Bbb R$, satisfies that
 
-$$ P(a \le X \le b) = \int_a^b f(x)\, dx $$
+$$ \Bbb P(a \le X \le b) = \int_a^b f(x)\, dx $$
 
 $f$ is called a the probability density function of $X$, and satisfies the following properties
-
 - $f \ge 0$
 - $\int_\Bbb R f =1$
 
 We say that $f$ is symmetric with respect to $a$, if $f(a+x) = f(a-x)$
 
-We can define the *support of the pdf/pmf* $$Sup_f = \{x \mid f(x) > 0\}$$
+We can define the *support of the pdf/pmf* $$\text{Sup}_f = \{x \mid f(x) > 0\}$$
 
 ## **Cumulative distribution function**
 
-Let $X$ be a random variable. The cumulative distribution function of $X$, denoted as $F_X: \Bbb R \to \Bbb R$, is defined as $$ F_X(x) = P(X \le x) $$In the discrete case we get that $$ F(x) = \sum_{u \le x}f(u) $$In the continuous case we get that $$ F(x) = \int_{-\infty}^x f(u)\, du $$
+Let $X$ be a random variable. The cumulative distribution function of $X$, denoted as $F_X: \Bbb R \to \Bbb R$, is defined as $$ F_X(x) = \Bbb P(X \le x) $$In the discrete case we get that $$ F(x) = \sum_{u \le x}f(u) $$In the continuous case we get that $$ F(x) = \int_{-\infty}^x f(u)\, du $$
 
 **Prop:** Let $F$ and $G$ be cpd, then any linear convex combination is a cpd
 
@@ -41,15 +40,12 @@ Let $X$ be a random variable. The cumulative distribution function of $X$, denot
 We can get the probability density function, from $F_X$.
 
 In the continuous case, by the FTC, we get that
-
 $$ f(x) = F'(x) $$
 
 and in the discrete case we get that
-
 $$ f(x) = F(x+) -F(x-) $$
 
 with
-
 $$ F(x+) := \lim_{h \to 0^+}F(x+h) \quad \text{ and } \quad F(x-) := \lim_{h \to 0^-}F(x+h) $$
 
 **Prop:** Any cumulative distribution function $F$ satisfies:
@@ -64,7 +60,7 @@ Let $F:\Bbb R \to [0, 1]$ be distribution function. Then there's a probability s
 
 **Prop:** Probability of events in terms of $F(x)$
 
-$$ \begin{aligned}P(X<a) & =F(a-) . \\P(a<X \leqslant b) & =F(b)-F(a) . \\P(a \leqslant X \leqslant b) & =F(b)-F(a-) . \\P(a<X<b) & =F(b-)-F(a) . \\P(a \leqslant X<b) & =F(b-)-F(a-) .\end{aligned} $$
+$$ \begin{aligned}\Bbb P(X<a) & =F(a-) . \\\Bbb P(a<X \leqslant b) & =F(b)-F(a) . \\\Bbb P(a \leqslant X \leqslant b) & =F(b)-F(a-) . \\\Bbb P(a<X<b) & =F(b-)-F(a) . \\\Bbb P(a \leqslant X<b) & =F(b-)-F(a-) .\end{aligned} $$
 
 Every distribution function has at most a countable number of discontinuities. This is because it is bounded and monotone.
 

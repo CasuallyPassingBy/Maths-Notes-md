@@ -30,11 +30,9 @@ Let $X$ be random variable, and $Y = X^2$. We can split $\varphi(x) = x^2$ into 
 \end{dcases}
 $$
 # Random Vectors
-
 This involves involves a bit more machinery since it is quite similar to the change of variable of $\Bbb R^n$. 
 
 ## Change of Variable V.3.
-
 Let $(X, Y)$ be a random continuous vector with values inside $I \subseteq \Bbb R^2$, with a pdf $f_{X, Y}(x, y)$. Let $\varphi:I \to \Bbb R²$ be continuous with inverse $\varphi^{-1}(u, v)$ differentiable. Then the values $(U, V) = \varphi(X, Y)$ take values in $\varphi(I)$ with a density function $$f_{U, V} (u, v) = \begin{dcases}
 f_{X, Y}(\varphi^{-1}(u, v)) |J(u, v)| & (u, v) \in \varphi(I) \\
 0 & \text{otherwise}

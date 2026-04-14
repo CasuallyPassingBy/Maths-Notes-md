@@ -23,7 +23,7 @@ meaning the $\chi^2$ distribution is a special case of the $\Gamma$ distribution
 
 We get that
 
-- $E[X] = n$
+- $\Bbb E[X] = n$
 - $\operatorname{Var}[X] = 2n$
 - The mode is $\max\{n-2,0\}$
 - The median is approximately $k\left(1-\frac{2}{9n}\right)^3$
@@ -52,7 +52,7 @@ $$ \frac{1}{\sigma^2}\sum_{i =1}^n(X_i-\bar X)^2=\frac{(n-1)S^2}{\sigma^2} \sim 
 
 We can calculate the $m$th moments of $X\sim\chi^2(n)$ is of the form
 
-$$ E[X^m]= 2^m \frac{\Gamma(n/2+m)}{\Gamma(n/2)} $$
+$$ \Bbb E[X^m]= 2^m \frac{\Gamma(n/2+m)}{\Gamma(n/2)} $$
 
 The moment generating function is
 

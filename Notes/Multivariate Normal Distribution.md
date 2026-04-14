@@ -11,6 +11,6 @@ $$
 f(x) = \frac{1}{(2\pi)^{n/2}\sqrt{\det \Sigma}}\exp\left(-\frac{1}{2}(x-\mu)^\top\Sigma^{-1}(x-\mu )\right)
 $$
 where $x$ and $\mu$ are $n$ dimensional vectors, and $\Sigma$ is a positive definitee matrix. We have a lot of important properties
-- $E[X] = \mu$
+- $\Bbb E[X] = \mu$
 - $\text{Var}(X) = \Sigma$
 This means that the covariance matrix is inputted, and if the covariance matrix is diagonal it means that each $X_i$ is independent of each other. 

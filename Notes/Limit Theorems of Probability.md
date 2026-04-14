@@ -7,7 +7,7 @@ Links: [[Convergence of Random Variables]], [[Important Probability Inequalities
 
 # Weak Law of Large Numbers 
 
-Let $X_1, X_2, \dots$ be independent and identically distributed random variables with mean $\mu$. Then $$\frac{1}{n}\sum_{i = 1}^n X_i \stackrel{P}{\longrightarrow} \mu$$
+Let $X_1, X_2, \dots$ be independent and identically distributed random variables with mean $\mu$. Then $$\frac{1}{n}\sum_{i = 1}^n X_i \stackrel{\Bbb P}{\longrightarrow} \mu$$
 # Strong Law of Large Numbers
 Let $X_1, X_2, \dots$ be independent and identically distributed random variables with mean $\mu$. Then $$\frac{1}{n}\sum_{i = 1}^n X_i \stackrel{a.s.}{\longrightarrow} \mu$$
 # Central Limit Theorem
@@ -25,4 +25,4 @@ This gives us the following version of the of central limit theorem: $$\frac{\sq
 
 # De Moivre-Laplace Theorem
 
-Let $X_1, \dots$ be a sequence of independent and identically distributed random variables with Bernoulli distribution with parameter $p \in (0,1)$. For any two real numbers $a<b$ $$\lim_{n \to \infty} P\left(a <\frac{X_1 + \dots+ X_n -np}{\sqrt{np(1-p)}}<b\right) = \frac{1}{2\pi} \int_a^be^{-x^2/2}\, dx$$ 
+Let $X_1, \dots$ be a sequence of independent and identically distributed random variables with Bernoulli distribution with parameter $p \in (0,1)$. For any two real numbers $a<b$ $$\lim_{n \to \infty} \Bbb P\left(a <\frac{X_1 + \dots+ X_n -np}{\sqrt{np(1-p)}}<b\right) = \frac{1}{2\pi} \int_a^be^{-x^2/2}\, dx$$ 

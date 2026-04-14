@@ -21,7 +21,7 @@ where $_2 F_1$ is a particular case of the hypergeometric function, which is als
 
 We can see that
 
-- $E[X] =0$, for $n >1$
+- $\Bbb E[X] =0$, for $n >1$
 - $\operatorname{Var}[X] = \dfrac{n}{n-2}$ for $n >2$, $\infty$ for $1 < n \le 2$, otherwise undefined
 - The mode is $0$
 - The median is $0$
@@ -40,7 +40,7 @@ $$ \frac{\bar X-\mu}{S/\sqrt n} \sim t(n) $$
 
 We can calculate the $m$th moments of $X$,
 
-$$ E[X^m]=\begin{dcases}0 & m \text{ odd},\quad 0<m< n\\ \frac{1}{\sqrt{\pi}\Gamma\left(\frac{n}{2}\right)}\left[\Gamma\left(\frac{m+1}{2}\right)\Gamma\left(\frac{n-m}{2}\right)n^{m/2}\right] & m \text{ even}, \quad 0<m< n\\ \end{dcases} $$
+$$ \Bbb E[X^m]=\begin{dcases}0 & m \text{ odd},\quad 0<m< n\\ \frac{1}{\sqrt{\pi}\Gamma\left(\frac{n}{2}\right)}\left[\Gamma\left(\frac{m+1}{2}\right)\Gamma\left(\frac{n-m}{2}\right)n^{m/2}\right] & m \text{ even}, \quad 0<m< n\\ \end{dcases} $$
 
 with $m<n$, if $m\ge n$, then the moment doesn't exist. For this reason there’s no moment generating function. We can calculate the characteristic function is $$\phi(t) = e^{|t|} \qquad n = 1$$
 

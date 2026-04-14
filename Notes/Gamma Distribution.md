@@ -19,7 +19,7 @@ where $\gamma(\alpha, \lambda x)$, represents the lower incomplete gamma functio
 
 We get that
 
-- $E[X] = \alpha /\lambda$
+- $\Bbb E[X] = \alpha /\lambda$
 - $\operatorname{Var}[X] = \alpha/\lambda^2$
 - The mode
     - For $\alpha \ge 1$, $\frac{\alpha -1}{\lambda}$
@@ -38,7 +38,7 @@ The characteristic function is $$ \phi(t) = \left(\frac{\lambda}{\lambda-it}\rig
 
 We can calculate that the $n$th moment of $X$ is
 
-$$ E[X^n] = \frac{\alpha^{\underline n}}{\lambda^n} $$
+$$ \Bbb E[X^n] = \frac{\alpha^{\underline n}}{\lambda^n} $$
 
 where $\alpha^{\underline n}$ means the $n$th falling factioral of $\alpha$.
 

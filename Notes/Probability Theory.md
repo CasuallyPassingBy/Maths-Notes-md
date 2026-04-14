@@ -29,7 +29,6 @@ The main references for this book are 'Introducción a la Probabilidad' and 'Cur
 		- [[Expected Value, and Covariance of Random Vectors]]
 	- [[Conditional Distribution Functions]]
 		- [[Conditional Expected Values of Random Variables]]
-	- [[Change of Variable Theorem for Random Variables]]
 - [[Convergence of Random Variables]]
 	- [[Limit Theorems of Probability]]
 - [[Important Probability Inequalities]]

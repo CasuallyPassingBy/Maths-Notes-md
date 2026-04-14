@@ -7,7 +7,7 @@ Links: [[Conditional Probability]], [[Random Vectors]], [[Probability Functions 
 We have that the conditional probability, is that given two events $A$ and $B$, then 
 
 $$
-P(A\mid B) = \frac {P(A\cap B)}{P(B)}
+\Bbb P(A\mid B) = \frac {\Bbb P(A\cap B)}{\Bbb P(B)}
 $$
 We are going to use similar reasoning to define the conditional probability distribution:
 

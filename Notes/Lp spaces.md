@@ -4,7 +4,7 @@ tags:
   - FunctionalAnalysis
 ---
 Subjects: [[Measure Theory]], [[Functional Analysis]]
-Links: [[Scalar Integral on Measure Spaces]], [[Modes of Convergence using Measure]], [[Measure Spaces and Measurable Spaces]], [[Normed Vector Spaces]], [[ellp spaces]], [[Complete Metric Spaces]], [[Inner Products and Norms]]
+Links: [[Scalar Integral on Measure Spaces]], [[Modes of Convergence using Measure]], [[Measure Spaces and Measurable Spaces]], [[Normed Vector Spaces]], [[ellp spaces]], [[Complete Metric Spaces]], [[Inner Products and Norms]], [[Useful Inequalities]], [[Bounded Linear Operators]]
 
 In this note $\Bbb F$ denotes either $\Bbb R$ or $\Bbb C$. 
 
@@ -30,7 +30,7 @@ In this note $\Bbb F$ denotes either $\Bbb R$ or $\Bbb C$.
 
 **Young's Inequality:** Let $p$ satisfy $1< p< \infty$, and let $q$ such that $1/p + 1/q = 1$, and let $x, y\ge 0$. Then $$xy \le \frac{x^p}{p}+ \frac{y^q}{q}. $$
 **Hölder's Inequality:** Let $(X, {\scr A},\mu)$ be a measure space, and let $p$ and $q$ satisfy $1\le p,q \le\infty$ and $1/p + 1/q = 1$. If $f\in {\scr L}^p(X, {\scr A}, \mu)$ and $g\in {\scr L}^q(X, {\scr A}, \mu)$, then $fg$ belongs to ${\scr L}^1(X, {\scr A}, \mu)$ and satisfies $$\|fg\|_1 \le \|f\|_p\|g\|_q. $$In the case that $f\in {\scr L}^1(X, {\scr A},\mu)$ and $g\in {\scr L}^\infty_b(X, {\scr A},\mu)$, then $fg\in {\scr L}^1(X, {\scr A},\mu)$ and    $$\|fg\|_1 \le \|f\|_1 \|g\|_{\infty, b}. $$
-**Minkowski's Inequalities:** Let $(X, {\scr A},\mu)$ be a measure space, and let $p$ satisfies $1\le p \le\infty$. If $f$ and $g$ belongs to $f\in {\scr L}^p(X, {\scr A}, \mu)$ or ${\scr L}^\infty_b(X, {\scr A}, \mu, \Bbb F)$, then $f+g$ belongs to $f+g\in {\scr L}^p(X, {\scr A}, \mu)$ and $$\|f+g\|_p \le \|f\|_p + \|g\|_p,$$or $$\|f+g\|_{\infty, b}\le \|f\|_{\infty, b}+ \|g\|_{\infty, b}.$$
+**Minkowski's Inequalities:** Let $(X, {\scr A},\mu)$ be a measure space, and let $p$ satisfies $1\le p \le\infty$. If $f$ and $g$ belongs to ${\scr L}^p(X, {\scr A}, \mu)$ or ${\scr L}^\infty_b(X, {\scr A}, \mu, \Bbb F)$, then $f+g$ belongs to $f+g\in {\scr L}^p(X, {\scr A}, \mu)$ and $$\|f+g\|_p \le \|f\|_p + \|g\|_p,$$or $$\|f+g\|_{\infty, b}\le \|f\|_{\infty, b}+ \|g\|_{\infty, b}.$$
 **Cor:** Let $(X, {\scr A},\mu)$ be a measure space, and let $p$ satisfy $1\le p\le \infty$. Then $f\in {\scr L}^p(X, {\scr A}, \mu)$ is a vector space, and $\|\cdot \|_p$ is a seminorm on $f\in {\scr L}^p(X, {\scr A}, \mu)$. 
 
 **Cor:** Let $(X, {\scr A},\mu)$ be a measure space. Then $f\in {\scr L}^\infty_b(X, {\scr A}, \mu)$ is a vector space, and $\|\cdot \|_{\infty, b}$ is a seminorm on $f\in {\scr L}^\infty_b(X, {\scr A}, \mu)$. 
@@ -41,9 +41,9 @@ The space $L^p(X, {\scr A},\mu )$ is defined to be the quotient of ${\scr L}^\in
 
 **Obs:** Let $(X, {\scr A},\mu)$ be a measure space, let $p$ satisfy $1\le p <\infty$, and let $f$ and $f_0, f_1, f_2,\dots$ belong to ${\scr L}^p(X, {\scr A},\mu)$. Then $(f_n)_{n<\omega}$ converges to $f$ in *$p$th mean*, or in *$L^p$-norm*, if $$\lim_{n\to\infty} \int|f_n-f|^p\, d\mu =0,$$or equivalently, if $\lim \|f_n-f\|_p = 0$ .
 
-**Obs:** If we consider the measure space $(\Bbb N, \mathcal P(\Bbb N), \mu)$, with $\mu$ being the counting measure, then we get that $L^p(\Bbb, \mathcal P(\Bbb N), \mu, \Bbb R) = {\scr L}^p(\Bbb, \mathcal P(\Bbb N), \mu, \Bbb R) = \ell^p$. 
+**Obs:** If we consider the measure space $(\Bbb N, \mathcal P(\Bbb N), \mu)$, with $\mu$ being the counting measure, then we get that $L^p(\Bbb N, \mathcal P(\Bbb N), \mu, \Bbb R) = {\scr L}^p(\Bbb N, \mathcal P(\Bbb N), \mu, \Bbb R) = \ell^p$.
 
-**Prop:** Let $(X, {\scr A}, ¸\mu)$ be a measure space. Then $$\langle f, g\rangle := \int fg\, d\mu$$defines an inner product on $L^2(X, {\scr A}, \mu, \Bbb R)$. Similarly, $$\langle f, g\rangle := \int f\overline g\, d\mu$$defines an inner product on $L^2(X, {\scr A}, \mu, \Bbb C)$. 
+**Prop:** Let $(X, {\scr A}, ¸\mu)$ be a measure space. Then $$\langle f, g\rangle := \int fg\, d\mu$$defines an inner product on $L^2(X, {\scr A}, \mu, \Bbb R)$. Similarly, $$\langle f, g\rangle := \int f\, \overline g\, d\mu$$defines an inner product on $L^2(X, {\scr A}, \mu, \Bbb C)$. 
 
 **Prop:** Let $(X, {\scr A}, \mu)$ be a finite measure space, and let $f$ be an ${\scr A}$-measurable function on $X$. Then the $f\in {\scr L}^\infty(X, {\scr A}, \mu)$ iff
 - $f$ belongs to ${\scr L}^p(X, {\scr A}, \mu)$ for each $1\le p<\infty$, and
@@ -51,3 +51,49 @@ The space $L^p(X, {\scr A},\mu )$ is defined to be the quotient of ${\scr L}^\in
 Additionally, we know that $\lim\limits_{p\to\infty} \|f\|_p = \|f\|_\infty$. 
 
 **Jensen's Inequality:** Let $(X, {\scr A}, \mu)$ be a probability space. Suppose $\varphi:\Bbb R\to\Bbb R$ is a convex. If $f\in{\scr L}^1(X. {\scr A},\mu,\Bbb R)$, then $$\varphi\left(\int f\, d\mu\right ) \le \int \varphi \circ f\, d\mu.$$
+**Prop:** Let $(X, {\scr A},\mu)$ be a finite measurable space.
+- If $1 \le s< r <\infty$, and  $f\in {\scr L}^r(X, {\scr A}, \mu)$, then $f\in {\scr L}^s(X, {\scr A}, \mu)$, and $\|f\|_s \le \mu(X)^{\frac{r-s}{sr}}\|f\|_r$. 
+- If $1 \le r <\infty$, and $f\in {\scr L}^\infty(X, {\scr A}, \mu)$, then $f\in {\scr L}^\infty(X, {\scr A},\mu)$, and  $\|f\|_s \le \mu(X)^{\frac{1}{r}}\|f\|_\infty$
+
+**Cor:** Let $(X, {\scr A},\mu)$ be a finite measurable space. If $1 \le s< r\le \infty$, and there there is a sequence $(f_n)_{n<\omega}$ in ${\scr L}^{r}(X, {\scr A}, \mu)$ that converges to $f$ in $r$th mean, then $(f_n)_{n<\omega}$ converges to $f$ is $s$th mean.
+
+**Th:** Let $(X, {\scr A},\mu)$ be a measure space, and let $p\in [1,\infty]$. Then $L^p(X, {\scr A},\mu)$ is [[Complete Metric Spaces|complete]] under the norm $\|\cdot\|_p$. Additionally, $L^\infty_b(X, {\scr A}, \mu)$ is complete under the norm $\|\cdot \|_{\infty, b}$. 
+
+**Cor:** Let $(X, {\scr A},\mu)$ be a measure space. Then $L^2(X, {\scr A},\mu)$ is a Hilbert space, with the inner product defined above.
+
+**Def:** Let $(X, {\scr A},\mu)$ be a measure space. We will say that a function $f\in {\scr L}^p(X, {\scr A},\mu)$ *determines* the equivalence class $[f]$ in $L^p(X, {\scr A},\mu)$, or $L^\infty_b(X, {\scr A},\mu),$ to which it belongs. Likewise, if $S$ is a subset of ${\scr L}^p(X, {\scr A},\mu)$ and if $T$ is a subset of $L^p(X, {\scr A},\mu)$, then we will say that $S$ *determines* $T$ if $T$ consists of the equivalence classes of $L^p(X, {\scr A},\mu)$ determines by the elements of $S$. The definitions are identical when considering ${\scr L}^\infty_b(X, {\scr A},\mu)$ and $L^\infty_b(X, {\scr A},\mu)$.
+
+**Prop:** Let $(X, {\scr A}, \mu)$ be a measure space, and let $p\in [1,\infty]$. Then the simple functions in ${\scr L}^p(X, {\scr A},\mu)$ form a dense subspace of ${\scr L}^p(X, {\scr A},\mu)$ and so determine a dense subspace of $L^p(X, {\scr A},\mu)$. Additionally, Then the simple functions in ${\scr L}^\infty_b(X, {\scr A},\mu)$ form a dense subspace of ${\scr L}^\infty_b(X, {\scr A},\mu)$ and so determine a dense subspace of $L^\infty_b(X, {\scr A},\mu)$.
+
+**Def:** We will use ${\scr L}^p([a,b])$ and $L^p([a,b])$ as abbreviations for ${\scr L}^p([a,b], \mathcal B([a,b]), \lambda)$ and $L^p([a,b], \mathcal B([a,b]), \lambda)$, where $\mathcal B([a,b])$ is the Borel $\sigma$-algebra of $[a,b]$ and $\lambda$ is the restriction of Lebesgue measure to $\mathcal B([a,b])$. Analogous, for ${\scr L}^\infty_b([a,b])$ ad $L^\infty_b([a,b])$.
+
+**Def:** Let $[a,b]$ be a closed bounded interval. A function $f$ on $[a,b]$ is a *step function* if there are real numbers $a_0,\dots, a_n$ such that 
+- $a = a_0 < a_1 <\dots< a_n = b$, and
+- $f$ is constant on each interval $(a_{i-1}, a_i)$.
+
+**Prop:** Suppose $[a,b]$ is a closed bounded interval and that $p$ satisfies $1\le p<\infty$. Then the subspace of $L^p([a,b])$ determined by the step functions on $[a,b]$ is dense in $L^p([a,b])$. 
+
+**Prop:** Suppose $[a,b]$ is a closed bounded interval and that $p$ satisfies $1\le p<\infty$. Then the subspace of $L^p([a,b])$ determined by the [[Continuous Function Spaces|continuous functions]] on $[a,b]$ is dense in $L^p([a,b])$. 
+
+**Def:** Let us call a function on $\Bbb R$ a *step function* if for each interval $[a,b]$ its restriction  to $[a,b]$ is a step function.
+
+**Prop:** Suppose that $p$ satisfies $1\le p<\infty$. Then the subspace of $L^p(\Bbb R, {\cal B}(\Bbb R), \lambda)$ determined by the step functions on $\Bbb R$ with bounded support is dense in $L^p(\Bbb R, {\cal B}(\Bbb R), \lambda)$. 
+
+**Prop:** Suppose that $p$ satisfies $1\le p<\infty$. Then the subspace of $L^p(\Bbb R, {\cal B}(\Bbb R), \lambda)$ determined by the continuos functions on $\Bbb R$ with bounded support is dense in $L^p(\Bbb R, {\cal B}(\Bbb R), \lambda)$. 
+
+**Lemma:** Let $(X, {\scr A},\mu)$ be a finite measure space, and let ${\scr A}_0$ be an algebra of sets of $X$ such that ${\scr A} = \sigma({\scr A}_0)$. Then ${\scr A}_0$ is dense in $\scr A$, in the sense that for each $A \in \scr A$ and each positive number $\varepsilon$ there is a set $A_0 \in {\scr A}_0$ and satisfies $\mu(A \, \triangle\, A_0) <\varepsilon$.
+
+**Lemma:** Let $(X, {\scr A},\mu)$ be a measure space. Suppose that ${\scr A}_0$ is an algebra of subsets of $X$ such that
+- $\sigma({\scr A}_0) =\scr A$, and
+- $X$ is the union of a sequence of sets that belong to ${\scr A}_0$ and have finite measure under $\mu.$
+Then for each positive $\varepsilon$ and each set $A$ that belong to $\scr A$ and satisfies $\mu(A)<\infty$, there is a set $A_0$ that belongs to ${\scr A}_0$ and satisfies $\mu(A\,\triangle\, A_0)<\varepsilon$. 
+
+**Prop:** Let $(X, {\scr A},\mu)$ be a measure space, and let $p$ satisfy $1\le p <\infty$. If $\mu$ is $\sigma$-finite and $\scr A$ is countably generated, the $L^p(X, {\scr A}, \mu)$ is separable.
+
+**Cor:** If $1\le p<\infty$, then $L^p([a,b])$, $L^p(\Bbb R, {\cal B}(\Bbb R), \lambda)$ and $\ell^p$ are separable.
+
+We see that $L^{\infty}([a,b])$ is not separable. 
+
+When considering the dual spaces of $L^p(X, {\scr A}, \mu)$ for some measure space $(X, {\scr A}, \mu)$, we consider the topological dual rather than the algebraic dual, meaning that it is the space of all continuous functionals from $L^p(X, {\scr A}, \mu)$ to the base field.
+
+**Prop:** Let $(X, {\scr A}, \mu)$ be a measure space, let $p$ satisfy $1 < p <\infty$, and $q$ be its harmonic conjugate. then the map $T: {\scr L}^q(X, {\scr A}, \mu)\to (L^p(X, {\scr A}, \mu))^*$ defined as $$T_g(f) := \int fg\, d\mu.$$induces an isometry of $L^q(X, {\scr A}, \mu)$ into $(L^p(X, {\scr A}, \mu))^*$. In the special case for $p =1$ and $q =\infty$, then the map $T: {\scr L}^\infty_b(X, {\scr A}, \mu)\to (L^1(X, {\scr A}, \mu))^*$ and it is defined similarly.

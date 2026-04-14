@@ -17,7 +17,6 @@ This definition is present in Halmos.
 - If $A, B \in \cal P$ implies $A \setminus B = \bigcup\limits_{i = 1}^n C_i$ for disjoint $C_1, \dots, C_n \in \cap P$. 
 This a more general definition of semiring than the Halmos' one. Meaning that Every Halmos semiring is a semiring in general. 
 
-
 **Def:** A *ring* or *Boolean ring* of sets is a nonempty family $\cal R$ of subsets of $X$, such that if $E, F \in R$, then $E \cup F \in R$ and $E\setminus F \in R$. 
 
 **Obs**: We see that $\varnothing \in R$, for every ring $R$. We not only get that but if $E, F\in \cal R$, then $E \ \Delta \ F \in R$, and $E \cap F \in R$. 

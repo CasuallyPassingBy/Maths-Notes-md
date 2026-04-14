@@ -13,32 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lp spaces.md",
+                "file": "Signed and Complex Measures.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Lp spaces"
+              "title": "Signed and Complex Measures"
             }
           },
           {
-            "id": "39d400d2061b5473",
+            "id": "4422b5cc5923d6c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Conditional Probability.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Conditional Probability"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,34 +203,34 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "39d400d2061b5473",
+  "active": "f0d0ccd09f0f3747",
   "lastOpenFiles": [
-    "Probability Theory.md",
-    "Sequence of Events.md",
-    "Probability Measure.md",
-    "Important Probability Inequalities.md",
-    "Lp spaces.md",
-    "Measure Spaces and Measurable Spaces.md",
-    "Measures.md",
-    "Continuous Function Spaces.md",
-    "Bounded Linear Operators.md",
-    "Untitled.md",
-    "Central Hub.md",
-    "Dual Vector Spaces.md",
-    "Bounded Function Spaces.md",
-    "ellp spaces.md",
-    "Convergence of Random Variables.md",
-    "Normed Vector Spaces.md",
-    "Metric Spaces.md",
-    "Metric and Normed Spaces.md",
-    "Series In Banach Spaces.md",
+    "Signed and Complex Measures.md",
+    "Complete Metric Spaces.md",
     "Measure Theory.md",
-    "Modes of Convergence using Measure.md",
-    "Untitled 1.md",
-    "Limits of Sets.md",
-    "Scalar Integral on Measure Spaces.md",
-    "Measurable Functions.md",
-    "Real Analysis.md",
+    "Lp spaces.md",
+    "Bounded Linear Operators.md",
+    "Cauchy formula for repeated integration.md",
+    "Fubini's Theorem.md",
+    "Useful Inequalities.md",
+    "ineq.md",
+    "Rings and Algebras of Sets.md",
+    "ellp spaces.md",
+    "Continuous Function Spaces.md",
+    "Central Hub.md",
+    "Probability Theory.md",
+    "Continuous Distributions.md",
+    "Multivariate Normal Distribution.md",
+    "Multivariate Uniform Distribution.md",
+    "F-distribution.md",
+    "Student's t-distribution.md",
+    "Chi-squared Distribution.md",
+    "Lognormal Distribution.md",
+    "Normal Distribution.md",
+    "Weibull Distribution.md",
+    "Beta Distribution.md",
+    "Gamma Distribution.md",
+    "Exponential Distribution.md",
     "Pasted image 20260306011155.png",
     "Pasted image 20260211174214.png",
     "Pasted image 20260128171751.png",

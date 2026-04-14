@@ -5,9 +5,9 @@ tags:
 Subjects: [[Probability Theory]]
 Links: [[Probability Generating Function]], [[Moment Generating Function]], [[Convergence of Random Variables]]
 
-**Def:** The *characteristic function* of a random $X$ is a function $$\phi(t) = E\left[ e^{itX}\right]$$defined over every real $t$. 
+**Def:** The *characteristic function* of a random $X$ is a function $$\phi(t) = \Bbb E\left[ e^{itX}\right]$$defined over every real $t$. 
 
-Then this transforms into $$\phi(t) = E(\cos tX) + i\sin tX)$$
+Then this transforms into $$\phi(t) = \Bbb E(\cos tX + i\sin tX)$$
 and we have that $M$ is the moment generating function, $\phi(t) = M(it)$. 
 Then $G$ be the probability generating function $G$, then $\phi(t) = G(e^{it})$. 
 
@@ -16,8 +16,8 @@ We see that the characteristic function is the [[Fourier Transform in R]] of the
 **Existence:** For any $t\in \Bbb R$, the $|\phi(t)| \le 1$. In particular $\phi(0) = 1$
 
 **Prop:** If $X$ has finite $n$th moment, then 
-- $$\left.\frac{d^n}{dt^n}\right|_{t = 0} = i^nE[X^n]$$
-- When $t\to 0$, then $$\phi(t) = \sum_{k = 0}^{n-1}\frac{(it)^k}{k!} E[X^k] + \frac{(it)^n}{n!}(E[X^n] + o(1))$$
+- $$\left.\frac{d^n}{dt^n}\right|_{t = 0} = i^n\Bbb E[X^n]$$
+- When $t\to 0$, then $$\phi(t) = \sum_{k = 0}^{n-1}\frac{(it)^k}{k!} \Bbb E[X^k] + \frac{(it)^n}{n!}(\Bbb E[X^n] + o(1))$$
 
 **Prop**: Let $X$ and $Y$ be independent, the $\phi_{X+Y}(t) = \phi_X(t) \phi_Y(t)$, and $$\phi_{XY} (t) = \int_{-\infty}^\infty \phi_Y(tx) \, dF_X(x)\int_{-\infty}^\infty \phi_Y(ty) \, dF_Y(y)$$
 ### Lèvy Inversion Formula

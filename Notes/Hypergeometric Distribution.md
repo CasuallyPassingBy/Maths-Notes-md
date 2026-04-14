@@ -13,5 +13,5 @@ f(x; N, K, n)= \begin{cases}\frac{\left(\begin{array}{c} K \\ x \end{array}\righ
 
 We can see that
 
-- $E[X] = n \dfrac{K}{N}$
+- $\Bbb E[X] = n \dfrac{K}{N}$
 - $\operatorname{Var}[X] = n \dfrac{K}{N}\dfrac{N-K}{N}\dfrac{N-n}{N-1}$

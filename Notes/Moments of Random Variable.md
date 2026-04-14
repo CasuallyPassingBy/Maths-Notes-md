@@ -8,7 +8,7 @@ Links: [[Random Variables]], [[Probability Functions for Random Variables]], [[E
 
 The moments of a random variable $X$ or of its distribution is the collection of numbers
 
-$$ E[X], E[X^2], E[X^3], \dots $$
+$$ \Bbb E[X], \Bbb E[X^2], \Bbb E[X^3], \dots $$
 
 corresponding to the first moment, second moment, etc. when they exist
 
@@ -16,8 +16,8 @@ There are multiple types of moments,
 
 | Formula | Type |
 | ---- | ---- |
-| $E[(X-\mu)^n]$ | $n$th central moment |
-| $E[\|X\|^n]$ | $n$th absolute moment |
-| $E[\|X-\mu\|^n]$ | $n$th absolute central moment |
-| $E[(X-c)^n]$ | $n$th generalized moment (constant $c$) |
-| $E[X^{\underline n}]$ | $n$th factorial moment  |
+| $\Bbb E[(X-\mu)^n]$ | $n$th central moment |
+| $\Bbb E[\|X\|^n]$ | $n$th absolute moment |
+| $\Bbb E[\|X-\mu\|^n]$ | $n$th absolute central moment |
+| $\Bbb E[(X-c)^n]$ | $n$th generalized moment (constant $c$) |
+| $\Bbb E[X^{\underline n}]$ | $n$th factorial moment  |

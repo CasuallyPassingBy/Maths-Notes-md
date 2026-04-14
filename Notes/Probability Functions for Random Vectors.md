@@ -9,7 +9,7 @@ Links: [[Probability Functions for Random Variables]], [[Random Vectors]]
 
 The function of a two dimensional discrete random vector $(X, Y)$, where the possible values for $X$, are $x_1, x_2, \dots$ and the possible values for $Y$ are $y_1, y_2, \dots$, the function $f:\Bbb R^2 \to [0,1]$ defined as
 
-$$ f(x,y) = \begin{cases} P(X = x, Y= y) &(x,y) \in \{x_1, x_2, \dots\} \times \{y_1, y_2,\dots\} \\ 0 & \text{otherwise} \end{cases} $$
+$$ f(x,y) = \begin{cases} \Bbb P(X = x, Y= y) &(x,y) \in \{x_1, x_2, \dots\} \times \{y_1, y_2,\dots\} \\ 0 & \text{otherwise} \end{cases} $$
 
 We usually use refer to it as $f_{X,Y}$ since we know which random variables we are taking about, and this is the joint probability mass function of two random variables.
 
@@ -18,9 +18,9 @@ Each joint probability mass function of two random variables, must satisfy the f
 - $f(x,y) \ge 0$
 - $\sum\limits_{x,y} f(x,y) = 1$
 
-Let $A$ and $B$ be Borel sets, then the probability that $(X \in A) \cap(Y \in B)$ is given by the formula:
+Let $A$ and $B$ be Borel sets, then the probability that $(X \in A) \ca\Bbb P(Y \in B)$ is given by the formula:
 
-$$ P(X\in A, Y \in B) = \sum_{x \in A} \sum_{y \in B} f_{X,Y}(x,y) $$
+$$ \Bbb P(X\in A, Y \in B) = \sum_{x \in A} \sum_{y \in B} f_{X,Y}(x,y) $$
 
 Let $(X, Y)$ be a continuous random vector with a distribution function $F$. We say that $(X, Y)$ is absolutely continuous if there's a nonnegative integrable function $f:\Bbb R^2\to [0,\infty)$, such that for all $(x, y)\in \Bbb R^2$, it follows that
 $$
@@ -34,7 +34,7 @@ All pdf $f$ mus satisfy the following characteristics:
 
 Given $a<b$ and $c < d$, we can calculate the probability of $(a < X<b) \cap (c< Y<d)$, it is calculated by
 
-$$ P(a<X<b,c<Y<d) = \int_{a}^b\int_{c}^d f(u,v) \,dv\, du $$
+$$ \Bbb P(a<X<b,c<Y<d) = \int_{a}^b\int_{c}^d f(u,v) \,dv\, du $$
 
 ---
 
@@ -42,27 +42,20 @@ $$ P(a<X<b,c<Y<d) = \int_{a}^b\int_{c}^d f(u,v) \,dv\, du $$
 
 The cdf of the vector $(X,Y)$ is denoted as $F: \Bbb R^2 \to [0,1]$, it is defined as
 
-$$ F(x,y) = P(X \le x, Y\le y) $$
+$$ F(x,y) = \Bbb P(X \le x, Y\le y) $$
 
 The cdf $F$ of a random vector $(X,Y)$ satisfies the following properties:
 
 - $\lim\limits_{x \to \infty} \lim\limits_{y \to \infty} F(x,y) = 1$
-    
 - $\lim\limits_{x \to -\infty} F(x, y) = \lim\limits_{y \to -\infty} F(x,y) =0$
-    
 - $F(x,y)$ is right continuous on each variable
-    
 - $F(x,y)$ is a monotonous nondecreasing function on each variable
-    
-- For any number $a<b$ and $c <d$ , it follows that
-    
-    $$ F(b,d) -F(a,d)-F(b,c) + F(a,b)= P(a<X\le b, c <Y\le d) \ge0 $$
-    
-We say that a function $F:\Bbb R^2 \to [0,1]$, not necesarily defined on terms of a random vector, is a conjoined probability distribution function if it follows the five properties above. 
+- For any number $a<b$ and $c <d$ , it follows that   $$ F(b,d) -F(a,d)-F(b,c) + F(a,b)= \Bbb P(a<X\le b, c <Y\le d) \ge0 $$
+We say that a function $F:\Bbb R^2 \to [0,1]$, not necessarily defined on terms of a random vector, is a conjoined probability distribution function if it follows the five properties above. 
 
 We define the cdf of random vector $(X_1,\dots, X_n)$ as the function $F:\Bbb R^n \to [0,1]$ given by
 
-$$ F(x_1, \dots, x_n) = P(X_1 \le x_1, \dots, X_n\le x_n) $$
+$$ F(x_1, \dots, x_n) = \Bbb P(X_1 \le x_1, \dots, X_n\le x_n) $$
 
 Let $F:\Bbb R^n \to [0,1]$ be a distribution function if it follows the first four properties, and additionally, for any numbers $a_1 < b_1, a_2 < b_2, \dots a_n < b_n$, 
 $$

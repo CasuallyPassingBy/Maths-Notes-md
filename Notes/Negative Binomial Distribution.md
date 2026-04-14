@@ -16,7 +16,7 @@ $$ {{r+x-1}\choose x} = (-1)^r{{-r}\choose x} $$
 
 We have that
 
-- $E[X] = \dfrac{r(1-p)}{p}$
+- $\Bbb E[X] = \dfrac{r(1-p)}{p}$
 - $\operatorname{Var}[X] = \dfrac{r(1-p)}{p^2}$
 
 **Prop:** Let $r \in \Bbb N^+$ and let $X_1,X_2,\dots,X_r$ be independent random variables, each one of them with a distribution $\operatorname{geo}(p)$, then
