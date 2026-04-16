@@ -31,7 +31,7 @@ All the subjects we have
 	- [[Homological Algebra]] (Pending)
 - [[Ring Theory]]
 - [[Field Theory]]
-- [[Module Theory]]
+- [[Module Theory]] (Pending)
 - [[Clifford Algebra (Subject)]] (On Hold)
 
 ## Differential Equations
@@ -65,8 +65,8 @@ All the subjects we have
 - [[Information Theory]] (Pending)
 - [[Artificial Intelligence]] (Pending)
 	- [[Machine Learning]] (Pending)
-		- [[Neural Networks]] (In progress)
-- [[Digital Circuits]] (In progress)
+		- [[Neural Networks]] (On Hold)
+- [[Digital Circuits]] (On Hold)
 ## Miscellaneous
 - [[Fractional Calculus]]
 - [[Umbral calculus]]

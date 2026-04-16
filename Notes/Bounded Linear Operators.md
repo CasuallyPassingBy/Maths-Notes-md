@@ -4,7 +4,7 @@ tags:
   - FunctionalAnalysis
 ---
 Subjects: [[Metric and Normed Spaces]], [[Functional Analysis]]
-Links: [[Normed Vector Spaces]], [[Complete Metric Spaces]], [[Continuity on Metric Spaces]], [[Norm of Linear Operators for finite dimensions]], [[Space of Linear Transformations]], [[Compactness in Metric Spaces]], [[Dual Vector Spaces]]
+Links: [[Normed Vector Spaces]], [[Complete Metric Spaces]], [[Continuity on Metric Spaces]], [[Norm of Linear Operators for finite dimensions]], [[Space of Linear Transformations]], [[Compactness in Metric Spaces]], [[Dual Vector Spaces]], [[Hilbert Spaces]]
 
 If $V=(V, \|\cdot\|_V)$ and $W= (W, \|\cdot\|_W)$ be normed spaces and $T:V\to W$a linear transformation. Then all the following are equivalents:
 - $T$ is continuous
@@ -72,4 +72,3 @@ We get that no matter $V$, then $V^*$ is complete.
 **Cor:** Every finite-dimensional subspace of a normed space is a closed subspace of the space. 
 
 **Cor:** Every finite-dimensional normed space has the Heine-Borel property, that is, the property that all closed and bounded subsets of the space are compact
-

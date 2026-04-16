@@ -30,8 +30,11 @@ Links: [[Measures]], [[Signed and Complex Measures]], [[Scalar Integral on Measu
 - there is an $\scr A$-measurable function $g:X \to (0,\infty)$ such that $$\nu(A) = \int_A g\, d\mu  $$holds for each $A\in \scr A$.
 
 **Cor:** Let $\mu$ and $\nu$ be $\sigma$-finite positive measures on $(X, {\scr A})$. If $\nu\ll\mu$ and $\mu\ll\nu$, then $\dfrac{d\mu}{d\nu}$ and $\dfrac{d\nu}{d\mu}$ both exists, are positive, and are related by $$\dfrac{d\mu}{d\nu} = \left(\dfrac{d\nu}{d\mu}\right)^{-1}.$$
+**Cor:** If $\mu$ is a $\sigma$-finite measure on $(X, {\scr A})$, then there is a finite measure $\nu$ on $(X, {\scr A})$ such that $\nu \ll \mu$ and $\mu \ll \nu$.
+
 **Prop:** Suppose $(X, {\scr A},\mu)$ is a measure space, and let $f\in {\scr L}^1(X, {\scr A}, \mu, \Bbb R)$ or $f\in {\scr L}^1(X, {\scr A}, \mu, \Bbb C)$, and $\nu$ is the finite signed measure or complex measure defined by $\nu(A) := \int_A f\, d\mu$. Then $$|\nu| (A) = \int_A |f|\, d\mu $$holds for each $A\in \scr A$.
 
 **Cor:** Let $\nu$ be a finite signed or complex measure on the measurable space $(X, {\scr A})$. Then the Radon-Nikodym derivative of $\nu$ with respect to $|\nu|$ has absolute value $1$ at $|\nu|$-almost every point in $X$, meaning that  $$\left|\frac{d\nu}{d|\nu|}\right| = 1 \quad \text{a.e.}[|\nu|].$$
 **Cor:** Let $(X, {\scr A})$ be a measurable space, let $\mu$ be a finite signed or complex measure on $(X,{\scr A})$, and let $f$ be a bounded real or complex-valued $\scr A$-measurbale function on $X$. Then  $$\left|\int f\, d\mu\right|\le \int |f|\, d|\mu|. $$
 **Prop:** Let $\mu$ be a $\sigma$-finite positive measure on $(X, {\scr A})$. We see that $$M_\mu :=\{\nu\in M(X, {\scr A}, \Bbb R) \mid \nu \ll\mu\}$$ is a closed linear subspace of the normed linear space $M(X, {\scr A},\Bbb R)$. There is a [[Isometries on Metric Spaces|isometric]] isomorphism from $M_\mu$ onto $L^1(X, {\scr A},\mu)$.
+

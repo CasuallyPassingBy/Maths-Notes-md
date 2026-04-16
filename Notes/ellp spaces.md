@@ -5,7 +5,7 @@ tags:
 Subjects: [[Metric and Normed Spaces]]
 Links: [[Normed Vector Spaces]], [[Vector Spaces]]
 
-We can look at the space of sequences such that for $p \in [1, \infty)$, in general we can denote $x_\bullet$ to be a sequence of real numbers $$ \sum_{k = 1}^\infty |x_i|^p $$This actually forms a infinite dimensional vector space.
+We can look at the space of sequences such that for $p \in [1, \infty)$, in general we can denote $x_\bullet$ to be a sequence of complex numbers $$ \sum_{k = 1}^\infty |x_i|^p $$This actually forms a infinite dimensional vector space.
 
 converges, and it is a vector space, and it is denoted as $\ell_p$ or $\ell ^p$ depending of who is writing, and we can define $$ \|x_\bullet\|_p=\|(x_k)\|_p = \left(\sum_{k = 1}^\infty |x_k|^p\right)^{1/p} $$defines a norm in $\ell^p$.
 
@@ -23,6 +23,8 @@ We can compare how does the $\ell^p$ spaces when varying $p$. We get that
 - Let $1 \le s<r\le \infty$, then $\ell^s \subset \ell ^r$ , and for any $x_\bullet \in \ell^s$, we get that $\| x_\bullet\|_r \le \| x_\bullet\|_s$
 - For any $1 \le p < \infty$ and $x_\bullet\in \ell^p$, we have that    $$ \|x_\bullet\|_\infty = \lim_{r\to \infty}\|x_\bullet\|_r $$
 **Th:** For $1\le p <\infty$, $\ell^p$ is separable.
+
+**Prop:** In the case $p = 2$, we can define an inner product on $\ell^2$, defined as$$\langle x_\bullet, y_\bullet \rangle := \sum_{k = 1}^\infty x_k \overline{y_k}. $$This inner product generates the norm on $\ell^2$, we see that $\ell^2$ is a [[Hilbert Spaces|Hilbert space]].
 
 # $\ell^p(\Bbb Z)$ 
 This are the two sided sequences
