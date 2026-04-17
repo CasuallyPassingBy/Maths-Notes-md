@@ -54,7 +54,6 @@ Let $X_0, X_1, X_2,\dots$ be an infinite sequence of random variables such that 
 Let $X$ be a random variable, and let $g: \Bbb R \to \Bbb R$ be a Borel measurable function, then $g(X)$ is a random variable. 
 # Types
 ### Discrete Random Variables
-
 The random variable $X$ is called discrete if the corresponding distribution function $F$ is a piecewise constant function. Let $x_1, x_2\dots$ the points of discontinuity of $F$. At each of this points of discontinuity we get that $\Bbb P(X = x_i) = F(x_i) - F(x_i -)>0$. The function $f$ the denotes those increments it is called the probability mass function of $X$, and it is defined as 
 $$
 f(x)=
@@ -63,6 +62,7 @@ f(x)=
 0 & \text{otherwise}
 \end{cases}
 $$
+
 ### Continuous Random Variables
 A random variable $X$ is called continuous if its corresponding distribution function is continuous
 
@@ -72,12 +72,11 @@ F(x) = \int_{-\infty}^x f(u)\, du
 $$
 In this case $f$ is called the probability density function of $X$
 
-### Singular Random Variables
+### [[Absolute Continuity of Measures#Singularity|Singular]] Random Variables
 
 The random variable $X$, or its corresponding distribution function $F$, is called singular if $F' =0$ almost everywhere, using [[Lebesgue Measure|Lebesgue measure]].
 
 ### Mixed Random Variables
-
 A random variable such that is not continuous nor discrete is called mixed
 
 # Equality of Random Variables

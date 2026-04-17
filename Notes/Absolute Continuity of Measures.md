@@ -38,3 +38,26 @@ Links: [[Measures]], [[Signed and Complex Measures]], [[Scalar Integral on Measu
 **Cor:** Let $(X, {\scr A})$ be a measurable space, let $\mu$ be a finite signed or complex measure on $(X,{\scr A})$, and let $f$ be a bounded real or complex-valued $\scr A$-measurbale function on $X$. Then  $$\left|\int f\, d\mu\right|\le \int |f|\, d|\mu|. $$
 **Prop:** Let $\mu$ be a $\sigma$-finite positive measure on $(X, {\scr A})$. We see that $$M_\mu :=\{\nu\in M(X, {\scr A}, \Bbb R) \mid \nu \ll\mu\}$$ is a closed linear subspace of the normed linear space $M(X, {\scr A},\Bbb R)$. There is a [[Isometries on Metric Spaces|isometric]] isomorphism from $M_\mu$ onto $L^1(X, {\scr A},\mu)$.
 
+# Singularity
+
+**Def:** Let $(X, {\scr A})$ be a measurable space. A positive measure $\mu$ on $(X, {\scr A})$ is *concentrated* on the $\scr A$-measurable set $E$ if $\mu(X\setminus E) = 0$. A signed or complex measure $\mu$ on $(X,{\scr A})$ is *concentrated* on $E\in \scr A$ if the variation $|\mu|$ of $\mu$ is concentrated on $E$. Now suppose $\mu$ and $\nu$ are positive, signed, or complex measures on $(X,{\scr A})$. Then $\mu$ and $\nu$ are *mutually singular* if there is an $E\in\scr A$ such that $\mu$ is concentrated on $E$ and $\nu$ is concentrated on $X\setminus E$. One sometimes writes $\mu \perp \nu$ to indicate that $\mu$ and $\nu$ are mutually singular. Instead of saying that $\mu$ and $\nu$ are mutually singular, one sometimes says that $\mu$ and $\nu$ are singular, that $\nu$ is singular with respect to $\mu$, or that $\mu$ is singular with respect to $\nu$. A positive, signed or complex measure on $(\Bbb R^d, {\cal B}(\Bbb R^d))$ is simply called *singular* if it is singular with respect to the $d$-dimensional Lebesgue measure.
+
+**Prop:** Let $\mu$ be a positive measure on $(X, {\scr A})$, and let $\nu$ be a positive, signed or complex measure on $(X, {\scr A})$. If $\nu \ll \mu$ and $\nu \perp \mu$, then $\nu = 0$. 
+
+**Prop:** Let $\mu$ be a positive measure on $(X, {\scr A})$, and let $\nu$ be a positive, signed or complex measure on $(X, {\scr A})$. Then  $$\{\nu \in M(X, {\scr A},\Bbb R) \mid \nu \perp \mu\}$$is a closed linear subspace of the normed space $M(X, {\scr A},\Bbb R)$. 
+
+**Lebesgue Decomposition Theorem:** Let $(X, {\scr A})$ be a measurable space, and let $\mu$ be a positive measure on $(X, {\scr A})$, and let $\nu$ be a finite signed complex, or $\sigma$-finite positive measure on $(X, {\scr A})$. Then are unique finite signed, complex or positive measures $\nu_a$ and $\nu_s$ on $(X, {\scr A})$ such that
+- $\nu_a$ is absolutely continuous with respect to $\mu$,
+- $\nu_s$ is singular with respect to $\mu$, and 
+- $\nu = \nu_a+\nu_s$.
+
+The decomposition $\nu = \nu_a +\nu_s$ is called the *Lebesgue decomposition* of $\nu$, while $\nu_a$ and $\nu_s$ are called *absolutely continuous* and *singular parts* of $\nu$. 
+
+**Prop:** Let $\mu$ be a positive measure on $(X, {\scr A})$, and let $\nu$ be a positive, signed or complex measure on $(X, {\scr A})$, and let $\nu = \nu_a + \nu_s$ be the Lebesgue decomposition of $\nu$. Then $\|\nu\| = \|\nu_a\| + \|\nu_s\|$. 
+
+**Prop:** Let $\mu$ and $\nu$ be positive measures on $(X, {\scr A})$ such that for each $\varepsilon> 0$ there is a set $A\in \scr A$ such that $\mu(A)<\varepsilon$ and $\nu(X\setminus A) <\varepsilon$. Then $\mu \perp \nu$.
+
+**Prop:** Let $\mu$ and $\nu$ be positive measures on $(X, {\scr A})$. The following statements are equivalent.
+- $\mu \perp \nu$.
+- $\mu \vee \nu = 0$.
+- $\mu \vee \nu = m+\nu$.
