@@ -3,14 +3,13 @@ tags:
   - VectorAnalysis
 ---
 Subjects: [[Vector Analysis]] 
-Links: [[Riemann Integral in Rn]], [[Integral over Jordan-measurable Sets]]
+Links: [[Riemann Integral in Rn]], [[Integral over Jordan-measurable Sets]], [[Finite Product of Measures]]
 
 There can be s special notation to convey the integrating variables of a function in the case of a higher dimensional integral. Let $A$ be a Jordan-measurable set and $f:A\subseteq\Bbb R^n \to \Bbb R$. Then
 
 $$ \int_A f = \int_A f(x_1, \dots, x_n) \, d(x_1, \dots, x_n) $$
 
 Fubini’s Theorem in $\Bbb R^2$:
-
 1. Let $A = [a,b]\times [c,d]$. Let $f:A\to \Bbb R$ be integrable over $A$, and the function ${f_x :[c,d] \to\Bbb R}$, defined as $f_x(y) = f(x,y)$ is integrable over for each ${x \in [a,b]}$. Then:
     
     $$ \int_A f = \int_a^b \left(\int_c^d f(x,y)\, dy\right)\, dx $$
@@ -25,11 +24,9 @@ Fubini’s Theorem in $\Bbb R^2$:
     
 
 ### General Fubini’s Theorem
-1. Let $A \subseteq \Bbb R^n$ and $B \subseteq \Bbb R^m$ be rectangles and let $f:A \times B \subseteq \Bbb R^n \times \Bbb R^m\to \Bbb R$ be bounded. If $f$ is integrable and $f_x:B\to \Bbb R$, defined as $f_x(y) =f(x,y)$, be integrable for each $x \in A$. Then
-    $$ \int_{A\times B} f= \int_A \left(\int_B f(x, y) \, dy\right)\,dx $$
+1. Let $A \subseteq \Bbb R^n$ and $B \subseteq \Bbb R^m$ be rectangles and let $f:A \times B \subseteq \Bbb R^n \times \Bbb R^m\to \Bbb R$ be bounded. If $f$ is integrable and $f_x:B\to \Bbb R$, defined as $f_x(y) =f(x,y)$, be integrable for each $x \in A$. Then $$ \int_{A\times B} f= \int_A \left(\int_B f(x, y) \, dy\right)\,dx $$
     
-    Similarly for $f_y:A \to\Bbb R$, defined as $f_y(x) = f(x,y)$ is integrable over for each ${y \in B}$. Then:
-    $$ \int_{A\times B} f= \int_B \left(\int_A f(x, y) \, dx\right)\,dy $$
+    Similarly for $f_y:A \to\Bbb R$, defined as $f_y(x) = f(x,y)$ is integrable over for each ${y \in B}$. Then:$$ \int_{A\times B} f= \int_B \left(\int_A f(x, y) \, dx\right)\,dy $$
     
 2. If $f:A\times B\subseteq \Bbb R^n\times \Bbb R^m \to \Bbb R$ is continuous on $A\times B$, then $$ \int_{A\times B} f (x,y)\, d(x,y)= \int_A \int_B f(x, y) \, dy\,dx = \int_B \int_A f(x, y) \, dx\,dy $$
 
@@ -41,7 +38,6 @@ $$ J(B_r(\mathbf 0)) = V_n(r) = \frac{\pi^{n/2}}{\Gamma\left(\frac{n}{2}+1\right
 In the case, of $r=1$, it is simlpy denoted as $V_{2n}$. Then we have the surprising connection
 $$ \sum_{n = 0}^\infty V_{2n} = e^\pi $$
 which is known as the Genfold’s constant
-
 
 ### Consequences
 Some important consequences show that for regions of the form, given $\alpha,\beta:[a,b] \to \Bbb R$ continuous and $\alpha \le \beta$, ${D = \{(x,y) \in \Bbb R^2\mid a\le x \le b \land \alpha(x) \le y \le \beta(x)\}}$o is Jordan-measurable and we can integrate $f$ over $D$ as

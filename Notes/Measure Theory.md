@@ -2,12 +2,16 @@
 tags:
   - Subject
 ---
+[[Central Hub]]
 # Overview
+This notes are primarily based on Cohn's *Measure theory (2nd Edition)*, and will be supplemented by Folland's *Real Analysis: Modern Techniques and Their Applications (2nd Edition)*. 
 
 # Topics
 - [[Limits of Sets]]
 - [[Rings and Algebras of Sets]]
 	- [[Borel Sets]]
+		- [[Product of sigma-Algebras]]
+	- [[Dynkin Classes]]
 - [[Measures]]
 	- [[Content]]
 	- [[Outer Measures]]
@@ -17,11 +21,12 @@ tags:
 	- [[Inner Measures]]
 	- [[Lebesgue Measure]]
 		- [[Lebesgue-Stieltjes Measures]]
-	- [[Dynkin Classes]]
+	- [[Finite Product of Measures]]
 - [[Measure Spaces and Measurable Spaces]]
 	- [[Measurable Functions]]
 		- [[Convergence of Measurable Functions]]
 	- [[Scalar Integral on Measure Spaces]]
+		- [[Kernels in Measure Theory]]
 		- [[The Bochner Integral]]
 	- [[Modes of Convergence using Measure]]
 		- [[Lp spaces]]

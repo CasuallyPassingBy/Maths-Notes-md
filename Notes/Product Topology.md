@@ -71,7 +71,7 @@ $$for each $\alpha < \kappa$.
 - $\prod_{\alpha < \kappa}f_\alpha$ is continuous iff for each $\alpha<\kappa$, $f_\alpha$ is continuous.
 - $\prod_{\alpha < \kappa} f_\alpha$ is open iff for each $\alpha < \kappa$, $f_\alpha$ is open. 
 
-**Universal Property of the Product Topology:** If $Y$ is topological space, and for every $\alpha < \kappa$, $f_\alpha: Y \to X_\alpha$, then there exists *precisely one* continuous maps $f: Y \to \prod_{\beta<\kappa}X_\beta$ such that for every $\alpha < \kappa$ the following diagram:
+**Universal Property of the Product Topology:** If $Y$ is topological space, and for every $\alpha < \kappa$, $f_\alpha: Y \to X_\alpha$ is a continuous function, then there exists *precisely one* continuous map $f: Y \to \prod_{\beta<\kappa}X_\beta$ such that for every $\alpha < \kappa$ the following diagram:
 
 ```tikz
 \usepackage{tikz-cd} 

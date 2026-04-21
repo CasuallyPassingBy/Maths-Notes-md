@@ -5,7 +5,7 @@ tags:
   - FractionalCalculus
 ---
 Subjects: [[Real Analysis]], [[Vector Analysis]], [[Fractional Calculus]]
-Links: [[Riemann Integral in R]], [[Fubini's Theorem]], [[Riemann Integral in Rn]]
+Links: [[Riemann Integral in R]], [[Fubini's Theorem in Rn]], [[Riemann Integral in Rn]]
 
 Let $f$ be a continuous function on the real line. We will define $n$th repeated integral with a base point $a$ as
 $$ f^{(-n)}(x) = \int_a^x \int_a^{\sigma_1} \cdots \int_a^{\sigma_{n-1}} f(\sigma_n) \, d\sigma_n \cdots\, d\sigma_2 \, d\sigma_1 $$

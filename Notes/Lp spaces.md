@@ -96,4 +96,18 @@ We see that $L^{\infty}([a,b])$ is not separable.
 
 When considering the dual spaces of $L^p(X, {\scr A}, \mu)$ for some measure space $(X, {\scr A}, \mu)$, we consider the topological dual rather than the algebraic dual, meaning that it is the space of all continuous functionals from $L^p(X, {\scr A}, \mu)$ to the base field.
 
-**Prop:** Let $(X, {\scr A}, \mu)$ be a measure space, let $p$ satisfy $1 < p <\infty$, and $q$ be its harmonic conjugate. then the map $T: {\scr L}^q(X, {\scr A}, \mu)\to (L^p(X, {\scr A}, \mu))^*$ defined as $$T_g(f) := \int fg\, d\mu.$$induces an isometry of $L^q(X, {\scr A}, \mu)$ into $(L^p(X, {\scr A}, \mu))^*$. In the special case for $p =1$ and $q =\infty$, then the map $T: {\scr L}^\infty_b(X, {\scr A}, \mu)\to (L^1(X, {\scr A}, \mu))^*$ and it is defined similarly.
+**Prop:** Let $(X, {\scr A}, \mu)$ be a measure space, let $p$ satisfy $1 < p <\infty$, and $q$ be its harmonic conjugate. Then the map $T: {\scr L}^q(X, {\scr A}, \mu)\to (L^p(X, {\scr A}, \mu))^*$ defined as $$T_g(f) := \int fg\, d\mu.$$induces an isometry of $L^q(X, {\scr A}, \mu)$ into $(L^p(X, {\scr A}, \mu))^*$. In the special case for $p =1$ and $q =\infty$, then the map $T: {\scr L}^\infty_b(X, {\scr A}, \mu)\to (L^1(X, {\scr A}, \mu))^*$ and it is defined similarly.
+
+**Th:** Let $(X, {\scr A}, \mu)$ be a measure space, let $p$ satisfy $1 < p <\infty$, and $q$ be its harmonic conjugate. Then the map $T: {\scr L}^q(X, {\scr A}, \mu)\to (L^p(X, {\scr A}, \mu))^*$ defined as $$T_g(f) := \int fg\, d\mu.$$induces an isometric isomorphism of $L^q(X, {\scr A}, \mu)$ into $(L^p(X, {\scr A}, \mu))^*$.
+
+**Th:** Let $(X, {\scr A}, \mu)$ be a $\sigma$-finite measure space, then the induced map $T: L^\infty_b(X, {\scr A}, \mu)\to (L^1(X, {\scr A}, \mu))^*$ is an isometric isomorphism.
+
+**Cor:** Let $(X, {\scr A}, \mu)$ be a measure space, let $p$ satisfy $1 < p <\infty$, and $q$ be its harmonic conjugate. Then $L^p(X, {\scr A},\mu)$ is a reflexive space with dual isometrically isomorphic to $L^q(X, {\scr A}, \mu)$.
+
+**Obs:** Let $(X, {\scr A}, \mu)$ be a measure space. Then the formula $$T_{\langle g\rangle}(\langle f\rangle) := \int fg\, d\mu$$ defines an isometry $T$ of $L^1(X, {\scr A}, \mu)$ into $(L^\infty_b(X,{\scr A}, \mu))^*$. 
+
+**Prop:** Let $(X, {\scr A}, \mu)$ be a finite measure space. The following conditions are equivalent.
+- the map $T: L^1(X, {\scr A}, \mu)\to (L^\infty_b(X,{\scr A}, \mu))^*$ is surjective.
+- $L^1(X, {\scr A}, \mu)$ is finite dimensional.
+- $(L^\infty_b(X,{\scr A}, \mu))^*$ is finite dimensional.
+- There is finite $\sigma$-algebra ${\scr A}_0$ on $X$ such that ${\scr A}_0\subseteq \scr A$ and such that each set in $\scr A$ differs from a set in ${\scr A}_0$ by a $\mu$-null set.

@@ -1,3 +1,4 @@
+[[Central Hub]]
 [[Almost finished projects]]
 
 # Set Theory and Category Theory
@@ -29,6 +30,8 @@
 		- [ ] Introduction to Variable sets
 		- [ ] Models of additional variation
 - Category Theory
+	- [ ] Category theory in context by Emily Riehl
+	- [ ] Categories and Sheaves by Kashiwara and Schapira
 ## Topology
 - [x] Fully Normal Spaces
 - Vietoris Hyperspace 

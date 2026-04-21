@@ -10,8 +10,6 @@ The *variation of $F$ over* the interval $(-\infty, b]$ and the *variation of $F
 
 **Obs:** If $f$ is monotonic on $[a,b]$, then $f$ is of bounded variation on $[a,b]$
 
-$(*)$ If $f:E\subseteq\Bbb R \to \Bbb R$ is monotonic, then it is differentiable almost everywhere.
-
 If $f$ is continuous on $[a,b]$, and $f'$ exists and is bounded on the interior then $f$ is of bounded variation on $[a,b]$.
 
 If $f$ is of bounded variation on $[a,b]$, and it is bounded by $M$, then for any $x \in [a,b]$
@@ -24,29 +22,42 @@ $$ V_f \le M(b-a) $$
 
 If $f$ is differentiable and it’s derivative is Riemann Integrable then:$$ V_f =\int_I |f '| $$
 If $f, g \in BV(I),$ and $c, d\in \Bbb R$, then $cf+dg, fg \in BV(I)$, and
-
 $$ V_{cf+dg} \le |c|V_f + |d|V_g \text{ ,and } V_{fg} \le AV_f + BV_g $$
 
 where $A = \sup_{x\in I}|g(x)|$ and $B = \sup_{x\in I}|f(x)|$. We get that $BV(I)$ is an algebra. 
 
 Let $f\in BV(I)$ and bounded away from zero, is bounded away from zero iff ${\exists m> 0\forall x\in I(m \le }|f(x)|)$, then $1/f \in BV(I)$, and $V_{1/f} \le \frac{V_f}{m^2}$
 
-Suppose that $\mu$ is a finite signed measure on $(\Bbb R, {\cal B}(\Bbb R))$. We can define a function $F_\mu: \Bbb R\to\Bbb R$ by letting  $$F_\mu(x) := \mu((-\infty, x]).$$We see that $V_{F_\mu}(-\infty, \infty) \le |\mu|(\Bbb R)$, and hence $F_\mu$ is of finte variation. 
+Suppose that $\mu$ is a finite signed measure on $(\Bbb R, {\cal B}(\Bbb R))$. We can define a function $F_\mu: \Bbb R\to\Bbb R$ by letting  $$F_\mu(x) := \mu((-\infty, x]).$$We see that $V_{F_\mu}(-\infty, \infty) \le |\mu|(\Bbb R)$, and hence $F_\mu$ is of finte variation. It is easy to check the function $F_\mu$ is continuous iff $\mu(\{x\}) = 0$ holds for each $x\in \Bbb R$. 
 
+Suppose that $F:\Bbb R \to\Bbb R$ is of finite variation. It is easy to check that $F$ is bounded and if $-\infty<a<b<\infty$, then  $$V_F(-\infty, b] = V_F(-\infty, a] + V_F[a,b]. $$Furthermore, if $b\in \Bbb R$, then $$V_F(-\infty, b] = \lim_{a\to-\infty}V_F[a, b]. $$ Similarly, if $[a,c]$ and if $F$ is right-continuous at $a$, then $$V_F[a, c] = \lim_{b\to a^+}V_F[b,c]. $$
 
+**Lemma:** Let $F$ be a function of finite variation on $\Bbb R$. Then
+- $V_F$ is bounded and non-decreasing,
+- $V_F$ vanishes at $-\infty$, and
+- if $F$ is right-continuous, then $V_F$ is right continuous.
 
-If $f \in BV([a,b])$, and $c \in (a,b)$, then $f\in BV([a,c]), BV([c,b])$ , and:
-$$ V_f{(a,c)} +V_f{(c,b)} = V_f{(a,b)} $$
+**Prop:** If $F:\Bbb R\to\Bbb R$ is continuous and of finite variation, then $V_F:\Bbb R \to\Bbb R$ is continuous.
 
-If $\alpha \in BV([a,b])$, and $[c,d] \subseteq [a,b]$, then $\alpha \in BV([c,d])$, and:
+**Prop:** Let $F$ be a function of finite variation on $\Bbb R$. Then there are bounded non-decreasing functions $F_1$ and $F_2$ such that $F = F_1-F_2$. 
 
-$$ V_{[c,d]}(\alpha) \le V_{[a,b]}(\alpha) $$
+**Prop:** If $F$ is of finite variation on $\Bbb R$, then the limits $\lim\limits_{x\to-\infty}F(x)$ and $\lim\limits_{x\to\infty}F(x)$ exist. 
 
-If $f \in BV([a,b])$, then $V: [a,b] \to \Bbb R$, then $V(x) = V_f{(a,x)}$, and $V - f$ are both monotonically increasing.
+**Prop:** We see that we can define a bijection $\mu \mapsto F_\mu$ between the set of all signed measures on $(\Bbb R, {\cal B}(\Bbb R))$ and the set of all right-continuous functions of finite variation that vanish at $-\infty$.
 
-Let $f$ be a function of bounded variation iff it can be expressed as a difference of two increasing functions
+**Def:** A function $F:\Bbb R\to\Bbb R$ is *absolutely continuous* if for each $\varepsilon >0$ there is a $\delta> 0$ such that $\sum_i |F(t_i)- F(s_i)| <\varepsilon$ holds whenever $\{(s_i, t_i)\}$ is finite sequence of disjoint open intervals for which $\sum_i(t_i-s_i)<\delta$. 
 
-$(*)$ Then if $f$ is of bounded variation, then it is differentiable almost everywhere
+**Obs:** We see that every absolutely continuous function is continuous and, in fact, uniformly continuous. There are, however, functions that are uniformly continuous and of finite variation, but are not absolutely continuous. 
 
-Let $f$ be a of bounded variation on $[a,b]$, and $V(x) = V_f(a,x)$. $f$ is continuous at $x_0$ iff $V$ is continuous at $x_0$
+**Prop:** If $F:\Bbb R\to\Bbb R$ is absolutely continuous, then $F$ is finite variation on each closed bounded interval.
 
+**Lemma:** If $F:\Bbb R\to \Bbb R$ is absolutely continuous and of finite variation, then $V_F$ is absolutely continuous. 
+
+**Prop:** Let $\mu$ be a finite signed measure on $(\Bbb R, {\cal B}(\Bbb R))$, and let $F_\mu: \Bbb R\to\Bbb R$ defined by $$F_\mu(x) := \mu((-\infty, x]). $$Then $F_\mu$ is absolutely continuous iff $\mu$ is absolutely continuous with respect to Lebesgue measure.
+
+**Prop:** The function $F: \Bbb R\to \Bbb R$ that can be written in the form $$F(x) := \int_
+{-\infty}^xf(t)\, dt$$for some $f\in {\scr L}^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$ are exactly the absolutely continuous functions of finite variation that vanish at $-\infty$.
+
+**Prop:** If $F: \Bbb R\to \Bbb R$ is absolutely continuous, then $F$ is of finite variation on each bounded interval.
+
+**Prop:** Let $\mu$ be a finite signed measure on $(\Bbb R, {\cal B}(\Bbb R))$. Then  $$V_{F_\mu}(-\infty, x] = |\mu|((-\infty, x]).$$

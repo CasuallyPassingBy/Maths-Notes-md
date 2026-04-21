@@ -42,7 +42,7 @@ Vector
 	- [[Integral over Jordan-measurable Sets]]
 		- [[Integral of Vector Valued functions of Rn]]
 	- [[Sets of Measure Zero in Rn]]
-	- [[Fubini's Theorem]]
+	- [[Fubini's Theorem in Rn]]
 		- [[Cauchy formula for repeated integration]]
 		- [[Differentiation under the integral sign]]
 	- [[Riemann-Stieltjes Integral in Rn]]

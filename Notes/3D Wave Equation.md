@@ -17,5 +17,5 @@ We can also write this in another form $$M_t(f)(x) ) \frac1{|S(x,t)|} \int_{S(x,
 By the defining formula for the spherical mean, we may interpret $M_t(f)$ as a convolution of the function $f$ with the element $d\,\sigma$, and since the Fourier transform interchanges convolutions with products, we are lead to believe that $\widehat{M_t(f)}$ is the product of the corresponding Fourier transforms. $$\widehat{M_t(f)}(\omega) = \hat f(\omega) \frac{\sin(2\pi \|\omega\| t)}{2\pi \|\omega\| t}$$
 **Th:** The solution when $n = 3$ of the Cauchy problem wave equation $$\Delta u = \frac{\partial^2 u}{\partial t^2} \quad \text{subject to} \quad u(x, 0) = f(x) \quad \text{and}\quad \frac{\partial u}{\partial t} (x, 0)=g(x)$$
 is given by $$u(x,t) = \frac{\partial}{\partial t}(t M_t(f)(x)) + t M_t(g)(x)$$
-We can get another way to solve to write the solution, using the other way to write the spherical mean of $f$, getting $$u(x, t) = \frac1{|S(x,t)}\int_{S(x,t)} [tg(y)+f(y)+ \nabla f(y) \cdot (y-x)]\, d\sigma(y)$$
+We can get another way to solve to write the solution, using the other way to write the spherical mean of $f$, getting $$u(x, t) = \frac1{|S(x,t)|}\int_{S(x,t)} [tg(y)+f(y)+ \nabla f(y) \cdot (y-x)]\, d\sigma(y)$$
 This alternate expression for the solution of the wave equation is sometimes called *Kirckchoff's* formula
