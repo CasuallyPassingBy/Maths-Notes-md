@@ -3,7 +3,7 @@ tags:
   - ProbabilityTheory
 ---
 Subjects: [[Probability Theory]]
-Links: [[Random Variables]], [[Random Vectors]]
+Links: [[Random Variables]], [[Random Vectors]], [[Finite Product of Measures]]
 
 We say that the random variables $X$ and $Y$ are independent if the events $(X \le x )$  and $(Y \le y)$ are independent for all real values of $x$ and $y$, meaning 
 $$
@@ -12,15 +12,12 @@ $$
 
 ### Discrete case
 We say that the random variables $X$ and $Y$ are independent if all real values of $x$ and $y$, we have that 
-
 $$
 \Bbb P(X = x, Y= y) = \Bbb P(X = x) \Bbb P(Y = y)
 $$
 
 ### Continuous case
-
 We say that the random variables $X$ and $Y$ are independent if all real values of $x$ and $y$, we have that 
-
 $$
 f_{X, Y}(x,y) = f_X(x) f_Y(y)
 $$

@@ -18,7 +18,7 @@ Each joint probability mass function of two random variables, must satisfy the f
 - $f(x,y) \ge 0$
 - $\sum\limits_{x,y} f(x,y) = 1$
 
-Let $A$ and $B$ be Borel sets, then the probability that $(X \in A) \ca\Bbb P(Y \in B)$ is given by the formula:
+Let $A$ and $B$ be Borel sets, then the probability that $(X \in A) \cap(Y \in B)$ is given by the formula:
 
 $$ \Bbb P(X\in A, Y \in B) = \sum_{x \in A} \sum_{y \in B} f_{X,Y}(x,y) $$
 
@@ -33,7 +33,6 @@ All pdf $f$ mus satisfy the following characteristics:
 - $\int_{\Bbb R}\int_{\Bbb R} f(u,v) \,dv\, du = 1$
 
 Given $a<b$ and $c < d$, we can calculate the probability of $(a < X<b) \cap (c< Y<d)$, it is calculated by
-
 $$ \Bbb P(a<X<b,c<Y<d) = \int_{a}^b\int_{c}^d f(u,v) \,dv\, du $$
 
 ---
@@ -66,20 +65,12 @@ where $\#a$ is the number of times that the variables $x_i$ takes the value $a_i
 Let $F:\Bbb R^n \to [0, 1]$ be distribution function. Then there's a probability space $(\Omega, {\scr F}, P)$ and a random variable such that $F$ is the its distribution function.
 
 ### From the pdf/pmf to cdf
-If we have the cdf $f(x,y)$ (in the continuous case) we can find the cdf $F(x,y)$, we calculate it as
+If we have the cdf $f(x,y)$ (in the continuous case) we can find the cdf $F(x,y)$, we calculate it as$$ F(x,y) = \int_{-\infty}^x\int_{-\infty}^y f(u,v) \,dv\, du $$
 
-$$ F(x,y) = \int_{-\infty}^x\int_{-\infty}^y f(u,v) \,dv\, du $$
-
-if we have the pmf $f(x,y)$ (in the discrete case) we can find the cdf $F(x,y)$, we calculate it as
-
-$$ F(x,y) = \sum_{u \le x} \sum_{v \le y} f(x,y) $$
+if we have the pmf $f(x,y)$ (in the discrete case) we can find the cdf $F(x,y)$, we calculate it as$$ F(x,y) = \sum_{u \le x} \sum_{v \le y} f(x,y) $$
 
 ### From the cdf to pdf/pmf
 
-In the continuous case, given the cdf $F(x,y)$ we can calculate the pdf $f(x,y)$ as
+In the continuous case, given the cdf $F(x,y)$ we can calculate the pdf $f(x,y)$ as$$ f(x,y) = \frac{\partial^2}{\partial x \partial y} F(x,y) $$
 
-$$ f(x,y) = \frac{\partial^2}{\partial x \partial y} F(x,y) $$
-
-In the discrete case, given the cdf $F(x,y)$ we can calculate the cdf $f(x,y)$ as
-
-$$ f(x,y) = F(x,y)-F(x-, y)-F(x,y-)+F(x-,y-) $$
+In the discrete case, given the cdf $F(x,y)$ we can calculate the cdf $f(x,y)$ as$$ f(x,y) = F(x,y)-F(x-, y)-F(x,y-)+F(x-,y-) $$

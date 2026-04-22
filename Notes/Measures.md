@@ -20,6 +20,7 @@ Links: [[Rings and Algebras of Sets]]
 
 **Prop:** Let $\mu$ be a $\sigma$-finite measure on a $\sigma$-ring. Then the family of all sets of finite measure a $\sigma$-ring iff $\mu$ is finite.
 
+**Prop:** Let $\mu$ be a measure on $(X, {\scr A})$. If is $\sigma$-finite, then there are finite measures $\mu_0, \mu_1,\dots$ on $(X, {\scr A})$ such that $$\mu = \sum_{n<\omega} \mu_n. $$
 **Def:** The measure $\mu$ is called *complete* if the conditions $E \in \cal R$, $F \subseteq E$ and $\mu(E) = 0$ imply that $F \in \cal R$. 
 
 **Def:** Let $\cal P$ be a semiring, and $\{E_1, \dots, E_n\}$ a finite pairwise disjoint family of elements of $\cal P$ whose union, $E$ is also in $\cal P$ is called a *$\cal P$-partition* of $E$. Let $\mu$ be an extended real valued, non negative and additive set function. The $\cal P$-partition $\{E_1, \dots, E_n\}$ is called a $\mu$ partition, if for every $F$ in $\cal P$, $$\mu(E \cap F) = \sum_{i = 1}^n \mu(E_i \cap F).$$If $\{E_1, \dots, E_n\}$ and $\{F_1, \dots, F_m\}$ are $\cal P$-partitions of $E$, then $\{E_1, \dots, E_n\}$ is called a *subpartition* of $\{F_1, \dots, F_m\}$ if each set $E_i$ is contained in one of the sets $F_j$. 

@@ -19,5 +19,5 @@ $$\int f(y)\,\nu(dy) = \int\left(\int f(y)K(x, dy)\right)\,\mu(dx).$$
 
 **Prop:** Let $(X, {\scr A})$ and $(Y, {\scr B})$ be measurable spaces, and let $K$ be a kernel from $(X, {\scr A})$ to $(Y, {\scr B})$ such that $K(x, Y)$ is finite for each $x\in X$. 
 - The formula $(x, E) \mapsto K(x, E_x)$ defines a kernel from $(X, {\scr A})$ to $(X\times Y, {\scr A\otimes B})$.
-- If $\mu$ is a measure on $(X, {\scr A})$, then  $$E\mapsto \int K(x, E_x)\, \mu(dx) $$defines a measure on $\scr A\otimes B$.
-- We see that that if $(Y, {\scr B},\nu)$ is a finite measure space and $(X, {\scr A},\mu)$ is a measurable space, then we can define a kernel $K(x, E) := \nu(E)$. Then the measure defined above is precisely the product measure on $(X\times Y, {\scr A\otimes B})$. 
+- If $\mu$ is a measure on $(X, {\scr A})$, then  $$\nu(E):= \int K(x, E_x)\, \mu(dx) $$defines a measure on $\scr A\otimes B$.
+- If, in addition, $f:X\times Y\to [0,\infty]$ is $\scr A\otimes B$-measurable then, $x\mapsto \int f(x, y)\, K(x, dy)$ is $\scr A$-measurable, and $$\int f\, d\nu = \int_X\left(\int_Y f(x, y)\, K(x, dy)\right)\, \mu(dx).$$

@@ -29,5 +29,27 @@ Links: [[Measures]], [[Product of sigma-Algebras]], [[Measure Spaces and Measura
 
 **Fubini's Theorem:** Let $(X, {\scr A}, \mu)$ and $(Y, {\scr B}, \nu)$ be $\sigma$-finite measure spaces, and let $f:X\times Y \to\overline{\Bbb R}$ be $\scr A\otimes B$-measurable and $\mu \times \nu$-integrable. Then
 - for $\mu$-almost every $x\in X$ the section $f_x$ is $\nu$-integrable and for $\nu$-almost every $y\in Y$ the sections $f^y$ is integrable, 
-- the function $I_f$ and $J_f$ defined by $$I_f(x) := \begin{cases}\int_Y f_x\, d\nu, & \text{if $f_x$ is $\nu$-integrable,} \\ 0 & \text{otherwise} \end{cases} $$and $$J_f(y) := \begin{cases}\int_Y f^y\, d\mu, & \text{if $f_x$ is $\mu$-integrable,} \\ 0 & \text{otherwise} \end{cases}$$belong to ${\scr L}^1(X, {\scr A}, \mu, \Bbb C)$ and ${\scr L}^1(X, {\scr A}, \nu, \Bbb C)$, respectively, and
+- the function $I_f$ and $J_f$ defined by $$I_f(x) := \begin{dcases}\int_Y f_x\, d\nu, & \text{if $f_x$ is $\nu$-integrable,} \\ \\ 0 & \text{otherwise} \end{dcases} $$and $$J_f(y) := \begin{dcases}\int_Y f^y\, d\mu, & \text{if $f_x$ is $\mu$-integrable,} \\ \\ 0 & \text{otherwise} \end{dcases}$$belong to ${\scr L}^1(X, {\scr A}, \mu, \Bbb C)$ and ${\scr L}^1(X, {\scr A}, \nu, \Bbb C)$, respectively, and
 - the relation $$\int_{X\times Y} f\, d(\mu\times \nu) = \int_X I_f\, d\mu = \int_Y J_f\, d\nu$$holds.
+
+**Fubini-Tonelli Theorem:** Let $(X, {\scr A}, \mu)$ and $(Y, {\scr B}, \nu)$ be $\sigma$-finite measure spaces, and let $f:X\times Y \to\overline{\Bbb R}$, then $$\int_{X\times Y} |f|\, d(\mu\times \nu) = \int_X \left(\int_Y |f_x|\, d\nu\right)\, \mu(dx) = \int_Y\left(\int_X |f^y|\,d\mu \right)\, \nu(dy). $$Furthermore, if any of these integrals is finite, then  $$\int_{X\times Y} f\, d(\mu\times \nu) = \int_X \left(\int_Y f_x\, d\nu\right)\, \mu(dx) = \int_Y\left(\int_X f^y\,d\mu \right)\, \nu(dy).  $$
+
+**Prop:** Let $(X, {\scr A}, \mu)$ and $(Y, {\scr B}, \nu)$ be measure spaces, and let $f:X\times Y\to [0, \infty]$ be $\scr A\otimes B$-measurable. If $\mu$ and $\nu$ are sums of series of finite measures, then the function $x\mapsto \int f(x, y)\, \nu(dy)$ and $y\mapsto \int f(x, y)\, \mu(dx)$ are measurable, and  $$\int_X \left(\int_Y f(x, y)\, \nu(dy)\right)\, \mu(dx) =\int_Y \left(\int_X f(x,y) \, \mu(dx)\right)\, \nu(dy). $$
+**Prop:** Let $(X, {\scr A})$ and $(Y, {\scr B})$ be a measurable spaces, let $\mu_1$ and $\mu_2$ be finite measures on $(X, {\scr A})$, and let $\nu_1$ and $\nu_2$ be finite measures on $(Y, {\scr B})$. If $\mu_2 \ll \mu_1$ and $\nu_2\ll\nu_1$, then $\mu_2\times \nu_2\ll \mu_1 \times\nu_1$, and $$\frac{d(\mu_2\times \nu_2)}{d(\mu_1\times \nu_1)}(x, y) = \frac{d\mu_2}{d\mu_1}(x) \frac{d\nu_2}{d\nu_1}(y).$$
+
+## Applications
+
+**Prop:** Let $(X, {\scr A}, \mu)$ be a $\sigma$-finite measure space, let $\lambda$ be Lebesgue measure on $(\Bbb R, {\cal B}(\Bbb R)),$ and let $f:X \to [0,\infty]$ be $\scr A$-measurable. We have the useful relation $$\int_X f(x)\, \mu(dx) =\int_0^\infty \mu(\{x\in X\mid f(x) >y\}) \, \lambda(dy). $$
+**Cor:** Let $\mu$ be a $\sigma$-finite on $(X, {\scr A})$, and let $f,g:X \to [0, \infty]$ be $\scr A$-measurable functions such that  $$\mu(\{x\in X\mid f(x) > t\}) \le \mu(\{x\in X\mid g(x) > t\}) $$holds for each positive $t$. Then $$\int f\, d\mu \le \int g\, d\mu. $$
+**Cor:** **Prop:** Let $(X, {\scr A}, \mu)$ be a $\sigma$-finite measure space, let $\lambda$ be Lebesgue measure on $(\Bbb R, {\cal B}(\Bbb R)),$ let $f:X \to [0,\infty]$ be $\scr A$-measurable, and $p\in [1, \infty)$. We have the useful relation $$\int_X f^p\, d\mu =\int_0^\infty p t^{p-1} \mu(\{x\in X\mid f(x) >t\}) \, \lambda(dt). $$
+
+**Prop:** Let $\sum_{m, n} a_{m, n}$ be a [[double series]], and let $\mu$ be counting measure on $\Bbb N$. The series $\sum_{m, n} a_{m,n}$ is absolutely convergent iff if the function $(m,n)\mapsto a_{m, n}$ is $\mu\times\mu$-integrable. Thus we see that if $\sum_{m,n} a_{m,n}$ if absolutely convergent, then $\sum_{m = 1}^\infty \sum_{n = 1}^\infty a_{m,n} =\sum_{n = 1}^\infty \sum_{m = 1}^\infty a_{m,n}$; in other words, the order of summation can be reversed for absolutely convergent series. 
+
+**Prop:** Let $F, G :\Bbb R\to\Bbb R$ be bounded nondecreasing right-continuous functions that vanish at $-\infty$, let $\mu_F$ and $\mu_G$ be the measures they induce on ${\mathcal B}(\Bbb R)$, and let $a, b\in\Bbb R$ such that $a<b$. Then  $$\int_{[a,b]} \frac{F(x)+F(x-)}{2} \mu_G(dx) + \int_{[a,b]} \frac{G(x)+ G(x-)}{2} = F(b)G(b)-F(a-)G(a-).$$If, in addition, the functions $F$ and $G$ have no points of discontinuity in common, then the equation above can be simplified to $$\int_{[a, b]}F(x)\, \mu_G(dx) + \int_{[a,b]} G(x)\, \mu_F(dx) =  F(b)G(b)-F(a-)G(a-). $$
+**Prop:** Let $f$ and $g$ belong to ${\scr L}^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$. Then 
+- for almost every $x$ the function $f(x-t)g(t)$ belongs to ${\scr L}^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$, and
+- the function $f*g$ defined by $$(f*g)(x) := \begin{dcases}
+  \int f(x-t)g(t)\, \lambda(dt) & \text{if }t \mapsto f(x-t)g(t) \text{ is Lebesgue integrable,} \\ \\0 & \text{otherwise}
+  \end{dcases} $$belongs to $\mathscr L^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$ and satisfies $\|f*g\|_1 \le \|f\|_1 \|g\|_1$. 
+
+**Prop:** Let $f$ and $g$ belong to ${\scr L}^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$. Then $f*g = g*f$.
