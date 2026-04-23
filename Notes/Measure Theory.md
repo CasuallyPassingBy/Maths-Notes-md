@@ -35,4 +35,6 @@ This notes are primarily based on Cohn's *Measure theory (2nd Edition)*, and wil
 - [[Signed and Complex Measures]]
 	- [[Absolute Continuity of Measures]]
 		- [[Functions of Bounded Variation on R]]
+- [[Change of Variable Theorem in Rn]]
+- [[Differentiation of Measures in Rn]]
 - [[Haar Measure]]

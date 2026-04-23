@@ -4,7 +4,7 @@ tags:
   - Topology
 ---
 Subjects: [[Metric and Normed Spaces]], [[Topology]]
-Links: [[Compact Sets in R]], [[Compact Sets in Rn]], [[Continuity on Metric Spaces]], [[Topology on Metric Spaces]]
+Links: [[Compact Sets in R]], [[Compact Sets in Rn]], [[Continuity on Metric Spaces]], [[Topology of Metric Spaces]]
 
 **Def**: A **[[Topological Covers|cover]]** of $A$ on $X$ is a family ${\frak C}=\{ X_i \mid i \in \cal I\}$ of substets of $X$ such that $$ A \subseteq \bigcup {\frak C} = \bigcup_{i \in \cal I} X_i $$
 

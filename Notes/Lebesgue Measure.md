@@ -35,9 +35,17 @@ A generalisation of the Lebesgue measure is the [[Lebesgue-Stieltjes Measures]]
 
 # In $\Bbb R^d$
 
+**Def:** A measure on $(\Bbb R^d, \mathcal B(\Bbb R^d))$ is often called a *Borel measure* on $\Bbb R^d$. 
+
 **Prop:** Let $A$ be a Lebesgue measurable subset of $\Bbb R^d$. Then
 - $\lambda(A) = \inf\{\lambda(U) \mid U \in \tau \land A\subseteq U\}$, and 
 - $\lambda(A) = \sup\{\lambda(K) \mid K \text{ is compact }\land K\subseteq A\}$. 
+
+**Def:** Let $\scr A$ be a $\sigma$-algebra on $\Bbb R^d$ that includes the Borel $\sigma$-algebra $\mathcal B(\Bbb R^d)$. A measure on $(\Bbb R^d, {\scr A})$ is *regular* if
+- each compact subset $K$ of $\Bbb R^d$ satisfies $\mu(K) <\infty$,
+- each subset $A\in \scr A$ satisfies  $$\mu(A) = \inf \{\mu(U) \mid U\in \tau\land A \subseteq U\}, \text{ and} $$
+- each open subset $U$ of $\Bbb R^d$ satisfies $$\mu(U) = \sup\{\mu(K) \mid K \text{ is compact and} K \subseteq U\}. $$
+**Obs:** We see that the Lebesgue measure in $\Bbb R^d$ is regular.
 
 **Lemma:** Each open subset of $\Bbb R^d$ is the union of a countable disjoint collection of half-open cubes, each of which is th form given by $$\{(x_1, \dots, x_d) \mid j_i 2^{-k} \le x_i < (j_i+1)2^{-k} \text{ for }i = 1,\dots, d\}$$for some integers $j_1,\dots, j_d$ and some positive integer $k$.
 
@@ -48,3 +56,4 @@ A generalisation of the Lebesgue measure is the [[Lebesgue-Stieltjes Measures]]
 **Prop:** Let $\mu$ be a non-zero measure on $(\Bbb R^d, {\cal B}(\Bbb R^d))$ that is translation invariant and that is finite on the bounded Borel subsets of $\Bbb R^d$. Then there is a positive number $c$ such that $\mu(A) = c\lambda(A)$ holds for each $A\in {\cal B}(\Bbb R^d)$.
 
 Lebesgue measure on $(\Bbb R^d, {\cal M}_\lambda)$ is the [[Extension of Measures#Extension, Completion and Approximation|completion]] of the Lebesgue measure on $(\Bbb R^d, {\cal B}(\Bbb R^d))$. 
+

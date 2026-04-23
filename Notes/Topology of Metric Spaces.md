@@ -6,12 +6,10 @@ tags:
 Subjects: [[Metric and Normed Spaces]], [[Topology]]
 Links: [[Continuity on Metric Spaces]], [[Topological Characterization of Continuity in Rn]], [[Open and Closed Sets in R]], [[Metric Spaces]]
 
-**Def:** Given a metric space $(X, d)$ we can define the set that have a distance less than a real number $r$ from $x \in X$, it is called *************_the open ball with center $x$ and radius $r$:_
-
+**Def:** Given a metric space $(X, d)$ we can define the set that have a distance less than a real number $r$ from $x \in X$, it is called *the open ball with center $x$ and radius $r$:*
 $$ B_r(x)=B(x, r) = \{y \in X \mid d(x,y) < r\} $$
 
 We can reformulate the idea of continuity as, let $\phi: X \to Y$ be _continuous at $x_0$_ if for every ${\varepsilon >0}$, there’s a $\delta >0$ such that
-
 $$ \phi(B_X(x_0, \delta)) \subseteq B_Y(\phi(x_0), \varepsilon) $$
 
 **Def:** Given $(X, d)$ a metric space and $A\subseteq X$, let $x \in X$ is called an **interior point** if there’s $\varepsilon>0$such that $B_X(x, \varepsilon )\subseteq A$. The set of all interior points of $A$ is called the **interior of $A$ in** $X$, denoted as $\operatorname{int}_X(A)$, or simply $\operatorname{int}(A)$. We say that $A$ is **open on $X$** if $A = \operatorname{int}(A)$

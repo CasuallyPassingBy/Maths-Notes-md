@@ -58,3 +58,4 @@ Links: [[Rings and Algebras of Sets]]
 **Th:** Let $\mu$ a finite, non negative, and additive set function on a ring $\cal R$. If $\mu$ is either continuous from below at every $E\in \cal R$, or continuous from below at $\varnothing$, then $\mu$ is a measure on $\cal R$.
 
 **Prop:** If $\mu$ is a measure on a ring $\cal R$, then if $E, F\in \cal R$, then $\mu(E) + \mu(F) = \mu(E \cup F) + \mu(E \cap F)$. 
+

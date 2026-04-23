@@ -3,7 +3,7 @@ tags:
   - Topology/AlgebraicTopology
 ---
 Subjects: [[Algebraic Topology]]
-Links: [[The Monodromy Action of Covering Maps]], [[Covering Maps]], [[Compact Surfaces]], [[Fundamental Group of Compact Surfaces]], [[Möbius Transformations]], [[Group Actions]], [[Continuous Actions of Groups]], [[Geodesics in Riemannian Geometry]], [[Topology on Metric Spaces]]
+Links: [[The Monodromy Action of Covering Maps]], [[Covering Maps]], [[Compact Surfaces]], [[Fundamental Group of Compact Surfaces]], [[Möbius Transformations]], [[Group Actions]], [[Continuous Actions of Groups]], [[Geodesics in Riemannian Geometry]], [[Topology of Metric Spaces]]
 
 The idea of this note to determine the universal covering of all compact surfaces. We consider that $\Bbb B^2 \subseteq \Bbb C$. 
 

@@ -12,7 +12,7 @@ $$ \forall \varepsilon \exists \delta>0 \forall x\in X[d(x,z) < \delta \implies 
 
 we say that $f$ is continous if it’s continuous at every $z \in X$
 
-A function $\phi: X \to Y$ is a **homeomorphism** if $\phi$ is continuous and bijective, and $\phi^{-1}: Y\to X$ is continuous. We say that $X$ and $Y$ are **homeomorphic** if there exists a homeomorphism between them. If $\phi$ is uniformly continuous, with a uniformly continuous inverse, we call it a uniform homeomorphism, and $X$ and $Y$ are called uniformly homeomorphic. This means that the [[Topology on Metric Spaces|topologies generated]] by the metrics on $X$ and $Y$ .
+A function $\phi: X \to Y$ is a **homeomorphism** if $\phi$ is continuous and bijective, and $\phi^{-1}: Y\to X$ is continuous. We say that $X$ and $Y$ are **homeomorphic** if there exists a homeomorphism between them. If $\phi$ is uniformly continuous, with a uniformly continuous inverse, we call it a uniform homeomorphism, and $X$ and $Y$ are called uniformly homeomorphic. This means that the [[Topology of Metric Spaces|topologies generated]] by the metrics on $X$ and $Y$ .
 
 Let $\phi: X \to Y$ and $\psi: Y\to Z$ be functions between metric spaces.
 - If $\phi$ and $\psi$ are continuous, then $\psi \circ \phi : X \to Z$ is continuous

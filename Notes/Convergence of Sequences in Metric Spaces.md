@@ -15,7 +15,7 @@ We can use the notations
 
 $$ x_k \to x \ \text{ in }X \quad \text{or} \quad \lim_{k \to\infty} x_k = x $$
 
-Let $x_\bullet$ be a sequence, then $x_\bullet$ converges to $x$ in $X$ iff $U$ is an open subset of $X$, that $x \in U$, then there’s $m \in \Bbb N$ such that if $k \ge m$, then $x_k \in U$. This brings a [[Topology on Metric Spaces|topological description]] to sequence converging
+Let $x_\bullet$ be a sequence, then $x_\bullet$ converges to $x$ in $X$ iff $U$ is an open subset of $X$, that $x \in U$, then there’s $m \in \Bbb N$ such that if $k \ge m$, then $x_k \in U$. This brings a [[Topology of Metric Spaces|topological description]] to sequence converging
 
 Let $x_\bullet$ be a sequence, then $x_\bullet$ is said to be **eventually constant** if there’s $N \in \Bbb N$, such that if ${n \ge N}$, then $x_n = x_N$. This sequences always converge no matter the metric space, and in the discrete metric this are the only sequences that converge, i.e., if the $d$ is the discrete metric on $X$, then $x_\bullet$ converges iff $x_\bullet$ is eventually constant
 

@@ -3,7 +3,7 @@ tags:
   - Analysis
 ---
 Subjects: [[Metric and Normed Spaces]]
-Links: [[Continuity on Metric Spaces]], [[Topology on Metric Spaces]]
+Links: [[Continuity on Metric Spaces]], [[Topology of Metric Spaces]]
 
 ### Equivalence of Metrics and Norms
 Two metrics $d_1$ and $d_2$, on a set $X$, are _**equivalent**_ if the identity $id:(X, d_1) \to (X, d_2)$ is an equivalence, meaning, if there are constants $c_1, c_2 >0$ such that

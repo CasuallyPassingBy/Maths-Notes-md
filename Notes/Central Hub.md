@@ -10,7 +10,7 @@ All the subjects we have
 - [[Set Theory]]
 - [[Topology]]
 	- [[Algebraic Topology]]
-- [[Elementary Number Theory]]
+- [[Elementary Number Theory]] (On Hold)
 	- [[Algebraic Number Theory]] (Pending)
 	- [[Analytic Number Theory]] (Pending)
 - [[Category Theory]] (Pending)

@@ -2,47 +2,73 @@
 tags:
   - Analysis
 ---
-Subjects: [[Metric and Normed Spaces]]
-Links: [[Topology on Metric Spaces]], [[limsup and liminf]], [[Continuity on Metric Spaces]], [[Rectifiable Curves in Rn]]
+Subjects: [[Metric and Normed Spaces]], [[Topology]]
+Links: [[Topology of Metric Spaces]], [[limsup and liminf]], [[Continuity on Metric Spaces]], [[Rectifiable Curves in Rn]], [[Continuous Functions and Homeomorphims]]
 
-A function $f:X \to \Bbb R\cup\{ \infty\}$ is ********************_lower semicontinuous at the point $x_0 \in X$_ if given that ${c< f(x_0)}$, there’s a $\delta>0$ such that
+# Metric Spaces
 
-$$ d_X(x, x_0) < \delta \implies c<f(x) $$
+A function $f:X \to \overline{\Bbb R}$ is **lower semicontinuous at the point $x_0 \in X$** if given that ${c< f(x_0)}$, there’s a $\delta>0$ such that $$ d_X(x, x_0) < \delta \implies c<f(x) $$
+We say that $f$ is **lower semicontinuous** if it is at every $x_0 \in X$.
 
-We say that $f$ is ********************lower semicontinuous******************** if it is at every $x_0 \in X$.
-
-A function $f: X \to \Bbb R\cup \{-\infty\}$ is *********************************_upper semicontinuous at the point $x_0 \in X$_ if given that ${f(x_0) < c}$, there’s a $\delta>0$ such that
-
+A function $f:X \to \overline{\Bbb R}$ is **upper semicontinuous at the point $x_0 \in X$** if given that ${c< f(x_0)}$, there’s a $\delta>0$ such that 
 $$ d_X(x, x_0) \implies f(x)< c $$
 
-We say that $f$ is ****************upper semicontinuous**************** if it is at every $x_0 \in X$.
+We say that $f$ is **upper semicontinuous** if it is at every $x_0 \in X$.
 
-Let $f: X \to \Bbb R\cup \{ \infty\}$, $f$ is lower semicontinuous at $x_0$ iff we have that for every sequence $(x_k)$ in $X$ that $x_k \to x$, it is satisified that
-
+Let $f:X \to \overline{\Bbb R}$, $f$ is lower semicontinuous at $x_0$ iff we have that for every sequence $(x_k)$ in $X$ that $x_k \to x$, it is satisfied that
 $$ f(x_0) \le \liminf _{k \to \infty} f(x_k) $$
 
 or using the functional version, we get that
-
 $$ f(x_0) \le \liminf_{x \to x_0}f(x) $$
 
-Let $f:X \to \Bbb R\cup\{-\infty\}$, $f$ is lower semicontinuous at $x_0$, iff we have that for every sequence $(x_k)$ in $X$, such that $x_k \to x$, it is satisfied that
-
+Let $f:X \to \overline{\Bbb R}$, $f$ is upper semicontinuous at $x_0$, iff we have that for every sequence $(x_k)$ in $X$, such that $x_k \to x$, it is satisfied that
 $$ f(x_0) \ge \limsup _{k \to \infty} f(x_k) $$
-
 or using the functional version, we get that
-
 $$ f(x_0) \ge \limsup_{x \to x_0}f(x) $$
 
-We can have a similar idea to translate the problem of continuity of a function to thinking of the the pre-image of an open set. Doing so we get that $f:X \to \Bbb R\cup\{\infty\}$ is lower semicontinuous if
-
+We can have a similar idea to translate the problem of continuity of a function to thinking of the the pre-image of an open set. Doing so we get that $f:X \to \overline{\Bbb R}$ is lower semicontinuous if
 $$ f^{-1}[(r, \infty]] \text{ is open for all }r \in \Bbb R $$
 
 Similarly get that $f: X \to \Bbb R\cup\{-\infty\}$ is upper semicontinuous if
-
 $$ f^{-1}[[ -\infty, r)] \text{ is open for all }r \in \Bbb R $$
 
 A function is continuous iff it is lower semicontinuous and upper semicontinuous.
 
 Let $f: X \to \Bbb R\cup\{\infty\}$ is lower semicontinuous and if $f^{\le a}:= f^{-1}[( -\infty, a]]$ is a non empty compact set for some $a \in \Bbb R$, then $f$ reaches its minimum on $X$.
 
-Let $f: X \to \Bbb R \cup\{-\infty\}$ is upper semicontinuous and if $f^{\ge a}:= f^{-1}[[a, \infty)]$ is a nonmepty compact set for some $a \in \Bbb R$, then $f$ reaches its maximum on $X$.
+Let $f: X \to \Bbb R \cup\{-\infty\}$ is upper semicontinuous and if $f^{\ge a}:= f^{-1}[[a, \infty)]$ is a nonempty compact set for some $a \in \Bbb R$, then $f$ reaches its maximum on $X$.
+
+# Topological Spaces
+
+We can extend the idea of lower semicontinuous and upper semicontinuous to topological spaces. Let $(X, \tau)$ be a topological space. 
+
+**Def:** A function $f: X\to \overline{\Bbb R}$ is called *lower semicontinuous at a point $x_0\in X$* if for every $y <f(x_0)$ there exists a neighbourhood $U$ of $x_0$ such that $f(x) > y$ for all $x\in U$. A function $f: X \to \overline{\Bbb R}$ is lower semicontinuous if the function is lower semicontinuous at every point of its domain. 
+
+**Obs:** A function $f: X \to \overline{\Bbb R}$, we see that a $f$ is lower semicontinuous at $x_0$ iff $$\liminf_{x\to x_0} f(x) \ge f(x_0). $$
+
+**Def:** A function $f: X\to \overline{ \Bbb R}$ is called *upper semicontinuous at a point $x_0\in X$* if for every $y > f(x_0)$ there exists a neighbourhood $U$ of $x_0$ such that $f(x) < y$ for all $x\in U$. A function $f: X \to \overline{\Bbb R}$ is upper semicontinuous if the function is upper semicontinuous at every point of its domain. 
+
+**Prop:** We get that $f:X \to \overline{\Bbb R}$ is lower semicontinuous if
+$$ f^{-1}[(r, \infty]] \text{ is open for all }r \in \Bbb R $$
+Similarly get that $f: X \to \Bbb R\cup\{-\infty\}$ is upper semicontinuous if
+$$ f^{-1}[[ -\infty, r)] \text{ is open for all }r \in \Bbb R $$
+
+**Prop:** A function is continuous iff it is lower semicontinuous and upper semicontinuous.
+
+**Prop:** A function that is lower or upper semicontinuous then it is [[Measurable Functions|Borel measurable]]. 
+
+**Obs:** A function is upper semicontinuous iff $-f$ is lower semicontinuous.
+
+**Examples:**
+- If $U$ is an open set of $X$, then the characteristic function $\chi_U$ is lower semicontinuous.
+- If $C$ is an closed set of $X$, then the characteristic function $\chi_C$ is upper semicontinuous. 
+
+**Prop:** If $f$ and $g$ are both lower or upper semicontinuous, then $f+g$ is also lower or upper semicontinuous. 
+
+**Prop:** The pointwise supremum of an arbitrary family $(f_i)_{i \in I}$ of lower semicontinuous function $f_i: X\to\overline{\Bbb R}$, defined by $f(x) := \sup\{f_i(x) \mid i\in I\}$ is lower semicontinuous.
+
+**Cor:** The limit of a monotone increasing sequence $f_1\le f_2\le f_3\le \cdots$ of lower semicontinuous functions is lower semicontinuous. 
+
+**Prop:** The pointwise infimum of an arbitrary family $(f_i)_{i \in I}$ of upper semicontinuous function $f_i: X\to\overline{\Bbb R}$, defined by $f(x) := \inf\{f_i(x) \mid i\in I\}$ is upper semicontinuous.
+
+**Cor:** The limit of a monotone decreasing sequence $f_1\ge f_2\ge f_3\ge \cdots$ of upper semicontinuous functions is upper semicontinuous. 

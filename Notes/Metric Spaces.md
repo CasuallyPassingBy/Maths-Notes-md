@@ -2,7 +2,7 @@
 tags:
   - Analysis
 ---
-Subjects: [[Metric and Normed Spaces]], [[Topology on Metric Spaces]]
+Subjects: [[Metric and Normed Spaces]], [[Topology of Metric Spaces]]
 
 **Def:** A metric over the non-empty set $X$ is a function $d:X\times X \to \Bbb R$ that satisfies for any ${x, y,z \in X}$:
 

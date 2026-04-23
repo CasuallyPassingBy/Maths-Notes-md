@@ -33,7 +33,7 @@ We can see that every norm induces a metric, but a metric is not always induced 
 - If $S$ is a subspace of $X$, then $\text{cl}_X(S)$ is a subspace of $X$.
 - If $C$ is a convex subset of $X$, then $\text{cl}_X(C)$ and $\text{int}_X(C)$ are convex
 
-We can see that [[Bases and Dimension|finite dimensional subspaces]] of a normed space $V$ are [[Topology on Metric Spaces|closed]]
+We can see that [[Bases and Dimension|finite dimensional subspaces]] of a normed space $V$ are [[Topology of Metric Spaces|closed]]
 
 In the context of topological vector spaces, we can define a couple of things. Let $X$ be a normed vector space and $A\subseteq X$. 
 - We say that $A$ is *convex* if $ty + (1-t)x \in A$ whenever $x,y \in A$ and $t\in [0, 1]$.

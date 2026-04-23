@@ -3,7 +3,7 @@ tags:
   - RealAnalysis
 ---
 Subjects: [[Real Analysis]], [[Measure Theory]]
-Links: [[Continuity on R]], [[Measures]], [[Signed and Complex Measures]]
+Links: [[Continuity on R]], [[Measures]], [[Signed and Complex Measures]], [[Differentiation of Measures in Rn]]
 
 **Def:** Suppose that $F$ is a real-valued function whose domain includes the interval $[a,b]$. Let $\scr S$ be the collection of finite squences $\{t_i\}_{ i <n+1}$ such that $$a\le t_0 < t_1<\dots < t_n \le b.$$Then $V_F[a,b]$, the *variation of $F$ over $[a,b]$*, is defined by $$V_F[a,b] := \sup\left\{\left.\sum_{i} |F(t_i)- F(t_i)| \;\right\rvert; \{t_i\}\in {\scr S}\right\}.$$The function $F$ is of *finite variation* or *bounded variation* on $[a,b]$ if $V_F[a,b]$ is finte. 
 The *variation of $F$ over* the interval $(-\infty, b]$ and the *variation of $F$ over $\Bbb R$*, written $V_F(-\infty, b]$ and $V_F(-\infty, \infty)$, respectively, are defined in a similar way, now using sequences that belong to their respective domains. Similarly, we say that $F$ is finite variation over those intervals if the variation of $F$ is finite. If $F:\Bbb R\to\Bbb R$ is of finite variation, then the *variation* of $F$ is the function $V_F: \Bbb R\to\Bbb R$ defined by $V_F(x) := V_F(-\infty, x]$.
@@ -61,3 +61,4 @@ Suppose that $F:\Bbb R \to\Bbb R$ is of finite variation. It is easy to check th
 **Prop:** If $F: \Bbb R\to \Bbb R$ is absolutely continuous, then $F$ is of finite variation on each bounded interval.
 
 **Prop:** Let $\mu$ be a finite signed measure on $(\Bbb R, {\cal B}(\Bbb R))$. Then  $$V_{F_\mu}(-\infty, x] = |\mu|((-\infty, x]).$$
+**Th:** Let $F:\Bbb R\to \Bbb R$ be of finite variation. Then $F$ is [[Differentiation of Measures in Rn|differentiable]] $\lambda$-almost everywhere.

@@ -95,7 +95,7 @@ A natural problem arises when considering covering maps, and that is when a func
 
 **Borsuk-Ulam Theorem $2$-dimensional Version:** For any continuous map $F: \Bbb S^2\to \Bbb R^2$, there is a point $x\in \Bbb S^2$ such that $F(x) = F(-x)$. We get the nice corollary, there are antipodal points on earth with the same temperature and atmospheric pressure. 
 
-**Ham Sandwich Theorem in $\Bbb R^3$:** Given three disjoint, bounded, connected open subsets $U_1, U_2, U_3\subseteq \Bbb R^3$, there exists a plane that simultaneously bisects all three, in the sense that the plane divides $\Bbb R^3$ into two half-spaces $H^+$ and $H^-$ such that for each $i$ $U_i \cap H^+$ has the same [[Lebesgue Measure in Rn|Lebesgue measure]] as $U_i \cap H^-$. 
+**Ham Sandwich Theorem in $\Bbb R^3$:** Given three disjoint, bounded, connected open subsets $U_1, U_2, U_3\subseteq \Bbb R^3$, there exists a plane that simultaneously bisects all three, in the sense that the plane divides $\Bbb R^3$ into two half-spaces $H^+$ and $H^-$ such that for each $i$, $U_i \cap H^+$ has the same [[Lebesgue Measure|Lebesgue measure]] as $U_i \cap H^-$. 
 
 # Generalisation
 

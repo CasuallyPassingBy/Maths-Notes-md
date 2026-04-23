@@ -17,7 +17,7 @@ We have special topologies, that are more akin to the trivial ones:
 - If we have that the topology $\tau$ is equal to ${\cal P}(X)$. Then it is called the *discrete topology* on $X$, and the pair $(X, {\cal P}(X))$ is the discrete space of $X$. 
 - If we have that $\tau =\{\varnothing, X\}$, then $\tau$ is called the *indiscrete topology* on $X$, and $(X, \tau)$ is the indiscrete space on $X$.
 - We can also define what is called the *cofinte topology*, and let $X$ be a set, and we define $$ \tau = \{\varnothing\} \cup \{A \subseteq X \mid |X\setminus A| <\aleph_0 \}$$ which is a topology, and we can often write it as $\tau_{\text{cof}}$ 
-- Given any [[Metric Spaces|metric space]] $(X, d)$, and the collection $\tau_d = \{\varnothing\} \cup \{E \subseteq X \mid E \text{ is union of balls}\}$ is a topology on $X$ and we call it the topology on $X$ induced by the metric $d$. [[Topology on Metric Spaces]]
+- Given any [[Metric Spaces|metric space]] $(X, d)$, and the collection $\tau_d = \{\varnothing\} \cup \{E \subseteq X \mid E \text{ is union of balls}\}$ is a topology on $X$ and we call it the topology on $X$ induced by the metric $d$. [[Topology of Metric Spaces]]
 
 ## Comparison of Topologies
 

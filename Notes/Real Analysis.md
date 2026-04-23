@@ -44,7 +44,6 @@ Real Analysis is the study of real numbers and real-valued functions. I am mainl
 		- [[Abel's Summability]]
 	- [[Interchange of Limits]]
 - [[limsup and liminf]]
-	- [[Functional Version of limsup and liminf]]
 - [[Open and Closed Sets in R]]
 	- [[Compact Sets in R]]
 	- [[Perfect and Connected Sets in R]]

@@ -5,7 +5,6 @@ tags:
 [[Central Hub]]
 # Overview
 
-Vector
 
 # Differential 
 - [[Sequences in Rn]]

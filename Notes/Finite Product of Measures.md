@@ -52,4 +52,12 @@ Links: [[Measures]], [[Product of sigma-Algebras]], [[Measure Spaces and Measura
   \int f(x-t)g(t)\, \lambda(dt) & \text{if }t \mapsto f(x-t)g(t) \text{ is Lebesgue integrable,} \\ \\0 & \text{otherwise}
   \end{dcases} $$belongs to $\mathscr L^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$ and satisfies $\|f*g\|_1 \le \|f\|_1 \|g\|_1$. 
 
-**Prop:** Let $f$ and $g$ belong to ${\scr L}^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$. Then $f*g = g*f$.
+The *convolution* of the functions $f, g\in {\scr L}^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$ is the function $f*g$ defined above. Note that if $f_1, f_2, g_1, g_2\in {\scr L}^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$ and if $f_1 = f_2$ and $g_1 = g_2$ hold $\lambda$-almost everywhere, then $(f_1*g_1)(x) = (f_2*g_2)(x)$ holds for each $x\in \Bbb R$. Thus, convolution, which we have defined as an operator that assigns a function ${\scr L}^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$ to each pair of functions in ${\scr L}^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$, can be considered as an operator that assigns an element of $L^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$ to each pair of elements of $L^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$. In addition, note that the convolution operator is bilinear. 
+
+**Prop:** The convolution operator is associative.
+
+**Prop:** Let $f$ and $g$ belong to ${\scr L}^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$. Then $f*g = g*f$. 
+
+**Prop:** If $f, g\in {\scr L}^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$, and $g$ is bounded, then $f*g$ is continuous.
+
+**Obs:** We see that $L^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$ is a commutative Banach algebra under the convolution.
