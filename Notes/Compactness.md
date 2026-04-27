@@ -73,3 +73,5 @@ Links: [[Topological Spaces]], [[Topological Covers]]
 **Tube Lemma:** Let $X$ be any space and $Y$ be a compact space. If $x\in X$ and $U \subseteq X \times Y$ is an open subset containing $\{x\}\times Y$, then there is a neighbourhood $V$ of $X$ such that $V \times Y\subseteq U$. 
 
 **Prop:** Let $X$ be a metrizable space, if $A\subseteq X$ is compact, then $A$ is totally bounded.
+
+**Prop:** A compact Hausdorff space is [[Metrizable Spaces|metrisable]] iff it is second countable.

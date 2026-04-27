@@ -19,15 +19,17 @@ This more restricted space is usually better behaved.
 
 If we make it such that $X$ is a compact metric space, we actually get that 
 $$
-{\cal C}^0_b(X, Y) =  {\cal C}^0(X, Y)
+{\cal C}_b(X, Y) =  {\cal C}(X, Y)
 $$
-Meaning that this is the most well behaved. If we have that $Y$ is a normed space then any ${\cal C}^0(X, Y)$ is also a normed space, and we usually endow it with the uniform norm, or uniform metric as the [[Bounded Function Spaces]]
+Meaning that this is the most well behaved. If we have that $Y$ is a normed space then any ${\cal C}(X, Y)$ is also a normed space, and we usually endow it with the uniform norm, or uniform metric as the [[Bounded Function Spaces]]
 
 Lastly, if we only denoted it as 
 $$
-{\cal C}^0(X) := {\cal C}^0_b(X, \Bbb R) 
+{\cal C}(X) := {\cal C}_b(X, \Bbb R) 
 $$
 Since it is so common to send them to $\Bbb R$
+
+**Prop:** Let $K$ be a metric space, then $\mathcal C(K)$ is metrisable using the norm $\|\cdot\|_\infty$. 
 
 # Continuous Functions from $[a, b]$ to $\Bbb R$
 We will look at ${\cal C}^0[a,b]$ be the set of continuous functions $f:[a,b] \to \Bbb R$. Then we can see that ${\cal C}^0[a,b]$ is a vector space. Similarly, that in the case of the $\ell^p$ spaces we will define a ${\|\cdot\|_p:{\cal C}^0[a,b] \to \Bbb R}$ with $p \in [1, \infty)$ having

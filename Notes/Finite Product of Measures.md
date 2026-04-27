@@ -3,7 +3,7 @@ tags:
   - MeasureTheory
 ---
 Subjects: [[Measure Theory]]
-Links: [[Measures]], [[Product of sigma-Algebras]], [[Measure Spaces and Measurable Spaces]], [[Outer Measures]], [[Fubini's Theorem in Rn]]
+Links: [[Measures]], [[Product of σ-Algebras]], [[Measure Spaces and Measurable Spaces]], [[Outer Measures]], [[Fubini's Theorem in Rn]]
 
 **Def:** Let us introduce some terminology and notation. Suppose that $X$ and $Y$ are sets and $E\subseteq X\times Y$. Then for each $x\in X$ and $y\in Y$ the *sections* $E_x$ and $E^y$ are the subsets of $Y$ and $X$ given by  $$E_x := \{y\in Y\mid (x,y)\in E\} \quad \text{and} \quad E^y := \{x\in X\mid (x, y)\in E\}. $$If $f$ is a function on $X \times Y$, then the *sections* $f_x$ and $f^y$ are functions on $Y$ and $X$ given by $$f_x(y) := f(x, y) \quad \text{and} \quad f^y(x) := f(x, y). $$
 **Lemma:** Let $(X. {\scr A})$ and $(Y, {\scr B})$ be measurable spaces.

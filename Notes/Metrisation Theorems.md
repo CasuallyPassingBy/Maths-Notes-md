@@ -35,7 +35,7 @@ $$is a metric space on the space $X$.
 - $X$ is metrizable.
 - $X$ is $T_2$, paracompact and developable.
 
-**Smirnov Metrization Theorem:** A topological space is metrizable iff it is $T_2$, paracompact and locally metrizable. (We cannot weaken paracompact to metacompact)
+**Smirnov Metrization Theorem:** A topological space is metrizable iff it is $T_2$, paracompact and locally metrizable. (We cannot weaken paracompact to metacompact, nor weaken $T_2$ to $T_1$). 
 
 **Th:** If $X$ is a metrizable space and $f: X \to Y$ is a perfect function, then $Y$ is metrizable.
 

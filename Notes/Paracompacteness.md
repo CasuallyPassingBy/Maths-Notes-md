@@ -16,7 +16,7 @@ There are various topological properties related to the paracompactness:
 - [[Strong Paracompactness]]
 - [[Fully Normal Spaces]]
 
-We get the following corollary from [[Metrization Theorems|Stone's theorem]]
+We get the following corollary from [[Metrisation Theorems|Stone's theorem]]
 
 **Cor:** Every metrizable space is paracompact.
 

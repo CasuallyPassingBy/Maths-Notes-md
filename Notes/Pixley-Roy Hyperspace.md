@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Weak, Partial, and Total Separations]], [[Topological Spaces]], [[Ultraparacompactness]], [[Paracompacteness]], [[Metrization Theorems]], [[Collectionwise Normal Spaces]], [[Collectionwise Hausdorff spaces]], [[Lašnev Spaces]], [[Zero Dimensional Spaces]]
+Links: [[Weak, Partial, and Total Separations]], [[Topological Spaces]], [[Ultraparacompactness]], [[Paracompacteness]], [[Metrisation Theorems]], [[Collectionwise Normal Spaces]], [[Collectionwise Hausdorff spaces]], [[Lašnev Spaces]], [[Zero Dimensional Spaces]]
 
 For the rest of this note, we will consider that $X$ is a $T_1$ space. We will consider the collection $\text{Fin}(X)= \mathcal F(X) := \{A\subseteq X \mid 0 < |A| <\omega\} = [X]^{< \omega}\setminus \{\varnothing\}$ of the nonempty subsets of $X$. Let $n \in \omega\setminus 1$, then we can consider the set $\text{Fin}_n(X) = \mathcal F_n(X) := \{F \subseteq X \mid 0 < |F| \le n\} = [X]^{\leq n}\setminus \{\varnothing\}$.
 

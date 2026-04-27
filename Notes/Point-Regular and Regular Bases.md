@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Metrization Theorems]], [[Topological Developability]], [[Paracompacteness]], [[Metacompactness]],[[Separable, First and Second Countable Spaces]]
+Links: [[Metrisation Theorems]], [[Topological Developability]], [[Paracompacteness]], [[Metacompactness]],[[Separable, First and Second Countable Spaces]]
 
 **Def:** We say that a base $\cal B$ for a topological space $X$ is *point-regular* or *uniform* if for every point $x\in X$ and any $U\in \tau_X$ with $x\in U$, then $|\{B\in \mathcal B \mid x\in B \ \land \ B \cap (X\setminus U) \neq \varnothing \}| < \omega$. 
 

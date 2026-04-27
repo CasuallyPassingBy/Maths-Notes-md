@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Compactness]], [[Hausdorff Spaces]], [[Baire's Category Theorem]], [[Relative Compactness]], [[Topological Manifolds]], [[σ-Compactness]], [[]]
+Links: [[Compactness]], [[Hausdorff Spaces]], [[Baire's Category Theorem]], [[Relative Compactness]], [[Topological Manifolds]], [[σ-Compactness]]
 
 **Def:** A topological space $X$ is said to be *locally compact* if for every $p\in X$ there is a compact subset of $X$ containing a neighbourhood of $p$. 
 
@@ -20,6 +20,8 @@ Links: [[Compactness]], [[Hausdorff Spaces]], [[Baire's Category Theorem]], [[Re
 
 **Prop:** Any open or closed subset of a locally compact $T_2$ space is locally compact $T_2$ space.
 
+**Cor:** Let $X$ be a locally compact Hausdorff space, and let $Y$ be a subspace of $X$. If $Y$ is locally compact iff $Y = U \cap F$ for some open subset $U$ and some closed subset $F$ of $X$. 
+
 **Prop:** Let $X$ be a second countable locally compact Hausdorff space. Then each open subset of $X$ is $F_\sigma$ and is in fact the union of a sequence of compact sets. In particular, $X$ is [[Perfect Spaces|perfect]]. 
 
 **Cor:** Every second countable locally compact Hausdorff space is $\sigma$[[σ-Compactness|-compact]]
@@ -35,3 +37,7 @@ Links: [[Compactness]], [[Hausdorff Spaces]], [[Baire's Category Theorem]], [[Re
 **Paracompactness Theorem:** Every second countable, locally compact Hausdorff space is [[Paracompacteness|paracompact]].
 
 **Cor:** Every topological manifold is paracompact.
+
+**Lemma:** Let $X$ be a locally compact Hausdorff space. If $X$ is second countable, then its one-point compactification is also second countable. 
+
+**Th:** Every second countable, locally compact Hausdorff space is [[Metrizable Spaces|metrisable]].

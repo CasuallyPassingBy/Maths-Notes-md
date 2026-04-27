@@ -32,10 +32,7 @@ We can bound the metric by $1$, and still generates the same metric/pseudometric
 
 **Prop:** The sum $\bigoplus_{\alpha < \kappa} X_\alpha$ is (completely) metrizable iff all the spaces $X_\alpha$ are (completely) metrizable. Additionally, the sum $\bigoplus_{\alpha < \kappa} X_\alpha$ is totally bounded iff all the spaces $X_\alpha$ are totally bounded and $\kappa < \omega$. 
 
-**Prop:** Let $\{X_n \mid n  <\omega\}$ be a family of (completely) metrizable spaces and let $d_n$ be a metric on $X_n$ bounded by $1$. The topology induced on the set $\prod_{n <\omega} X_n$ by the (complete) metric 
-$$
-d(x, y) := \sum_{n <\omega} \frac1{2^n} d_n(x,y)
-$$coincides with the natural topology on $\prod_{n <\omega} X_n$. Additionally, if each $X_n$ is totally bounded, then $\prod_{n < \omega} X_n$ is totally bounded.
+**Prop:** Let $\{X_n \mid n  <\omega\}$ be a family of (completely) metrizable spaces and let $d_n$ be a metric on $X_n$ bounded by $1$. The topology induced on the set $\prod_{n <\omega} X_n$ by the (complete) metric $$ d(x, y) := \sum_{n <\omega} \frac1{2^n} d_n(x,y)$$coincides with the natural topology on $\prod_{n <\omega} X_n$. Additionally, if each $X_n$ is totally bounded, then $\prod_{n < \omega} X_n$ is totally bounded.
 
 **Cor:** The Hilbert cube $[0, 1]^\omega$ is metrizable by a totally bounded metric; the one given in the theorem above.
 
