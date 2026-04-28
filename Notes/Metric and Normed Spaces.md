@@ -14,7 +14,7 @@ The study of metric spaces and normed vector spaces
 	- [[ellp spaces]]
 	- [[Quotient of Normed Spaces]]
 	- [[Inner Products and Norms]]
-	- [[Continuous Function Spaces]]
+	- [[Space of Continuous Functions]]
 	- [[Bounded Function Spaces]]
 		- [[Uniform Convergence In Metric Spaces]]
 	- [[Space of Continuous Functions From Rn to Rm]]

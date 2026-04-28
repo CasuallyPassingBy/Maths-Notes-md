@@ -4,7 +4,7 @@ tags:
   - FunctionalAnalysis
 ---
 Subjects: [[Measure Theory]], [[Functional Analysis]]
-Links: [[Scalar Integral on Measure Spaces]], [[Modes of Convergence using Measure]], [[Measure Spaces and Measurable Spaces]], [[Normed Vector Spaces]], [[ellp spaces]], [[Complete Metric Spaces]], [[Inner Products and Norms]], [[Useful Inequalities]], [[Bounded Linear Operators]]
+Links: [[Scalar Integral on Measure Spaces]], [[Modes of Convergence using Measure]], [[Measure Spaces and Measurable Spaces]], [[Normed Vector Spaces]], [[ellp spaces]], [[Complete Metric Spaces]], [[Inner Products and Norms]], [[Useful Inequalities]], [[Topological Dual Vector Space]]
 
 In this note $\Bbb F$ denotes either $\Bbb R$ or $\Bbb C$. 
 
@@ -73,7 +73,7 @@ Additionally, we know that $\lim\limits_{p\to\infty} \|f\|_p = \|f\|_\infty$.
 
 **Prop:** Suppose $[a,b]$ is a closed bounded interval and that $p$ satisfies $1\le p<\infty$. Then the subspace of $L^p([a,b])$ determined by the step functions on $[a,b]$ is dense in $L^p([a,b])$. 
 
-**Prop:** Suppose $[a,b]$ is a closed bounded interval and that $p$ satisfies $1\le p<\infty$. Then the subspace of $L^p([a,b])$ determined by the [[Continuous Function Spaces|continuous functions]] on $[a,b]$ is dense in $L^p([a,b])$. 
+**Prop:** Suppose $[a,b]$ is a closed bounded interval and that $p$ satisfies $1\le p<\infty$. Then the subspace of $L^p([a,b])$ determined by the [[Space of Continuous Functions|continuous functions]] on $[a,b]$ is dense in $L^p([a,b])$. 
 
 **Def:** Let us call a function on $\Bbb R$ a *step function* if for each interval $[a,b]$ its restriction  to $[a,b]$ is a step function.
 

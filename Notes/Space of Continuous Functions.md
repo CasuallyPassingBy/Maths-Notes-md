@@ -3,11 +3,10 @@ tags:
   - Analysis
 ---
 Subjects: [[Metric and Normed Spaces]]
-Links: [[Continuity on R]], [[Normed Vector Spaces]], [[Vector Spaces]], [[Bounded Function Spaces]], [[Continuity on Metric Spaces]], [[Compactness in Metric Spaces]]
+Links: [[Continuity on R]], [[Normed Vector Spaces]], [[Vector Spaces]], [[Bounded Function Spaces]], [[Continuity on Metric Spaces]], [[Compactness in Metric Spaces]], [[Compactness]], [[Space of Compactly Supported Functions]]
 
 # Space of Continuous Functions
-
-We usually work with two types of functions spaces, the bounded ones and the continuous ones. We actually have a special notation for the set of all continuous functions from a metric space $X$ to another one $Y$
+We usually work with two types of functions spaces, the bounded ones and the continuous ones. We actually have a special notation for the set of all continuous functions from a topological space $X$ to metric spaces $Y$
 $$
 {\mathcal C(X, Y)}={\cal C}^0(X, Y):= \{f:X\to Y\mid f \text{ is continuous}\}
 $$
@@ -17,7 +16,7 @@ $$
 $$
 This more restricted space is usually better behaved.
 
-If we make it such that $X$ is a compact metric space, we actually get that 
+If we make it such that $X$ is a compact space, we actually get that 
 $$
 {\cal C}_b(X, Y) =  {\cal C}(X, Y)
 $$
@@ -29,7 +28,9 @@ $$
 $$
 Since it is so common to send them to $\Bbb R$
 
-**Prop:** Let $K$ be a metric space, then $\mathcal C(K)$ is metrisable using the norm $\|\cdot\|_\infty$. 
+**Obs:** Let $X$ be a metric space, then $\mathcal C(X)$ is metrisable using the norm $\|\cdot\|_\infty$. 
+
+**Prop:** If $X$ be a second countable compact Hausdorff space , then $\mathcal C(X)$ is separable. 
 
 # Continuous Functions from $[a, b]$ to $\Bbb R$
 We will look at ${\cal C}^0[a,b]$ be the set of continuous functions $f:[a,b] \to \Bbb R$. Then we can see that ${\cal C}^0[a,b]$ is a vector space. Similarly, that in the case of the $\ell^p$ spaces we will define a ${\|\cdot\|_p:{\cal C}^0[a,b] \to \Bbb R}$ with $p \in [1, \infty)$ having

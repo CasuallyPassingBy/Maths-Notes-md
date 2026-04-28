@@ -9,6 +9,7 @@ tags:
 # Topics
 - [[Normed Vector Spaces]]
 	- [[Bounded Linear Operators]]
+		- [[Topological Dual Vector Space]]
 		- [[Compact Operators]]
 	- [[Direct Sums of Normed Spaces]]
 	- [[Quotient of Normed Spaces]]

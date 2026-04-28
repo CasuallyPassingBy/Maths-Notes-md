@@ -4,7 +4,7 @@ tags:
   - FunctionalAnalysis
 ---
 Subjects: [[Measure Theory]], [[Functional Analysis]]
-Links: [[Compactness]], [[Continuous Functions and Homeomorphims]], [[Local Compactness]], [[Hausdorff Spaces]], [[Continuous Function Spaces]], [[Measures on Hausdorff Spaces]]
+Links: [[Compactness]], [[Continuous Functions and Homeomorphims]], [[Local Compactness]], [[Hausdorff Spaces]], [[Space of Continuous Functions]], [[Measures on Hausdorff Spaces]]
 
 **Def:** Let $f$ be a continuous real or complex valued function on a topological space $X$. The *support* of $f$, written $$\text{supp}(f) := \text{cl}_X(\{x\in X\mid f(x) \ne 0\}).$$In the case $X$ is a locally compact Hausdorff space, we will denote by $\mathcal C_c(X)$ or ${\scr K}(X)$ the set of those continuous function $f:X \to \Bbb R$ for which $\text{supp}(f)$ is compact. Likewise, we will denote $\mathcal C_c(X, \Bbb C)$ or ${\scr K}^\Bbb C(X)$ the set of those continuous functions $f:X \to \Bbb C$ for which $\text{supp}(f)$ is compact.
 
@@ -38,3 +38,6 @@ It is clear that $\mathcal C_c(X)$ and $\mathcal C_c(X, \Bbb C)$ are vector spac
 **Prop:** Let $X$ be a locally compact Hausdorff space, and let $I$ be a linear functional on $\mathcal C_c(X)$, and let $\mu^*$ be defined just  as above, let $\mu$ be the restriction of $\mu^*$ to $\mathcal B(X)$, and let $\mu_1$ be the restriction of $\mu^*$ to the $\sigma$-algebra ${\scr M}_{\mu^*}$ of $\mu^*$-measurable sets. Then $\mu$ and $\mu_1$ are regular measures, and $$\int f\, d\mu = \int f\, d\mu_1 = I(f) $$holds for each $f\in \mathcal C_c(X)$.
 
 **Riesz Representation Theorem:** Let $X$ be a locally compact Hausdorff space, and let $I$ be a linear functional on $\mathcal C_c(X)$. Then there is a unique regular Borel measure such that $$I(f) = \int f\,d\mu $$holds for each $f\in \mathcal C_c(X)$. 
+
+**Prop:** Let $X$ be a locally compact Hausdorff space. Then $\mathcal C_c(X)$ and $\mathcal C_c(X, \Bbb C)$ are dense subspaces of $\mathcal C_0(X)$ and $\mathcal C_0(X, \Bbb C)$. 
+

@@ -14,16 +14,10 @@ The range of the function can be denoted as $\{F(a) \mid a\in A\}$ or $\{F(a)\}_
 Let $F$ and $G$ be functions, then $F = G$ iff $\text{dom}\,F= \text{dom}\,G$, and ${\forall x \in \text{dom}F[F(x) = G(x)]}$
 
 Let $F$ be a function and $A$ and $B$ sets:
-
 - $F$ is a function _on_ $A$ iff $\text{dom}\, F = A$
-    
 - $F$ is a function _into_ $B$ iff $\text{ran}\,F \subseteq B$
-    
-- The _restriction_ of the function $F$ _to $A$_ is the function:
-    $$ F\restriction_A =\{(a,b) \in F\mid a \in A\} $$
-    
-    If $G$ is a restriction of $F$ to some $A$, then $F$ is an _extension_ of $G$.
-    
+- The _restriction_ of the function $F$ _to $A$_ is the function: $$ F\restriction_A =\{(a,b) \in F\mid a \in A\} $$
+- If $G$ is a restriction of $F$ to some $A$, then $F$ is an _extension_ of $G$.
 
 Let $f$ and $g$ be functions. Then $g\circ f$ is a function. $$ \def\dom{\text{dom}\,} \dom(g\circ f) = \dom f \cap f^{-1}[\dom g] $$
 
@@ -54,7 +48,6 @@ A set of functions $\cal F$ is _compatible_ iff $\forall f, g \in \mathcal{F}[f,
 ### Properties
 
 Let $X$, $Y$ be sets, $f:X\to Y$ be a function, $A_1, A_2 \subseteq X$ and $B_1, B_2\subseteq Y$. Then
-
 - If $A_1 \subseteq A_2$ then $f[A_1] \subseteq f[A_2]$
 - $f[A_1 \cup A_2] = f[A_1] \cup f[A_2]$
 - $f[A_1\cap A_2] \subseteq f[A_1] \cap f[A_2]$

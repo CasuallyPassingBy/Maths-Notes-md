@@ -3,7 +3,7 @@ tags:
   - Analysis
 ---
 Subjects: [[Metric and Normed Spaces]]
-Links: [[Space of Continuous Functions From Rn to Rm]], [[Continuous Function Spaces]], [[Compactness in Metric Spaces]], [[Dense Subsets]], [[Separable, First and Second Countable Spaces]]
+Links: [[Space of Continuous Functions From Rn to Rm]], [[Space of Continuous Functions]], [[Compactness in Metric Spaces]], [[Dense Subsets]], [[Separable, First and Second Countable Spaces]]
 
 ### Using Polygonal functions
 A continuous function $\phi: [a,b]\to \Bbb R$ is _polygonal_ iff, there’s a partition $\mathcal P$ of $[a,b]$, such that for in each subinterval $[x_i, x_{i+1}]$, $\phi$ is linear.

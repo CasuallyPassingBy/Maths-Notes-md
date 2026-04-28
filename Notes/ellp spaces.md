@@ -15,7 +15,6 @@ Since they are norms, we have that
 ### Hölder’s Inequalities for Series
 We have that for $p,q$ harmonic conjuagtes. Then if $x_\bullet \in \ell^p$ and $y_\bullet \in \ell^q$. Then
 $$ \|x_\bullet y_\bullet \|_1 \le \|x_\bullet\|_p\|y_\bullet\|_q $$
-
 ### Minkowski’s Inequalities for Series
 $$ \|x_\bullet +y_\bullet \|_p \le \|x_\bullet\|_p +\|y_\bullet\|_p $$
 
@@ -25,6 +24,8 @@ We can compare how does the $\ell^p$ spaces when varying $p$. We get that
 **Th:** For $1\le p <\infty$, $\ell^p$ is separable.
 
 **Prop:** In the case $p = 2$, we can define an inner product on $\ell^2$, defined as$$\langle x_\bullet, y_\bullet \rangle := \sum_{k = 1}^\infty x_k \overline{y_k}. $$This inner product generates the norm on $\ell^2$, we see that $\ell^2$ is a [[Hilbert Spaces|Hilbert space]].
+
+**Th:** Let $1 < p<\infty$ and $q$ its harmonic conjugate, then the dual of $\ell^p$ is isomotrically isomorphic to $\ell^q$. 
 
 # $\ell^p(\Bbb Z)$ 
 This are the two sided sequences

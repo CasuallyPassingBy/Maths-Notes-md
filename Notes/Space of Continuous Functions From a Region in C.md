@@ -2,7 +2,7 @@
 tags:
   - ComplexAnalysis
 ---
-Links: [[Continuous Function Spaces]], [[The Riemann Sphere]], [[Equivalence of Metrics]]
+Links: [[Space of Continuous Functions]], [[The Riemann Sphere]], [[Equivalence of Metrics]]
 
 We will consider $U$ a region in $\Bbb C$, being an open and connected set of $\Bbb C$. 
 

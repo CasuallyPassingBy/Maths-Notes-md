@@ -129,8 +129,19 @@
 ## Analysis
 - Measure Theory
 	- [ ] Cohn
+		- [x] Measures
+		- [x] Functions and Integrals
+		- [x] Convergence
+		- [x] Signed and Complex Measures
+		- [x] Product Measures
+		- [x] Differentiation
+		- [x] Measures on Locally Compact Spaces
+		- [ ] Polish Spaces and Analytic Sets
+		- [ ] Haar Measure
+		- [ ] Probability
 	- [ ] Bogachev I/II
 	- [x] Nelson
+	- [ ] Folland
 -  Differential Geometry
 	- [x]  Introduction to Smooth Manifolds by Lee 
 	- [ ] The Geometry of Jet Bundles by D.J. Saunders
@@ -138,6 +149,8 @@
 	- [ ] Introduction to Riemannian Manifolds by Lee
 -  Functional Analysis
 	- [ ] Megginson
+- Banach Manifolds
+	- [ ] Fundamentals of Differential Geometry by Serge Lang
 -  Kurzweil-Henstock Integral
 	- [ ] Bartle 'A Modern Theory of Integration'
 -  Analysis on Metric Spaces
@@ -190,6 +203,7 @@
 - Graph Theory
 	- [ ] 'Graph Theory with Algorithms and its Applications' by Saha Ray
 	- [ ] Diestel
+	- [ ] Introduction to Graph Theory by Richard J. Trudeau
 ## Probability
 - Probability Theory
 	- [x]  *Introducción a la probabilidad* Rincón
