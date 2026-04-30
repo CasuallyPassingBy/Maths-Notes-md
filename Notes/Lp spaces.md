@@ -4,7 +4,7 @@ tags:
   - FunctionalAnalysis
 ---
 Subjects: [[Measure Theory]], [[Functional Analysis]]
-Links: [[Scalar Integral on Measure Spaces]], [[Modes of Convergence using Measure]], [[Measure Spaces and Measurable Spaces]], [[Normed Vector Spaces]], [[ellp spaces]], [[Complete Metric Spaces]], [[Inner Products and Norms]], [[Useful Inequalities]], [[Topological Dual Vector Space]]
+Links: [[Scalar Integral on Measure Spaces]], [[Modes of Convergence using Measure]], [[Measure Spaces and Measurable Spaces]], [[Normed Vector Spaces]], [[ellp spaces]], [[Complete Metric Spaces]], [[Inner Products and Norms]], [[Useful Inequalities]], [[Topological Dual Vector Space]], [[Space of Compactly Supported Functions]]
 
 In this note $\Bbb F$ denotes either $\Bbb R$ or $\Bbb C$. 
 
@@ -111,3 +111,5 @@ When considering the dual spaces of $L^p(X, {\scr A}, \mu)$ for some measure spa
 - $L^1(X, {\scr A}, \mu)$ is finite dimensional.
 - $(L^\infty_b(X,{\scr A}, \mu))^*$ is finite dimensional.
 - There is finite $\sigma$-algebra ${\scr A}_0$ on $X$ such that ${\scr A}_0\subseteq \scr A$ and such that each set in $\scr A$ differs from a set in ${\scr A}_0$ by a $\mu$-null set.
+
+**Prop:** Let $X$ be a locally compact Hausdorff space, let $\scr A$ be a $\sigma$-algebra on $X$ that includes $\mathcal B(X)$, and let $\mu$ be a regular measure on $(X, {\scr A})$. Suppose that $1\le p <\infty$. Then $\mathcal C_c(X)$ is  dense subspace of $\mathscr L^p(X, {\scr A}, \mu, \Bbb F)$ and so determines a dense subspace of $L^p(X, {\scr A}, \mu, \Bbb F)$. 

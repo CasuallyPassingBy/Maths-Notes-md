@@ -32,6 +32,8 @@ Since it is so common to send them to $\Bbb R$
 
 **Prop:** If $X$ be a second countable compact Hausdorff space , then $\mathcal C(X)$ is separable. 
 
+**Prop:** Let $X$ be a compact Hausdorff space. Then for each continuous linear functional $L$ on $\mathcal C(X)$ there are positive continuous linear functionals $L_+$ and $L_-$ on $\mathcal C_0(X)$ such that $L = L_+ - L_-$. We define $L_+$ by $$L_+(f) := \sup \{L(g) \mid g\in \mathcal C_0(X) \land 0\le g\le f\}, $$and the functional $L_- := L- L_+$. In addition, this decomposition is minimal in the sense that if $L = L_1-L_2$ is another decomposition of $L$ into a difference of positive linear functionals $L_1(f) \ge L_+(f)$ and $L_2(f) \le L_-(f)$ hold for each nonnegative $f\in \mathcal C(X)$. 
+
 # Continuous Functions from $[a, b]$ to $\Bbb R$
 We will look at ${\cal C}^0[a,b]$ be the set of continuous functions $f:[a,b] \to \Bbb R$. Then we can see that ${\cal C}^0[a,b]$ is a vector space. Similarly, that in the case of the $\ell^p$ spaces we will define a ${\|\cdot\|_p:{\cal C}^0[a,b] \to \Bbb R}$ with $p \in [1, \infty)$ having
 $$ \|f\|_p = \left(\int_a^b |f(x)|^p\, dx\right)^{1/p} $$

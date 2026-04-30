@@ -40,6 +40,14 @@ We would need more technical lemmas but the rest of the lemmas and propositions 
 
 **Riesz Representation Theorem:** Let $X$ be a locally compact Hausdorff space, and let $I$ be a linear functional on $\mathcal C_c(X)$. Then there is a unique regular Borel measure such that $$I(f) = \int f\,d\mu $$holds for each $f\in \mathcal C_c(X)$. 
 
+**Prop:** Let $X$ be a locally compact Hausdorff space, let $\scr A$ be a $\sigma$-algebra on $X$ that includes $\mathcal B(X)$, and let $\mu$ be a regular measure on $(X, {\scr A})$. Then the union of all open subsets of $X$ that have measure zero under $\mu$ is itself an open set that has measure zero under $\mu$. 
+
+**Def:** We see that $X$ has a largest open subset of $\mu$-measure zero, namely the union of all its open subsets of $\mu$-measure zero. The complement of this open set is called the *support* of $\mu$ and is denoted by $\text{supp}(\mu)$. A point belongs to $\text{supp}(\mu)$ iff every open neighbourhood of $x$ has positive measure under $\mu$. 
+
+**Prop:** If $X$ is an uncountable set, with the discrete topology, then there is no regular Borel measure of $X^*$, where $X^*$ is the one-point compactification.
+
+**Prop:** Let $X$ be a locally compact Hausdorff space, and let $\mu$ be a regular Borel measure on $X$. A point $x\in X$ belongs to $\text{supp}(\mu)$ iff every nonnegative function $f$ in $\mathcal C_c(X)$ that satisfies $f(x) > 0$ also satisfies $\int f\,d\mu > 0$. 
+
 # [[Signed and Complex Measures]]
 
 **Def:** Let $X$ be a locally compact Hausdorff space. A finite signed or complex measure $\mu$ on $(X, \mathcal B(X))$ is *regular* if its variation $|\mu|$ is regular. 
@@ -69,3 +77,12 @@ We see that $M_r(X, \Bbb R)$ and $M_r(X, \Bbb C)$ are vector subspaces of $M(X, 
 - Each compact subset $K$ of $X$ that satisfies $\mu(K) = 0$ also satisfies $\nu(K) = 0$.
 
 **Prop:** Let $X$ be a locally compact Hausdorff space, and let $\mu$ be a regular Borel measure on $X$. For each $f\in \mathscr L^1(X, \mathcal B(X), \mu)$ define a finite signed or complex measure $\nu_f$ on $(X, \mathcal B(X))$ by means of the formula $\nu_f(A) := \int_A f\, d\mu$. Then the map $f\mapsto \nu_f$ induces a linear isometry of $L^1(X, \mathcal B(X), \mu)$ onto the subspace $M_r(X, \Bbb R)$, or $M_r(X, \Bbb C)$ of those $\nu$ that are absolutely continuous with respect to $\mu$. 
+
+**Def:** If $\mu$ is a finite signed or complex regular Borel measure on a locally compact Hausdorff space, then its *support* is defined to be the support of its variation $|\mu|$.
+
+**Prop:** Let $X$ be a locally compact Hausdorff space, let $\scr A$ be a $\sigma$-algebra on $X$ that includes $\mathcal B(X)$, and let $\mu$ be a regular measure on $(X, {\scr A})$. Suppose that $1\le p <\infty$. Then $\mathcal C_c(X)$ is  dense subspace of $\mathscr L^p(X, {\scr A}, \mu, \Bbb R)$ and so determines a dense subspace of $L^p(X, {\scr A}, \mu, \Bbb R)$. 
+
+**Lusin's Theorem:** Let $X$ be a locally compact Hausdorff space, let $\scr A$ be a $\sigma$-algebra on $X$ that includes $\mathcal B(X)$, and let $\mu$ be a regular measure on $(X, {\scr A})$, and let $f:X \to \Bbb R$ be $\scr A$-measurable. If $A\in \scr A$ and satisfies $\mu(A) <\infty$ and if $\varepsilon>0$, then there is a compact subset $K$ of $A$ such that $\mu(A\setminus K) <\varepsilon$ and such that the restriction of $f$ to $K$ is continuous. Moreover, there is a function $g\in \mathcal C_c(X)$ that agrees with $f$ at each point in $K;$ if $A\neq\varnothing$ and $f$ is bounded on $A$, then the function $g$ can be chosen so that $$ \sup\{|g(x)|\mid x\in X\} \le\sup \{|f(x)|\mid x\in A\}.$$
+**Def:** Let $X$ be an arbitrary set and that $\scr H$ is a family of $\overline{\Bbb R}$-valued functions on $X$. Then $\scr H$ is *directed upward* if for each $h_1, h_2$ of functions in $\scr H$ there is a function $\scr H$ that satisfies $h_1\le h$ and $h_2\le h$. Meaning that $\scr H$ is directed upwards if $\scr H$ is a [[Directed Sets|directed set]].
+
+**Prop:** Let $X$ be a locally compact Hausdorff space, let $\scr A$ be a $\sigma$-algebra on $X$ that includes $\mathcal B(X)$, and let $\mu$ be a regular measure on $(X, {\scr A})$. Suppose that $f: X \to [0,\infty]$ is lower [[Semicontinuity|semicontinuous]] and that $\scr H$ is a family of nonnegative lower semicontinuous functions that is directed upward and satisfies $$f(x) = \sup\{h(x) \mid h\in {\scr H}\} $$at each $x\in X$. Then  $$\int f\, d\mu = \sup \left\{\left. \int h\, d\mu \;\right\rvert\; h\in {\scr H}\right\}. $$
