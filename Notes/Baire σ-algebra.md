@@ -3,7 +3,7 @@ tags:
   - MeasureTheory
 ---
 Subjects: [[Measure Theory]]
-Links: [[Rings and Algebras of Sets]], [[Hausdorff Spaces]], [[Compactness]], [[Space of Continuous Functions]], [[Space of Compactly Supported Functions]], [[Measures on Hausdorff Spaces]]
+Links: [[Rings and Algebras of Sets]], [[Hausdorff Spaces]], [[Compactness]], [[Space of Continuous Functions]], [[Space of Continuous Compactly Supported Functions]], [[Measures on Hausdorff Spaces]]
 
 **Def:** Let $X$ be a compact Hausdorff spaces, and let $\mathcal C(X)$ be the set of all real-valued continuous functions on $X$. The $\mathcal B_0(X)$, the *Baire $\sigma$-algebra* on $X$, is the smallest $\sigma$-algebra on $X$ each function in $\mathcal C(X)$ measurable; the sets that belong to $\mathcal B_0(X)$ are called *Baire subsets* of $X$. A *Baire measure* on $X$ is a *finite measure on* $(X, \mathcal B_0(X))$.
 

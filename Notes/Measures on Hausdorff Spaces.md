@@ -10,11 +10,15 @@ Links: [[Measures]], [[Measure Spaces and Measurable Spaces]], [[Borel Sets]], [
 **Lemma:** Let $X$ and $Y$ be Hausdorff topological spaces, and let $f:X\to Y$ be continuous. Then $f$ is Borel measurable.
 
 **Lemma:** Let $X$ be a Hausdorff space, and let $Y$ be a subspace of $X$. Then $${\cal B}(Y) = \{A \mid \exists B\in {\cal B}(X)[ A = B \cap Y]\}. $$
-Let $X$ be Hausdorff space. A *Borel measure* on $X$ is a measure whose domain is ${\cal B}(X)$. Suppose that ${\scr A}$ is a $\sigma$-algebra on $X$ such that ${\cal B}(X)\subseteq \scr a$. A positive measure on $\scr A$ is *regular* 
-1. if each compact subset $K$ of $X$ satisfies $\mu(K)<\infty$,
+Let $X$ be Hausdorff space. A *Borel measure* on $X$ is a measure whose domain is ${\cal B}(X)$. Suppose that ${\scr A}$ is a $\sigma$-algebra on $X$ such that ${\cal B}(X)\subseteq \scr A$. A positive measure on $\scr A$ is *regular* 
+1. if every point of $X$ has a neighbourhood $U$ for which $\mu(U)<\infty$,
 2. each $A\in {\scr A}$ satisfies $$\mu(A) := \inf\{\mu(U) \mid A \subseteq U \land U \in \tau\}, \text{ and}$$
-3. each open subset $U$ of $X$ satisfies $$\mu(U) = \sup\{\mu(K) \mid K \subseteq U \land K \text {is compact}\}. $$
-A *regular Borel measure* on $X$ is a regular measure whose domain is ${\cal B}(X)$. A measure that satisfies condition 2.is often called *outer regular*, and a measure that satisfies 3., *inner regular.* 
+3. each open subset $U$ of $X$ satisfies $$\mu(U) = \sup\{\mu(K) \mid K \subseteq U \land K \text { is compact}\}. $$
+A *regular Borel measure* on $X$ is a regular measure whose domain is ${\cal B}(X)$. A measure that satisfies condition 1., is called *locally finite* since, if it satisfies condition 2. is called *outer regular*, and a measure that satisfies 3., *inner regular.* A measure that only  called a *Radon measure.* 
+
+If a measure is locally finite, then every compact set has finite measure. 
+
+We can prove that in locally compact spaces, Radon measures are regular measures. Additionally, if $X$ is a locally compact Hausdorff, then local finiteness of the measure is equivalent to all compact subsets having finite measure. 
 
 **Lemma:** Let $X$ be a [[Perfect Spaces|perfect]] Hausdorff space, and let $\mu$ be a finite Borel measure on $X$. Then each Borel subset $A$ of $X$ satisfies $$\mu(A) = \inf\{\mu(U) \mid A\subseteq U \land U\in \tau\}, $$and $$\mu(A) = \sup\{\mu(F) \mid F\subseteq A \land F\text{ is closed}\}.$$
 **Prop:** Let $X$ be a second countable locally compact Hausdorff space, and let $\mu$ be a Borel measure on $X$ that is finite on compact sets. Then $\mu$ is regular. 
@@ -36,7 +40,7 @@ Let $U$ be an open subset of locally compact Hausdorff space $X$. We will often 
 \mu(U) &= \sup\left\{ \left. \int f\, d\mu \; \right\vert\; f\in \mathcal C_c(X) \land 0 \le f\le \chi_U\right\} \\
  &= \sup\left\{ \left. \int f\, d\mu \; \right\vert\; f\in \mathcal C_c(X) \land f\prec U\right\}
 \end{align*} $$
-We would need more technical lemmas but the rest of the lemmas and propositions are [[Space of Compactly Supported Functions#Riesz Representation Theorem|here]]. 
+We would need more technical lemmas but the rest of the lemmas and propositions are [[Space of Continuous Compactly Supported Functions#Riesz Representation Theorem|here]]. 
 
 **Riesz Representation Theorem:** Let $X$ be a locally compact Hausdorff space, and let $I$ be a linear functional on $\mathcal C_c(X)$. Then there is a unique regular Borel measure such that $$I(f) = \int f\,d\mu $$holds for each $f\in \mathcal C_c(X)$. 
 

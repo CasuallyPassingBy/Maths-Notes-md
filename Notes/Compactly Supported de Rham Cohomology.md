@@ -4,7 +4,7 @@ tags:
   - Topology/AlgebraicTopology
 ---
 Subjects: [[Differential Geometry]], [[Algebraic Topology]]
-Links: [[The de Rham Cohomology Groups]], [[Integration of Differential Forms on Smooth Manifolds]], [[Mayer-Vietoris Theorem for de Rham Cohomology]], [[The de Rham Theorem and Stokes's Theorem on Chains]], [[Space of Compactly Supported Functions]]
+Links: [[The de Rham Cohomology Groups]], [[Integration of Differential Forms on Smooth Manifolds]], [[Mayer-Vietoris Theorem for de Rham Cohomology]], [[The de Rham Theorem and Stokes's Theorem on Chains]], [[Space of Continuous Compactly Supported Functions]]
 
 **Poincaré Lemma with Compact Support:** Let $1 \le p \le n$, and suppose $\omega$ is a compactly supported closed $p$-form on $\Bbb R^n$. If $p =  n$, suppose in addition that $$\int_{\Bbb R^n}\omega = 0.$$Then there exists a compactly supported smooth $(p-1)$-form $\eta$ on $\Bbb R^n$ such that $d\eta = \omega$.
 

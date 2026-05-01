@@ -13,62 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measures on Hausdorff Spaces.md",
+                "file": "Finite Products of Measures on Locally Compact Spaces.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Measures on Hausdorff Spaces"
-            }
-          },
-          {
-            "id": "c436691ae8a98118",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Space of Compactly Supported Functions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Space of Compactly Supported Functions"
-            }
-          },
-          {
-            "id": "297ebfd56969c9e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lp spaces.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Lp spaces"
-            }
-          },
-          {
-            "id": "791306d2a51cf38b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semicontinuity.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Semicontinuity"
+              "title": "Finite Products of Measures on Locally Compact Spaces"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differentiation of Measures in Rn.md",
+                "file": "Finite Products of Measures on Locally Compact Spaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Differentiation of Measures in Rn"
+              "title": "Outgoing links from Finite Products of Measures on Locally Compact Spaces"
             }
           },
           {
@@ -206,17 +160,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differentiation of Measures in Rn.md",
+                "file": "Finite Products of Measures on Locally Compact Spaces.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Differentiation of Measures in Rn"
+              "title": "Backlinks for Finite Products of Measures on Locally Compact Spaces"
             }
           }
         ],
@@ -240,34 +194,34 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "c436691ae8a98118",
+  "active": "b1c45b0c990649e5",
   "lastOpenFiles": [
-    "Semicontinuity.md",
-    "Space of Compactly Supported Functions.md",
-    "Measures on Hausdorff Spaces.md",
-    "Lp spaces.md",
+    "Functional Analysis.md",
+    "Finite Products of Measures on Locally Compact Spaces.md",
     "Untitled.md",
-    "Topological Dual Vector Space.md",
+    "Finite Product of Measures.md",
+    "Local Compactness.md",
+    "Measure Theory.md",
+    "Measures on Hausdorff Spaces.md",
+    "Space of Continuous Compactly Supported Functions.md",
     "Space of Continuous Functions that Vanish at Infinity.md",
+    "Space of Continuous Functions.md",
+    "Lp spaces.md",
+    "Measurable Functions.md",
+    "Bourbaki's Version of Radon Measure.md",
+    "Compact Operators.md",
+    "Elementary Number Theory.md",
+    "Semicontinuity.md",
+    "Interesting Stuff I want continue Learning.md",
+    "Central Hub.md",
+    "Topological Dual Vector Space.md",
     "Baire σ-algebra.md",
     "Riesz Spaces.md",
-    "Central Hub.md",
     "Lattices.md",
-    "Space of Continuous Functions.md",
     "Stone-Weierstrass Theorem.md",
-    "Interesting Stuff I want continue Learning.md",
-    "Local Compactness.md",
     "Hilbert Spaces.md",
     "Bounded Linear Operators.md",
     "ellp spaces.md",
-    "Functional Analysis.md",
-    "Functions.md",
-    "Initial Topology.md",
-    "Measure Theory.md",
-    "Compactness-Type Properties.md",
-    "Real Induction.md",
-    "Product of σ-Algebras.md",
-    "σ-Local Compactness.md",
     "Pasted image 20260420203218.png",
     "Pasted image 20260306011155.png",
     "Pasted image 20260211174214.png",

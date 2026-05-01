@@ -28,12 +28,18 @@ It is clear that $\mathcal C_c(X)$ and $\mathcal C_c(X, \Bbb C)$ are vector spac
 
 **Lusin's Theorem:** Let $X$ be a locally compact Hausdorff space, let $\scr A$ be a $\sigma$-algebra on $X$ that includes $\mathcal B(X)$, and let $\mu$ be a regular measure on $(X, {\scr A})$, and let $f:X \to \Bbb C$ be $\scr A$-measurable. If $A\in \scr A$ and satisfies $\mu(A) <\infty$ and if $\varepsilon>0$, then there is a compact subset $K$ of $A$ such that $\mu(A\setminus K) <\varepsilon$ and such that the restriction of $f$ to $K$ is continuous. Moreover, there is a function $g\in \mathcal C_c(X, \Bbb F)$ that agrees with $f$ at each point in $K;$ if $A\neq\varnothing$ and $f$ is bounded on $A$, then the function $g$ can be chosen so that $$ \sup\{|g(x)|\mid x\in X\} \le\sup \{|f(x)|\mid x\in A\}.$$
 
+**Def:** Let $X$ be an arbitrary set and that $\scr H$ is a family of $\overline{\Bbb R}$-valued functions on $X$. Then $\scr H$ is *directed upward* if for each $h_1, h_2$ of functions in $\scr H$ there is a function $\scr H$ that satisfies $h_1\le h$ and $h_2\le h$. Meaning that $\scr H$ is directed upwards if $\scr H$ is a [[Directed Sets|directed set]].
+
+**Prop:** Let $X$ be a locally compact Hausdorff space, let $\scr A$ be a $\sigma$-algebra on $X$ that includes $\mathcal B(X)$, and let $\mu$ be a regular measure on $(X, {\scr A})$. Suppose that $f: X \to [0,\infty]$ is lower [[Semicontinuity|semicontinuous]] and that $\scr H$ is a family of nonnegative lower semicontinuous functions that is directed upward and satisfies $$f(x) = \sup\{h(x) \mid h\in {\scr H}\} $$at each $x\in X$. Then  $$\int f\, d\mu = \sup \left\{\left. \int h\, d\mu \;\right\rvert\; h\in {\scr H}\right\}. $$
 **Prop:** Let $X$ be a locally compact Hausdorff space, and let $f$ be a nonnegative lower semicontinuous function on $X$. Then  $$f(x) = \sup\{g(x) \mid g\in \mathcal C_c(X) \land 0\le g\le f\} $$ holds at each $x\in X$. 
+
 # Riesz Representation Theorem
 
 **Obs:** Let $X$ be a locally compact Hausdorff space. We want to study the relationship between regular measures on $X$ and linear functionals on $\mathcal C_c(X)$. The first thing to note is that each function in $\mathcal C_c(X)$ is integrable with respect to each measure on $X$. It follows that if $\mu$ is regular Borel measure on $X$, then $f\mapsto \int f\, d\mu$ defines a linear functional on $\mathcal C_c(X)$. 
 
 **Def:** A linear functional $I$ on $\mathcal C_c(X)$ is *positive* if for each nonnegative $f\in\mathcal C_c(X)$ we have that $I(f) \ge 0$. Note that if $\mu$ is a regular Borel measure on $X$, then the functional $f\mapsto\int f\, d\mu$ is positive. We see that a positive linear functional $I$ on $\mathcal C_c(X)$ is order preserving, in the sense that if $f, g\in \mathcal C_c(X)$ and satisfy $I(f) \le I(g)$. 
+
+Let $U$ be an open subset of locally compact Hausdorff space $X$. We will often deal with functions $f$ that belong to $\mathcal C_c(X)$ and satisfy $$0 \le f\le \chi_U.$$Among the functions $f\in \mathcal C_c(X)$ that satisfy $0 \le f\le \chi_U$, those that also satisfy $\text{supp}(f) \subseteq U$ are especially nice to deal with; accordingly we will write $f \prec U$ to indicate that $f$ satisfy both conditions.
 
 **Lemma:** Let $X$ be a locally compact Hausdorff space, and let $\mu$ be a regular Borel measure on $X$. If $U$ is an open subset of $X$, then $$\begin{align*}
 \mu(U) &= \sup\left\{ \left. \int f\, d\mu \; \right\vert\; f\in \mathcal C_c(X) \land 0 \le f\le \chi_U\right\} \\
@@ -46,7 +52,7 @@ It is clear that $\mathcal C_c(X)$ and $\mathcal C_c(X, \Bbb C)$ are vector spac
 
 **Prop:** Let $X$ be a locally compact Hausdorff space, and let $I$ be a linear functional on $\mathcal C_c(X)$, and let $\mu^*$ be defined just  as above, let $\mu$ be the restriction of $\mu^*$ to $\mathcal B(X)$, and let $\mu_1$ be the restriction of $\mu^*$ to the $\sigma$-algebra ${\scr M}_{\mu^*}$ of $\mu^*$-measurable sets. Then $\mu$ and $\mu_1$ are regular measures, and $$\int f\, d\mu = \int f\, d\mu_1 = I(f) $$holds for each $f\in \mathcal C_c(X)$.
 
-**Riesz Representation Theorem:** Let $X$ be a locally compact Hausdorff space, and let $I$ be a linear functional on $\mathcal C_c(X)$. Then there is a unique regular Borel measure such that $$I(f) = \int f\,d\mu $$holds for each $f\in \mathcal C_c(X)$. 
+**Riesz–Markov–Kakutani Representation Theorem:** Let $X$ be a locally compact Hausdorff space, and let $I$ be a linear functional on $\mathcal C_c(X)$. Then there is a unique regular Borel measure such that $$I(f) = \int f\,d\mu $$holds for each $f\in \mathcal C_c(X)$. 
 
 ## The $\mu^*$-measurable Sets
 
@@ -61,4 +67,22 @@ For this section, let $X$ be a locally compact Hausdorff space, $I$ be a positiv
 
 **Prop:** There is a disjoint of family ${\scr C}_0$ of compact subsets of $X$ such that
 - if $K\in {\scr C}_0$ then $\mu_1(K)>0$,
-- if $U$ is an open, if $K \in {\scr C}_0$ and if $U\cap K \neq \varnothing$ then $\mu_1(U \cap K)
+- if $U$ is an open, if $K \in {\scr C}_0$ and if $U\cap K \neq \varnothing$ then $\mu_1(U \cap K) > 0$, 
+- if $\mu^*(A)<\infty$, then $A\cap K \neq \varnothing$ for only countably many sets $K$ in ${\scr C}_0$, and $$\mu^*(A) = \sum_K \mu^*(A \cap K), $$in addition, if $A\in \mathscr M_{\mu^*}$, then even every $\mu^*$ can be changed with $\mu_1$,
+- a subset $A$ of $X$ belongs to ${\scr M}_{\mu^*}$ iff for each $K\in {\scr C}_0$ the set $A\cap K$ belongs to ${\scr M}_{\mu^*}$, and
+- a function $f: X\to\Bbb R$ is ${\scr M}_{\mu^*}$-measurable iff for each $K\in {\scr C}_0$ the function $f\chi_K$ is ${\scr M}_{\mu^*}$-measurable. 
+
+**Th:** The map $T$ given by $$T_{\langle g\rangle}(\langle f\rangle) := \int fg\, d\mu$$is an isometric isomorphism of $L^\infty(X, {\scr M}_{\mu^*}, \mu_1)$ onto $(L^1(X, {\scr M}_{\mu^*}, \mu_1))^*$. 
+
+**Obs:** It is natural to ask whether in the theorem above the measure space $(X, {\scr M}_{\mu^*}, \mu_1)$ can be replaced by $(X, \mathcal B(X), \mu)$. This change can be of course made if $\mu_1$ and $\mu$ are $\sigma$-finite and also be made in certain situations; it cannot be made in general.
+
+**Lemma:** Suppose that $1\le p<\infty$. If $f\in \mathscr L^p(X, \mathscr M_{\mu^*}, \mu_1)$, then there is a function that belongs to $\mathscr L^p(X, \mathcal B(X), \mu)$ and agrees with $f$ $\mu$-almost everywhere.
+
+**Th:** $L^p(X, \mathscr M_{\mu^*}, \mu_1)$ and $L^p(X, \mathcal B(X),\mu)$ are isometrically isomorphic to one another. 
+
+**Prop:** Let $f: X \to \Bbb R$. If for each compact subset $K$ of $X$ and each $\varepsilon>0$ there is a compact subset $L$ of $K$ such that
+- $\mu_1(K\setminus L) <\varepsilon$, and
+- the restriction of $f$ to $L$ is continuous,
+then $f$ is $\mathscr M_{\mu^*}$-measurable. 
+
+**Prop:** Let $X$ be a locally compact Hausdorff space, and let $\scr A$ be a $\sigma$-algebra on $X$ that includes $\mathcal B(X)$, and let $\nu$ be a regular measure on $(X, {\scr A})$. If we define a positive linear functional $I$ on $\mathcal C_c(X)$ by $I(f) := \int f\, d\nu$, then $\mu^*, \mathscr M_{\mu^*}$, and $\mu_1$ are associated to $I$ as in this section, then ${\scr A}\subseteq \mathscr M_{\mu^*}$, and $\nu$ is the restriction of $\mu_1$ to $\mathscr A$. 

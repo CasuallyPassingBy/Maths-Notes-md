@@ -15,3 +15,8 @@ tags:
 	- [[Quotient of Normed Spaces]]
 		- [[Fundamental Theorems in Functional Analysis]]
 		- [[Hanh-Banach Extension Theorem]]
+- [[Lp spaces]]
+	- [[ellp spaces]]
+- [[Space of Continuous Functions]]
+	- [[Space of Continuous Compactly Supported Functions]]
+	- [[Space of Continuous Functions that Vanish at Infinity]]

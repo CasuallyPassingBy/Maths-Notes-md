@@ -41,3 +41,5 @@ Links: [[Compactness]], [[Hausdorff Spaces]], [[Baire's Category Theorem]], [[Re
 **Lemma:** Let $X$ be a locally compact Hausdorff space. If $X$ is second countable, then its one-point compactification is also second countable. 
 
 **Th:** Every second countable, locally compact Hausdorff space is [[Metrizable Spaces|metrisable]].
+
+**Prop:** The finite product of locally compact spaces is locally compact. 
