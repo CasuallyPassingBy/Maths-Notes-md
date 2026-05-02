@@ -15,6 +15,7 @@ tags:
 	- [[Quotient of Normed Spaces]]
 		- [[Fundamental Theorems in Functional Analysis]]
 		- [[Hanh-Banach Extension Theorem]]
+- [[Riesz Spaces]]
 - [[Lp spaces]]
 	- [[ellp spaces]]
 - [[Space of Continuous Functions]]

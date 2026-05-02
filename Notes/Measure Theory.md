@@ -41,5 +41,6 @@ This notes are primarily based on Cohn's *Measure theory (2nd Edition)*, and wil
 - [[Differentiation of Measures in Rn]]
 - [[Space of Continuous Compactly Supported Functions]]
 	- [[Bourbaki's Version of Radon Measure]]
+		- [[The Daniell-Stone Integral]]
 	- [[Space of Continuous Functions that Vanish at Infinity]]
 - [[Haar Measure]]

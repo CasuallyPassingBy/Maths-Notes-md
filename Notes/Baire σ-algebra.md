@@ -20,3 +20,5 @@ This feels like the [[initial topology]] but induced by the set of continuous fu
 **Prop:** Let $X$ be a compact Hausdorff space. If $K$ is a closed Baire subset of $X$, then $K$ is $G_\delta.$ It is immediate, that if $U$ is an open Baire subset of $X$, then $U$ is $F_\sigma$. 
 
 **Prop:** Let $X$ be a compact Hausdorff space, let $\mathcal B_0(X)$ be the Baire $\sigma$-algebra on $X$, and let $\mathcal C(X, \Bbb F)$ the space of all continuous real/complex-valued functions on $X$. We see that the map that assigns to a finite signed/complex measure $\mu$ on $(X, \mathcal B_0(X))$ the functional $f\mapsto \int f\,d\mu$ is an isometric isomorphism of $M(X, \mathcal B_0(X), \Bbb F)$ onto $\mathcal C(X, \Bbb F)$. 
+
+**Prop:** Let $X$ and $Y$ be compact Hausdorff spaces. Then $\mathcal B_0(X\times Y) = \mathcal B(X) \otimes\mathcal B_0(Y)$. 

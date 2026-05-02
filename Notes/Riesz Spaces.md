@@ -1,9 +1,8 @@
 ---
 tags:
-  - LinearAlgebra
-  - SetTheory
+  - FunctionalAnalysis
 ---
-Subjects: [[Linear Algebra]]
+Subjects: [[Linear Algebra]], [[Functional Analysis]]
 Links: [[Lattices]], [[Vector Spaces]], [[Orderings]], [[Pre-orderings]], [[Ordered Groups]], [[Ordered Vector Spaces]], [[Ordered Fields]]
 
 **Def:** A *preordered vector lattice* is a preordered vector space $E$ in which every pair of elements has a supremum. More explicitely, a *preordered vector lattice* is a vector space endowed with a preorder, $\le$, such that $x, y, z\in E$:
