@@ -3,7 +3,7 @@ tags:
   - MeasureTheory
 ---
 Subjects: [[Measure Theory]]
-Links: [[Measures]], [[Signed and Complex Measures]], [[Scalar Integral on Measure Spaces]]
+Links: [[Measures]], [[Signed and Complex Measures]], [[Lebesgue Integral on Measure Spaces]]
 
 **Def:** Let $(X, {\scr A})$ be a measurable space, and let $\mu$ and $\nu$ be positive measures on $(X, {\scr A})$. Then $\nu$ is *absolutely continuous with respect to $\mu$* if for each set $A\in \scr A$ that satisfy $\mu(A) = 0$ implies $\nu(A) = 0$. One sometimes write $\nu \ll \mu$ to indicate that $\nu$ is absolutely continuous with respect to $\mu$. A measure on $(\Bbb R^d, \mathcal B(\Bbb R^d ))$ is simply called *absolutely continuous* if it is absolutely continuous with respect to $d$-dimensional Lebesgue measure.
 

@@ -48,6 +48,7 @@ The study of metric spaces and normed vector spaces
 			- [[Peano Existence Theorem]]
 	- [[Hausdorff Distance]]
 - [[Total Boundedness]]
+- [[Polish Spaces]]
 
 ## Integral Equations
 - [[Volterra Integral Equation of the Second Kind]]

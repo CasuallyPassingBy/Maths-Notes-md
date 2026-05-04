@@ -91,6 +91,8 @@ In the special case where we consider topological spaces $(X, \tau_1)$ and $(Y, 
 
 **Prop:** Let $f:X \to Y$ be a continuous functions between topological spaces, then $f$ is Borel measurable.
 
+**Lemma:** Let $(X, {\scr A})$ be a measurable space, and let $Y$ be a metrizable topological space. Then a function $f:X \to Y$ is measurable with respect to $\scr A$ and $\mathcal B(Y)$ iff for each continuous function $g: Y\to\Bbb R$ the function $g\circ f$ is $\scr A$-measurable. 
+
 ## Image Measures
 
 **Def:** Let $(X, {\scr A},\mu)$ be a measure space, let $(Y, {\scr B})$ be a measurable space and let $f: X\to Y$ be measurable. We define a a function $\mu f^{-1}: {\scr B}\to [0,\infty]$ by letting $\mu f^{-1}(B) = \mu(f^{-1}[B])$ for each $B\in \scr B$. We see that $\mu f^{-1}$ is a measure on $(Y, {\scr B})$. The measure $\mu f^{-1}$ is sometimes called the *image of $\mu$ under $f$.* Another notation for $\mu f^{-1}$ is $\mu \circ f^{-1}$.

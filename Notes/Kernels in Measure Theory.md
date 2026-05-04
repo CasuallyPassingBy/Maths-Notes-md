@@ -3,7 +3,7 @@ tags:
   - MeasureTheory
 ---
 Subjects: [[Measure Theory]]
-Links: [[Measures]], [[Measure Spaces and Measurable Spaces]], [[Scalar Integral on Measure Spaces]], [[Measurable Functions]], [[Finite Product of Measures]]
+Links: [[Measures]], [[Measure Spaces and Measurable Spaces]], [[Lebesgue Integral on Measure Spaces]], [[Measurable Functions]], [[Finite Product of Measures]]
 
 **Def:** Let $(X, {\scr A})$ and $(Y, {\scr B})$ be measurable spaces. A function $K: X\times {\scr B}\to [0,\infty]$ is called a *kernel* from $(X, {\scr A})$  to $(Y, {\scr B})$ if
 - for each $x\in X$, the function $B\mapsto K(x, B)$ is a measure on $(Y, {\scr B})$, and

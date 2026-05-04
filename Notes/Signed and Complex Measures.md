@@ -3,7 +3,7 @@ tags:
   - MeasureTheory
 ---
 Subjects: [[Measure Theory]]
-Links: [[Measures]], [[Measure Spaces and Measurable Spaces]], [[Rings and Algebras of Sets]], [[Scalar Integral on Measure Spaces]]
+Links: [[Measures]], [[Measure Spaces and Measurable Spaces]], [[Rings and Algebras of Sets]], [[Lebesgue Integral on Measure Spaces]]
 
 **Def:** Let $(X, {\scr A})$ be a measurable space, and let $\mu$ be a function on $\scr A$ with values in $\overline{ \Bbb R}$. The function $\mu$ is *finitely additive* if the additive$$\mu\left(\bigcup_{i = 1}^nA_i\right) = \sum_{i = 1}^n \mu(A_i) $$holds for each finite sequence $\{A_i\mid 1\le i \le n\}$ of disjoint sets in $\scr A$ is *countably additive* if the identity $$\mu\left(\bigcup_{i = 0}^\infty A_i\right) = \sum_{i = 0}^\infty \mu(A_i)$$holds for each infinite sequence $\{A_n\}_{n<\omega}$ of disjoint sets in $\scr A$. If $\mu$ is countably additive and satisfies $\mu(\varnothing) = 0$, the it is a *signed measure*. A signed measure is *finite* if neither $-\infty$ nor $\infty$ occurs among its values.
 

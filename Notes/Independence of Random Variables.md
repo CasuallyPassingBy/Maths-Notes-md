@@ -9,7 +9,7 @@ We say that the random variables $X$ and $Y$ are independent if the events $(X \
 $$
 P[(X\le x) \cap(Y\le y)] = \Bbb P(X \le x) \Bbb P( Y\le y)
 $$
-
+We see this is the exact same process to describe the [[Finite Product of Measures|product of two measures]]. 
 ### Discrete case
 We say that the random variables $X$ and $Y$ are independent if all real values of $x$ and $y$, we have that 
 $$

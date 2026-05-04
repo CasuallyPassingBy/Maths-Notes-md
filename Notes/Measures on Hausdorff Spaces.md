@@ -10,6 +10,8 @@ Links: [[Measures]], [[Measure Spaces and Measurable Spaces]], [[Borel Sets]], [
 **Lemma:** Let $X$ and $Y$ be Hausdorff topological spaces, and let $f:X\to Y$ be continuous. Then $f$ is Borel measurable.
 
 **Lemma:** Let $X$ be a Hausdorff space, and let $Y$ be a subspace of $X$. Then $${\cal B}(Y) = \{A \mid \exists B\in {\cal B}(X)[ A = B \cap Y]\}. $$
+
+**Prop:** Let $\{X_n\mid n<\omega\}$ be a sequence of second countable spaces. Then $$\mathcal B\left(\prod_{n<\omega} X_n\right) = \bigotimes_{n<\omega} \mathcal B(X_n).$$
 Let $X$ be Hausdorff space. A *Borel measure* on $X$ is a measure whose domain is ${\cal B}(X)$. Suppose that ${\scr A}$ is a $\sigma$-algebra on $X$ such that ${\cal B}(X)\subseteq \scr A$. A positive measure on $\scr A$ is *regular* 
 1. if every point of $X$ has a neighbourhood $U$ for which $\mu(U)<\infty$,
 2. each $A\in {\scr A}$ satisfies $$\mu(A) := \inf\{\mu(U) \mid A \subseteq U \land U \in \tau\}, \text{ and}$$

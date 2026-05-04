@@ -3,7 +3,7 @@ tags:
   - ProbabilityTheory
 ---
 Subjects: [[Probability Theory]]
-Links: [[Random Variables]], [[Lp spaces]], [[Convergence of Measurable Functions]], [[Lp spaces]], [[Scalar Integral on Measure Spaces]]
+Links: [[Random Variables]], [[Lp spaces]], [[Convergence of Measurable Functions]], [[Lp spaces]], [[Lebesgue Integral on Measure Spaces]]
 
 Let $X_1, \dots, X_n, \dots$ be a sequence of random variables. There are a lot of types of convergence
 

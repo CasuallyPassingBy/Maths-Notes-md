@@ -49,4 +49,4 @@ This means that the space of continuous functions from $D$ into $\Bbb{R}^n$, als
     2. Uniform Continuity
     3. Boundedness
 
-**Dini's Theorem:** Suppose that $(f_n)$ is a monotone sequence of continuous functions on $I = [a, b]$ that converges pointwise on $I$ to a continuous function $f$. Then the convergence of the sequence is uniform.
+**Dini's Theorem:** Suppose that $(f_n)$ is a monotone sequence of continuous functions on $I = [a, b]$ that converges pointwise on $I$ to a continuous function $f$. Then the convergence of the sequence is uniform. ^63872a

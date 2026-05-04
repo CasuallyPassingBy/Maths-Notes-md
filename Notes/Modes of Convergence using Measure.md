@@ -3,7 +3,7 @@ tags:
   - MeasureTheory
 ---
 Subjects: [[Measure Theory]]
-Links: [[Measure Spaces and Measurable Spaces]], [[Measurable Functions]], [[Measures]], [[Scalar Integral on Measure Spaces]]
+Links: [[Measure Spaces and Measurable Spaces]], [[Measurable Functions]], [[Measures]], [[Lebesgue Integral on Measure Spaces]]
 
 **Def:**  Let $(X, {\scr A}, \mu)$ be a measure space, and let $f$ and $f_0,f_1,f_2, \dots$ be extended real-valued $\scr A$-measurable functions on $X$. The sequence $(f_n)_{n<\omega}$ *converges to $f$ pointwise $\mu$ a.e.* if $$f(x) = \lim_{n\to\infty} f_n(x)$$ holds at $\mu$-almost every point $x\in X$. We also say that the sequence $(f_n)_{n<\omega}$ *converges to $f$ almost everywhere.*
 

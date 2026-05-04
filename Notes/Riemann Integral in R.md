@@ -29,9 +29,7 @@ We see that the set of partition of the closed interval $I$ is a directed set. W
 
 ### Cauchy Criterion
 
-Let $f: I \to\mathbb{R},$ be _**Reimann integrable on $I$**_ if and only if there:
-
-$$ \forall\varepsilon>0\exists\delta>0\forall\dot{\mathcal{P}},\dot{\mathcal{Q}}\in\dot{\wp}_I [\|\dot{\mathcal{P}}\|,\|\dot{\mathcal{Q}}\|< \delta \Rightarrow |R(f,\dot{\mathcal{P}})-R(f,\dot{\mathcal{Q}})|< \varepsilon] $$
+Let $f: I \to\mathbb{R},$ be _**Reimann integrable on $I$**_ if and only if there: $$ \forall\varepsilon>0\exists\delta>0\forall\dot{\mathcal{P}},\dot{\mathcal{Q}}\in\dot{\wp}_I [\|\dot{\mathcal{P}}\|,\|\dot{\mathcal{Q}}\|< \delta \Rightarrow |R(f,\dot{\mathcal{P}})-R(f,\dot{\mathcal{Q}})|< \varepsilon] $$ ^9a7c62
 
 ### Squeeze Theorem
 
@@ -91,7 +89,7 @@ We see that ${\cal R}_I$ is a vector space and the integral is a linear function
 
 Let $f:[a,b] \to \mathbb{R}$, $f\in\mathcal{R}_{[a,b]} \iff \lambda(D_f) =0$, where $\lambda$ is the [[Lebesgue Measure]], and $D_f$ is the set of all discontinuities of $f$, or $f$ is continuous almost everywhere on $[a,b]$.
 
-**Th:** If $f$ is Riemann integrable, then $f$ is [[Scalar Integral on Measure Spaces|Lebesgue integrable]] and the Riemann integrable and Lebesgue integrals of $f$ coincide.
+**Th:** If $f$ is Riemann integrable, then $f$ is [[Lebesgue Integral on Measure Spaces|Lebesgue integrable]] and the Riemann integrable and Lebesgue integrals of $f$ coincide.
 
 ### Composition Theorem
 

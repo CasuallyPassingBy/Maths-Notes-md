@@ -26,6 +26,8 @@ Y \arrow[r,"f_\alpha"'] \arrow[ur, dashed,"f"] & X_\alpha
 \end{document}
 ```
 
+We see that the product $\sigma$-algebra is just the [[Categorical Product and Coproduct|product in the category]], $\sf Meas$, of measurable spaces and measurable functions. 
+
 **Def:** Let us introduce some terminology and notation. Suppose that $X$ and $Y$ are sets and $E\subseteq X\times Y$. Then for each $x\in X$ and $y\in Y$ the *sections* $E_x$ and $E^y$ are the subsets of $Y$ and $X$ given by  $$E_x := \{y\in Y\mid (x,y)\in E\} \quad \text{and} \quad E^y := \{x\in X\mid (x, y)\in E\}. $$If $f$ is a function on $X \times Y$, then the *sections* $f_x$ and $f^y$ are functions on $Y$ and $X$ given by $$f_x(y) := f(x, y) \quad \text{and} \quad f^y(x) := f(x, y). $$
 **Lemma:** Let $(X. {\scr A})$ and $(Y, {\scr B})$ be measurable spaces.
 - If $E\subseteq X\times Y$ that belongs to ${\scr A} \otimes {\scr B}$, then each section $E_x$ belongs to $\scr B$ and each section $E^y$ belongs to $\scr A$.
@@ -34,3 +36,5 @@ Y \arrow[r,"f_\alpha"'] \arrow[ur, dashed,"f"] & X_\alpha
 **Prop:** Let $(X, {\scr A})$ and $(Y, {\scr B})$ be measurable spaces. If $C\in \scr A\otimes B$, then the collection $\{C_x\mid x\in X\}$ has at most the cardinality of the continuum.
 
 **Cor:** If $|X| \ge  \frak c$ and if $(X, {\scr A})$ is a measurable space, then the diagonal of $X\times X$ doesn't belong to $\scr A \otimes A$.
+
+**Prop:** Let $\{X_n\mid n<\omega\}$ be a sequence of second countable spaces. Then $$\mathcal B\left(\prod_{n<\omega} X_n\right) = \bigotimes_{n<\omega} \mathcal B(X_n).$$

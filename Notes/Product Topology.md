@@ -87,3 +87,5 @@ Y \arrow[r,"f_\alpha"'] \arrow[ur, dashed,"f"] & X_\alpha
 **Prop:** Let $X$ be a topological space and for each $\alpha < \kappa$, there's a function $f_\alpha: X \to Y_\alpha$ where $Y_\alpha$ is a topological space. The diagonal function $\Delta_{\alpha<\kappa} f_\alpha$ has the following properties:
 - $\Delta_{\alpha<\kappa} f_\alpha$ is continuous if for each $\alpha < \kappa$, $f_\alpha$ is continuous.
 - $\Delta_{\alpha<\kappa} f_\alpha$ is open if for each $\alpha < \kappa$, $f_\alpha$ is open.
+
+**Prop:** If $\{X_n\mid n<\omega\}$ be a sequence of separable spaces, then $\prod_{n<\omega} X_n$ is separable. 

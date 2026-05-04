@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#SetTheory  ",
@@ -165,6 +165,6 @@
   "repelStrength": 11.9791666666667,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.07470693104800376,
+  "scale": 0.08338466453477736,
   "close": true
 }

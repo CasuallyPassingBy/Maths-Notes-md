@@ -1,7 +1,6 @@
 ---
 tags:
   - Topology
-  - Analysis
 ---
 Subject: [[Topology]]
 Links : [[Special Sets in Topological Spaces]], [[Perfect Spaces]], [[Product Topology]], [[Borel Sets]]

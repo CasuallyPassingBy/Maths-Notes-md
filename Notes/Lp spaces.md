@@ -4,7 +4,7 @@ tags:
   - FunctionalAnalysis
 ---
 Subjects: [[Measure Theory]], [[Functional Analysis]]
-Links: [[Scalar Integral on Measure Spaces]], [[Modes of Convergence using Measure]], [[Measure Spaces and Measurable Spaces]], [[Normed Vector Spaces]], [[ellp spaces]], [[Complete Metric Spaces]], [[Inner Products and Norms]], [[Useful Inequalities]], [[Topological Dual Vector Space]], [[Space of Continuous Compactly Supported Functions]]
+Links: [[Lebesgue Integral on Measure Spaces]], [[Modes of Convergence using Measure]], [[Measure Spaces and Measurable Spaces]], [[Normed Vector Spaces]], [[ellp spaces]], [[Complete Metric Spaces]], [[Inner Products and Norms]], [[Useful Inequalities]], [[Topological Dual Vector Space]], [[Space of Continuous Compactly Supported Functions]]
 
 In this note $\Bbb F$ denotes either $\Bbb R$ or $\Bbb C$. 
 

@@ -31,7 +31,7 @@ The product may or may not exist in a given category, for example in $\sf Field$
 - The product of groups $(G_\alpha)_{\alpha\in A}$ in $\sf Grp$ is their [[Direct Product of Groups|direct product group]] $\prod_\alpha G_\alpha$. 
 - The product of rings $(R_\alpha)_{\alpha\in A}$ in $\sf Rng$ is their [[Product of Rings]] $\prod_\alpha R_\alpha$, where the operations are componentwise. 
 - The product of vector spaces $(V_\alpha)$ in $\mathsf{Vect}_K$, $\prod_\alpha V_\alpha$ is the [[product of vector spaces]].
-- The product $\sigma$-algebra of measurable spaces. 
+- The [[Product of σ-Algebras|product]] $\sigma$-algebra of measurable spaces. 
 
 # Coproduct
 
