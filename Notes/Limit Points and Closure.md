@@ -18,6 +18,12 @@ For subsets $A, B$ of the topological space $(X, \tau)$, then the following are 
 
 A subset $E$ of a topological space $(X, \tau)$ is closed iff $\text{Lim}(E)\subseteq E$
 
+**Def:** Let $X$ be a topological space and let $A\subseteq X$. A point $x\in X$ is a *condensation point* of $A$ if every open neighbourhood of $x$ contains uncountably many points of $A$. 
+
+Note that every condensation point is a limit point, but we can find limit points that are not condensation points. 
+
+**Lemma:** Let $X$ be a separable metrizable space, and let $C$ be the set of condensation points of $X$. Them $C$ is closed and $X\setminus C$ is countable. 
+
 ### Closure of a Set
 
 The closure of a subset $E$ of a topological space $(X, \tau)$, is the subset $\text{cl}(E):= E \cup \text{Lim}(E)$, sometimes it is denoted as $\overline E$, but means the same thing

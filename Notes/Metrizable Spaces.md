@@ -74,7 +74,7 @@ This implies that the procedure on [[Completion of a Metric Space]] is the uniqu
 
 **Th:** Complete metrizability is hereditary with respect to $G_\delta$-sets.
 
-**Th:** If a subspce $M$ of metrizable space $X$ is completely metrizable, then $M$ is a $G_\delta$-set in $X$.
+**Alexandroff's Theorem:** If a subspace $M$ of metrizable space $X$ is completely metrizable, then $M$ is a $G_\delta$-set in $X$.
 
 **Cor:** A separable metrizable space is completely metrizable iff it is embeddable in $\Bbb R^\omega$ as a closed subspace.
 

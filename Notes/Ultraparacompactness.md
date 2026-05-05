@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Strong Paracompactness]], [[Paracompacteness]], [[Ultrametric Spaces]], [[Zero Dimensional Spaces]], [[Ultranormal Spaces]]
+Links: [[Strong Paracompactness]], [[Paracompacteness]], [[Ultrametric Spaces]], [[Zero-Dimensional Spaces]], [[Ultranormal Spaces]]
 
 **Def:** A topological space $X$ is *ultraparacompact* if every open cover of the space has an open (hence clopen) refinement partitioning the space. 
 

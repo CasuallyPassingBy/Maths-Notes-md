@@ -4,7 +4,7 @@ tags:
   - Analysis
 ---
 Subjects: [[Topology]], [[Metric and Normed Spaces]]
-Links: [[Metric Spaces]], [[Ultraparacompactness]], [[Zero Dimensional Spaces]], [[Metrisation Theorems]]
+Links: [[Metric Spaces]], [[Ultraparacompactness]], [[Zero-Dimensional Spaces]], [[Metrisation Theorems]]
 
 **Def:** Un ultrametric on set $M$ is a function $d: M \times M \to \Bbb R$ such that:
 - $d(x, y) = 0$ iff $x = y$.

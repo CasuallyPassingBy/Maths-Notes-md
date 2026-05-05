@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Normal Hausdorff Spaces]], [[Zero Dimensional Spaces]], [[Ultraparacompactness]]
+Links: [[Normal Hausdorff Spaces]], [[Zero-Dimensional Spaces]], [[Ultraparacompactness]]
 
 **Def:** A topological space $X$ is called *ultranormal* if for every disjoint closed sets $A$ and $B$, there's a a clopen set $U$ such that $A\subseteq U$ and $B\subseteq X\setminus U$. If $X$ is an ultranormal $T_1$, then I am gonna call it ultra-$T_4$. 
 

@@ -1,0 +1,104 @@
+{
+  "filters": {
+    "doShowOrphans": false,
+    "doShowAttachments": false
+  },
+  "groups": {
+    "groups": [
+      {
+        "query": "tag:#SetTheory",
+        "color": "#cc1e1e"
+      },
+      {
+        "query": "tag:#Subject",
+        "color": "#0eb410"
+      },
+      {
+        "query": "tag:#ProbabilityTheory",
+        "color": "#aa20ac"
+      },
+      {
+        "query": "tag:#Statistics",
+        "color": "#1dc3b0"
+      },
+      {
+        "query": "tag:#Analysis",
+        "color": "#00d5ff"
+      },
+      {
+        "query": "tag:#MeasureTheory",
+        "color": "#0400ff"
+      },
+      {
+        "query": "tag:#Topology",
+        "color": "#710a0a"
+      },
+      {
+        "query": "tag:#NumericalAnalysis",
+        "color": "#ff00dd"
+      },
+      {
+        "query": "tag:#RealAnalysis",
+        "color": "#ffaf24"
+      },
+      {
+        "query": "tag:#ComplexAnalysis",
+        "color": "#fbff00"
+      },
+      {
+        "query": "tag:#DifferentialGeometry",
+        "color": "#b9ff38"
+      },
+      {
+        "query": "tag:GroupTheory",
+        "color": "#42ff9e"
+      },
+      {
+        "query": "tag:#ComputationTheory",
+        "color": "#6e3302"
+      },
+      {
+        "query": "tag:#OrdinaryDifferentialEquations",
+        "color": "#98daf0"
+      },
+      {
+        "query": "tag:#RingTheory",
+        "color": "#b33e00"
+      },
+      {
+        "query": "tag:#NumberTheory",
+        "color": "#8c00ff"
+      },
+      {
+        "query": "tag:#FieldTheory",
+        "color": "#ff8800"
+      },
+      {
+        "query": "tag:#VectorAnalysis",
+        "color": "#b1e054"
+      },
+      {
+        "query": "tag:#LinearAlgebra",
+        "color": "#15931d"
+      },
+      {
+        "query": "tag:#FourierAnalysis",
+        "color": "#204cb1"
+      },
+      {
+        "query": "tag:#Topology/AlgebraicTopology",
+        "color": "#980dab"
+      },
+      {
+        "query": "tag:#ClassicalMechanics",
+        "color": "#7acc00"
+      }
+    ]
+  },
+  "display": {
+    "nodeSize": 4,
+    "linkThickness": 4,
+    "particleSize": 5,
+    "particleCount": 3
+  }
+}
