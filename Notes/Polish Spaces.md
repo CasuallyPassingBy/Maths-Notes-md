@@ -106,6 +106,8 @@ Links: [[Complete Metric Spaces]], [[Separable, First and Second Countable Space
 
 **Prop:** Suppose $X$ is a Polish space then for every $\alpha$ with $\alpha \in \omega_1\setminus 1$ there exists a universal $\Sigma_\alpha^0$ set $U\subseteq 2^\omega\times X$. 
 
+**Prop:** Let $X$ be a Polish space, and let $Y$ be a metrizable space. If $A\in \mathcal B(X)$ and if $f:A\to Y$ is Borel measurable, then $f[A]$ is separable. 
+
 ## The Separation Theorem
 
 **Th:** Let $X$ be a Polish space, and let $A_1$ and $A_2$ be disjoint analytic subsets of $X$. Then $A_1$ and $A_2$ can be separated by Borel sets.
@@ -113,3 +115,13 @@ Links: [[Complete Metric Spaces]], [[Separable, First and Second Countable Space
 **Cor:** Let $X$ be a Polish space, and let $\{A_n\mid n<\omega\}$ be disjoint analytic subsets of $X$. Then there are disjoint Borel subsets $\{B_n \mid n<\omega\}$ of $X$ such that $A_n\subseteq B_n$ holds for each $n<\omega$. 
 
 **Cor:** Let $X$ be a Polish space, and let $A$ be a subset of $X$. If both $A$ and $X\setminus A$ are analytic, then $A$ is Borel. 
+
+**Prop:** Let $X$ and $Y$ be Polish spaces, let $A$ be a Borel subset of $X$, and let $f$ be a function from $A$ to $Y$. Then $f$ is Borel measurable iff its graph is a Borel subset of $X\times Y$. 
+
+**Prop:** Let $X$ and $Y$ be Polish spaces, let $A$ be a Borel subset of $X$, let $f:A \to Y$ be Borel measurable, and let $B= f[A]$. If $f$ is injective and if $B\in \mathcal B(Y)$ and $f^{-1}$ is Borel measurable. 
+
+**Th:** Let $A$ and $B$ be Borel subsets of Polish spaces. Then $A$ and $B$ are Borel isomorphic iff they have the same cardinality. Furthermore, the cardinality of each uncountable Borel subset of a Polish space is that of the continuum. 
+
+**Lemma:** Let $X$ and $Y$ be Polish spaces, let $A$ be a nonempty Borel subset of $X$, and let $f:A \to Y$ be Borel measurable and injective. Then there is a Borel measurable function $g:Y\to X$ such that $g[Y] \subseteq A$ and such that $g(f(x)) = x$ holds at each $x\in A$. 
+
+**Th:** Let $X$ and $Y$ be Polish spaces, let $A$ be a Borel subset of $X$, and let $f:A \to Y$ be Borel measurable and injective. Then $f[A]$ is a Borel subset of $Y$.

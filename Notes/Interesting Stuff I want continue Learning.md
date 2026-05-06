@@ -84,7 +84,6 @@
 		- [ ] Linear Representations of Finite groups
 		- [ ] Characters of finite groups
 		- [ ] Applications of Character Theory
-		- [ ] Algebraic Integers
 	- [ ] Rotman Group Theory
 - Field Theory
 	- [ ] Dummit & Foote

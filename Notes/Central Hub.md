@@ -27,7 +27,7 @@ All the subjects we have
 ## Algebra
 - [[Linear Algebra]]
 	- [[Affine Geometry]]
-- [[Group Theory]]
+- [[Group Theory]] (On Hold)
 	- [[Homological Algebra]] (Pending)
 - [[Ring Theory]]
 - [[Field Theory]]
@@ -44,7 +44,7 @@ All the subjects we have
 - [[Probability Theory]]
 - [[Statistics]]
 - [[Stochastic Processes]] (Pending)
-- [[Stochastic Simulation]] (Pending)
+	- [[Stochastic Simulation]] (Pending)
 - [[Linear Programming]] (Pending)
 - [[Nonlinear Programming]] (Pending)
 ## Advanced Topics
@@ -61,16 +61,16 @@ All the subjects we have
 - [[Quantum Mechanics]] (Pending)
 ## Computer Science
 - [[Theory of Computation]]
-- [[Algorithms and Data Structures]] (Pending)
+- [[Algorithms and Data Structures]] (On Hold)
 - [[Information Theory]] (Pending)
 - [[Artificial Intelligence]] (Pending)
 	- [[Machine Learning]] (Pending)
 		- [[Neural Networks]] (On Hold)
 - [[Digital Circuits]] (On Hold)
 ## Miscellaneous
-- [[Fractional Calculus]]
-- [[Umbral calculus]]
-	- [[Discrete Calculus]]
-- [[Finite Operator Calculus]]
+- [[Fractional Calculus]] (Pending)
+- [[Umbral calculus]] (Pending)
+	- [[Discrete Calculus]] (Pending)
+- [[Finite Operator Calculus]] (Pending)
 - [[Useful Identities]]
 - [[Macroeconomics]] (On Hold)

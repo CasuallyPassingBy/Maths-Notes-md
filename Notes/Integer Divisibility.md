@@ -1,7 +1,6 @@
 ---
 tags:
   - "#NumberTheory"
-  - NumberTheory
 ---
 Subjects: [[Elementary Number Theory]]
 ## Greatest Common Divisor

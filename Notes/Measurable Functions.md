@@ -71,6 +71,8 @@ are equivalent.
 
 **Def:** Let $(X, {\scr A})$ and $(Y, {\scr B})$ be measurable spaces. A function $f:X \to Y$ is *measurable with respect to $\scr A$ and $\scr B$* if for each $B\in \scr B$ the set $f^{-1}[B]$ belongs to $\scr A$. Instead of saying that $f$ is measurable with respect to $\scr A$ and $\scr B$, we will say that $f$ is a *measurable function* from $(X, {\scr A})$ to $(Y, {\scr B})$, that $f: (X, {\scr A})\to (Y, {\scr B})$ is *measurable*, or simply that $f$ is a $({\scr A,\scr B})$-measurable. Note that if the $\sigma$-algebra in the codomain is obvious we are gonna denote it as $\scr A$-measurable, or simply measurable when it is understood. 
 
+Let $(X, {\scr A})$ and $(Y, {\scr B})$ be measurable spaces. A bijection $f:X \to Y$ is a *Borel isomorphism* or simply an *isomorphism* if $f$ is $({\scr A}, {\scr B})$-measurable and $f^{-1}$ is $({\scr B}, {\scr A})$-measurable. Equivalently, the bijection $f$ is an isomorphism if the subsets $A$ of $X$ that belong to $\scr A$ are exactly those for which $f[A]$ belongs to $\scr B$. The spaces $(X, {\scr A})$ and $(Y, {\scr B})$ are *Borel isomorphic* or *isomorphic* if there exists an isomorphism. 
+
 This definition is completely analogous to [[Continuous Functions and Homeomorphims|continuous functions in topological spaces]]. 
 
 **Prop:** Let $(X, {\scr A})$, $(Y, {\scr B})$, and $(Z, {\scr C})$ be measurable spaces, and let $f: (X, {\scr A}) \to (Y, {\scr B})$ and $g: (Y, {\scr B}) \to (Z, {\scr C})$ be measurable. Then $g\circ f: (X, {\scr A}) \to (Z, {\scr C})$ is measurable.
