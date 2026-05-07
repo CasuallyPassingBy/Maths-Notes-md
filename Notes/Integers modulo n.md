@@ -20,4 +20,6 @@ To a set $\{a_i\}_{i = 1}^n$ is called a complete set of residue mod $n$, if $\B
 
 **Th:** Let $p(x)$ be a polynomial with integer coefficients, if $a \equiv b \pmod n$, then ${p(a) \equiv p(b) \pmod n}$
 
+**Th:** If $b\equiv c \pmod n$, then $(b, n) = (c, n)$. 
+
 When considering this algebraic structure, we denote it as $\Bbb Z/n\Bbb Z$. We see that $\Bbb Z/n\Bbb Z$ is a commutative ring. 

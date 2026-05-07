@@ -59,8 +59,11 @@ Given this canonical form of the numbers, we can get formulas for $\gcd(a,b)$ an
 
 Let $a = \prod_{i = 1}^\infty p_i^{\alpha_i}$ and $b = \prod_{i = 1}^\infty p_i^{\beta_i}$, then $\gcd(a,b) = \prod_{i = 1}^\infty p_i^{\min\{\alpha_i, \beta_i\}}$ and ${\operatorname{lcm}(a,b) = \prod_{i = 1}^\infty p_i^{\max\{\alpha_i, \beta_i\}}}$.
 
-**Th:** There are arbitrarily large gabs between primes, meaning, that f$ thereor every $k \in \Bbb N^+$ there are $k$ consecutive composite numbers. 
+**Th:** There are arbitrarily large gabs between primes, meaning, that for every $k \in \Bbb N^+$ there are $k$ consecutive composite numbers. 
 
+**Th:** For every real number $y\ge 2$, $$\sum_{p \le y} \frac1p > \ln(\ln y) - 1.$$We see that $$\sum_p \frac1p = \infty.$$Giving us a cute proof that there are infinitely many primes. 
+
+**Prop:** Let $\pi(x)$ denote the number of primes not exceeding $x$. Then $$\sum_{p\le x} \frac1p = \frac{\pi(x)}{x} +\int_2 ^x \frac{\pi(u)}{u^2}\, du. $$We also get that $$\limsup_{x\to \infty} \frac{\pi(x)}{x/\ln x} \ge 1 $$
 # Sieve of Eratosthenes
 
 ```python
@@ -85,10 +88,7 @@ print(prime_sieve(N))
 
 # Weird Inequalities
 
-**Euclid’s inequality**: for $n \ge 2$,
-
-$$ p_n \le p_{n-1}\# -1 $$
-
+**Euclid’s inequality**: for $n \ge 2$, $$ p_n \le p_{n-1}\# -1 $$
 - Lemmas necessary for Bertrand’s Postulate:
     1. for $n > 0$, then: $$ \frac{4^n}{2n} \le {2n\choose n} $$
     2. For $p$ prime, and the $R = R(p,n) = \nu_p({2n\choose n})$, the $p$-adic [[p-adic Numbers|valuation]] of ${2n \choose n}$, then ${p^R \le 2n}$
@@ -98,7 +98,6 @@ $$ p_n \le p_{n-1}\# -1 $$
     4. If $x \le 3$, then $x^\# < 2^{2x-3}$
 
 **Bertrand’s Postulate**: for $n \ge 2$, there’s a prime $p$ such that $$ n <p<2n $$
-
 then, for any $n \ge 1$, $p_{n+1} < 2p_n$, iff $p_n < 2^{n+1}$
 
 **Bonse’s Inequality:** Let $n \ge 4$, then $p_{n+1}^2 \le p_n\#$
@@ -113,8 +112,6 @@ A weirder inequality: $p_{2n} \le \frac{p_n\#}{p_1} -2$
 
 ### Goldbach’s Conjecture
 Every even number greater than $2$ can be expressed as the sum of two primes.
-
-Equivalently, every number greater than $6$ can be expressed as the sum of three primes.
 
 ### Twin Prime Conjecture
 There are infinitely many twin primes.

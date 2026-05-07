@@ -64,10 +64,7 @@ $$ \left|\sum_{i=1}^nf(t_i)\Delta\alpha -\int_I f\,d\alpha\right| $$
 
 ### Additivity Theorem
 
-1. If $f\in\mathcal{R}_{[a,b]}(\alpha)$, and $c \in (a,b)$, then $f\in\mathcal{R}_{[a,c]}(\alpha)$ and $f\in\mathcal{R}_{[c,b]}(\alpha)$, and:
-    
-    $$ \int_a^bf\,d\alpha = \int_a^cf\,d\alpha+\int_c^bf\,d\alpha $$
-    
+1. If $f\in\mathcal{R}_{[a,b]}(\alpha)$, and $c \in (a,b)$, then $f\in\mathcal{R}_{[a,c]}(\alpha)$ and $f\in\mathcal{R}_{[c,b]}(\alpha)$, and:   $$ \int_a^bf\,d\alpha = \int_a^cf\,d\alpha+\int_c^bf\,d\alpha $$   
 
 ### General Integrability Theorems
 1. If$f$ $\in {\cal C}^0[a,b]$, then $f\in\mathcal{R}_I(\alpha)$.
@@ -90,8 +87,7 @@ $$ \left|\sum_{i=1}^nf(t_i)\Delta\alpha -\int_I f\,d\alpha\right| $$
 The _unit step function_: $u:\mathbb{R}\to\{0,1\}$, where:
 $$ u(x) := \begin{cases} 0 & x\le 0\\ 1 & x > 0 \end{cases} $$
 
-_**Theorem:**_ Let $s\in(a,b)$, if $f$ is bounded on $[a,b]$, and $f$ is continuous on $s$ and $\alpha(x) = u(x-s)$, then:
-$$ \int_a^bf\,d\alpha = f(s) $$
+_**Theorem:**_ Let $s\in(a,b)$, if $f$ is bounded on $[a,b]$, and $f$ is continuous on $s$ and $\alpha(x) = u(x-s)$, then: $$ \int_a^bf\,d\alpha = f(s) $$
 
 _**Theorem:**_ Let $\forall n\in\mathbb{N}(c_n \geq 0)$, and that $\sum c_n$ converge, $(s_n)_{n\in\mathbb{N}}$ be a sequence of different points of $[a,b]$ and:
 $$ \alpha(x) = \sum_{n\in\mathbb{N}} c_nu(x-s_n) $$
@@ -101,6 +97,7 @@ $$ \int_a^bf\,d\alpha = \sum_{n\in\mathbb{N}}c_nf(s_n) $$
 
 ### Miscellaneous
 
+**Th:** Let $\alpha$ and $f$ be monotonically increasing, $f\in \mathcal R_I(\alpha)$, and $\alpha\in \mathcal R_I(f)$. Then $$\int_a^bf\,d\alpha  = f(x)\alpha(x){\Big\rvert_a^b} - \int_a^b \alpha\,  df. $$
 _**Theorem:**_ Let $\alpha$ be monotonically increasing and $\alpha'\in\mathcal{R}_I$. Let $f$ be bounded function on $[a,b]$. If $f\in\mathcal{R}_I(\alpha)$ iff $f\alpha'\in\mathcal{R}_I$, and:
 
 $$ \int_a^bf\,d\alpha = \int_a^b f\alpha' $$

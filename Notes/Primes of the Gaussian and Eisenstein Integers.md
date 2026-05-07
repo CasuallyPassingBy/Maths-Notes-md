@@ -4,7 +4,7 @@ tags:
   - NumberTheory/AlgebraicNumberTheory
 ---
 Subjects: [[Ring Theory]], [[Algebraic Number Theory]]
-Links: [[Quadratic Integers]], [[Integral Domains]], [[Unique Factorisation Domains]]
+Links: [[Quadratic Integers]], [[Integral Domains]], [[Unique Factorisation Domains]], [[Legendre Symbols]]
 
 # Gaussian Integers
 
