@@ -60,6 +60,9 @@
 	- [x] Introduction to Topological Manifolds by Lee 
 	- [ ] Algebraic Topology by Hatcher 
 
+- Topological Groups
+	- [ ] "Topological Groups and Related Structures" by Alexander Arhangel'skiĭ and Mikhail Tkachenko
+
 ## Algebra
 -  Clifford Algebra 
 	- [ ] ("An Introduction to Clifford Algebras and Spinors")
@@ -148,6 +151,8 @@
 	- [ ] Introduction to Riemannian Manifolds by Lee
 -  Functional Analysis
 	- [ ] Megginson
+- Variational Calculus
+	- [ ] Dacorogna
 - Banach Manifolds
 	- [ ] Fundamentals of Differential Geometry by Serge Lang
 -  Kurzweil-Henstock Integral

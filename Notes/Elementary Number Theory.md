@@ -27,6 +27,7 @@ This is related to:
 		- [[Legendre Symbols]]
 			- [[Jacobi Symbols]]
 		- [[Primitive Roots]]
+	- [[Prime Modulus and Prime Power Moduli]]
 - [[Multiplicative Functions]]
 	- [[Dirichlet Product]]
 	- [[Euler Totient Function]]

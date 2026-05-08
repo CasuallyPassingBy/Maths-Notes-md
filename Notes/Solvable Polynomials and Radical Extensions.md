@@ -3,7 +3,7 @@ tags:
   - FieldTheory
 ---
 Subjects: [[Field Theory]]
-Links: [[Galois Groups of Polynomials]], [[Galois Field Extensions]], [[Cyclic Groups]], [[Cyclotomic Polynomials and Extensions]]
+Links: [[Galois Groups of Polynomials]], [[Galois Field Extensions]], [[Cyclic Groups]], [[Cyclotomic Polynomials and Extensions]], [[Solvable Groups]]
 
 **Def:** *Simple radical extensions* are extensions obtained by adjoining to a field $F$ the $n$th root of an element $a$ in $F$. 
 

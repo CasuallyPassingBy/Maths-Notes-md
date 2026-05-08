@@ -3,7 +3,7 @@ tags:
   - NumberTheory
 ---
 Subjects: [[Elementary Number Theory]]
-Links: [[Integers modulo n]]
+Links: [[Integers modulo n]], [[Legendre Symbols]], [[Quadratic Congruences]]
 
 ********Th:******** The linear congruence $ax\equiv b \pmod n$ has solution iff $d \mid b$, where $d = \gcd(a,n)$. If ${d\mid b}$, then it has $d$ mutually incongruent solutions modulo $n$.
 
@@ -46,5 +46,3 @@ with $0\le x, y < n$
 **Lemma:** If $d\mid m$, $d> 0$ and if $u$ is a solution of $f(x) \equiv 0\pmod m$, then $u$ is a solution of $f(x) \equiv 0 \pmod d$. 
 
 **Th:** Let $f(x)$ be a fixed polynomial with integral coefficients, and for any positive integer $m$ let $N(m)$ denote the number of solutions of the congruence $f(x) \equiv 0\pmod m$. If $m = m_1 m_2$ where $(m_1, m_2) = 1$, then $N(m) = N(m_1) N(m_2)$. If $m = \prod_{p}p^{\mu_p}$, then $N(m) = \prod_{p}N(p^{\mu_p})$. 
-
-# Prime 
