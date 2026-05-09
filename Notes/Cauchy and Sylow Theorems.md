@@ -1,6 +1,6 @@
 ---
 tags:
-  - GraphTheory
+  - GroupTheory
 ---
 Subjects: [[Group Theory]]
 Links: [[Group Actions]]

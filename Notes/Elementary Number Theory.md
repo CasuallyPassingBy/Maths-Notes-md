@@ -28,6 +28,7 @@ This is related to:
 			- [[Jacobi Symbols]]
 		- [[Primitive Roots]]
 	- [[Prime Modulus and Prime Power Moduli]]
+	- [[Binary Quadratic Forms]]
 - [[Multiplicative Functions]]
 	- [[Dirichlet Product]]
 	- [[Euler Totient Function]]

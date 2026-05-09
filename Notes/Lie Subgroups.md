@@ -1,7 +1,6 @@
 ---
 tags:
   - GroupTheory
-  - LinearAlgebra
 ---
 Subjects: [[Differential Geometry]], [[Group Theory]]
 Links: [[Lie Groups]], [[Subgroups]], [[Submersions, Immersions and Local Diffeomorphism of Smooth Manifolds]], [[Immersed Smooth Submanifolds]], [[Embedded Smooth Submanifolds]], 

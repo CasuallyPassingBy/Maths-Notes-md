@@ -1,6 +1,5 @@
 ---
 tags:
-  - LinearAlgebra/AffineGeometry
   - GroupTheory
 ---
 Subjects: [[Affine Geometry]], [[Group Theory]]

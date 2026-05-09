@@ -10,7 +10,7 @@ All the subjects we have
 - [[Set Theory]]
 - [[Topology]]
 	- [[Algebraic Topology]]
-- [[Elementary Number Theory]] (On Hold)
+- [[Elementary Number Theory]] (In Progress)
 	- [[Algebraic Number Theory]] (Pending)
 	- [[Analytic Number Theory]] (Pending)
 - [[Category Theory]] (Pending)
@@ -22,7 +22,7 @@ All the subjects we have
 - [[Metric and Normed Spaces]]
 - [[Complex Analysis]]
 - [[Fourier Analysis]]
-- [[Measure Theory]] (In progress)
+- [[Measure Theory]] (On Hold)
 - [[Functional Analysis]] (Pending)
 ## Algebra
 - [[Linear Algebra]]
