@@ -43,3 +43,5 @@ We can write the quadratic form $f(x, y) = ax^2+bxy +c^2$ as $$\begin{pmatrix}x 
 
 **Def:** Let $f$ be a binary quadratic form whose discriminant $d$ is not a perfect square. We call $f$ *reduced* if $$-|a| < b \le |a| < |c| \quad \text{or}\quad 0\le b \le |a| = |c|. $$
 **Th:** Let $d$ be a given integer, which is not perfect square. Each equivalence class of binary quadratic forms of discriminant $d$ at least one reduced form.
+
+**Th:** Let $f$ be a reduced binary quadratic form whose disciminant $d$ is not a perfect square. If $f$ is indefinite, then $0<|a| \le \sqrt d/2$ 
