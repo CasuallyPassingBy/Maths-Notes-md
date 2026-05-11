@@ -5,9 +5,9 @@ tags:
 [[Central Hub]]
 # Topics
 
+[[Elementary Number Theory]]
 
 # Overview
-
 - [[Multiplicative Functions]]
     - [[Dirichlet Product]]
     - [[Euler Totient Function]]

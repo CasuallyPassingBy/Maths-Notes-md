@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Binary Quadratic Forms.md",
+                "file": "Elementary Number Theory.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Binary Quadratic Forms"
+              "title": "Elementary Number Theory"
             }
           }
         ]
@@ -197,10 +197,16 @@
   },
   "active": "7d7e0bf53b7172ce",
   "lastOpenFiles": [
-    "Journal/Yang Aran Routine.md",
-    "Binary Quadratic Forms.md",
-    "Central Hub.md",
+    "Analytic Number Theory.md",
     "Elementary Number Theory.md",
+    "Central Hub.md",
+    "Jordan Totient Functions.md",
+    "Algebraic Number Theory.md",
+    "Primes of the Gaussian and Eisenstein Integers.md",
+    "Dedekind Psi Function.md",
+    "Dirichlet Characters.md",
+    "Binary Quadratic Forms.md",
+    "Journal/Yang Aran Routine.md",
     "Linear Diophantine Equations.md",
     "Polynomial Ring of a Single Variable.md",
     "Ring Theory.md",
@@ -217,12 +223,6 @@
     "Classification of Groups of order p^2q.md",
     "Untitled.md",
     "Group Theory.md",
-    "Solvable Groups.md",
-    "Solvable Polynomials and Radical Extensions.md",
-    "Field Theory.md",
-    "Galois Field Extensions.md",
-    "Kummer extensions.md",
-    "Legendre Symbols.md",
     "Pasted image 20240118182937.png",
     "Pasted image 20240118183035.png",
     "Pasted image 20240118230028.png",

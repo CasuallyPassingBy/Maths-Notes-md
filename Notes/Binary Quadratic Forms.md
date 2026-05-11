@@ -5,7 +5,7 @@ tags:
 Subjects: [[Elementary Number Theory]]
 Links: [[Integers modulo n]], [[Legendre Symbols]], [[Quadratic Congruences]], [[Polynomials in Several Variables over a Field]], [[Quadratic Forms]], [[Matrix Representation of Linear Transformations]]
 
-**Def:** A polynomial in several variables is called a *form*, it is said to be *homogeneuous* if all its monomial terms have the same degree. A form of degree $2$ is called a *quadratic* form. Thus the general quadratic form is a sum of the form  $$\sum_{i, j= 1} a_{ij} x_ix_j .$$A form in two variables is called *binary*. We are gonna study forms  $$f(x, y) = ax^2+bxy+cy^2 $$with integral coefficients. 
+**Def:** A polynomial in several variables is called a *form*, it is said to be *homogeneous* if all its monomial terms have the same degree. A form of degree $2$ is called a *quadratic* form. Thus the general quadratic form is a sum of the form  $$\sum_{i, j= 1} a_{ij} x_ix_j .$$A form in two variables is called *binary*. We are gonna study forms  $$f(x, y) = ax^2+bxy+cy^2 $$with integral coefficients. 
 
 The *discriminant* of a binary quadratic form is the quantity $d = b^2-4ac$. 
 
