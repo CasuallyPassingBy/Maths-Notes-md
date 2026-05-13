@@ -41,7 +41,14 @@ We can write the quadratic form $f(x, y) = ax^2+bxy +c^2$ as $$\begin{pmatrix}x 
 
 **Th:** Let $f$ and $g$ be equivalent binary quadratic forms. For any integer $n$, the representations of $n$ by $f$ are in one-to-one correspondence with the representation of $n$ by $g$. Also, the proper representation of $n$ by $f$ are in one-to-one correspondence with a proper representation of $n$ by $g$. Moreover, the discriminant of $f$ and $g$ are equal. 
 
-**Def:** Let $f$ be a binary quadratic form whose discriminant $d$ is not a perfect square. We call $f$ *reduced* if $$-|a| < b \le |a| < |c| \quad \text{or}\quad 0\le b \le |a| = |c|. $$
+**Def:** Let $f$ be a binary quadratic form whose discriminant $d$ is not a perfect square. We call $f$ *reduced* if $$-|a| < b \le |a| < |c| \quad \text{or}\quad 0\le b \le |a| = |c|. $$If $d$ is a perfect square, then if  $$c = 0  \quad \text{and} \quad  0\le a < |b|,$$then we call $f$ *reduced.*
+
 **Th:** Let $d$ be a given integer, which is not perfect square. Each equivalence class of binary quadratic forms of discriminant $d$ at least one reduced form.
 
-**Th:** Let $f$ be a reduced binary quadratic form whose disciminant $d$ is not a perfect square. If $f$ is indefinite, then $0<|a| \le \sqrt d/2$ 
+**Th:** Let $f$ be a reduced binary quadratic form whose discriminant $d$ is not a perfect square. If $f$ is indefinite, then $0<|a| \le \sqrt d/2$. If $f$ is positive definite, then $0 < a \le \sqrt{-d/3}$. In either case, the number of reduced forms of a given nonsquare discriminant $d$ is finite. +
+
+**Def:** If $d$ is a not perfect square then the number of equivalence classes of binary quadratic forms of discriminant $d$ is called the *class number* of $d$, denoted $H(d)$.
+
+Let $f$ be a binary quadratic form whose discriminant $d$ is not a perfect square. In case $H(d) = 1,$ we determine quite precisely which numbers are representable by $f$. 
+
+**Example:** An odd prime $p$ can be written in the form $p = x^2-2y^2$ iff $p \equiv\pm1\pmod 8$. 

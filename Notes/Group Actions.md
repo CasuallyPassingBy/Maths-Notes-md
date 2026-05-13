@@ -31,7 +31,7 @@ Then we say that $\beta$ is a *right action of $G$ on $X$*.
 **Th:** Suppose $G$ is a group, and $X$ is a $G$-set. For each $x\in X$, and $g\in G$, then $$G_{g\cdot x} = g G_x g^{-1}. $$
 **Cor:** Let $X$ be a $G$-set. if for some $x\in X$ we have that $G_x \trianglelefteq G$, then for all $y \in \text{orb}_G(x)$ we have that $G_y = G_x$.
 
-**Burnside's Lemma or Frobenius Theorem:** Let $G$ be a finite group, and $X$ be a finite $G$-set. If $n$ is the number of orbits of $X$ under the action of $G$, then $$n = \frac1{|G|} \sum_{g\in G}|X^g|. $$
+**Burnside's Lemma or Frobenius Theorem:** Let $G$ be a finite group, and $X$ be a finite $G$-set. If $n$ is the number of orbits of $X$ under the action of $G$, then $$|X/G| = n=\frac1{|G|} \sum_{g\in G}|X^g|. $$
 **Obs:** Let be $X$ a $G$-set. The action of $G$ on $X$ induces a homomorphism $\phi:  G \to S_X$, given by $\phi(g)(x) = g*x$. Additionally, if $\psi: G \to S_X$ is a homomorphism, then $\psi$ induces an action of $G$ on $X$ given by $\sigma*x := \phi(\sigma) (x)$. This means that a $G$-action on $X$ is the same as a homomorphism $\phi:G \to S_X$.  We can write it as $$\text{Act}(G, X) \leftrightarrow \text{Hom}(G, S_X). $$
 The homomorphism from $\phi: G \to S_X$ above is called the *permutation representation* associated to a given action. 
 
