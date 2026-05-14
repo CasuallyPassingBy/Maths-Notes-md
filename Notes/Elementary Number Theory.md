@@ -29,6 +29,7 @@ This is related to:
 		- [[Primitive Roots]]
 	- [[Prime Modulus and Prime Power Moduli]]
 	- [[Binary Quadratic Forms]]
+		- [[Numbers as Sum of Squares]]
 - [[Multiplicative Functions]]
 	- [[Dirichlet Product]]
 	- [[Euler Totient Function]]

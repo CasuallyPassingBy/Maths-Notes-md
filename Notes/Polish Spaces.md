@@ -122,6 +122,8 @@ Links: [[Complete Metric Spaces]], [[Separable, First and Second Countable Space
 
 **Th:** Let $A$ and $B$ be Borel subsets of Polish spaces. Then $A$ and $B$ are Borel isomorphic iff they have the same cardinality. Furthermore, the cardinality of each uncountable Borel subset of a Polish space is that of the continuum. 
 
+**Cor:** If $X$ is an uncountable Polish spaces then it is Bore isomorphic to $[0, 1]$  and to $\Bbb R$. 
+
 **Lemma:** Let $X$ and $Y$ be Polish spaces, let $A$ be a nonempty Borel subset of $X$, and let $f:A \to Y$ be Borel measurable and injective. Then there is a Borel measurable function $g:Y\to X$ such that $g[Y] \subseteq A$ and such that $g(f(x)) = x$ holds at each $x\in A$. 
 
 **Th:** Let $X$ and $Y$ be Polish spaces, let $A$ be a Borel subset of $X$, and let $f:A \to Y$ be Borel measurable and injective. Then $f[A]$ is a Borel subset of $Y$.

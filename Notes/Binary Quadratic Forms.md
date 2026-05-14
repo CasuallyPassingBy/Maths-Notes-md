@@ -33,6 +33,8 @@ The *discriminant* of a binary quadratic form is the quantity $d = b^2-4ac$.
 
 **Def:** The group of $2\times 2$ matrices with integral elements and determinant $1$ is denoted by $\Gamma$, and is called the *modular group*. 
 
+**Obs:** Let $x, y\in \Bbb Z$. There exists integers $u$ and $v$ such that $\begin{pmatrix}x & y \\ u & v\end{pmatrix}\in \Gamma$ iff $(x, y) = 1$. 
+
 **Def:** the quadratic forms $f(x, y) = ax^2+bxy+cy^2$ and $g(x, y) = Ax^2+ Bxy+Cy^2$ are equivalent, and write $f\sim g$ if there is an $M \in \Gamma$ such that $g(x) = f(Mx)$. In this case we say that $M$ takes $f$ to $g$.
 
 We can write the quadratic form $f(x, y) = ax^2+bxy +c^2$ as $$\begin{pmatrix}x & y\end{pmatrix}\begin{pmatrix}a & b/2 \\ b/2 & c\end{pmatrix}\begin{pmatrix}x \\ y\end{pmatrix}$$Thus the equivalence of quadratic forms can be made clearer by phrasing it like this. Let $f$ and $g$ be quadratic forms with matrices $A$ and $B$ be symmetric matrices that induce them. Then $f$ is equivalent to $g$ iff there is a matrix $M$ of the modular group $\Gamma$ such that $M^\top A M = B$. 
