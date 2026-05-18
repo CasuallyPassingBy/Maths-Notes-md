@@ -110,7 +110,9 @@ Links: [[Complete Metric Spaces]], [[Separable, First and Second Countable Space
 
 ## The Separation Theorem
 
-**Th:** Let $X$ be a Polish space, and let $A_1$ and $A_2$ be disjoint analytic subsets of $X$. Then $A_1$ and $A_2$ can be separated by Borel sets.
+**Def:** Let $X$ be a Polish space, and let $A_1$ and $A_2$ be disjoint subsets of $X$. Then $A_1$ and $A_2$ can be *separated by Borel sets* if there are disjoint Borel subsets $B_1$ and $B_2$ of $X$ such that $A_1\subseteq B_1$ and $A_1\subseteq B_2$. 
+
+**Lusin First Separation Theorem:** Let $X$ be a Polish space, and let $A_1$ and $A_2$ be disjoint analytic subsets of $X$. Then $A_1$ and $A_2$ can be separated by Borel sets.
 
 **Cor:** Let $X$ be a Polish space, and let $\{A_n\mid n<\omega\}$ be disjoint analytic subsets of $X$. Then there are disjoint Borel subsets $\{B_n \mid n<\omega\}$ of $X$ such that $A_n\subseteq B_n$ holds for each $n<\omega$. 
 

@@ -183,9 +183,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Open quick switcher": false,
       "omnisearch:Omnisearch": false,
       "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
@@ -197,8 +197,9 @@
   },
   "active": "9aa9381f277ab0ab",
   "lastOpenFiles": [
-    "Measure Theory.md",
     "Polish Spaces.md",
+    "Measures on Polish Spaces.md",
+    "Measure Theory.md",
     "Binary Quadratic Forms.md",
     "Numbers as Sum of Squares.md",
     "Elementary Number Theory.md",
@@ -222,7 +223,6 @@
     "Smooth Submanifold of Manifolds with a Boundary.md",
     "Metrisation Theorems.md",
     "Affine Group.md",
-    "Cauchy and Sylow Theorems.md",
     "Pasted image 20240118182937.png",
     "Pasted image 20240118183035.png",
     "Pasted image 20240118230028.png",
