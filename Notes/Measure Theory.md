@@ -24,6 +24,7 @@ This notes are primarily based on Cohn's *Measure theory (2nd Edition)*, and wil
 		- [[Lebesgue-Stieltjes Measures]]
 	- [[Finite Product of Measures]]
 		- [[Finite Products of Measures on Locally Compact Spaces]]
+	- [[Universally Measurable Sets]]
 - [[Measure Spaces and Measurable Spaces]]
 	- [[Measurable Functions]]
 		- [[Convergence of Measurable Functions]]
@@ -45,4 +46,5 @@ This notes are primarily based on Cohn's *Measure theory (2nd Edition)*, and wil
 	- [[Space of Continuous Functions that Vanish at Infinity]]
 - [[Polish Spaces]]
 	- [[Measures on Polish Spaces]]
+	- [[Choquet Capacities]]
 - [[Haar Measure]]

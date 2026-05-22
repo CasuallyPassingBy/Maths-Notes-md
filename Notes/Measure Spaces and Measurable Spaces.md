@@ -54,4 +54,3 @@ This result enables us, in most applications, to assume that a finite measure sp
 **Cor:** Let $(X, {\cal A},\mu)$ be a measure space. and let $f, f_n: X \to \overline{\Bbb R}$ be $\cal A$-measurable function for each $n <\omega$. If $\{f_n\}$ converges to $f$ almost everywhere, then there are $\cal A$-measurable functions $g_1,g_2,\dots,$ that are equal to $f_1, f_2, \dots,$ almost everywhere and satisfy $f = \lim g_n$.
 
 **Prop:** Let $(X, {\cal A},\mu)$ be a measure space and let $\cal A_\mu$ be the completion of $\cal A$ under $\mu$. Then a function $f: X \to \overline{\Bbb R}$ is $\cal A_\mu$-measurable iff there are $\cal A$-measurable functions $f_0, f_1: X \to \overline{\Bbb R}$ such that $f_0 \le f \le f_1$ holds everywhere on $X$ and $f_0 = f_1$ holds $\mu$-almost everywhere on $X$.
-

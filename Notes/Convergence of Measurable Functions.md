@@ -3,7 +3,7 @@ tags:
   - MeasureTheory
 ---
 Subjects: [[Measure Theory]]
-Links: [[Measurable Functions]], [[Measure Spaces and Measurable Spaces]], [[Measures]]
+Links: [[Measure Spaces and Measurable Spaces]], [[Measurable Functions]], [[Measures]]
 
 **Th:** if $\{f_n \mid n < \omega\}$ is a sequence of extended real values measurable functions on a measurable space $X$, then the following functions are measurable:
 - $h(x) = \sup\{f_n(x) \mid n < \omega\}$
