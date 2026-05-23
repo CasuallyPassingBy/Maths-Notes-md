@@ -10,7 +10,9 @@ Links: [[Hausdorff Spaces]], [[Measures]], [[Polish Spaces]], [[Measures on Poli
 - each increasing sequence $(A_n)_{n<\omega}$ of subsets of $X$ satisfies $$I\left(\bigcup_{n<\omega} A_n\right) = \lim_{n\to\infty} I(A_n), $$and
 - each decreasing sequence $(K_n)_{n<\omega}$ of compact subsets of $X$ satisfies $$I\left(\bigcap_{n<\omega} K_n\right) = \lim_{n\to\infty} I(K_n). $$
 A subset $A$ of $X$ is $I$-*capacitable* if $$I(A) = \sup\{I(K) \mid K \subseteq A \land K \text{ is compact}\}. $$
-**Prop:** If $X$ is a Polish space and if $I$ is a capacity on $X$, then every relatively compact analytic subset of $X$ is $I$-capacitable. 
+**Choquet Capacitability Theorem:** If $X$ is a Polish space and if $I$ is a capacity on $X$, then every relatively compact analytic subset of $X$ is $I$-capacitable. 
+
+**Prop:** Let $X$ be a Polish space that is not $\sigma$-compact, and define $I: \mathcal P(X) \to \overline{\Bbb R}$ by letting $I(A)$ be $0$ if $A$ is included in some $\sigma$-compact set and letting $I(A)$ be $1$ otherwise. Then $I$ is a capacity on $X$, and there is an analytic subset of $X$ that is not $I$-capacitable. 
 
 # Abstract Choquet Capacities
 

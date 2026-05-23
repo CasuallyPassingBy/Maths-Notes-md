@@ -6,7 +6,7 @@ tags:
   - Analysis
 ---
 Subjects: [[Measure Theory]], [[Metric and Normed Spaces]], [[Topology]], [[Set Theory]]
-Links: [[Complete Metric Spaces]], [[Separable, First and Second Countable Spaces]], [[Metrizable Spaces]], [[Product of σ-Algebras]], [[Measures on Hausdorff Spaces]], [[Zero-Dimensional Spaces]], [[Borel Sets]]
+Links: [[Complete Metric Spaces]], [[Separable, First and Second Countable Spaces]], [[Metrizable Spaces]], [[Product of σ-Algebras]], [[Measures on Hausdorff Spaces]], [[Zero-Dimensional Spaces]], [[Borel Sets]], [[Universally Measurable Sets]], [[Measures on Polish Spaces]]
 
 **Def:** A *Polish space* is a separable completely metrizable space. 
 
@@ -129,3 +129,26 @@ Links: [[Complete Metric Spaces]], [[Separable, First and Second Countable Space
 **Lemma:** Let $X$ and $Y$ be Polish spaces, let $A$ be a nonempty Borel subset of $X$, and let $f:A \to Y$ be Borel measurable and injective. Then there is a Borel measurable function $g:Y\to X$ such that $g[Y] \subseteq A$ and such that $g(f(x)) = x$ holds at each $x\in A$. 
 
 **Th:** Let $X$ and $Y$ be Polish spaces, let $A$ be a Borel subset of $X$, and let $f:A \to Y$ be Borel measurable and injective. Then $f[A]$ is a Borel subset of $Y$.
+
+# Cross Sections
+
+For this note we consider $\omega^\omega$ to be given the [[Orderings|lexicographical order]]. 
+
+**Lemma:** Each nonempty closed subset of $\omega^\omega$ has a smallest element.
+
+**Lemma:** Each subset of $\omega^\omega$ that has the form  $$\{\mathbf m \in \omega^\omega \mid \mathbf m <\mathbf n\} $$for some $\mathbf n\in \omega^\omega$ is open. The collection of all subsets of $\omega^\omega$ of with the form above generates $\mathcal B(\omega^\omega)$. 
+
+**Th:** Let $X$ and $Y$ be Polish spaces, let $A$ be an analytic subset of $X\times Y$ and let $A_0$ be the projection of $A$ on $X$. Then there is a function $f: A_0\to Y$ such that
+- the graph of $f$ is a subset of $A$, meaning $f\subseteq A$, and 
+- $f$ is measurable with respect to $\mathscr A(X)$ and $\mathcal B(Y)$ and with respect to $\mathcal B(X)_*$ and $\mathcal B(Y)$. 
+
+**Cor:** Let $(X, {\scr A})$ be a measurable space, let $Y$ be a Polish space, let $C$ be a subset of $X\times Y$ that belongs to the $\sigma$-algebra ${\scr A}\otimes \mathcal B(Y)$ and let $C_0$ be the projection of $C$ on $X$. Then there exists a function $f: C_0\to Y$ such that
+- the graph of $f$ is a subset of $C$, meaning $f\subseteq C$, and
+- $f$ is measurable with respect to $\scr A_*$ and $\mathcal B(Y)$. 
+
+**Prop:** Let $(X, {\scr A})$ be a measurable space, let $Y$ be a Polish space, and let $C$ be a subset of $X\times Y$ such that
+- for each $x\in X$ the section $C_x$ is closed and nonempty, and
+- for each open subset of $Y$ the set $\{x\in X \mid C_x \cap U\neq \varnothing \}$ belongs to $\scr A$.
+There is a function $f:X \to Y$ such that
+- $f$ is measurable with respect to $\scr A$ and $\mathcal B(Y)$, and
+- the graph of $f$ is included in $C$. 

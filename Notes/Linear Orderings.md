@@ -16,7 +16,7 @@ Links: [[Orderings]], [[Finite and Countable Sets]]
 **************Lemma:************** Let $(A_1, <_1)$ and $(A_2, <_2)$ are linearly ordered sets, then:
 
 - If $A_1 \cap A_2 = \varnothing$, then the linear sum $(A_1 \oplus A_2, <)$ is a linear ordering
-- The lexicografical sum of $(A_1 \times A_2, <)$ is a linear ordering
+- The lexicographical sum of $(A_1 \times A_2, <)$ is a linear ordering
 
 **Th:** Let $\langle (A_i, <_i) \mid i \in I\rangle$ be an indexed system of linearly ordered sets, where $I \subseteq \Bbb N$. The relation $\prec$ on $\prod_{i \in I} A_i$ defined by
 

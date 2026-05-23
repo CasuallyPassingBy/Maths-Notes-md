@@ -19,7 +19,7 @@ We also defined the outer measure $\mu^*(A)$ and the inner measure $\mu_*(A)$ of
 
 **Cor:** Every analytic subset of a Polish space is universally measurable.
 
-**Lemma:** Let $(X, {\scr A})$, be a measurable space, let $Y$ be a Polish space, and let $C$ be a subset of $X\times Y$ that belongs to the product $\sigma$-algebra ${\scr A}\otimes\mathcal B(Y)$.Then there exists a function $h:X\to Z$ and a subset $D$ of $Z\times Y$ such that
+**Lemma:** Let $(X, {\scr A})$, be a measurable space, let $Y$ be a Polish space, and let $C$ be a subset of $X\times Y$ that belongs to the product $\sigma$-algebra ${\scr A}\otimes\mathcal B(Y)$. Then there exists a function $h:X\to 2^\omega$ and a subset $D$ of $2^\omega\times Y$ such that
 - $h$ is measurable with respect to $\scr A$ and $\mathcal B(2^\omega)$,
 - $D\in \mathcal B(2^\omega\times Y)$, and
 - $C = H^{-1}[D]$, where $H:X\times Y \to 2^\omega\times Y$ is the map that takes $(x, y)$ to $(h(x), y)$. 
