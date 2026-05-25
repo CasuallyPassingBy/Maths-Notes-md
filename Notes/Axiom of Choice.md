@@ -30,21 +30,21 @@ There exists a choice function for every system of sets
 - Every partition has a set of representatives
 - If $\langle X_i \mid i \in I\rangle$ is an indexed system of nonempty sets, then there us a function $f$ such that $f(i) \in X_i$ for all $i \in I$
 
-Th:* Every infinite set a countable subset. Equivalently, a set $A$ is infinite iff it is Dedekind Infinite. Every infinite set is equipotent to some of its proper subsets. Equivalently, Dedekind finite sets are precisely the finite sets.
+Th:$^*$ Every infinite set a countable subset. Equivalently, a set $A$ is infinite iff it is Dedekind Infinite. Every infinite set is equipotent to some of its proper subsets. Equivalently, Dedekind finite sets are precisely the finite sets.
 
-_Th:_* For every infinite set $S$ there exists a unique aleph $\aleph_ \alpha$ such that $|S| = \aleph_ \alpha$
+Th:$^*$ For every infinite set $S$ there exists a unique aleph $\aleph_ \alpha$ such that $|S| = \aleph_ \alpha$
 
-Th:* For any sets $A$ and $B$ either $|A| \le |B|$ or $|B|\le |A|$
+Th:$^*$ For any sets $A$ and $B$ either $|A| \le |B|$ or $|B|\le |A|$
 
-Cor:* The set of all real numbers is not the union of countable many countable sets
+Cor:$^*$ The set of all real numbers is not the union of countable many countable sets
 
-Cor:* The ordinal $\omega_1$ is not the supremum of a countale set of countable ordinals
+Cor:$^*$ The ordinal $\omega_1$ is not the supremum of a countale set of countable ordinals
 
 Th: $2^{\aleph_ 0} \ge \aleph_ 1$
 
-Th:* If $f$ is a function and $A$ a set, then $|f[A]| \le |A|$
+Th:$^*$ If $f$ is a function and $A$ a set, then $|f[A]| \le |A|$
 
-Th:******_* If $|S| \le \aleph_ \alpha$ and for all $A \in S$, $|A| \le \aleph_ \alpha$, then $|\bigcup S| \le \aleph_ \alpha$
+Th:$^*$If $|S| \le \aleph_ \alpha$ and for all $A \in S$, $|A| \le \aleph_ \alpha$, then $|\bigcup S| \le \aleph_ \alpha$
 
 **Def:** A system of sets $A$ has **finite characters** if $X \in A$ iff every finite subset of $X$ belongs to $A$.
 
@@ -63,12 +63,12 @@ Th:******_* If $|S| \le \aleph_ \alpha$ and for all $A \in S$, $|A| \le \aleph_ 
 - Point-set Topology:
 	- (Tychonoff's theorem): The Cartesian Product of any family of compact topological spaces is compact
 
-Th:* If $(A, \preceq)$ is linear ordering such that $|\{ y \in A\mid y \preceq x\} |<\aleph_\gamma$ for $x \in A$, then $|A| \le \aleph_\gamma$
+Th:$^*$ If $(A, \preceq)$ is linear ordering such that $|\{ y \in A\mid y \preceq x\} |<\aleph_\gamma$ for $x \in A$, then $|A| \le \aleph_\gamma$
 
-Th:* The following distributive laws:
+Th:$^*$ The following distributive laws:
 $$ \bigcap_{t \in T}\left(\bigcup_{s \in S} A_{t, s}\right) = \bigcup_{f \in S^T} \left( \bigcap_{t \in T} A_{t, f(t)}\right) $$$$ \bigcup_{t \in T}\left(\bigcap_{s \in S} A_{t, s}\right) = \bigcap_{f \in S^T} \left( \bigcup_{t \in T} A_{t, f(t)}\right) $$
 
-Th:* Every ordering $\preceq$ on $A$, there is linear orderingf $\le$ on $A$ such that $a \preceq b$ implies $a \le b$ for all $a, b \in A$, i.e. every partial ordering can be extended into a linear ordering.
+Th:$^*$ Every ordering $\preceq$ on $A$, there is linear orderingf $\le$ on $A$ such that $a \preceq b$ implies $a \le b$ for all $a, b \in A$, i.e. every partial ordering can be extended into a linear ordering.
 
 ### Principle of Dependent Choice
 
@@ -149,12 +149,12 @@ Ideally, we would like a $\sigma$-measure $\mu: \mathcal P(\Bbb R) \to [0, \inft
 - $\mu(\Bbb R) = \infty$
 - if $a \in \Bbb R$, $A\subseteq \Bbb R$, and $\mu(A+a) = \mu(A)$ 
 
-Th:* There is no measure $\mu: \mathcal P(\Bbb R) \to [0, \infty]$, with the following properties:
+Th:$^*$ There is no measure $\mu: \mathcal P(\Bbb R) \to [0, \infty]$, with the following properties:
 - $\mu([a,b]) = b-a$
 - $\mu(\Bbb R) = \infty$
 - if $a \in \Bbb R$, $A\subseteq \Bbb R$, and $\mu(A+a) = \mu(A)$
 
-Cor:* Let $\mu$ be a measure on a $\sigma$-algebra $\mathcal S$ of subsets of $\Bbb R$ such that
+Cor:$^*$ Let $\mu$ be a measure on a $\sigma$-algebra $\mathcal S$ of subsets of $\Bbb R$ such that
 - $\mu([a,b]) = b-a$
 - $\mu(\Bbb R) = \infty$
 - if $a \in \Bbb R$, $A\subseteq \Bbb R$, and $\mu(A+a) = \mu(A)$

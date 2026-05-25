@@ -6,11 +6,9 @@ Subjects: [[Complex Analysis]]
 Links: [[Topological Characterization of Continuity in Rn]], [[Important Functions in Complex Numbers]]
 
 ********Def:******** Let $f: A\subseteq \Bbb C \to \Bbb C$, with $z_0 \in \operatorname{int}(A)$, then we define we say that $f$ ****_has limit $L$ as ${z \to z_0}$_ and write
-
 $$ \lim_{z\to z_0} f(z) = L $$
 
 when
-
 $$ \forall \varepsilon>0\exists \delta>0\forall z \in A[0<|z-z_0| <\delta \implies |f(z)-f(z_0)|<\varepsilon] $$
 
 All the properties of limits of functions from $\Bbb R^2$ to $\Bbb R^2$ are preserved

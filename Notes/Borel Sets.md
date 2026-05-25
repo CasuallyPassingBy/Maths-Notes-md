@@ -32,4 +32,6 @@ Note that $\Sigma_2^0$ is also referred to as $F_\sigma$ and the class $\Pi_2^0$
 
 **Cor:** For any space $X$ which contains a homeomorphic copy of $2^\omega$ we have that $\text{ord}(X) = \omega_1$, consequently, $\omega^\omega$, $\Bbb R$ and any [[Polish Spaces|Polish space]] $X$ have $\text{ord}(X) = \omega_1$. 
 
+**Prop:** Every Borel set of a topological space $X$ is [[Baire's Category Theorem|nearly open]]. 
+
 ## Abstract Borel Hierarchies

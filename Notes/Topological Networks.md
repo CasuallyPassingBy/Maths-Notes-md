@@ -7,7 +7,7 @@ Links: [[Cardinal Functions of Topological Spaces]]
 
 **Def:** A family $\cal N$ of subsets of a topological space $X$ is a *network* for $X$ if for every point $x\in X$ and any $U \in\tau_X$ with $x\in U$ there exists an $M\in \cal N$ such that $x\in M \subseteq U$. 
 
-Clearly, any base fo $X$ is a network for $X$: it is a network of a special kind, namely, all members of which are open. The family of all one-point subsets of a space is another example of a network. 
+Clearly, any base of $X$ is a network for $X$: it is a network of a special kind, namely, all members of which are open. The family of all one-point subsets of a space is another example of a network. 
 
 **Def:** The *network weight* of a space $X$ is defined as the smallest cardinal number of the form $|\mathcal N|$, where $\cal N$ is a network for $X$; this cardinal number is denoted by $nw(X)$. Clearly, for every topological space $X$, we have $nw(X) \le w(X)$ and $nw(X) \le |X|$.
 

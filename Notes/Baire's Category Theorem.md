@@ -17,9 +17,11 @@ Any countable set on a dense-in-itself space where every set with only one point
 
 Let us note, that the boundary of a closed set is nowhere dense in the space. A subset of a topological space is nowhere dense in that space iff it is a subset of the boundary of a closed set.
 
-A subset $A$ of a topological space $X$ is *nearly open* if there are subsets $M_1$ and $M_2$ of the first category of $X$ such that $(A \setminus M_1) \cup M_2$ is open. 
+A subset $A$ of a topological space $X$ is *nearly open*, *almost open*, and is said to have the *property of Baire* or *Baire property* if there are subsets $M_1$ and $M_2$ of the first category of $X$ such that $(A \setminus M_1) \cup M_2$ is open. 
 
-Every Borel set of a topological space $X$ is nearly open. 
+**Prop:** Let $X$ be a topological space. A subset $A\subseteq X$ is nearly open iff there is an open subset $U\subseteq X$ such that $A\; \triangle\; U$ is a meagre subset. 
+
+**Prop:** Every Borel set of a topological space $X$ is nearly open. 
 
 We have that a space $X$ is of second category in itself, iff for every sequence $\{U_n \mid n \in \Bbb N\}$ of open and dense subsets of $X$, we have that $\bigcap \{U_n \mid n \in \Bbb N\}\ne \varnothing$ 
 

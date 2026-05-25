@@ -6,7 +6,7 @@ tags:
   - Analysis
 ---
 Subjects: [[Measure Theory]], [[Metric and Normed Spaces]], [[Topology]], [[Set Theory]]
-Links: [[Complete Metric Spaces]], [[Separable, First and Second Countable Spaces]], [[Metrizable Spaces]], [[Product of σ-Algebras]], [[Measures on Hausdorff Spaces]], [[Zero-Dimensional Spaces]], [[Borel Sets]], [[Universally Measurable Sets]], [[Measures on Polish Spaces]]
+Links: [[Complete Metric Spaces]], [[Separable, First and Second Countable Spaces]], [[Metrizable Spaces]], [[Product of σ-Algebras]], [[Measures on Hausdorff Spaces]], [[Zero-Dimensional Spaces]], [[Borel Sets]], [[Universally Measurable Sets]], [[Measures on Polish Spaces]], [[Perfect Spaces]]
 
 **Def:** A *Polish space* is a separable completely metrizable space. 
 
@@ -23,7 +23,7 @@ Links: [[Complete Metric Spaces]], [[Separable, First and Second Countable Space
 
 **Prop:** The [[Product Topology|product]] of countable Polish spaces is Polish. 
 
-**Prop:** Let $X$ be a Polish space. Then a subspace of $X$ is Polish iff it is a $G_\delta$ in $X$.
+**Aleksandrov's Theorem:** Let $X$ be a Polish space. Then a subspace of $X$ is Polish iff it is a $G_\delta$ in $X$.
 
 **Prop:** Let $\{X_n\mid n<\omega\}$ be a sequence of second countable spaces. Then $$\mathcal B\left(\prod_{n<\omega} X_n\right) = \bigotimes_{n<\omega} \mathcal B(X_n).$$
 **Prop:** Let $X$ and $Y$ be separable metrizable spaces, and let $f:X \to Y$ be Borel measurable. Then the graph of $f$ is a Borel subset of $X\times Y$. 
@@ -43,7 +43,7 @@ Links: [[Complete Metric Spaces]], [[Separable, First and Second Countable Space
 - The space $2^\omega$ which consists of all sequences of zeros and ones, is Polish. We see that $2^\omega$ is homeomorphic to the Cantor set, and hence it is called the Cantor space.
 - Let's consider the space $\mathcal C([0, \infty))$, but we will consider the bounded metric $$d(f, g) := \sum_{n= 1}^\infty \frac1{2^n} \sup\{1 \wedge |f(t) - g(t)| \mid t\in [0,n]\}.$$We see that a sequence of functions $(f_n)_{n<\omega}$ in $\mathcal C([0, \infty))$ converges to $f$ with respect to the metric above iff it converges to $f$ uniformly on each compact subset of $[0,\infty)$. We see that $\mathcal C([0,\infty))$ is complete and separable, and hence Polish. 
 
-**Prop:** Every separable metrizable space is homeomorphic to a subspace of the product space $[0, 1]^\omega$, and thus every Polish space is homeomorphic to a $G_\delta$ in $[0, 1]^\omega$. 
+**Urysohn's Embedding Theorem:** Every separable metrizable space is homeomorphic to a subspace of the product space $[0, 1]^\omega$, and thus every Polish space is homeomorphic to a $G_\delta$ in $[0, 1]^\omega$. 
 
 **Prop:** Let $(X, {\scr A})$ be a measurable space, let $Y$ be a Polish space, let $A$ be a subset of $X$ that might not belong to $\scr A$, and let ${\scr A}_A$ be the trace of $\scr A$ on $A$. If $f:A\to Y$ is measurable with respect to ${\scr A}_A$ and $\mathcal B(Y)$, then $f$ has an extension $F:X\to Y$ that is measurable with respect to $\scr A$ and $\mathcal B(Y)$. 
 
@@ -66,7 +66,7 @@ Links: [[Complete Metric Spaces]], [[Separable, First and Second Countable Space
 
 **Prop:** Let $X$ and $Y$ be Polish spaces, let $A$ be an analytic subset of $X$, and let $f:A\to Y$ be Borel measurable (that is, measurable with respect to $\mathcal B(A)$ and $\mathcal B(Y)$). If $A_1$ and $A_2$ are analytic subsets of $X$ and $Y$, respectively, then $f[A\cap A_1]$ and $f^{-1}[A_2]$ are analytic subsets of $Y$ and $X$, respectively. 
 
-**Prop:** Each nonempty Polish space is the image of the product space $\omega^\omega$ under a continuous function.
+**The Baire Space Universality Theorem:** Each nonempty Polish space is the image of the product space $\omega^\omega$ under a continuous function.
 
 **Cor:** Each nonempty Polish space is the image of $\omega^\omega$ under a continuous open map. 
 
@@ -84,13 +84,15 @@ Links: [[Complete Metric Spaces]], [[Separable, First and Second Countable Space
 
 **Cantor-Benedixson Theorem:** Every Polish space can be partitioned into a perfect set and a countable set. 
 
-**Prop:** Let $X$ be a Polish space, and let $B$ be an uncountable Borel subset of $X$. Then there is a continuous injective map $f: \omega^\omega \to X$ such that $f[\omega^\omega]\subseteq B$ and such that $B\setminus f[\omega^\omega]$ is countable. 
+**Alexandrov-Hausdorff Theorem:** Let $X$ be a Polish space, and let $B$ be an uncountable Borel subset of $X$. Then there is a continuous injective map $f: \omega^\omega \to X$ such that $f[\omega^\omega]\subseteq B$ and such that $B\setminus f[\omega^\omega]$ is countable. 
 
 **Cor:** Each uncountable Borel subset of a Polish space includes a subset that is homeomorphic to $2^\omega$. 
 
 **Lemma:** Let $A$ be an uncountable analytic subset of the Polish space $X$. The $A$ has a subset that is homeomorphic to $2^\omega$. 
 
 **Cor:** Every uncountable analytic subset of a Polish space has the cardinality of the continuum. 
+
+**Suslin Perfect Set Theorem:** Every analytic subset of a Polish space has the perfect set property.
 
 **Def:** Let $X$ be a set, and let $\scr F$ be a family of subsets of $X$. A subset $A$ of ${\scr N} \times X$ is *universal* for $\scr F$ if the collection of sections $\{A_{\bf n}\mid {\bf n}\in {\scr N}\}$ is equal to $\scr F$.
 
@@ -110,7 +112,7 @@ Links: [[Complete Metric Spaces]], [[Separable, First and Second Countable Space
 
 ## The Separation Theorem
 
-**Def:** Let $X$ be a Polish space, and let $A_1$ and $A_2$ be disjoint subsets of $X$. Then $A_1$ and $A_2$ can be *separated by Borel sets* if there are disjoint Borel subsets $B_1$ and $B_2$ of $X$ such that $A_1\subseteq B_1$ and $A_1\subseteq B_2$. 
+**Def:** Let $X$ be a Polish space, and let $A_1$ and $A_2$ be disjoint subsets of $X$. Then $A_1$ and $A_2$ can be *separated by Borel sets* if there are disjoint Borel subsets $B_1$ and $B_2$ of $X$ such that $A_1\subseteq B_1$ and $A_2\subseteq B_2$. 
 
 **Lusin First Separation Theorem:** Let $X$ be a Polish space, and let $A_1$ and $A_2$ be disjoint analytic subsets of $X$. Then $A_1$ and $A_2$ can be separated by Borel sets.
 
@@ -122,13 +124,15 @@ Links: [[Complete Metric Spaces]], [[Separable, First and Second Countable Space
 
 **Prop:** Let $X$ and $Y$ be Polish spaces, let $A$ be a Borel subset of $X$, let $f:A \to Y$ be Borel measurable, and let $B= f[A]$. If $f$ is injective and if $B\in \mathcal B(Y)$ and $f^{-1}$ is Borel measurable. 
 
-**Th:** Let $A$ and $B$ be Borel subsets of Polish spaces. Then $A$ and $B$ are Borel isomorphic iff they have the same cardinality. Furthermore, the cardinality of each uncountable Borel subset of a Polish space is that of the continuum. 
+**Kuratowisky Isomorphism Theorem:** Let $A$ and $B$ be Borel subsets of Polish spaces. Then $A$ and $B$ are Borel isomorphic iff they have the same cardinality. Furthermore, the cardinality of each uncountable Borel subset of a Polish space is that of the continuum. 
 
 **Cor:** If $X$ is an uncountable Polish spaces then it is Bore isomorphic to $[0, 1]$  and to $\Bbb R$. 
 
 **Lemma:** Let $X$ and $Y$ be Polish spaces, let $A$ be a nonempty Borel subset of $X$, and let $f:A \to Y$ be Borel measurable and injective. Then there is a Borel measurable function $g:Y\to X$ such that $g[Y] \subseteq A$ and such that $g(f(x)) = x$ holds at each $x\in A$. 
 
 **Th:** Let $X$ and $Y$ be Polish spaces, let $A$ be a Borel subset of $X$, and let $f:A \to Y$ be Borel measurable and injective. Then $f[A]$ is a Borel subset of $Y$.
+
+$(*)$ **Th (Lusin/Souslin):** Every analytic set has the [[Baire's Category Theorem|Baire property]]. 
 
 # Cross Sections
 
@@ -138,7 +142,7 @@ For this note we consider $\omega^\omega$ to be given the [[Orderings|lexicograp
 
 **Lemma:** Each subset of $\omega^\omega$ that has the form  $$\{\mathbf m \in \omega^\omega \mid \mathbf m <\mathbf n\} $$for some $\mathbf n\in \omega^\omega$ is open. The collection of all subsets of $\omega^\omega$ of with the form above generates $\mathcal B(\omega^\omega)$. 
 
-**Th:** Let $X$ and $Y$ be Polish spaces, let $A$ be an analytic subset of $X\times Y$ and let $A_0$ be the projection of $A$ on $X$. Then there is a function $f: A_0\to Y$ such that
+**The Yankov–von Neumann Uniformization Theorem:** Let $X$ and $Y$ be Polish spaces, let $A$ be an analytic subset of $X\times Y$ and let $A_0$ be the projection of $A$ on $X$. Then there is a function $f: A_0\to Y$ such that
 - the graph of $f$ is a subset of $A$, meaning $f\subseteq A$, and 
 - $f$ is measurable with respect to $\mathscr A(X)$ and $\mathcal B(Y)$ and with respect to $\mathcal B(X)_*$ and $\mathcal B(Y)$. 
 
@@ -146,9 +150,21 @@ For this note we consider $\omega^\omega$ to be given the [[Orderings|lexicograp
 - the graph of $f$ is a subset of $C$, meaning $f\subseteq C$, and
 - $f$ is measurable with respect to $\scr A_*$ and $\mathcal B(Y)$. 
 
-**Prop:** Let $(X, {\scr A})$ be a measurable space, let $Y$ be a Polish space, and let $C$ be a subset of $X\times Y$ such that
+**Kuratowski and Ryll-Nardzewski Measurable Selection Theorem:** Let $(X, {\scr A})$ be a measurable space, let $Y$ be a Polish space, and let $C$ be a subset of $X\times Y$ such that
 - for each $x\in X$ the section $C_x$ is closed and nonempty, and
-- for each open subset of $Y$ the set $\{x\in X \mid C_x \cap U\neq \varnothing \}$ belongs to $\scr A$.
-There is a function $f:X \to Y$ such that
+- for each open subset $U$ of $Y$ the set $\{x\in X \mid C_x \cap U\neq \varnothing \}$ belongs to $\scr A$.
+Then there is a function $f:X \to Y$ such that
 - $f$ is measurable with respect to $\scr A$ and $\mathcal B(Y)$, and
 - the graph of $f$ is included in $C$. 
+
+**Castaing Representation Theorem:** Let $(X, {\scr A})$ be a measurable space, let $Y$ be a Polish space, and let $C$ be a subset of $X\times Y$ such that
+- for each $x\in X$ the section $C_x$ is closed and nonempty, and
+- for each open subset $U$ of $Y$ the set $\{x\in X \mid C_x \cap U\neq \varnothing \}$ belongs to $\scr A$.
+There is a sequence $(f_n)_{n<\omega}$ of functions from $X$ to $Y$ such that
+- each $f_n$ is measurable with respect to $\scr A$ and $\mathcal B(Y)$, and
+- for each $x\in X$ the section $C_x$ is the closure of the set $\{f_n(x) \mid n<\omega\}$.
+
+**Von Neumann–Aumann Selection Theorem:** Let $X$ be a Polish space, let $(Y, {\scr A})$ be a measurable space, and let $f:X \to Y$ be a function such that 
+- if $y\in Y$, then $f^{-1}\{y\}$ is a nonempty closed subset of $X$, and
+- if $U$ is an open subset of $X$, then $f[U]$ belongs to $\scr A$.
+There is a function $g:Y\to X$ that is measurable with respect to $\scr A$ and $\mathcal B(Y)$ and satisfies $(f\circ g) (y) = y$ for each $y\in Y$, meaning that it is a measurable left inverse of $f$. 

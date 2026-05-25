@@ -60,6 +60,13 @@ If $Y$ is a subspace of $X$, then the inclusion $\iota:Y\to X$ is closed/open if
 **Th:** If $f: X \to Y$ is an open mapping, then for every $x \in X$ we have $\chi(f(x), Y) \le \chi(x, X)$. If, moreover, $f$ is surjective, then $w(Y) \le w(X)$, and $\chi(Y) \le \chi(X)$. 
 
 **Th:** The class of $T_i$ spaces for $i \in \{1, 4, 6\}$ are invariant under closed mappings.
+
+**Def:** A function between topological spaces $f:X \to Y$ is *pseudo-open* if for each $y\in Y$ and $U\in\tau_X$, if $f^{-1}\{y\}\subseteq U$ then $y\in \text{int}(f[U])$. 
+
+**Obs:** We see that every psedo-open function is surjective.
+
+**Obs:** If $f:X \to Y$ is closed and surjective, then $f$ is pseudo-open. 
+
 ## Homoemorphisms
 
 The bijective function $\varphi$ defined over the topological space $X$ and with values in the space $Y$, it is called a *homeomorphism* if $\varphi$ is continuous with continuous inverse.

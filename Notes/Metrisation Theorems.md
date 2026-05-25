@@ -27,6 +27,8 @@ $$is a metric space on the space $X$.
 
 **Urysohn Metrization Theorem:** A second countable space is metrizable iff it is $T_3$.
 
+**Cor:** Every [[Local Compactness|locally compact]] [[Standard, Analytic, Lusin, and Souslin Spaces|Souslin space]] is metrizable. 
+
 **Bing Metrization Theorem:** A topological space is metrizable iff it is $T_3$ and has a $\sigma$-discrete base.
 
 **Kowalsky's Metrization Theorem:** The product space $(J(\kappa))^\omega$ of the hedgehog $J(\kappa)$ is universal for all metrizable spaces of weight $\kappa \ge \omega$.
@@ -53,6 +55,11 @@ $$is a metric space on the space $X$.
 **Th:** A compact $T_2$ space $X$ is metrizable iff it has a $G_\delta$ diagonal.
 
 **Th:** A $T_3$ space $X$ is metrizable iff it is locally finite developable.
+
+$(*)$ **Th:** Every Fréchet-Urysohn Souslin space is metrizable.
+
+$(*)$ **Th:** Every Čech-complete Souslin space is a Polish space, in particular it is metrizable.
+
 # Metrization Theorems for $T_0$ spaces
 
 **Bing Metrization Criterion:** A topological space is metrizable iff it is $T_0$, collectionwise normal and developable.

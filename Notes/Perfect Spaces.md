@@ -23,3 +23,4 @@ Being perfect is a hereditary property.
 
 If $X$ is a perfect space, and $f: X \to Y$ is a continuous closed map, then $Y$ is perfect. 
 
+**Def:** A topological space has the *perfect set property* if it is either countable or contains a nonempty perfect subset.

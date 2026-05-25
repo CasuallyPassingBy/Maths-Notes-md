@@ -110,6 +110,8 @@ Let $\mathscr A, \mathscr B \subseteq \mathcal P(\Omega)$, if we have that $\mat
 - $\scr A$ is closed under the formation of unions of increasing sequences of sets, or
 - $\scr A$ is closed under the formation of intersections of decreasing sequences of sets.
 
-**Def:** A $\sigma$-algebra $\cal A$ is *countably generated* if there exists a countable generator, i.e., a sequence $(G_n)_{n \in \Bbb N}$ in $\cal A$ such that $\sigma(\{G_n : n \in \Bbb N\})$. 
+**Def:** Let $(X, {\scr A})$ be a measurable space. A subfamily $\scr C$ of $\scr A$ *generates* $\scr A$ if $\sigma({\scr C}) = \scr A$. The $\sigma$-algebra $\scr A$, or the measurable space, is *countably generated* if $\scr A$ has a countable subfamily that generates it. A family $\scr C$ of subsets of $X$ *separates the points* of $X$ if for each pair $x, y$ of distinct points in $X$ there is a member $\scr C$ that contains exactly one of $x$ and $y$. The space $(X, {\scr A})$, or the $\sigma$-algebra $\scr A$, is *separated* if $\scr A$ separates the points of $X$, and is *countably separated* if $\scr A$ has a countable subfamily that separates the points of $X$. 
 
 **Def:** A set $A \in \cal A$, $A\neq \varnothing$, is an *atom* of $\cal A$ if $A$ doesn't contain any proper measurable subset $B\in \cal A$, i.e., $B \in \cal A$ and $B \subseteq A$, then $B = \varnothing$ or $B =A$.
+
+**Prop:** Let $(X, {\scr A})$ be a measurable space. If $\scr A$ is separated and countably generated, then $\scr A$ is countably generated.
