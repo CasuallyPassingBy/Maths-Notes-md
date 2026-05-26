@@ -6,7 +6,7 @@ tags:
   - Analysis
 ---
 Subjects: [[Measure Theory]], [[Metric and Normed Spaces]], [[Topology]], [[Set Theory]]
-Links: [[Polish Spaces]], [[Rings and Algebras of Sets]], [[Measurable Functions]], [[Hausdorff Spaces]]
+Links: [[Polish Spaces]], [[Rings and Algebras of Sets]], [[Measurable Functions]], [[Hausdorff Spaces]], [[Lašnev Spaces]]
 
 **Def:** A measurable space $(X, {\scr A})$ is *standard* if there is a Polish space $Z$ such that $(X, {\scr A})$ is isomorphic to $(Z, \mathcal B(Z))$, and is *analytic* if there is a Polish space $Z$ and an analytic subset $A$ of $Z$ such that $(X,{\scr A})$ is isomorphic to $(A, \mathcal B(A))$. 
 

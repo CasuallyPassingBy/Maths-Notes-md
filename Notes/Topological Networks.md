@@ -11,6 +11,10 @@ Clearly, any base of $X$ is a network for $X$: it is a network of a special kind
 
 **Def:** The *network weight* of a space $X$ is defined as the smallest cardinal number of the form $|\mathcal N|$, where $\cal N$ is a network for $X$; this cardinal number is denoted by $nw(X)$. Clearly, for every topological space $X$, we have $nw(X) \le w(X)$ and $nw(X) \le |X|$.
 
+**Def:** Just as we can have a $\sigma$-locally finite base, a base that is the countable union of locally open families, we can generalise this to $\sigma$-locally finite network, meaning that it is a network that is the countable union of locally finite families. If a space has a $\sigma$-locally finite network it is called a *$\sigma$-space*. 
+
+**Obs:** We see, by Nagata-Smirnov, that every metric space is $\sigma$-space. 
+
 # Network Weight
 
 **Def:** Let $(X, \tau)$ be a topological space. We define the *network weight* of $(X, \tau)$ as$$
@@ -28,3 +32,8 @@ $$
 **Th:** For every $T_2$ compact space $X$ we have $w(X) \le |X|$
 
 **Th:** Let $X$ and $Y$ be $T_2$ spaces. If there's a continuous surjective function $f:X \to Y$, and $Y$ is compact, then $w(Y) \le nw(X)$. 
+
+# $k$-networks
+
+**Def:** A collection $\scr P$ of closed subsets of a topological space $X$ is said to be a $k$-network for $X$ if, given any open set $U$ and any compact $K \subseteq U$, there is a finite subcollection ${\scr Q} \in [{\scr P}]^{<\omega}$ so that $K \subseteq \bigcup {\scr Q}\subseteq U$. We can also have the stronger version $\sigma$-locally finite $k$-network as a $k$-network that is the union of locally finite closed families.
+

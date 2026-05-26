@@ -1,6 +1,8 @@
 ---
 tags:
   - Topology
+aliases:
+  - Final Topology
 ---
 Subjects: [[Topology]]
 Links: [[Initial Topology]], [[Continuous Functions and Homeomorphims]], [[Topological Spaces]], [[Bases, Subbases, and Local Basis for Topological Spaces]]

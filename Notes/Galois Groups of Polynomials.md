@@ -110,7 +110,6 @@ We can actually examine the case where our base field is $\Bbb Q$.
 		- $\text{Gal}(f(x)/\Bbb Q) \cong V$, the Klein $4$-group, iff $b$ is a square in $\Bbb Q$ iff $\alpha\beta\in \Bbb Q$.
 		- $\text{Gal}(f(x)/\Bbb Q) \cong C_4$ iff $b(a^2-4b)$ is a square in $\Bbb Q$ iff $\Bbb Q(\alpha \beta) = \Bbb Q(\alpha^2)$.
 		- $\text{Gal}(f(x)/\Bbb Q) \cong D_4$ iff $b$ and $b(a^2-4b)$ are not squares in $\Bbb Q$ iff $\alpha\beta\notin\Bbb Q(\alpha^2).$ 
-	- 
 
 # Fundamental Theorem of Algebra
 

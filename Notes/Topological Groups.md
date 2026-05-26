@@ -96,3 +96,5 @@ G_\beta \arrow[r, "\iota_\beta"']& G_\beta
 **Obs:** Note that we can replace the neighbourhoods of $e$ appearing in the definition above with smaller symmetric neighbourhoods of $e$ and that for each symmetric neighbourhood $U$ the condition $x\in yU$ is equivalent to the condition $y\in xU$ and the condition $x\in Uy$ is equivalent to the condition $y\in Ux$. Thus $x$ and $y$ do in fact enter our definition symmetrically.
 
 **Prop:** Let $G$ be a locally compact group. Then each function in $\mathcal C_c(G)$ is left uniformly continuous and right uniformly continuous.
+
+**Cor:** Let $G$ be a locally compact group, let $\mu$ be a regular Borel measure on $G$, and let $f$ belong to $\mathcal C_c(G)$. Then the functions $$x\mapsto \int f(xy)\, \mu(dy)\quad \text{and}\quad x\mapsto \int f(yx)\, \mu(dy) $$are continuous. 

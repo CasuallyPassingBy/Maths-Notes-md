@@ -2,7 +2,7 @@
 tags:
   - Analysis
 ---
-Subjects: [[Metric and Normed Spaces]], [[Topology]]
+terSubjects: [[Metric and Normed Spaces]], [[Topology]]
 Links: [[Topology of Metric Spaces]], [[limsup and liminf]], [[Continuity on Metric Spaces]], [[Rectifiable Curves in Rn]], [[Continuous Functions and Homeomorphims]]
 
 # Metric Spaces
@@ -79,3 +79,16 @@ $$ f^{-1}[[ -\infty, r)] \text{ is open for all }r \in \Bbb R $$
 **Prop:** Let $X$ be a topological space and let $f:X \to \overline{\Bbb R}$ be lower semicontinuous. If $K$ is a nonempty compact set of $X$, then $f[K]$ is bounded below and there's a $x_0\in K$ that achieves the minimum of $f[K]$. 
 
 **Prop:** Let $X$ be a topological space and let $f:X \to \overline{\Bbb R}$ be upper semicontinuous. If $K$ is a nonempty compact set of $X$, then $f[K]$ is bounded above and there's a $x_0\in K$ that achieves the maximum of $f[K]$. 
+
+
+1. **If $X$ is discrete, then $F(X)$ is Fréchet.** If $X$ is discrete, every singleton ${x}$ is open in $X$. Given any finite set $A={x_1,\dots,x_k}\in F(X)$, choose open neighborhoods $U_i={x_i}$ for each $x_i$. Then $$\langle U_1,\dots,U_k\rangle={B\in F(X):B\subseteq U_1\cup\cdots\cup U_k,;B\cap U_i\neq\emptyset;\forall i}$$ contains $A$ and _exactly_ the set $A$ (since any finite $B$ meeting each $U_i={x_i}$ must contain all of ${x_1,\dots,x_k}$). Hence each point of $F(X)$ is isolated, so $F(X)$ is discrete. Discrete spaces are trivially first-countable and Fréchet–Urysohn. (Cf. [23] for Vietoris base.) In summary: **$X$ discrete $\implies F(X)$ discrete $\implies F(X)$ Fréchet**.
+    
+2. **If $X$ is not discrete, then $F(X)$ is not Fréchet–Urysohn.** Suppose $X$ has a non-isolated point. A clean way to see $F(X)$ fails Fréchet is to embed a standard non-Fréchet space into it. In particular, Maya–Pellicer–Pichardo (2018) construct an embedding of the _double sequential fan_ $S(\omega_1)^2$ into $F_2(X)$ whenever $X$ contains a copy of the hedgehog $J(\omega_1)$ or any space with a point of uncountable character. Since $S(\omega_1)^2$ is not Fréchet–Urysohn, it follows that $F_2(X)$ (and hence $F(X)$) is not Fréchet–Urysohn. Concretely, one shows: if $X$ has a limit-point behavior (e.g.\ an uncountable convergent sequence or fan), then $F(X)$ contains a closed subspace homeomorphic to $S(\omega_1)^2$, which is a well-known Fréchet-failure. We give a brief sketch below.
+    
+    - _Embedding the fan:_ Let $M$ be a countably infinite subset of $X$ converging to a point $p\in X$, and assume there is a “twin point” $q\neq p$ if needed (one can reduce to one point by symmetry). Consider the two copies $M\times{0}$ and $M\times{1}$ in $X$ (if only one copy exists, one can artificially duplicate it). Then the family of finite sets  
+        $$ E_1(A,S);=;{,{x}\cup{y}:x\in M\times{0},;y\in M\times{1}};, $$  
+        where each ${x,y}$ intersects both copies, can be arranged so that its closure in $F(X)$ contains the two limit points ${p,0},{p,1}$. Topologically this closure is homeomorphic to the sequential fan $S(\omega_1)^2$. The details follow Maya–Pellicer–Pichardo [78–79]. Since $S(\omega_1)^2$ is not Fréchet (no sequence of its “spine” points converges to the vertex), it cannot be Fréchet inside $F(X)$.
+        
+    - _Conclusion:_ Thus whenever $X$ has even one limit-point (non-isolated) behavior, $F(X)$ contains a closed copy of a non-Fréchet space, so $F(X)$ itself cannot be Fréchet–Urysohn. This shows the only way $F(X)$ can be Fréchet is if _no_ such situation arises – i.e.\ if $X$ is discrete.
+
+- **Case 2: $X$ not discrete.** Then there is a point $p\in X$ with a neighborhood basis of arbitrarily small opens (or an infinite convergent sequence). We will show $F(X)$ fails the Fréchet property at the point ${p}\in F(X)$. Consider any family ${A_\alpha}$ of finite subsets that “cluster” to ${p}$ in $F(X)$. By definition of Vietoris closure, that means: for every open neighborhood $U$ of $p$ in $X$, some $A_\alpha$ meets $U$. We claim no countable sequence of these $A_\alpha$ can converge to ${p}$ in $F(X)$. Indeed, suppose $A_{n}$ is any sequence of distinct finite sets in $F(X)$. Fix a neighborhood basis $U_1\supset U_2\supset\cdots$ of $p$ in $X$. Since each $A_n$ is finite, for each $n$ there exists some $x_n\in A_n$ not in $U_n$ (if $A_n\subset U_n$ then eventually ${p}$ would not lie in the closure of ${A_n}$). The open set $\langle U_n\rangle ={B\in F(X):B\subseteq U_n}$ contains ${p}$ (since ${p}\subseteq U_n$), but none of the chosen $A_m$ with $m\ge n$ lies in $\langle U_n\rangle$ (as $A_n$ had a point outside $U_n$). Thus no tail of the sequence $A_n$ eventually lands in every neighborhood of ${p}$, so $A_n\not\to{p}$. Hence ${p}$ is in the closure of ${A_\alpha}$ but is not the limit of any sequence from ${A_\alpha}$, so $F(X)$ is not Fréchet.

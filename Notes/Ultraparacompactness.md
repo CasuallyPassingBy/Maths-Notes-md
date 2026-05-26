@@ -35,3 +35,5 @@ Links: [[Strong Paracompactness]], [[Paracompacteness]], [[Ultrametric Spaces]],
 - $(*)$ $X$ has a complete compatible suprecomplete non-Archimedean family.
 
 **Th:** Every ultrametric space is ultranormal, and hence, ultraparacompact.
+
+**Th:** A topological space is ultrametrizable iff it is metrizable and ultraparacompact. 

@@ -4,7 +4,7 @@ tags:
   - Analysis
 ---
 Subjects: [[Topology]], [[Metric and Normed Spaces]]
-Links: [[Metric Spaces]], [[Ultraparacompactness]], [[Zero-Dimensional Spaces]], [[Metrisation Theorems]]
+Links: [[Metric Spaces]], [[Ultraparacompactness]], [[Zero-Dimensional Spaces]], [[Metrisation Theorems]], [[Metrizable Spaces]], [[Ultranormal Spaces]]
 
 **Def:** Un ultrametric on set $M$ is a function $d: M \times M \to \Bbb R$ such that:
 - $d(x, y) = 0$ iff $x = y$.
@@ -45,3 +45,7 @@ This is the reason why Russian literature calls ultrametric spaces, Isosceles sp
 This means that ultrmetrizable space is the analogue of metrizable on strongly zero-dimensional spaces. 
 
 We can get a lot of ultrametrization theorems, by adding the requirement that the space is strongly zero-dimensional. 
+
+**Th:** Every ultrametric space is ultranormal, and hence, ultraparacompact.
+
+**Th:** A topological space is ultrametrizable iff it is metrizable and ultraparacompact. 

@@ -1,0 +1,24 @@
+[[Central Hub]]
+[[Interesting Stuff I want continue Learning]]
+
+- [ ] What happens if the $\mathcal F\langle X\rangle$ is a Lašnev space? how does it interact with $X$?
+	-  Resources: 
+		-  [Products of Paracompact Spaces and Lašnev Spaces](https://topology.nipissingu.ca/tp/reprints/v15/tp15005s.pdf)
+		-  [General Properties of the Hypersace of Convergent Sequences](https://topology.nipissingu.ca/tp/reprints/v51/tp51009.pdf#:~:text=Proposition%203.7.%20Being%20Fr%C3%A9chet,endowed%20with%20the%20discrete%20topology)
+		-  [A note on hyperspaces by closed sets with Vietoris topology](https://ar5iv.labs.arxiv.org/html/2111.10710#:~:text=we%20endow%20with%20the%20Vietoris,subsets%20of%20the%20following%20form)
+		-  Generalized Metric Spaces by Gary Gruenhage in Handbook of Set-Theoretic Topology
+		-  [A Characterization of Closed Images of Metric Spaces by L. Foged](https://www.jstor.org/stable/2045825)
+		-  [A Characterization of Lašnev Spaces by H. H. Hung](https://www.jstor.org/stable/2047125)
+		-  [Topologies on Spaces of Subsets by E. Michael](https://www.jstor.org/stable/1990864)
+		-  Nadler's book on Vietoris Hyperspace
+	- If $\mathcal F\langle X\rangle$ is Lašnev, then every $\mathcal F_n\langle X\rangle$ is Lašnev for every $n \ge 1$. In particular, $X$ is Lašnev. 
+	- [ ] If $Y$ is a Lašnev space, and $f:X \to Y$ is a perfect function is $X$ also Lašnev?
+		- [ ] If $Y$ is a Fréchet-Urysohn space, and $f:X \to Y$ is a perfect function is $X$ also Fréchet-Urysohn?
+		- [ ] If $Y$ is a sequential space, and $f:X \to Y$ is a perfect function is $X$ also sequential?
+		- [ ] If $Y$ is a $k_1$-space, and $f:X \to Y$ is a perfect function is $X$ also $k_1$?
+
+- [ ] Is there a good way to define the Fourier transform and convolution on oriented Riemannian Manifolds?
+	- [ ] Can we do it using the Laplace-Beltrami operator?
+	- [ ] Can we do it as a homogeneous space?
+	- [ ] Can I translate the vocabulary from GCNs to Riemannian manifolds?
+		- [ ] How do I translate the translation matrix to the Riemannian context?

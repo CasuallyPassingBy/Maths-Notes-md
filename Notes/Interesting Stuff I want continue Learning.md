@@ -1,5 +1,6 @@
 [[Central Hub]]
 [[Almost finished projects]]
+[[Annoying Questions]]
 
 # Set Theory and Category Theory
 - Set Theory
@@ -337,3 +338,5 @@
 - [ ] Neural Networks with Nielsen
 - [ ] Upbringing of a Mage
 - [ ] Lennard–Jones liquid–vapor model
+- [ ] Pokemon Bot 
+	- [ ] [first dataset](https://www.kaggle.com/datasets/patelris/pokemon-dataset-with-stats-and-types)

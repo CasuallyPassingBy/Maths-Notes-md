@@ -1,6 +1,7 @@
 
 
 [[Interesting Stuff I want continue Learning]]
+[[Annoying Questions]]
 [[Almost finished projects]]
 
 All the subjects we have
@@ -10,7 +11,7 @@ All the subjects we have
 - [[Set Theory]]
 - [[Topology]]
 	- [[Algebraic Topology]]
-- [[Elementary Number Theory]] (In Progress)
+- [[Elementary Number Theory]] (On Hold)
 	- [[Algebraic Number Theory]] (Pending)
 	- [[Analytic Number Theory]] (Pending)
 - [[Category Theory]] (Pending)
@@ -22,7 +23,7 @@ All the subjects we have
 - [[Metric and Normed Spaces]]
 - [[Complex Analysis]]
 - [[Fourier Analysis]]
-- [[Measure Theory]] (On Hold)
+- [[Measure Theory]] (In Progress)
 - [[Functional Analysis]] (Pending)
 ## Algebra
 - [[Linear Algebra]]
