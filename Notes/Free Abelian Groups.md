@@ -4,7 +4,7 @@ tags:
   - ModuleTheory
 ---
 Subjects: [[Group Theory]], [[Module Theory]]
-Links: [[Free Groups]], [[Generation of Modules, Direct Sum, and Free Modules]], [[Module and Algebra]], [[Finite Abelian Groups]]
+Links: [[Free Groups]], [[Generation of Modules, Direct Sum, and Free Modules]], [[Modules and Algebras]], [[Finite Abelian Groups]]
 
 Let $G$ be an abelian group. 
 

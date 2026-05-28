@@ -139,7 +139,7 @@
 		- [x] Product Measures
 		- [x] Differentiation
 		- [x] Measures on Locally Compact Spaces
-		- [ ] Polish Spaces and Analytic Sets
+		- [x] Polish Spaces and Analytic Sets
 		- [ ] Haar Measure
 		- [ ] Probability
 	- [ ] Bogachev I/II

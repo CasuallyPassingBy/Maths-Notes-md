@@ -41,9 +41,9 @@ H^{p-1}(U\cap V; \Bbb R)\arrow[r, "\partial^*"'] & H^p(M; \Bbb R)
 
 **Obs:** Since $\ell$ commutes with the cohomology maps induced by smooth maps, any manifold that is diffeomorphic to a de Rham manifold is also de Rham. 
 
-**Def:** If $M$ is a smooth manifold, let us calle an open cover $\{U_i\}$ of $M$ a *de Rham cover* if each subset $U_i$ is a de Rham manifold, and every finite intersection is de Rham. A de Rham cover that is also a basis for a topology of $M$ is called a *de Rham basis* for $M$. 
+**Def:** If $M$ is a smooth manifold, let us called an open cover $\{U_i\}$ of $M$ a *de Rham cover* if each subset $U_i$ is a de Rham manifold, and every finite intersection is de Rham. A de Rham cover that is also a basis for a topology of $M$ is called a *de Rham basis* for $M$. 
 
-**de Rham's Theorem:** For every smooth $M$ and nonnegative $p$, the de Rham homomorphism $\ell: H_\text{dR}^p(M) \to H^p(M; \Bbb R)$ is an isomorphism,i.e., every smooth manifold is a de Rham manifold. 
+**de Rham's Theorem:** For every smooth $M$ and nonnegative $p$, the de Rham homomorphism $\ell: H_\text{dR}^p(M) \to H^p(M; \Bbb R)$ is an isomorphism, i.e., every smooth manifold is a de Rham manifold. 
 
 This result expresses a deep connection between the topological and analytical properties of a manifold. If one has information about the topology of a manifold, the de Rham theorem can be used to draw conclusions about the solutions to differential equations such as $d\eta = \omega$ on $M$. Conversely, if one can prove that such solutions do or do not exists, then one can draw conclusions about the topology. 
 

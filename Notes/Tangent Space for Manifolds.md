@@ -3,7 +3,7 @@ tags:
   - DifferentialGeometry
 ---
 Subjects: [[Differential Geometry]]
-Links:  [[Smooth Manifolds]], [[Module and Algebra]], [[Derivations]], [[Smooth Functions on Smooth Manifolds]], [[Partial Derivatives on Manifolds]], [[Matrix Representation of Linear Transformations]], [[Differentiability of Vector valued functions of Rn]]
+Links:  [[Smooth Manifolds]], [[Modules and Algebras]], [[Derivations]], [[Smooth Functions on Smooth Manifolds]], [[Partial Derivatives on Manifolds]], [[Matrix Representation of Linear Transformations]], [[Differentiability of Vector valued functions of Rn]]
 
 # Preliminaries
 Given a point $a\in \Bbb R$, we define (momentarily) the *geometric tangent space to $\Bbb R^n$ to $a$,* denoted by $\Bbb R^n_a$, to be the set $\{a\}\times \Bbb R^n$. A *geometric tangent vector* in $\Bbb R^n$ is an element of $\Bbb R^n_a$ for some $a\in \Bbb R^n$. We are gonna abbreviate $(a,v)$ to $v_a$ or $v|_a$. The set $\Bbb R^n_a$ is a real vector space under the natural operations: $$v_a+ w_a := (v+w)_a \qquad c(v_a) := (cv)_a.$$The vectors $e_i|_a$ for $i = 1,\dots, n$ are a basis for $\Bbb R_a^n$. Even more $\Bbb R^n_a$ and $\Bbb R$ are basically identical, but $\Bbb R^n_a$ and $\Bbb R^n_b$ are different spaces, if $a$ and $b$ are different.

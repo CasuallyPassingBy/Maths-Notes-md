@@ -3,7 +3,7 @@ tags:
   - ModuleTheory
   - LinearAlgebra
 ---
-Subjects: , [[Module and Algebra]], [[Generation of Modules, Direct Sum, and Free Modules]]
+Subjects: , [[Modules and Algebras]], [[Generation of Modules, Direct Sum, and Free Modules]]
 
 For the construction of the tensor product of modules, suppose that $N$ is an left $R$-module and that $M$ is a right $R$-module. 
 

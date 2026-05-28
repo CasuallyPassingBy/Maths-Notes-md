@@ -21,7 +21,7 @@ All the subjects we have
 	- [[Kurzweil-Henstock Integral]] (Pending)
 - [[Vector Analysis]]
 - [[Metric and Normed Spaces]]
-- [[Complex Analysis]]
+- [[Complex Analysis]] (To Revisit)
 - [[Fourier Analysis]]
 - [[Measure Theory]] (In Progress)
 - [[Functional Analysis]] (Pending)
@@ -36,10 +36,10 @@ All the subjects we have
 - [[Clifford Algebra (Subject)]] (On Hold)
 
 ## Differential Equations
-- [[Ordinary Differential Equations]] (On Hold)
+- [[Ordinary Differential Equations]] (To Revisit)
 - [[Partial Differential Equations]] (Pending)
 ## Applied
-- [[Numerical Analysis]]
+- [[Numerical Analysis]] (On Hold)
 - [[Combinatorics]] (Pending)
 	- [[Graph Theory]] (Pending)
 - [[Probability Theory]]

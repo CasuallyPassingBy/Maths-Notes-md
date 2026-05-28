@@ -2,12 +2,14 @@
 tags:
   - Topology
 aliases:
-  - Final Topology
+  - Initial Topology
+  - Induced Topology
+  - Projective Topology
 ---
 Subjects: [[Topology]]
-Links: [[Initial Topology]], [[Continuous Functions and Homeomorphims]], [[Topological Spaces]], [[Bases, Subbases, and Local Basis for Topological Spaces]]
+Links: [[Strong Topology]], [[Continuous Functions and Homeomorphims]], [[Topological Spaces]], [[Bases, Subbases, and Local Basis for Topological Spaces]]
 
-We would like to find the dual of the [[initial topology]].
+We would like to find the dual of the [[Strong Topology]].
 
 Let's consider $X$ a topological space, $Y$ a set, and $f:X \to Y$. We would like to construct the the finest topology of $Y$ that makes $f$ continuous, denoted as $\tau_f$, and we satisfies the property:
 - For any topological space $Z$, a function $g: Y \to Z$ is continuous iff $g\circ f$ is continuous

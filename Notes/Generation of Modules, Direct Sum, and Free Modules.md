@@ -3,7 +3,7 @@ tags:
 ---
 
 Subjects: [[Module Theory]]
-Links: [[Module and Algebra]], [[Vector Subspaces]]
+Links: [[Modules and Algebras]], [[Vector Subspaces]]
 
 **Def:** Let $M$ be an $R$-module and let $N_1, \dots, N_n$ be submodules of $M$.
 - The sum of $N_1, \dots, N_n$ is the set of all finite sums of elements from the sets $N_i$: $\{a_1 + \dots + a_n\mid a_i \in N_i, i \in \{1, \dots, n\}\}$. Denote this sum by $N_1 + \dots + N_n$ or $\sum_{i = 1}^n N_i$. 

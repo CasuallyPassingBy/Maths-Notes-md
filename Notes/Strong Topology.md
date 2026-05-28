@@ -1,6 +1,10 @@
 ---
 tags:
   - Topology
+aliases:
+  - Final Topologies
+  - Co-Induced Topology
+  - Inductive Topology
 ---
 Subjects: [[Topology]]
 Links: [[Continuous Functions and Homeomorphims]], [[Topological Spaces]], [[Bases, Subbases, and Local Basis for Topological Spaces]], [[Weak Topology]]

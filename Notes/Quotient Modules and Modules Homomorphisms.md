@@ -2,7 +2,7 @@
 tags:
 ---
 Subjects: [[Module Theory]]
-Links: [[Module and Algebra]], [[Space of Linear Transformations]], [[Endomorphism Ring]], [[Quotient of Vector Spaces]], [[Normal Subgroups and Quotient Groups]]
+Links: [[Modules and Algebras]], [[Space of Linear Transformations]], [[Endomorphism Ring]], [[Quotient of Vector Spaces]], [[Normal Subgroups and Quotient Groups]]
 
 **Def:** Let $R$ be a ring and let $M$ and $N$ be $R$-modules.
 - A map $\varphi: M \to N$ is an $R$*-module homomorphism* if it respects the $R$-module structure of $M$ and $N$, i.e., 

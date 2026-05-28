@@ -3,7 +3,7 @@ tags:
   - LinearAlgebra
 ---
 Subjects: [[Linear Algebra]], [[Ring Theory]], [[Module Theory]]
-Links: [[Tensor Product of Modules]], [[Tensor Product of Modules]], [[Graded Ring]], [[Module and Algebra]], [[Bases and Dimension]]
+Links: [[Tensor Product of Modules]], [[Tensor Product of Modules]], [[Graded Ring]], [[Modules and Algebras]], [[Bases and Dimension]]
 
 Our goal is to create an algebra where the tensor product. For the rest of this note, $R$ is a commutative ring with a unit, and we assume left and right actions of $R$ on each $R$-module are the same.
 

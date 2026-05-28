@@ -3,7 +3,7 @@ tags:
   - RingTheory
 ---
 Subjects: [[Ring Theory]]
-Links: [[Module and Algebra]], [[Rings and Fields]], [[Ring Homomorphisms]]
+Links: [[Modules and Algebras]], [[Rings and Fields]], [[Ring Homomorphisms]]
 
 **Def:** A ring $S$ is called a *graded ring* if it is the direct sum of additive subgroups: $$ S = \bigoplus_{n < \omega} S_n$$such that $S_i S_j \subseteq S_{i+j}$ for all $i, j < \omega$. The elements of $S_k$ are said to be *homogeneous of degree $k$*, and $S_k$ is called *homogeneous components of $S$ of degree $k$.*
 

@@ -10,7 +10,7 @@ Links: [[Differential Forms on Smooth Manifolds]], [[The Exterior Derivative on 
 **Def:** Let $M$ be a smooth manifold with or without boundary or corners, and let $p$ be a nonnegative integer. Because $d: \Omega^p(M) \to \Omega^{p+1}(M)$ is linear, its kernel and image are vector spaces. We define $$\begin{align*}
 \mathcal Z^p(M) & := \ker(d: \Omega^p(M) \to \Omega^{p+1}(M)) = \{\text{closed }k\text{-form on }M\}, \\
 \mathcal B^p(M) & := \text{Im }(d: \Omega^p(M) \to \Omega^{p+1}(M)) = \{\text{exact }k\text{-form on }M\}.
-\end{align*}$$By convention, we consider $\Omega^p(M)$ to be the zero vector space when $p <0$ or $p > n = \dim M$, so that $\mathcal B^0(M) = 0$ and $\mathcal Z^n(M) = \Omega^n(M)$.
+\end{align*}$$By convention, we consider $\Omega^p(M)$ to be the zero vector space when $p <0$ or $p > n = \dim M,$ so that $\mathcal B^0(M) = 0$ and $\mathcal Z^n(M) = \Omega^n(M)$.
 
 The fact that every exact form implies that $\mathcal B^p(M) \le \mathcal Z^p(M)$. Thus, it makes sense to define the *de Rham cohomology group in degree $p$ of $M$*, or the *$p$th de Rham group of $M$* to be the quotient vector space$$H_\text{dR}^p (M) = \frac{\mathcal Z^p(M)}{\mathcal B^p(M)}. $$
 **Obs:** It is clear that $H_\text{dR}^p (M) = 0$ for $p <0$ or $p > \dim M$, because $\Omega^p(M) = 0$ in those cases. For $0\le p\le n$, the definition that $H_\text{dR}^p (M) = 0$ iff every closed $p$-form on $M$ is exact.

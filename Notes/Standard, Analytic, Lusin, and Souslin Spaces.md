@@ -4,6 +4,8 @@ tags:
   - Topology
   - SetTheory
   - Analysis
+aliases:
+  - Standard, Analytic, Lusin, and Suslin Spaces
 ---
 Subjects: [[Measure Theory]], [[Metric and Normed Spaces]], [[Topology]], [[Set Theory]]
 Links: [[Polish Spaces]], [[Rings and Algebras of Sets]], [[Measurable Functions]], [[Hausdorff Spaces]], [[Lašnev Spaces]]
