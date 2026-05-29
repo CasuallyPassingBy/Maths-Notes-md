@@ -19,7 +19,7 @@ In topology, compactness being such an important property it is studied various 
 - [[Relative Compactness]]
 - [[Compactly Generated]]
 - [[Paracompacteness]]
-	- [[Countable paracompactness]]
+	- [[Countable Paracompactness]]
 	- [[Metacompactness]]
 	- [[Subparacompactness and Submetacompactness]]
 	- [[Fully Normal Spaces]]

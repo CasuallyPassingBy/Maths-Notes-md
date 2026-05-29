@@ -150,6 +150,8 @@
 	- [ ] The Geometry of Jet Bundles by D.J. Saunders
 - Riemannian Geometry
 	- [ ] Introduction to Riemannian Manifolds by Lee
+- Complex Geometry
+	- [ ] Introduction to Complex Manifolds by Lee
 -  Functional Analysis
 	- [ ] Megginson
 - Variational Calculus

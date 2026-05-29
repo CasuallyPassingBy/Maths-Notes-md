@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subject: [[Topology]]
-Links: [[Special Sets in Topological Spaces]], [[Dense Subsets]], [[Sequential Spaces]], [[Fréchet-Urysohn Spaces]], [[k1-spaces]]
+Links: [[Special Sets in Topological Spaces]], [[Dense Subsets]], [[Sequential Spaces]], [[Fréchet-Urysohn Spaces]], [[k1-Spaces]]
 
 **Def:** Let $(X, \tau)$ be a topological space
 - $(X, \tau)$ is *separable* if it contains a dense countable set
@@ -30,6 +30,12 @@ The properties of *first countable* and *second countable* are known as the firs
 - $X$ is [[Lindelöf spaces|Lindelöf]].
 
 **Prop:** The uncountable products of first countable spaces cannot be sequential. In particular, $2^{\omega_1}$ is not sequential. 
+
+There are some weaker conditions related to first countability:
+- [[Fréchet-Urysohn Spaces]]
+- [[Sequential Spaces]]
+- [[k1-Spaces]]
+- [[Countable Tightness]]
 
 **Prop:** The product of first countable space and a Fréchet-Urysohn space can fail to be a $k_1$-space, thus not even sequential. 
 

@@ -33,7 +33,7 @@ Links: [[Paracompacteness]], [[Countable compactness]], [[Collectionwise Normal 
 
 **Th:** A topological space $X$ is countably paracompact normal space iff the Cartesian product $X \times [0, 1]$ is normal.
 
-**Prop:** The following are equivalent for a normal space $X$.
+**Prop (Katetov):** The following are equivalent for a normal space $X$.
 - $X$ is collectionwise normal and countably paracompact.
 - Every locally finite closed collection $\{F_\alpha \mid \alpha < \kappa\}$ in $X$, there is a locally finite open collection $\{U_\alpha \mid \alpha < \kappa\}$ such that $F_\alpha \subseteq U_\alpha$ for all $\alpha < \kappa$. 
 

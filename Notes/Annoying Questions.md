@@ -22,6 +22,7 @@
 		- [ ] If $Y$ is a Fréchet-Urysohn space, and $f:X \to Y$ is a perfect function is $X$ also Fréchet-Urysohn?
 		- [ ] If $Y$ is a sequential space, and $f:X \to Y$ is a perfect function is $X$ also sequential?
 		- [ ] If $Y$ is a $k_1$-space, and $f:X \to Y$ is a perfect function is $X$ also $k_1$?
+	- What happens when $\mathcal F\langle X \rangle$ is countably tight, is $X$ separable?
 
 - [ ] Is there a good way to define the Fourier transform and convolution on oriented Riemannian Manifolds?
 	- [ ] Can we do it using the Laplace-Beltrami operator?

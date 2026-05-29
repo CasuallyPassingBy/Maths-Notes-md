@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Separable, First and Second Countable Spaces]], [[Topological Covers]], [[Special Types of Collections in Topology]]
+Links: [[Separable, First and Second Countable Spaces]], [[Topological Covers]], [[Special Types of Collections in Topology]], [[σ-Spaces]]
 
 **Def:** We say sequence of open covers $\{\mathcal U_n \mid n <\omega\}$ of a topological space $X$ is a *developement* if for every point $x\in X$, the collection $\{\text{st}(x, \mathcal U_n)\mid n <\omega\}$ is a local base for $X$ at $x$. We say that $X$ is *developable* if $X$ has a development.
 
@@ -25,7 +25,9 @@ Links: [[Separable, First and Second Countable Spaces]], [[Topological Covers]],
 
 **Prop:** A topological space is $\cal K$-developable iff it is strongly developable.
 
-**Def:** We say that $X$ has a *$G_\delta$ diagonal* if the set $\Delta := \{(x, x) \mid x\in X\}$ is a $G_\delta$ set in $X\times X$.
+**Prop:** Every developable space is a $\sigma$-space.
+
+**Def:** We say that $X$ has a *$G_\delta$-diagonal* if the set $\Delta := \{(x, x) \mid x\in X\}$ is a $G_\delta$ set in $X\times X$.
 
 **Prop:** Let $X$ be a topological space. $X$ has a $G_\delta$ diagonal iff $X$ has a sequence of open covers $\{\mathcal U_n \mid n <\omega\}$ such that $\bigcap_{n <\omega} \text{st}(x. \mathcal U_n) = \{x\}$ for every $x\in X$. 
 

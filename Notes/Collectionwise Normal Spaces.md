@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Paracompacteness]], [[Metacompactness]], [[Subparacompactness and Submetacompactness]], [[Normal Hausdorff Spaces]], [[Countable paracompactness]]
+Links: [[Paracompacteness]], [[Metacompactness]], [[Subparacompactness and Submetacompactness]], [[Normal Hausdorff Spaces]], [[Countable Paracompactness]]
 
 **Def:** A space $X$ is *collectionwise normal* if for every discrete family $\{F_\alpha \mid \alpha < \kappa\}$ of closed subsets of $X$ there is a family $\{U_\alpha \mid \alpha < \kappa\}$ of open subsets of $X$ such that $F_\alpha \subseteq U_\alpha$ for every $\alpha < \kappa$. Additionally, we say that $X$ is *collectionwise $T_4$* if it is collectionwise normal and $T_1$. 
 

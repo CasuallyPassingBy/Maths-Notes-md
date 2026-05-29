@@ -2,7 +2,6 @@
 tags:
   - Topology
 ---
-Subject: [[Topology]]
 Links: [[Bases, Subbases, and Local Basis for Topological Spaces]], [[Topological Subspaces]]
 
 When we have a topological space $(X, \tau)$ and $E \subseteq X$, we can define the points that sticked to $E$, as

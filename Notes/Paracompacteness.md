@@ -3,24 +3,26 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Special Types of Collections in Topology]], [[Hausdorff Spaces]], [[Normal Hausdorff Spaces]], [[Partitions of Unity]], [[Collectionwise Normal Spaces]] [[Special Types of Collections in Topology]]
+Links: [[Special Types of Collections in Topology]], [[Hausdorff Spaces]], [[Normal Hausdorff Spaces]], [[Partitions of Unity]], [[Collectionwise Normal Spaces]], [[Regular Hausdorff Spaces]], [[σ-Spaces]]
 
 **Def:** A topological space is called a *paracompact space* if every open cover of $X$ has a locally finite open [[Topological Covers|refinement]].
 
 **Obs:** Every [[Compactness|compact]] space is paracompact.
 
 There are various topological properties related to the paracompactness:
-- [[Countable paracompactness]]
+- [[Countable Paracompactness]]
 - [[Metacompactness]]
 - [[Subparacompactness and Submetacompactness]]
 - [[Strong Paracompactness]]
 - [[Fully Normal Spaces]]
 
-We get the following corollary from [[Metrisation Theorems|Stone's theorem]]
+We get the following corollary from [[Metrization Theorems|Stone's theorem]]
 
 **Cor:** Every metrizable space is paracompact.
 
-**Lemma:** Let $X$ be a paracompact space and $A, B$ be a pair of closed subsets of $X$. If for every $x\in B$ there exist $U_x, V_x\in \tau$ such that $A \subseteq U_x$, x\in V_x$ and $U_x \cap V_x = \varnothing$, then there also exists $U, V\in \tau$ such that $A\subseteq U$, $B\subseteq V$ and $U \cap V = \varnothing$.
+**Lemma:** Let $X$ be a paracompact space and $A, B$ be a pair of closed subsets of $X$. If for every $x\in B$ there exist $U_x, V_x\in \tau$ such that $A \subseteq U_x$, $x\in V_x$ and $U_x \cap V_x = \varnothing$, then there also exists $U, V\in \tau$ such that $A\subseteq U$, $B\subseteq V$ and $U \cap V = \varnothing$.
+
+**Cor:** If $X$ is a regular paracompact space, then $X$ is normal.
 
 **Lemma:** Every $T_2$ paracompact space is $T_3$.
 
@@ -41,16 +43,20 @@ We get the following corollary from [[Metrisation Theorems|Stone's theorem]]
 **Th:** For every regular space $X$ the following conditions are equivalent:
 - The space $X$ is paracompact.
 - Every open cover of the space $X$ has a open $\sigma$-locally finite refinement. 
-- Every open cover of the space $X$ has a finite refinement. 
+- Every open cover of the space $X$ has a locally finite refinement. 
 - Every open cover of the space $X$ has a closed locally finite refinement. 
 
 **Cor:** Every regular Lindelöf space is paracompact.
 
+**Prop:** Every separable paracompact space is Lindelöf. 
+
 **Th:** Every $T_2$ paracompact space is collectionwise normal.
 
-**Th:** Every normal paracompact space is [[Fully Normal Spaces|fully normal]].
+**Th:** A topological space is normal and paracompact space iff it is [[Fully Normal Spaces|fully normal]].
 
-**Stone's coincidence theorem:** A $T_2$ space $X$ is paracompact iff it is fully normal.
+**Cor:** A regular paracompact space is collectionwise normal. 
+
+**Stone's coincidence theorem:** A $T_2$ space $X$ is paracompact iff it is fully $T_4$.
 
 **Th:** Paracompactness is hereditary with respect to $F_\sigma$-sets.
 
@@ -83,9 +89,11 @@ We get the following corollary from [[Metrisation Theorems|Stone's theorem]]
 
 **Prop:** A space is hereditarily paracompact if every open subspace is paracompact.
 
+**Th:** A regular space $X$ is paracompact iff it is collectionwise normal and metacompact. 
+
 **Michael-Nagami Theorem:** The topological space $X$ is a Hausdorff paracompact space iff it is collectionwise $T_4$ and metacompact.
 
-**Th:** If $X$ is a collectionwise $T_4$ and submetacompact space, then $X$ is paracompact.
+**Th:** A regular space $X$ is paracompact iff it is collectionwise normal and submetacompact. 
 
 **Prop:** If $X$ is paracompact and $Y$ is compact, then $X\times Y$ is paracompact.
 
@@ -96,3 +104,11 @@ We get the following corollary from [[Metrisation Theorems|Stone's theorem]]
 - $X$ is $T_0$, collectionwise normal and developable.
 
 **Paracompactness Theorem:** Every second countable, locally compact Hausdorff space is paracompact.
+
+**Prop:** Let $X$ be a regular space. If $X$ is collectionwise normal $\sigma$-space, then $X$ is hereditarily paracompact. 
+
+**Cor:** If $X$ is a collectionwise $T_4$ $\sigma$-space, then $X$ is hereditarily paracompact. 
+
+**Prop:** Let $X$ and $Y$ be paracompact $T_2$ $\sigma$-space, then so is the product space $X\times Y$.
+
+**Prop:** Let $\{X_n\mid n <\omega\}$ be a collection of topological spaces. If $\prod_{k < n}X_k$ is $T_6$ and paracompact for every $n<\omega$, then $\prod_{n<\omega} X_n$ is $T_6$ and paracompact. 

@@ -98,3 +98,7 @@ G_\beta \arrow[r, "\iota_\beta"']& G_\beta
 **Prop:** Let $G$ be a locally compact group. Then each function in $\mathcal C_c(G)$ is left uniformly continuous and right uniformly continuous.
 
 **Cor:** Let $G$ be a locally compact group, let $\mu$ be a regular Borel measure on $G$, and let $f$ belong to $\mathcal C_c(G)$. Then the functions $$x\mapsto \int f(xy)\, \mu(dy)\quad \text{and}\quad x\mapsto \int f(yx)\, \mu(dy) $$are continuous. 
+
+**Prop:** Let $G$ be a topological group, and let $H$ be an open subgroup of $G$. Then $H$ is closed. 
+
+**Prop:** Let $G$ be a locally compact group. Then there is a subgroup $H$ of $G$ that is open, closed and $\sigma$-compact. 

@@ -15,6 +15,8 @@ Links: [[Paracompacteness]], [[Collectionwise Normal Spaces]], [[Special Types o
 
 **Th:** Every countably compact metacompact space is compact. 
 
+**Prop:** If $X$ is a collectionwise normal space, then every point finite open cover of $X$ has a $\sigma$-discrete open refinement. 
+
 **Michael-Nagami Theorem:** Every metacompact collectionwise $T_4$ space is paracompact.
 
 **Lemma:** For every open cover $\{U_\alpha \mid \alpha < \kappa\}$ of a metacompact space there is a point finite cover $\{V_\alpha \mid \alpha < \kappa\}$ of $X$ such that $V_\alpha \subseteq U_\alpha$ for every $\alpha <\kappa$. 

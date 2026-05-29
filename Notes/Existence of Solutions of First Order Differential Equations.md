@@ -65,7 +65,3 @@ and $\phi$ be the solution to the initial value problem on the interval $I$ cont
 $$ y' = f(x, y) \quad y(x_0) =y_0 $$
 
 and $|y_k -y_0| \le \delta_k$. If $\varepsilon_k , \delta_k \to 0$ as $k \to \infty$. Then $\psi \to \phi$ on $I$.
-
-<aside> 💡 The Coddington Thereoms are true for complex value functions.
-
-</aside>
