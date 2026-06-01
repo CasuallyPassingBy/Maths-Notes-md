@@ -1,3 +1,4 @@
+
 [[Central Hub]]
 [[Interesting Stuff I want continue Learning]]
 
@@ -22,7 +23,9 @@
 		- [ ] If $Y$ is a Fréchet-Urysohn space, and $f:X \to Y$ is a perfect function is $X$ also Fréchet-Urysohn?
 		- [ ] If $Y$ is a sequential space, and $f:X \to Y$ is a perfect function is $X$ also sequential?
 		- [ ] If $Y$ is a $k_1$-space, and $f:X \to Y$ is a perfect function is $X$ also $k_1$?
-	- What happens when $\mathcal F\langle X \rangle$ is countably tight, is $X$ separable?
+	- [ ] What happens when $\mathcal F\langle X \rangle$ is countably tight, is $X$ separable?
+	- We know that since $\mathcal F\langle X\rangle$ is a paracompact Hausdorff $\sigma$-space iff $X$ is also a paracompact Hausdorff $\sigma$-space.
+	- [ ] How does $\mathcal F\langle X\rangle$ being an $\aleph$-space transfer to $X$?
 
 - [ ] Is there a good way to define the Fourier transform and convolution on oriented Riemannian Manifolds?
 	- [ ] Can we do it using the Laplace-Beltrami operator?
@@ -30,3 +33,5 @@
 	- [ ] Can I translate the vocabulary from GCNs to Riemannian manifolds?
 		- [ ] How do I translate the translation matrix to the Riemannian context?
 			- Maybe considering like a Lie algebra action on the manifold.
+
+- [ ] What is the topology of the reals when we add infinitesimals?

@@ -57,4 +57,4 @@ Links: [[Topological Networks]], [[Metrization Theorems]], [[Regular Hausdorff S
 
 **Th:** If $\{X_n \mid n<\omega\}$ is a collection of paracompact $T_2$ $\sigma$-spaces, then so is the product space $\prod_{n<\omega}X_n$. 
 
-**Cor:**  A topological space $X$ is a paracompact $T_2$ $\sigma$-space iff $\mathcal F\langle X\rangle$ is a $\sigma$-space, where $\mathcal F\langle X\rangle$ is [[Finite Vietoris Hyperspace|Vietoris finite set topology]]. 
+**Cor:**  A topological space $X$ is a paracompact $T_2$ $\sigma$-space iff $\mathcal F\langle X\rangle$ is a paracompact Hausdorff $\sigma$-space, where $\mathcal F\langle X\rangle$ is [[Finite Vietoris Hyperspace|Vietoris finite set topology]].  

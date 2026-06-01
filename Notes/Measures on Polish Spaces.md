@@ -7,7 +7,9 @@ tags:
 Subjects: [[Measure Theory]], [[Set Theory]], [[Topology]]
 Links: [[Polish Spaces]], [[Measures on Hausdorff Spaces]], [[Borel Sets]], [[Extension of Measures]], [[Outer Measures]], [[Inner Measures]], [[Measure Spaces and Measurable Spaces]], [[Universally Measurable Sets]]
 
-**Prop:** Every finite Borel measure on a Polish space is regular. 
+**Prop:** Every locally finite Borel measure on a Polish space is Radon. 
+
+**Cor:** Every finite Borel measure on a Polish space is regular.
 
 **Reminder:** Let $(X, {\scr A})$ be a measurable space, and let $\mu$ be a measure on $(X, {\scr A})$. We defined the completion of $\scr A$ under $\mu$ to be the collection $\scr A_\mu$ of subsets $A$ of $X$ for which are sets $E$ and $F$ that belong to $\scr A$ and satisfy the relations $E\subseteq A\subseteq F$ and $\mu(F\setminus E) = 0$. The sets $\scr A_\mu$ are often called *$\mu$-measurable.*
 

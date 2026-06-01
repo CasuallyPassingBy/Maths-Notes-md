@@ -21,6 +21,14 @@ Links: [[Paracompacteness]], [[Metacompactness]], [[Collectionwise Normal Spaces
 - Every open cover of $X$ has a $\sigma$-closure-preserving closed refinement.
 - For every open cover $\cal U$ of $X$ there is a sequence $\{\mathcal V_n \mid n <\omega\}$ of open covers such that fora each $x\in X$ there is an $n<\omega$ satisfying $\text{St}(x, \mathcal V_n ) \subseteq U$ for some $U \in \cal U$. 
 
+**Th:** If $f:X \to Y$ is a closed map from a subparacompact space onto $Y$ is subparacompact.
+
+**Th:** If $f:X \to Y$ is a perfect map from a regular space $X$ onto a subparacompact space $Y$ then $X$ is a subparacompact.
+
+**Th:** A subparacompact locally-developable space $X$ is developable. 
+
+**Th:** If $X$ is a countable union of closed subparacompact spaces, then $X$ is subparacompact.
+
 **Th:** A regular space $X$ is paracompact iff it is collectionwise normal and submetacompact. 
 
 **Cor:** Every collectionwise $T_4$ submetacompact space is paracompact.

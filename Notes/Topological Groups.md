@@ -102,3 +102,5 @@ G_\beta \arrow[r, "\iota_\beta"']& G_\beta
 **Prop:** Let $G$ be a topological group, and let $H$ be an open subgroup of $G$. Then $H$ is closed. 
 
 **Prop:** Let $G$ be a locally compact group. Then there is a subgroup $H$ of $G$ that is open, closed and $\sigma$-compact. 
+
+**Prop:** Let $G$ be a Hausdorff topological group. If $E$ is compact and $F$ is closed, then $EF$ is closed.

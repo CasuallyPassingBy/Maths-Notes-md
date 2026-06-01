@@ -8,10 +8,11 @@ Links: [[Smooth Manifolds]], [[Smooth Functions on Smooth Manifolds]], [[Topolog
 
 **Def:** A *Lie group* is a smooth manifold $G$ (without boundary) that is also a group in the algebraic sense, with the property that the multiplication map $m: G\times G \to G$ and inversion map $i: G \to G$, given by $$m(g,h) := gh,\qquad i(g)  := g^{-1},$$are both smooth. 
 
+Note that every Lie group is a locally compact Hausdorff topological group. 
+
 **Prop:** If $G$ is a smooth manifold with a group structure such that the map $G\times G \to G$ given by  $(g,h) \mapsto gh^{-1}$ is smooth, then $G$ is a Lie group.
 
 **Def:** For $g \in G$, denote $\ell_g: G \to G$, $\ell_g(x) = \mu(g, x) = gx$, the operation of *left multiplication by $g$*, and $r_g: G \to G$, $r_a(x) = \mu(x, a) = xa$, the operation of the *right multiplication by $a$*. We also call left and right multiplications *left and right translations*. 
-
 
 An important examples are:
 - [[Torus in Rn]]

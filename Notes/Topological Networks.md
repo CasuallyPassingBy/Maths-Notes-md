@@ -17,3 +17,4 @@ Clearly, any base of $X$ is a network for $X$: it is a network of a special kind
 
 **Def:** A collection $\scr P$ of closed subsets of a topological space $X$ is said to be a $k$-network for $X$ if, given any open set $U$ and any compact $K \subseteq U$, there is a finite subcollection ${\scr Q} \in [{\scr P}]^{<\omega}$ so that $K \subseteq \bigcup {\scr Q}\subseteq U$. We can also have the stronger version $\sigma$-locally finite $k$-network as a $k$-network that is the union of locally finite closed families.
 
+We see that every base is a $k$-network. 

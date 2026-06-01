@@ -58,7 +58,9 @@ Links: [[Polish Spaces]], [[Rings and Algebras of Sets]], [[Measurable Functions
 
 **Prop:** If $X$ is a Souslin space, then $(X, \mathcal B(X))$ is an analytic measurable space, while $X$ is a Lusin space, then $(X, {\cal B}(X))$ is a standard measurable space.
 
-**Th:** Every finite Borel measure on a Souslin space is regular. 
+**Cor:** Every locally finite Borel measure on a Souslin space is regular.
+
+**Cor:** Every finite Borel measure on a Souslin space is regular. 
 
 **Prop:** Let $X$ be a Souslin space. If $\scr U$ is a collection of open subsets of $X$, then there is a countable subcollection ${\scr U_0}$ of $\scr U$ such that $\bigcup {\scr U} = \bigcup {\scr U}_0$. 
 

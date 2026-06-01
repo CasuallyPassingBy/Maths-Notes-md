@@ -16,7 +16,7 @@ Let $X$ be Hausdorff space. A *Borel measure* on $X$ is a measure whose domain i
 1. if every point of $X$ has a neighbourhood $U$ for which $\mu(U)<\infty$,
 2. each $A\in {\scr A}$ satisfies $$\mu(A) := \inf\{\mu(U) \mid A \subseteq U \land U \in \tau\}, \text{ and}$$
 3. each open subset $U$ of $X$ satisfies $$\mu(U) = \sup\{\mu(K) \mid K \subseteq U \land K \text { is compact}\}. $$
-A *regular Borel measure* on $X$ is a regular measure whose domain is ${\cal B}(X)$. A measure that satisfies condition 1., is called *locally finite* since, if it satisfies condition 2. is called *outer regular*, and a measure that satisfies 3., *inner regular.* A measure that only  called a *Radon measure.* 
+A *regular Borel measure* on $X$ is a regular measure whose domain is ${\cal B}(X)$. A measure that satisfies condition 1., is called *locally finite* since, if it satisfies condition 2. is called *outer regular*, and a measure that satisfies 3., *inner regular.* A measure that is inner regular and locally finite called a *Radon measure.* 
 
 If a measure is locally finite, then every compact set has finite measure. 
 

@@ -36,7 +36,9 @@ Links: [[Complete Metric Spaces]], [[Separable, First and Second Countable Space
 
 **Prop:** Let $(X, {\scr A})$ be a measurable space, let $Y$ be a Polish space, and for each positive integer $n$ let $f_n: X\to Y$ be measurable with respect to $\scr A$ and $\mathcal B(Y)$. Let $C :=\{x\in X \mid \lim f_n(x) \text{ exists}\}$. Then $C\in \scr A$. Furthermore, the map $f:C\to Y$ is defined by $f(x) :=\lim f_n(x)$ is measurable with respect to $\scr A$ and $\mathcal B(Y)$. 
 
-**Prop:** Every finite Borel measure on a Polish space is regular. 
+**Prop:** Every locally finite Borel measure on a Polish space is Radon. 
+
+**Cor:** Every finite Borel measure on a Polish space is regular.
 
 **Examples:** 
 - The product space $\omega^\omega = \Bbb N^\Bbb N$ is Polish. We will denote this space by $\scr N$. Its elements are sequences of positive integers. A typical such sequence will generally be denoted by $(n_k)_{k\in\Bbb N}$ or by $\bf n$. We call this space, the Baire space. Let us note that $\omega^\omega$ is homeomorphic to $\Bbb R \setminus \Bbb Q$. 

@@ -314,6 +314,7 @@
 ## Other
 - [ ] Finite Operator Calculus (Finite Operator Calculus.pdf)
 - [ ] Umbral Calculus (Pure and Applied Mathematics 111)
+- [ ] Nonstandard Analysis: Theory and Applications by Henson
 - Game Theory
 
 # Projects
