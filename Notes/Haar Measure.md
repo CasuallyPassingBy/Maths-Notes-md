@@ -5,7 +5,7 @@ tags:
   - GroupTheory
 ---
 Subjects: [[Topology]], [[Measure Theory]], [[Group Theory]]
-Links: [[Local Compactness]], [[Topological Groups]], [[Measures on Hausdorff Spaces]]
+Links: [[Local Compactness]], [[Topological Groups]], [[Measures on Hausdorff Spaces]], [[Space of Continuous Compactly Supported Functions]]
 
 **Def:** Let $G$ be a locally compact group, and let $\mu$ be a nonzero regular Borel measure on $G$. Then $\mu$ is a *left Haar measure*, or simply a *Haar measure* if it is *invariant under left translations*, or simply *translation invariant*, in the sense that $\mu(xA) = \mu(A)$ holds for each $x\in G$ and each $A\in \mathcal B(G)$. Likewise, $\mu$ is a *right Haar measure* if $\mu(Ax) = \mu(A)$ holds for each $x\in G$ and each $A\in \mathcal B(G)$. 
 
@@ -15,3 +15,6 @@ Links: [[Local Compactness]], [[Topological Groups]], [[Measures on Hausdorff Sp
 **Obs:** If $G$ is a locally compact and if $\mu$ is a left Haar measure on $G$, then  $$\int \,_xf\, d\mu = \int f\, d\mu $$holds for each Borel function $f$ that is either nonnegative or $\mu$-integrable. 
 
 **Th:** Let $G$ be a locally compact group. Then there is a left Haar measure on $G$.
+
+**Lemma:** Let $G$ be a locally compact group, and let $\mu$ be a left Haar measure on $G$. Then each nonempty subset $U$ of $G$ satisfies $\mu(U)>0$, and each nonnegative $f$ that belong to $\mathcal C_c(G)$ and is not identically zero satisfies $$\int f\, d\mu > 0.$$
+**Th:** Let $G$ be a locally compact group, and let $\mu$ and $\nu$ be left Haar measures on $G$. Then there is a positive real number $c$ such that $\nu = c\mu$.

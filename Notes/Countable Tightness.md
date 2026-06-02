@@ -17,4 +17,3 @@ Links: [[Separable, First and Second Countable Spaces]], [[Sequential Spaces]], 
 - Every $\omega$-closed set is closed.
 
 **Obs:** We see that every sequential space is countably tight.
-

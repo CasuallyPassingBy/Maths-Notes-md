@@ -23,4 +23,6 @@ We know that Lašnev space is $T_6$, [[Fréchet-Urysohn Spaces|Fréchet-Urysohn 
 
 **Prop:** An arbitrary subset of a Lašnev space is also Lašnev. 
 
-**Example** There exists a countable Lašnev space $X$ such that $\mathcal K\langle X\rangle$ is not Lašnev.
+**Example:** There exists a countable Lašnev space $X$ such that $\mathcal K\langle X\rangle$ is not Lašnev.
+
+**Lemma:** Let $f:X\to Y$ be a closed map with $X$ a metric space. Then every compact set of $Y$ is the image of some compact set of $X$. 

@@ -43,3 +43,9 @@ A mapping $f$ of a sequential space $X$ to a topological space $Y$ is continuous
 **Prop:** The product of first countable space and a Fréchet-Urysohn space can fail to be a $k_1$-space, thus not even sequential. 
 
 **Th:** Let $X$ be a Hausdorff space in which every point is a $G_\delta$-set in $X$, meaning every singleton $\{x\}$ is a $G_\delta$-set. Then if $X$ is a $k_1$-space, then $X$ is a sequential space. 
+
+**Prop:** Each of the following implies that $X$ is sequential.
+- $X$ is a Fréchet-Urysohn space.
+- $X$ is the quotient of a first countable space.
+- $X$ is a $k$-space in which every point is a $G_\delta$.
+- $X$ is a CW-complex.
