@@ -3,7 +3,7 @@ tags:
   - FourierAnalysis
 ---
 Subjects: [[Fourier Analysis]]
-Links: [[Main definitions for Fourier Analysis]], [[Convolution]]
+Links: [[Main definitions for Fourier Analysis]], [[Convolution in R]]
 
 **Def:** A family of kernels $\{K_n(x)\}_{n = 1}^\infty$ on the circle is said to be a family of *good kernels* if it satisfies the following properties:
 - For all $n \ge 1$, $$\frac{1}{2\pi}\int_\pi^\pi K_n(x)\, dx = 1$$

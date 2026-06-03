@@ -343,3 +343,4 @@
 - [ ] Lennard–Jones liquid–vapor model
 - [ ] Pokemon Bot 
 	- [ ] [first dataset](https://www.kaggle.com/datasets/patelris/pokemon-dataset-with-stats-and-types)
+- [x] De Rham Cohomology Talk

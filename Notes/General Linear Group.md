@@ -49,6 +49,8 @@ We would like to consider the Lie algebra of $\text{GL}(n, \Bbb R)$. Since $T_{I
 
 **Prop:** $\text{GL}^+(n,\Bbb R)$ is diffeomorphic to $\text{SO}(n) \times \Bbb R^{n(n+1)/2}$ and to $\text{SO}(n) \times \text{T}^+(n,\Bbb R)$. 
 
+**Prop:** Let $\lambda$ be the Lebesgue measure on $\Bbb R^{n^2}$. We see that $$\mu(A) = \int_A \frac1{|\det X|^n} \, \lambda (dX) $$defines a left and right [[Haar measure ]]on $\text{GL}(n, \Bbb R)$. Thus, $\text{GL}(n, \Bbb R)$ is unimodular. We get that the Radon-Nykodim derivative is $$\frac{d\mu}{d\lambda}(X) = \frac1{|\det X|^n} .$$
+
 # General Linear Group over $\Bbb C$
 
 Define a map $\beta: \text{GL}(n, \Bbb C) \to \text{GL}(2n, \Bbb R)$ by replacing each complex matrix entry $a+bi$ with the $2\times 2$ block $\begin{pmatrix} a & -b \\ b & a\end{pmatrix}$:  $$\beta \begin{pmatrix}

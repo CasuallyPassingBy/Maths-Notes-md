@@ -75,6 +75,7 @@ This notes uses Einstein's summation convention.
 	- [[Riemannian Volume Form on Smooth Manifolds]]
 	- [[Orientations and Covering Maps for Smooth Manifolds]]
 - [[Integration of Differential Forms on Smooth Manifolds]]
+	- [[Integration on Lie Groups]]
 	- [[Stokes's Theorem and Smooth Manifolds with Corners]]
 	- [[Integration on Riemannian Manifolds]]
 		- [[Laplacian Operator on Riemannian Manifolds]]

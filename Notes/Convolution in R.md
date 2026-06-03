@@ -3,7 +3,7 @@ tags:
   - FourierAnalysis
 ---
 Subjects: [[Fourier Analysis]]
-Links: [[Main definitions for Fourier Analysis]]
+Links: [[Main definitions for Fourier Analysis]], [[Convolution on Locally Compact Groups]]
 # Periodic functions
 
 **Def**: Given $2\pi$-periodic integrable function $f$ and $g$ on $\Bbb R$, we the define the *convolution* $f*g$ on $[-\pi, \pi]$, by $$(f*g)(x) = \frac{1}{2\pi}\int_{-\pi}^\pi f(y)g(x-y)\, dy $$

@@ -4,22 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "d07c071b234035a5",
+        "id": "887051727d17aa78",
         "type": "tabs",
         "children": [
           {
-            "id": "fae1d9cc94ea6b6d",
+            "id": "e93208a2e761d063",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Haar Measure.md",
+                "file": "Convolution on Locally Compact Groups.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Haar Measure"
+              "title": "Convolution on Locally Compact Groups"
+            }
+          },
+          {
+            "id": "6962f1994c92f797",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -160,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Polish Spaces.md",
+                "file": "Convolution on Locally Compact Groups.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -170,7 +180,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Polish Spaces"
+              "title": "Backlinks for Convolution on Locally Compact Groups"
             }
           }
         ],
@@ -195,34 +205,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "fae1d9cc94ea6b6d",
+  "active": "e93208a2e761d063",
   "lastOpenFiles": [
     "Haar Measure.md",
+    "Convolution on Locally Compact Groups.md",
+    "Finite Products of Measures on Locally Compact Spaces.md",
+    "Measures on Hausdorff Spaces.md",
+    "Finite Product of Measures.md",
+    "Space of Continuous Compactly Supported Functions.md",
+    "Convolution in R.md",
+    "Measure Theory.md",
+    "General Linear Group.md",
+    "Integration of Differential Forms on Smooth Manifolds.md",
+    "Integration on Lie Groups.md",
+    "Normal Lie Subgroups.md",
+    "The Exponential Map on Lie Groups.md",
+    "Lie Algebra of a Lie Group.md",
+    "Lie Groups.md",
+    "Untitled.md",
+    "Interesting Stuff I want continue Learning.md",
+    "Differential Geometry.md",
+    "Topology.md",
+    "Central Hub.md",
     "k1-Spaces.md",
     "Lašnev Spaces.md",
     "Countable Tightness.md",
     "Sequential Spaces.md",
     "Fréchet-Urysohn Spaces.md",
     "ℵ-Spaces.md",
-    "Topological Networks.md",
-    "Topology.md",
-    "Interesting Stuff I want continue Learning.md",
-    "Annoying Questions.md",
-    "σ-Spaces.md",
-    "Subparacompactness and Submetacompactness.md",
-    "Fourier Transform on Graphs.md",
-    "Measures on Hausdorff Spaces.md",
-    "Measures on Polish Spaces.md",
-    "Standard, Analytic, Lusin, and Souslin Spaces.md",
-    "Polish Spaces.md",
-    "D.md",
-    "Lie Groups.md",
-    "Topological Groups.md",
-    "Measure Theory.md",
-    "Central Hub.md",
-    "Journal/Yang Aran Routine.md",
-    "Paracompacteness.md",
-    "Regular Hausdorff Spaces.md",
     "Pasted image 20240118182937.png",
     "Pasted image 20240118183035.png",
     "Pasted image 20240118230028.png",

@@ -51,6 +51,6 @@ As a result: $$\lim_{\delta\to 0^+}\int_{\Bbb R^n} K_\delta(x) F(x)\, dx = F(0)$
 ### Fourier Inversion
 We can see that the Fourier transform $\mathcal F$ is a bijective map of $\mathcal S(\Bbb R^n)$ to itself whose inverse is $$\mathcal F^* (g)(x) = \int_{\Bbb R^n} g(\omega) e^{2\pi i x\cdot \omega}\, d\omega$$
 meaning that $$f(x) = \int_{\Bbb R^n} \hat f(\omega) e^{2\pi i x\cdot \omega}\, d\omega$$
-Now we get the [[Convolution]], we defined $$(f*g)(x) = \int_{\Bbb R^n} f(y)g(x-y)\, dy$$with $f,g \in \mathcal S(\Bbb R^n)$, and get that $$\widehat{(f*g)}(\omega) = \hat f(\omega) \hat g(\omega)$$
+Now we get the [[Convolution in R]], we defined $$(f*g)(x) = \int_{\Bbb R^n} f(y)g(x-y)\, dy$$with $f,g \in \mathcal S(\Bbb R^n)$, and get that $$\widehat{(f*g)}(\omega) = \hat f(\omega) \hat g(\omega)$$
 ### Plancherel Formula
 Moreover , for $f\in \mathcal S(\Bbb R^n)$ $$\int_{\Bbb R^n}|\hat f(\omega)|^2\, d\omega = \int_{\Bbb R^n}| f(x)|^2\, dx$$

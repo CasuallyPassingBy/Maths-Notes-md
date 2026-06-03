@@ -10,7 +10,7 @@ All the subjects we have
 ## Foundational
 - [[Set Theory]]
 - [[Topology]]
-	- [[Algebraic Topology]]
+	- [[Algebraic Topology]] (On Hold)
 - [[Elementary Number Theory]] (On Hold)
 	- [[Algebraic Number Theory]] (Pending)
 	- [[Analytic Number Theory]] (Pending)
@@ -20,14 +20,14 @@ All the subjects we have
 - [[Real Analysis]]
 	- [[Kurzweil-Henstock Integral]] (Pending)
 - [[Vector Analysis]]
-- [[Metric and Normed Spaces]]
+- [[Metric and Normed Spaces]] (To Revisit Derivatives)
 - [[Complex Analysis]] (To Revisit)
 - [[Fourier Analysis]]
 - [[Measure Theory]] (In Progress)
 - [[Functional Analysis]] (Pending)
 ## Algebra
 - [[Linear Algebra]]
-	- [[Affine Geometry]]
+	- [[Affine Geometry]] (On Hold)
 - [[Group Theory]] (On Hold)
 	- [[Homological Algebra]] (Pending)
 - [[Ring Theory]]
@@ -50,6 +50,9 @@ All the subjects we have
 - [[Nonlinear Programming]] (Pending)
 ## Advanced Topics
 - [[Differential Geometry]]
+	- [[Jet Bundle Theory]] (Pending)
+	- [[Riemannian Geometry]] (Pending)
+	- [[Complex Differential Geometry]] (Pending)
 - [[Variational Calculus]] (Pending)
 ## Special objects
 - [[Special Functions]]

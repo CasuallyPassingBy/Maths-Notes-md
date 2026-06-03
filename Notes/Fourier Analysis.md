@@ -10,7 +10,7 @@ Using Stein book on Fourier Analysis
 # Topics
 
 - [[Main definitions for Fourier Analysis]]
-	- [[Convolution]]
+	- [[Convolution in R]]
 		- [[Good Kernels and Convergence in Fourier Analysis]]
 - [[Convergence of Fourier Series]]
 - [[Applications of Fourier Series in a Mathematical Context]]

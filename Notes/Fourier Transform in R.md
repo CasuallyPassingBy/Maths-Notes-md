@@ -46,7 +46,7 @@ We begin by considering the case $e^{-\pi x^2}$ because of normalization $$\int_
 Meaning is a family of good kernels as $\delta >0$
 
 **Cor:** If $f\in \mathcal S(\Bbb R)$, then $$(f*K_\delta)(x) \to f(x) \qquad \text{uniformly in }x \text{ as } \delta \to 0$$
-with the [[Convolution#Rapidly Decreasing Functions|Convolution For Rapidly Decreasing Functions]], just like the
+with the [[Convolution in R#Rapidly Decreasing Functions|Convolution For Rapidly Decreasing Functions]], just like the
 
 # The Fourier Inversion
 

@@ -4,7 +4,7 @@ tags:
   - PartialDifferentialEquations
 ---
 Subjects: [[Fourier Analysis]], [[Partial Differential Equations]]
-Links: [[Harmonic Functions]], [[2D Harmonic Functions]], [[Fourier Transform in R]], [[Convolution#Rapidly Decreasing Functions|Convolution for Rapidly Decreasing Functions]]
+Links: [[Harmonic Functions]], [[2D Harmonic Functions]], [[Fourier Transform in R]], [[Convolution in R#Rapidly Decreasing Functions|Convolution for Rapidly Decreasing Functions]]
 
 The equation we are concerned with is $$\Delta u = \frac{\partial^2 u}{\partial x^2} +\frac{\partial^2 u}{\partial y^2} = 0$$
 in the upper half-plane $\Bbb R^2_+\{(x, y) \mid y >0\}$. The boundary condition we require is $u(x, 0) = f(x)$. The kernel that solves this problem is called the *Poisson kernel* for the upper half-plane, and is given by $$\mathcal P_y(x) = \frac1{\pi} \frac{y}{x^2+y^2} \qquad x\in\Bbb R, y>0$$

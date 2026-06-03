@@ -49,12 +49,3 @@ Then  $$\int_M \omega = \sum_{i = 1}^k \int_{D_i} F^*_i \omega. $$
 **Prop:** If $M$ is an oriented compact smooth $n$-manifold, $n \ge 1$, and $\omega_0, \omega_1$ are smooth orientations forms on $M$ such that $\int_M \omega_0 = \int_M \omega_1$, then there is a diffeomorphism $F: M \to M$ such that $F^*\omega_1 = \omega_0$. 
 
 The techniques used to prove this are reliant on [[Time-Dependent Vector Fields and Flows]]. 
-
-## Integration on [[Lie Groups]]
-
-**Def:** Let $G$ be a Lie group. A covariant tensor field $A$ on $G$ is said to be *left-invariant* if $L_g^* A= A$ for all $g\in G$. 
-
-**Prop:** Let $G$ be a compact Lie group endowed with a left-invariant orientation. Then $G$ has a unique positively oriented left-invariant $n$-form $\omega_G$ with the property that $$\int_G \omega_G = 1.$$
-The orientation form whose existence is asserted in this proposition is called the *Haar volume form on $G$*. Similarly, the map $f \mapsto \int_G f \omega_G$ is called the *Haar integral.* This I suspect is just a special case of a [[Haar Measure|Haar Measures]]
-
-We see that every Lie group has a left-invariant orientation form that is uniquely determined up to constant multiple. It is only in the compact case that we can use the volume normalisation to single out a unique one. 
