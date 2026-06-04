@@ -46,6 +46,9 @@ Links: [[Measures]], [[Product of σ-Algebras]], [[Measure Spaces and Measurable
 **Prop:** Let $\sum_{m, n} a_{m, n}$ be a [[double series]], and let $\mu$ be counting measure on $\Bbb N$. The series $\sum_{m, n} a_{m,n}$ is absolutely convergent iff if the function $(m,n)\mapsto a_{m, n}$ is $\mu\times\mu$-integrable. Thus we see that if $\sum_{m,n} a_{m,n}$ if absolutely convergent, then $\sum_{m = 1}^\infty \sum_{n = 1}^\infty a_{m,n} =\sum_{n = 1}^\infty \sum_{m = 1}^\infty a_{m,n}$; in other words, the order of summation can be reversed for absolutely convergent series. 
 
 **Prop:** Let $F, G :\Bbb R\to\Bbb R$ be bounded nondecreasing right-continuous functions that vanish at $-\infty$, let $\mu_F$ and $\mu_G$ be the measures they induce on ${\mathcal B}(\Bbb R)$, and let $a, b\in\Bbb R$ such that $a<b$. Then  $$\int_{[a,b]} \frac{F(x)+F(x-)}{2} \mu_G(dx) + \int_{[a,b]} \frac{G(x)+ G(x-)}{2} = F(b)G(b)-F(a-)G(a-).$$If, in addition, the functions $F$ and $G$ have no points of discontinuity in common, then the equation above can be simplified to $$\int_{[a, b]}F(x)\, \mu_G(dx) + \int_{[a,b]} G(x)\, \mu_F(dx) =  F(b)G(b)-F(a-)G(a-). $$
+
+### Convolutions
+
 **Prop:** Let $f$ and $g$ belong to ${\scr L}^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$. Then 
 - for almost every $x$ the function $f(x-t)g(t)$ belongs to ${\scr L}^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$, and
 - the function $f*g$ defined by $$(f*g)(x) := \begin{dcases}
@@ -61,3 +64,5 @@ The *convolution* of the functions $f, g\in {\scr L}^1(\Bbb R, \mathcal B(\Bbb R
 **Prop:** If $f, g\in {\scr L}^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$, and $g$ is bounded, then $f*g$ is continuous.
 
 **Obs:** We see that $L^1(\Bbb R, \mathcal B(\Bbb R), \lambda)$ is a commutative Banach algebra under the convolution.
+
+We can generalise further considering [[Convolution on Locally Compact Groups|convolutions on locally compact groups]]. 

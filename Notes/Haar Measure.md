@@ -49,7 +49,7 @@ We see that  $$\int f_x\, d\mu = \Delta(x) \int f\,d\mu $$holds if $f$ is the ch
 
 **Prop:** Every compact group is unimodular.
 
-**Prop:** Let $G$ be a locally compact group, and let $\mu$ be a left Haar measure on $G$. Then each Borel subset $A$ of $G$ satisfies $$\check\mu (A) =\int_A \Delta(x^{-1}) \, d\mu. $$
+**Prop:** Let $G$ be a locally compact group, and let $\mu$ be a left Haar measure on $G$. Then each Borel subset $A$ of $G$ satisfies $$\check\mu (A) =\int_A \Delta(x^{-1}) \, d\mu. $$We see that  $$\frac{d \check \mu}{d\mu}(x) = \Delta(x^{-1})=\check\Delta(x) \qquad\text{and}\qquad \frac{d\mu}{d\check\mu}(x) = \Delta(x)$$
 **Cor:** Let $G$ be a locally compact group, let $\mu$ be a left Haar measure on $G$, and let $\nu$ be a right Haar measure on $G$. Then a Borel subset satisfies $\mu(A)= 0$ iff it satisfies $\nu(A) = 0$
 
 **Cor:** Let $G$ be a locally compact group, and let $\mu$ be a left Haar measure on $G$. Then $G$ is unimodular iff $\mu = \check\mu$. 

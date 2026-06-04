@@ -44,7 +44,7 @@ Let $(X, Y)$ be absolutely continuous vector with a density function $f_{X, Y}(x
 While the formula might look a bit asymmetric, we can just consider the change of variable $z = u -v$, and would get $$f_{X+Y} (u) = \int_{-\infty}^\infty  f_{X, Y}(z, u-z)\, dz $$Meaning it is completely symmetrical. 
 
 If we look into the case where $X$ and $Y$ are independent. Then we get that $$f_{X+Y} (u) = \int_{-\infty}^\infty  f_X(u-v) f_Y(v)\, dv $$
-This is related with the idea of the [[Convolution in R]], and can be seen as $f_{X+Y} = f_X * f_Y$
+This is related with the idea of the [[Convolution in R]], and can be seen as $f_{X+Y} = f_X * f_Y$. We can also see it as the [[Convolution on Locally Compact Groups|convolution of measures]] on $\Bbb R$
 
 When $X$ and $Y$ are independent discrete variables with whole number values, it is fairly easy to to verify the pmf of $X+Y$, in complete analogy $$f_{X+Y}(u) = \sum_{k \in \Bbb Z} f_X(u-k) f_Y(k)$$
 #### Difference

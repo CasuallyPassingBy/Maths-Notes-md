@@ -78,7 +78,7 @@ We see that $M_r(X, \Bbb R)$ and $M_r(X, \Bbb C)$ are vector subspaces of $M(X, 
 **Th:** Let $X$ be a locally compact Hausdorff space. Then the map that takes finite signed, or complex, regular Borel measure $\mu$ to the functional $f\mapsto \int f\, d\mu$ is an isometric isomorphism of the Banach space $M_r(X, \Bbb R)$, or $M_r(X, \Bbb C)$, onto the [[Topological Dual Vector Space|dual]] of the Banach space $\mathcal C_0(X)$, or $\mathcal C_0(X, \Bbb C)$. 
 
 **Prop:** Let $X$ be a locally compact Hausdorff space, let $\mu$ be a regular Borel measure on $X$, and let $\nu$ be a finite signed or complex regular regular Borel measure on $X$. The following statements are equivalent.
-- There is a function $f\in \mathscr L^1(X, \mathcal B(X), \mu)$ such that $\nu(A) = \int_A f\,d\mu$ holds for each $A\in \mathcal B(X)$. 
+- There is a function $f\in \mathscr L^1(X, \mathcal B(X), \mu)$ such that $\nu(A) = \int_A f\,d\mu$ holds for each $A\in \mathcal B(X).$ 
 - $\nu$ is absolutely continuous with respect to $\mu$.
 - Each compact subset $K$ of $X$ that satisfies $\mu(K) = 0$ also satisfies $\nu(K) = 0$.
 
