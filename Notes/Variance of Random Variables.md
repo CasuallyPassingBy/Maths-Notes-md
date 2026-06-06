@@ -7,9 +7,7 @@ Links: [[Expected Value of Random Variables]], [[Random Variables]], [[Probabili
 
 ## Variance
 Let $X$ be a random variable, the variance of $X$, denoted as $\text{Var})(X)$, it is defined as
-$$
-\text{Var}(X) := \Bbb E[(X-\Bbb E[X])^2]
-$$
+$$\text{Var}(X) := \Bbb E[(X-\Bbb E[X])^2].$$
 
 Let $X$ be a discrete random variable with a probability mass function $f$. The variance of $X$ is defined as the number
 $$ \operatorname{Var}[X] = \sum_x (x-\mu)^2 f(x) $$

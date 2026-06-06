@@ -23,7 +23,7 @@ The **Chebyshev equation**
 
 $$ (1-x^2) y''-xy+\alpha^2 y =0 $$
 
-for $\alpha \in \Bbb R$, if $\alpha \in \Bbb N$, then polynomial that is a solution is a multiple of the [[Chebyshev Polynomials|Chebyshev Polynomial]]
+for $\alpha \in \Bbb R$, if $\alpha \in \Bbb N$, then polynomial that is a solution is a multiple of the [[Chebyshev Polynomials of the First Kind|Chebyshev Polynomial]]
 
 The **Laguerre equation**
 $$

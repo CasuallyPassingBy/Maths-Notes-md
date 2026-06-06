@@ -95,8 +95,8 @@ In the special case where we consider topological spaces $(X, \tau_1)$ and $(Y, 
 
 **Lemma:** Let $(X, {\scr A})$ be a measurable space, and let $Y$ be a metrizable topological space. Then a function $f:X \to Y$ is measurable with respect to $\scr A$ and $\mathcal B(Y)$ iff for each continuous function $g: Y\to\Bbb R$ the function $g\circ f$ is $\scr A$-measurable. 
 
-## Image Measures
+## Image Measures or Push-Forward Measures
 
-**Def:** Let $(X, {\scr A},\mu)$ be a measure space, let $(Y, {\scr B})$ be a measurable space and let $f: X\to Y$ be measurable. We define a a function $\mu f^{-1}: {\scr B}\to [0,\infty]$ by letting $\mu f^{-1}(B) = \mu(f^{-1}[B])$ for each $B\in \scr B$. We see that $\mu f^{-1}$ is a measure on $(Y, {\scr B})$. The measure $\mu f^{-1}$ is sometimes called the *image of $\mu$ under $f$.* Another notation for $\mu f^{-1}$ is $\mu \circ f^{-1}$.
+**Def:** Let $(X, {\scr A},\mu)$ be a measure space, let $(Y, {\scr B})$ be a measurable space and let $f: X\to Y$ be measurable. We define a a function $\mu f^{-1}: {\scr B}\to [0,\infty]$ by letting $\mu f^{-1}(B) = \mu(f^{-1}[B])$ for each $B\in \scr B$. We see that $\mu f^{-1}$ is a measure on $(Y, {\scr B})$. The measure $\mu f^{-1}$ is sometimes called the *image of $\mu$ under $f$.* Another notations for $\mu f^{-1}$ is $\mu \circ f^{-1}$ and $f_*\mu$.
 
-**Prop:** Let $(X, {\scr A},\mu)$ be a measure space, let $(Y, {\scr B})$ be a measurable space and let $f: X\to Y$ be measurable. Let $g: Y\to \overline{\Bbb R}$ be a $\scr B$-measurable function. Then $g$ is $\mu f^{-1}$ integrable iff $g\circ f$ is $\mu$-integrable. If these functions are integrable, then $$\int_Y g \ d(\mu f^{-1}) = \int_X (g\circ f)\, d\mu. $$
+**Prop:** Let $(X, {\scr A},\mu)$ be a measure space, let $(Y, {\scr B})$ be a measurable space and let $f: X\to Y$ be measurable. Let $g: Y\to \overline{\Bbb R}$ be a $\scr B$-measurable function. Then $g$ is $f_*\mu$-integrable iff $g\circ f$ is $\mu$-integrable. If these functions are integrable, then $$\int_Y g \ d(f_*\mu) = \int_X (g\circ f)\, d\mu. $$

@@ -4,7 +4,7 @@ tags:
 ---
 [[Central Hub]]
 # Overview
-The main references for this book are 'Introducción a la Probabilidad' and 'Curso Intermedio de Probabilidad' by Luis Rincón. 
+The main references for this book are 'Introducción a la Probabilidad' and 'Curso Intermedio de Probabilidad' by Luis Rincón. Part of this notes have been refactored using Cohn's book on measure theory specially using the chapter of probability.
 
 # Topics
 - [[Probability Measure]]

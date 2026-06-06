@@ -35,7 +35,7 @@ We see that the convolution on ${\scr L}^1(G, \mathcal B(G), \mu)$ induces an op
 
 **Prop:** Let $G$ be an arbitrary locally compact group, let $\mu$ be a left Haar measure on $G$. If $G$ is first countable, then there is a sequence $(\varphi)_{n<\omega}$ of nonnegative functions in ${\scr L}^1(G, \mathcal B(G), \mu)$, or even in $\mathcal C_c(G)$, such that $$\int \varphi_n \, d\mu = 1 \quad \text{holds for all }n <\omega$$and such that $$ f *\varphi_n \stackrel{L^1}{\longrightarrow} f \quad \text{and}\quad \varphi_n*f \stackrel{L^1}{\longrightarrow} f  \qquad \text{holds for } f\in \mathscr L^1(G, \mathcal B(G), \mu).$$Such sequence is called an *approximate identity.*
 
-**Prop:** Let $G$ be an arbitrary locally compact group, let $\mu$ be a left Haar measure on $G$. There is a net $(\varphi)_{\alpha\in A}$ of nonnegative functions in ${\scr L}^1(G, \mathcal B(G), \mu)$, or even in $\mathcal C_c(G),$where $A$ is the set of open neighbourhoods of $e$ contained in $U_0$, with $\overline{U_0}$ compact, and $U \le V$ iff $V\subseteq U$ such that $$\int \varphi_\alpha \, d\mu = 1 \quad \text{holds for all }\alpha\in A$$and such that $$ f *\varphi_\alpha \stackrel{L^1}{\longrightarrow} f \quad \text{and}\quad \varphi_\alpha*f \stackrel{L^1}{\longrightarrow} f  \qquad \text{holds for } f\in \mathscr L^1(G, \mathcal B(G), \mu).$$Such sequence is called an *approximate identity.*
+**Prop:** Let $G$ be an arbitrary locally compact group, let $\mu$ be a left Haar measure on $G$. There is a net $(\varphi)_{\alpha\in A}$ of nonnegative functions in ${\scr L}^1(G, \mathcal B(G), \mu)$, or even in $\mathcal C_c(G),$where $A$ is the set of open neighbourhoods of $e$ and $U \le V$ iff $V\subseteq U$ such that $$\int \varphi_\alpha \, d\mu = 1 \quad \text{holds for all }\alpha\in A$$and such that $$ f *\varphi_\alpha \stackrel{L^1}{\longrightarrow} f \quad \text{and}\quad \varphi_\alpha*f \stackrel{L^1}{\longrightarrow} f  \qquad \text{holds for } f\in \mathscr L^1(G, \mathcal B(G), \mu).$$Such net is called an *approximate identity.*
 
 
 # $M(G)$
@@ -65,3 +65,13 @@ We see that we have a coordinate-free description of $L^1(G)$: it is isomorphic 
 **Cor:** We see that $L^1(G)$ has an identity iff the topology of $G$ is discrete. 
 
 **Th:** Let $G$ be a locally compact group, and let $\mu$ be a regular Borel measure on $G$. Then the map $T: L^\infty_b(G, \mathcal B(G), \mu)\to L^1(G, \mathcal B(G), \mu)^*$ defined by $$T({\langle g\rangle})(\langle f\rangle) = \int fg\, d\mu $$is an isometric isomorphism of $L^\infty_b(G, \mathcal B(G), \mu)$ onto the dual of $L^1(G, \mathcal B(G), \mu)$. 
+
+**Prop:** Let $G$ be a locally compact group, and let $\mu$ be a regular Borel measure on $G$. Suppose $\nu\in M(G)$, and $f\in \mathscr L^1(G, \mathcal B(G), \mu)$, and that $\mu_f$ is the finite signed or complex regular Borel measure defined by $$\mu_f(A) := \int_A f\, d\mu. $$We define functions $g$ and $h$ on $G$ by  $$g(t) = \begin{dcases}
+\int f(s^{-1}t)\,\nu(ds) & \text{if }s \mapsto f(s^{-1}t) \text{ is }|\nu|\text{-integrable}, \\ \\
+0& \text{otherwise,}
+\end{dcases} $$and $$h(s) = \begin{dcases}
+\int f(st^{-1})\Delta(t^{-1})\,\nu(ds) & \text{if }t \mapsto f(st^{-1})\Delta(t^{-1}) \text{ is }|\nu|\text{-integrable}, \\ \\
+0& \text{otherwise.}
+\end{dcases} $$Then $g$ and $h$ belong to $\mathscr L^1(G, \mathcal B(G), \mu)$ and that $$(\nu*\mu_f) =\int_A g\, d\mu\quad \text{and}\quad (\mu_f*\nu)(A) = \int_A h\, d\mu  $$for every $A\in \mathcal B(G)$. If in addition, we see that $\nu*\mu_f = 0$ holds for every $f\in \mathscr L^1(G, \mathcal B(G), \mu)$ iff $\nu = 0$. 
+
+**Prop:** Let $G$ be an arbitrary locally compact group, let $\mu$ be a left Haar measure on $G$. If $(\varphi_\alpha)_{\alpha\in A}$ is the approximate identity of $L^1(G)$, then the net of measures $(\mu_\alpha)_{\alpha\in A}$ defined by  $$\mu_\alpha(A) = \int_A \varphi_\alpha\, d\mu $$for every $A\in \mathcal B(G)$, converge in the weak$^*$-topology of $M(G)$, when viewed as the dual to $\mathcal C_0(G)$,  to $\delta_e$. 

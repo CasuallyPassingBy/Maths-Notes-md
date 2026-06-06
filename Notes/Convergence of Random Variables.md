@@ -11,11 +11,7 @@ Let $X_1, \dots, X_n, \dots$ be a sequence of random variables. There are a lot 
 
 ### Pointwise Convergence
 
-It is the absolute simplest. 
-
-Let $X_n$ be the sequence of random variables, we say that it *converges pointwise* if for all $\omega \in \Omega$, $$\lim_{n \to \infty} X_n(\omega) = X(\omega)$$
-By some results in measure theory, i think that $X$ will always be a random variable. 
-
+It is the absolute simplest. Let $X_n$ be the sequence of random variables, we say that it *converges pointwise* if for all $\omega \in \Omega$, $$\lim_{n \to \infty} X_n(\omega) = X(\omega)$$
 We can denote it as $X_n \to X$, or if we want to specify, $X_n \stackrel{p}{\longrightarrow}X$ 
 ## Almost Everywhere Convergence
 
@@ -24,7 +20,7 @@ The sequence of random variables $X_n$, converges *converges almost surely* to $
 ## Convergence in Probability
  
 The sequence of random variables $X_n$ converges to $X$ in *probability* if for every $\varepsilon> 0$, $$\Bbb P(\{\omega\in \Omega \mid |X_n(\omega) - X(\omega)|>\varepsilon\})=0 $$
-We can denote this kind of convergence by $X_n \stackrel{P}{\longrightarrow}X$, omitting $\omega$. The condition is $$\Bbb P(\lim_{n \to \infty} |X_n-X| > \varepsilon) = 0 $$
+We can denote this kind of convergence by $X_n \stackrel{\Bbb P}{\longrightarrow}X$, omitting $\omega$. The condition is $$\Bbb P(\lim_{n \to \infty} |X_n-X| > \varepsilon) = 0 $$
 
 ## Convergence in Mean
 
@@ -42,10 +38,10 @@ This type of convergence is also called $L^2$ *convergence* and it's denoted as 
 The sequence of random variables $X_n$ converges to $X$ in $L^p$ if $$\lim_{n \to \infty} E|X_n - X|^p = 0$$
 This type of convergence is also called $L^1$ *convergence* and it's denoted as $X_n \stackrel{L^p}{\longrightarrow}X$
 
-## Convergence in distribution
+## Convergence in distribution or Weak Convergence
 
-The sequence of random variables $X_n$ converges to $X$ in *distribution* if for all $x$ where the function $F_X$ is continuous. it satisfies that $$\lim_{n \to \infty} F_{X_n}(x) = F_X(x)$$
-Where $F_{X_n}$ is the cdf of $X_n$, and $F_X$ being the cdf $X$. We denote denote it as $X_n \stackrel{d}{\longrightarrow}X$, $X_n \stackrel{\mathcal D}{\longrightarrow} X$, or lastly $F_{X_n} \stackrel{d}{\longrightarrow}F_X$. This type of convergence is also known as *weak convergence* since it less restrictive than the others. 
+
+
 
 # Relations between types of convergence
 

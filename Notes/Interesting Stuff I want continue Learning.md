@@ -46,7 +46,6 @@
 		- [ ] Connected spaces
 		- [ ] Dimensions of topological spaces
 		- [ ] Uniform spaces and proximity spaces
-	- [ ] Prieto
 	- [ ] Tamaríz
 		- [x] Espacios topológicos
 		- [x] La cerradura, el interior, y otros operadores
@@ -56,7 +55,8 @@
 		- [ ] Espacios normales y completamente regulares
 		- [ ] Espacios compactos
 		- [ ] Espacios conexos y disconexos
-
+	- [ ] Baby Nagata
+	- [ ] Big Nagata
 - Algebraic Topology
 	- [x] Introduction to Topological Manifolds by Lee 
 	- [ ] Algebraic Topology by Hatcher 
@@ -65,11 +65,6 @@
 	- [ ] "Topological Groups and Related Structures" by Alexander Arhangel'skiĭ and Mikhail Tkachenko
 
 ## Algebra
--  Clifford Algebra 
-	- [ ] ("An Introduction to Clifford Algebras and Spinors")
-		- [ ] Exterior Algebra and Grassmann Algebra (Orientation and Quasi-Hodge Isomorphisms)
--  Ring Theory
-	- [x] Dummit & Foote
 -  Group Theory
 	- [ ] Dummit & Foote
 	- [ ] Zaldivar
@@ -88,13 +83,17 @@
 		- [ ] Linear Representations of Finite groups
 		- [ ] Characters of finite groups
 		- [ ] Applications of Character Theory
-	- [ ] Rotman Group Theory
+-  Ring Theory
+	- [x] Dummit & Foote
 - Field Theory
 	- [ ] Dummit & Foote
 		- [ ] Computation of Galois Groups over $\Bbb Q$.
 	- [x] Zaldivar
 	- [ ] Origami Constructible Numbers
 	- [ ] Marked Ruler and Compass Constructible Numbers
+-  Clifford Algebra 
+	- [ ] ("An Introduction to Clifford Algebras and Spinors")
+		- [ ] Exterior Algebra and Grassmann Algebra (Orientation and Quasi-Hodge Isomorphisms)
 -  Number Theory 
 	- [ ] Niven
 		- [x] Divisibilty
@@ -109,19 +108,6 @@
 		- [ ] Partition function
 		- [ ] Density of integers sequences
 	- [ ] Rosen
-	- [ ] Burton
-		- [x] Divisibility theory in the integers
-		- [x] Primes and their distribution
-		- [x] The theory of Congruences
-		- [x] Fermat's theorem
-		- [x] number-theoretic functions
-		- [x] Euler's generalisation of Fermat's theorem
-		- [x] Primitive roots and indices
-		- [x] Quadratic reciprocity law
-		- [x] Introduction to cryptography
-		- [ ] Numbers of special forms
-		- [ ] Fibonacci numbers
-		- [ ] Some Modern Developments
 - Commutative algebra
 	- [ ] Atiyah & Macdonald
 - Homological Algebra
@@ -140,17 +126,25 @@
 		- [x] Differentiation
 		- [x] Measures on Locally Compact Spaces
 		- [x] Polish Spaces and Analytic Sets
-		- [ ] Haar Measure
+		- [x] Haar Measure
 		- [ ] Probability
-	- [ ] Bogachev I/II
+		- [ ] Appendices
+			- [ ] The Bochner Integral
+			- [ ] Liftings
+			- [ ] The Banach-Tarski Paradox
+			- [ ] The Henstock-Kurzweil and McShane Integrals
 	- [x] Nelson
 	- [ ] Folland
+		- [ ] $L^p$ Spaces (Distribution functions and Weak $L^p$, and Interpolation of $L^p$ Spaces)
+		- [ ] Elements of Fourier Analysis
+		- [ ] Elements of Distribution Theory
+		- [ ] More Measures and Integrals (Hausdorff measure, self-similarity and Hausdorff dimension)
 -  Differential Geometry
 	- [x]  Introduction to Smooth Manifolds by Lee 
 	- [ ] The Geometry of Jet Bundles by D.J. Saunders
 - Riemannian Geometry
 	- [ ] Introduction to Riemannian Manifolds by Lee
-- Complex Geometry
+- Complex Differntial Geometry
 	- [ ] Introduction to Complex Manifolds by Lee
 -  Functional Analysis
 	- [ ] Megginson
@@ -177,8 +171,6 @@
 		- [ ] Asymptotic Methods
 		- [ ] Laplace Transform and Applications
 	- [ ] Stein & Shakarchi
-	- [ ] Alfohrs
-	- [ ] Conway
 - Metric and Normed Spaces
 	- [x] Monica Clapp
 - Real analysis
@@ -187,21 +179,10 @@
 - Vector Analysis
 	- [x] '*Cálculo diferencial de varias variables*' Paez
 	- [x] '*Cálculo integral de varias variables*' Paez
-# Differential Equations
+## Differential Equations
 - Ordinary Differential Equations
 	- [ ] Birkhoff and Rota
-	- [ ] Boyce Di Prima
-		- [x] Introduction
-		- [x] First order DE
-		- [x] Second order DE
-		- [x] Higher order DE
-		- [x] Series Solutions to Second Order Linear Equations
-		- [ ] The Laplace Transform
-		- [x] Systems of First Order Linear Equations
-		- [ ] Numerical Methods
-		- [ ] Nonlinear Differential Equations
-		- [ ] Partial Differential Equations and Fourier Series
-		- [ ] Boundary Value Problems
+	- [x] Boyce Di Prima
 - Partial Differential Equations
 	- [ ] Evans
 	- [ ] Folland
@@ -232,7 +213,7 @@
 	- [ ] Gibbons
 - Parametric Statistics
 	- [x] Inferencia estadistica (Ruth)
-## Physics
+# Physics
 -  Classical Mechanics 
 	- [ ] Taylor
 		- [x] Newton's Laws of Motion
@@ -260,7 +241,7 @@
 -  Fluid Mechanics
 - General Relativity
 	- [ ] _Spacetime and Geometry_ by Sean Carroll.
-## Computer Science
+# Computer Science
 - Machine Learning
 	- [ ] **_Understanding Machine Learning: From Theory to Algorithms_** by Shai Shalev-Shwartz and Shai Ben-David
 	- [ ] *Ariticial Inteligence: A modern Approach* by Russel and Norvig
@@ -280,7 +261,6 @@
 	- [ ] [Lillian Lee's aritcle](https://arxiv.org/pdf/cs/0112018)
 	- [ ] Lecture Notes on the Lambda Calculus
 	- [ ] [Prat Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)
-	- [ ] [Junferno's references](https://junferno.com/references/#list-4)
 	- [ ] [ZigZag Product](https://www.math.purdue.edu/~sahay5/2020-02-27_UR_combinatorics.pdf)
 - Digital Circuits
 	- [ ] _Digital Design and Computer Architecture_ — Harris & Harris
@@ -311,6 +291,13 @@
 	- [ ] [CORDIC Algorithm](https://www.youtube.com/watch?v=bre7MVlxq7o)
 - Information theory
 	- [ ] Cover & Thomas
+- GNNs
+	- [ ] Diseño de Redes Neuronales en Grafos y su Aplicación en Neurociencias
+		- [x] Spectral Graph Theory
+		- [x] Signal Processing on Graphs
+		- [ ] Neural Networks on Graphs
+		- [ ] SumGCN
+		- [ ] GNNs for the Detection of ADHD
 ## Other
 - [ ] Finite Operator Calculus (Finite Operator Calculus.pdf)
 - [ ] Umbral Calculus (Pure and Applied Mathematics 111)

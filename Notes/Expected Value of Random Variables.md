@@ -6,6 +6,9 @@ Subjects: [[Probability Theory]]
 Links: [[Random Variables]], [[Probability Functions for Random Variables]], [[Riemann-Steiltjes Integral on R]], [[Measurable Functions]]
 
 ## Expected Value
+
+**Def:** If a real-valued random variable $X$ on a probability space $(\Omega, {\scr A}, \Bbb P)$ is integrable with respect to $\Bbb P$, then its *expected value* or *expectation* written $\Bbb E[X]$, is defined $$\Bbb E[X] := \int_\Omega X\,d\Bbb P.$$If $X$ is integrable, one also says that $X$ *has finite expected value* or that $X$ *has an expected value*. 
+
 Let $X$ be a random variable with a distribution function $F$. The expected value of $X$, denoted as $\Bbb E[X]$, it is defined as the number 
 
 $$
@@ -20,6 +23,7 @@ $$
 $$
 
 supposing that the sum is absolutely convergent, meaning, when the sum of the values converges. 
+
 In the particular cases:
 Let $X$ be a absolutely continuous random variable with probability density function $f$, then the expected value is 
 
@@ -31,6 +35,8 @@ $$
 \Bbb E[g(X)] = \int_\Bbb R x \, dF_{g(X)}(x)
 $$
 ## **Law of the unconscious statistician**
+If a real-valued random variable $X$ on a probability space $(\Omega, {\scr A}, \Bbb P)$ and $f:\Bbb R\to\Bbb R$ is Borel measurable then  $$\Bbb E[f\circ X] = \Bbb E[f(X)] = \int_\Omega f\circ X \, d\Bbb P = \int_\Bbb R f\, d\Bbb P_X.$$
+
 Let $X$ be a random variable with a distribution function $F_X$, and let $g:\Bbb R \to \Bbb R$ be a Borel measurable function, such that the random variable $g(X)$ has finite expected value. Then 
 $$
 \Bbb E[g(X)] = \int_\Bbb R g(x)\, dF_X(x)

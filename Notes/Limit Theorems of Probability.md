@@ -8,8 +8,23 @@ Links: [[Convergence of Random Variables]], [[Important Probability Inequalities
 # Weak Law of Large Numbers 
 
 Let $X_1, X_2, \dots$ be independent and identically distributed random variables with mean $\mu$. Then $$\frac{1}{n}\sum_{i = 1}^n X_i \stackrel{\Bbb P}{\longrightarrow} \mu$$
+**Def:** Suppose that $(\Omega, {\scr A}, \Bbb P)$ is a probability space and let $(A_n)_{n<\omega}$ is a sequence of events in $\scr A.$ Then $$\{\omega\in\Omega\mid \omega\in A_n \text{ for infinitely many }n\}  $$is equal to $\limsup_{n \to \infty} A_n :=\bigcap_{n = 1}^\infty \bigcup_{k =n }^\infty A_k$; it is the even that infinitely many of the events $A_n$ occur, and it is often written as $\{A_n \text{ i.o.}\}$, where i.o. means "infinitely often". 
+
+**Borel-Cantelli Lemmas:** Let $(\Omega, {\scr A}, \Bbb P)$ be a probability space, and let $(A_n)_{n<\omega}$ be a sequence of events in $\scr A$.
+- If $\sum_{n<\omega} \Bbb P(A_n)<\infty$, then $\Bbb P_n(\{A_n \text{ i.o.}\}) = 0$.
+- If the events $A_n$, $n<\omega$, are independent and if $\sum_{n<\omega} \Bbb P(A_n) =\infty$, then $\Bbb P(\{A_n \text{ i.o.}\}) = 1$. 
+
+**Kolmogorov Zero-One Law:** Suppose that $(X_n)_{n<\omega}$ is a sequence of independent random variables. Then each event that belongs to the $\sigma$-algebra  $$\bigcap_{n<\omega} \sigma(X_n , X_{n+1}, \dots) $$has probability $0$ or $1$.
+
+The intersection of the $\sigma$-algebras $\sigma(X_n, X_{n+1}, \dots)$ is called the *tail $\sigma$-algebra*of the sequencce $(X_n)_{n<\omega}$, and its members are called *tail elements*. 
+
+**Lemma:** Let $(X_n)_{n<\omega}$ be a sequence of independent random variables that have mean $0$ and satisfy $\sum_{n<\omega} \Bbb E[X_n^2]<\infty$. Then $\sum_{n<\omega} X_n$ converges almost surely.
+
 # Strong Law of Large Numbers
 Let $X_1, X_2, \dots$ be independent and identically distributed random variables with mean $\mu$. Then $$\frac{1}{n}\sum_{i = 1}^n X_i \stackrel{a.s.}{\longrightarrow} \mu$$
+**Converse of the Strong Law of Large Numbers:** Let $(X_n)_{n<\omega}$ be a sequence of independent identically distributed random variables that do not have finite expected values. For each $n<\omega$ let $S_n = X_1+ \dots+X_n$. Then  $$\limsup_{n\to \infty}\left|\frac{S_n}n\right|=\infty \quad  \text{almost surely.} $$
+**Def:** Let $b$ be an integer such that $b\ge 2$. The digits that can occur in base $b$ expansion of a number are $0, \dots, b-1$. A number $x$ in $[0, 1]$ is *normal to base $b$* if each value in $\{0, \dots, b-1\}$ occurs the expected fraction, namely $1/b$, of the time in the base $b$ expansion of $x$
+
 # Central Limit Theorem
 
 Let $X_1, \dots$ be a sequence of independent and identically distributed random variables, such that $E[X_n] = \mu$ and $\text{Var}(X_n) = \sigma^2<\infty$. Then $$\frac{X_1+\dots + X_n- n \mu}{\sqrt n \sigma} \stackrel{d}{\longrightarrow} N(0, 1).$$If we consider the averages as $$\bar X_n := \frac{1}{n}\sum_{k = 1}^n X_k.$$

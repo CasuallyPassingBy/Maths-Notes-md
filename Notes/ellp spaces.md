@@ -11,9 +11,8 @@ converges, and it is a vector space, and it is denoted as $\ell_p$ or $\ell ^p$ 
 
 In the case where $p = \infty$, the space $\ell^\infty$ is the set of all bounded sequences of real numbers, is a vector space and$$ \|x_\bullet\|=\|(x_k) \|_\infty = \sup_{k \ge 1} |x_k| $$is a norm in $\ell ^\infty$.
 
-Since they are norms, we have that
 ### Hölder’s Inequalities for Series
-We have that for $p,q$ harmonic conjuagtes. Then if $x_\bullet \in \ell^p$ and $y_\bullet \in \ell^q$. Then
+We have that for $p,q$ harmonic conjugates. Then if $x_\bullet \in \ell^p$ and $y_\bullet \in \ell^q$. Then
 $$ \|x_\bullet y_\bullet \|_1 \le \|x_\bullet\|_p\|y_\bullet\|_q $$
 ### Minkowski’s Inequalities for Series
 $$ \|x_\bullet +y_\bullet \|_p \le \|x_\bullet\|_p +\|y_\bullet\|_p $$

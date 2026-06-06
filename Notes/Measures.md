@@ -12,6 +12,8 @@ Links: [[Rings and Algebras of Sets]]
 
 **Def:** If $\mu$ is a measure on a ring $\cal R$, a set $E \in \cal R$ is said to have *finite measure* if $\mu(E) < \infty;$ the measure of $E$ is $\sigma$-finite if there exists a sequence $\{E_n: n < \omega\}$ of sets in $R$ such that $E \subseteq \bigcup_{n < \omega} E_n$ and $\mu(E_n) < \infty$ for all $n < \omega$. If for each $E\in \cal R$ with $\mu(E) =\infty$ there exists $F\in \cal R$ with $F\subseteq E$ and $0<\mu(F)<\infty$, $\mu$ is called *semifinite.*
 
+**Def:** Suppose that $(X, {\scr A})$ is a measurable space such that for each $x\in X$ the set $\{x\}$ belongs to $\scr A$. A finite or $\sigma$-finite measure $\mu$ on $(X, {\scr A})$ is continuous if $\mu(\{x\}) = 0$ holds for each $x\in X$ and is *discrete* if there is a countable subset $D$ of $X$ such that $\mu(X\setminus D) = 0$.  ^dba93d
+
 **Prop:** If $\cal E$ is a non empty family of sets and $\mu$ a measure on $\cal R(E)$ such that if $E \in \cal E$, then $\mu(E) < \infty$, then $\mu$ is finite on $\cal R(E)$.
 
 **Def:** If the measure of every set $E$ in $\cal R$ is finite or $\sigma$-finite, the measure $\mu$ is called *finite* of $\sigma$-*finite* on $\cal R$. If $X \in \cal R$ (i.e. if $\cal R$ is an algebra) and $\mu(X)$ is finite or $\sigma$-finite, then $\mu$ is called *totally finite* or *totally $\sigma$-finite*, respectively. 
@@ -58,4 +60,3 @@ Links: [[Rings and Algebras of Sets]]
 **Th:** Let $\mu$ a finite, non negative, and additive set function on a ring $\cal R$. If $\mu$ is either continuous from below at every $E\in \cal R$, or continuous from below at $\varnothing$, then $\mu$ is a measure on $\cal R$.
 
 **Prop:** If $\mu$ is a measure on a ring $\cal R$, then if $E, F\in \cal R$, then $\mu(E) + \mu(F) = \mu(E \cup F) + \mu(E \cap F)$. 
-

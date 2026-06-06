@@ -11,7 +11,7 @@ Links: [[Topological Networks]], [[Metrization Theorems]], [[Regular Hausdorff S
 
 **Obs:** Every regular $\sigma$-space is [[Subparacompactness and Submetacompactness|subparacompact]]. 
 
-**Prop:** Every developable space is a $\sigma$-space.
+**Prop:** Every regular developable space is a $\sigma$-space.
 
 **Th:** For a regular space $X$ the following statements are equivalent.
 - $X$ has a $\sigma$-closure-preserving network

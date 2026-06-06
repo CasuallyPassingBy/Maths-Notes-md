@@ -5,26 +5,14 @@ tags:
 Subjects: [[Probability Theory]]
 Links: [[Probability Measure]], [[Probability Functions for Random Variables]], [[Measurable Functions]]
 
-A random variable is a function $X$ from $\Omega$ to the set of real numbers, meaning
-$$ X: \Omega \to \Bbb R $$
+**Def:** A *real-valued random variable* on a probability space $(\Omega.{\scr A}, \Bbb P)$ is an $\scr A$-measurable function from $\Omega$ to $\Bbb R$. Such a variable represents a numerical observation or measurment whose value depends on the outcome of the random experiments represented by $(\Omega.{\scr A}, \Bbb P)$. More generally, a *random variable* with values in a measurable space $(S, {\scr B})$ is a measurable function from $(\Omega.{\scr A}, \Bbb P)$ to $(S, {\scr B})$. 
 
-Such that for any real number $x$
-$$ \{ \omega \in \Omega \mid X(\omega ) \le x\} = X^{-1}[(-\infty, x]] \in \mathscr F $$
+**Def:** Let $X$ be a random variable with values in $(S, {\scr B})$. The *distribution*of $X$ is the measure $X_*\Bbb P$ defined on $(S, {\scr B})$ by $X_*\Bbb P(A) := P(X^{-1}[A])$. We often write $\Bbb P_X$ for the distribution of a random variable $X$. If $X_1, \dots, X_d$ are $(S, {\scr B})$-valued random variables on $(\Omega, {\scr A}, \Bbb P)$, then the formula $X(\omega) = (X_1(\omega), \dots, X_d(\omega))$ defines an $S^d$-valued random variable $X$; the distribution of $X$ is called the *joint distribution* of $X_1,\dots, X_d$. 
 
-with $(\Omega, \mathscr F)$ being a measurable space. Meaning $X$ is a [[Measurable Functions|measurable function]] from $\Omega$ to $\Bbb R$
+**Obs:** Let $X$ be a random variable with values in $(S, {\scr B})$. We see that $(S, {\scr B}, \Bbb P_X)$ is a probability space.
 
-We usually abuse notation, meaning that
-$$ (X \in A) = X^{-1}[A] $$
-
-We can induce a probability measure on $(\Bbb R, \mathscr B(\Bbb R)$, by defining it as, with $A \in \mathscr B(\Bbb R)$, then
-$$ \Bbb P_X(A) = \Bbb P(X \in A) $$
-
-meaning we transform $A$, into a measurable set by $\Bbb P$, and then applying our probability. We know that $X^{-1}[A] \in \mathscr F$, by properties of the inverse image. Meaning we have a new probability space ${(\Bbb R, \mathscr B(\Bbb R), \Bbb P_X)}$.
-
-Let $X: \Omega \to \Bbb R$, then we we denote $\sigma(X)$ as the smallest $\sigma-$algebra of subsets of $\Omega$ such that $X$ is a random variable, and we define it as 
-$$
-\sigma(X) :=\{X^{-1}[B] \mid B \in {\scr B}(\Bbb R)\}
-$$
+**Def:** Let $X: \Omega \to \Bbb R$, then we we denote $\sigma(X)$ as the smallest $\sigma$-algebra of subsets of $\Omega$ such that $X$ is a random variable, and we define it as 
+$$ \sigma(X) :=\sigma(\{X^{-1}[B] \mid B \in {\scr B}(\Bbb R)\}). $$ Let $\{X_i\}_{i \in I}$ be an indexed family of random variables on a probability space $(\Omega, {\scr A}, \Bbb P)$. Then $\sigma(X_i, i\in I)$ is the smallest $\sigma$-algebra on $\Omega$ that makes all of these variables measurable. Likewise. if $\{X_n\}_{n<\omega}$ is a countable collection of random variables on $(\Omega, {\scr A}, \Bbb P)$, then we often write $\sigma(X_1, X_2,\dots)$ for the smallest $\sigma$-algebra on $\Omega$ that makes each $X_n$ measurable.
 
 The constant function $X = c$ is a random variable
 
@@ -52,9 +40,14 @@ are finite. Then the functions $\limsup\limits_{n \to \infty}X_n$ and $\liminf\l
 Let $X_0, X_1, X_2,\dots$ be an infinite sequence of random variables such that for every $\omega \in \Omega$, the limit $\lim\limits_{n \to\infty} X_n(\omega)$ exists and it is finite. Then the function $\lim\limits_{n \to \infty} X_n$ is a random variable.
 
 Let $X$ be a random variable, and let $g: \Bbb R \to \Bbb R$ be a Borel measurable function, then $g(X)$ is a random variable. 
+
+**Def:** Let $X$ be a real-valued random variable. Since $X$ induces a finite measure on $(\Bbb R, \mathcal B(\Bbb R))$, then if we define the function $F_X: \Bbb R\to \Bbb R$ by $$F_X(x) :=\Bbb P_X((-\infty, x]),  $$then $F_X$ is  bounded, non decreasing, and right-continuous and satisfies $\lim_{x\to -\infty} F_X(x) = 0$. We call $F_X$ the *cumulative distribution function* of $X$ or just the *distribution function* of $X$. 
+
 # Types
 ### Discrete Random Variables
-The random variable $X$ is called discrete if the corresponding distribution function $F$ is a piecewise constant function. Let $x_1, x_2\dots$ the points of discontinuity of $F$. At each of this points of discontinuity we get that $\Bbb P(X = x_i) = F(x_i) - F(x_i -)>0$. The function $f$ the denotes those increments it is called the probability mass function of $X$, and it is defined as 
+A real random variable $X$ is called *discrete* if its distribution is [[Measures#^dba93d|discrete]]. 
+
+In other words, the random variable $X$ is called discrete if the corresponding distribution function $F$ is a piecewise constant function. Let $x_1, x_2\dots$ the points of discontinuity of $F$. At each of this points of discontinuity we get that $\Bbb P(X = x_i) = F(x_i) - F(x_i -)>0$. The function $f$ the denotes those increments it is called the probability mass function of $X$, and it is defined as 
 $$
 f(x)=
 \begin{cases}
@@ -64,17 +57,18 @@ f(x)=
 $$
 
 ### Continuous Random Variables
-A random variable $X$ is called continuous if its corresponding distribution function is continuous
+A real-random variable $X$ is *continuous* if its distribution is absolutely continuous with respect to the Lebesgue measure, $\Bbb P_X \ll \lambda$.
 
-A continuous random variable $X$ with a distribution function $F$ is called absolutely continuous, if there exists a nonnegative integrable function $f$ such that for every value of $x$ it is satisfied 
+$X$ is a continuous real-random variable, then we can calculate the Radon-Nykodim derivative of $\Bbb P_X$ with respect to $\lambda$, let  $$f_X(x) := \frac{d\Bbb P_X}{d\lambda}(x).$$We see that  $$\Bbb P_X(A) = \int_A \, d\Bbb P_X = \int_A f_X\, d\lambda $$which is an integral we know how to do. In this context we see why $f_X$ is called the *probability density function* of $X$.  
+
+In other words, a continuous random variable $X$ with a distribution function $F_X$ is called absolutely continuous, if there exists a nonnegative integrable function $f_X$ such that for every value of $x$ it is satisfied 
 $$
-F(x) = \int_{-\infty}^x f(u)\, du
+F_X(x) = \int_{-\infty}^x f_X(u)\, du
 $$
-In this case $f$ is called the probability density function of $X$
+In this case $f_X$ is called the probability density function of $X$. 
 
 ### [[Absolute Continuity of Measures#Singularity|Singular]] Random Variables
-
-The random variable $X$, or its corresponding distribution function $F$, is called singular if $F' =0$ almost everywhere, using [[Lebesgue Measure|Lebesgue measure]].
+The random variable $X$, or its corresponding distribution $\Bbb P_X$ is [[Absolute Continuity of Measures#Singularity|singular]] with respect [[Lebesgue Measure|Lebesgue measure]].
 
 ### Mixed Random Variables
 A random variable such that is not continuous nor discrete is called mixed

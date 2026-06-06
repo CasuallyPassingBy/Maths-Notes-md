@@ -15,7 +15,7 @@ Links: [[Dual Vector Spaces]], [[Bounded Linear Operators]], [[Normed Vector Spa
 
 **Obs:** Let $V$ be a normed vector space, and let $v$ and $v_0, v_1, \dots$ belong to $V$. If $(v_n)_{n<\omega}$ converges to $v$ in norm $(\lim\limits_{n\to\infty}\|v_n - v\| = 0)$, then $(v_n)_{n<\omega}$ converges weakly to $v$. 
 
-**Obs:** If $H$ is a [[Hilbert Spaces|Hilbert space]], then we have a natural isometric isomorphism between $H$ and $H^*$. 
+**Obs:** If $H$ is a [[Hilbert Spaces|Hilbert space]], then we have a natural isometric isomorphism between $H$ and $H^*.$ 
 
 **Example:** 
 - Let $(X, {\scr A}, \mu)$ be a measure space, let $p$ satisfy $1 < p <\infty$, and $q$ be its harmonic conjugate. Then the dual of $L^p(X, {\scr A},\mu)$ is isometrically isomorphic to $L^q(X, {\scr A}, \mu)$.

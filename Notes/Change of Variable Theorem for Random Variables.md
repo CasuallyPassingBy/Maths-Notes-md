@@ -40,22 +40,30 @@ f_{X, Y}(\varphi^{-1}(u, v)) |J(u, v)| & (u, v) \in \varphi(I) \\
 Where $$|J(u, v) | = |\det J_{\varphi^{-1}}(u, v)|$$
 ### Important Transformations
 #### Sum
+Let $X$ and $Y$ be real-valued random variables, then we can define the distribution of $X+Y$ as  $$\Bbb P_{X+ Y} (A) := \Bbb P_{X, Y}(\{(x, y)\in \Bbb R^2 \mid x+y\in A\} )$$
 Let $(X, Y)$ be absolutely continuous vector with a density function $f_{X, Y}(x, y)$. Then $X+Y$ has a distribution function $$f_{X+Y} (u) = \int_{-\infty}^\infty  f_{X, Y}(u-v, v)\, dv $$
 While the formula might look a bit asymmetric, we can just consider the change of variable $z = u -v$, and would get $$f_{X+Y} (u) = \int_{-\infty}^\infty  f_{X, Y}(z, u-z)\, dz $$Meaning it is completely symmetrical. 
 
 If we look into the case where $X$ and $Y$ are independent. Then we get that $$f_{X+Y} (u) = \int_{-\infty}^\infty  f_X(u-v) f_Y(v)\, dv $$
-This is related with the idea of the [[Convolution in R]], and can be seen as $f_{X+Y} = f_X * f_Y$. We can also see it as the [[Convolution on Locally Compact Groups|convolution of measures]] on $\Bbb R$
+We define the *[[Convolution on Locally Compact Groups|convolution]]* $\nu_1*\nu_2$ of finite measures on $\nu_1$ and $\nu_2$ on $(\Bbb R^d, \mathcal B(\Bbb R^d))$ by $$(\nu_1*\nu_2)(A) := (\nu_1\times \nu_2)(\{(x_1, x_2) \mid x_1+x_2\in A\}).$$We see that the distribution of the sum of two independent random variables is the convolition of their distributions: $\Bbb P_{X_1+X_2}=\Bbb P_{X_1}*\Bbb P_{X_2}$. 
 
+**Prop:** Let $\nu_1$ and $\nu_2$ be probability measures on $(\Bbb R^d, \mathcal B(\Bbb R^d))$.
+- The convolution $\nu_1* \nu_2$ satisfies $$(\nu_1* \nu_2)(A) = \int \nu_1(A-y)\, d\nu_2(y)=\int \nu_2(A -x)\, d\nu_1(x) $$for each $A\in \mathcal B(\Bbb R^d )$.
+- If $\nu_1$ is absolutely continuous, with density $f$, then $\nu_1*\nu_2$ is absolutely continuous with density $$x\mapsto \int f(x-y)\, \nu(dy).$$
+- If $\nu_1$ and $\nu_2$ are absolutely continuous, with densities $f$ and $g$, then $\nu_1*\nu_2$ is absolutely continuous with density  $$x\mapsto \int f(x-y)g(y)\, d\lambda(y) .$$
 When $X$ and $Y$ are independent discrete variables with whole number values, it is fairly easy to to verify the pmf of $X+Y$, in complete analogy $$f_{X+Y}(u) = \sum_{k \in \Bbb Z} f_X(u-k) f_Y(k)$$
 #### Difference
+Let $X$ and $Y$ be real-valued random variables, then we can define the distribution of $X-Y$ as  $$\Bbb P_{X- Y} (A) := \Bbb P_{X, Y}(\{(x, y)\in \Bbb R^2 \mid x-y\in A\} ).$$
 
 Let $(X, Y)$ be absolutely continuous vector with a density function $f_{X, Y}(x, y)$. Then $X-Y$ has a distribution function $$f_{X-Y} (u) = \int_{-\infty}^\infty  f_{X, Y}(u+v, v)\, dv $$
 When $X$ and $Y$ are independent we get the $$f_{X+Y} (u) = \int_{-\infty}^\infty  f_X(u+v) f_Y(v)\, dv$$
 When $X$ and $Y$ are independent discrete variables with whole number values, it is fairly easy to to verify the pmf of $X-Y$, in complete analogy $$f_{X-Y}(u) = \sum_{k \in \Bbb Z} f_X(u+k) f_Y(k)$$
 #### Product
+Let $X$ and $Y$ be real-valued random variables, then we can define the distribution of $XY$ as  $$\Bbb P_{XY} (A) := \Bbb P_{X, Y}(\{(x, y)\in \Bbb R^2 \mid xy\in A\} ).$$
 
 Let $(X, Y)$ be absolutely continuous vector with a density function $f_{X, Y}(x, y)$. Then $XY$ has a distribution function $$f_{XY} (u) = \int_{-\infty}^\infty  f_{X, Y}(u/v, v)\left|\frac{1}{v}\right|\, dv  $$
 
 #### Quotient
+Let $X$ and $Y$ be real-valued random variables, then we can define the distribution of $X/Y$ as  $$\Bbb P_{X/Y} (A) := \Bbb P_{X, Y}(\{(x, y)\in \Bbb R^2 \mid x/y\in A\} ).$$
 
 Let $(X, Y)$ be absolutely continuous vector with a density function $f_{X, Y}(x, y)$. Then $X/Y$ has a distribution function $$f_{X/Y} (u) = \int_{-\infty}^\infty  f_{X, Y}(uv, v)\left|v\right|\,  dv  $$
