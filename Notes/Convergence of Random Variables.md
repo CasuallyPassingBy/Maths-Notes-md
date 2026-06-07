@@ -42,6 +42,8 @@ This type of convergence is also called $L^1$ *convergence* and it's denoted as 
 
 
 
+The sequence of random variables $X_n$ converges to $X$ in *distribution* if for all $x$ where the function $F_X$ is continuous. it satisfies that $$\lim_{n \to \infty} F_{X_n}(x) = F_X(x)$$
+Where $F_{X_n}$ is the cdf of $X_n$, and $F_X$ being the cdf $X$. We denote denote it as $X_n \stackrel{d}{\longrightarrow}X$, $X_n \stackrel{\mathcal D}{\longrightarrow} X$, or lastly $F_{X_n} \stackrel{d}{\longrightarrow}F_X$. This type of convergence is also known as *weak convergence* since it less restrictive than the others. 
 
 # Relations between types of convergence
 

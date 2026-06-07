@@ -53,7 +53,7 @@ Additionally, we know that $\lim\limits_{p\to\infty} \|f\|_p = \|f\|_\infty$.
 **Jensen's Inequality:** Let $(X, {\scr A}, \mu)$ be a probability space. Suppose $\varphi:\Bbb R\to\Bbb R$ is a convex. If $f\in{\scr L}^1(X. {\scr A},\mu,\Bbb R)$, then $$\varphi\left(\int f\, d\mu\right ) \le \int \varphi \circ f\, d\mu.$$
 **Prop:** Let $(X, {\scr A},\mu)$ be a finite measurable space.
 - If $1 \le s< r <\infty$, and  $f\in {\scr L}^r(X, {\scr A}, \mu)$, then $f\in {\scr L}^s(X, {\scr A}, \mu)$, and $\|f\|_s \le \mu(X)^{\frac{r-s}{sr}}\|f\|_r$. 
-- If $1 \le r <\infty$, and $f\in {\scr L}^\infty(X, {\scr A}, \mu)$, then $f\in {\scr L}^\infty(X, {\scr A},\mu)$, and  $\|f\|_s \le \mu(X)^{\frac{1}{r}}\|f\|_\infty$
+- If $1 \le r <\infty$, and $f\in {\scr L}^\infty(X, {\scr A}, \mu)$, then $f\in {\scr L}^\infty(X, {\scr A},\mu)$, and  $\|f\|_s \le \mu(X)^{\frac{1}{r}}\|f\|_\infty.$
 
 **Cor:** Let $(X, {\scr A},\mu)$ be a finite measurable space. If $1 \le s< r\le \infty$, and there there is a sequence $(f_n)_{n<\omega}$ in ${\scr L}^{r}(X, {\scr A}, \mu)$ that converges to $f$ in $r$th mean, then $(f_n)_{n<\omega}$ converges to $f$ is $s$th mean.
 

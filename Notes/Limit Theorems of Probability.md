@@ -18,12 +18,20 @@ Let $X_1, X_2, \dots$ be independent and identically distributed random variable
 
 The intersection of the $\sigma$-algebras $\sigma(X_n, X_{n+1}, \dots)$ is called the *tail $\sigma$-algebra*of the sequencce $(X_n)_{n<\omega}$, and its members are called *tail elements*. 
 
+**Prop:** Suppose that $(X_n)_{n<\omega}$ is a sequence of independent random variables and that $\scr T$ is the $\sigma$-algebra of tail events $(X_n)_{n<\omega}$. Then every $\overline{\Bbb R}$-valued random variable that is $\scr T$-measurable is almost surely constant. 
+
 **Lemma:** Let $(X_n)_{n<\omega}$ be a sequence of independent random variables that have mean $0$ and satisfy $\sum_{n<\omega} \Bbb E[X_n^2]<\infty$. Then $\sum_{n<\omega} X_n$ converges almost surely.
 
 # Strong Law of Large Numbers
 Let $X_1, X_2, \dots$ be independent and identically distributed random variables with mean $\mu$. Then $$\frac{1}{n}\sum_{i = 1}^n X_i \stackrel{a.s.}{\longrightarrow} \mu$$
 **Converse of the Strong Law of Large Numbers:** Let $(X_n)_{n<\omega}$ be a sequence of independent identically distributed random variables that do not have finite expected values. For each $n<\omega$ let $S_n = X_1+ \dots+X_n$. Then  $$\limsup_{n\to \infty}\left|\frac{S_n}n\right|=\infty \quad  \text{almost surely.} $$
-**Def:** Let $b$ be an integer such that $b\ge 2$. The digits that can occur in base $b$ expansion of a number are $0, \dots, b-1$. A number $x$ in $[0, 1]$ is *normal to base $b$* if each value in $\{0, \dots, b-1\}$ occurs the expected fraction, namely $1/b$, of the time in the base $b$ expansion of $x$
+**Def:** Let $b$ be an integer such that $b\ge 2$. The digits that can occur in base $b$ expansion of a number are $0, \dots, b-1$. A number $x$ in $[0, 1]$ is *normal to base $b$* if each value in $\{0, \dots, b-1\}$ occurs the expected fraction, namely $1/b$, of the time in the base $b$ expansion of $x$, that is,  $$\lim_{n \to \infty} \frac{\text{number of times }k \text{ occurs the first }n \text{ digits of }x}{n} =\frac1b$$holds $k\in \{0, \dots, b-1\}$. The value $x$ is *normal* if it is normal to base $b$ for every $b$. 
+
+**Prop:**
+- For a given base $b$, then almost every number in $[0, 1]$ is normal to base $b$.
+- Almost every number in $[0, 1]$ is normal.
+
+**Glivenko-Cantelli Theorem:** Let 
 
 # Central Limit Theorem
 

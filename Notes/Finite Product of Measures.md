@@ -33,7 +33,6 @@ Links: [[Measures]], [[Product of σ-Algebras]], [[Measure Spaces and Measurable
 - the relation $$\int_{X\times Y} f\, d(\mu\times \nu) = \int_X I_f\, d\mu = \int_Y J_f\, d\nu$$holds.
 
 **Fubini-Tonelli Theorem:** Let $(X, {\scr A}, \mu)$ and $(Y, {\scr B}, \nu)$ be $\sigma$-finite measure spaces, and let $f:X\times Y \to\overline{\Bbb R}$, then $$\int_{X\times Y} |f|\, d(\mu\times \nu) = \int_X \left(\int_Y |f_x|\, d\nu\right)\, \mu(dx) = \int_Y\left(\int_X |f^y|\,d\mu \right)\, \nu(dy). $$Furthermore, if any of these integrals is finite, then  $$\int_{X\times Y} f\, d(\mu\times \nu) = \int_X \left(\int_Y f_x\, d\nu\right)\, \mu(dx) = \int_Y\left(\int_X f^y\,d\mu \right)\, \nu(dy).  $$
-
 **Prop:** Let $(X, {\scr A}, \mu)$ and $(Y, {\scr B}, \nu)$ be measure spaces, and let $f:X\times Y\to [0, \infty]$ be $\scr A\otimes B$-measurable. If $\mu$ and $\nu$ are sums of series of finite measures, then the function $x\mapsto \int f(x, y)\, \nu(dy)$ and $y\mapsto \int f(x, y)\, \mu(dx)$ are measurable, and  $$\int_X \left(\int_Y f(x, y)\, \nu(dy)\right)\, \mu(dx) =\int_Y \left(\int_X f(x,y) \, \mu(dx)\right)\, \nu(dy). $$
 **Prop:** Let $(X, {\scr A})$ and $(Y, {\scr B})$ be a measurable spaces, let $\mu_1$ and $\mu_2$ be finite measures on $(X, {\scr A})$, and let $\nu_1$ and $\nu_2$ be finite measures on $(Y, {\scr B})$. If $\mu_2 \ll \mu_1$ and $\nu_2\ll\nu_1$, then $\mu_2\times \nu_2\ll \mu_1 \times\nu_1$, and $$\frac{d(\mu_2\times \nu_2)}{d(\mu_1\times \nu_1)}(x, y) = \frac{d\mu_2}{d\mu_1}(x) \frac{d\nu_2}{d\nu_1}(y).$$
 
