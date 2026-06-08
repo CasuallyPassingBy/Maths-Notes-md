@@ -31,7 +31,11 @@ Let $X_1, X_2, \dots$ be independent and identically distributed random variable
 - For a given base $b$, then almost every number in $[0, 1]$ is normal to base $b$.
 - Almost every number in $[0, 1]$ is normal.
 
-**Glivenko-Cantelli Theorem:** Let 
+**Def:** Let $(\Omega, {\scr A},\Bbb P)$ be a probability space, let $\mu$ be a probability distribution on $(\Omega, {\scr A},\Bbb P)$, let $F$ be its distribution function, and let $(X_n)_{n\in \Bbb N}$ be a sequence of independent random variables on $(\Omega, {\scr A}, \Bbb P)$, each of which has distribution $\mu$. For each $\omega\in \Omega$, $(X_n(\omega))_{n\in \Bbb N}$ is a sequence of real numbers, and we can define $(\mu_n^\omega)_{n\in \Bbb N}$ of measures on $( \Bbb R, \mathcal B(\Bbb R))$ by letting $\mu_n := (1/n) \sum_{k<n} \delta_{X_k(\omega)}$. Also, let $F_n^\omega$ be the distribution function of the measure $\mu_n^\omega$; thus,  $$F^\omega_n (x) = \frac1n \sum_{k = 1 ^n} \chi_{(-\infty, x]}\circ X_k(\omega) = \frac{\text{number of }1\le k \le n\text{ for which }X_k(\omega) \le x}{n} $$holds for all $n, \omega \in \Omega$, and $x$. Such functions $F^\omega_n$ are called *empirical distribution functions*. 
+
+**Glivenko-Cantelli Theorem:** Let $(\Omega, {\scr A},\Bbb P)$ be a probability space, let $\mu$ be a probability distribution on $(\Omega, {\scr A},\Bbb P)$, let $F$ be its distribution function, and let $(X_n)_{n\in \Bbb N}$ be a sequence of independent random variables on $(\Omega, {\scr A}, \Bbb P)$, each of which has distribution $\mu$. The empirical distribution functions converge uniformly to the theoretical distrbution function almost surely. That is, there exists a measurable set $\Omega_0\in \scr A$ with $\Bbb P(\Omega_0) = 1$ such that for every $\omega\in \Omega_0$:  $$\lim_{n\to\infty}\sup_{x\in \Bbb R} |F^\omega_n(x) - F(x)| = 0. $$
+
+
 
 # Central Limit Theorem
 

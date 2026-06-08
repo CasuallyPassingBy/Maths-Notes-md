@@ -3,47 +3,32 @@ tags:
   - ProbabilityTheory
 ---
 Subjects: [[Probability Theory]]
-Links: [[Random Variables]], [[Probability Functions for Random Variables]], [[Riemann-Steiltjes Integral on R]], [[Measurable Functions]]
+Links: [[Random Variables]], [[Probability Functions for Random Variables]], [[Riemann-Steiltjes Integral on R]], [[Measurable Functions]], [[Lebesgue Integral on Measure Spaces]]
 
 ## Expected Value
 
 **Def:** If a real-valued random variable $X$ on a probability space $(\Omega, {\scr A}, \Bbb P)$ is integrable with respect to $\Bbb P$, then its *expected value* or *expectation* written $\Bbb E[X]$, is defined $$\Bbb E[X] := \int_\Omega X\,d\Bbb P.$$If $X$ is integrable, one also says that $X$ *has finite expected value* or that $X$ *has an expected value*. 
 
-Let $X$ be a random variable with a distribution function $F$. The expected value of $X$, denoted as $\Bbb E[X]$, it is defined as the number 
-
-$$
-\Bbb E[X] := \int_{\Bbb R} x\, dF(x)
-$$
+Let $X$ be a random variable with a distribution function $F$. The expected value of $X$, denoted as $\Bbb E[X]$, it is defined as the number $$\Bbb E[X] := \int_{\Bbb R} x\, dF(x)$$
 when this integral is absolutely convergent, i.e.,  when the integral $\int_\Bbb R |x| \, dF(x)<\infty$ converges, in this case we say that $X$ is integrable or that it has finite expected value 
 
-Let $X$ be discrete random variable with probability mass function $f$. The expected value of $X$ is defined to be 
-
-$$
-\Bbb E[X]= \sum_{x} xf(x)
-$$
-
+Let $X$ be discrete random variable with probability mass function $f$. The expected value of $X$ is defined to be $$\Bbb E[X]= \sum_{x} xf(x)$$
 supposing that the sum is absolutely convergent, meaning, when the sum of the values converges. 
 
 In the particular cases:
 Let $X$ be a absolutely continuous random variable with probability density function $f$, then the expected value is 
-
 $$
 \Bbb E[X] = \int_\Bbb R x f(x) \, dx
 $$
-Let $X$ be a random variable with a distribution function $F_X$, and let $g:\Bbb R \to \Bbb R$ be a Borel measurable function, then $g(X)$ is a random variable, and we if try to calculate its expected value we get: 
-$$
-\Bbb E[g(X)] = \int_\Bbb R x \, dF_{g(X)}(x)
-$$
+Let $X$ be a random variable with a distribution function $F_X$, and let $g:\Bbb R \to \Bbb R$ be a Borel measurable function, then $g(X)$ is a random variable, and we if try to calculate its expected value we get: $$\Bbb E[g(X)] = \int_\Bbb R x \, dF_{g(X)}(x).$$
 ## **Law of the unconscious statistician**
 If a real-valued random variable $X$ on a probability space $(\Omega, {\scr A}, \Bbb P)$ and $f:\Bbb R\to\Bbb R$ is Borel measurable then  $$\Bbb E[f\circ X] = \Bbb E[f(X)] = \int_\Omega f\circ X \, d\Bbb P = \int_\Bbb R f\, d\Bbb P_X.$$
-
 Let $X$ be a random variable with a distribution function $F_X$, and let $g:\Bbb R \to \Bbb R$ be a Borel measurable function, such that the random variable $g(X)$ has finite expected value. Then 
 $$
 \Bbb E[g(X)] = \int_\Bbb R g(x)\, dF_X(x)
 $$
 In the particular cases that:
-Let $X$ be continuous random variable with probability density function $f$, and $g: \Bbb R \to \Bbb R$ be a function such that $g(X)$ is a random variable with finite expected value then 
-
+Let $X$ be continuous random variable with probability density function $f, g: \Bbb R \to \Bbb R$ be a function such that $g(X)$ is a random variable with finite expected value then 
 $$
 \Bbb E[g(X) ]= \sum_x g(x)f(x)
 $$
@@ -59,7 +44,6 @@ $$
 \Bbb E[\phi(X, Y)] = \int_{\Bbb R} x\, dF_{\phi(X, Y)}(x)
 $$
 #### Expected Value of a Function of a Random Vector
-
 Let $(X, Y)$ be a random vector $\phi:\Bbb R^2\to \Bbb R$ be Borel measurable such that $\phi(X, Y)$ be a random variable with finite expected value. Then we define it as
 $$
 \Bbb E[\phi(X, Y)] = \int_{\Bbb R^2} \phi(x, y)\, dF_{X, Y}(x, y)
@@ -80,12 +64,10 @@ $$
 $$
 
 **Prop:** Properties of the expecte value. Let $X$ and $Y$ be random variables with finite expected value and $c$ a constant. Then 
-
 - $\Bbb E[c] = c$
 - $\Bbb E[cX] = c\Bbb E[X]$
 - If $X \ge0$, then $\Bbb E[X] \ge 0$
 - $\Bbb E[X+Y] = \Bbb E[X]+\Bbb E[Y]$
-
 Then we know that the expected value behaves linearly. 
 
 Let $X$ be a random variable with a distribution function $F$, that admits a decomposition:$$
@@ -104,13 +86,6 @@ $$
 \Bbb E[XY] = \Bbb E[X]\Bbb E[Y]
 $$
 
-**Prop:** Let $X$ be a discrete random variable with cumulative probability function $F(x)$, with a finite expected value and possible values in the set $\Bbb N$. Then 
-
-$$
-\Bbb E[X] = \sum_{x \in \Bbb N}(1-F(x))
-$$
-
-Similarly, let $X$ be a continuous random variable with a cumulative probability function $F$, with finite expected value and values in the interval $[0, \infty)$. Then 
-$$
-\Bbb E[X] = \int_0^\infty (1-F(x)) \, dx
-$$
+**Prop:** Let $X$ be a discrete random variable with cumulative probability function $F(x)$, with a finite expected value and possible values in the set $\Bbb N$. Then  $$
+\Bbb E[X] = \sum_{x \in \Bbb N}(1-F(x)).$$
+Similarly, let $X$ be a continuous random variable with a cumulative probability function $F$, with finite expected value and values in the interval $[0, \infty)$. Then  $$\Bbb E[X] = \int_0^\infty (1-F(x)) \, dx.$$
