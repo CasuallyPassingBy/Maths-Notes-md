@@ -86,6 +86,8 @@ $$
 \Bbb E[XY] = \Bbb E[X]\Bbb E[Y]
 $$
 
-**Prop:** Let $X$ be a discrete random variable with cumulative probability function $F(x)$, with a finite expected value and possible values in the set $\Bbb N$. Then  $$
+**Prop:** Let $(\Omega, {\scr A}, \Bbb P)$ be a probability space. If $X: \Omega\to [0,\infty]$ is a random variable, then  $$\Bbb E[X] = \int(1-\Bbb P(X \le y))\, d\lambda(y) .$$
+
+**Cor:** Let $X$ be a discrete random variable with cumulative probability function $F(x)$, with a finite expected value and possible values in the set $\Bbb N$. Then  $$
 \Bbb E[X] = \sum_{x \in \Bbb N}(1-F(x)).$$
 Similarly, let $X$ be a continuous random variable with a cumulative probability function $F$, with finite expected value and values in the interval $[0, \infty)$. Then  $$\Bbb E[X] = \int_0^\infty (1-F(x)) \, dx.$$

@@ -14,6 +14,6 @@ Let $X$ be a random variable with finite expected value $\mu$ and finite varianc
 ## Extended Chebyshev Inequality
 Let $X$ be a random variable, and $g \ge 0$ be a nondecreasing function such that $g(X)$ is a random variable with finite expected value. For any $\varepsilon>0$, $$\Bbb P(X \ge \varepsilon) \le \frac{\Bbb E[g(X)]}{g(\varepsilon)}$$
 ## Kolmogorov Inquality
-Let $X_1, \dots, X_n$ independent random variables with expected value $0$ and finite second moment. For any $\varepsilon>0$, $$\Bbb P(\max_k\{|X_1 + \dots + X_k|\} \ge \varepsilon ) \le \frac{1}{\varepsilon^2}\sum_{k = 1}^n \text{Var}(X_k)$$
+Let $X_1, \dots, X_n$ independent random variables with expected value $0$ and finite second moment. For any $\varepsilon>0$, $$\Bbb P\left(\max_{1\le k\le n}\{|X_1 + \dots + X_k|\} \ge \varepsilon \right) \le \frac{1}{\varepsilon^2}\sum_{k = 1}^n \text{Var}(X_k) = \frac{1}{\varepsilon^2} \sum_{k = 1}^m \Bbb E[X_k^2]$$
 ## Jensen's Inequality
 Let $\varphi: \Bbb R \to \Bbb R$ be a convex function. If $X$ is a real-valued random variable such that $\Bbb E[|X|] <\infty$, then $$\varphi(\Bbb E[X]) \le \Bbb E[\varphi(X)]. $$

@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Weak Topology]], [[Topological Subspaces]]
+Links: [[Strong Topology]], [[Topological Subspaces]]
 
 **Def:** Suppose $X$ is a topological space, and $\cal B$ is any family of subspaces of $X$ whose union is $X$. To say that the topology of $X$ is *coherent with $\cal B$* means that a subset $U\subseteq X$ is open in $X$ iff its intersection with each $B\in \cal B$ is open in $B$. The same applies for closed sets. 
 

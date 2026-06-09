@@ -7,44 +7,46 @@ aliases:
   - Projective Topology
 ---
 Subjects: [[Topology]]
-Links: [[Strong Topology]], [[Continuous Functions and Homeomorphims]], [[Topological Spaces]], [[Bases, Subbases, and Local Basis for Topological Spaces]]
+Links: [[Continuous Functions and Homeomorphims]], [[Topological Spaces]], [[Bases, Subbases, and Local Basis for Topological Spaces]], [[Strong Topology]]
 
-We would like to find the dual of the [[Strong Topology]].
+We would like to find the dual of the [[Strong Topology]]. 
 
-Let's consider $X$ a topological space, $Y$ a set, and $f:X \to Y$. We would like to construct the the finest topology of $Y$ that makes $f$ continuous, denoted as $\tau_f$, and we satisfies the property:
-- For any topological space $Z$, a function $g: Y \to Z$ is continuous iff $g\circ f$ is continuous
+**Prop:** Let $(Y, \tau)$ be a topological space, $X$ be a set and $f: X \to Y$. The set $$\;_f \tau := f^{-1}[\tau]$$is a topology on $X$. 
+
+**Def:** The topology$\;_f \tau$ is called the *initial topology on $X$ defined by $f$ and $(Y, \tau)$*, or *the weak topology on $X$ induced by $f$*. 
+
+**Prop:** The topology$\;_f \tau$ is the smallest (or weakest) of the topologies of $X$ that make the function $f$ continuous.
+
+**Universal Property of the Weak Topology:** Let $Y$ be a topological space, and $f:X \to Y$ be a functions. For any topological space $Z$, a function $g: Z \to (X, \,_f \tau)$ is continuous iff $g\circ f$ is continuous. 
 
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
 \begin{tikzcd}[row sep=2cm, column sep=2cm]
-X \arrow[dr,"g\circ f"'] \arrow[r, "f"] & Y \arrow[d, "g"] \\ 
-& Z
+Z \arrow[dr,"f\circ g"'] \arrow[r, "g"] & (X, \,_f \tau) \arrow[d, "f"] \\ 
+& Y
 \end{tikzcd}
 \end{document}
 ```
 
-We propose a candidate for $\tau_f$ as $\{E \subseteq Y \mid f^{-1}[E] \in \tau\}$. 
+Additionally, $\,_f\tau$ is the only topology on $X$ that satisfies the condition above. 
+
+We can generalise this to a family of functions and topological spaces. 
+
+Let $\{(Y_\alpha, \kappa_\alpha) \mid \alpha < \kappa\}$ be a family of topological spaces and $\mathcal F = \{f_\alpha: X \to Y_\alpha \mid \alpha < \kappa\}$ be a family of functions defined on $X$. We may denote by $\,_{\mathcal F} \tau$ to be the smallest topology on $X$ that make each $f \in \mathcal F$ continuous.
 
 **Th:**
-- The family $\tau_f$ is a topology on $Y$.
-- The function $f:(X, \tau) \to (Y, \tau_f)$ is continuous and $\tau_f$ is the finest topology on $Y$ that satisfy this property
-- $\tau_f$ is the only topology on $Y$ satisfies the property above.
+- The family $\mathcal S = \{f^{-1}_\alpha[A] \mid \alpha <\kappa, A \in \tau_\alpha\} = \bigcup_{\alpha< \kappa} f^{-1}_\alpha[\tau_\alpha]$ is a subbase of the topology $\,_{\mathcal F} \tau$ 
+- $\,_{\mathcal F} \tau$ is the unique topology that satisfies the following: for each topological space $Z$ and any function $g: Z \to (X,\,_\mathcal F \tau)$, $g$ is continuous iff $f\alpha \circ g$ is continuous for each $\alpha <\kappa$. 
 
-We can generalise this technique, in an analogue way as we did with the initial topology. Let $\{(X_\alpha, \tau_\alpha) \mid \alpha < \kappa\}$ be a family of nonempty topological spaces and $\mathcal F = \{f_\alpha: X_\alpha \to Y\mid \alpha < \kappa\}$, we can define the collection of subsets $\tau_\mathcal F$ of all subsets of $Y$ that satisfy $f_\alpha^{-1}[E] \in \tau_\alpha$ for each $\alpha < \kappa$. 
-
-**Th:**
-- The collection $\tau_\mathcal F$ is a topology on $Y$.
-- Each $f_\alpha: (X_\alpha, \tau_\alpha) \to (Y, \tau_\mathcal F)$ is continuous for each $\alpha < \kappa$, and $\tau_\mathcal F$ is the finest topology of $Y$ with this property.
-- $\tau_\mathcal F$ is the unique topology on $Y$ that satisfies: For any topological space $Z$, a function $g: (Y, \tau_\mathcal F) \to Z$ is continuous iff $g\circ f_\alpha$ is continuous for each $\alpha < \kappa$. 
 ```tikz
 \usepackage{tikz-cd} 
 \begin{document} 
 \begin{tikzcd}[row sep=2cm, column sep=2cm]
-X_\alpha \arrow[dr,"g\circ f_\alpha"'] \arrow[r, "f_\alpha"] & (Y, \tau_\mathcal F) \arrow[d, "g"] \\ 
-& Z
+Z \arrow[dr,"f_\alpha \circ g"'] \arrow[r, "g"] & (X, \,_\mathcal F \tau) \arrow[d, "f_\alpha"] \\ 
+& Y_\alpha
 \end{tikzcd}
 \end{document}
 ```
 
-**Def:** A topology $\tau_\mathcal F$ is called the *strong topology* or the *final topology*,on $Y$ defined by the family of functions $\mathcal F$ and the family of topological spaces $\{(X_\alpha, \tau_\alpha) \mid \alpha < \kappa\}$. 
+**Def:** Let $\mathcal C = \{ (X_\alpha, \tau_\alpha)\mid \alpha < \kappa\}$ be a collection of topological space, $X$ a set, and $\mathcal F = \{f_\alpha: X \to X_\alpha\mid \alpha<\kappa\}$ be a collection of functions. The topology $\,_{\mathcal F} \tau$ on $X$ is called *the weak topology* or *the initial topology induced by $\mathcal F$ (and $\mathcal C$).* 

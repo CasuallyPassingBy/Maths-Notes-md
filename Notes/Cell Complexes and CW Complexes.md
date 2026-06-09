@@ -30,7 +30,7 @@ Any space homeomorphic to such an adjunction space is said to be obtained from $
 - $(W)$ The topology of $X$ is coherent with the family of closed subspaces $\overline{\cal E}$. 
 A cell decomposition of a space $X$ satisfying the conditions above is called a *CW decomposition of $X$*. The letters $C$ and $W$ come from these two conditions: 
 - condition $C$ was called *closure finiteness*.
-- condition $W$ was called the [[Weak Topology|weak topology]] associated with the subspaces $\overline {\cal E}$ 
+- condition $W$ was called the [[Strong Topology|weak topology]] associated with the subspaces $\overline {\cal E}$ 
 
 **Prop:** Let $X$ be a $T_2$ space, and let $\cal E$ be a cell decomposition of $X$. If $\cal E$ is locally finite, then it is a CW decomposition.
 

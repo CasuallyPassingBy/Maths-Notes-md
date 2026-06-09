@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Strong Topology]], [[Continuous Functions and Homeomorphims]], [[Separable, First and Second Countable Spaces]], [[Functions]]
+Links: [[Weak Topology]], [[Continuous Functions and Homeomorphims]], [[Separable, First and Second Countable Spaces]], [[Functions]]
 
 # Finite Products
 

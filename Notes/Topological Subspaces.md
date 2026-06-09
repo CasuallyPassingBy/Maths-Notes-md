@@ -3,7 +3,7 @@ tags:
   - Topology
 ---
 Subject: [[Topology]]
-Links: [[Topological Spaces]], [[Bases, Subbases, and Local Basis for Topological Spaces]], [[Strong Topology]], [[Continuous Functions and Homeomorphims]], [[Separation Axioms]]
+Links: [[Topological Spaces]], [[Bases, Subbases, and Local Basis for Topological Spaces]], [[Weak Topology]], [[Continuous Functions and Homeomorphims]], [[Separation Axioms]]
 
 Given a topological space $(X, \tau)$, and $Y \subseteq X$, we can define the set
 $$
