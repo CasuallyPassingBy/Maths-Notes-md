@@ -67,7 +67,8 @@
               "title": "Topological Dual Vector Space"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -240,12 +241,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "95101a3ec876dd73",
+  "active": "ff53385131ce7146",
   "lastOpenFiles": [
-    "Almost finished projects.md",
-    "Interesting Stuff I want continue Learning.md",
-    "Central Hub.md",
     "Probability Theory.md",
+    "Interesting Stuff I want continue Learning.md",
+    "Almost finished projects.md",
+    "Central Hub.md",
     "Topological Dual Vector Space.md",
     "Integration of Differential Forms on Smooth Manifolds.md",
     "Limit Theorems of Probability.md",
