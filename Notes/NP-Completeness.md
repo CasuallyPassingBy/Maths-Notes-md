@@ -66,8 +66,7 @@ We say that [[Boolean Circuit Complexity|Boolean circuit]] is *satisfiable* if s
 If $G$ is an undirected graph a *vertex cover* of $G$ is a subset of nodes where every edge of $G$ touches one of the nodes. The vertex cover problem asks whether a graph contains a vertex cover of a specified size: $$\text{Vertex-Cover}:= \{\langle G, k \rangle \mid \text{$G$ is an undirected graph that has a $k$-node vertex cover}\}. $$
 **Th:** $\text{Vertex-Cover}$ is $\sf NP$-complete. 
 
-**Th:** $\text{HamPath}$ is $\sf NP$-complete.
-
+**Th:** $\text{HamPath}$ is $\sf NP$-complete. 
 **Th:** If $\text{UHampPath}$ represents is the problem of a Hamiltonian path in an undirected graph. the $\text{UHamPath}$ is $\sf NP$-complete. 
 
 **Th:** $\text{Subset-Sum}$ is $\sf NP$-complete. 

@@ -41,6 +41,12 @@
 	- [ ] Engelking
 		- [x] Topological Spaces
 		- [ ] Operations on Topological Spaces
+			- [x] Subspaces
+			- [x] Sums
+			- [ ] Products
+			- [ ] Quotients
+			- [ ] Limits
+			- [ ] Function Spaces
 		- [ ] Compact spaces
 		- [ ] Metric and metrizable spaces 
 		- [ ] Connected spaces

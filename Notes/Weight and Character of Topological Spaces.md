@@ -30,6 +30,10 @@ Links: [[Bases, Subbases, and Local Basis for Topological Spaces]]
 
 **Prop:** If $f:X \to Y$ is a closed continuous function, and $B\subseteq Y$, then $\chi(f^{-1}[B], X) \le \chi(B, Y)$, additionally, if $f$ is surjective, then $\chi(f^{-1}[B], X) = \chi(B, Y)$.
 
+**Prop:** For $X = \bigoplus_{s\in S} X_s$ we see that $w(X) = |S| \cdot \sup\{w(X_s) \mid s\in S\}$, $d(X) = |S| \cdot \sup\{d(X_s) \mid s\in S\}$, $\chi(x, X) = \chi(x, X_s)$ for some $s\in S$ such that $x\in X_s$, and $\chi(X) = \sup\{\chi(X_s) \mid s\in S\}$. 
+
+**Th:** Let $\aleph_0\le \kappa$ be a cardinal number. If $w(X_\alpha) \le \kappa$, for every $\alpha <\tau$ and $\tau\le \kappa$, then $w(\prod_{\alpha<\tau} X_\alpha)\le \kappa$. If $\chi(X_\alpha) \le \kappa$ for every $\alpha <\tau$, and $\tau\le \kappa$, then $\chi(\prod_{\alpha<\tau}X_\alpha)\le \kappa$. 
+
 **Th:** Every infinite $T_2$ compact space $X$ satisfies $|X| \le \exp(\chi(X))$
 
 **Cor:** very infinite first countable $T_2$ compact space $X$ satisfies $|X| \le \frak c$.
