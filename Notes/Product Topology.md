@@ -3,25 +3,7 @@ tags:
   - Topology
 ---
 Subjects: [[Topology]]
-Links: [[Weak Topology]], [[Continuous Functions and Homeomorphims]], [[Separable, First and Second Countable Spaces]], [[Functions]], [[Tychonoff spaces]], [[Separation Axioms]]
-
-# Finite Products
-
-**Def:** We call the functions $\pi_X: X \times Y \to X$ and $\pi_Y: X \times Y \to X$, defined as $\pi_X(x, y) = x$ and $\pi_Y(x, y) =y$ are the *projections*. 
-
-**Def:** Given two topological spaces $(X, \tau_X)$ and $(Y, \tau_Y)$, we call the *product topology* or *the Tychonoff Topology* on $X \times Y$, to the initial topology induced by their projections. Meaning is the smallest topology on $X \times Y$ that make $\pi_X$ and $\pi_Y$ continuous.
-
-**Obs:** We can see that $\{U \times V \mid U \in \tau_X, V \in \tau_Y\}$ forms a base of the product topology $\tau$.
-
-Since we can define the product topology of two spaces, then we can inductively define for a finite product of spaces. Let $(X_1, \tau_1), \dots, (X_k, \tau_k)$ be topological spaces, then the product topology of $X_1 \times \dots \times X_k$ is the initial topology induced by $\{\pi_i: X_1 \times \dots \times X_k \to X_i \mid i\in \{1, \dots, k\}\}$ where $\pi_i: X_1 \times \dots \times X_k \to X_i$ is the *projection to the $i$th coordinate* ($\pi_i(x_1, \dots, x_k) = x_i$). When all of the sets are the same, then we denote it as $X^k$ instead of $X \times \dots \times X$ $k$-times.
-
-**Prop:** Let $\pi_X: X \times Y \to X$ and $\pi_Y: X \times Y \to X$ are continuous and open functions when we consider $X\times Y$ having the the product topology.
-
-**Def:** When a topological property $P$ that is shared between $X$ and $Y$, and is conserved when we consider the product topology on $X\times Y$ we say that $P$ is a *finitely productive property*. 
-
-**Prop:** If $X$ and $Y$ are topological spaces that are second countable/first countable/separable, then $X \times Y$ is also second countable/first countable/separable.
-
-# Arbitrary Products
+Links: [[Weak Topology]], [[Continuous Functions and Homeomorphims]], [[Separable, First and Second Countable Spaces]], [[Functions]], [[Tychonoff spaces]], [[Separation Axioms]], [[Convergence of Nets]], [[Convergence of Filters]]
 
 Let consider the family of nonempty topological spaces $\{(X_\alpha, \tau_\alpha) \mid \alpha < \kappa\}$, where $\kappa$ is a nonzero cardinal. Remember that $$ \prod_{\alpha< \kappa} X_i = \left\{ \left. f:\kappa\to \bigcup_{\alpha < \kappa}X_\alpha\; \right|\; \forall \alpha< \kappa[f(\alpha) \in X_\alpha]\right\} $$
 For each $\alpha< \kappa$, we can define the function $\pi_\alpha: \prod_{\beta<\kappa}X_\beta \to X_\alpha$ as $\pi_\alpha(f) = f(\alpha)$ for each $\prod_{\beta<\kappa}X_\beta$. To $\pi_\alpha$ is called the *$\alpha$th projection.* We group the projections into a collection $\mathcal P = \{\pi_\alpha \mid \alpha < \kappa\}$.
@@ -134,3 +116,15 @@ Y \arrow[r,"f_\alpha"'] \arrow[ur, dashed,"f"] & X_\alpha
 
 **Def:** By the *graph of a mapping* $f$ of space $X$ to a space $Y$, we mean the subset of the Tychonoff product $X \times Y$ defined by $$ \Gamma(f) := \{(x, y) \in X \times Y \mid y = f(x) \}. $$
 **Cor:** For every continuos $f:X \to Y$ the graph $\Gamma(f)$ is the image of $X$ under the homeomorphic emebedding $\text{id}_X \Delta f: X \to X\times Y$. The restriction $\pi|_{\Gamma(f)}$ of the projection $\pi: X\times Y \to X$ is a homeomorphism. if $Y$ is Hausdorff, then $\Gamma(f)$ is closed subset of $X\times Y$.
+
+**Prop:** If The Cartesian product $f:= \prod_{\alpha<\kappa} f_\alpha$, where $f_\alpha: X_\alpha\to Y_\alpha$ and $X_\alpha \neq \varnothing$  for $\alpha<\kappa$ is closed, then all mappings $f_\alpha$ are closed. 
+
+**Prop:** If The Cartesian product $f:= \prod_{\alpha<\kappa} f_\alpha$, where $f_\alpha: X_\alpha\to Y_\alpha$ and $X_\alpha \neq \varnothing$  for $\alpha<\kappa$ is open iff all the functions $f_\alpha$ are open and there exists a finite set $F\in [\kappa]^{<\omega}$ such that $f_\alpha$ is surjective for $\alpha \in \kappa\setminus F$. 
+
+**Prop:** If the mappings $f_0, \dots, f_k$ where $f_i: X\to Y_i$ are closed $Y_1$ is a $T_0$-space and $Y_1,\dots, Y_k$ are $T_3$-spaces, then the diagonal $\Delta_{n<k+1} f_n$ is closed. 
+
+**Prop:** If the diagonal $\Delta_{\alpha<\kappa} f_\alpha$, where $f_\alpha: X\to Y_\alpha$, is open, then all mappings $f_\alpha$ are open. 
+
+**Prop:** A net $(x_\sigma)_{\sigma\in \Sigma}$ in the Tychonoff product $\prod_{\alpha<\kappa} X_\alpha$ converges to $x\in \prod_{\alpha<\kappa} X_\alpha$ iff the net $(\pi_\alpha(x_\sigma))_{\sigma\in\Sigma}$  converges to $\pi_\alpha(x)$ for every $\alpha<\kappa$. 
+
+**Prop:** If $\cal F$ is filter in the Tychonoff product $\prod_{\alpha<\kappa} X_\alpha$ converges to $x\in \prod_{\alpha<\kappa} X_\alpha$ iff the filter $\pi_\alpha[\mathcal F]$  converges to $\pi_\alpha(x)$ for every $\alpha<\kappa$. 
