@@ -75,7 +75,7 @@ If $(i_n: X_n \to X_{n+1})_{n < \omega}$ is a sequence of closed embeddings betw
 
 **Lemma:** The space $[0, \omega)^{\omega_1}$ is not a normal space.
 
-**Cor:** Let $\{(X_\alpha, \tau_\alpha) \mid \alpha < \kappa\}$ be a family of not indiscrete topological spaces. If $\kappa > \omega$, then $\prod_{\alpha < \kappa} X_\alpha$ is not hereditarily normal.
+**(Pospíšil) Cor:** Let $\{(X_\alpha, \tau_\alpha) \mid \alpha < \kappa\}$ be a family of not indiscrete topological spaces with $|X_\alpha| > 1$. If $\kappa > \omega$, then $\prod_{\alpha < \kappa} X_\alpha$ is not hereditarily normal.
 
 One can be tempted to compare [[collectionwise normal spaces]] to hereditarily normal spaces, but these properties are completely independent of each other.
 

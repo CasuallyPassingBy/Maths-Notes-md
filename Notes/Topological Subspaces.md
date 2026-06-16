@@ -72,7 +72,7 @@ For any continuous mapping $f: X \to Y$ and a subspace $M$ of $X$, the compositi
 - If $T$ is a subspace of $Y$ that contains $f[X]$, then $f:X \to T$ is continuous.
 - If $Y$ is a subspace of $Z$, then $f:X \to Z$ is continuous.
 
-**Prop:** Let $f: X \to Y$ and $g: Y \to X$ be maps between topological spaces. if $g \circ f$ is a closed/open, then the restriction $g|_{f[X]}: f[X] \to Z$ is closed/open.
+**Prop:** Let $f: X \to Y$ and $g: Y \to X$ be maps between topological spaces. If $g \circ f$ is a closed/open, then the restriction $g|_{f[X]}: f[X] \to Z$ is closed/open.
 
 **Prop:** If $f: X\to Y$ is a closed/open mapping for any subspace $L\subseteq Y$ the restriction $f_L: f^{-1}[L] \to L$ is closed/open.
 
