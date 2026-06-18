@@ -2,7 +2,7 @@
 tags:
   - Topology
 ---
-Subjects: [[Topology]]
+deSubjects: [[Topology]]
 Links: [[Weak Topology]], [[Continuous Functions and Homeomorphims]], [[Separable, First and Second Countable Spaces]], [[Functions]], [[Tychonoff spaces]], [[Separation Axioms]], [[Convergence of Nets]], [[Convergence of Filters]], [[Topological Subspaces]]
 
 Let consider the family of nonempty topological spaces $\{(X_\alpha, \tau_\alpha) \mid \alpha < \kappa\}$, where $\kappa$ is a nonzero cardinal. Remember that $$ \prod_{\alpha< \kappa} X_i = \left\{ \left. f:\kappa\to \bigcup_{\alpha < \kappa}X_\alpha\; \right|\; \forall \alpha< \kappa[f(\alpha) \in X_\alpha]\right\} $$
@@ -67,8 +67,6 @@ $$for each $\alpha < \kappa$.
 - $\prod_{\alpha < \kappa}f_\alpha$ is continuous iff for each $\alpha<\kappa$, $f_\alpha$ is continuous.
 - $\prod_{\alpha < \kappa} f_\alpha$ is open iff for each $\alpha < \kappa$, $f_\alpha$ is open. 
 
-**Obs:** Let $\{f_\alpha:X \to Y_\alpha\mid \alpha<\kappa\}$ a collection of continuous functions. If $A\subseteq X$ and $\{B_\alpha\subseteq Y_\alpha\mid \alpha<\kappa\}$, then  $$\left(\Delta_{\alpha<\kappa} f_\alpha\right)\left[A\right] \subseteq \prod_{\alpha<\kappa} f_\alpha[A] \quad \text{and}\quad \left(\prod_{\alpha<\kappa} f_\alpha\right)^{-1}\left[\prod_{\alpha<\kappa} B_\alpha\right] = \bigcap_{\alpha<\kappa} f_\alpha^{-1}[B_\alpha]. $$
-
 **Universal Property of the Product Topology:** If $Y$ is topological space, and for every $\alpha < \kappa$, $f_\alpha: Y \to X_\alpha$ is a continuous function, then there exists *precisely one* continuous map $f: Y \to \prod_{\beta<\kappa}X_\beta$ such that for every $\alpha < \kappa$ the following diagram:
 ```tikz
 \usepackage{tikz-cd} 
@@ -85,6 +83,9 @@ Y \arrow[r,"f_\alpha"'] \arrow[ur, dashed,"f"] & X_\alpha
 - For every space $Y$ and a continuous mappings $\{f_\alpha: Y\to X_\alpha\mid \alpha<\kappa\}$, there exists a continuous function $f: Y\to X$ such that $\pi_\alpha \circ f= f_\alpha$ for every $\alpha<\kappa$. 
 
 **Def:** Let $X$ be a topological space and for each $\alpha < \kappa$, there's a function $f_\alpha: X \to Y_\alpha$ where $Y_\alpha$ is a topological space. We define the *diagonal function $\Delta_{\alpha<\kappa} f_\alpha$* with domain $X$ and codomain $\prod_{\alpha < \kappa}Y_\alpha$ defined as follows: $$(\Delta_{\alpha<\kappa} f_\alpha)(x)(\beta) = f_\beta(x).$$
+
+**Obs:** Let $\{f_\alpha:X \to Y_\alpha\mid \alpha<\kappa\}$ a collection of continuous functions. If $A\subseteq X$ and $\{B_\alpha\subseteq Y_\alpha\mid \alpha<\kappa\}$, then  $$\left(\Delta_{\alpha<\kappa} f_\alpha\right)\left[A\right] \subseteq \prod_{\alpha<\kappa} f_\alpha[A] \quad \text{and}\quad \left(\Delta_{\alpha<\kappa} f_\alpha\right)^{-1}\left[\prod_{\alpha<\kappa} B_\alpha\right] = \bigcap_{\alpha<\kappa} f_\alpha^{-1}[B_\alpha]. $$
+
 **Prop:** Let $X$ be a topological space and for each $\alpha < \kappa$, there's a function $f_\alpha: X \to Y_\alpha$ where $Y_\alpha$ is a topological space. The diagonal function $\Delta_{\alpha<\kappa} f_\alpha$ has the following properties:
 - $\Delta_{\alpha<\kappa} f_\alpha$ is continuous if for each $\alpha < \kappa$, $f_\alpha$ is continuous.
 - $\Delta_{\alpha<\kappa} f_\alpha$ is open if for each $\alpha < \kappa$, $f_\alpha$ is open.

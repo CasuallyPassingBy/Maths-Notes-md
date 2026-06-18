@@ -5,7 +5,7 @@ tags:
 Subjects: [[Topology]]
 Links: [[Strong Topology]], [[Equivalence Relations and Partitions]]
 
-**Def:** Let $(X, \tau)$ is a topological space, $Y$ a set, and $q: X \to Y$ a surjective function. The pair $(Y, \tau_q)$, where $\tau_q$ is the [[Strong Topology]] on $Y$ defined by $q$ and $(X,\tau)$, we called the *quotient space* determined by $(X, \tau)$ and $q$. By the definitions of the final topology we get that $$\tau_q = \{A \subseteq Y \mid q^{-1}[A] \in\tau\}.$$
+**Def:** Let $(X, \tau)$ is a topological space, $Y$ a set, and $q: X \to Y$ a surjective function. The pair $(Y, \tau_q)$, where $\tau_q$ is the [[Strong Topology|strong topology]] on $Y$ defined by $q$ and $(X,\tau)$, we called the *quotient space* determined by $(X, \tau)$ and $q$. By the definitions of the final topology we get that $$\tau_q = \{A \subseteq Y \mid q^{-1}[A] \in\tau\}.$$
 **Th:** If $(Y, \tau_q)$ is the quotient space determined by $q: (X, \tau) \to Y$, then $\tau_q$ is the finest topology on $Y$ that makes $q$ continuous, and is the unique topology on $Y$ that satisfy: for any topological space $Z$ and any $g:(Y, \tau_q) \to Z$, $g$ is continuous iff $g \circ q$ is continuous: 
 
 ```tikz
@@ -83,6 +83,7 @@ In this situation, we say that $f$ *passes to the quotient* or *descends to the 
 - If $\{q_\alpha:X_\alpha \to Y_\alpha \mid \alpha < \kappa\}$ is an indexed family of quiteint maps, then the map $q: \coprod_{\alpha < \kappa} X_\alpha \to\coprod_{\alpha < \kappa} Y_\alpha$ whose restriction to each $X_\alpha$ is equal to $q_\alpha$ is a quotient map.
 
 **Prop:** If $q:X\to Y$ is a surjective continuos maps that is also open or closed, then it is a quotient map. 
+
 # Cones
 
 If $X$ is any topological space the quotient $(X\times [0, 1])/(X \times \{0\})$ obtained from the 'cylinder' $X\times I$ by collapsing one end point to a point is called the *cone on $X$*, and is denoted by $CX$. 

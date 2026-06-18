@@ -40,3 +40,4 @@ Links: [[Fréchet Spaces]], [[Kolmogorov Spaces]], [[Convergence of Sequences]],
 
 **Prop:** Let $X$ be an infinite $T_2$ space, then $X$ contains a subspace that is homeomorphic to $\omega$.
 
+**Prop:** If a topological property $P$ is hereditary with respect to both closed subsets and open subsets and is countably multiplicative, then in the class of $T_2$-spaces, $P$ is hereditary with respect to $G_\delta$-sets. 

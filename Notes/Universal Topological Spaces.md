@@ -11,6 +11,8 @@ Links: [[Topological Spaces]], [[Continuous Functions and Homeomorphims]], [[Pro
 
 **Th:** Let $\kappa \ge  \aleph_0$ be a cardinal number. The Tychonoff cube $I^\kappa$ is universal for all Tychonoff spaces of weight $\kappa$. 
 
+**Th (van der Slot):** If a topological property $P$ is hereditary to both open and closed subsets and open subsets and is multiplicative, then if the closed interval $I$ has $P$, then all Tychonoff spaces have $P$. 
+
 **Def:** Let $\kappa \ge  \aleph_0$ be a cardinal number. The *Cantor cube of weight* $\kappa$ is the space $2^\kappa$. The Cantor cube $2^\omega$ or $2^{\aleph_0}$ is called the *Cantor set*. 
 
 **Th:** Let $\kappa \ge  \aleph_0$ be a cardinal number. For every $x\in 2^\kappa$, we have $\chi(x, 2^\kappa) = \kappa$. 

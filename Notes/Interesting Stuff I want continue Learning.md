@@ -43,7 +43,7 @@
 		- [ ] Operations on Topological Spaces
 			- [x] Subspaces
 			- [x] Sums
-			- [ ] Products
+			- [x] Products
 			- [ ] Quotients
 			- [ ] Limits
 			- [ ] Function Spaces
@@ -56,7 +56,7 @@
 		- [x] Espacios topológicos
 		- [x] La cerradura, el interior, y otros operadores
 		- [x] Funciones continua y propiedades ligadas a la numberabilidad
-		- [ ] Construcción de espacios topológicos a partir de espacios dados
+		- [x] Construcción de espacios topológicos a partir de espacios dados
 		- [x] Axioms de separación
 		- [ ] Espacios normales y completamente regulares
 		- [ ] Espacios compactos
@@ -193,7 +193,8 @@
 	- [ ] Evans
 	- [ ] Folland
 ## Combinatorics
-- [ ] Concrete Mathematics by Knuth
+- Combinatorics
+	- [ ] Concrete Mathematics by Knuth
 - Graph Theory
 	- [ ] 'Graph Theory with Algorithms and its Applications' by Saha Ray
 	- [ ] Diestel
@@ -301,8 +302,8 @@
 	- [ ] Diseño de Redes Neuronales en Grafos y su Aplicación en Neurociencias
 		- [x] Spectral Graph Theory
 		- [x] Signal Processing on Graphs
-		- [ ] Neural Networks on Graphs
-		- [ ] SumGCN
+		- [x] Neural Networks on Graphs
+		- [x] SumGCN
 		- [ ] GNNs for the Detection of ADHD
 ## Other
 - [ ] Finite Operator Calculus (Finite Operator Calculus.pdf)
