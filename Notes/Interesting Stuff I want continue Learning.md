@@ -66,10 +66,8 @@
 - Algebraic Topology
 	- [x] Introduction to Topological Manifolds by Lee 
 	- [ ] Algebraic Topology by Hatcher 
-
 - Topological Groups
 	- [ ] "Topological Groups and Related Structures" by Alexander Arhangel'skiĭ and Mikhail Tkachenko
-
 ## Algebra
 -  Group Theory
 	- [ ] Dummit & Foote
@@ -299,12 +297,8 @@
 - Information theory
 	- [ ] Cover & Thomas
 - GNNs
-	- [ ] Diseño de Redes Neuronales en Grafos y su Aplicación en Neurociencias
-		- [x] Spectral Graph Theory
-		- [x] Signal Processing on Graphs
-		- [x] Neural Networks on Graphs
-		- [x] SumGCN
-		- [ ] GNNs for the Detection of ADHD
+	- [x] Diseño de Redes Neuronales en Grafos y su Aplicación en Neurociencias
+
 ## Other
 - [ ] Finite Operator Calculus (Finite Operator Calculus.pdf)
 - [ ] Umbral Calculus (Pure and Applied Mathematics 111)

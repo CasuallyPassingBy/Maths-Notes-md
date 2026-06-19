@@ -23,18 +23,13 @@
             }
           },
           {
-            "id": "5b6278d413a1b936",
+            "id": "924732b196763b7e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topological Subspaces.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Topological Subspaces"
+              "title": "New tab"
             }
           }
         ]
@@ -213,10 +208,10 @@
   },
   "active": "2e752fba7a521b3e",
   "lastOpenFiles": [
+    "Interesting Stuff I want continue Learning.md",
     "Topological Subspaces.md",
     "Almost finished projects.md",
     "Quotient Topology.md",
-    "Interesting Stuff I want continue Learning.md",
     "Topology.md",
     "Product Topology.md",
     "Universal Topological Spaces.md",
