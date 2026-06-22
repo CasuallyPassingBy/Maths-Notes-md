@@ -28,10 +28,14 @@
 	- [ ] How does $\mathcal F\langle X\rangle$ being an $\aleph$-space transfer to $X$?
 
 - [ ] Is there a good way to define the Fourier transform and convolution on oriented Riemannian Manifolds?
-	- [ ] Can we do it using the Laplace-Beltrami operator?
-	- [ ] Can we do it as a homogeneous space?
+	- [x] Can we do it using the Laplace-Beltrami operator?
+		- Yes, and it gives us the spectral convolution
+	- [x] Can we do it as a homogeneous space?
+		- Yes, and that is a special type of group based neural networks.
 	- [ ] Can I translate the vocabulary from GCNs to Riemannian manifolds?
-		- [ ] How do I translate the translation matrix to the Riemannian context?
-			- Maybe considering like a Lie algebra action on the manifold.
+		- [x] How do I translate the translation matrix to the Riemannian context?
+			- Maybe considering like a Lie algebra action on the manifold. Fortunately most of it revolves around the Laplacian, and we know how to deal with that
+	- [ ] What is the continuous limit of the Anti-Laplacian?
+		- It is complicted, [[The Continuous Analogue of the Anti-Laplacian]]
 
 - [ ] What is the topology of the reals when we add infinitesimals?
