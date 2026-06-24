@@ -38,21 +38,6 @@
             }
           },
           {
-            "id": "c72722226e3e1b5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fredholm Integral Equation of the Second Kind.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Fredholm Integral Equation of the Second Kind"
-            }
-          },
-          {
             "id": "bb92ccb34b23369a",
             "type": "leaf",
             "state": {
@@ -68,28 +53,33 @@
             }
           },
           {
-            "id": "b074de675517f93b",
+            "id": "20b79148c6fa2592",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Important Probability Inequalities.md",
+                "file": "Integration on Riemannian Manifolds.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Important Probability Inequalities"
+              "title": "Integration on Riemannian Manifolds"
             }
           },
           {
-            "id": "493083052b2b8542",
+            "id": "e1164b4b88d6387b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Laplace-Beltrami Operator on Riemannian Manifolds.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Laplace-Beltrami Operator on Riemannian Manifolds"
             }
           }
         ],
@@ -266,17 +256,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "bb92ccb34b23369a",
+  "active": "20b79148c6fa2592",
   "lastOpenFiles": [
-    "home/passingmei/Downloads/TT_JCSS_08.pdf.md",
     "The Continuous Analogue of the Anti-Laplacian.md",
+    "Integration on Riemannian Manifolds.md",
+    "Laplace-Beltrami Operator on Riemannian Manifolds.md",
+    "Limit Theorems of Probability.md",
+    "The Exterior Derivative on Smooth Manifolds.md",
+    "Stokes's Theorem and Smooth Manifolds with Corners.md",
+    "Fredholm Integral Equation of the Second Kind.md",
+    "Important Probability Inequalities.md",
+    "Annoying Questions.md",
+    "home/passingmei/Downloads/TT_JCSS_08.pdf.md",
     "home/passingmei/Downloads",
     "home/passingmei",
     "home",
-    "Annoying Questions.md",
-    "Fredholm Integral Equation of the Second Kind.md",
-    "Limit Theorems of Probability.md",
-    "Important Probability Inequalities.md",
     "Interesting Stuff I want continue Learning.md",
     "Topological Subspaces.md",
     "Almost finished projects.md",
@@ -293,10 +287,6 @@
     "Lašnev Spaces.md",
     "Convergence of Nets.md",
     "Separation Axioms.md",
-    "Sum Topology.md",
-    "Strong Topology.md",
-    "Weight and Character of Topological Spaces.md",
-    "Density of a Topological Space.md",
     "Pasted image 20240118182937.png",
     "Pasted image 20240118183035.png",
     "Pasted image 20240118230028.png",

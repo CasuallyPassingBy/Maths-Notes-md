@@ -82,9 +82,9 @@ The need to generalise this operations of vector calculus from $\Bbb R^3$ to hig
 
 Let $(M ,g)$ be an oriented Riemannian manifold. 
 
-**Def:** For $1\le k \le n$, define a map $d^*: \Omega^k(M) \to \Omega^{k-1}(M)$ by $$d^*\omega:= (-1)^{n(k+1)+1}\star d \star \omega,  $$where $\star$ si the Hodge star operator. We extend this definition to $0$-forms by defining $d^*\omega = 0$ for $\omega\in \Omega^0(M)$.
+**Def:** For $1\le k \le n$, define a map $\delta: \Omega^k(M) \to \Omega^{k-1}(M)$ by $$\delta\omega:= (-1)^{n(k+1)+1}\star d \star \omega,  $$where $\star$ si the Hodge star operator. We extend this definition to $0$-forms by defining $\delta\omega = 0$ for $\omega\in \Omega^0(M)$.
 
-**Def:** Just as we have exact forms, we call differential forms such that $d^*\omega = 0$ *co-closed.* Similarly, if $\omega$ is and $k$-form, and there is an $k+1$-form $\eta$, such that $d^*\eta = \omega$, then $\omega$ is called *co-exact.*
+**Def:** Just as we have exact forms, we call differential forms such that $\delta\omega = 0$ *co-closed.* Similarly, if $\omega$ is and $k$-form, and there is an $k+1$-form $\eta$, such that $\delta\eta = \omega$, then $\omega$ is called *co-exact.*
 
 **Properties of the codifferential:** 
-- $d^* \circ d^* = 0$. 
+- $\delta \circ \delta = 0$. 

@@ -9,7 +9,7 @@ Links: [[Laplacian Operator on Riemannian Manifolds]], [[Differential Forms on S
 
 **Prop:** The following statements are equivalent for any $\omega\in \Omega^p(M)$.
 - $\omega$ is harmonic.
-- $d\omega = 0$ and $d^*\omega= 0$, which we can call that $\omega$ is closed and co-closed
+- $d\omega = 0$ and $\delta\omega= 0$, which we can call that $\omega$ is closed and co-closed
 - $d\omega = 0$ and $\omega$ is the unique smooth $p$-form in its [[The de Rham Cohomology Groups|de Rham cohomology]] class with minimum norm $\|\omega\| = \langle\!\langle \omega,\omega \rangle\!\rangle^{1/2}$. 
 
 **Prop:** Let $(M, g)$ be an oriented Riemannian manifold, and let $\Delta = dd^*+ d^*d$ be Laplace-Beltrami operator on $p$-forms. When $p = 0$, we see that $\Delta$ agree with the geometric Laplacian $\Delta u = -\text{div}(\text{grad }u)$.

@@ -37,5 +37,8 @@
 			- Maybe considering like a Lie algebra action on the manifold. Fortunately most of it revolves around the Laplacian, and we know how to deal with that
 	- [ ] What is the continuous limit of the Anti-Laplacian?
 		- It is complicted, [[The Continuous Analogue of the Anti-Laplacian]]
+			- [x] Step 1
+			- [ ] Step 2
+			- [ ] Step 3
 
 - [ ] What is the topology of the reals when we add infinitesimals?
