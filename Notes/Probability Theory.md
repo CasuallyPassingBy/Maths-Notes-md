@@ -30,7 +30,7 @@ The main references for this book are 'Introducción a la Probabilidad' and 'Cur
 	- [[Conditional Distribution Functions]]
 		- [[Conditional Expected Values of Random Variables]]
 - [[Convergence of Random Variables]]
-	- [[Space of Probability Measures on Locally Compact Spaces]]
+	- [[Space of Radon Measures]]
 	- [[Limit Theorems of Probability]]
 - [[Important Probability Inequalities]]
 

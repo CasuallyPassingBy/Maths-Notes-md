@@ -87,4 +87,7 @@ Let $(M ,g)$ be an oriented Riemannian manifold.
 **Def:** Just as we have exact forms, we call differential forms such that $\delta\omega = 0$ *co-closed.* Similarly, if $\omega$ is and $k$-form, and there is an $k+1$-form $\eta$, such that $\delta\eta = \omega$, then $\omega$ is called *co-exact.*
 
 **Properties of the codifferential:** 
-- $\delta \circ \delta = 0$. 
+- $\delta \circ \delta = 0$. ^ce2d3d
+
+
+^d378eb

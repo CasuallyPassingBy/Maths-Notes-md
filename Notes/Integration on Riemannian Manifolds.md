@@ -22,9 +22,10 @@ Because of these definitions, the Riemannian volume form is often denoted by $dV
 
 **Prop:** We can write the the divergence using the Hodge star operator to be $$\begin{align*}
 X \; \lrcorner \; dV_g &= \star X^\flat, \\
-\text{div }X &=\star d \star X^\flat. 
+\text{div }X &=\star d \star X^\flat = -\delta X^\flat, 
 \end{align*}
-$$
+$$where $\delta$ is the [[The Exterior Derivative on Smooth Manifolds#^d378eb|codifferential]]. 
+
 **Prop:** Let $(M,g )$ be a Riemannian manifold with or without boundary. The divergence operator satisfies the following product rule for $f\in \mathcal C^\infty(M)$, $X\in {\frak X}(M)$:$$\text{div}(fX) = f \text{ div }X+\langle \text{grad }f, X\rangle_g. $$
 **The Divergence Theorem:** Let $(M, g)$ be an oriented Riemannian manifold with boundary, for any compactly supported smooth vector field $X$ on $M$, $$\int_M (\text{div }X)\; dV_g = \int_{\partial M} \langle X, N\rangle_g \; dV_{\widetilde g},$$where $N$ is the outward-pointing unit normal vector field along $\partial M$ and $\widetilde g$ is the induced Riemannian metric on $\partial M$. 
 

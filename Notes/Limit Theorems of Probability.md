@@ -3,7 +3,7 @@ tags:
   - ProbabilityTheory
 ---
 Subjects: [[Probability Theory]]
-Links: [[Convergence of Random Variables]], [[Important Probability Inequalities]]
+Links: [[Convergence of Random Variables]], [[Important Probability Inequalities]], [[Space of Radon Measures]]
 
 # Weak Law of Large Numbers 
 
@@ -23,7 +23,7 @@ The intersection of the $\sigma$-algebras $\sigma(X_n, X_{n+1}, \dots)$ is calle
 **Lemma:** Let $(X_n)_{n<\omega}$ be a sequence of independent random variables that have mean $0$ and satisfy $\sum_{n<\omega} \Bbb E[X_n^2]<\infty$. Then $\sum_{n<\omega} X_n$ converges almost surely.
 
 # Strong Law of Large Numbers
-Let $X_1, X_2, \dots$ be independent and identically distributed random variables with mean $\mu$. Then $$\frac{1}{n}\sum_{i = 1}^n X_i \stackrel{a.s.}{\longrightarrow} \mu$$
+Let $X_1, X_2, \dots$ be independent and identically distributed random variables with finite mean $\mu$. Then $$\frac{1}{n}\sum_{i = 1}^n X_i \stackrel{a.s.}{\longrightarrow} \mu$$
 **Converse of the Strong Law of Large Numbers:** Let $(X_n)_{n<\omega}$ be a sequence of independent identically distributed random variables that do not have finite expected values. For each $n<\omega$ let $S_n = X_1+ \dots+X_n$. Then  $$\limsup_{n\to \infty}\left|\frac{S_n}n\right|=\infty \quad  \text{almost surely.} $$
 **Def:** Let $b$ be an integer such that $b\ge 2$. The digits that can occur in base $b$ expansion of a number are $0, \dots, b-1$. A number $x$ in $[0, 1]$ is *normal to base $b$* if each value in $\{0, \dots, b-1\}$ occurs the expected fraction, namely $1/b$, of the time in the base $b$ expansion of $x$, that is,  $$\lim_{n \to \infty} \frac{\text{number of times }k \text{ occurs the first }n \text{ digits of }x}{n} =\frac1b$$holds $k\in \{0, \dots, b-1\}$. The value $x$ is *normal* if it is normal to base $b$ for every $b$. 
 
@@ -38,18 +38,22 @@ Let $X_1, X_2, \dots$ be independent and identically distributed random variable
 
 **Th:** Let $X_1, X_2, \dots$ be independent random variables on $(\Omega, {\scr A}, \Bbb P)$, and for each $i$ let $\sigma^2_i$ be the variance of $X_i$. If there is a a constant $c$ such that $|X_i|\le c$ holds almost surely for each $i$ and if the series $\sum_{i = 1}^\infty X_i$ is almost surely convergent, then $\sum_{i = 1}^n \sigma^2_i <\infty$. 
 
-We define $Y_i(\omega_1, \omega_2) = X_i(\omega_1)- X_i(\omega_2)$, and apply the above lemma to $(Y_i)_{i= 1}^\infty$. 4
+We define $Y_i(\omega_1, \omega_2) = X_i(\omega_1)- X_i(\omega_2)$, and apply the above lemma to $(Y_i)_{i= 1}^\infty$. 
 
 **Cor:** Let $(X_n)_{n<\omega}$ be a sequence of independent random variables such that $P(X_n= 1) = P(X_n= -1) = 1/2$ holds for each $n<\omega$, and let $(a_n)_{n<\omega}$ a sequence of real numbers. The series $\sum_{n<\omega}a_n X_n$ converges almost surely iff $(a_n)_{n<\omega}\in \ell^2$. 
 
-
+**Def:** Let $c > 0$ and $X$ is an random variable on $(\Omega, {\scr A}, \Bbb P)$. We define a new random variable, the truncation $X^{(c)}$ of $X$ by $c$, as follows: $$X^{(c)}(\omega) := \begin{cases} X(\omega) & \text{ if }|X(\omega)|\le c, \\ 0 & \text{otherwise}.\end{cases} $$
+**The Three Series Theorem:** Let $X_0, X_1, \dots$ be independent random variables on $(\Omega, {\scr A}, \Bbb P)$, let $c> 0$. The series $\sum_{n<\omega} X_n$ converges almost surely iff the series
+- $\sum_{n<\omega} \Bbb P(|X_n|> c)$,
+- $\sum_{n<\omega} \Bbb E[X^{(c)}]$, and
+- $\sum_{n <\omega} \text{Var}(X^{(c)})$
+all converge. 
 
 # Central Limit Theorem
 
 Let $X_1, \dots$ be a sequence of independent and identically distributed random variables, such that $E[X_n] = \mu$ and $\text{Var}(X_n) = \sigma^2<\infty$. Then $$\frac{X_1+\dots + X_n- n \mu}{\sqrt n \sigma} \stackrel{d}{\longrightarrow} N(0, 1).$$If we consider the averages as $$\bar X_n := \frac{1}{n}\sum_{k = 1}^n X_k.$$
-Then we can rewrite it as $$\frac{\sqrt n (\bar X_n - \mu )}{\sigma} \stackrel{d}{\longrightarrow} N(0, 1).$$
+Then we can rewrite it as $$\frac{(\bar X_n - \mu )}{\sigma/\sqrt n } \stackrel{d}{\longrightarrow} N(0, 1).$$
 # Slutsky's Theorem
-
 Let $X_n, Y_n$ be sequences of random variables. If $X_n \stackrel{d}{\longrightarrow} X$, and $Y_n \stackrel{d}{\longrightarrow} c$ where $c$ is a constant, then
 - $X_n + Y_n \stackrel{d}{\longrightarrow} X + c$
 - $X_n Y_n \stackrel{d}{\longrightarrow} Xc$

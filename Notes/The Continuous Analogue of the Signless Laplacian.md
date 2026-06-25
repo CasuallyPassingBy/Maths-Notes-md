@@ -12,7 +12,6 @@ Links: [[Laplace-Beltrami Operator on Riemannian Manifolds]], [[The Heat Equatio
 *Inspired by the asymptotic analysis frameworks of [Belkin & Niyogi](file:///home/passingmei/Downloads/TT_JCSS_08.pdf) (2005/2006) and [Coifman & Lafon (2006)](file:////home/passingmei/Downloads/Diffusion_maps.pdf).*
 
 ---
-
 ## Core Concept & Intuition
 The graph operator $D+A$ (where $D$ is the diagonal degree matrix and $A$ is the adjacency matrix) acts as an **signless Laplacian**. 
 
@@ -22,25 +21,18 @@ While the standard Laplacian ($D-A$) measures the *difference* between a point a
 
 ## Step 1: Theoretical Heaven (Intrinsic Kernel + Uniform Sampling)
 *Goal: Isolate the pure algebraic structure of the operator by stripping away geometric distortions and statistical noise.*
-
-$$\Delta_M \iff H_M^t$$
-
 ### Assumptions
 * A compact Riemannian manifold $M$ without boundary.
 * Uniform data sampling across the manifold with normalized volume: $\mu(M) = 1$.
 * Weights are determined by the manifold's **intrinsic heat kernel** $H_M^t(x, y)$, using true geodesic distance $d_g(x,y)$.
 
 ### Mathematical Action
-Because the sampling is uniform and total heat is conserved on a closed compact manifold, the continuous degree function $d_t(x)$ evaluates to a constant everywhere: $$d_t(x) = \int_M H_M^t(x, y) \, d\mu(y) = 1.$$
-The normalization wrappers evaporate, and the discrete adjacency operator $A$ transforms directly into the action of the integral kernel.
+Because the sampling is uniform and total heat is conserved on a closed compact manifold, the continuous degree function $d_t(x)$ evaluates to a constant everywhere: $$d_M^t(x) = \int_M H_M^t(x, y) \, d\mu(y).$$The normalization wrappers evaporate, and the discrete adjacency operator $A$ transforms directly into the action of the integral kernel.
 
 ### The Asymptotic Limit
-Using the spectral theorem and Mercer's theorem, the continuous integral maps perfectly to the **Heat Semigroup** ($e^{-t\Delta_M}$): $$(D + A)f(x) \longrightarrow If(x) + \int_M H_M^t(x, y) f(y) \, d\mu(y) = (I + e^{-t\Delta_M})f(x)$$
-
-Where $\Delta_M$ is the positive semi-definite Laplace-Beltrami operator (geometer's sign convention, eigenvalues $\lambda_k \ge 0$).
-
-* **As $t \to 0$:** The operator collapses into a local pointwise scalar:  $$\lim_{t \to 0} (I + e^{-t\Delta_M}) = I + I = 2I$$
-* **Isolating the Geometry:** To extract the true manifold derivatives and bypass the trivial identity limit, the operator must be scaled as follows:  $$\lim_{t \to 0} \frac{2I - (I+D^{-1/2}AD^{-1/2})}{t} = \Delta_M$$
+Using the spectral theorem and Mercer's theorem, the continuous integral maps perfectly to the **Heat Semigroup** ($e^{-t\Delta_M}$): $$(D + A)f(x) \longrightarrow d_M^t(x)f(x) + \int_M H_M^t(x, y) f(y) \, d\mu(y) = \left(d_M^tI + e^{-t\Delta_M}\right)f(x),$$where $\Delta_M$ is the positive semi-definite Laplace-Beltrami operator (geometer's sign convention, eigenvalues $\lambda_k \ge 0$).
+* As $t \to 0$: The operator collapses into a local pointwise scalar:  $$\lim_{t \to 0} (d_M^tI + e^{-t\Delta_M}) = d_M^tI + I = (d_M^t +1)I$$
+* Isolating the Geometry: To extract the true manifold derivatives and bypass the trivial identity limit, the operator must be scaled as follows:  $$\lim_{t \to 0} \frac{2I - (I+D^{-1/2}AD^{-1/2})}{t} = \Delta_M$$
 ---
 
 ## Step 2: Geometric Reality Check (Ambient Kernel + Uniform Sampling)
