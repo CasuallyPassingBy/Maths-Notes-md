@@ -19,6 +19,8 @@ Links: [[Dual Vector Spaces]], [[Bounded Linear Operators]], [[Normed Vector Spa
 
 **Def:** Let $V$ be a normed vector space, and let $\varphi$ and $\varphi_0, \varphi_1, \dots$ belong to $V^*$. The sequence $(\varphi_n)_{n<\omega}$ is said to *converges in the weak$^*$-topology* to $\varphi$ if $\varphi(v) = \lim\limits_{n\to \infty} \varphi_n(v)$ holds for each $v\in V$. That is, convergence in the point-wise sense. In this case, we write $\varphi_n \stackrel{w^*}{\longrightarrow}\varphi$ as $n \to \infty.$This definition also applies to nets not just sequences. 
 
+
+
 **Example:** 
 - Let $(X, {\scr A}, \mu)$ be a measure space, let $p$ satisfy $1 < p <\infty$, and $q$ be its harmonic conjugate. Then the dual of $L^p(X, {\scr A},\mu)$ is isometrically isomorphic to $L^q(X, {\scr A}, \mu)$.
 	- Let $1 < p<\infty$ and $q$ its harmonic conjugate, then the dual of $\ell^p$ is isometrically isomorphic to $\ell^q$. 
