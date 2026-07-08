@@ -37,8 +37,13 @@
 			- Maybe considering like a Lie algebra action on the manifold. Fortunately most of it revolves around the Laplacian, and we know how to deal with that
 	- [ ] What is the continuous limit of the Anti-Laplacian?
 		- It is complicted, [[The Continuous Analogue of the Signless Laplacian]]
-			- [x] Step 1
-			- [ ] Step 2
-			- [ ] Step 3
+			- [x] Robustness to Non-Uniform Sampling ($\alpha$-Normalization)
+			- [ ] Spectral Mapping & Continuous Taxonomy
+			- [ ] The Local Differential Bridge (Small-$t$ Approximation)
+			- [ ] Numerical Verification & Proof of Concept
+				- [ ] Synthetic Manifold Configurations
+				- [ ] Point Cloud Generation and Sampling Regimes
+				- [ ] Operator Construction & Implementation Details
+				- [ ] Expected Numerical Outcomes & Spectral Properties
 
 - [ ] What is the topology of the reals when we add infinitesimals?

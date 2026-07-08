@@ -3,29 +3,25 @@ tags:
   - Research
 ---
 Subjects: [[Graph Neural Networks]], [[Riemannian Geometry]]
-Links: [[Laplace-Beltrami Operator on Riemannian Manifolds]], [[The Heat Equation]]
-
-**Def:** Let $D$ be the degree matrix of a graph and $A$ be the adjacency matrix. Then $D+A$ is called the signless Laplacian. Similarly, we call $I + D^{-1/2}AD^{-1/2}$ the normalised signless Laplacian. 
-
-Weighted Laplacian: [Grigoryan](https://www.math.uni-bielefeld.de/~grigor/wma.pdf)
-
-# The Continuous Analogue of the signless Laplacian ($D+A$)
+Links: [[Laplace-Beltrami Operator on Riemannian Manifolds]], [[The Heat Equation]], [[Annoying Questions]]
 
 **Author:** Mei  
 **Subject Classification:** Geometric Deep Learning, Manifold Learning, Spectral Geometry  
 **Key Operators:** Laplace-Beltrami Operator ($\Delta_M$), Normalized Anti-Laplacian ($\mathbb{L}$).
-*Inspired by the asymptotic analysis frameworks of [Belkin & Niyogi](file:///home/passingmei/Downloads/TT_JCSS_08.pdf) (2005/2006) and [Coifman & Lafon (2006)](file:////home/passingmei/Downloads/Diffusion_maps.pdf).*
+*Inspired by the asymptotic analysis frameworks of [Belkin & Niyogi](file:///home/passingmei/Downloads/TT_JCSS_08.pdf) (2005/2006) and [Coifman & Lafon (2006)](file:////home/passingmei/Downloads/Diffusion_maps.pdf), Weighted Laplacian: [Grigoryan](https://www.math.uni-bielefeld.de/~grigor/wma.pdf)
+
+**Def:** Let $D$ be the degree matrix of a graph and $A$ be the adjacency matrix. Then $D+A$ is called the signless Laplacian. Similarly, we call $I + D^{-1/2}AD^{-1/2}$ the normalised signless Laplacian. 
 
 Let $M$ be a compact manifold. 
 
 We adopt the geometer's positive semi-definite convention for the Laplace-Beltrami operator, $\Delta_M = -\text{div}(\text{grad})$, so that its spectrum is non-negative.
 
-Given a sample of $n$ points $x_1, \dots, x_n$ from $M$ we construct the completed weighted graph associated to that point cloud by taking $x_1,\dots, x_n$ as vertices of the graph and taing the edge weights to be $w_{ij}^t := K_M^t(x_i, x_j)$, where $K_M^t$ is the heat hernel of $M$. The corresponding graph signless Laplacian $Q_n^t$ is given by  $$Q_n^t = \begin{dcases}w_{ij}^t & \text{ if }i \neq j, \\ \sum_{k = 1}^n w_{ik}^t & \text{ if }i = j. \end{dcases} $$
+Given a sample of $n$ points $x_1, \dots, x_n$ from $M$ we construct the completed weighted graph associated to that point cloud by taking $x_1,\dots, x_n$ as vertices of the graph and taking the edge weights to be $w_{ij}^t := K_M^t(x_i, x_j)$  where $K_M^t$ is the heat kernel of $M$. The corresponding graph signless Laplacian $Q_n^t$ is given by  $$Q_n^t = \begin{dcases}w_{ij}^t & \text{ if }i \neq j, \\ \sum_{k = 1}^n w_{ik}^t & \text{ if }i = j. \end{dcases} $$
 We think $Q_n^t$ as on operator on functions defined on the data points $$Q_n^t f(x_i) = f(x_i) \sum_{j = 1}^n K_M^t(x_i, x_j) + \sum_{j = 1}^n f(x_j) K_M^t (x_i, x_j). $$
 **Point cloud Signless Laplacian Operator:** We immediately see that this formulation to any function on the ambient space and will denote the corresponding operator by $\mathbf Q_n^t$:  $$\mathbf Q_n^t f(x) := f(x) \frac1n\sum_{j = 1}^n K_M^t(x, x_j) + \frac1n \sum_{j = 1}^n f(x_j) K_M^t(x, x_j). $$We see that $\mathbf Q_n^t f(x_i) =\frac1n Q_n^t f(x_i)$. We call the operator $\mathbf Q_n^t$ the *signless Laplacian associated to the point cloud $x_1, \dots, x_n$.* 
 
 Given a measure $\nu$ on $M$ we construct the corresponding operator  $$\mathbf Q^t f(x) : = f(x) \int_M K_M^t(x, y)\, d\nu(y) + \int_M K_M^t(x, y) f(y)\, d\nu(y). $$
-We see that $\mathbf Q_n^t$ is simply a special case of $\mathbf Q^t$ corresponding average measure of the Dirac measures of $x_1,\dots, x_n$. 
+We see that $\mathbf Q_n^t$ is simply a special case of $\mathbf Q^t$ corresponding average measure of the Dirac measures of $x_1,\dots, x_n$. We note that $\mathbf Q^t_n$ is the *empirical estimator of the integral operator* $\mathbf Q^t.$
 
 Let us suppose that $M$ is isometrically embedded into $\Bbb R^N$. We will first assume that the data is sampled from the uniform probability measure given by the induced metric on $M$, i.e., the induced metric scaled by a factor of $(\text{vol}(M))^{-1}$, let us denote the corresponding probability measure $\mu$. 
 
@@ -41,19 +37,21 @@ Since the data points $x_1, \dots, x_n$ are sampled i.i.d. from the uniform prob
 \frac1n \sum_{j = 1}^n f(x_j) K_M^t(x, x_j) &\stackrel{\Bbb P}{\longrightarrow} \int_M K_M^t(x, y) f(y)\, d\mu(y).
 \end{align*} $$Therefore, pointwise for any $x\in M$, we have:  $$\lim_{n\to \infty} \mathbf Q_n^tf(x) = \mathbf Q^tf(x) $$in probability.
 
-We are going to define an auxiliary function. Let $$d_M^t(x) := \int_M K_M^t(x, y)\, d\mu(y).$$We see that $d_M^t$ is a continuous analogue of degree. We would like to see how it behaves. For us to be able to simplify the preceding integrals, we need a particular expression of the heat kernel:  $$ K_M^t (x, y) = \sum_{n = 0}^\infty e^{-t\lambda_n} \phi_n(x) \phi_n(y),$$where $\phi_n$ is an eigenfucntion of $\Delta_M$ with eigenvalue $\lambda_n$. We note that this decomposition is possible because $M$ is compact. Additionally, we know that the set $\{\phi_n\}_{n = 0}^\infty$ forms an orthonormal basis for $L^2(M, \mu)$. With this in mind, we only need to calculate $H_M^t(\phi_n)$. 
+We are going to define an auxiliary function. Let $$d_M^t(x) := \int_M K_M^t(x, y)\, d\mu(y).$$We see that $d_M^t$ is a continuous analogue of degree. We would like to see how it behaves. For us to be able to simplify the preceding integrals, we need a particular expression of the heat kernel:  $$ K_M^t (x, y) = \sum_{n = 0}^\infty e^{-t\lambda_n} \phi_n(x) \phi_n(y),$$where $\phi_n$ is an eigenfunction of $\Delta_M$ with eigenvalue $\lambda_n$. We note that this decomposition is possible because $M$ is compact. Additionally, we know that the set $\{\phi_n\}_{n = 0}^\infty$ forms an orthonormal basis for $L^2(M, \mu)$. With this in mind, we only need to calculate $H_M^t(\phi_n)$. 
 
 Let $n \in \Bbb N$. Then $$\begin{align*}
 \mathbf H_M^t(\phi_n) &= \int_M K_M^t(x, y) \phi_n(y)\, d\mu(y) = \int_M \sum_{m = 0}^\infty e^{-t\lambda_m} \phi_m(x) \phi_m(y) \phi_n(y)\, d\mu(y)\\
 &= \sum_{m = 0}^\infty e^{-\lambda_m t} \phi_m(x) \int_M \phi_m(y)\phi_n(y)\, d\mu (y)\\ &=  \sum_{m = 0}^\infty e^{-\lambda_m t}\phi_m(x) \delta_{m ,n} = e^{-\lambda_n t} \phi_n(x).
 \end{align*}
-$$This means that if $f\in L^2(M, \nu)$, then we can write it as $f = \sum_{n = 0}^\infty c_n \phi_n$, then when we apply $\mathbf H_M^t$ to $f$ we get that $$\mathbf H_M^t (f) = \sum_{n = 0}^\infty c_ne^{-t\lambda_n } \phi_n = \sum_{n = 0}^\infty c_ne^{-t\Delta_M } \phi_n = e^{-t\Delta_M} \sum_{n = 0}^\infty c_n \phi_n = e^{-t\Delta_M} f.$$
+$$This means that if $f\in L^2(M, \mu)$, then we can write it as $f = \sum_{n = 0}^\infty c_n \phi_n$, then when we apply $\mathbf H_M^t$ to $f$ we get that $$\mathbf H_M^t (f) = \sum_{n = 0}^\infty c_ne^{-t\lambda_n } \phi_n = \sum_{n = 0}^\infty c_ne^{-t\Delta_M } \phi_n = e^{-t\Delta_M} \sum_{n = 0}^\infty c_n \phi_n = e^{-t\Delta_M} f.$$
 This lets us rewrite our $\mathbf Q^t$ operator as $$\mathbf Q^t = d_M^t I + e^{-t\Delta_M}.$$
 Let us note that $d_M^t$ is just $\mathbf H_M^t$ applied to the constant function $1$. We get that $$d_M^t(x) = e^{-t\Delta_M} \mathbf 1 = e^{-t\cdot 0} \cdot  \mathbf 1 = \mathbf 1.$$Lastly we get that $$\mathbf Q^t  = I+ e^{-t\Delta_M},$$when $M$ is a compact manifold. 
 
 We see that if were to apply this this technique to the Laplacian $L := D- A$, we would get that the continuous analogue is actually represented as $$\mathbf L^t  = I -e^{-t\Delta_M},$$which satisfies $\mathbf L^t \to 0$ as $t\to  0$. Lastly, by calculating the following limit we see $$\lim_{t\to 0} \frac{\mathbf L^t}{t}  = \Delta_M,$$just as it was proven by Belkin and Niyogi.
 
-On one hand, the reason we don't consider something similar for $\mathbf Q^t$ is because it has the same behaviour as its discrete analogue: adding the value of the function to the weighted average of neighbours. On the other hand, the relationship to the Laplace-Beltrami operator should not be understated, as it satisfies the following limit $$\lim_{t\to 0}\frac{2I-\mathbf Q^t}{t} = \Delta_M. $$
+On one hand, the reason we don't consider a direct analog of $\frac{\mathbf L^t}{t}$ for $\mathbf Q^t$ is because of its behavior as a localized averaging operator. On the other hand, its relationship to the Laplace-Beltrami operator is recovered by considering the continuous counterpart to a classic algebraic identity in spectral graph theory. Recall that for a graph, the normalized Laplacian $\mathcal{L} = I - D^{-1/2}AD^{-1/2}$ and the normalized signless Laplacian $\tilde{Q} = I + D^{-1/2}AD^{-1/2}$ satisfy the structural relation $\mathcal{L} = 2I - \tilde{Q}$. Translating this to the continuum limit justifies studying the operator $2I - \mathbf Q^t$, yielding the limit: $$\lim_{t\to 0}\frac{2I-\mathbf Q^t}{t} = \Delta_M.$$
+
+This formulation ensures that the eigenvalues of the infinitesimal generator cleanly mirror the non-negative spectrum of the Laplace-Beltrami operator $\Delta_M$ under the geometer's convention.
 
 In realistic data, points are sampled according to a non-uniform probability density function $p(x) > 0$ on $M$, altering the sampling measure to $d\nu(y) = p(y)\, d\mu(y)$. As before, fix a function $f:M \to \Bbb R$ and $x\in M$. Then if $x_1,\dots, x_n$ are points sampled from $M$ according to $P$, the point cloud signless Laplacian $\mathbf Q^t_n$ is defined as before.
 
@@ -64,10 +62,10 @@ While the analytical formula seems a bit far away from our reach, we can conside
 &= 2f(x) p(x) -t (f(x) \Delta_M p(x) + \Delta_M(fp)(x))+ O(t^2)
 \end{align*}
 $$We need another auxiliary identity regarding the Laplace-Beltrami operator $\Delta_M(fg) = g\Delta_M(f) - 2\langle \text{grad }f, \text{grad }g\rangle + f\Delta_M(g)$, where we understand that the inner product is given by the metric tensor of $M$. We now see the resulting expression is $$\mathbf Q^tf(x) = 2f(x) p(x) - t(2f(x) \Delta_Mp(x)+ p(x)\Delta_M f(x) - 2\langle \text{grad f}, \text{grad }p \rangle) + O(t^2).$$
-We can isolate the pure first-order differential generator of $\mathbf Q^t$ by considering the limit $$\lim_{t\to 0}\frac{2f(x)p(x) - \mathbf Q^tf(x)}{t} = 2f(x) \Delta_Mp(x)+ p(x)\Delta_M f(x) - 2\langle \text{grad f}, \text{grad }p \rangle. $$
+We can isolate the pure first-order differential generator of $\mathbf Q^t$ by considering the limit $$\lim_{t\to 0}\frac{2f(x)p(x) - \mathbf Q^tf(x)}{t} = 2f(x) \Delta_Mp(x)+ p(x)\Delta_M f(x) - 2\langle \text{grad }f, \text{grad }p \rangle. $$
 We note that the differential generator is composed of 3 parts: a potential term, a diffusion term, and a drift term. Since we have a drift term, that means that information about $f(x)$ is being pulled into high-density clusters. 
 
-To consolidate the directional derivatives of $f$, we introduce the weighted (Grigoryan, 2005) Laplace-Beltrami operator associated with the virtual density $\rho = p^2$, defined under our sign convention as $$\Delta_{p^2} f := \Delta_M f - \frac2p \langle \text{grad }f, \text{grad }p \rangle.$$Multiplying by $p(x)$ allows us to cleanly rewrite the infinitesimal generator as a Schrödinger-type operator $$\mathcal Qf(x) = p(x) \Delta_{p^2}f(x) + V(x)f(x), $$where $V(x) := 2 \Delta_Mp(x)$. This decomposition illustrates that non-uniform sampling introduces two severe distortions to the continuum limit. First, it introduces a data-driven drift via the weighted diffusion operator $\Delta_{p^2}$, driving information preferentially along gradients of the sampling density. Second, it imposes a localized mass-coupling effect via the potential $V(x).$ Because $\Delta_M p(x)$ tracks the local concavity of the data distribution, $V(x)$ manifests as a structural potential well at high-density cluster peaks. This mathematically guarantees that an unnormalized operator will artificially amplify or trap signals within dense regions of the point cloud while suppressing signals in sparse regions, wholly independent of the underlying manifold topology. 
+To consolidate the directional derivatives of $f$, we introduce the weighted (Grigoryan, 2005) Laplace-Beltrami operator associated with the virtual density $\rho = p^2$, defined under our sign convention as $$\Delta_{p^2} f := \Delta_M f - \frac2p \langle \text{grad }f, \text{grad }p \rangle.$$Multiplying by $p(x)$ allows us to cleanly rewrite the infinitesimal generator as a Schrödinger-type operator $$\mathcal Qf(x) = p(x) (\Delta_{p^2}f(x) + V(x)f(x)), $$where $V(x) := 2 \Delta_Mp(x)/p(x)$. This decomposition illustrates that non-uniform sampling introduces two severe distortions to the continuum limit. First, it introduces a data-driven drift via the weighted diffusion operator $\Delta_{p^2}$, driving information preferentially along gradients of the sampling density. Second, it imposes a localized mass-coupling effect via the potential $V(x).$ Because $\Delta_M p(x)$ tracks the local concavity of the data distribution, $V(x)$ manifests as a structural potential well at high-density cluster peaks. This mathematically guarantees that an unnormalized operator will artificially amplify or trap signals within dense regions of the point cloud while suppressing signals in sparse regions, wholly independent of the underlying manifold topology. 
 
 This severe structural bias provides the immediate catalyst for the $\alpha$-normalization framework detailed in the following section.
 
@@ -102,7 +100,7 @@ $$We expand this $p^{-\alpha} \Delta_M(fp^{1-\alpha})$, and see that $$p^{-\alph
 Plugging this back in gives a full expansion for $\mathbf H^{t, \alpha}_M f$:  $$\begin{align*}
 \mathbf H^{t, \alpha} f &=  fp^{1-2\alpha}+t[ -p^{1-2\alpha}\Delta_M f + 2(1-\alpha)p^{-2\alpha}\langle \text{grad }f, \text{grad }p\rangle \\&+ (3\alpha-1)f p^{-2\alpha}\Delta_M p - \alpha(1-\alpha)f p^{-2\alpha-1}|\text{grad }p|^2 ]+ O(t^2). 
 \end{align*}$$
-Since $d^{t, \alpha}_M = \mathbf H^{t, \alpha}_M \mathbf 1$, we simply substiture $f = 1$ into our expression: $$d_M^{t,\alpha}(x) = p^{1-2\alpha} + t \left[ (3\alpha-1)p^{-2\alpha}\Delta_M p - \alpha(1-\alpha)p^{-2\alpha-1}|\text{grad }p|^2 \right] + O(t^2).$$
+Since $d^{t, \alpha}_M = \mathbf H^{t, \alpha}_M \mathbf 1$, we simply substiture $f = 1$ into our expression: $$d_M^{t,\alpha} = p^{1-2\alpha} + t \left[ (3\alpha-1)p^{-2\alpha}\Delta_M p - \alpha(1-\alpha)p^{-2\alpha-1}|\text{grad }p|^2 \right] + O(t^2).$$
 Now we combine $\mathbf Q^{t, \alpha} f = \mathbf D^{t, \alpha} f + \mathbf H^{t, \alpha} f$: $$
 \begin{align*}
 \mathbf{Q}^{t,\alpha}f(x) =& 2f p^{1-2\alpha} - t [ p^{1-2\alpha}\Delta_M f - 2(1-\alpha)p^{-2\alpha}\langle \text{grad }f, \text{grad }p\rangle \\&- 2(3\alpha-1)f p^{-2\alpha}\Delta_M p + 2\alpha(1-\alpha)f p^{-2\alpha-1}|\text{grad }p|^2 ] + O(t^2)
@@ -110,26 +108,23 @@ Now we combine $\mathbf Q^{t, \alpha} f = \mathbf D^{t, \alpha} f + \mathbf H^{t
 $$
 We are interested in the infinitesimal generator of $\mathbf Q^{t, \alpha}$, $$\begin{align*}
 \lim_{t \to 0} \frac{2f(x)p(x)^{1-2\alpha} - \mathbf{Q}^{t,\alpha}f(x)}{t} =&\, p^{1-2\alpha}\Delta_M f - 2(1-\alpha)p^{-2\alpha}\langle \text{grad }f, \text{grad }p\rangle \\&- 2(3\alpha-1)f p^{-2\alpha}\Delta_M p + 2\alpha(1-\alpha)f p^{-2\alpha-1}|\text{grad }p|^2.
-\end{align*}$$The infinitesimal generator is clearer when we divide the whole expression by $p^{1-2\alpha}$, $$\mathcal{Q}^\alpha f(x) = \Delta_M f - 2(1-\alpha)\frac{1}{p}\langle \text{grad }f, \text{grad }p\rangle - 2(3\alpha-1)\frac{\Delta_M p}{p}f + 2\alpha(1-\alpha)\frac{|\text{grad }p|^2}{p^2}f$$Please note that when $\alpha = 0$, we get the that $\mathcal Q^0 = \mathcal Q$. Additionally, if $\alpha = 1$, we see that $$\mathcal Q^1f = \Delta_M f -4 \frac{\Delta_M p}{p}f.$$We got another Schrödinger-type operator. In contrast, to to what happens with the other operator because of the sign difference we see that the potential damps the signal in places of high density, and boosts the places with lower density. This meCans that our operator $\mathcal Q^1$ is a diffusion operator under a potential well. 
+\end{align*}$$The infinitesimal generator is clearer when we divide the whole expression by $p^{1-2\alpha}$, $$\mathcal{Q}^\alpha f(x) = \Delta_M f - 2(1-\alpha)\frac{1}{p}\langle \text{grad }f, \text{grad }p\rangle - 2(3\alpha-1)\frac{\Delta_M p}{p}f + 2\alpha(1-\alpha)\frac{|\text{grad }p|^2}{p^2}f$$Please note that when $\alpha = 0$, we get the that $\mathcal Q^0 = \mathcal Q$. Additionally, if $\alpha = 1$, we see that $$\mathcal Q^1f = \Delta_M f -4 \frac{\Delta_M p}{p}f.$$We got another Schrödinger-type operator. In contrast, to to what happens with the other operator because of the sign difference we see that the potential damps the signal in places of high density, and boosts the places with lower density. This means that our operator $\mathcal Q^1$ is a diffusion operator under a potential well. 
 
 If we were to check $\alpha$-normalised continuous signless Laplacian $\mathbf Q^{t, \alpha} = \mathbf D^{t, \alpha} + \mathbf H^{t, \alpha}$ again, we see that it has the same structure as the original signless Laplacian. Now we can see what happens when we consider the analogous of the normalised signless Laplacian $\mathbf Q^{t, \alpha}_\text{sym} := (\mathbf D^{t, \alpha})^{-1/2} \mathbf Q^{t, \alpha}(\mathbf D^{t, \alpha})^{-1/2} = I + (\mathbf D^{t, \alpha})^{-1/2} \mathbf H^{t,\alpha} (\mathbf D^{t, \alpha})^{-1/2}$, explicitly we see that $$\mathbf Q^{t, \alpha}_\text{sym} f(x) := f(x) + \int \frac{K^{t, \alpha}_M(x, y)}{\sqrt{d^{t, \alpha}_M(x)}\sqrt{d^{t, \alpha}_M(y)}} f(y)\, d\nu(y). $$ 
-If we look at our integration kernel of $$T^{t, \alpha}(x, y) := \frac{K^{t, \alpha}_M(x, y)}{\sqrt{d^{t, \alpha}_M(x)}\sqrt{d^{t, \alpha}_M(y)}}, $$we see that $T^{t, \alpha}(x, y)\in \Bbb R$ and $T^{t, \alpha}(x, y) = T^{t, \alpha}(y, x)$ for every $x, y\in M$. Since $T^{t, \alpha}$ is continuous, we see get that $$\int (T^{t,\alpha})^2\,d(\nu \times \nu) <\infty, $$which implies that $(\mathbf D^{t, \alpha})^{-1/2} \mathbf H^{t,\alpha} (\mathbf D^{t, \alpha})^{-1/2}$ is a Hilbert-Schmidt operator, by (Pedersen, p.94) see that it is a compact operator. 
+We are naturally interested in the infinitesimal generator of $\mathbf Q^{t, \alpha}_\text{sym}$. First, we will make a substitution $A:= (3\alpha-1)p^{-2\alpha}\Delta_M p - \alpha(1-\alpha)p^{-2\alpha-1}|\text{grad }p|^2$, and we study the expansion of $(d^{t, \alpha}_M)^{-1/2}$, $$\begin{align*}
+(d^{t, \alpha}_M)^{-1/2} &=\left(p^{1-2\alpha}\left(1+ t\frac{A}{p^{1-2\alpha}}\right)+O(t^2)\right)^{-1/2} = p^{\alpha-1/2}\left(1+ t\frac{A}{p^{1-2\alpha}}+O(t^2)\right)^{-1/2} \\&= p^{\alpha-1/2} -\frac12 tA p^{3\alpha-3/2}+O(t^2).
+\end{align*}
+$$
+When we expand $\mathbf H^{t, \alpha}(f (d^{t, \alpha}_M)^{-1/2})$, $$\mathbf H_M^{t,\alpha}\left(f (d^{t,\alpha}_M)^{-1/2}\right) = f p^{1/2-\alpha} + t \left[ -\frac{1}{2} A f p^{\alpha-1/2} + 2\alpha f p^{-\alpha-1/2}\Delta_M p - p^{-\alpha}\Delta_M (f p^{1/2}) \right] + O(t^2),$$and thus,  $$(\mathbf D^{t, \alpha})^{-1/2} \mathbf H^{t,\alpha} (\mathbf D^{t, \alpha})^{-1/2}f = f + t \left[ -A f p^{2\alpha-1} + 2\alpha \frac{\Delta_M p}{p}f - p^{-1/2}\Delta_M(f p^{1/2}) \right] + O(t^2).$$We can still clean up the expression $-Afp^{2\alpha-1}$ and $p^{-1/2}\Delta_M (fp^{-1/2})$. First, let us note that $$-Afp^{2\alpha-1} = (1-3\alpha) \frac{\Delta_Mp}p f + \alpha(1-\alpha)\frac{|\text{grad } p|^2}{p^2}f.$$Secondly, we get when we expand $$p^{-1/2}\Delta_M(fp^{1/2}) = \Delta_M f + \frac12 \frac{\Delta_M p}{p} f + \frac14\frac{|\text{grad } p|^2}{p^2}f - \frac1p \langle\text{grad }f, \text{grad }p\rangle. $$
+Substituting back into the expansion of $(\mathbf D^{t, \alpha})^{-1/2} \mathbf H^{t,\alpha} (\mathbf D^{t, \alpha})^{-1/2}f$,$$\mathbf Q^{t, \alpha}_\text{sym}f  = 2f - t\left[\Delta_M f-\frac 1p \langle\text{grad }f, \text{grad }p\rangle +\left(\alpha -\frac12\right)\frac{\Delta_Mp}{p}f + \left(\alpha-\frac12\right)^2\frac{|\text{grad } p|^2}{p^2}\right]+O(t^2).$$When we calculate the infinitesimal generator of $\mathbf Q^{t, \alpha}_\text{sym}$ we need to remember the relationship $\mathcal L = 2I - \widetilde Q$, and thus $$\mathcal Q^{\alpha}_\text{sym} f = \Delta_M f-\frac 1p \langle\text{grad }f, \text{grad }p\rangle +\left(\alpha -\frac12\right)\frac{\Delta_Mp}{p}f + \left(\alpha-\frac12\right)^2\frac{|\text{grad } p|^2}{p^2}. $$Note that contrary to $\mathcal Q^\alpha$, most of the cancellation occurs when $\alpha = 1/2$, $$\mathcal Q^{1/2}_\text{sym} f = \Delta_M f-\frac 1p \langle\text{grad }f, \text{grad }p\rangle.$$Once again we can use the weighted Laplacian to make our result easier to encapsulate $$\mathcal Q^{1/2}_\text{sym} f = \Delta_p f :=  \Delta_M f-\frac 1p \langle\text{grad }f, \text{grad }p\rangle.$$Note that contrary to other cases we don't have a a potential term, but we have a drift term that is present. The remaining operator is a pure drift-diffusion operator. It would seem that no matter our normalisation scheme the way the points are sampled is present in the infinitesimal generator. 
+
+
+One aspect where $\mathbf Q^{t, \alpha}_\text{sym}$ is superior to $\mathbf Q^{t,\alpha}$ is because when it comes to spectral analysis, it is much easier to work with $\mathbf Q^{t, \alpha}_\text{sym}$. If we look at our integration kernel of $$T^{t, \alpha}(x, y) := \frac{K^{t, \alpha}_M(x, y)}{\sqrt{d^{t, \alpha}_M(x)}\sqrt{d^{t, \alpha}_M(y)}}, $$we see that $T^{t, \alpha}(x, y)\in \Bbb R$ and $T^{t, \alpha}(x, y) = T^{t, \alpha}(y, x)$ for every $x, y\in M$. Since $T^{t, \alpha}$ is continuous, we see get that $$\int |T^{t,\alpha}|^2\,d(\nu \times \nu) <\infty, $$which implies that $(\mathbf D^{t, \alpha})^{-1/2} \mathbf H^{t,\alpha} (\mathbf D^{t, \alpha})^{-1/2}$ is a Hilbert-Schmidt operator, by (Pedersen, p.94) see that it is a compact operator. 
 
 
 
----
-## 2. Robustness to Non-Uniform Sampling ($\alpha$-Normalization)
 
-In realistic data regimes, points are sampled according to a non-uniform probability density function $p(x) > 0$ on $M$, altering the sampling measure to $d\nu(y) = p(y)dV(y)$, where $dV$ is the natural volume element. Without correction, the unnormalized continuous degree function absorbs the local data density:
-$$d_M^t(x) = \int_M K_M^t(x, y) p(y) \, dV(y) = e^{-t\Delta_M}p(x) \approx p(x) - t\Delta_M p(x) + O(t^2)$$
-
-This introduces a density bias, mixing the underlying geometric curvature with the clumping of data points. To recover pure geometry, we implement the continuous analogue of the Coifman-Laffon $\alpha$-normalization. We construct an empirical density proxy from the unnormalized degree and modify the kernel: $$\tilde{K}_M^t(x, y) = \frac{K_M^t(x, y)}{d_M^t(x)^\alpha d_M^t(y)^\alpha}$$
-By setting **$\alpha = 1$**, the normalization scales the kernel by the inverse of the densities. Let $\tilde{d}_M^t(x) = \int_M \tilde{K}_M^t(x, y) p(y) dV(y)$ be the renormalized degree. As $t \to 0$:
-$$\tilde{K}_M^t(x, y) \approx \frac{K_M^t(x, y)}{p(x)p(y)}$$
-Substituting this into the density-weighted integral cancels out $p(y)$ inside the operator:
-$$\mathbf{Q}^t_{norm} f(x) = f(x)\tilde{d}_M^t(x) + \int_M \tilde{K}_M^t(x, y) f(y) p(y) \, dV(y) \longrightarrow I + e^{-t\Delta_M}$$
-
-This proves that the low-pass, non-contractive spectral properties of the continuous operator are mathematically invariant to non-uniform data density when properly normalized.
+# Pending
 
 ---
 ## 3. Spectral Mapping & Continuous Taxonomy
